@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-05T17:20:39Z",
- "generated_at_hkt": "2026-10-06 01:20 HKT",
- "price_updated_hkt": "2026-10-06 01:20 HKT",
+ "generated_at": "2026-10-05T17:30:35Z",
+ "generated_at_hkt": "2026-10-06 01:30 HKT",
+ "price_updated_hkt": "2026-10-06 01:30 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-05 17:25 HKT (desktop RAM merge)",
  "hk_source": "/workspace/hk_price_cache/run_20261005/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 110,
+   "count": 118,
    "enabled": true
   },
   "cpu": {
@@ -35,17 +35,17 @@
   }
  },
  "stats": {
-  "items": 337,
+  "items": 345,
   "both_sides": 15,
   "water_only": 15,
-  "official_only": 307,
+  "official_only": 315,
   "matched_water": 15,
-  "official_groups": 337,
+  "official_groups": 345,
   "images": {
-   "amazon_downloaded": 15,
-   "amazon_cached": 15,
-   "official_downloaded": 306,
-   "official_cached": 0,
+   "amazon_downloaded": 0,
+   "amazon_cached": 30,
+   "official_downloaded": 0,
+   "official_cached": 314,
    "failed": 0
   },
   "image_samples": [
@@ -119,10 +119,10 @@
  },
  "items": [
   {
-   "id": "gpu|inno3d:5070:x2",
+   "id": "gpu|inno3d:5070:2x",
    "category": "gpu",
    "brand": "Inno3D",
-   "model_key": "inno3d:5070:x2",
+   "model_key": "inno3d:5070:2x",
    "title": "Inno3D 映眾 GeForce RTX 5070 X2 12GB GDDR7 顯示卡",
    "spec": "RTX 5070",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bb5442af62480233.webp",
@@ -287,10 +287,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070:oc+ventus",
+   "id": "gpu|msi:5070:2x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5070:oc+ventus",
+   "model_key": "msi:5070:2x+oc+ventus",
    "title": "MSI 微星 GeForce RTX 5070 Ventus 2X OC 12GB GDDR7 顯示卡",
    "spec": "RTX 5070",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0267beecf48f040a.png",
@@ -305,22 +305,10 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 7099,
-      "url": "https://shop.pegasus.hk/products/223627/MSI-微星-GeForce-RTX-5070-12G-VENTUS-3X-OC-顯示卡---3年保養"
-     },
-     {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
       "price_hkd": 7299,
       "url": "https://centralfield.com/product/11763/msi-rtx-5070-ventus-2x-oc-sff-ready"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 7699,
-      "url": "https://centralfield.com/product/11765/msi-rtx-5070-ventus-3x-oc-12gb"
      }
     ]
    },
@@ -374,6 +362,37 @@
    },
    "delta_hkd": null,
    "best_price": 7000,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070:3x+oc+ventus",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5070:3x+oc+ventus",
+   "title": "MSI 微星 GeForce RTX 5070 12G VENTUS 3X OC 顯示卡",
+   "spec": "RTX 5070",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0f0b141d2523411a.png",
+   "image": "img/hk-0f0b141d2523411a.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/aedf6f59-54ae-4f1c-8294-686ebf1bba00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 7099,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223627/MSI-微星-GeForce-RTX-5070-12G-VENTUS-3X-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7699,
+      "url": "https://centralfield.com/product/11765/msi-rtx-5070-ventus-3x-oc-12gb"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 7099,
    "has_water": false,
    "has_official": true
   },
@@ -491,10 +510,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070:oc+shadow",
+   "id": "gpu|msi:5070:2x+oc+shadow",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5070:oc+shadow",
+   "model_key": "msi:5070:2x+oc+shadow",
    "title": "微星 MSI RTX 5070 Shadow 2X OC 12GB 顯示卡 雙風扇超頻",
    "spec": "RTX 5070",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f07f26f00eab4eac.webp",
@@ -686,10 +705,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070:inspire+oc",
+   "id": "gpu|msi:5070:3x+inspire+oc",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5070:inspire+oc",
+   "model_key": "msi:5070:3x+inspire+oc",
    "title": "MSI 微星 GeForce RTX 5070 Inspire 3X OC 12GB GDDR7 顯示卡",
    "spec": "RTX 5070",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ca8939bd39b0856c.webp",
@@ -784,10 +803,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|colorful:5070:",
+   "id": "gpu|colorful:5070:ultra",
    "category": "gpu",
    "brand": "Colorful",
-   "model_key": "colorful:5070:",
+   "model_key": "colorful:5070:ultra",
    "title": "Colorful 七彩虹 iGame RTX 5070 Ultra 12GB 顯示卡 超頻版",
    "spec": "RTX 5070",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1d371fee41b19880.webp",
@@ -845,11 +864,11 @@
    "has_official": true
   },
   {
-   "id": "gpu|gainward:5070ti:phoenix",
+   "id": "gpu|gainward:5070ti:gs+phoenix",
    "category": "gpu",
    "brand": "Gainward",
-   "model_key": "gainward:5070ti:phoenix",
-   "title": "GAINWARD GeForce RTX 5070 Ti PHOENIX-S 12GB GDDR7 (DI-G507TY1)",
+   "model_key": "gainward:5070ti:gs+phoenix",
+   "title": "Gainward GeForce RTX™ 5070 Ti Phoenix-S GS 16GB 顯示卡",
    "spec": "RTX 5070 Ti",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-729adcbd66b9f6f3.png",
    "image": "img/hk-729adcbd66b9f6f3.png",
@@ -861,14 +880,7 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/232978/Gainward-GeForce-RTX-5070-Ti-Phoenix-S-GS-16GB-顯示卡---2年保養",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 9800,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/gainward-geforce-srtx-5070-ti-phoenix-s-12gb-gddr7-di-g507ty1"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 9499,
@@ -903,6 +915,30 @@
    },
    "delta_hkd": null,
    "best_price": 9799,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gainward:5070ti:phoenix",
+   "category": "gpu",
+   "brand": "Gainward",
+   "model_key": "gainward:5070ti:phoenix",
+   "title": "GAINWARD GeForce RTX 5070 Ti PHOENIX-S 12GB GDDR7 (DI-G507TY1)",
+   "spec": "RTX 5070 Ti",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-33555a568838f507.png",
+   "image": "img/hk-33555a568838f507.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/p01247_pic_52368186491eb1dd.png?v=1784543869",
+   "water": null,
+   "official": {
+    "price_hkd": 9800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/gainward-geforce-srtx-5070-ti-phoenix-s-12gb-gddr7-di-g507ty1",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 9800,
    "has_water": false,
    "has_official": true
   },
@@ -942,7 +978,7 @@
    "category": "gpu",
    "brand": "Gainward",
    "model_key": "gainward:5070:phoenix",
-   "title": "Gainward GeForce RTX 5070 Phoenix-s GS 16GB GDDR7 三風扇顯示卡",
+   "title": "Gainward GeForce RTX 5070 Phoenix-s 16GB GDDR7 三風扇顯示卡",
    "spec": "RTX 5070",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-987cce8da68fec12.webp",
    "image": "img/hk-987cce8da68fec12.webp",
@@ -954,17 +990,34 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/22343/gainward-rtx-5070-phoenix-s-16gb-gddr7",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 9999,
-      "url": "https://centralfield.com/product/22344/gainward-geforce-rtx-5070-phoenix-s-gs-16gb-gddr7"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 9899,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gainward:5070:gs+phoenix",
+   "category": "gpu",
+   "brand": "Gainward",
+   "model_key": "gainward:5070:gs+phoenix",
+   "title": "Gainward GeForce RTX 5070 Phoenix-s GS 16GB GDDR7 三風扇顯示卡",
+   "spec": "RTX 5070",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-109f2fdbc8aac43b.webp",
+   "image": "img/hk-109f2fdbc8aac43b.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22344.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 9999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22344/gainward-geforce-rtx-5070-phoenix-s-gs-16gb-gddr7",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 9999,
    "has_water": false,
    "has_official": true
   },
@@ -1041,10 +1094,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070ti:oc+shadow",
+   "id": "gpu|msi:5070ti:3x+oc+shadow",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5070ti:oc+shadow",
+   "model_key": "msi:5070ti:3x+oc+shadow",
    "title": "MSI GeForce RTX 5070 Ti SHADOW 3X OC 16GB GDDR7 (DI-N507TF1)",
    "spec": "RTX 5070 Ti",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a9426181b641472a.png",
@@ -1126,10 +1179,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070ti:oc+ventus",
+   "id": "gpu|msi:5070ti:3x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5070ti:oc+ventus",
+   "model_key": "msi:5070ti:3x+oc+ventus",
    "title": "MSI 微星 GeForce RTX 5070 Ti 16G VENTUS 3X OC 顯示卡",
    "spec": "RTX 5070 Ti",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f7eaa30e0ab9a1aa.png",
@@ -1166,14 +1219,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/11392/galax-rtx-5070-ti-ex-gamer-16gb-gddr7",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 10899,
-      "url": "https://centralfield.com/product/11532/galax-rtx-5070-ti-ex-gamer-white"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 10400,
@@ -1181,10 +1227,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070ti:inspire+oc",
+   "id": "gpu|msi:5070ti:3x+inspire+oc",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5070ti:inspire+oc",
+   "model_key": "msi:5070ti:3x+inspire+oc",
    "title": "MSI 微星 GeForce RTX 5070Ti Inspire 3X OC 16GB GDDR7 超頻顯示卡",
    "spec": "RTX 5070 Ti",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-02999f9a90dc2923.png",
@@ -1232,6 +1278,30 @@
    },
    "delta_hkd": null,
    "best_price": 10700,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|galax:5070ti:ex+gamer+white",
+   "category": "gpu",
+   "brand": "GALAX",
+   "model_key": "galax:5070ti:ex+gamer+white",
+   "title": "GALAX GeForce RTX 5070 Ti EX Gamer 白色顯示卡 16GB GDDR7 超頻版",
+   "spec": "RTX 5070 Ti",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-222b5a410e0c8e3c.webp",
+   "image": "img/hk-222b5a410e0c8e3c.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11532.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 10899,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11532/galax-rtx-5070-ti-ex-gamer-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 10899,
    "has_water": false,
    "has_official": true
   },
@@ -1440,10 +1510,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:oc+shadow|water",
+   "id": "gpu|msi:5080:3x+oc+shadow|water",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5080:oc+shadow",
+   "model_key": "msi:5080:3x+oc+shadow",
    "title": "msi GeForce RTX 5080 16G SHADOW 3X OC Graphics Card",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BT9R5XNN.jpg",
@@ -1467,10 +1537,10 @@
    "has_official": false
   },
   {
-   "id": "gpu|msi:5080:black+inspire+oc|water",
+   "id": "gpu|msi:5080:3x+black+inspire+oc|water",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5080:black+inspire+oc",
+   "model_key": "msi:5080:3x+black+inspire+oc",
    "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
@@ -1528,10 +1598,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|zotac:5070ti:gaming+oc",
+   "id": "gpu|zotac:5070ti:gaming+oc+white",
    "category": "gpu",
    "brand": "Zotac",
-   "model_key": "zotac:5070ti:gaming+oc",
+   "model_key": "zotac:5070ti:gaming+oc+white",
    "title": "ZOTAC GAMING GeForce RTX 5070 Ti 天啓 OC 16GB 白色顯示卡",
    "spec": "RTX 5070 Ti",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-271bb9061e77eab6.png",
@@ -1544,14 +1614,7 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/227571/ZOTAC-GAMING-GeForce-RTX-5070-Ti-天啓-OC-16GB-白色顯示卡---3年保養",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 11799,
-      "url": "https://centralfield.com/product/16546/zotac-gaming-rtx-5070ti-apocalypse-oc-16gb"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 11699,
@@ -1559,10 +1622,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|colorful:5070ti:oc+sff",
+   "id": "gpu|colorful:5070ti:oc+sff+ultra",
    "category": "gpu",
    "brand": "Colorful",
-   "model_key": "colorful:5070ti:oc+sff",
+   "model_key": "colorful:5070ti:oc+sff+ultra",
    "title": "七彩虹 Colorful RTX 5070Ti Ultra OC SFF 16GB GDDR7 顯示卡",
    "spec": "RTX 5070 Ti",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d6c386d1ecb2f709.webp",
@@ -1574,6 +1637,30 @@
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
     "url": "https://centralfield.com/product/20864/colorful-geforce-rtx-5070ti-ultra-oc-sff-16gb-gddr7",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 11799,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|zotac:5070ti:gaming+oc",
+   "category": "gpu",
+   "brand": "Zotac",
+   "model_key": "zotac:5070ti:gaming+oc",
+   "title": "索泰 ZOTAC GAMING RTX 5070Ti APOCALYPSE OC 16GB 顯示卡",
+   "spec": "RTX 5070 Ti",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4417ab4f45362f45.webp",
+   "image": "img/hk-4417ab4f45362f45.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/16546.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 11799,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/16546/zotac-gaming-rtx-5070ti-apocalypse-oc-16gb",
     "stock": "現貨",
     "others": []
    },
@@ -1753,10 +1840,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:black+oc+ventus|water",
+   "id": "gpu|msi:5080:3x+black+oc+ventus|water",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5080:black+oc+ventus",
+   "model_key": "msi:5080:3x+black+oc+ventus",
    "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
@@ -1883,10 +1970,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:oc+ventus",
+   "id": "gpu|msi:5080:3x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5080:oc+ventus",
+   "model_key": "msi:5080:3x+oc+ventus",
    "title": "MSI NVIDIA GeForce RTX 5080 16G Ventus 3X OC Graphics Card",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT6NZ9V9.jpg",
@@ -1901,7 +1988,7 @@
     "url": "https://www.amazon.co.uk/dp/B0DT6NZ9V9",
     "stock": "In stock",
     "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:oc+ventus"
+    "match_by": "model key msi:5080:3x+oc+ventus"
    },
    "official": {
     "price_hkd": 13799,
@@ -2073,10 +2160,10 @@
    "has_official": false
   },
   {
-   "id": "gpu|inno3d:5080:x3",
+   "id": "gpu|inno3d:5080:3x",
    "category": "gpu",
    "brand": "Inno3D",
-   "model_key": "inno3d:5080:x3",
+   "model_key": "inno3d:5080:3x",
    "title": "Inno3D GeForce RTX 5080 X3 16G 顯示卡",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b4efe47587d0fb92.png",
@@ -2151,12 +2238,6 @@
     "url": "https://shop.pegasus.hk/products/223070/MSI-微星-GeForce-RTX-5080-16G-GAMING-TRIO-OC-顯示卡",
     "stock": "現貨",
     "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 14699,
-      "url": "https://centralfield.com/product/11167/msi-rtx-5080-gaming-trio-oc-16gb-white"
-     },
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
@@ -2331,10 +2412,10 @@
    "has_official": false
   },
   {
-   "id": "gpu|msi:5080:oc+ventus+white",
+   "id": "gpu|msi:5080:3x+oc+ventus+white",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5080:oc+ventus+white",
+   "model_key": "msi:5080:3x+oc+ventus+white",
    "title": "MSI 微星 GeForce RTX 5080 16G VENTUS 3X OC WHITE 顯示卡",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSWQNGYF.jpg",
@@ -2349,7 +2430,7 @@
     "url": "https://www.amazon.com/dp/B0DSWQNGYF",
     "stock": "In Stock",
     "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:oc+ventus+white"
+    "match_by": "model key msi:5080:3x+oc+ventus+white"
    },
    "official": {
     "price_hkd": 13999,
@@ -2365,10 +2446,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:inspire+oc",
+   "id": "gpu|msi:5080:3x+inspire+oc",
    "category": "gpu",
    "brand": "MSI",
-   "model_key": "msi:5080:inspire+oc",
+   "model_key": "msi:5080:3x+inspire+oc",
    "title": "MSI 微星 GeForce RTX 5080 16G INSPIRE 3X OC 顯示卡",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8c0a7ec4900853cf.png",
@@ -2559,10 +2640,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|colorful:5080:oc",
+   "id": "gpu|colorful:5080:oc+ultra+white",
    "category": "gpu",
    "brand": "Colorful",
-   "model_key": "colorful:5080:oc",
+   "model_key": "colorful:5080:oc+ultra+white",
    "title": "Colorful iGame GeForce RTX 5080 Ultra W OC 16GB 顯示卡",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-115586fd6eeffab7.png",
@@ -2579,20 +2660,8 @@
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
-      "price_hkd": 14499,
-      "url": "https://centralfield.com/product/20712/colorful-igame-rtx-5080-ultra-oc-16gb"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
       "price_hkd": 14599,
       "url": "https://centralfield.com/product/12663/colorful-igame-rtx-5080-ultra-w-oc-16gb-white-gpu"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 15200,
-      "url": "https://centralfield.com/product/12662/colorful-igame-rtx-5080-neptune-oc-16gb"
      }
     ]
    },
@@ -2629,6 +2698,12 @@
     "url": "https://shop.pegasus.hk/products/223203/MSI-微星-GeForce-RTX-5080-16G-GAMING-TRIO-OC-WHITE-顯示卡",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 14699,
+      "url": "https://centralfield.com/product/11167/msi-rtx-5080-gaming-trio-oc-16gb-white"
+     },
      {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
@@ -2668,6 +2743,30 @@
    "best_price": 14443,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|colorful:5080:oc+ultra",
+   "category": "gpu",
+   "brand": "Colorful",
+   "model_key": "colorful:5080:oc+ultra",
+   "title": "Colorful iGame RTX 5080 Ultra OC 16GB GDDR7 顯示卡",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c97e9c0782ef8c65.webp",
+   "image": "img/hk-c97e9c0782ef8c65.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/20712.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 14499,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20712/colorful-igame-rtx-5080-ultra-oc-16gb",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 14499,
+   "has_water": false,
+   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5080:oc+windforce",
@@ -2775,6 +2874,30 @@
    },
    "delta_hkd": null,
    "best_price": 15199,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|colorful:5080:neptune+oc",
+   "category": "gpu",
+   "brand": "Colorful",
+   "model_key": "colorful:5080:neptune+oc",
+   "title": "Colorful iGame RTX 5080 Neptune OC 16GB 水冷顯示卡 超頻版",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-380e07a2fa637336.webp",
+   "image": "img/hk-380e07a2fa637336.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12662.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 15200,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12662/colorful-igame-rtx-5080-neptune-oc-16gb",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 15200,
    "has_water": false,
    "has_official": true
   },
@@ -3001,10 +3124,10 @@
    "has_official": false
   },
   {
-   "id": "gpu|galax:5090:1-click+black+oc",
+   "id": "gpu|galax:5090d:1-click+black+oc",
    "category": "gpu",
    "brand": "GALAX",
-   "model_key": "galax:5090:1-click+black+oc",
+   "model_key": "galax:5090d:1-click+black+oc",
    "title": "GALAX 1-Click OC Black GeForce RTX 5090D v2 24G 顯示卡",
    "spec": "RTX 5090",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-382bcb907a095b5a.png",
@@ -3025,10 +3148,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5090:gaming+oc",
+   "id": "gpu|gigabyte:5090d:gaming+oc",
    "category": "gpu",
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5090:gaming+oc",
+   "model_key": "gigabyte:5090d:gaming+oc",
    "title": "GIGABYTE 技嘉 GeForce RTX 5090D V2 GAMING OC 24G 顯示卡",
    "spec": "RTX 5090",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-082791ea0e095389.png",
@@ -3049,11 +3172,11 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5090:astral+btf+oc+rog",
+   "id": "gpu|asus:5090d:astral+btf+oc+rog",
    "category": "gpu",
    "brand": "ASUS",
-   "model_key": "asus:5090:astral+btf+oc+rog",
-   "title": "【平行進口】ASUS 華碩 ROG Astral GeForce RTX 5090 32G BTF OC 顯示卡",
+   "model_key": "asus:5090d:astral+btf+oc+rog",
+   "title": "ASUS 華碩 ROG Astral GeForce RTX 5090 D V2 24G BTF OC 顯示卡",
    "spec": "RTX 5090",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-22c56b94ea188f70.png",
    "image": "img/hk-22c56b94ea188f70.png",
@@ -3071,12 +3194,6 @@
       "store_short": "中田",
       "price_hkd": 39999,
       "url": "https://centralfield.com/product/18506/asus-rog-astral-rtx-5090-d-v2-oc-btf-graphics-card"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 54599,
-      "url": "https://shop.pegasus.hk/products/226410/平行進口ASUS-華碩-ROG-Astral-GeForce-RTX-5090-32G-BTF-OC-顯示卡---3年保養"
      }
     ]
    },
@@ -3086,10 +3203,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5090:rog",
+   "id": "gpu|asus:5090d:rog",
    "category": "gpu",
    "brand": "ASUS",
-   "model_key": "asus:5090:rog",
+   "model_key": "asus:5090d:rog",
    "title": "ASUS ROG Matrix RTX 5090 D V2 24GB GDDR7 顯示卡",
    "spec": "RTX 5090",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-732b6e6f7f79b817.webp",
@@ -3206,6 +3323,30 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5090:astral+btf+oc+rog",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5090:astral+btf+oc+rog",
+   "title": "【平行進口】ASUS 華碩 ROG Astral GeForce RTX 5090 32G BTF OC 顯示卡",
+   "spec": "RTX 5090",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1f27acd22b61851e.png",
+   "image": "img/hk-1f27acd22b61851e.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3ff11891-8297-4b94-e8ec-130bd04eeb00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 54599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/226410/平行進口ASUS-華碩-ROG-Astral-GeForce-RTX-5090-32G-BTF-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 54599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5090:astral+oc+rog+white",
    "category": "gpu",
    "brand": "ASUS",
@@ -3230,10 +3371,10 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5090:astral+oc+rog",
+   "id": "gpu|asus:5090:astral+lc+oc+rog",
    "category": "gpu",
    "brand": "ASUS",
-   "model_key": "asus:5090:astral+oc+rog",
+   "model_key": "asus:5090:astral+lc+oc+rog",
    "title": "【平行進口】ASUS 華碩 ROG Astral LC GeForce RTX 5090 32G OC 顯示卡",
    "spec": "RTX 5090",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bbfa1ea3a1cd5bf9.png",
