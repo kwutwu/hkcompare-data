@@ -1,6 +1,6 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-06T05:52:38Z",
+ "generated_at": "2026-10-06T05:52:56Z",
  "generated_at_hkt": "2026-10-06 13:52 HKT",
  "price_updated_hkt": "2026-10-06 13:52 HKT",
  "amazon_data_updated_hkt": null,
@@ -19,7 +19,7 @@
   },
   "cpu": {
    "label": "處理器",
-   "count": 75,
+   "count": 93,
    "enabled": true,
    "note": ""
   },
@@ -35,17 +35,17 @@
   }
  },
  "stats": {
-  "items": 494,
+  "items": 512,
   "both_sides": 14,
   "water_only": 15,
-  "official_only": 465,
+  "official_only": 483,
   "matched_water": 14,
-  "official_groups": 494,
+  "official_groups": 512,
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 29,
-   "official_downloaded": 27,
-   "official_cached": 436,
+   "official_downloaded": 35,
+   "official_cached": 447,
    "failed": 0
   },
   "image_samples": [
@@ -64,7 +64,7 @@
     "via": "official"
    },
    {
-    "title": "AMD Ryzen 5 3400G 4核心8線程 Tray (不含散熱器)",
+    "title": "AMD Ryzen 5 3400G CPU (Tray,4Core8Threads11CoreGPU,3.7/4.2GH",
     "image": "img/hk-c01b693bcdf07d90.jpg",
     "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c01b693bcdf07d90.jpg",
     "fallback": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/def4f1de-b07d-428f-e92e-7635419a0600",
@@ -85,13 +85,6 @@
     "via": "official"
    },
    {
-    "title": "AMD Ryzen 5 8400F 6核心12線程 Tray (不含散熱器)",
-    "image": "img/hk-202486e2684dac6b.webp",
-    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-202486e2684dac6b.webp",
-    "fallback": "https://centralfield.com/Pimg/12396.webp",
-    "via": "official"
-   },
-   {
     "title": "Intel Core i3-12100F Tray Processor 4C 8T / 12 MB Cache / 3.",
     "image": "img/hk-0fe94fbaa2ce25c8.webp",
     "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0fe94fbaa2ce25c8.webp",
@@ -103,6 +96,13 @@
     "image": "img/hk-30b2b52472b8e565.webp",
     "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-30b2b52472b8e565.webp",
     "fallback": "https://centralfield.com/Pimg/17497.webp",
+    "via": "official"
+   },
+   {
+    "title": "AMD Ryzen 5 5600X Tray Processor 6C 12T / 35 MB Cache / 3.7 ",
+    "image": "img/hk-e76aa8f5520e5785.jpg",
+    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e76aa8f5520e5785.jpg",
+    "fallback": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5600X_Tray_3.jpg?v=1759137970",
     "via": "official"
    }
   ],
@@ -119,12 +119,12 @@
  },
  "items": [
   {
-   "id": "cpu|cpu:amd:::3200::4core4threads",
+   "id": "cpu|cpu|amd ryzen 3 3200g|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::3200::4core4threads",
+   "model_key": "cpu|amd ryzen 3 3200g|am4|tray(散裝)",
    "title": "AMD Ryzen 3 3200G CPU (Tray, 4Core4Threads,3.6/4.0GHz,2MB L2,4MB L3, AM4,TDP 65W,Radeon…",
-   "spec": "AMD Ryzen 3 3200G · AM4 · Tray(散裝)",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d090974bd3a1f6b5.webp",
    "image": "img/hk-d090974bd3a1f6b5.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/c42395a27e6ea43ea5e1894755864c24.webp",
@@ -143,12 +143,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::4500::",
+   "id": "cpu|cpu|amd ryzen 5 4500|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::4500::",
+   "model_key": "cpu|amd ryzen 5 4500|am4|tray(散裝)",
    "title": "AMD Ryzen 5 4500 處理器 | AM4 6核12線程 CPU (無內顯)",
-   "spec": "AMD Ryzen 5 4500 · AM4 · Tray(散裝)",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4134069b4cb85963.webp",
    "image": "img/hk-4134069b4cb85963.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/20687.webp",
@@ -167,15 +167,15 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::3400::4core8threads11coregpu",
+   "id": "cpu|cpu|amd ryzen 5 3400g|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::3400::4core8threads11coregpu",
+   "model_key": "cpu|amd ryzen 5 3400g|am4|tray(散裝)",
    "title": "AMD Ryzen 5 3400G CPU (Tray,4Core8Threads11CoreGPU,3.7/4.2GHz,L2:2MB,L3:4MB, AM4,TDP 65…",
-   "spec": "AMD Ryzen 5 3400G · AM4 · Tray(散裝)",
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
+   "spec": "AM4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c01b693bcdf07d90.jpg",
+   "image": "img/hk-c01b693bcdf07d90.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/def4f1de-b07d-428f-e92e-7635419a0600/public",
    "water": null,
    "official": {
     "price_hkd": 529,
@@ -183,7 +183,14 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/32234",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 549,
+      "url": "https://shop.pegasus.hk/products/230647/AMD-Ryzen-5-3400G-4核心8線程-Tray-不含散熱器---3年保養"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 529,
@@ -191,36 +198,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::3400::",
+   "id": "cpu|cpu|amd ryzen 5 5500|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::3400::",
-   "title": "AMD Ryzen 5 3400G 4核心8線程 Tray (不含散熱器)",
-   "spec": "AMD Ryzen 5 3400G · AM4 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c01b693bcdf07d90.jpg",
-   "image": "img/hk-c01b693bcdf07d90.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/def4f1de-b07d-428f-e92e-7635419a0600/public",
-   "water": null,
-   "official": {
-    "price_hkd": 549,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/230647/AMD-Ryzen-5-3400G-4核心8線程-Tray-不含散熱器---3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 549,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::5500::",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::5500::",
+   "model_key": "cpu|amd ryzen 5 5500|am4|tray(散裝)",
    "title": "AMD Ryzen 5 5500 Tray Processor 6C 12T / 19 MB Cache / 3.6 GHz / Socket AM4 (CP-R5T55) …",
-   "spec": "AMD Ryzen 5 5500 · AM4 · Tray(散裝)",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0818b6d271ed6906.webp",
    "image": "img/hk-0818b6d271ed6906.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/6089.webp",
@@ -252,12 +235,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::8400::6cores12threads",
+   "id": "cpu|cpu|amd ryzen 5 8400f|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::8400::6cores12threads",
+   "model_key": "cpu|amd ryzen 5 8400f|am5|tray(散裝)",
    "title": "AMD Ryzen 5 8400F AM5 CPU (Tray, 6Cores12Threads, 4.2GHz/4.7GHz, L2:6MB, L3:16MB, 65W TDP)",
-   "spec": "AMD Ryzen 5 8400F · AM5 · Tray(散裝)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b0732deabb0bf6d.webp",
    "image": "img/hk-5b0732deabb0bf6d.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4ef9de9ac7fa72cbdfc03b60a9fc8068.webp",
@@ -268,31 +251,13 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/55150",
     "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 669,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::8400::",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::8400::",
-   "title": "AMD Ryzen 5 8400F 6核心12線程 Tray (不含散熱器)",
-   "spec": "AMD Ryzen 5 8400F · AM5 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-202486e2684dac6b.webp",
-   "image": "img/hk-202486e2684dac6b.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/12396.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 680,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/12396/amd-ryzen-5-8400f-am5-processor-2",
-    "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 680,
+      "url": "https://centralfield.com/product/12396/amd-ryzen-5-8400f-am5-processor-2"
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -302,17 +267,17 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 680,
+   "best_price": 669,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i3-12100f",
+   "id": "cpu|cpu|intel core i3-12100f (12th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i3-12100f",
+   "model_key": "cpu|intel core i3-12100f (12th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i3-12100F Tray Processor 4C 8T / 12 MB Cache / 3.3 GHz / LGA 1700 (CP-3T1210…",
-   "spec": "Intel Core i3-12100F (12th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0fe94fbaa2ce25c8.webp",
    "image": "img/hk-0fe94fbaa2ce25c8.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/952.webp",
@@ -344,12 +309,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::5600::",
+   "id": "cpu|cpu|amd ryzen 5 5600|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::5600::",
+   "model_key": "cpu|amd ryzen 5 5600|am4|tray(散裝)",
    "title": "AMD Ryzen 5 5600 Tray Processor 6C 12T / 35 MB Cache / 3.5 GHz / Socket AM4 (CP-R5T56) …",
-   "spec": "AMD Ryzen 5 5600 · AM4 · Tray(散裝)",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-30b2b52472b8e565.webp",
    "image": "img/hk-30b2b52472b8e565.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/17497.webp",
@@ -366,6 +331,37 @@
       "store_short": "Jumbo",
       "price_hkd": 820,
       "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600-tray-processor-6c-12t-am4-socket-with-cpu-fan"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 799,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 5600x|am4|tray(散裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 5600x|am4|tray(散裝)",
+   "title": "AMD Ryzen 5 5600X Tray Processor 6C 12T / 35 MB Cache / 3.7 GHz / Socket AM4 (CP-R5T56X…",
+   "spec": "AM4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e76aa8f5520e5785.jpg",
+   "image": "img/hk-e76aa8f5520e5785.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5600X_Tray_3.jpg?v=1759137970",
+   "water": null,
+   "official": {
+    "price_hkd": 830,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600x-tray-processor-6c-12t-am4-socket-香港行貨-3年保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 899,
+      "url": "https://secomputer.com.hk/products/55774"
      },
      {
       "store": "中田電腦 Centralfield",
@@ -382,41 +378,17 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 799,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::5600::r5t56x",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::5600::r5t56x",
-   "title": "AMD Ryzen 5 5600X Tray Processor 6C 12T / 35 MB Cache / 3.7 GHz / Socket AM4 (CP-R5T56X…",
-   "spec": "AMD Ryzen 5 5600X · AM4 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e76aa8f5520e5785.jpg",
-   "image": "img/hk-e76aa8f5520e5785.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5600X_Tray_3.jpg?v=1759137970",
-   "water": null,
-   "official": {
-    "price_hkd": 830,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600x-tray-processor-6c-12t-am4-socket-香港行貨-3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
    "best_price": 830,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::7500::12threads",
+   "id": "cpu|cpu|amd ryzen 5 7500f|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::7500::12threads",
+   "model_key": "cpu|amd ryzen 5 7500f|am5|tray(散裝)",
    "title": "AMD Ryzen 5 7500F CPU (Tray, AM5, 6Core/12Threads, 3.7/5.0GHz, 6MB L2, 32MB L3, TDP 65W…",
-   "spec": "AMD Ryzen 5 7500F · AM5 · Tray(散裝)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b0732deabb0bf6d.webp",
    "image": "img/hk-5b0732deabb0bf6d.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4ef9de9ac7fa72cbdfc03b60a9fc8068.webp",
@@ -427,7 +399,14 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/51491",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 870,
+      "url": "https://centralfield.com/product/15399/amd-ryzen-5-7500f-cpu-processor"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 869,
@@ -435,60 +414,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::7500::",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::7500::",
-   "title": "AMD Ryzen 5 7500F 處理器 (AM5) - 6核12線程 CPU",
-   "spec": "AMD Ryzen 5 7500F · AM5 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-207e751777ee1b1b.webp",
-   "image": "img/hk-207e751777ee1b1b.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/15399.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 870,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/15399/amd-ryzen-5-7500f-cpu-processor",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 870,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::5600::6cores12threads",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::5600::6cores12threads",
-   "title": "AMD Ryzen 5 5600X CPU (Tray, 6Cores12Threads, 3.7GHz/4.6GHz, L2:3MB, L3:32MB,65W TDP)",
-   "spec": "AMD Ryzen 5 5600X · AM4 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b0732deabb0bf6d.webp",
-   "image": "img/hk-5b0732deabb0bf6d.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4ef9de9ac7fa72cbdfc03b60a9fc8068.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 899,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55774",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 899,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:intel:::::i3-14100",
+   "id": "cpu|cpu|intel core i3-14100 (14th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i3-14100",
+   "model_key": "cpu|intel core i3-14100 (14th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i3-14100 Tray版 處理器 4核8線程 內顯 LGA1700",
-   "spec": "Intel Core i3-14100 (14th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-24390e222af6ee37.webp",
    "image": "img/hk-24390e222af6ee37.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/6462.webp",
@@ -507,12 +438,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i5-12400f",
+   "id": "cpu|cpu|intel core i5-12400f (12th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i5-12400f",
-   "title": "Intel Core i5-12400F CPU (BOX, Alder Lake,6Core(6P0E)12Threads,2.5/4.4GHz,LGA1700,7.5/1…",
-   "spec": "Intel Core i5-12400F (12th Gen) · LGA1700 · Tray(散裝)",
+   "model_key": "cpu|intel core i5-12400f (12th gen)|lga1700|tray(散裝)",
+   "title": "Intel Core i5-12400F Tray Processor 6C 12T / 18 MB Cache / 2.5 GHz / LGA 1700 (CP-5T124…",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1b084415a52e56f7.webp",
    "image": "img/hk-1b084415a52e56f7.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/967.webp",
@@ -535,12 +466,6 @@
       "store_short": "Jumbo",
       "price_hkd": 1010,
       "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-i5-12400f-tray-processor-6c-12t-lga-1700"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1099,
-      "url": "https://secomputer.com.hk/products/44919"
      }
     ]
    },
@@ -550,12 +475,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i3-14100f",
+   "id": "cpu|cpu|intel core i3-14100f (14th gen)|lga1700|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i3-14100f",
+   "model_key": "cpu|intel core i3-14100f (14th gen)|lga1700|box(盒裝)",
    "title": "Intel Core i3-14100F 4核心8線程 Box",
-   "spec": "Intel Core i3-14100F (14th Gen) · LGA1700 · Box(盒裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-282641f737f6a4c5.jpg",
    "image": "img/hk-282641f737f6a4c5.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/96309e1a-ebe1-4dfc-5659-9a1306822500/public",
@@ -574,12 +499,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::10core",
+   "id": "cpu|cpu|intel core ultra 5 225f|lga1851|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::10core",
-   "title": "Intel Core Ultra 5 225 CPU (Tray, 10Core(6P+4E) 10Threads, 22MB, 3.3/4.9GHz, Intel Grap…",
-   "spec": "Intel Core Ultra 5 225F · LGA1851 · Tray(散裝)",
+   "model_key": "cpu|intel core ultra 5 225f|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 5 225F Tray Processor 10C 10T / 20 MB Cache / 3.3 GHz / LGA 1851 (CP-5…",
+   "spec": "LGA1851（Core Ultra）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a592cbedd4264572.webp",
    "image": "img/hk-a592cbedd4264572.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/2578c807c38a201d06521a9d4f210b59.webp",
@@ -592,10 +517,22 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1269,
-      "url": "https://secomputer.com.hk/products/58286"
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 990,
+      "url": "https://centralfield.com/product/12806/intel-core-ultra-5-225f-processor-3"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 998,
+      "url": "https://shop.pegasus.hk/products/225863/Intel-Core-Ultra-5-225F-10核心10線程-Tray--不含散熱器---3年保養"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1015,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-225f-tray-6c-10t-lga-1851-香港代理-3年保養"
      }
     ]
    },
@@ -605,55 +542,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::lga1851",
-   "category": "cpu",
-   "brand": "Intel",
-   "model_key": "cpu:intel:::::lga1851",
-   "title": "Intel Core Ultra 7 265 Tray Processor 20C 20T / 30 MB Cache / 2.4 GHz / LGA 1851 (CP-7T…",
-   "spec": "Intel Core Ultra 5 225F · LGA1851 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2418306e88742c1c.webp",
-   "image": "img/hk-2418306e88742c1c.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/12806.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 990,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/12806/intel-core-ultra-5-225f-processor-3",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 998,
-      "url": "https://shop.pegasus.hk/products/225863/Intel-Core-Ultra-5-225F-10核心10線程-Tray--不含散熱器---3年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1135,
-      "url": "https://centralfield.com/product/22146/intel-core-ultra-5-230f-processor"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 1280,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-225-tray-6c-10t-lga-1851-香港代理-3年保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 990,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::8700::",
+   "id": "cpu|cpu|amd ryzen 7 8700f|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::8700::",
-   "title": "AMD Ryzen 7 8700G Processor 8C 16T / 24 MB Cache / 4.2 GHz / Socket AM5 (CP-AB87G) - 3年保養",
-   "spec": "AMD Ryzen 7 8700F · AM5 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 7 8700f|am5|tray(散裝)",
+   "title": "AMD Ryzen 7 8700F 8核心16線程 Tray (不含散熱器)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-82f83c6097b485a3.webp",
    "image": "img/hk-82f83c6097b485a3.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/12802.webp",
@@ -670,18 +564,6 @@
       "store_short": "飛馬",
       "price_hkd": 1029,
       "url": "https://shop.pegasus.hk/products/221270/AMD-Ryzen-7-8700F-8核心16線程-Tray-不含散熱器---3年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1695,
-      "url": "https://centralfield.com/product/7432/amd-ryzen-7-8700g-processor"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1899,
-      "url": "https://shop.pegasus.hk/products/219389/AMD-Ryzen-7-8700G-8核心16線程-處理器-Tray--不含散熱器---3年保養"
      }
     ]
    },
@@ -691,36 +573,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::5t225f",
-   "category": "cpu",
-   "brand": "Intel",
-   "model_key": "cpu:intel:::::5t225f",
-   "title": "Intel Core Ultra 5 225F Tray Processor 10C 10T / 20 MB Cache / 3.3 GHz / LGA 1851 (CP-5…",
-   "spec": "Intel Core Ultra 5 225F · LGA1851 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-52590dad11ec5220.png",
-   "image": "img/hk-52590dad11ec5220.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel225FTray.png?v=1746008715",
-   "water": null,
-   "official": {
-    "price_hkd": 1015,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-225f-tray-6c-10t-lga-1851-香港代理-3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1015,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::5700::",
+   "id": "cpu|cpu|amd ryzen 7 5700x|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::5700::",
-   "title": "AMD Ryzen 7 5700X 處理器 | 8核16線程 AM4 無內顯",
-   "spec": "AMD Ryzen 7 5700X · AM4 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 7 5700x|am4|tray(散裝)",
+   "title": "AMD Ryzen 7 5700X Tray Processor 8C 16T / 36 MB Cache / 3.4 GHz / Socket AM4 (CP-R7T57X…",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-989faca2cbc25fb5.webp",
    "image": "img/hk-989faca2cbc25fb5.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/21536.webp",
@@ -732,6 +590,18 @@
     "url": "https://centralfield.com/product/21536/amd-ryzen-7-5700x-processor",
     "stock": "現貨",
     "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1050,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-5700x-tray-processor-8c-16t-am4-socket"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1080,
+      "url": "https://secomputer.com.hk/products/62738"
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -746,12 +616,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::8600::",
+   "id": "cpu|cpu|amd ryzen 5 8600g|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::8600::",
-   "title": "AMD Ryzen 5 8600G AM5處理器 6核12線程 760M內顯 盒裝連散熱器",
-   "spec": "AMD Ryzen 5 8600G · AM5 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 5 8600g|am5|tray(散裝)",
+   "title": "AMD Ryzen 5 8600G AM5 CPU (Tray, 6Cores12Threads, 4.3GHz/5.0GHz, L2:6MB, L3:16MB, Radeo…",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0084721caaffbbe7.webp",
    "image": "img/hk-0084721caaffbbe7.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/22041.webp",
@@ -764,17 +634,42 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1050,
-      "url": "https://centralfield.com/product/20862/amd-ryzen-5-pro-8600g-am5-processor"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1069,
+      "url": "https://secomputer.com.hk/products/53863"
      },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 1249,
       "url": "https://shop.pegasus.hk/products/219391/AMD-Ryzen-5-8600G-6核心12線程-Tray-不含散熱器---3年保養"
-     },
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1050,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 pro 8600g|am5|tray(散裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 pro 8600g|am5|tray(散裝)",
+   "title": "AMD Ryzen 5 PRO 8600G AM5處理器 6核12線程 760M內顯",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-11d0d3687f6cc54e.webp",
+   "image": "img/hk-11d0d3687f6cc54e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/20862.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1050,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20862/amd-ryzen-5-pro-8600g-am5-processor",
+    "stock": "現貨",
+    "others": [
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -789,67 +684,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::5700::r7t57x",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::5700::r7t57x",
-   "title": "AMD Ryzen 7 5700X Tray Processor 8C 16T / 36 MB Cache / 3.4 GHz / Socket AM4 (CP-R7T57X…",
-   "spec": "AMD Ryzen 7 5700X · AM4 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-243f2e92c1ad7a40.jpg",
-   "image": "img/hk-243f2e92c1ad7a40.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5700X_Tray_1.jpg?v=1759137510",
-   "water": null,
-   "official": {
-    "price_hkd": 1050,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-5700x-tray-processor-8c-16t-am4-socket",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1050,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::8600::6cores12threads",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::8600::6cores12threads",
-   "title": "AMD Ryzen 5 8600G AM5 CPU (BOX, 6Cores12Threads, 4.3GHz/5.0GHz, L2:6MB, L3:16MB, Radeon…",
-   "spec": "AMD Ryzen 5 8600G · AM5 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e0b7ea9a986e95de.webp",
-   "image": "img/hk-e0b7ea9a986e95de.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/ae5a37c3914ea8806e351d23c09c12e5.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1069,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/53863",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1380,
-      "url": "https://secomputer.com.hk/products/52847"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1069,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:intel:::::i5-14400f",
+   "id": "cpu|cpu|intel core i5-14400f (14th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i5-14400f",
+   "model_key": "cpu|intel core i5-14400f (14th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i5-14400F CPU (Tray, Raptor Lake-S Refresh, 10Core(6P4E)16Threads,3.5/4.7GHz…",
-   "spec": "Intel Core i5-14400F (14th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a57f683d94a4517b.webp",
    "image": "img/hk-a57f683d94a4517b.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/f1ac55a03b6f18bf0456632c5cb5b1a9.webp",
@@ -881,36 +721,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::5700::8cores16threads",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::5700::8cores16threads",
-   "title": "AMD Ryzen 7 5700X CPU (Tray, 8Cores16Threads, 3.4GHz/4.6GHz, L2:4MB, L3:32MB,65W TDP)",
-   "spec": "AMD Ryzen 7 5700X · AM4 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2837fbd3eb5a7085.webp",
-   "image": "img/hk-2837fbd3eb5a7085.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/e78168d54c18b1d2d0233e1a4c7d362e.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1080,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/62738",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1080,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:intel:::::i3-12100",
+   "id": "cpu|cpu|intel core i3-12100 (12th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i3-12100",
+   "model_key": "cpu|intel core i3-12100 (12th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i3-12100 CPU (Tray, Alder Lake,4Core8Threads,3.3/4.3GHz,UHD730,LGA1700,5/12M…",
-   "spec": "Intel Core i3-12100 (12th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b0c273a850cdc7c5.jpg",
    "image": "img/hk-b0c273a850cdc7c5.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/bbaea848-f35c-44bc-fd14-17492bd9df00/public",
@@ -936,12 +752,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::5650::r5t565g",
+   "id": "cpu|cpu|amd ryzen 5 pro 5650g|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::5650::r5t565g",
-   "title": "AMD Ryzen 5 PRO 5650G Tray Processor 6C 12T / 19 MB Cache / 3.9 GHz / Socket AM4 (CP-R5…",
-   "spec": "AMD Ryzen 5 PRO 5650G · AM4 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 5 pro 5650g|am4|tray(散裝)",
+   "title": "AMD Ryzen 5 PRO 5650G AM4 Socket (Tray, 6Cores12Threads, 3.9GHz/4.4GHz,L1:64KB, L2:512K…",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-88427cf654269ac1.png",
    "image": "img/hk-88427cf654269ac1.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD5650GTray.png?v=1782105166",
@@ -952,7 +768,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-pro-5650g-tray-processor-6c-12t-am4-socket-cp-r5t565g-香港行貨-3年保養",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1099,
+      "url": "https://secomputer.com.hk/products/62522"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1090,
@@ -960,23 +783,30 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::5650::6cores12threads",
+   "id": "cpu|cpu|intel core i5-12400f (12th gen)|lga1700|box(盒裝)",
    "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::5650::6cores12threads",
-   "title": "AMD Ryzen 5 PRO 5650G AM4 Socket (Tray, 6Cores12Threads, 3.9GHz/4.4GHz,L1:64KB, L2:512K…",
-   "spec": "AMD Ryzen 5 PRO 5650G · AM4 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f983b92044ed0c3e.webp",
-   "image": "img/hk-f983b92044ed0c3e.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/6dabf5829f54d4767e6b581a471427f5.webp",
+   "brand": "Intel",
+   "model_key": "cpu|intel core i5-12400f (12th gen)|lga1700|box(盒裝)",
+   "title": "Intel Core i5-12400F CPU (BOX, Alder Lake,6Core(6P0E)12Threads,2.5/4.4GHz,LGA1700,7.5/1…",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a82f5469301e934f.png",
+   "image": "img/hk-a82f5469301e934f.png",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/fe2282d497ffbb6143dfe95dca8bef1a.png",
    "water": null,
    "official": {
     "price_hkd": 1099,
     "store": "SE Computer",
     "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/62522",
+    "url": "https://secomputer.com.hk/products/44919",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1110,
+      "url": "https://centralfield.com/product/21148/intel-core-i5-12400f-processor-4"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1099,
@@ -984,12 +814,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::8500::",
+   "id": "cpu|cpu|amd ryzen 5 8500g|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::8500::",
+   "model_key": "cpu|amd ryzen 5 8500g|am5|tray(散裝)",
    "title": "AMD Ryzen 5 8500G 6核心12線程 Tray",
-   "spec": "AMD Ryzen 5 8500G · AM5 · Tray(散裝)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d37216eed45a3762.jpg",
    "image": "img/hk-d37216eed45a3762.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/db17d78a-4acf-4f63-1f8c-021b7c287f00/public",
@@ -1008,12 +838,36 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::5600::5600gt",
+   "id": "cpu|cpu|intel core ultra 5 230f|lga1851|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 5 230f|lga1851|tray(散裝)",
+   "title": "Intel 英特爾 Core Ultra 5 230F 10核10線程 LGA1851處理器 無內顯",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-826afeb61842341d.webp",
+   "image": "img/hk-826afeb61842341d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22146.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1135,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22146/intel-core-ultra-5-230f-processor",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1135,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 5600gt|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::5600::5600gt",
+   "model_key": "cpu|amd ryzen 5 5600gt|am4|tray(散裝)",
    "title": "AMD Ryzen 5 5600GT AM4處理器 | 6核12線程 內顯 CPU",
-   "spec": "AMD Ryzen 5 5600GT · AM4 · Tray(散裝)",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1ae9238a18dbf984.jpg",
    "image": "img/hk-1ae9238a18dbf984.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c4007f54-0fe6-488b-cb11-7c74dd2fc200/public",
@@ -1039,12 +893,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i5-12400",
+   "id": "cpu|cpu|intel core i5-12400 (12th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i5-12400",
+   "model_key": "cpu|intel core i5-12400 (12th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i5-12400 Tray Processor 6C 12T / 18 MB Cache / 2.5 GHz / LGA 1700 (CP-5T1240…",
-   "spec": "Intel Core i5-12400 (12th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a57f683d94a4517b.webp",
    "image": "img/hk-a57f683d94a4517b.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/f1ac55a03b6f18bf0456632c5cb5b1a9.webp",
@@ -1082,12 +936,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::5655::",
+   "id": "cpu|cpu|amd ryzen 5 5655g|am4|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::5655::",
+   "model_key": "cpu|amd ryzen 5 5655g|am4|tray(散裝)",
    "title": "AMD Ryzen 5 5655G AM4處理器 6核12線程 Vega 7內顯",
-   "spec": "AMD Ryzen 5 5655G · AM4 · Tray(散裝)",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-027f42aac1b3f5cc.webp",
    "image": "img/hk-027f42aac1b3f5cc.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/22355.webp",
@@ -1106,12 +960,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::",
+   "id": "cpu|cpu|amd ryzen 5 9500f|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::",
-   "title": "AMD Ryzen 9 9900X Tray Processor 12C 24T / 76 MB Cache / 4.4 GHz / Socket AM5 (CP-AT99X…",
-   "spec": "AMD Ryzen 5 9500F · AM5 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 5 9500f|am5|tray(散裝)",
+   "title": "AMD Ryzen 5 9500F Tray Processor 6C 12T / 38 MB Cache / 3.8 GHz / Socket AM5 (CP-AT95F)…",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bfc9fee6145d3d1f.png",
    "image": "img/hk-bfc9fee6145d3d1f.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD9500FTray.png?v=1763380186",
@@ -1128,7 +982,32 @@
       "store_short": "中田",
       "price_hkd": 1180,
       "url": "https://centralfield.com/product/17291/amd-ryzen-5-9500f-am5-processor-2"
-     },
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1180,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 9600x|am5|tray(散裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 9600x|am5|tray(散裝)",
+   "title": "AMD Ryzen 5 9600X Tray Processor 6C 12T / 38 MB Cache / 3.9 GHz / Socket AM5 (CP-AT96X)…",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b0732deabb0bf6d.webp",
+   "image": "img/hk-5b0732deabb0bf6d.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4ef9de9ac7fa72cbdfc03b60a9fc8068.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1219,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/56806",
+    "stock": "現貨",
+    "others": [
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
@@ -1140,32 +1019,14 @@
       "store_short": "Jumbo",
       "price_hkd": 1240,
       "url": "https://www.jumbo-computer.com/zh-hk/products/最新產品-amd-ryzen-5-9600x-tray-processor-6c-12t-socket-am5"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1250,
+      "url": "https://shop.pegasus.hk/products/223695/AMD-Ryzen-5-9600X-6核心12線程-Tray-不含散熱器---3年保養"
      }
     ]
-   },
-   "delta_hkd": null,
-   "best_price": 1180,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::::6cores12threads",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::::6cores12threads",
-   "title": "AMD Ryzen 5 9600X AM5 CPU (Tray, 6Cores12Threads, 3.9GHz/5.4GHz, L2:6MB, L3:32MB, 65W TDP)",
-   "spec": "AMD Ryzen 5 9600X · AM5 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b0732deabb0bf6d.webp",
-   "image": "img/hk-5b0732deabb0bf6d.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4ef9de9ac7fa72cbdfc03b60a9fc8068.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1219,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/56806",
-    "stock": "現貨",
-    "others": []
    },
    "delta_hkd": null,
    "best_price": 1219,
@@ -1173,12 +1034,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i5-14400",
+   "id": "cpu|cpu|intel core i5-14400 (14th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i5-14400",
+   "model_key": "cpu|intel core i5-14400 (14th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i5-14400 Tray Processor 10C 16T / 20 MB Cache / 2.5 GHz / LGA 1700 (CP-5T144…",
-   "spec": "Intel Core i5-14400 (14th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a57f683d94a4517b.webp",
    "image": "img/hk-a57f683d94a4517b.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/f1ac55a03b6f18bf0456632c5cb5b1a9.webp",
@@ -1216,12 +1077,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::7700::",
+   "id": "cpu|cpu|amd ryzen 7 7700|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::7700::",
+   "model_key": "cpu|amd ryzen 7 7700|am5|tray(散裝)",
    "title": "AMD Ryzen 7 7700 Tray Processor 8C 16T / 40 MB Cache / 3.8 GHz / Socket AM5 (CP-AT77) -…",
-   "spec": "AMD Ryzen 7 7700 · AM5 · Tray(散裝)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-becf4bd534a24cc9.webp",
    "image": "img/hk-becf4bd534a24cc9.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/14228.webp",
@@ -1244,12 +1105,6 @@
       "store_short": "飛馬",
       "price_hkd": 1349,
       "url": "https://shop.pegasus.hk/products/218530/AMD-Ryzen-7-7700-8核心16線程-Tray-不含散熱器---3年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1460,
-      "url": "https://centralfield.com/product/20860/amd-ryzen-7-7700x-am5-processor"
      }
     ]
    },
@@ -1259,12 +1114,49 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::7600::",
+   "id": "cpu|cpu|intel core ultra 5 225|lga1851|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 5 225|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 5 225 Tray Processor 10C 10T / 20 MB Cache / 3.3 GHz / LGA 1851 (CP-5T…",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a592cbedd4264572.webp",
+   "image": "img/hk-a592cbedd4264572.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/2578c807c38a201d06521a9d4f210b59.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1269,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/58286",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1280,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-225-tray-6c-10t-lga-1851-香港代理-3年保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1280,
+      "url": "https://centralfield.com/product/12807/intel-core-ultra-5-225-tray-cpu-lga1851"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1269,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 7600x|am5|box(盒裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::7600::",
-   "title": "AMD Ryzen 5 7600X Processor 6C 12T / 38 MB Cache / 4.7 GHz / Socket AM5 (CP-AC76X) - 3年保養",
-   "spec": "AMD Ryzen 5 7600X · AM5 · Box(盒裝)",
+   "model_key": "cpu|amd ryzen 5 7600x|am5|box(盒裝)",
+   "title": "AMD Ryzen 5 7600X 盒裝處理器 6核12線程 AM5 內顯",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-da06c19ad33b1d56.webp",
    "image": "img/hk-da06c19ad33b1d56.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/897.webp",
@@ -1275,14 +1167,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/897/amd-ryzen-5-7600x-processor-am5",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 1300,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-7600x-processor-6c-12t-socket-am5"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 1280,
@@ -1290,12 +1175,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i5-12600kf",
+   "id": "cpu|cpu|intel core i5-12600kf (12th gen)|lga1700|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i5-12600kf",
+   "model_key": "cpu|intel core i5-12600kf (12th gen)|lga1700|box(盒裝)",
    "title": "Intel Core i5-12600KF CPU (BOX, Alder Lake,10Core(6P4E)16Threads,3.7/4.9GHz,LGA1700,9.5…",
-   "spec": "Intel Core i5-12600KF (12th Gen) · LGA1700 · Box(盒裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f31bf1bf3f4f75e7.jpg",
    "image": "img/hk-f31bf1bf3f4f75e7.jpg",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/e1b0c22ee8b0803bf3e3337ed7584d30.jpg",
@@ -1314,12 +1199,36 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::14core",
+   "id": "cpu|cpu|amd ryzen 5 7600x|am5",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 7600x|am5",
+   "title": "AMD Ryzen 5 7600X Processor 6C 12T / 38 MB Cache / 4.7 GHz / Socket AM5 (CP-AC76X) - 3年保養",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4fbdd54142e2b337.jpg",
+   "image": "img/hk-4fbdd54142e2b337.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD57series.jpg?v=1700745750",
+   "water": null,
+   "official": {
+    "price_hkd": 1300,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-7600x-processor-6c-12t-socket-am5",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1300,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 5 245kf|lga1851|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::14core",
-   "title": "Intel Core Ultra 5 245K CPU (Tray, 14Core(6P+8E) 14Threads, 4.2/5GHz, Intel Arc Xe2, 12…",
-   "spec": "Intel Core Ultra 5 245KF · LGA1851 · Tray(散裝)",
+   "model_key": "cpu|intel core ultra 5 245kf|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 5 245KF Tray Processor 14C 14T / 24 MB Cache / 4.2 GHz / LGA 1851 (CP-…",
+   "spec": "LGA1851（Core Ultra）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a592cbedd4264572.webp",
    "image": "img/hk-a592cbedd4264572.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/2578c807c38a201d06521a9d4f210b59.webp",
@@ -1332,10 +1241,16 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1379,
-      "url": "https://secomputer.com.hk/products/61476"
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1345,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245kf-tray-14c-14t-lga-1851-香港代理-3年保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1345,
+      "url": "https://centralfield.com/product/19231/intel-core-ultra-5-245kf-lga1851-processor"
      }
     ]
    },
@@ -1345,60 +1260,105 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::5t245kf",
-   "category": "cpu",
-   "brand": "Intel",
-   "model_key": "cpu:intel:::::5t245kf",
-   "title": "Intel Core Ultra 5 245KF Tray Processor 14C 14T / 24 MB Cache / 4.2 GHz / LGA 1851 (CP-…",
-   "spec": "Intel Core Ultra 5 245KF · LGA1851 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ff3d423c61db8cb9.png",
-   "image": "img/hk-ff3d423c61db8cb9.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/intel_245KF_Tray.png?v=1755862583",
-   "water": null,
-   "official": {
-    "price_hkd": 1345,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245kf-tray-14c-14t-lga-1851-香港代理-3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1345,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:intel:::::5t245k",
-   "category": "cpu",
-   "brand": "Intel",
-   "model_key": "cpu:intel:::::5t245k",
-   "title": "Intel Core Ultra 5 245K Tray Processor 14C 14T / 24 MB Cache / 4.2 GHz / LGA 1851 (CP-5…",
-   "spec": "Intel Core Ultra 5 245K · LGA1851 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fd84aca17eb274f9.png",
-   "image": "img/hk-fd84aca17eb274f9.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel_245K_Tray.png?v=1772256381",
-   "water": null,
-   "official": {
-    "price_hkd": 1390,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245k-tray-14c-14t-lga-1851-cp-5t245k-香港代理-3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1390,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::5500::5500x3d",
+   "id": "cpu|cpu|amd ryzen 5 9600x|am5|box(盒裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::5500::5500x3d",
+   "model_key": "cpu|amd ryzen 5 9600x|am5|box(盒裝)",
+   "title": "AMD Ryzen 5 9600X AM5 處理器 6核12線程 內顯",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bf1ba06ad0143163.webp",
+   "image": "img/hk-bf1ba06ad0143163.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10986.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1340,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10986/amd-ryzen-5-9600x-processor-2",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1379,
+      "url": "https://shop.pegasus.hk/products/220517/AMD-Ryzen-5-9600X-6核心12線程-Box-不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1340,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 5 245k|lga1851|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 5 245k|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 5 245K Tray Processor 14C 14T / 24 MB Cache / 4.2 GHz / LGA 1851 (CP-5…",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a592cbedd4264572.webp",
+   "image": "img/hk-a592cbedd4264572.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/2578c807c38a201d06521a9d4f210b59.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1379,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/61476",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1390,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245k-tray-14c-14t-lga-1851-cp-5t245k-香港代理-3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1379,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 8600g|am5|box(盒裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 8600g|am5|box(盒裝)",
+   "title": "AMD Ryzen 5 8600G AM5 CPU (BOX, 6Cores12Threads, 4.3GHz/5.0GHz, L2:6MB, L3:16MB, Radeon…",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9a5740ba861fec66.webp",
+   "image": "img/hk-9a5740ba861fec66.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/dfa6ede9c4e4a10c5e305fd4a652bb4e.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1380,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/52847",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1398,
+      "url": "https://centralfield.com/product/905/amd-ryzen-5-8600g-processor"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1380,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 5500x3d|am4|tray(散裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 5500x3d|am4|tray(散裝)",
    "title": "AMD Ryzen 5 5500X3D AM4 CPU (Tray, 6Cores12Threads, 3GHz/4GHz, L2:3MB, L3:96MB,105W TDP)",
-   "spec": "AMD Ryzen 5 5500X3D · AM4 · Tray(散裝)",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b0732deabb0bf6d.webp",
    "image": "img/hk-5b0732deabb0bf6d.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4ef9de9ac7fa72cbdfc03b60a9fc8068.webp",
@@ -1415,12 +1375,6 @@
       "store_short": "中田",
       "price_hkd": 1450,
       "url": "https://centralfield.com/product/22874/amd-ryzen-5-5500x3d-processor-3"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1550,
-      "url": "https://centralfield.com/product/19469/amd-ryzen-5-5500x3d-am4-processor-2"
      }
     ]
    },
@@ -1430,12 +1384,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::5b245kf",
+   "id": "cpu|cpu|intel core ultra 5 245kf|lga1851",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::5b245kf",
+   "model_key": "cpu|intel core ultra 5 245kf|lga1851",
    "title": "Intel Core Ultra 5 245KF Processor 14C 14T / 24 MB Cache / 4.2 GHz / LGA 1851 (CP-5B245…",
-   "spec": "Intel Core Ultra 5 245KF · LGA1851",
+   "spec": "LGA1851（Core Ultra）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d234d974cb80f6d3.jpg",
    "image": "img/hk-d234d974cb80f6d3.jpg",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/intel_bx80768245k_core_ultra_5_245k_1728557213_1852494_500x_a1bbb945-509e-4696-b4fb-af590de397a8.jpg?v=1730119788",
@@ -1454,12 +1408,84 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::8cores16threads",
+   "id": "cpu|cpu|amd ryzen 7 7700x|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::8cores16threads",
-   "title": "AMD Ryzen 7 9700X AM5 CPU (Tray, 8Cores16Threads, 3.8GHz/5.5GHz, L2:8MB, L3:32MB, 65W TDP)",
-   "spec": "AMD Ryzen 7 9700X · AM5 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 7 7700x|am5|tray(散裝)",
+   "title": "AMD Ryzen 7 7700X AM5 處理器 | 8核16線程 內顯",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-811252d541dcc557.webp",
+   "image": "img/hk-811252d541dcc557.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/20860.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1460,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20860/amd-ryzen-7-7700x-am5-processor",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1460,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 5 225f|lga1851|box(盒裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 5 225f|lga1851|box(盒裝)",
+   "title": "Intel Core Ultra 5 225F 10核心10線程 Box",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e23496872768a074.png",
+   "image": "img/hk-e23496872768a074.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/5ad79fe4-2828-4977-abdb-8735f1624a00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 1499,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/222889/Intel-Core-Ultra-5-225F-10核心10線程-Box--不含散熱器---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 5500x3d|am4|box(盒裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 5500x3d|am4|box(盒裝)",
+   "title": "AMD Ryzen 5 5500X3D AM4處理器 | 6核12線程 3D V-Cache",
+   "spec": "AM4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5e72cc3c249f2195.webp",
+   "image": "img/hk-5e72cc3c249f2195.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/19469.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1550,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/19469/amd-ryzen-5-5500x3d-am4-processor-2",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1550,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 9700x|am5|tray(散裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 9700x|am5|tray(散裝)",
+   "title": "AMD Ryzen 7 9700X Tray Processor 8C 16T / 40 MB Cache / 3.8 GHz / Socket AM5 (CP-AT97X)…",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-411c810d7d7e4fcb.webp",
    "image": "img/hk-411c810d7d7e4fcb.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/9cf87c9d5e08c350b44904e43f197fbf.webp",
@@ -1470,7 +1496,26 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/54788",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1600,
+      "url": "https://centralfield.com/product/9387/amd-ryzen-7-9700x-processor-am5"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1640,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/最新產品-amd-ryzen-7-9700x-tray-processor-8c-16t-socket-am5"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1689,
+      "url": "https://shop.pegasus.hk/products/220791/AMD-Ryzen-7-9700X-8核心16線程-Tray-不含散熱器---3年保養"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1599,
@@ -1478,12 +1523,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i5-12600k",
+   "id": "cpu|cpu|intel core i5-12600k (12th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i5-12600k",
+   "model_key": "cpu|intel core i5-12600k (12th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i5-12600K CPU (TRAY, Alder Lake,10Core(6P4E)16Threads,3.7/4.9GHz,LGA1700,UHD…",
-   "spec": "Intel Core i5-12600K (12th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a57f683d94a4517b.webp",
    "image": "img/hk-a57f683d94a4517b.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/f1ac55a03b6f18bf0456632c5cb5b1a9.webp",
@@ -1502,36 +1547,80 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::8700::8cores16threads",
+   "id": "cpu|cpu|amd ryzen 7 8700g|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::8700::8cores16threads",
+   "model_key": "cpu|amd ryzen 7 8700g|am5|tray(散裝)",
    "title": "AMD Ryzen 7 8700G AM5 CPU (Tray, 8Cores16Threads, 4.2GHz/5.1GHz, L2:8MB, L3:16MB, Radeo…",
-   "spec": "AMD Ryzen 7 8700G · AM5 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e0b7ea9a986e95de.webp",
-   "image": "img/hk-e0b7ea9a986e95de.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/ae5a37c3914ea8806e351d23c09c12e5.webp",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2982067f09f5d665.webp",
+   "image": "img/hk-2982067f09f5d665.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7432.webp",
    "water": null,
    "official": {
-    "price_hkd": 1699,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/53864",
+    "price_hkd": 1695,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7432/amd-ryzen-7-8700g-processor",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1699,
+      "url": "https://secomputer.com.hk/products/53864"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1899,
+      "url": "https://shop.pegasus.hk/products/219389/AMD-Ryzen-7-8700G-8核心16線程-處理器-Tray--不含散熱器---3年保養"
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 1699,
+   "best_price": 1695,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i5-14600kf",
+   "id": "cpu|cpu|intel core ultra 5 250kf plus|lga1851|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i5-14600kf",
-   "title": "Intel Core i5-14600KF CPU (BOX, Raptor Lake-S Refresh, 14Core(6P8E)20Threads,3.5/5.3GHz…",
-   "spec": "Intel Core i5-14600KF (14th Gen) · LGA1700 · Tray(散裝)",
+   "model_key": "cpu|intel core ultra 5 250kf plus|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 5 250KF Plus Tray Processor 18C 18T / 30 MB Cache / 4.2 GHz / LGA 1851…",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-26e8ebc4a81b9c40.webp",
+   "image": "img/hk-26e8ebc4a81b9c40.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21984.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1768,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21984/intel-core-ultra-5-250kf-plus-lga1851-processor",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1790,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-250kf-plus-tray-18c-18t-lga-1851-cp-5t25kfp-香港代理-3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1768,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core i5-14600kf (14th gen)|lga1700|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core i5-14600kf (14th gen)|lga1700|tray(散裝)",
+   "title": "Intel Core i5-14600KF 14核20線程 LGA1700 無內顯處理器",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-017e79611846b319.webp",
    "image": "img/hk-017e79611846b319.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/1002.webp",
@@ -1542,14 +1631,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/1002/intel-core-i5-14600kf-lga1700-cpu",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2050,
-      "url": "https://secomputer.com.hk/products/51182"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 1770,
@@ -1557,36 +1639,73 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::5t25kfp",
+   "id": "cpu|cpu|intel core ultra 5 250k plus|lga1851|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::5t25kfp",
-   "title": "Intel Core Ultra 5 250KF Plus Tray Processor 18C 18T / 30 MB Cache / 4.2 GHz / LGA 1851…",
-   "spec": "Intel Core Ultra 5 250KF Plus · LGA1851 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e2654e1a137e4b3e.jpg",
-   "image": "img/hk-e2654e1a137e4b3e.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/250-14091-cpu-intel-core-ultra-5-250kf-plus-hang-tray.jpg?v=1783408875",
+   "model_key": "cpu|intel core ultra 5 250k plus|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 5 250K Plus 處理器 | 20核20線程 LGA1851 內顯",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0b47f96fcc096ec6.webp",
+   "image": "img/hk-0b47f96fcc096ec6.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22145.webp",
    "water": null,
    "official": {
-    "price_hkd": 1790,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-250kf-plus-tray-18c-18t-lga-1851-cp-5t25kfp-香港代理-3年保養",
+    "price_hkd": 1810,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22145/intel-core-ultra-5-250k-plus-lga1851-processor",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 1790,
+   "best_price": 1810,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::5c250kp",
+   "id": "cpu|cpu|amd ryzen 7 9700x|am5|box(盒裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 9700x|am5|box(盒裝)",
+   "title": "AMD Ryzen 7 9700X 盒裝處理器 AM5 8核16線程 內顯",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cdda4f7bb3ec8443.webp",
+   "image": "img/hk-cdda4f7bb3ec8443.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/912.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1840,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/17923/amd-ryzen-7-9700x-am5-cpu",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1840,
+      "url": "https://centralfield.com/product/912/amd-ryzen-7-9700x-am5-cpu-2"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1999,
+      "url": "https://shop.pegasus.hk/products/220518/AMD-Ryzen-7-9700X-8核心16線程-Box-不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1840,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 5 250k plus|lga1851",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::5c250kp",
+   "model_key": "cpu|intel core ultra 5 250k plus|lga1851",
    "title": "Intel Core Ultra 5 250K Plus Processor 18C 18T / 30 MB Cache / 4.2 GHz / LGA 1851 (CP-5…",
-   "spec": "Intel Core Ultra 5 250K Plus · LGA1851",
+   "spec": "LGA1851（Core Ultra）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-86701bfe98f006e6.png",
    "image": "img/hk-86701bfe98f006e6.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel250KPlus.png?v=1774867696",
@@ -1605,12 +1724,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i5-14600k",
+   "id": "cpu|cpu|intel core i5-14600k (14th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i5-14600k",
+   "model_key": "cpu|intel core i5-14600k (14th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i5-14600K CPU (TRAY, Raptor Lake-S Refresh, 14Core(6P8E)20Threads,3.5/5.3GHz…",
-   "spec": "Intel Core i5-14600K (14th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a57f683d94a4517b.webp",
    "image": "img/hk-a57f683d94a4517b.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/f1ac55a03b6f18bf0456632c5cb5b1a9.webp",
@@ -1642,12 +1761,67 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::20core",
+   "id": "cpu|cpu|amd ryzen 7 8700g|am5",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 8700g|am5",
+   "title": "AMD Ryzen 7 8700G Processor 8C 16T / 24 MB Cache / 4.2 GHz / Socket AM5 (CP-AB87G) - 3年保養",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d86ef997c9944ecb.png",
+   "image": "img/hk-d86ef997c9944ecb.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD8700G_68888d09-6711-4430-b8ee-6580b31f04d5.png?v=1746981361",
+   "water": null,
+   "official": {
+    "price_hkd": 1940,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-8700g-processor-8c-16t-socket-am5",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1940,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 5 250k plus|lga1851|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::20core",
-   "title": "Intel Core Ultra 7 265K CPU (Box, 20Core(8P+12E) 20Threads, 3.9/5.2GHz, Intel Arc Xe2, …",
-   "spec": "Intel Core Ultra 7 265KF · LGA1851 · Tray(散裝)",
+   "model_key": "cpu|intel core ultra 5 250k plus|lga1851|box(盒裝)",
+   "title": "Intel Core Ultra 5 250K Plus 處理器 LGA1851 內顯",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-96acd6672cadd64d.webp",
+   "image": "img/hk-96acd6672cadd64d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/19598.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1940,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/19598/intel-core-ultra-5-250k-plus-processor",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1979,
+      "url": "https://shop.pegasus.hk/products/230983/Intel-Core-Ultra-5-250K-Plus-18核心18線程-Box--不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1940,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 7 265kf|lga1851|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 7 265kf|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 7 265KF Tray Processor 20C 20T / 30 MB Cache / 3.9 GHz / LGA 1851 (CP-…",
+   "spec": "LGA1851（Core Ultra）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d960e9e54b8c16d9.webp",
    "image": "img/hk-d960e9e54b8c16d9.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/5e5aaf8d5648ebe3e431d6f1f8eab6c2.webp",
@@ -1660,16 +1834,16 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2129,
-      "url": "https://secomputer.com.hk/products/55114"
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1960,
+      "url": "https://shop.pegasus.hk/products/221701/Intel-Core-Ultra-7-265KF-20核心20線程-Tray--不含散熱器---3年保養"
      },
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2189,
-      "url": "https://secomputer.com.hk/products/54709"
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1990,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-7-processor-265kf-tray-20c-20t-lga-1851"
      }
     ]
    },
@@ -1679,12 +1853,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::7800::7800x3d",
+   "id": "cpu|cpu|amd ryzen 7 7800x3d|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::7800::7800x3d",
-   "title": "AMD Ryzen 7 7800X3D Processor 8C 16T / 104 MB Cache / 4.2 GHz / Socket AM5 (CP-AB78X3D)…",
-   "spec": "AMD Ryzen 7 7800X3D · AM5 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 7 7800x3d|am5|tray(散裝)",
+   "title": "AMD Ryzen 7 7800X3D CPU (Tray ,AM5, 8Cores 16Threads, 4.2GHz/5.0GHz, L2:8MB, L3:96MB,12…",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d8125fcc3d456fd0.webp",
    "image": "img/hk-d8125fcc3d456fd0.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/4554.webp",
@@ -1722,45 +1896,160 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::7t265kf",
+   "id": "cpu|cpu|amd ryzen 7 8700g|am5|box(盒裝)",
    "category": "cpu",
-   "brand": "Intel",
-   "model_key": "cpu:intel:::::7t265kf",
-   "title": "Intel Core Ultra 7 265KF Tray Processor 20C 20T / 30 MB Cache / 3.9 GHz / LGA 1851 (CP-…",
-   "spec": "Intel Core Ultra 7 265KF · LGA1851 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-13470f5a4a406cc7.png",
-   "image": "img/hk-13470f5a4a406cc7.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel265KFTray.png?v=1746015163",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 8700g|am5|box(盒裝)",
+   "title": "AMD Ryzen 7 8700G AM5處理器 8核16線程 780M內顯 盒裝",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-13c44d2b542bd2a2.webp",
+   "image": "img/hk-13c44d2b542bd2a2.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/928.webp",
    "water": null,
    "official": {
-    "price_hkd": 1990,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-7-processor-265kf-tray-20c-20t-lga-1851",
+    "price_hkd": 1999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/928/amd-ryzen-7-8700g-am5-processor",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 1990,
+   "best_price": 1999,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::7t265k",
+   "id": "cpu|cpu|intel core i5-14600kf (14th gen)|lga1700|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::7t265k",
+   "model_key": "cpu|intel core i5-14600kf (14th gen)|lga1700|box(盒裝)",
+   "title": "Intel Core i5-14600KF CPU (BOX, Raptor Lake-S Refresh, 14Core(6P8E)20Threads,3.5/5.3GHz…",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-63ca1ef113ef70ac.webp",
+   "image": "img/hk-63ca1ef113ef70ac.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/cc4fd69ce73386513780cf3b17e88043.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2050,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/51182",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2050,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 7 265kf|lga1851|box(盒裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 7 265kf|lga1851|box(盒裝)",
+   "title": "英特爾 Intel Core Ultra 7 265KF 處理器 | 20核 LGA1851 (需獨顯)",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6cbfa3f825ce2ef5.webp",
+   "image": "img/hk-6cbfa3f825ce2ef5.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22279.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2050,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22279/intel-core-ultra-7-265kf-processor-2",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2050,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 7 265k|lga1851|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 7 265k|lga1851|tray(散裝)",
    "title": "Intel Core Ultra 7 265K Tray Processor 20C 20T / 30 MB Cache / 3.9 GHz / LGA 1851 (CP-7…",
-   "spec": "Intel Core Ultra 7 265K · LGA1851 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d59fccadf1ac51d1.png",
-   "image": "img/hk-d59fccadf1ac51d1.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel265KTray.png?v=1746014958",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f9cd623cb2a0f3e7.webp",
+   "image": "img/hk-f9cd623cb2a0f3e7.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7688.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2110,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7688/intel-core-ultra-7-265k-processor",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2129,
+      "url": "https://secomputer.com.hk/products/55114"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2150,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-7-processor-265k-tray-20c-20t-lga-1851"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2199,
+      "url": "https://shop.pegasus.hk/products/221702/Intel-Core-Ultra-7-265K-20核心20線程-Tray--不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 2110,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 7800x3d|am5",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 7800x3d|am5",
+   "title": "AMD Ryzen 7 7800X3D Processor 8C 16T / 104 MB Cache / 4.2 GHz / Socket AM5 (CP-AB78X3D)…",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9a20cb7c4f831c81.png",
+   "image": "img/hk-9a20cb7c4f831c81.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_7800X3D_BOX.png?v=1757506775",
+   "water": null,
+   "official": {
+    "price_hkd": 2120,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-7800x3d-processor-8c-16t-socket-am5",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2120,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 7800x3d|am5|box(盒裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 7800x3d|am5|box(盒裝)",
+   "title": "AMD Ryzen 7 7800X3D AM5 處理器 8核16線程 3D V-Cache 盒裝版",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7e82d24616c965e2.webp",
+   "image": "img/hk-7e82d24616c965e2.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/15234.webp",
    "water": null,
    "official": {
     "price_hkd": 2150,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-7-processor-265k-tray-20c-20t-lga-1851",
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/15234/amd-ryzen-7-7800x3d-processor",
     "stock": "現貨",
     "others": []
    },
@@ -1770,12 +2059,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i7-13700f",
+   "id": "cpu|cpu|intel core i7-13700f (13th gen)|lga1700|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i7-13700f",
+   "model_key": "cpu|intel core i7-13700f (13th gen)|lga1700|box(盒裝)",
    "title": "Intel Core i7-13700F 處理器 16核24線程 LGA1700 無內顯",
-   "spec": "Intel Core i7-13700F (13th Gen) · LGA1700 · Box(盒裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6037bea1ecab1d1c.webp",
    "image": "img/hk-6037bea1ecab1d1c.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/22052.webp",
@@ -1794,12 +2083,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i7-12700kf",
+   "id": "cpu|cpu|intel core i7-12700kf (12th gen)|lga1700|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i7-12700kf",
+   "model_key": "cpu|intel core i7-12700kf (12th gen)|lga1700|box(盒裝)",
    "title": "Intel Core i7-12700KF 盒裝處理器 12核20線程 LGA1700",
-   "spec": "Intel Core i7-12700KF (12th Gen) · LGA1700 · Box(盒裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dd0a31d0fe1c525f.webp",
    "image": "img/hk-dd0a31d0fe1c525f.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/21151.webp",
@@ -1818,12 +2107,49 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i7-14700f",
+   "id": "cpu|cpu|intel core ultra 7 265k|lga1851|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i7-14700f",
+   "model_key": "cpu|intel core ultra 7 265k|lga1851|box(盒裝)",
+   "title": "Intel Core Ultra 7 265K CPU (Box, 20Core(8P+12E) 20Threads, 3.9/5.2GHz, Intel Arc Xe2, …",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c1dd4d48818d1a05.webp",
+   "image": "img/hk-c1dd4d48818d1a05.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/3532174f6a74b1940c912c80c5ec5844.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2189,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/54709",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2190,
+      "url": "https://centralfield.com/product/2617/intel-core-ultra-7-265k-processor-lga1851"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2299,
+      "url": "https://shop.pegasus.hk/products/221333/Intel-Core-Ultra-7-265K-20核心20線程-Box--不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 2189,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core i7-14700f (14th gen)|lga1700|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core i7-14700f (14th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i7-14700F Tray Processor 20C 28T / 33 MB Cache / 2.1 GHz / LGA 1700 (CP-7T14…",
-   "spec": "Intel Core i7-14700F (14th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-893e6169f25a9a0c.webp",
    "image": "img/hk-893e6169f25a9a0c.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/1016.webp",
@@ -1849,12 +2175,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i7-12700k",
+   "id": "cpu|cpu|intel core i7-12700k (12th gen)|lga1700|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i7-12700k",
+   "model_key": "cpu|intel core i7-12700k (12th gen)|lga1700|box(盒裝)",
    "title": "Intel Core i7-12700K 盒裝處理器 | 12核20線程 LGA1700 內顯",
-   "spec": "Intel Core i7-12700K (12th Gen) · LGA1700 · Box(盒裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-401dec362c0dad1f.webp",
    "image": "img/hk-401dec362c0dad1f.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/22051.webp",
@@ -1873,12 +2199,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::ryzen9",
+   "id": "cpu|cpu|amd ryzen 9 9900x|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::ryzen9",
-   "title": "AMD Ryzen9 9900X 處理器 (12核24線程/AM5/內顯) 中田",
-   "spec": "AMD Ryzen 9 9900X · AM5 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 9 9900x|am5|tray(散裝)",
+   "title": "AMD Ryzen 9 9900X Tray Processor 12C 24T / 76 MB Cache / 4.4 GHz / Socket AM5 (CP-AT99X…",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0967c4941046c310.webp",
    "image": "img/hk-0967c4941046c310.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/277.webp",
@@ -1891,10 +2217,16 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2850,
-      "url": "https://centralfield.com/product/3833/amd-ryzen9-9900x-processor"
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2650,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/最新產品-amd-ryzen-9-9900x-tray-processor-12c-24t-socket-am5"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2699,
+      "url": "https://shop.pegasus.hk/products/222280/AMD-Ryzen-9-9900X-12核心24線程-Tray-不含散熱器---3年保養"
      }
     ]
    },
@@ -1904,12 +2236,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::24core",
+   "id": "cpu|cpu|intel core ultra 7 270k plus|lga1851|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::24core",
-   "title": "Intel Core Ultra 7 270K Plus CPU (Box, 24Core(8P+16E) 24Threads, 3.2/5.5GHz, 40M Cache …",
-   "spec": "Intel Core Ultra 7 270K Plus · LGA1851 · Tray(散裝)",
+   "model_key": "cpu|intel core ultra 7 270k plus|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 7 270K Plus Tray Processor 24C 24T / 36 MB Cache / 3.7 GHz / LGA 1851 …",
+   "spec": "LGA1851（Core Ultra）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d960e9e54b8c16d9.webp",
    "image": "img/hk-d960e9e54b8c16d9.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/5e5aaf8d5648ebe3e431d6f1f8eab6c2.webp",
@@ -1922,10 +2254,16 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2650,
-      "url": "https://secomputer.com.hk/products/61434"
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2530,
+      "url": "https://centralfield.com/product/20677/intel-core-ultra-7-270k-plus-processor"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2600,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-7-processor-270k-plus-tray-24c-24t-lga-1851-cp-7t270kp-香港代理-3年保養"
      }
     ]
    },
@@ -1935,36 +2273,43 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::7t270kp",
+   "id": "cpu|cpu|intel core ultra 7 270k plus|lga1851|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::7t270kp",
-   "title": "Intel Core Ultra 7 270K Plus Tray Processor 24C 24T / 36 MB Cache / 3.7 GHz / LGA 1851 …",
-   "spec": "Intel Core Ultra 7 270K Plus · LGA1851 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-518ebd81d9c97b74.png",
-   "image": "img/hk-518ebd81d9c97b74.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/intel270KPlusTray.png?v=1781241175",
+   "model_key": "cpu|intel core ultra 7 270k plus|lga1851|box(盒裝)",
+   "title": "Intel Core Ultra 7 270K Plus CPU (Box, 24Core(8P+16E) 24Threads, 3.2/5.5GHz, 40M Cache …",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c1bbd7d864c3d9b5.webp",
+   "image": "img/hk-c1bbd7d864c3d9b5.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/8f77a75e5c0717c3e81ec0ddc40934aa.webp",
    "water": null,
    "official": {
-    "price_hkd": 2600,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-7-processor-270k-plus-tray-24c-24t-lga-1851-cp-7t270kp-香港代理-3年保養",
+    "price_hkd": 2650,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/61434",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2660,
+      "url": "https://centralfield.com/product/19599/intel-core-ultra-7-270k-plus-processor-bx80768270k"
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 2600,
+   "best_price": 2650,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::7c270kp",
+   "id": "cpu|cpu|intel core ultra 7 270k plus|lga1851",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::7c270kp",
+   "model_key": "cpu|intel core ultra 7 270k plus|lga1851",
    "title": "Intel Core Ultra 7 270K Plus Processor 24C 24T / 36 MB Cache / 3.7 GHz / LGA 1851 (CP-7…",
-   "spec": "Intel Core Ultra 7 270K Plus · LGA1851",
+   "spec": "LGA1851（Core Ultra）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0bdf2e3b079ab967.png",
    "image": "img/hk-0bdf2e3b079ab967.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel270KPlus.png?v=1774868204",
@@ -1983,12 +2328,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::5800::5800x3d",
+   "id": "cpu|cpu|amd ryzen 7 5800x3d|am4|box(盒裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::5800::5800x3d",
-   "title": "AMD Ryzen 7 5800X3D (10週年紀念版) AM4 CPU ( 8Cores16Threads, 3.4GHz/4.5GHz, L2:4MB, L3:96MB…",
-   "spec": "AMD Ryzen 7 5800X3D · AM4 · Box(盒裝)",
+   "model_key": "cpu|amd ryzen 7 5800x3d|am4|box(盒裝)",
+   "title": "AMD Ryzen 7 5800X3D 10週年紀念版 AM4處理器 8核16線程",
+   "spec": "AM4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-451fe7755f2b669e.webp",
    "image": "img/hk-451fe7755f2b669e.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/22003.webp",
@@ -1999,13 +2344,31 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/22003/amd-ryzen-7-5800x3d-am4-processor",
     "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 5800x3d|am4",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 5800x3d|am4",
+   "title": "AMD Ryzen 7 5800X3D (10週年紀念版) AM4 CPU ( 8Cores16Threads, 3.4GHz/4.5GHz, L2:4MB, L3:96MB…",
+   "spec": "AM4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3af04d2f00a5b8c2.png",
+   "image": "img/hk-3af04d2f00a5b8c2.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5800X3D_10th.png?v=1785580687",
+   "water": null,
+   "official": {
+    "price_hkd": 2760,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-5800x3d-10th-anniversary-edition-十週年紀念版-processor-8c-16t-am4-socket",
+    "stock": "現貨",
     "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2760,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-5800x3d-10th-anniversary-edition-十週年紀念版-processor-8c-16t-am4-socket"
-     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -2015,17 +2378,17 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 2750,
+   "best_price": 2760,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::7900::12cores",
+   "id": "cpu|cpu|amd ryzen 9 7900|am5|box(盒裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::7900::12cores",
+   "model_key": "cpu|amd ryzen 9 7900|am5|box(盒裝)",
    "title": "AMD Ryzen 9 7900 CPU (Box, AM5, 12Cores/24Threads, 3.7GHz/5.4GHz, L2:12MB, L3:64MB,65W …",
-   "spec": "AMD Ryzen 9 7900 · AM5 · Box(盒裝)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7a30b278b619636c.png",
    "image": "img/hk-7a30b278b619636c.png",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/d9e58fa168db8050ac65532caefb33ac.png",
@@ -2044,12 +2407,43 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::9800x3d",
+   "id": "cpu|cpu|amd ryzen 9 9900x|am5|box(盒裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::9800x3d",
+   "model_key": "cpu|amd ryzen 9 9900x|am5|box(盒裝)",
+   "title": "AMD Ryzen9 9900X 處理器 | 12核24線程 AM5 平台內顯",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-895445b800c83723.webp",
+   "image": "img/hk-895445b800c83723.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/3833.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2850,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/3833/amd-ryzen9-9900x-processor",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 3130,
+      "url": "https://centralfield.com/product/940/amd-ryzen-9-9900x-cpu"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 2850,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 9800x3d|am5|tray(散裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 9800x3d|am5|tray(散裝)",
    "title": "AMD Ryzen 7 9800X3D Tray Processor 8C 16T / 104 MB Cache / 4.7 GHz / Socket AM5 (CP-AT9…",
-   "spec": "AMD Ryzen 7 9800X3D · AM5 · Tray(散裝)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-411c810d7d7e4fcb.webp",
    "image": "img/hk-411c810d7d7e4fcb.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/9cf87c9d5e08c350b44904e43f197fbf.webp",
@@ -2087,12 +2481,36 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i7-14700k",
+   "id": "cpu|cpu|intel core ultra 7 265|lga1851|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i7-14700k",
+   "model_key": "cpu|intel core ultra 7 265|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 7 265 Tray Processor 20C 20T / 30 MB Cache / 2.4 GHz / LGA 1851 (CP-7T…",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2cceea5c77c415af.png",
+   "image": "img/hk-2cceea5c77c415af.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel_265_Tray_497fb82a-5671-4df8-b89f-810d570822ad.png?v=1752209734",
+   "water": null,
+   "official": {
+    "price_hkd": 2860,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-7-processor-265-tray-20c-20t-lga-1851-香港代理-3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2860,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core i7-14700k (14th gen)|lga1700|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core i7-14700k (14th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i7-14700K CPU (Tray, Raptor Lake-S Refresh, 20Core(8P12E)28Threads,3.4/5.6GH…",
-   "spec": "Intel Core i7-14700K (14th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-44d54559b762455b.jpg",
    "image": "img/hk-44d54559b762455b.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d6071d16-48f0-45db-2113-7e6678564300/public",
@@ -2124,12 +2542,12 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i7-14700",
+   "id": "cpu|cpu|intel core i7-14700 (14th gen)|lga1700|tray(散裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i7-14700",
+   "model_key": "cpu|intel core i7-14700 (14th gen)|lga1700|tray(散裝)",
    "title": "Intel Core i7-14700 Tray Processor 20C 28T / 33 MB Cache / 2.1 GHz / LGA 1700 (CP-7T147…",
-   "spec": "Intel Core i7-14700 (14th Gen) · LGA1700 · Tray(散裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-51f8ae041170d5bf.webp",
    "image": "img/hk-51f8ae041170d5bf.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/17561.webp",
@@ -2155,60 +2573,49 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::at995x",
+   "id": "cpu|cpu|amd ryzen 9 9950x|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::at995x",
-   "title": "AMD Ryzen 9 9950X Tray Processor 16C 32T / 80 MB Cache / 4.3 GHz / Socket AM5 (CP-AT995…",
-   "spec": "AMD Ryzen 9 9950X · AM5 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-450deb7445f6bb92.png",
-   "image": "img/hk-450deb7445f6bb92.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD9950XTray_1.png?v=1746541583",
-   "water": null,
-   "official": {
-    "price_hkd": 3130,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/最新產品-amd-ryzen-9-9950x-tray-processor-16c-32t-socket-am5",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 3130,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu:amd:::::16cores32threads",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu:amd:::::16cores32threads",
+   "model_key": "cpu|amd ryzen 9 9950x|am5|tray(散裝)",
    "title": "AMD Ryzen 9 9950X AM5 CPU (Tray, 16Cores32Threads, 4.3GHz/5.7GHz, L2:16MB, L3:64MB, 170…",
-   "spec": "AMD Ryzen 9 9950X · AM5 · Tray(散裝)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7c6dc19933e1b062.webp",
-   "image": "img/hk-7c6dc19933e1b062.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4687af0b30401b5e00486c8dd3449ccf.webp",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a1ce8d4e7065f520.webp",
+   "image": "img/hk-a1ce8d4e7065f520.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11279.webp",
    "water": null,
    "official": {
-    "price_hkd": 3150,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/56752",
+    "price_hkd": 3095,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11279/amd-ryzen-9-9950x-am5-processor-3",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 3130,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/最新產品-amd-ryzen-9-9950x-tray-processor-16c-32t-socket-am5"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 3150,
+      "url": "https://secomputer.com.hk/products/56752"
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 3150,
+   "best_price": 3095,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::9850x3d",
+   "id": "cpu|cpu|amd ryzen 7 9850x3d|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::9850x3d",
-   "title": "AMD Ryzen 7 9850X3D Processor 8C 16T / 104 MB Cache / 4.7 GHz / Socket AM5 (CP-AB985X3)…",
-   "spec": "AMD Ryzen 7 9850X3D · AM5 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 7 9850x3d|am5|tray(散裝)",
+   "title": "AMD Ryzen 7 9850X3D Tray Processor 8C 16T / 104 MB Cache / 4.7 GHz / Socket AM5 (CP-AT9…",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-411c810d7d7e4fcb.webp",
    "image": "img/hk-411c810d7d7e4fcb.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/9cf87c9d5e08c350b44904e43f197fbf.webp",
@@ -2231,12 +2638,6 @@
       "store_short": "Jumbo",
       "price_hkd": 3270,
       "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-tray-processor-8c-16t-socket-am5-cp-at985x3-香港代理-3年保養"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 3540,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-processor-8c-16t-socket-am5-cp-ab985x3"
      }
     ]
    },
@@ -2246,12 +2647,91 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:intel:::::i9-14900k",
+   "id": "cpu|cpu|amd ryzen 7 9800x3d|am5|box(盒裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 9800x3d|am5|box(盒裝)",
+   "title": "AMD Ryzen 7 9800X3D AM5處理器 8核16線程 3D V-Cache",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8c09174c8cc21e85.webp",
+   "image": "img/hk-8c09174c8cc21e85.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12162.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3250,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12162/amd-ryzen-7-9800x3d-cpu",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 3380,
+      "url": "https://shop.pegasus.hk/products/221477/AMD-Ryzen-7-9800X3D-8核心16線程-處理器-Box--不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3250,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 9850x3d|am5",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 9850x3d|am5",
+   "title": "AMD Ryzen 7 9850X3D Processor 8C 16T / 104 MB Cache / 4.7 GHz / Socket AM5 (CP-AB985X3)…",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1684da724d38c764.png",
+   "image": "img/hk-1684da724d38c764.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD9850X3DBOX_b64ac7a8-cd07-45a6-8082-6e35a10035b8.png?v=1769670658",
+   "water": null,
+   "official": {
+    "price_hkd": 3540,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-processor-8c-16t-socket-am5-cp-ab985x3",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3540,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 9 9950x|am5|box(盒裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 9 9950x|am5|box(盒裝)",
+   "title": "AMD Ryzen 9 9950X 16核32線程 AM5處理器 內顯 盒裝版",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4e5b35f6fbebf865.webp",
+   "image": "img/hk-4e5b35f6fbebf865.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/20077.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3650,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20077/amd-ryzen-9-9950x-am5-cpu",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3650,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core i9-14900k (14th gen)|lga1700|box(盒裝)",
    "category": "cpu",
    "brand": "Intel",
-   "model_key": "cpu:intel:::::i9-14900k",
+   "model_key": "cpu|intel core i9-14900k (14th gen)|lga1700|box(盒裝)",
    "title": "Intel Core i9-14900K CPU (BOX, Raptor Lake-S Refresh, 24Core(8P16E)32Threads,3.2/6GHz,L…",
-   "spec": "Intel Core i9-14900K (14th Gen) · LGA1700 · Box(盒裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6fc84829b9d3830a.webp",
    "image": "img/hk-6fc84829b9d3830a.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/22497.webp",
@@ -2277,12 +2757,43 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::9900x3d",
+   "id": "cpu|cpu|amd ryzen 7 9850x3d|am5|box(盒裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::9900x3d",
+   "model_key": "cpu|amd ryzen 7 9850x3d|am5|box(盒裝)",
+   "title": "AMD Ryzen 7 9850X3D 盒裝版 AM5 處理器 8核16線程 內顯",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9036305e57f75e9d.webp",
+   "image": "img/hk-9036305e57f75e9d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/20929.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3670,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20929/amd-ryzen-7-9850x3d-am5-processor",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 3799,
+      "url": "https://shop.pegasus.hk/products/228556/AMD-Ryzen-7-9850X3D-8核心16線程-處理器-Box-不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3670,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 9 9900x3d|am5|box(盒裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 9 9900x3d|am5|box(盒裝)",
    "title": "AMD Ryzen 9 9900X3D AM5處理器 12核24線程 內顯 盒裝版",
-   "spec": "AMD Ryzen 9 9900X3D · AM5 · Box(盒裝)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-99c5530a9fd8d5e0.webp",
    "image": "img/hk-99c5530a9fd8d5e0.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/20285.webp",
@@ -2301,12 +2812,67 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::9950x3d",
+   "id": "cpu|cpu|intel core ultra 9 285k|lga1851|box(盒裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 9 285k|lga1851|box(盒裝)",
+   "title": "Intel Core Ultra 9 285K 盒裝處理器 | 24核24線程 LGA1851 內顯",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5d25a341ffe6d4ca.webp",
+   "image": "img/hk-5d25a341ffe6d4ca.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/20680.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4280,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20680/intel-core-ultra-9-285k-processor-3",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4299,
+      "url": "https://shop.pegasus.hk/products/221332/Intel-Core-Ultra-9-285K-24核心24線程-Box--不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4280,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 9 285k|lga1851|tray(散裝)",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 9 285k|lga1851|tray(散裝)",
+   "title": "Intel Core Ultra 9 285K 24核心24線程 Tray",
+   "spec": "LGA1851（Core Ultra）",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e012cf03e6829dff.jpg",
+   "image": "img/hk-e012cf03e6829dff.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/e1e96da6-e289-42ae-61ac-bb2295827600/public",
+   "water": null,
+   "official": {
+    "price_hkd": 4359,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/221459/Intel-Core-Ultra-9-285K-24核心24線程-Tray--不含散熱器---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4359,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 9 9950x3d|am5|tray(散裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::9950x3d",
+   "model_key": "cpu|amd ryzen 9 9950x3d|am5|tray(散裝)",
    "title": "AMD Ryzen 9 9950X3D Tray Processor 16C 32T / 144 MB Cache / 4.3 GHz / Socket AM5 (CP-AT…",
-   "spec": "AMD Ryzen 9 9950X3D · AM5 · Tray(散裝)",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-24c18ab9a067c8fe.webp",
    "image": "img/hk-24c18ab9a067c8fe.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/11812.webp",
@@ -2329,12 +2895,6 @@
       "store_short": "飛馬",
       "price_hkd": 4690,
       "url": "https://shop.pegasus.hk/products/223632/AMD-Ryzen-9-9950X3D-16核心32線程-處理器-Tray-不含散熱器---3年保養"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 5149,
-      "url": "https://shop.pegasus.hk/products/223620/AMD-Ryzen-9-9950X3D-16核心32線程-處理器-Box-不含散熱器---3年保養"
      }
     ]
    },
@@ -2344,12 +2904,36 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu:amd:::::9950x3d2",
+   "id": "cpu|cpu|amd ryzen 9 9950x3d|am5|box(盒裝)",
    "category": "cpu",
    "brand": "AMD",
-   "model_key": "cpu:amd:::::9950x3d2",
-   "title": "AMD Ryzen™ 9 9950X3D2 Dual Edition CPU (Box, 16C/32T, 4.3/5.6GHz, L3 192MB, TDP 200W, A…",
-   "spec": "AMD Ryzen 9 9950X3D2 · AM5 · Tray(散裝)",
+   "model_key": "cpu|amd ryzen 9 9950x3d|am5|box(盒裝)",
+   "title": "AMD Ryzen 9 9950X3D 16核心32線程 處理器 Box",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f00fdcdecf60946c.png",
+   "image": "img/hk-f00fdcdecf60946c.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/fbf8b1e9-5e3a-493c-7f29-2629d5936700/public",
+   "water": null,
+   "official": {
+    "price_hkd": 5149,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223620/AMD-Ryzen-9-9950X3D-16核心32線程-處理器-Box-不含散熱器---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5149,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 9 9950x3d2|am5|tray(散裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 9 9950x3d2|am5|tray(散裝)",
+   "title": "AMD Ryzen 9 9950X3D2 雙3D V-Cache 16核32線程 AM5處理器",
+   "spec": "AM5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-17b0fa3257b34b9f.webp",
    "image": "img/hk-17b0fa3257b34b9f.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/20325.webp",
@@ -2362,27 +2946,52 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 6599,
-      "url": "https://secomputer.com.hk/products/61705"
-     },
-     {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 6600,
       "url": "https://shop.pegasus.hk/products/231188/AMD-Ryzen-9-9950X3D2-16核心-32線程-處理器-Tray-不含散熱器---3年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 7950,
-      "url": "https://centralfield.com/product/19565/amd-ryzen-9-9950x3d2-am5-processor"
      }
     ]
    },
    "delta_hkd": null,
    "best_price": 6440,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 9 9950x3d2|am5|box(盒裝)",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 9 9950x3d2|am5|box(盒裝)",
+   "title": "AMD Ryzen™ 9 9950X3D2 Dual Edition CPU (Box, 16C/32T, 4.3/5.6GHz, L3 192MB, TDP 200W, A…",
+   "spec": "AM5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1a882c0e59e1ce67.webp",
+   "image": "img/hk-1a882c0e59e1ce67.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/e67a727788c5c56a0825666173a738c4.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 6599,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/61705",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7950,
+      "url": "https://centralfield.com/product/19565/amd-ryzen-9-9950x3d2-am5-processor"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 7999,
+      "url": "https://shop.pegasus.hk/products/228554/AMD-Ryzen-9-9950X3D2-16核心32線程-處理器-Box-不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 6599,
    "has_water": false,
    "has_official": true
   },
