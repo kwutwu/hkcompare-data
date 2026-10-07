@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-07T18:38:45Z",
- "generated_at_hkt": "2026-10-08 02:38 HKT",
- "price_updated_hkt": "2026-10-08 02:38 HKT",
+ "generated_at": "2026-10-07T18:41:58Z",
+ "generated_at_hkt": "2026-10-08 02:41 HKT",
+ "price_updated_hkt": "2026-10-08 02:41 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-07 09:56–20:05 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261007/hkcompare_rows.json",
@@ -53,8 +53,8 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 24,
-   "official_downloaded": 1,
-   "official_cached": 387,
+   "official_downloaded": 0,
+   "official_cached": 388,
    "failed": 0
   },
   "image_samples": [
@@ -117,10 +117,10 @@
   ],
   "ivan": {
    "total_listings": 151,
-   "qualified": 54,
+   "qualified": 51,
    "deduped": 24,
    "excluded": {
-    "seller": 74,
+    "seller": 77,
     "ship unknown": 8,
     "no ship": 14,
     "used": 1
@@ -3114,6 +3114,12 @@
       "store_short": "未來科技",
       "price_hkd": 7499,
       "url": "https://buymore.hk/shop/goods.php?id=44586"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7999,
+      "url": "https://secomputer.com.hk/products/57497"
      }
     ]
    },
@@ -3590,6 +3596,12 @@
       "store_short": "未來科技",
       "price_hkd": 8699,
       "url": "https://buymore.hk/shop/goods.php?id=43967"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 9199,
+      "url": "https://secomputer.com.hk/products/56682"
      }
     ]
    },
@@ -4004,6 +4016,12 @@
       "store_short": "中田",
       "price_hkd": 10899,
       "url": "https://centralfield.com/product/11532/galax-rtx-5070-ti-ex-gamer-white"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 11699,
+      "url": "https://secomputer.com.hk/products/56611"
      }
     ]
    },
@@ -4351,6 +4369,12 @@
       "store_short": "飛馬",
       "price_hkd": 11399,
       "url": "https://shop.pegasus.hk/products/223256/ASUS-華碩-PRIME-GeForce-RTX-5070-Ti-16GB-OC-顯示卡---3年保養"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 11999,
+      "url": "https://secomputer.com.hk/products/57086"
      }
     ]
    },
@@ -7167,6 +7191,12 @@
       "store_short": "Jumbo",
       "price_hkd": 4550,
       "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-cmk32gx5m2b6000z30-ddr5-6000mhz-memory-amd-expo"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4680,
+      "url": "https://secomputer.com.hk/products/51036"
      }
     ]
    },
@@ -7350,6 +7380,12 @@
       "store_short": "飛馬",
       "price_hkd": 4299,
       "url": "https://shop.pegasus.hk/products/212191/Corsair-VENGEANCE-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL30-CMH32GX5M2B6000Z30K----Limited-Lifetime保養"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4600,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2b6000z30k-ddr5-6000mhz-memory"
      }
     ]
    },
@@ -9961,6 +9997,18 @@
       "store_short": "SE",
       "price_hkd": 1169,
       "url": "https://secomputer.com.hk/products/57152"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1199,
+      "url": "https://shop.pegasus.hk/products/222176/ADATA-Legend-860-1TB-PCIe-40-NVMe-M2-SSD-SLEG-860-1000GCS---5年保養"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1299,
+      "url": "https://shop.pegasus.hk/products/221208/ADATA-Legend-900-1TB-PCIe-40-NVMe-M2-SSD-SLEG-900-1TCS---5年保養"
      }
     ]
    },
@@ -10028,6 +10076,12 @@
       "store_short": "SE",
       "price_hkd": 1260,
       "url": "https://secomputer.com.hk/products/54350"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1300,
+      "url": "https://centralfield.com/product/2489/kingston-nv3-1tb-gen4-m2-ssd-snv3s-1000g"
      }
     ]
    },
@@ -10441,6 +10495,30 @@
       "store_short": "飛馬",
       "price_hkd": 1399,
       "url": "https://shop.pegasus.hk/products/202312/Crucial-BX500-1TB-3D-TLC-SATA-III-SSD---3年保養"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1399,
+      "url": "https://shop.pegasus.hk/products/223161/Crucial-P310-1TB-PCIe-40-NVMe-M2-SSD-CT1000P310SSD8---5年保養"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1450,
+      "url": "https://secomputer.com.hk/products/58055"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1499,
+      "url": "https://shop.pegasus.hk/products/225256/Crucial-P510-1TB-PCIe-50-NVMe-M2-SSD-CT1000P510SSD8---5年保養"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1899,
+      "url": "https://shop.pegasus.hk/products/229090/Crucial-T710-1TB-PCIe-50-NVMe-M2-SSD---5年保養"
      }
     ]
    },
@@ -11196,6 +11274,24 @@
       "store_short": "中田",
       "price_hkd": 1565,
       "url": "https://centralfield.com/product/2608/samsung-990evo-plus-1tb-gen5-nvme-m2-ssd"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1599,
+      "url": "https://shop.pegasus.hk/products/221520/Samsung-三星-990-EVO-Plus-1TB-PCIe-40-NVMe-M2-SSD-MZ-V9S1T0BW---5年保養"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1650,
+      "url": "https://secomputer.com.hk/products/54955"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1699,
+      "url": "https://shop.pegasus.hk/products/211148/Samsung-三星-990-PRO-1TB-PCIe-40-NVMe-M2-SSD-MZ-V9P1T0BW---5年保養"
      }
     ]
    },
@@ -11538,6 +11634,12 @@
       "store_short": "Jumbo",
       "price_hkd": 1840,
       "url": "https://www.jumbo-computer.com/zh-hk/products/wd-1tb-black-sn850x-wds100t2x0e-m-2-2280-pcie-gen4-x4-ssd"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1860,
+      "url": "https://centralfield.com/product/2620/wd-black-sn850x-1tb-gen4-m2-ssd-wds100t2x0e"
      }
     ]
    },
@@ -12085,6 +12187,24 @@
       "store_short": "中田",
       "price_hkd": 2100,
       "url": "https://centralfield.com/product/17353/crucial-p310-2tb-gen4-m2-ssd-6"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2370,
+      "url": "https://secomputer.com.hk/products/58057"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2499,
+      "url": "https://shop.pegasus.hk/products/225934/Crucial-P510-2TB-PCIe-50-NVMe-M2-SSD-CT2000P510SSD8---5年保養"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2699,
+      "url": "https://shop.pegasus.hk/products/228166/Crucial-T710-2TB-PCIe-50-NVMe-M2-SSD---5年保養"
      }
     ]
    },
@@ -12971,6 +13091,12 @@
       "store_short": "中田",
       "price_hkd": 2765,
       "url": "https://centralfield.com/product/2635/wd-black-sn850x-2tb-gen4-m2-ssd-wds200t2x0e-2"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2799,
+      "url": "https://shop.pegasus.hk/products/212846/WD-Black-SN850X-2TB-PCIe-40-NVMe-M2-SSD-w-Heatsink-WDS200T2XHE---5年保養"
      }
     ]
    },
