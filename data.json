@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-07T18:14:44Z",
- "generated_at_hkt": "2026-10-08 02:14 HKT",
- "price_updated_hkt": "2026-10-08 02:14 HKT",
+ "generated_at": "2026-10-07T18:34:42Z",
+ "generated_at_hkt": "2026-10-08 02:34 HKT",
+ "price_updated_hkt": "2026-10-08 02:34 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-07 09:56–20:05 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261007/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 136,
+   "count": 132,
    "enabled": true
   },
   "cpu": {
@@ -25,27 +25,36 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 114,
+   "count": 120,
    "enabled": true
   },
   "ssd": {
    "label": "SSD",
-   "count": 175,
+   "count": 156,
    "enabled": true
   }
  },
  "stats": {
-  "items": 490,
+  "items": 473,
   "both_sides": 11,
   "water_only": 13,
-  "official_only": 466,
+  "official_only": 449,
   "matched_water": 11,
-  "official_groups": 490,
+  "official_groups": 473,
+  "id_merge": {
+   "enabled": true,
+   "unions_upc": 51,
+   "unions_part_number": 63,
+   "old_cards_bridged_by_upc": 33,
+   "old_cards_bridged_by_part_number": 42,
+   "skipped_conflicts": 7,
+   "name_key_splits": 58
+  },
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 24,
-   "official_downloaded": 0,
-   "official_cached": 410,
+   "official_downloaded": 46,
+   "official_cached": 347,
    "failed": 0
   },
   "image_samples": [
@@ -3359,7 +3368,14 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/61983",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8559,
+      "url": "https://centralfield.com/product/21036/colorful-igame-geforce-rtx-5070-ultra-12gb-oc"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 7599,
@@ -3426,7 +3442,7 @@
    "category": "gpu",
    "brand": "ASUS",
    "model_key": "asus:5070:oc",
-   "title": "ASUS T1 GeForce RTX 5070 12GB OC 顯示卡 - T1聯名版",
+   "title": "ASUS華碩 T1 GeForce RTX5070 12GB GDDR7 OC Edition (T1-RTX5070-O12G-GAMING)",
    "spec": "RTX 5070",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7f7e4ca003d31689.png",
    "image": "img/hk-7f7e4ca003d31689.png",
@@ -3450,6 +3466,12 @@
       "store_short": "中田",
       "price_hkd": 8250,
       "url": "https://centralfield.com/product/21495/asus-rtx-5070-t1-oc-12gb-gddr7"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 8799,
+      "url": "https://secomputer.com.hk/products/62216"
      }
     ]
    },
@@ -3590,54 +3612,6 @@
    },
    "delta_hkd": null,
    "best_price": 8400,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|colorful:5070:ultra",
-   "category": "gpu",
-   "brand": "Colorful",
-   "model_key": "colorful:5070:ultra",
-   "title": "Colorful 七彩虹 iGame RTX 5070 Ultra 12GB 顯示卡 超頻版",
-   "spec": "RTX 5070",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1d371fee41b19880.webp",
-   "image": "img/hk-1d371fee41b19880.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/21036.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 8559,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/21036/colorful-igame-geforce-rtx-5070-ultra-12gb-oc",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 8559,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:gaming+oc",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5070:gaming+oc",
-   "title": "ASUS華碩 T1 GeForce RTX5070 12GB GDDR7 OC Edition (T1-RTX5070-O12G-GAMING)",
-   "spec": "RTX 5070",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-69912ece59a0d795.webp",
-   "image": "img/hk-69912ece59a0d795.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/dcc52894808140b0acdac4b627214b35.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 8799,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/62216",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 8799,
    "has_water": false,
    "has_official": true
   },
@@ -4043,10 +4017,10 @@
       "url": "https://buymore.hk/shop/goods.php?id=43880"
      },
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 11699,
-      "url": "https://secomputer.com.hk/products/56611"
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 10899,
+      "url": "https://centralfield.com/product/11532/galax-rtx-5070-ti-ex-gamer-white"
      }
     ]
    },
@@ -4250,30 +4224,6 @@
    },
    "delta_hkd": null,
    "best_price": 10799,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|galax:5070ti:ex+gamer+white",
-   "category": "gpu",
-   "brand": "GALAX",
-   "model_key": "galax:5070ti:ex+gamer+white",
-   "title": "GALAX GeForce RTX 5070 Ti EX Gamer 白色顯示卡 16GB GDDR7 超頻版",
-   "spec": "RTX 5070 Ti",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-222b5a410e0c8e3c.webp",
-   "image": "img/hk-222b5a410e0c8e3c.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/11532.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 10899,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11532/galax-rtx-5070-ti-ex-gamer-white",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 10899,
    "has_water": false,
    "has_official": true
   },
@@ -5003,7 +4953,7 @@
    "category": "gpu",
    "brand": "Palit",
    "model_key": "palit:5080:gamingpro+oc",
-   "title": "PALIT GeForce RTX 5080 GamingPro OC 16G 顯示卡",
+   "title": "Palit同德 RTX5080 GamingPro OC 16G GDDR7 DPx3 (NE75080S19T2-GB2031A)",
    "spec": "RTX 5080",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2baa199aec58d3b8.png",
    "image": "img/hk-2baa199aec58d3b8.png",
@@ -5015,7 +4965,14 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/225861/PALIT-GeForce-RTX-5080-GamingPro-OC-16G-顯示卡",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 13099,
+      "url": "https://secomputer.com.hk/products/60710"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 12499,
@@ -5407,30 +5364,6 @@
    "best_price": 13026,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|?:5080:gamingpro+oc",
-   "category": "gpu",
-   "brand": "Palit",
-   "model_key": "?:5080:gamingpro+oc",
-   "title": "Palit同德 RTX5080 GamingPro OC 16G GDDR7 DPx3 (NE75080S19T2-GB2031A)",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5240b0f0ad04c8a9.webp",
-   "image": "img/hk-5240b0f0ad04c8a9.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/74c2e9b367bfa93b55e28bd070a180e6.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 13099,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/60710",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 13099,
-   "has_water": false,
-   "has_official": true
   },
   {
    "id": "gpu|colorful:5080:oc+ultra",
@@ -6794,7 +6727,7 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:32gb:2x16gb:3200:vengeance:2x16gb",
-   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE LPX CMK32GX4M2E3200C16 DDR4 3200MHz Memory",
+   "title": "Corsair Vengeance LPX 黑色 CMK32GX4M2E3200C16 DDR4 3200MHz 32GB Kit (16GB*2, CL16)",
    "spec": "DDR4 32GB (2x16GB) 3200MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2e343359046a4423.jpg",
    "image": "img/hk-2e343359046a4423.jpg",
@@ -6806,7 +6739,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-lpx-cmk32gx4m2e3200c16-ddr4-3200mhz-memory",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2630,
+      "url": "https://secomputer.com.hk/products/31807"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2576,
@@ -6818,7 +6758,7 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:32gb:2x16gb:3200:rgb+vengeance:2x16gb",
-   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB PRO White 白色 CMW32GX4M2E3200C16W DDR4 3200MHz M…",
+   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB RS CMG32GX4M2E3200C16 DDR4 3200MHz Memory",
    "spec": "DDR4 32GB (2x16GB) 3200MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ede4f2741544b552.jpg",
    "image": "img/hk-ede4f2741544b552.jpg",
@@ -6830,20 +6770,7 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-rs-cmg32gx4m2e3200c16-black-ddr4-3200mhz-memory",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2629,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-pro-cmw32gx4m2e3200c16-black-ddr4-3200mhz-memory"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2629,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-pro-cmw32gx4m2e3200c16w-white-ddr4-3200mhz-memory"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 2608,
@@ -6851,26 +6778,50 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:32gb::3200:vengeance:cmk32gx4m2e3200c16",
+   "id": "ram|ram:corsair:32gb:2x16gb:3200:rgb+vengeance:2x16gb#2",
    "category": "ram",
    "brand": "Corsair",
-   "model_key": "ram:corsair:32gb::3200:vengeance:cmk32gx4m2e3200c16",
-   "title": "Corsair Vengeance LPX 黑色 CMK32GX4M2E3200C16 DDR4 3200MHz 32GB Kit (16GB*2, CL16)",
-   "spec": "DDR4 32GB 3200MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a43f7793df84248f.png",
-   "image": "img/hk-a43f7793df84248f.png",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/30349cdf35e0c86fdc3bf5d616cb1510.png",
+   "model_key": "ram:corsair:32gb:2x16gb:3200:rgb+vengeance:2x16gb",
+   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB PRO CMW32GX4M2E3200C16 DDR4 3200MHz Memory",
+   "spec": "DDR4 32GB (2x16GB) 3200MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a2796e77373b0e8b.jpg",
+   "image": "img/hk-a2796e77373b0e8b.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71e6YWJio-L._AC_SL1500_52e2dfdb-45ed-4dcc-8e52-1e13f89e5e68.jpg?v=1698133212",
    "water": null,
    "official": {
-    "price_hkd": 2630,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/31807",
+    "price_hkd": 2629,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-pro-cmw32gx4m2e3200c16-black-ddr4-3200mhz-memory",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 2630,
+   "best_price": 2629,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:32gb:2x16gb:3200:rgb+vengeance:2x16gb#3",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:32gb:2x16gb:3200:rgb+vengeance:2x16gb",
+   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB PRO White 白色 CMW32GX4M2E3200C16W DDR4 3200MHz M…",
+   "spec": "DDR4 32GB (2x16GB) 3200MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-116797f32b8a82f6.jpg",
+   "image": "img/hk-116797f32b8a82f6.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71O62yfX1-L._AC_SL1500_127efa88-92ec-458d-8b12-b9b92d263529.jpg?v=1698133303",
+   "water": null,
+   "official": {
+    "price_hkd": 2629,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-pro-cmw32gx4m2e3200c16w-white-ddr4-3200mhz-memory",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2629,
    "has_water": false,
    "has_official": true
   },
@@ -7030,7 +6981,7 @@
    "category": "ram",
    "brand": "Crucial",
    "model_key": "ram:crucial:32gb::5600:sodimm:ct32g56c46s5",
-   "title": "Crucial 32GB DDR5-5600 SODIMM 筆記型記憶體 (CT32G56C46S5)",
+   "title": "Crucial SODIMM DDR5 5600MT/s 32GB RAM (32GB*1, CT32G56C46S5)",
    "spec": "DDR5 32GB 5600MHz SO-DIMM(筆電用)",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-61e58a0a9bcda57b.webp",
    "image": "img/hk-61e58a0a9bcda57b.webp",
@@ -7042,10 +6993,48 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/4592/crucial-32gb-ddr5-5600-sodimm-ct32g56c46s5",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 3730,
+      "url": "https://secomputer.com.hk/products/52998"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 3480,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:32gb:2x16gb:5600:lancer:5600mhz#2",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:32gb:2x16gb:5600:lancer:5600mhz",
+   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER BLADE White 白色 AX5U5600C4616G-DTLABWH DDR5 5600MHz M…",
+   "spec": "DDR5 32GB (2x16GB) 5600MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6fc71893393b0dee.png",
+   "image": "img/hk-6fc71893393b0dee.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/2d86edd5-afad-4449-e50b-fc5ace521800/public",
+   "water": null,
+   "official": {
+    "price_hkd": 3499,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/219865/ADATA-XPG-Lancer-Blade-DDR5-White-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABWH---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 3860,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-blade-white-白色-ax5u5600c4616g-dtlabwh-ddr5-5600mhz-memory"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3499,
    "has_water": false,
    "has_official": true
   },
@@ -7054,7 +7043,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:32gb:2x16gb:5600:lancer:5600mhz",
-   "title": "ADATA XPG Lancer Blade DDR5 White 32GB (16GB x 2) 5600MHz CL46",
+   "title": "ADATA XPG Lancer Blade RGB DDR5 32GB (16GB x 2) 5600MHz CL46",
    "spec": "DDR5 32GB (2x16GB) 5600MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6fca08b75a36461c.png",
    "image": "img/hk-6fca08b75a36461c.png",
@@ -7070,8 +7059,8 @@
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
-      "price_hkd": 3499,
-      "url": "https://shop.pegasus.hk/products/219865/ADATA-XPG-Lancer-Blade-DDR5-White-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABWH---Limited-Lifetime保養"
+      "price_hkd": 3599,
+      "url": "https://shop.pegasus.hk/products/235123/ADATA-XPG-Lancer-Blade-RGB-DDR5-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABRBK---Limited-Lifetime保養"
      },
      {
       "store": "未來科技 BUYMORE",
@@ -7107,30 +7096,6 @@
    },
    "delta_hkd": null,
    "best_price": 3499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:adata:32gb:2x16gb:5600:lancer+rgb:5600mhz",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:32gb:2x16gb:5600:lancer+rgb:5600mhz",
-   "title": "ADATA XPG Lancer Blade RGB DDR5 32GB (16GB x 2) 5600MHz CL46",
-   "spec": "DDR5 32GB (2x16GB) 5600MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-07ca344eaeae0527.png",
-   "image": "img/hk-07ca344eaeae0527.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/680c08ad-5803-4d14-5332-4a8a96060a00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 3599,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/235123/ADATA-XPG-Lancer-Blade-RGB-DDR5-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABRBK---Limited-Lifetime保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 3599,
    "has_water": false,
    "has_official": true
   },
@@ -7231,30 +7196,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:crucial:32gb::5600:sodimm:5600mt",
-   "category": "ram",
-   "brand": "Crucial",
-   "model_key": "ram:crucial:32gb::5600:sodimm:5600mt",
-   "title": "Crucial SODIMM DDR5 5600MT/s 32GB RAM (32GB*1, CT32G56C46S5)",
-   "spec": "DDR5 32GB 5600MHz SO-DIMM(筆電用)",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-03bb6bbe94e36065.webp",
-   "image": "img/hk-03bb6bbe94e36065.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/761b6523087c83bcf09454deb8283b89.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 3730,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/52998",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 3730,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:adata:32gb:2x16gb:6000:lancer+rgb:6000mhz",
    "category": "ram",
    "brand": "ADATA",
@@ -7281,14 +7222,14 @@
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
-      "price_hkd": 4099,
-      "url": "https://shop.pegasus.hk/products/222836/ADATA-XPG-Lancer-Blade-RGB-DDR5-White-32GB-16GB-x-2-6000MHz-CL48-AX5U6000C4816G-DTLABRWH---Limited-Lifetime保養"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
       "price_hkd": 4299,
       "url": "https://shop.pegasus.hk/products/219508/ADATA-XPG-Lancer-Blade-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DTLABRBK---Limited-Lifetime保養"
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 4399,
+      "url": "https://buymore.hk/shop/goods.php?id=42614"
      }
     ]
    },
@@ -7375,7 +7316,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-32gb-1x32gb-ct32g56c46u5-ddr5-5600mhz-memory",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 3799,
+      "url": "https://secomputer.com.hk/products/51278"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 3750,
@@ -7511,30 +7459,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:crucial:32gb::5600:udimm:5600mhz",
-   "category": "ram",
-   "brand": "Crucial",
-   "model_key": "ram:crucial:32gb::5600:udimm:5600mhz",
-   "title": "Crucial DDR5 5600MHz 32GB UDIMM RAM (32GB*1, CT32G56C46U5)",
-   "spec": "DDR5 32GB 5600MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bcc66b38191b6cfd.webp",
-   "image": "img/hk-bcc66b38191b6cfd.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4c251bdc4e16bcb41a5e50c794a4db99.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 3799,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/51278",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 3799,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:teamgroup:32gb:2x16gb:6000:rgb:6000mhz",
    "category": "ram",
    "brand": "TeamGroup",
@@ -7563,7 +7487,7 @@
    "category": "ram",
    "brand": "G.Skill",
    "model_key": "ram:g.skill:32gb:2x16gb:6000:rgb+trident:2x16gb",
-   "title": "G.SKILL 32GB Kit (2x16GB) Trident Z5 Neo RGB White 白色 F5-6000J3036F16GX2-TZ5NRW DDR5 60…",
+   "title": "G.SKILL 32GB Kit (2x16GB) Trident Z5 RGB Black 黑色 F5-6000J3238F16GX2-TZ5RK DDR5 6000MHz…",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-74757dde5771ba3c.png",
    "image": "img/hk-74757dde5771ba3c.png",
@@ -7575,47 +7499,10 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-32gb-kit-2x16gb-trident-z5-rgb-black-f5-6000j3238f16gx2-tz5rk-ddr5-6000mhz-memory",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4100,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-trident-z5-neo-rgb-f5-6000j3636f16gx2-tz5nr-ddr5-6000mhz-32gb-kit-2x16gb-amd-expo"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4700,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-32gb-kit-2x16gb-trident-z5-neo-rgb-white-f5-6000j3036f16gx2-tz5nrw-ddr5-6000mhz-memory-amd-expo"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 3850,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:adata:32gb:2x16gb:5600:lancer:2x16gb",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:32gb:2x16gb:5600:lancer:2x16gb",
-   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER BLADE White 白色 AX5U5600C4616G-DTLABWH DDR5 5600MHz M…",
-   "spec": "DDR5 32GB (2x16GB) 5600MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c2cf759abcd4bb25.png",
-   "image": "img/hk-c2cf759abcd4bb25.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/06_p_xpg_lancer_blade_wh_2000x2000_6f292f20-21f4-4e1f-9dab-bacbe33de8ca.png?v=1726061209",
-   "water": null,
-   "official": {
-    "price_hkd": 3860,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-blade-white-白色-ax5u5600c4616g-dtlabwh-ddr5-5600mhz-memory",
-    "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 3860,
+   "best_price": 3850,
    "has_water": false,
    "has_official": true
   },
@@ -7624,7 +7511,7 @@
    "category": "ram",
    "brand": "Klevv",
    "model_key": "ram:klevv:32gb:2x16gb:6000::2x16gb",
-   "title": "KLEVV Bolt V White 白色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXPO & …",
+   "title": "KLEVV Fit V Black 黑色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXPO & I…",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a31e8174842caf38.png",
    "image": "img/hk-a31e8174842caf38.png",
@@ -7638,22 +7525,41 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 3899,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-fit-v-white-白色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-fv16x2-kd5agu880-60b280f"
-     },
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 3979,
+      "url": "https://secomputer.com.hk/products/59241"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3899,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:32gb:2x16gb:6000::2x16gb#2",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:32gb:2x16gb:6000::2x16gb",
+   "title": "KLEVV Fit V White 白色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXPO & I…",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8fea9277b9fb2eb1.png",
+   "image": "img/hk-8fea9277b9fb2eb1.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/KLEVVFITVWhite.png?v=1758962895",
+   "water": null,
+   "official": {
+    "price_hkd": 3899,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-fit-v-white-白色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-fv16x2-kd5agu880-60b280f",
+    "stock": "現貨",
+    "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 3999,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-bolt-v-black-黑色-ddr5-32gb-2x16gb-6000mhz-cl28-a-die-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-bv16x2-kd5agua80-60b280h"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 3999,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-bolt-v-white-白色-ddr5-32gb-2x16gb-6000mhz-cl28-a-die-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-bv16x2-kd5agua80-60b280i"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 3979,
+      "url": "https://secomputer.com.hk/products/59240"
      }
     ]
    },
@@ -7687,54 +7593,11 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:klevv:32gb::6000::6000mhz",
-   "category": "ram",
-   "brand": "Klevv",
-   "model_key": "ram:klevv:32gb::6000::6000mhz",
-   "title": "Klevv DDR5 FIT V 白色 6000MHz 32GB Kit (16GB*2, CL28-36-36-76, FV16X2-KD5AGU880-60B280F)",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fd2c8030e75dd4ff.webp",
-   "image": "img/hk-fd2c8030e75dd4ff.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/e267fdcc04b74136ca4dcc923b34b487.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 3979,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/59240",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 3979,
-      "url": "https://secomputer.com.hk/products/59241"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 4229,
-      "url": "https://secomputer.com.hk/products/57555"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 4229,
-      "url": "https://secomputer.com.hk/products/57543"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 3979,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:corsair:32gb:2x16gb:6400:vengeance:6400mhz",
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:32gb:2x16gb:6400:vengeance:6400mhz",
-   "title": "Corsair VENGEANCE DDR5 32GB (16GB x 2) 6400MHz CL32",
+   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE CMK32GX5M2B6400Z32 DDR5 6400MHz CL32 Memory (AMD EX…",
    "spec": "DDR5 32GB (2x16GB) 6400MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-169ed6fc919a9113.jpg",
    "image": "img/hk-169ed6fc919a9113.jpg",
@@ -7746,7 +7609,14 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/221069/Corsair-VENGEANCE-DDR5-32GB-16GB-x-2-6400MHz-CL32-CMK32GX5M2B6400Z32---Limited-Lifetime保養",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4499,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/精選優惠-corsair-32gb-kit-2x16gb-vengeance-cmk32gx5m2b6400z32-ddr5-6400mhz-memory-amd-expo-intel-xmp-3-0"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 3999,
@@ -7782,7 +7652,7 @@
    "category": "ram",
    "brand": "Kingston",
    "model_key": "ram:kingston:32gb:2x16gb:6000:beast+fury:2x16gb",
-   "title": "Kingston 32GB Kit (2x16GB) KF560C30BWEK2-32 *CL30* FURY Beast White 白色 DDR5 6000MHz Mem…",
+   "title": "Kingston Fury Beast Black AMD EXPO KF560C36BBE2K2-32 DDR5 6000MT/s 32GB kit (16GB*2, CL36)",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1b26d1a0ef05a465.png",
    "image": "img/hk-1b26d1a0ef05a465.png",
@@ -7796,16 +7666,72 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4350,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-32gb-kit-2x16gb-kf560c30bbek2-32-cl30-fury-beast-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0"
-     },
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4880,
+      "url": "https://secomputer.com.hk/products/55103"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:32gb:2x16gb:6000::2x16gb#3",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:32gb:2x16gb:6000::2x16gb",
+   "title": "KLEVV Bolt V Black 黑色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXPO & …",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ef1446de5a8be2cf.png",
+   "image": "img/hk-ef1446de5a8be2cf.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/KLEVV_32GB_Kit_Bolt_V_Black.png?v=1785586596",
+   "water": null,
+   "official": {
+    "price_hkd": 3999,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-bolt-v-black-黑色-ddr5-32gb-2x16gb-6000mhz-cl28-a-die-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-bv16x2-kd5agua80-60b280h",
+    "stock": "現貨",
+    "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4400,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-32gb-kit-2x16gb-kf560c30bwek2-32-cl30-fury-beast-white-白色-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4229,
+      "url": "https://secomputer.com.hk/products/57543"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:32gb:2x16gb:6000::2x16gb#4",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:32gb:2x16gb:6000::2x16gb",
+   "title": "KLEVV Bolt V White 白色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXPO & …",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4834444fef2150e6.png",
+   "image": "img/hk-4834444fef2150e6.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/KLEVV_Bolt_V_White_DDR5_32GB.png?v=1747310983",
+   "water": null,
+   "official": {
+    "price_hkd": 3999,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-bolt-v-white-白色-ddr5-32gb-2x16gb-6000mhz-cl28-a-die-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-bv16x2-kd5agua80-60b280i",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4229,
+      "url": "https://secomputer.com.hk/products/57555"
      }
     ]
    },
@@ -7843,7 +7769,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:32gb:2x16gb:6000:lancer:6000mhz",
-   "title": "ADATA XPG Lancer Blade DDR5 White 32GB (16GB x 2) 6000MHz CL30",
+   "title": "ADATA LANCER BLADE 白色 DDR5 6000MHz 32GB Kit RAM (16GB*2, CL30, AX5U6000C3016G-DTLABWH)",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f32d3139fda356dc.png",
    "image": "img/hk-f32d3139fda356dc.png",
@@ -7867,8 +7793,38 @@
       "store_short": "飛馬",
       "price_hkd": 4199,
       "url": "https://shop.pegasus.hk/products/219864/ADATA-XPG-Lancer-Blade-DDR5-White-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DTLABWH---Limited-Lifetime保養"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4499,
+      "url": "https://secomputer.com.hk/products/63858"
      }
     ]
+   },
+   "delta_hkd": null,
+   "best_price": 4099,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:32gb:2x16gb:6000:lancer+rgb:6000mhz#2",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:32gb:2x16gb:6000:lancer+rgb:6000mhz",
+   "title": "ADATA XPG Lancer Blade RGB DDR5 White 32GB (16GB x 2) 6000MHz CL48",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e63978f420a0cc3b.png",
+   "image": "img/hk-e63978f420a0cc3b.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/860aa26b-f21e-4718-2e37-77385164d800/public",
+   "water": null,
+   "official": {
+    "price_hkd": 4099,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/222836/ADATA-XPG-Lancer-Blade-RGB-DDR5-White-32GB-16GB-x-2-6000MHz-CL48-AX5U6000C4816G-DTLABRWH---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 4099,
@@ -7909,6 +7865,30 @@
    },
    "delta_hkd": null,
    "best_price": 4099,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:32gb:2x16gb:6000:rgb+trident:2x16gb#2",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:32gb:2x16gb:6000:rgb+trident:2x16gb",
+   "title": "G.SKILL 32GB Kit (2x16GB) Trident Z5 Neo RGB Black 黑色 F5-6000J3636F16GX2-TZ5NR DDR5 600…",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d32b77c63bb2589e.png",
+   "image": "img/hk-d32b77c63bb2589e.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/G.SKILL_Trident_Z5_Neo_RGB.png?v=1752041135",
+   "water": null,
+   "official": {
+    "price_hkd": 4100,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-trident-z5-neo-rgb-f5-6000j3636f16gx2-tz5nr-ddr5-6000mhz-32gb-kit-2x16gb-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4100,
    "has_water": false,
    "has_official": true
   },
@@ -7965,7 +7945,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:32gb:2x16gb:6000:lancer+rgb:2x16gb",
-   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER RGB Black 黑色 AX5U6000C3016G-DCLARBK DDR5 6000MHz Mem…",
+   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER BLADE RGB Black 黑色 AX5U6000C3616G-DTLABRBK DDR5 6000…",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f94057b31c5be544.png",
    "image": "img/hk-f94057b31c5be544.png",
@@ -7977,20 +7957,7 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-blade-rgb-black-黑色-ax5u6000c3616g-dtlabrbk-ddr5-6000mhz-cl36-memory-amd-expo-intel-xmp-3-0-rm-lbr632b",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4350,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-rgb-white-ax5u6000c3016g-dclarwh-cl30-ddr5-6000mhz-memory"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4500,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-rgb-ax5u6000c3016g-dclarbk-cl30-black-ddr5-6000mhz-memory"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 4150,
@@ -8002,7 +7969,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:32gb:2x16gb:6000:lancer:2x16gb",
-   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER BLADE Black 黑色 AX5U6000C3016G-DTLABBK DDR5 6000MHz *…",
+   "title": "ADATA LANCER BLADE 黑色 DDR5 AX5U60003016G-DTLABBK 6000MHz 32GB Kit RAM (16GB*2, CL30, AX…",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-90a43023870d4441.png",
    "image": "img/hk-90a43023870d4441.png",
@@ -8014,7 +7981,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-blade-black-黑色-ax5u6000c3016g-dtlabbk-cl30-ddr5-6000mhz-memory",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4480,
+      "url": "https://secomputer.com.hk/products/53758"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4199,
@@ -8038,20 +8012,7 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/50348",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 4379,
-      "url": "https://secomputer.com.hk/products/57557"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 4379,
-      "url": "https://secomputer.com.hk/products/57556"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 4219,
@@ -8063,7 +8024,7 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:32gb:2x16gb:6000:vengeance:2x16gb",
-   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE CMK32GX5M2B6000Z30 DDR5 6000MHz CL30 Memory (AMD EX…",
+   "title": "Corsair VENGEANCE 黑色 CMK32GX5M2E6000Z36 AMD EXPO DDR5 6000MHz 32GB Kit (16GB*2, CL 36-4…",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b0dd988122210574.png",
    "image": "img/hk-b0dd988122210574.png",
@@ -8077,16 +8038,10 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4378,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/本週特價-corsair-32gb-kit-2x16gb-vengeance-white-白色-cmk32gx5m2e6000z36w-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4550,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-cmk32gx5m2b6000z30-ddr5-6000mhz-memory-amd-expo"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4380,
+      "url": "https://secomputer.com.hk/products/55424"
      }
     ]
    },
@@ -8151,6 +8106,30 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:adata:32gb:2x16gb:6000:lancer+rgb:6000mhz#3",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:32gb:2x16gb:6000:lancer+rgb:6000mhz",
+   "title": "ADATA XPG Lancer Blade RGB DDR5 White 32GB (16GB x 2) 6000MHz CL30",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ed109985a7f4b454.png",
+   "image": "img/hk-ed109985a7f4b454.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/2d2caf9e-edb6-4db2-03f5-8c4418f53200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 4299,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/219863/ADATA-XPG-Lancer-Blade-RGB-DDR5-White-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DTLABRWH---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4299,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:adata:32gb:2x16gb:6400:lancer+rgb:6400mhz",
    "category": "ram",
    "brand": "ADATA",
@@ -8167,20 +8146,7 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/221437/ADATA-XPG-Lancer-Blade-RGB-DDR5-White-32GB-16GB-x-2-6400MHz-CL32-AX5U6400C3216G-DTLABRWH---Limited-Lifetime保養",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 4399,
-      "url": "https://shop.pegasus.hk/products/212497/ADATA-XPG-Lancer-RGB-DDR5-32GB-16GB-x-2-6400MHz-CL32-AX5U6400C3216G-DCLARBK---Limited-Lifetime保養"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 4399,
-      "url": "https://shop.pegasus.hk/products/212494/ADATA-XPG-Lancer-RGB-DDR5-White-32GB-16GB-x-2-6400MHz-CL32-AX5U6400C3216G-DCLARWH---Limited-Lifetime保養"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 4299,
@@ -8216,7 +8182,7 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:32gb:2x16gb:6000:rgb+vengeance:2x16gb",
-   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB CMH32GX5M2B6000Z28 DDR5 6000MHz CL28 Memory (AM…",
+   "title": "Corsair VENGEANCE RGB 黑色 AMD EXPO CMH32GX5M2E6000Z36 DDR5 6000MHz 32GB Kit (16GB*2, CL36)",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c790c9ec1b36cd32.png",
    "image": "img/hk-c790c9ec1b36cd32.png",
@@ -8230,16 +8196,10 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4600,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2b6000z30k-ddr5-6000mhz-memory"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4700,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2b6000z28-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4500,
+      "url": "https://secomputer.com.hk/products/54743"
      }
     ]
    },
@@ -8265,7 +8225,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-32gb-kit-2x16gb-pro-overclocking-ddr5-6000-udimm-cp2k16g60c36u5b-support-amd-expo",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4380,
+      "url": "https://secomputer.com.hk/products/54403"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4300,
@@ -8273,50 +8240,242 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:32gb::6000:vengeance:cmk32gx5m2e6000z36",
+   "id": "ram|ram:adata:32gb:2x16gb:6000:lancer+rgb:2x16gb#2",
    "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:32gb::6000:vengeance:cmk32gx5m2e6000z36",
-   "title": "Corsair VENGEANCE 黑色 CMK32GX5M2E6000Z36 AMD EXPO DDR5 6000MHz 32GB Kit (16GB*2, CL 36-4…",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7c66e9f4735227ae.jpg",
-   "image": "img/hk-7c66e9f4735227ae.jpg",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/abd336cd00ef4256c37996d002085a70.jpeg",
+   "brand": "ADATA",
+   "model_key": "ram:adata:32gb:2x16gb:6000:lancer+rgb:2x16gb",
+   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER RGB White 白色 AX5U6000C3016G-DCLARWH DDR5 6000MHz *CL…",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-82bdd041071c9a26.png",
+   "image": "img/hk-82bdd041071c9a26.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/869_gallery_pw05_6a70837e-6d7a-4f81-a9ca-6d421c0f998a.png?v=1722683107",
    "water": null,
    "official": {
-    "price_hkd": 4380,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55424",
+    "price_hkd": 4350,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-rgb-white-ax5u6000c3016g-dclarwh-cl30-ddr5-6000mhz-memory",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4399,
+      "url": "https://shop.pegasus.hk/products/214646/ADATA-XPG-Lancer-RGB-DDR5-White-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DCLARWH---Limited-Lifetime保養"
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 4380,
+   "best_price": 4350,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "ram|ram:crucial:32gb::6000::cp2k16g60c36u5b",
+   "id": "ram|ram:kingston:32gb:2x16gb:6000:beast+fury:2x16gb#2",
    "category": "ram",
-   "brand": "Crucial",
-   "model_key": "ram:crucial:32gb::6000::cp2k16g60c36u5b",
-   "title": "Crucial Pro Overclocking DDR5 6000 32GB kit (16GB*2, CL36, CP2K16G60C36U5B)",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c163f54b216869da.webp",
-   "image": "img/hk-c163f54b216869da.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/5208181932360b436f2dc1dfdfce42ab.webp",
+   "brand": "Kingston",
+   "model_key": "ram:kingston:32gb:2x16gb:6000:beast+fury:2x16gb",
+   "title": "Kingston 32GB Kit (2x16GB) KF560C30BBEK2-32 *CL30* FURY Beast DDR5 6000MHz Memory (AMD …",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b182de55eb198ccb.png",
+   "image": "img/hk-b182de55eb198ccb.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/KingstonFuryBeastDDR5KitKF560C30BBEK2-32.png?v=1739797342",
    "water": null,
    "official": {
-    "price_hkd": 4380,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/54403",
+    "price_hkd": 4350,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-32gb-kit-2x16gb-kf560c30bbek2-32-cl30-fury-beast-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 4380,
+   "best_price": 4350,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:32gb:2x16gb:6000:vengeance:2x16gb#2",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:32gb:2x16gb:6000:vengeance:2x16gb",
+   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE White 白色 CMK32GX5M2E6000Z36W DDR5 6000MHz Memory (A…",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9754be71827d106b.png",
+   "image": "img/hk-9754be71827d106b.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/VENGEANCE_DDR5_WHT_01_fd99fc47-ebe1-43ce-9daa-3797948188df.webp?v=1735205538",
+   "water": null,
+   "official": {
+    "price_hkd": 4378,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/本週特價-corsair-32gb-kit-2x16gb-vengeance-white-白色-cmk32gx5m2e6000z36w-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4378,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:32gb::6000:rgb:6000mhz#3",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:32gb::6000:rgb:6000mhz",
+   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXP…",
+   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-db76f1fc0ae7d331.webp",
+   "image": "img/hk-db76f1fc0ae7d331.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/14cc2457b4b985eef95e0b6cb5428937.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4379,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/57556",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4431,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-black-黑色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-cv16x2-kd5agua80-60b280g"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4379,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:32gb::6000:rgb:6000mhz#2",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:32gb::6000:rgb:6000mhz",
+   "title": "KLEVV CRAS V RGB White 白色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXP…",
+   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cb65ee6cd2d4c01f.webp",
+   "image": "img/hk-cb65ee6cd2d4c01f.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/e977177de55282f117523b85ea0eb1c9.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4379,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/57557",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4431,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-white-白色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-cv16x2-kd5agua80-60b280j"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4379,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:32gb:2x16gb:6000:lancer+rgb:6000mhz#4",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:32gb:2x16gb:6000:lancer+rgb:6000mhz",
+   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER RGB Black 黑色 AX5U6000C3016G-DCLARBK DDR5 6000MHz Mem…",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a56cba7b8cf2a9a0.png",
+   "image": "img/hk-a56cba7b8cf2a9a0.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/9f52fb23-57bf-4bdb-fa04-3b99168eee00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 4399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/214645/ADATA-XPG-Lancer-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DCLARBK---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4500,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-rgb-ax5u6000c3016g-dclarbk-cl30-black-ddr5-6000mhz-memory"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4399,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:32gb:2x16gb:6400:lancer+rgb:6400mhz#2",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:32gb:2x16gb:6400:lancer+rgb:6400mhz",
+   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER RGB Black 黑色 AX5U6400C3216G-DCLARBK DDR5 6400MHz Mem…",
+   "spec": "DDR5 32GB (2x16GB) 6400MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e8e7138961e2e85f.png",
+   "image": "img/hk-e8e7138961e2e85f.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/a42e3fbb-3427-4ec7-c332-8d1976de6200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 4399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/212497/ADATA-XPG-Lancer-RGB-DDR5-32GB-16GB-x-2-6400MHz-CL32-AX5U6400C3216G-DCLARBK---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4550,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-rgb-ax5u6400c3216g-dclarbk-black-ddr5-6400mhz-memory"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4650,
+      "url": "https://secomputer.com.hk/products/49717"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4399,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:32gb:2x16gb:6400:lancer+rgb:6400mhz#3",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:32gb:2x16gb:6400:lancer+rgb:6400mhz",
+   "title": "ADATA XPG LANCER RGB 白色 AX5U6400C3216G-DCLARWH DDR5 6400MHz 32GB Kit RAM (16GB*2, CL32)",
+   "spec": "DDR5 32GB (2x16GB) 6400MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d21c079827c1b95d.png",
+   "image": "img/hk-d21c079827c1b95d.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/24dcc8f3-8a12-4107-a0cc-ac5a8ea65e00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 4399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/212494/ADATA-XPG-Lancer-RGB-DDR5-White-32GB-16GB-x-2-6400MHz-CL32-AX5U6400C3216G-DCLARWH---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4780,
+      "url": "https://secomputer.com.hk/products/49718"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4399,
    "has_water": false,
    "has_official": true
   },
@@ -8345,33 +8504,33 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:klevv:32gb:2x16gb:6000:rgb:2x16gb",
+   "id": "ram|ram:kingston:32gb:2x16gb:6000:beast+fury:2x16gb#3",
    "category": "ram",
-   "brand": "Klevv",
-   "model_key": "ram:klevv:32gb:2x16gb:6000:rgb:2x16gb",
-   "title": "KLEVV CRAS V RGB White 白色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXP…",
+   "brand": "Kingston",
+   "model_key": "ram:kingston:32gb:2x16gb:6000:beast+fury:2x16gb",
+   "title": "Kingston Fury Beast White EXPO/XMP KF560C30BWEK2-32 DDR5 6000MT/s 32GB kit (16GB*2, CL3…",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-eef35f9d6b111d2f.png",
-   "image": "img/hk-eef35f9d6b111d2f.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/KLEVV_CRAS_V_RGB_Black.png?v=1761566897",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d0f37bcd9bd47e4e.jpg",
+   "image": "img/hk-d0f37bcd9bd47e4e.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71yiC8EpVCL._AC_SL1500.jpg?v=1766632876",
    "water": null,
    "official": {
-    "price_hkd": 4431,
+    "price_hkd": 4400,
     "store": "Jumbo 珍寶電腦",
     "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-black-黑色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-cv16x2-kd5agua80-60b280g",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-32gb-kit-2x16gb-kf560c30bwek2-32-cl30-fury-beast-white-白色-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0",
     "stock": "現貨",
     "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4431,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-white-白色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-cv16x2-kd5agua80-60b280j"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 5380,
+      "url": "https://secomputer.com.hk/products/59324"
      }
     ]
    },
    "delta_hkd": null,
-   "best_price": 4431,
+   "best_price": 4400,
    "has_water": false,
    "has_official": true
   },
@@ -8400,78 +8559,23 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:adata:32gb:::lancer:ax5u60003016g-dtlabbk",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:32gb:::lancer:ax5u60003016g-dtlabbk",
-   "title": "ADATA LANCER BLADE 黑色 DDR5 AX5U60003016G-DTLABBK 6000MHz 32GB Kit RAM (16GB*2, CL30, AX…",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-178861ec26e17580.webp",
-   "image": "img/hk-178861ec26e17580.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/1dbac7a80a08669dc32f06766b94c2bf.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4480,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/53758",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4480,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:adata:32gb::6000:lancer:6000mhz",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:32gb::6000:lancer:6000mhz",
-   "title": "ADATA LANCER BLADE 白色 DDR5 6000MHz 32GB Kit RAM (16GB*2, CL30, AX5U6000C3016G-DTLABWH)",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6ed6ea429558a330.webp",
-   "image": "img/hk-6ed6ea429558a330.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/f4d6f03dde0450de474fd762eca45361.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4499,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/63858",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:corsair:32gb:2x16gb:6400:vengeance:2x16gb",
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:32gb:2x16gb:6400:vengeance:2x16gb",
    "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE White 白色 CMK32GX5M2B6400Z32W DDR5 6400MHz CL32 Memo…",
    "spec": "DDR5 32GB (2x16GB) 6400MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8cbc1c61318f85ea.png",
-   "image": "img/hk-8cbc1c61318f85ea.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Corsair_Vengeance.png?v=1739435160",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ddea2120e3ad9aa7.png",
+   "image": "img/hk-ddea2120e3ad9aa7.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Corsair_DDR5_VENGEANCE_White.png?v=1754995103",
    "water": null,
    "official": {
     "price_hkd": 4499,
     "store": "Jumbo 珍寶電腦",
     "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/精選優惠-corsair-32gb-kit-2x16gb-vengeance-cmk32gx5m2b6400z32-ddr5-6400mhz-memory-amd-expo-intel-xmp-3-0",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/電腦節搶購貨-corsair-32gb-kit-2x16gb-vengeance-white-白色-cmk32gx5m2b6400z32w-ddr5-6400mhz-cl32-memory-amd-expo-intel-xmp-3-0",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4499,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/電腦節搶購貨-corsair-32gb-kit-2x16gb-vengeance-white-白色-cmk32gx5m2b6400z32w-ddr5-6400mhz-cl32-memory-amd-expo-intel-xmp-3-0"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 4499,
@@ -8499,30 +8603,6 @@
    },
    "delta_hkd": null,
    "best_price": 4499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:32gb::6000:rgb+vengeance:cmh32gx5m2e6000z36",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:32gb::6000:rgb+vengeance:cmh32gx5m2e6000z36",
-   "title": "Corsair VENGEANCE RGB 黑色 AMD EXPO CMH32GX5M2E6000Z36 DDR5 6000MHz 32GB Kit (16GB*2, CL36)",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ce4cebd90649dcdd.webp",
-   "image": "img/hk-ce4cebd90649dcdd.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/fdd57c6dc061ff93669ea9011620bdea.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4500,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/54743",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4500,
    "has_water": false,
    "has_official": true
   },
@@ -8575,23 +8655,30 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:adata:32gb:2x16gb:6400:lancer+rgb:2x16gb",
+   "id": "ram|ram:corsair:32gb:2x16gb:6000:vengeance:2x16gb#3",
    "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:32gb:2x16gb:6400:lancer+rgb:2x16gb",
-   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER RGB Black 黑色 AX5U6400C3216G-DCLARBK DDR5 6400MHz Mem…",
-   "spec": "DDR5 32GB (2x16GB) 6400MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-76e7c2b259e44b6a.png",
-   "image": "img/hk-76e7c2b259e44b6a.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/869_gallery_05.png?v=1722681855",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:32gb:2x16gb:6000:vengeance:2x16gb",
+   "title": "Corsair VENGEANCE LPX 黑色 (AMD EXPO) CMK32GX5M2B6000Z30 DDR5 6000MHz 32GB Kit (16GB*2, C…",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-72e2ae1bd9298a68.jpg",
+   "image": "img/hk-72e2ae1bd9298a68.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/3538238-l-b.jpg?v=1698321169",
    "water": null,
    "official": {
     "price_hkd": 4550,
     "store": "Jumbo 珍寶電腦",
     "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-rgb-ax5u6400c3216g-dclarbk-black-ddr5-6400mhz-memory",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-cmk32gx5m2b6000z30-ddr5-6000mhz-memory-amd-expo",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4680,
+      "url": "https://secomputer.com.hk/products/51036"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4550,
@@ -8623,11 +8710,35 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:32gb:2x16gb:6000:rgb+vengeance:2x16gb#2",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:32gb:2x16gb:6000:rgb+vengeance:2x16gb",
+   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB CMH32GX5M2B6000Z30K DDR5 6000MHz CL30 Memory (A…",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c790c9ec1b36cd32.png",
+   "image": "img/hk-c790c9ec1b36cd32.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Corsair_VENGEANCE_RGB_DDR5_Kit.png?v=1737977772",
+   "water": null,
+   "official": {
+    "price_hkd": 4600,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2b6000z30k-ddr5-6000mhz-memory",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4600,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:corsair:32gb:2x16gb:6400:rgb+vengeance:2x16gb",
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:32gb:2x16gb:6400:rgb+vengeance:2x16gb",
-   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB White 白色 CMH32GX5M2B6400Z32W DDR5 6400MHz CL32 …",
+   "title": "Corsair VENGEANCE RGB 黑色 (AMD EXPO) CMH32GX5M2B6400Z32 DDR5 6400MT/s 32GB Kit RAM (16GB…",
    "spec": "DDR5 32GB (2x16GB) 6400MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c790c9ec1b36cd32.png",
    "image": "img/hk-c790c9ec1b36cd32.png",
@@ -8641,10 +8752,10 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4695,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/電腦節搶購貨-corsair-32gb-kit-2x16gb-vengeance-rgb-white-白色-cmh32gx5m2b6400z32w-ddr5-6400mhz-cl32-memory-amd-expo-intel-xmp-3-0"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4680,
+      "url": "https://secomputer.com.hk/products/55447"
      }
     ]
    },
@@ -8654,59 +8765,11 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:adata:32gb::6400:lancer+rgb:ax5u6400c3216g-dclarbk",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:32gb::6400:lancer+rgb:ax5u6400c3216g-dclarbk",
-   "title": "ADATA XPG LANCER RGB 黑色 AX5U6400C3216G-DCLARBK DDR5 6400MHz 32GB Kit RAM (16GB*2, CL32)",
-   "spec": "DDR5 32GB 6400MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-eeaaa62300b8867f.webp",
-   "image": "img/hk-eeaaa62300b8867f.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/b96231a8717026138a6c9e5765fd1c0d.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4650,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/49717",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4650,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:32gb::6000:vengeance:cmk32gx5m2b6000z30",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:32gb::6000:vengeance:cmk32gx5m2b6000z30",
-   "title": "Corsair VENGEANCE LPX 黑色 (AMD EXPO) CMK32GX5M2B6000Z30 DDR5 6000MHz 32GB Kit (16GB*2, C…",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-45b703cd8a6f6f99.jpg",
-   "image": "img/hk-45b703cd8a6f6f99.jpg",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/cdd6bd1fb8728ed1d254f44fb75ed76d.jpeg",
-   "water": null,
-   "official": {
-    "price_hkd": 4680,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/51036",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4680,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:corsair:32gb:2x16gb:6400:rgb+vengeance:cmh32gx5m2b6400z32w",
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:32gb:2x16gb:6400:rgb+vengeance:cmh32gx5m2b6400z32w",
-   "title": "Corsair VENGEANCE RGB CMH32GX5M2B6400Z32W 白色 DDR5-6400 32GB Kit (16GBx2, CL32-40-40-84)",
+   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB White 白色 CMH32GX5M2B6400Z32W DDR5 6400MHz CL32 …",
    "spec": "DDR5 32GB (2x16GB) 6400MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4b31125966613830.webp",
    "image": "img/hk-4b31125966613830.webp",
@@ -8718,31 +8781,14 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/57904",
     "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4680,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:32gb::6400:rgb+vengeance:cmh32gx5m2b6400z32",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:32gb::6400:rgb+vengeance:cmh32gx5m2b6400z32",
-   "title": "Corsair VENGEANCE RGB 黑色 (AMD EXPO) CMH32GX5M2B6400Z32 DDR5 6400MT/s 32GB Kit RAM (16GB…",
-   "spec": "DDR5 32GB 6400MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fdca7a01eea01942.webp",
-   "image": "img/hk-fdca7a01eea01942.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/8bf2400cc9f47cbe67418e132a321559.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4680,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55447",
-    "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4695,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/電腦節搶購貨-corsair-32gb-kit-2x16gb-vengeance-rgb-white-白色-cmh32gx5m2b6400z32w-ddr5-6400mhz-cl32-memory-amd-expo-intel-xmp-3-0"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4680,
@@ -8798,6 +8844,68 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:32gb:2x16gb:6000:rgb+vengeance:2x16gb#3",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:32gb:2x16gb:6000:rgb+vengeance:2x16gb",
+   "title": "Corsair VENGEANCE RGB 黑色 (AMD EXPO) CMH32GX5M2B6000Z28 DDR5 6000MT/s 32GB Kit (16GB*2, …",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d18c4d8d8bbfa237.png",
+   "image": "img/hk-d18c4d8d8bbfa237.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Corsair_VENGEANCE_RGB_DDR5_Kit_1.png?v=1739430921",
+   "water": null,
+   "official": {
+    "price_hkd": 4700,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2b6000z28-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4890,
+      "url": "https://secomputer.com.hk/products/55448"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4700,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:32gb:2x16gb:6000:rgb+trident:2x16gb#3",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:32gb:2x16gb:6000:rgb+trident:2x16gb",
+   "title": "G.Skill Trident Z5 NEO RGB (AMD EXPO) F5-6000J3036F16GX2-TZ5NRW 白色 DDR5-6000 32GB Kit R…",
+   "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-12fd54acd43b9f74.png",
+   "image": "img/hk-12fd54acd43b9f74.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/G.SKILL_Trident_Z5_Neo_RGB_White_f2a99c1e-7c13-41a4-90a3-15aa5827fbb5.png?v=1752048023",
+   "water": null,
+   "official": {
+    "price_hkd": 4700,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-32gb-kit-2x16gb-trident-z5-neo-rgb-white-f5-6000j3036f16gx2-tz5nrw-ddr5-6000mhz-memory-amd-expo",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 6690,
+      "url": "https://secomputer.com.hk/products/55249"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4700,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:corsair:32gb::6000:vengeance:cmk32gx5m2b6000z30w",
    "category": "ram",
    "brand": "Corsair",
@@ -8846,30 +8954,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:adata:32gb::6400:lancer+rgb:ax5u6400c3216g-dclarwh",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:32gb::6400:lancer+rgb:ax5u6400c3216g-dclarwh",
-   "title": "ADATA XPG LANCER RGB 白色 AX5U6400C3216G-DCLARWH DDR5 6400MHz 32GB Kit RAM (16GB*2, CL32)",
-   "spec": "DDR5 32GB 6400MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8e58883c287d2c0f.webp",
-   "image": "img/hk-8e58883c287d2c0f.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/db19d0176c2de86b56599248d9865eee.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4780,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/49718",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4780,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:corsair:32gb:2x16gb:6000:rgb:6000mhz",
    "category": "ram",
    "brand": "Corsair",
@@ -8901,30 +8985,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:kingston:32gb::6000:beast+fury:kf560c36bbe2k2-32",
-   "category": "ram",
-   "brand": "Kingston",
-   "model_key": "ram:kingston:32gb::6000:beast+fury:kf560c36bbe2k2-32",
-   "title": "Kingston Fury Beast Black AMD EXPO KF560C36BBE2K2-32 DDR5 6000MT/s 32GB kit (16GB*2, CL36)",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bfa6e76a2d895471.jpg",
-   "image": "img/hk-bfa6e76a2d895471.jpg",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/0c7e3e5781d82f6e16f15690232b5d01.jpeg",
-   "water": null,
-   "official": {
-    "price_hkd": 4880,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55103",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4880,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:corsair:32gb::6000:rgb+vengeance:cmh32gx5m2b6000z30w",
    "category": "ram",
    "brand": "Corsair",
@@ -8940,30 +9000,6 @@
     "store": "SE Computer",
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/55449",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4890,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:32gb::6000:rgb+vengeance:cmh32gx5m2b6000z28",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:32gb::6000:rgb+vengeance:cmh32gx5m2b6000z28",
-   "title": "Corsair VENGEANCE RGB 黑色 (AMD EXPO) CMH32GX5M2B6000Z28 DDR5 6000MT/s 32GB Kit (16GB*2, …",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fdca7a01eea01942.webp",
-   "image": "img/hk-fdca7a01eea01942.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/8bf2400cc9f47cbe67418e132a321559.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4890,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55448",
     "stock": "現貨",
     "others": []
    },
@@ -9021,30 +9057,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:kingston:32gb::6000:beast+fury:kf560c30bwek2-32",
-   "category": "ram",
-   "brand": "Kingston",
-   "model_key": "ram:kingston:32gb::6000:beast+fury:kf560c30bwek2-32",
-   "title": "Kingston Fury Beast White EXPO/XMP KF560C30BWEK2-32 DDR5 6000MT/s 32GB kit (16GB*2, CL3…",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-690388926d8df221.webp",
-   "image": "img/hk-690388926d8df221.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/8b33f6a18875d7c304954891def915c5.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 5380,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/59324",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 5380,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:crucial:64gb:2x32gb:5600:sodimm:5600mhz",
    "category": "ram",
    "brand": "Crucial",
@@ -9065,30 +9077,6 @@
    },
    "delta_hkd": null,
    "best_price": 6299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:g.skill:32gb::6000:rgb+trident:f5-6000j3036f16gx2-tz5nrw",
-   "category": "ram",
-   "brand": "G.Skill",
-   "model_key": "ram:g.skill:32gb::6000:rgb+trident:f5-6000j3036f16gx2-tz5nrw",
-   "title": "G.Skill Trident Z5 NEO RGB (AMD EXPO) F5-6000J3036F16GX2-TZ5NRW 白色 DDR5-6000 32GB Kit R…",
-   "spec": "DDR5 32GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-85e15ad40da9790c.webp",
-   "image": "img/hk-85e15ad40da9790c.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/25839309156fe0af2e99b4245236672c.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 6690,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55249",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 6690,
    "has_water": false,
    "has_official": true
   },
@@ -9268,11 +9256,42 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:klevv:64gb::6000::6000mhz#2",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:64gb::6000::6000mhz",
+   "title": "KLEVV Bolt V Black 黑色 DDR5 64GB (2x32GB) 6000MHz CL30 SK Hynix A-Die Memory AMD EXPO & …",
+   "spec": "DDR5 64GB 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7eea5b3cb09ee9d4.webp",
+   "image": "img/hk-7eea5b3cb09ee9d4.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/aa6804ae9c8b7f1c6bab7fd425578b94.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8199,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/59090",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 8200,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-bolt-v-black-黑色-ddr5-64gb-2x32gb-6000mhz-cl28-a-die-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-bv32x2-kd5bgua80-60a300h"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 8199,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:klevv:64gb::6000::6000mhz",
    "category": "ram",
    "brand": "Klevv",
    "model_key": "ram:klevv:64gb::6000::6000mhz",
-   "title": "Klevv DDR5 Bolt V 白色 6000MHz 64GB Kit (32GB*2, CL30-36-36-76,BV32X2-KD5BGUA80-60A300I)",
+   "title": "KLEVV Bolt V White 白色 DDR5 64GB (2x32GB) 6000MHz CL30 SK Hynix A-Die Memory AMD EXPO & …",
    "spec": "DDR5 64GB 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2d3da0a0b4ccc715.webp",
    "image": "img/hk-2d3da0a0b4ccc715.webp",
@@ -9286,10 +9305,10 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 8199,
-      "url": "https://secomputer.com.hk/products/59090"
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 8200,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-bolt-v-white-白色-ddr5-64gb-2x32gb-6000mhz-cl28-a-die-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-bv32x2-kd5bgua80-60a300i"
      }
     ]
    },
@@ -9299,42 +9318,11 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:klevv:64gb:2x32gb:6000::2x32gb",
-   "category": "ram",
-   "brand": "Klevv",
-   "model_key": "ram:klevv:64gb:2x32gb:6000::2x32gb",
-   "title": "KLEVV Bolt V White 白色 DDR5 64GB (2x32GB) 6000MHz CL30 SK Hynix A-Die Memory AMD EXPO & …",
-   "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ec339b66cfb33192.png",
-   "image": "img/hk-ec339b66cfb33192.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/KLEVVBOLTVKitBlack.png?v=1759572426",
-   "water": null,
-   "official": {
-    "price_hkd": 8200,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-bolt-v-black-黑色-ddr5-64gb-2x32gb-6000mhz-cl28-a-die-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-bv32x2-kd5bgua80-60a300h",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 8200,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-bolt-v-white-白色-ddr5-64gb-2x32gb-6000mhz-cl28-a-die-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-bv32x2-kd5bgua80-60a300i"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 8200,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:corsair:64gb:2x32gb:6000:rgb+vengeance:2x32gb",
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:64gb:2x32gb:6000:rgb+vengeance:2x32gb",
-   "title": "CORSAIR 64GB Kit (2x32GB) VENGEANCE RGB CMH64GX5M2B6000Z30 DDR5 6000MHz CL30 Memory (AM…",
+   "title": "CORSAIR 64GB Kit (2x32GB) VENGEANCE RGB CMH64GX5M2B6000Z38 DDR5 6000MHz Memory (AMD EXP…",
    "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0a62a75bb851c331.png",
    "image": "img/hk-0a62a75bb851c331.png",
@@ -9352,12 +9340,6 @@
       "store_short": "Jumbo",
       "price_hkd": 8550,
       "url": "https://www.jumbo-computer.com/zh-hk/products/電腦節搶購貨-corsair-64gb-kit-2x32gb-vengeance-rgb-cmh64gx5m2b6000z38-ddr5-6000mhz-cl38-memory-amd-expo-intel-xmp-3-0"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 8900,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-64gb-kit-2x32gb-vengeance-rgb-cmh64gx5m2b6000z30-ddr5-6000mhz-memory"
      }
     ]
    },
@@ -9371,7 +9353,7 @@
    "category": "ram",
    "brand": "Klevv",
    "model_key": "ram:klevv:64gb:2x32gb:6000:rgb:2x32gb",
-   "title": "KLEVV CRAS V RGB White 白色 DDR5 64GB (2x32GB) 6000MHz CL30 SK Hynix A-Die Memory AMD EXP…",
+   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 64GB (2x32GB) 6000MHz CL30 SK Hynix A-Die Memory AMD EXP…",
    "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-979f3db016de126b.jpg",
    "image": "img/hk-979f3db016de126b.jpg",
@@ -9385,10 +9367,10 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 8335,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6000mhz-cl30-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-white-白色-kd5bgua80-60a300j"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 8399,
+      "url": "https://secomputer.com.hk/products/53239"
      }
     ]
    },
@@ -9398,11 +9380,73 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:klevv:64gb:2x32gb:6000:rgb:2x32gb#2",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:64gb:2x32gb:6000:rgb:2x32gb",
+   "title": "KLEVV CRAS V RGB White 白色 DDR5 64GB (2x32GB) 6000MHz CL30 SK Hynix A-Die Memory AMD EXP…",
+   "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-56758ef83841f629.jpg",
+   "image": "img/hk-56758ef83841f629.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71pmMaMPOAL._AC_SL1500.jpg?v=1715599704",
+   "water": null,
+   "official": {
+    "price_hkd": 8335,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6000mhz-cl30-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-white-白色-kd5bgua80-60a300j",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 8399,
+      "url": "https://secomputer.com.hk/products/55291"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 8335,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:64gb:2x32gb:6000:lancer+rgb:6000mhz#2",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:64gb:2x32gb:6000:lancer+rgb:6000mhz",
+   "title": "ADATA LANCER BLADE RGB 白色 DDR5 AX5U6000C3032G-DTLABRWH 6000MHz 64GB Kit RAM (32GB*2, CL30)",
+   "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-576b2fbd3d173b25.png",
+   "image": "img/hk-576b2fbd3d173b25.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/a44e3983-f871-4dce-0e59-266069d52a00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 8399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/221136/ADATA-XPG-Lancer-Blade-RGB-DDR5-White-64GB-32GB-x-2-6000MHz-CL30-AX5U6000C3032G-DTLABRWH---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 8699,
+      "url": "https://secomputer.com.hk/products/55407"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 8399,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:adata:64gb:2x32gb:6000:lancer+rgb:6000mhz",
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:64gb:2x32gb:6000:lancer+rgb:6000mhz",
-   "title": "ADATA XPG Lancer Blade RGB DDR5 White 64GB (32GB x 2) 6000MHz CL30",
+   "title": "ADATA XPG Lancer Blade RGB DDR5 64GB (32GB x 2) 6000MHz CL30",
    "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7e3266ab3139795a.png",
    "image": "img/hk-7e3266ab3139795a.png",
@@ -9414,57 +9458,7 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/219515/ADATA-XPG-Lancer-Blade-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL30-AX5U6000C3032G-DTLABRBK---Limited-Lifetime保養",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 8399,
-      "url": "https://shop.pegasus.hk/products/221136/ADATA-XPG-Lancer-Blade-RGB-DDR5-White-64GB-32GB-x-2-6000MHz-CL30-AX5U6000C3032G-DTLABRWH---Limited-Lifetime保養"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 8499,
-      "url": "https://shop.pegasus.hk/products/216803/ADATA-XPG-Lancer-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL30-AX5U6000C3032G-DCLARBK---Limited-Lifetime保養"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 8499,
-      "url": "https://shop.pegasus.hk/products/216804/ADATA-XPG-Lancer-RGB-DDR5-White-64GB-32GB-x-2-6000MHz-CL30-AX5U6000C3032G-DCLARWH---Limited-Lifetime保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 8399,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:klevv:64gb::6000:rgb:6000mhz",
-   "category": "ram",
-   "brand": "Klevv",
-   "model_key": "ram:klevv:64gb::6000:rgb:6000mhz",
-   "title": "Klevv CRAS V RGB White DDR5 6000MHz 64GB Kit (32GB*2, CL30-36-36-76, KD5BGUA80-60A300J)",
-   "spec": "DDR5 64GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ece189e287f68e2e.webp",
-   "image": "img/hk-ece189e287f68e2e.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/a4c5c1d020db9a123350301fdfdda759.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 8399,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/53239",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 8399,
-      "url": "https://secomputer.com.hk/products/55291"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 8399,
@@ -9558,11 +9552,59 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:adata:64gb:2x32gb:6000:lancer+rgb:6000mhz#3",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:64gb:2x32gb:6000:lancer+rgb:6000mhz",
+   "title": "ADATA XPG Lancer RGB DDR5 64GB (32GB x 2) 6000MHz CL30",
+   "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-80e5605cfd65967c.png",
+   "image": "img/hk-80e5605cfd65967c.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/e42dad84-be26-4175-4ed9-be915ffeda00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 8499,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/216803/ADATA-XPG-Lancer-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL30-AX5U6000C3032G-DCLARBK---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:64gb:2x32gb:6000:lancer+rgb:6000mhz#4",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:64gb:2x32gb:6000:lancer+rgb:6000mhz",
+   "title": "ADATA XPG Lancer RGB DDR5 White 64GB (32GB x 2) 6000MHz CL30",
+   "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1af140256d077ae9.png",
+   "image": "img/hk-1af140256d077ae9.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/cd90993a-2619-4799-ce71-66db6fa4c500/public",
+   "water": null,
+   "official": {
+    "price_hkd": 8499,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/216804/ADATA-XPG-Lancer-RGB-DDR5-White-64GB-32GB-x-2-6000MHz-CL30-AX5U6000C3032G-DCLARWH---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:klevv:64gb:2x32gb:6400:rgb:2x32gb",
    "category": "ram",
    "brand": "Klevv",
    "model_key": "ram:klevv:64gb:2x32gb:6400:rgb:2x32gb",
-   "title": "KLEVV CRAS V RGB White 白色 DDR5 64GB (2x32GB) 6400MHz CL32 SK Hynix A-Die Memory AMD EXP…",
+   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 64GB (2x32GB) 6400MHz CL32 SK Hynix A-Die Memory AMD EXP…",
    "spec": "DDR5 64GB (2x32GB) 6400MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-979f3db016de126b.jpg",
    "image": "img/hk-979f3db016de126b.jpg",
@@ -9574,17 +9616,58 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6400mhz-cl32-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-black-黑色-kd5bgua80-64a320g",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 8499,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6400mhz-cl32-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-white-白色-kd5bgua80-64a320j"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 8499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:64gb:2x32gb:6400:rgb:2x32gb#2",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:64gb:2x32gb:6400:rgb:2x32gb",
+   "title": "KLEVV CRAS V RGB White 白色 DDR5 64GB (2x32GB) 6400MHz CL32 SK Hynix A-Die Memory AMD EXP…",
+   "spec": "DDR5 64GB (2x32GB) 6400MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-56758ef83841f629.jpg",
+   "image": "img/hk-56758ef83841f629.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71pmMaMPOAL._AC_SL1500.jpg?v=1715599704",
+   "water": null,
+   "official": {
+    "price_hkd": 8499,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6400mhz-cl32-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-white-白色-kd5bgua80-64a320j",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:64gb:2x32gb:6400:lancer+rgb:6400mhz#2",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:64gb:2x32gb:6400:lancer+rgb:6400mhz",
+   "title": "ADATA XPG Lancer RGB DDR5 White 64GB (32GB x 2) 6400MHz CL32",
+   "spec": "DDR5 64GB (2x32GB) 6400MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fe707d9fabd02e66.png",
+   "image": "img/hk-fe707d9fabd02e66.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/06de7b64-e47a-4693-08a3-421ba0ad6000/public",
+   "water": null,
+   "official": {
+    "price_hkd": 8599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/218722/ADATA-XPG-Lancer-RGB-DDR5-White-64GB-32GB-x-2-6400MHz-CL32-AX5U6400C3232G-DCLARWH---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8599,
    "has_water": false,
    "has_official": true
   },
@@ -9593,7 +9676,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:64gb:2x32gb:6400:lancer+rgb:6400mhz",
-   "title": "ADATA XPG Lancer RGB DDR5 White 64GB (32GB x 2) 6400MHz CL32",
+   "title": "【DDR5 64GB 6400MHz】ADATA LANCER RGB 64GB (32GBx2) CL32【白色】",
    "spec": "DDR5 64GB (2x32GB) 6400MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ab86cffd5f11b655.png",
    "image": "img/hk-ab86cffd5f11b655.png",
@@ -9617,41 +9700,11 @@
       "store_short": "飛馬",
       "price_hkd": 8599,
       "url": "https://shop.pegasus.hk/products/218721/ADATA-XPG-Lancer-RGB-DDR5-64GB-32GB-x-2-6400MHz-CL32-AX5U6400C3232G-DCLARBK---Limited-Lifetime保養"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 8599,
-      "url": "https://shop.pegasus.hk/products/218722/ADATA-XPG-Lancer-RGB-DDR5-White-64GB-32GB-x-2-6400MHz-CL32-AX5U6400C3232G-DCLARWH---Limited-Lifetime保養"
      }
     ]
    },
    "delta_hkd": null,
    "best_price": 8599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:adata:64gb::6000:lancer+rgb:ax5u6000c3032g-dtlabrwh",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:64gb::6000:lancer+rgb:ax5u6000c3032g-dtlabrwh",
-   "title": "ADATA LANCER BLADE RGB 白色 DDR5 AX5U6000C3032G-DTLABRWH 6000MHz 64GB Kit RAM (32GB*2, CL30)",
-   "spec": "DDR5 64GB 6000MHz 桌面 DIMM",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-88dbd30d256bd968.webp",
-   "image": "img/hk-88dbd30d256bd968.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/05ac374eedb5e567a0d5ef3642db98cd.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 8699,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55407",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 8699,
    "has_water": false,
    "has_official": true
   },
@@ -9700,6 +9753,30 @@
    },
    "delta_hkd": null,
    "best_price": 8800,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:64gb:2x32gb:6000:rgb+vengeance:2x32gb#2",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:64gb:2x32gb:6000:rgb+vengeance:2x32gb",
+   "title": "CORSAIR 64GB Kit (2x32GB) VENGEANCE RGB CMH64GX5M2B6000Z30 DDR5 6000MHz CL30 Memory (AM…",
+   "spec": "DDR5 64GB (2x32GB) 6000MHz 桌面 DIMM",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-02b3baab543da815.png",
+   "image": "img/hk-02b3baab543da815.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Corsair_VENGEANCE_RGB_DDR5_Kit_52361f38-ef38-4f67-be6f-0a5763c68b39.png?v=1752123322",
+   "water": null,
+   "official": {
+    "price_hkd": 8900,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-64gb-kit-2x32gb-vengeance-rgb-cmh64gx5m2b6000z30-ddr5-6000mhz-memory",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8900,
    "has_water": false,
    "has_official": true
   },
@@ -9841,7 +9918,7 @@
    "category": "ssd",
    "brand": "HuaDisk",
    "model_key": "ssd:huadisk:1tb::::",
-   "title": "HUADISK 1TB Gen 4 M.2 SSD 固態硬碟 | 極速儲存",
+   "title": "HUADISK HYV1TBX4 M.2 NVMe PCIe 4.0 1TB SSD (R:5000MB/s W:4500MB/s. 3yr warranty)",
    "spec": "1TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1817b01047b18bc3.webp",
    "image": "img/hk-1817b01047b18bc3.webp",
@@ -9853,7 +9930,14 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/21460/huadisk-1tb-gen4-m2-ssd",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1099,
+      "url": "https://secomputer.com.hk/products/62426"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1098,
@@ -9915,30 +9999,6 @@
       "url": "https://buymore.hk/shop/goods.php?id=34296"
      }
     ]
-   },
-   "delta_hkd": null,
-   "best_price": 1099,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:huadisk:1tb::5000::hyv1tbx4",
-   "category": "ssd",
-   "brand": "HuaDisk",
-   "model_key": "ssd:huadisk:1tb::5000::hyv1tbx4",
-   "title": "HUADISK HYV1TBX4 M.2 NVMe PCIe 4.0 1TB SSD (R:5000MB/s W:4500MB/s. 3yr warranty)",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7dbc1128a7f92163.webp",
-   "image": "img/hk-7dbc1128a7f92163.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/82869e5992815a0b82bbce6cad40e312.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1099,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/62426",
-    "stock": "現貨",
-    "others": []
    },
    "delta_hkd": null,
    "best_price": 1099,
@@ -10046,7 +10106,7 @@
    "category": "ssd",
    "brand": "ADATA",
    "model_key": "ssd:adata:1tb::::",
-   "title": "ADATA Legend 860 1TB PCIe 4.0 NVMe M.2 SSD",
+   "title": "ADATA LEGEND 860 1TB M.2 NVMe Gen4 SSD (R: 6000MB/s, W: 5000MB/s, 5-Years warranty)",
    "spec": "1TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-abf19f6b5a875ab6.webp",
    "image": "img/hk-abf19f6b5a875ab6.webp",
@@ -10060,51 +10120,27 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1150,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-1tb-legend-860-sleg-860-1000gcs-m-2-2280-pcie-gen4-x4-ssd"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1169,
+      "url": "https://secomputer.com.hk/products/57152"
+     },
+     {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 1199,
       "url": "https://shop.pegasus.hk/products/222176/ADATA-Legend-860-1TB-PCIe-40-NVMe-M2-SSD-SLEG-860-1000GCS---5年保養"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1299,
-      "url": "https://shop.pegasus.hk/products/221208/ADATA-Legend-900-1TB-PCIe-40-NVMe-M2-SSD-SLEG-900-1TCS---5年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1379,
-      "url": "https://centralfield.com/product/5681/adata-legend-900-1tb-gen4-m2-ssd"
      }
     ]
    },
    "delta_hkd": null,
    "best_price": 1149,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:adata:1tb::::860-1000gcs",
-   "category": "ssd",
-   "brand": "ADATA",
-   "model_key": "ssd:adata:1tb::::860-1000gcs",
-   "title": "ADATA 1TB LEGEND 860 SLEG-860-1000GCS M.2 2280 PCIe Gen4 x4 SSD (HD-L86041T)",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4456fe5af3be7886.png",
-   "image": "img/hk-4456fe5af3be7886.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/legend_860_1000gb_pk_2000x2000_463ed06a-8788-4897-8edf-6ee78518d711.png?v=1736432580",
-   "water": null,
-   "official": {
-    "price_hkd": 1150,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/adata-1tb-legend-860-sleg-860-1000gcs-m-2-2280-pcie-gen4-x4-ssd",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1150,
    "has_water": false,
    "has_official": true
   },
@@ -10181,30 +10217,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:adata:1tb::6000::6000mb",
-   "category": "ssd",
-   "brand": "ADATA",
-   "model_key": "ssd:adata:1tb::6000::6000mb",
-   "title": "ADATA LEGEND 860 1TB M.2 NVMe Gen4 SSD (R: 6000MB/s, W: 5000MB/s, 5-Years warranty)",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4ae181e432fb2ee2.webp",
-   "image": "img/hk-4ae181e432fb2ee2.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/ba5e6343c0f04df8d05e57fb433838dd.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1169,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/57152",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1169,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:zhitai:1tb::2280:ti600:ztss2eb07d23mc",
    "category": "ssd",
    "brand": "ZhiTai",
@@ -10221,7 +10233,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/zhitai-ti600-1tb-pcie-4-0-x4-nvme-2-0-qlc-m-2-ssd-r-7000-w-6000",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1249,
+      "url": "https://secomputer.com.hk/products/52621"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1169,
@@ -10233,7 +10252,7 @@
    "category": "ssd",
    "brand": "Kingston",
    "model_key": "ssd:kingston:1tb::::",
-   "title": "Kingston 1TB NV3 SNV3S/1000G M.2 2280 PCIe Gen4 x4 SSD",
+   "title": "Kingston M.2 NV3 SNV3S/1000G 1TB Gen4.0 NVMe Type 2280 SSD (6000MB/s, 4000MB/s)",
    "spec": "1TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-334fe264f890ac12.png",
    "image": "img/hk-334fe264f890ac12.png",
@@ -10251,6 +10270,12 @@
       "store_short": "飛馬",
       "price_hkd": 1199,
       "url": "https://shop.pegasus.hk/products/220474/Kingston-NV3-1TB-PCIe-40-NVMe-M2-SSD-SNV3S1000G---5年保養"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1260,
+      "url": "https://secomputer.com.hk/products/54350"
      },
      {
       "store": "中田電腦 Centralfield",
@@ -10350,7 +10375,14 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/55038",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1379,
+      "url": "https://centralfield.com/product/5681/adata-legend-900-1tb-gen4-m2-ssd"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1198,
@@ -10362,7 +10394,7 @@
    "category": "ssd",
    "brand": "Crucial",
    "model_key": "ssd:crucial:1tb::::ct1000e100ssd8",
-   "title": "Crucial E100 1TB Gen 4 M.2 固態硬碟 (CT1000E100SSD8)",
+   "title": "Crucial M.2 E100 1TB PCIe Gen4 2280 M.2 SSD (R/W 5000/3000MB/s CT1000E100SSD8)",
    "spec": "1TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5c8dc6c5125e2a87.webp",
    "image": "img/hk-5c8dc6c5125e2a87.webp",
@@ -10374,7 +10406,14 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/18370/crucial-e100-1tb-gen4-m2-ssd-2",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1290,
+      "url": "https://secomputer.com.hk/products/55993"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1199,
@@ -10539,54 +10578,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:zhitai:1tb::7000:ti600:",
-   "category": "ssd",
-   "brand": "ZhiTai",
-   "model_key": "ssd:zhitai:1tb::7000:ti600:",
-   "title": "ZhiTai 致態 M.2 Ti600 1TB NVMe Gen4 SSD(R:7000,W:6000)",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dab2f02f38d367fc.webp",
-   "image": "img/hk-dab2f02f38d367fc.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/bec4543a6c848963756c920520182dc3.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1249,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/52621",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1249,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:kingston:1tb::::6000mb",
-   "category": "ssd",
-   "brand": "Kingston",
-   "model_key": "ssd:kingston:1tb::::6000mb",
-   "title": "Kingston M.2 NV3 SNV3S/1000G 1TB Gen4.0 NVMe Type 2280 SSD (6000MB/s, 4000MB/s)",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-564accd6d7462453.webp",
-   "image": "img/hk-564accd6d7462453.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/d5d9f7c008cc4cb3cb559dc274e4524b.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1260,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/54350",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1260,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:wd:1tb::7100::sn7100",
    "category": "ssd",
    "brand": "WD",
@@ -10682,7 +10673,7 @@
    "category": "ssd",
    "brand": "Crucial",
    "model_key": "ssd:crucial:1tb::::",
-   "title": "Crucial BX500 1TB SATA III 2.5吋 SSD 固態硬碟",
+   "title": "Crucial M.2 P310 1TB PCIe Gen4 NVMe 2280 SSD CT1000P310SSD8, R:7100MB/s, W:6000MB/s ***…",
    "spec": "1TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-54ec2fcc1dd6fdcb.webp",
    "image": "img/hk-54ec2fcc1dd6fdcb.webp",
@@ -10696,6 +10687,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1340,
+      "url": "https://centralfield.com/product/17852/crucial-p310-1tb-gen4-m2-ssd-ct1000p310ssd8-2"
+     },
+     {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 1399,
@@ -10706,38 +10703,8 @@
       "store_short": "飛馬",
       "price_hkd": 1399,
       "url": "https://shop.pegasus.hk/products/223161/Crucial-P310-1TB-PCIe-40-NVMe-M2-SSD-CT1000P310SSD8---5年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1410,
-      "url": "https://centralfield.com/product/12164/crucial-bx500-1tb-sata3-ssd-2"
      }
     ]
-   },
-   "delta_hkd": null,
-   "best_price": 1290,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:crucial:1tb::2280::3000mb",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:1tb::2280::3000mb",
-   "title": "Crucial M.2 E100 1TB PCIe Gen4 2280 M.2 SSD (R/W 5000/3000MB/s CT1000E100SSD8)",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-83665fbedda67c52.webp",
-   "image": "img/hk-83665fbedda67c52.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/7c35fff6271a12fde9066f42bf7b5ccf.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1290,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55993",
-    "stock": "現貨",
-    "others": []
    },
    "delta_hkd": null,
    "best_price": 1290,
@@ -10868,30 +10835,6 @@
    },
    "delta_hkd": null,
    "best_price": 1310,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:crucial:1tb::7100::7100mb",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:1tb::7100::7100mb",
-   "title": "Crucial P310 1TB Gen 4 M.2 SSD (7100MB/s) 固態硬碟",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-39d065f366b3d247.webp",
-   "image": "img/hk-39d065f366b3d247.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/17852.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1340,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/17852/crucial-p310-1tb-gen4-m2-ssd-ct1000p310ssd8-2",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1340,
    "has_water": false,
    "has_official": true
   },
@@ -11045,12 +10988,6 @@
       "store_short": "飛馬",
       "price_hkd": 1399,
       "url": "https://shop.pegasus.hk/products/227310/Klevv-科賦-CRAS-C910G-1TB-PCIe-40-NVMe-M2-SSD---5年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1710,
-      "url": "https://centralfield.com/product/2487/klevv-cras-c930-1tb-gen-4-m2-ssd"
      }
     ]
    },
@@ -11155,7 +11092,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/wd-1tb-sn740-sddptqd-1t00-m-2-2230-pcie-gen4-x4-nvme-ssd",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1400,
+      "url": "https://centralfield.com/product/2659/wd-pc-sn740-1tb-gen4-m2-2230-ssd"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1400,
@@ -11163,26 +11107,26 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:wd:1tb::2230::",
+   "id": "ssd|ssd:crucial:1tb::::#2",
    "category": "ssd",
-   "brand": "WD",
-   "model_key": "ssd:wd:1tb::2230::",
-   "title": "WD PC SN740 1TB Gen 4 M.2 2230 SSD 固態硬碟",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-64f1c283fcedd10b.webp",
-   "image": "img/hk-64f1c283fcedd10b.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/2659.webp",
+   "brand": "Crucial",
+   "model_key": "ssd:crucial:1tb::::",
+   "title": "Crucial BX500 1TB SATA III 2.5吋 SSD 固態硬碟",
+   "spec": "1TB SATA 2.5\"",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3d06b2e111d53187.webp",
+   "image": "img/hk-3d06b2e111d53187.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12164.webp",
    "water": null,
    "official": {
-    "price_hkd": 1400,
+    "price_hkd": 1410,
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
-    "url": "https://centralfield.com/product/2659/wd-pc-sn740-1tb-gen4-m2-2230-ssd",
+    "url": "https://centralfield.com/product/12164/crucial-bx500-1tb-sata3-ssd-2",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 1400,
+   "best_price": 1410,
    "has_water": false,
    "has_official": true
   },
@@ -11211,35 +11155,11 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:crucial:1tb::2280::ct1000p310ssd8",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:1tb::2280::ct1000p310ssd8",
-   "title": "Crucial M.2 P310 1TB PCIe Gen4 NVMe 2280 SSD CT1000P310SSD8, R:7100MB/s, W:6000MB/s ***…",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e5979656c9c9977d.webp",
-   "image": "img/hk-e5979656c9c9977d.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/98bcee59d500859fa9fe802295ec77e4.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1450,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/58055",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1450,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:adata:1tb:::gammix:",
    "category": "ssd",
    "brand": "ADATA",
    "model_key": "ssd:adata:1tb:::gammix:",
-   "title": "ADATA XPG GAMMIX S70 BLADE 1TB PCIe 4.0 NVMe M.2 SSD",
+   "title": "ADATA XPG GAMMIX S70 BLADE 1TB M.2 NVMe Gen4 SSD (R: 7400MB/s, W: 5500MB/s, AGAMMIXS70B…",
    "spec": "1TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b989116ddb24d133.webp",
    "image": "img/hk-b989116ddb24d133.webp",
@@ -11252,6 +11172,12 @@
     "url": "https://centralfield.com/product/2381/adata-xpg-gammix-s70-blade-1tb-gen4-m2-ssd",
     "stock": "現貨",
     "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1479,
+      "url": "https://secomputer.com.hk/products/43094"
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -11282,34 +11208,17 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-1tb-p510-ct1000p510ssd8-pcie-gen5-nvme-m-2-ssd",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1490,
+      "url": "https://centralfield.com/product/18083/crucial-p510-1tb-gen5-m2-ssd-3"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1470,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:adata:1tb::7400:gammix:7400mb",
-   "category": "ssd",
-   "brand": "ADATA",
-   "model_key": "ssd:adata:1tb::7400:gammix:7400mb",
-   "title": "ADATA XPG GAMMIX S70 BLADE 1TB M.2 NVMe Gen4 SSD (R: 7400MB/s, W: 5500MB/s, AGAMMIXS70B…",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a25ca23e6b276407.png",
-   "image": "img/hk-a25ca23e6b276407.png",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/69b45c0bf0d66feecf46b9c694724dd0.png",
-   "water": null,
-   "official": {
-    "price_hkd": 1479,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/43094",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1479,
    "has_water": false,
    "has_official": true
   },
@@ -11318,7 +11227,7 @@
    "category": "ssd",
    "brand": "ZhiTai",
    "model_key": "ssd:zhitai:1tb::9000::tipro9000",
-   "title": "ZhiTai 致態 1TB TiPro9000 ZTSS3CB08B34MC Gen5 NVMe M.2 SSD",
+   "title": "ZhiTai 致態 M.2 TiPro 9000 1TB NVMe Gen5 SSD(R:14000,W:12500)",
    "spec": "1TB NVMe PCIe Gen5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-733a97f81fff3a9f.jpg",
    "image": "img/hk-733a97f81fff3a9f.jpg",
@@ -11331,6 +11240,12 @@
     "url": "https://www.jumbo-computer.com/zh-hk/products/zhitai-致態-1tb-tipro9000-ztss3cb08b34mc-gen5-nvme-m-2-ssd",
     "stock": "現貨",
     "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1555,
+      "url": "https://secomputer.com.hk/products/59956"
+     },
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
@@ -11369,35 +11284,11 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:crucial:1tb::::11000mb",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:1tb::::11000mb",
-   "title": "Crucial P510 1TB Gen 5.0 M.2 SSD 固態硬碟 | 11000MB/s 讀取",
-   "spec": "1TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-79152dafee7ce60d.webp",
-   "image": "img/hk-79152dafee7ce60d.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/18083.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1490,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/18083/crucial-p510-1tb-gen5-m2-ssd-3",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1490,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:corsair:1tb:::mp600:",
    "category": "ssd",
    "brand": "Corsair",
    "model_key": "ssd:corsair:1tb:::mp600:",
-   "title": "Corsair MP600 ELITE 1TB Gen 4 M.2 SSD 散熱器 PS5 Ready",
+   "title": "Corsair MP600 CORE XT 1TB PCIe Gen4 M.2 SSD 固態硬碟",
    "spec": "1TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ab9e891a62988bbf.png",
    "image": "img/hk-ab9e891a62988bbf.png",
@@ -11415,12 +11306,6 @@
       "store_short": "中田",
       "price_hkd": 1630,
       "url": "https://centralfield.com/product/12041/corsair-mp600-core-xt-1tb-gen4-m2-ssd"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1780,
-      "url": "https://centralfield.com/product/2448/corsair-mp600-elite-1tb-gen-4-m2-ssd"
      },
      {
       "store": "飛馬 PEGASUS",
@@ -11489,18 +11374,6 @@
       "store_short": "中田",
       "price_hkd": 1699,
       "url": "https://centralfield.com/product/1212/corsair-mp700-elite-1tb-gen5-nvme-m2-ssd"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1950,
-      "url": "https://centralfield.com/product/12610/corsair-mp700-pro-1tb-gen5-nvme-m2-ssd"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2120,
-      "url": "https://centralfield.com/product/16232/corsair-mp700-pro-xt-1tb-gen5-nvme-ssd"
      }
     ]
    },
@@ -11538,7 +11411,7 @@
    "category": "ssd",
    "brand": "ADATA",
    "model_key": "ssd:adata:1tb:::970:",
-   "title": "ADATA MARS 970 Plus 1TB Gen 5.0 M.2 SSD 高速固態硬碟",
+   "title": "ADATA 1TB XPG MARS 970 PLUS SMAR-970PL-1TCS M.2 NVMe PCIe 5.0 x4 SSD (HD-M970PL1)",
    "spec": "1TB NVMe PCIe Gen5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2121110a90d6ce16.png",
    "image": "img/hk-2121110a90d6ce16.png",
@@ -11552,6 +11425,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1550,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-1tb-xpg-mars-970-plus-smar-970pl-1tcs-m-2-nvme-pcie-5-0-x4-ssd-hd-m970pl1"
+     },
+     {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
       "price_hkd": 1629,
@@ -11561,30 +11440,6 @@
    },
    "delta_hkd": null,
    "best_price": 1549,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:adata:1tb:::970:970pl-1tcs",
-   "category": "ssd",
-   "brand": "ADATA",
-   "model_key": "ssd:adata:1tb:::970:970pl-1tcs",
-   "title": "ADATA 1TB XPG MARS 970 PLUS SMAR-970PL-1TCS M.2 NVMe PCIe 5.0 x4 SSD (HD-M970PL1)",
-   "spec": "1TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-470ab7fe3d2b00e1.png",
-   "image": "img/hk-470ab7fe3d2b00e1.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ADATA1TBXPGMARS970PLUSP3BOX.png?v=1767788957",
-   "water": null,
-   "official": {
-    "price_hkd": 1550,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/adata-1tb-xpg-mars-970-plus-smar-970pl-1tcs-m-2-nvme-pcie-5-0-x4-ssd-hd-m970pl1",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1550,
    "has_water": false,
    "has_official": true
   },
@@ -11607,39 +11462,27 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1650,
-      "url": "https://secomputer.com.hk/products/54955"
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1565,
+      "url": "https://centralfield.com/product/12808/samsung-990-evo-plus-1tb-gen5-nvme-ssd-2"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1565,
+      "url": "https://centralfield.com/product/2608/samsung-990evo-plus-1tb-gen5-nvme-m2-ssd"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1599,
+      "url": "https://shop.pegasus.hk/products/221520/Samsung-三星-990-EVO-Plus-1TB-PCIe-40-NVMe-M2-SSD-MZ-V9S1T0BW---5年保養"
      }
     ]
    },
    "delta_hkd": null,
    "best_price": 1550,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:zhitai:1tb::9000::",
-   "category": "ssd",
-   "brand": "ZhiTai",
-   "model_key": "ssd:zhitai:1tb::9000::",
-   "title": "ZhiTai 致態 M.2 TiPro 9000 1TB NVMe Gen5 SSD(R:14000,W:12500)",
-   "spec": "1TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7082e6f8c0351d2b.webp",
-   "image": "img/hk-7082e6f8c0351d2b.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/558a0b02d349b846284aea8d490c9a43.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1555,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/59956",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1555,
    "has_water": false,
    "has_official": true
   },
@@ -11671,67 +11514,6 @@
    },
    "delta_hkd": null,
    "best_price": 1560,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:samsung:1tb:::990:",
-   "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:1tb:::990:",
-   "title": "三星 Samsung 990 EVO PLUS 1TB Gen 5 NVMe M.2 SSD 固態硬碟",
-   "spec": "1TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cc37a2d30f76133d.webp",
-   "image": "img/hk-cc37a2d30f76133d.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/12808.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1565,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/12808/samsung-990-evo-plus-1tb-gen5-nvme-ssd-2",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1599,
-      "url": "https://shop.pegasus.hk/products/221520/Samsung-三星-990-EVO-Plus-1TB-PCIe-40-NVMe-M2-SSD-MZ-V9S1T0BW---5年保養"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1699,
-      "url": "https://shop.pegasus.hk/products/211148/Samsung-三星-990-PRO-1TB-PCIe-40-NVMe-M2-SSD-MZ-V9P1T0BW---5年保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1565,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:samsung:1tb::::990evo",
-   "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:1tb::::990evo",
-   "title": "三星 Samsung 990EVO PLUS 1TB Gen 5 NVMe M.2 固態硬碟",
-   "spec": "1TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8cf2991021f90346.webp",
-   "image": "img/hk-8cf2991021f90346.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/2608.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1565,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/2608/samsung-990evo-plus-1tb-gen5-nvme-m2-ssd",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1565,
    "has_water": false,
    "has_official": true
   },
@@ -11776,7 +11558,26 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/44081",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 1599,
+      "url": "https://buymore.hk/shop/goods.php?id=26574"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1599,
+      "url": "https://shop.pegasus.hk/products/207722/Kingston-KC3000-1TB-PCIe-40-NVMe-M2-SSD-SKC3000S1024G---5年保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1610,
+      "url": "https://centralfield.com/product/2502/kingston-kc3000-1024gb-gen4-m2-ssd"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1580,
@@ -11808,43 +11609,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:kingston:1tb::3000::kc3000",
-   "category": "ssd",
-   "brand": "Kingston",
-   "model_key": "ssd:kingston:1tb::3000::kc3000",
-   "title": "【M.2 GEN4 1TB】KINGSTON KC3000 1000GB (讀: 7,000MB/s 寫: 6,000MB/s)",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b0d4b182b420c49d.jpg",
-   "image": "img/hk-b0d4b182b420c49d.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/87df830a-dc73-4b4b-ae8d-762971063700/public",
-   "water": null,
-   "official": {
-    "price_hkd": 1599,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=26574",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1599,
-      "url": "https://shop.pegasus.hk/products/207722/Kingston-KC3000-1TB-PCIe-40-NVMe-M2-SSD-SKC3000S1024G---5年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1610,
-      "url": "https://centralfield.com/product/2502/kingston-kc3000-1024gb-gen4-m2-ssd"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:samsung:1tb::2280:990:v9p1t0bw",
    "category": "ssd",
    "brand": "Samsung",
@@ -11862,6 +11626,12 @@
     "url": "https://www.jumbo-computer.com/zh-hk/products/samsung-1tb-990-pro-mz-v9p1t0bw-m-2-2280-pcie-gen4-x4-ssd",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1730,
+      "url": "https://centralfield.com/product/279/samsung-990pro-1tb-gen4-m2-ssd-mz-v9p1t0bw"
+     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -11993,26 +11763,50 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:samsung:1tb::::990pro",
+   "id": "ssd|ssd:crucial:1tb::::#3",
    "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:1tb::::990pro",
-   "title": "三星 Samsung 990PRO 1TB Gen 4 M.2 SSD 固態硬碟",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4eeb85c52ef16952.webp",
-   "image": "img/hk-4eeb85c52ef16952.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/279.webp",
+   "brand": "Crucial",
+   "model_key": "ssd:crucial:1tb::::",
+   "title": "Crucial T710 1TB Gen 5.0 M.2 SSD 固態硬碟",
+   "spec": "1TB NVMe PCIe Gen5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-74bbd33f51a87ebd.webp",
+   "image": "img/hk-74bbd33f51a87ebd.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/19261.webp",
    "water": null,
    "official": {
-    "price_hkd": 1730,
+    "price_hkd": 1700,
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
-    "url": "https://centralfield.com/product/279/samsung-990pro-1tb-gen4-m2-ssd-mz-v9p1t0bw",
+    "url": "https://centralfield.com/product/19261/crucial-t710-1tb-gen5-m2-ssd-ct1000t710ssd8",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 1730,
+   "best_price": 1700,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:klevv:1tb::::#2",
+   "category": "ssd",
+   "brand": "Klevv",
+   "model_key": "ssd:klevv:1tb::::",
+   "title": "Klevv 科賦 CRAS C930 1TB Gen 4 M.2 SSD 固態硬碟",
+   "spec": "1TB NVMe PCIe Gen4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bd295f93042281e7.webp",
+   "image": "img/hk-bd295f93042281e7.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2487.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1710,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/2487/klevv-cras-c930-1tb-gen-4-m2-ssd",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1710,
    "has_water": false,
    "has_official": true
   },
@@ -12021,7 +11815,7 @@
    "category": "ssd",
    "brand": "WD",
    "model_key": "ssd:wd:1tb::::sn850x",
-   "title": "WD Black SN850x 1TB Gen 4 M.2 固態硬碟 (WDS100T2X0E)",
+   "title": "WD Black M.2 SN850X 1TB 無散熱片 WDS100T2X0E Type 2280 PCIe Gen4 x4 NVMe SSD(R:7300MB/s,W:6…",
    "spec": "1TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-34ea8f587b1441f7.png",
    "image": "img/hk-34ea8f587b1441f7.png",
@@ -12034,6 +11828,18 @@
     "url": "https://shop.pegasus.hk/products/210551/WD-Black-SN850X-1TB-PCIe-40-NVMe-M2-SSD-WDS100T2X0E---5年保養",
     "stock": "現貨",
     "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1799,
+      "url": "https://secomputer.com.hk/products/47518"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1840,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/wd-1tb-black-sn850x-wds100t2x0e-m-2-2280-pcie-gen4-x4-ssd"
+     },
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
@@ -12087,6 +11893,30 @@
     "store": "Jumbo 珍寶電腦",
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/acer-predator-1tb-gm9-bl-9bwwr-136-pcie-gen5-nvme-m-2-ssd-hd-agm91t",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1780,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:corsair:1tb:::mp600:#2",
+   "category": "ssd",
+   "brand": "Corsair",
+   "model_key": "ssd:corsair:1tb:::mp600:",
+   "title": "Corsair MP600 ELITE 1TB Gen 4 M.2 SSD 高速固態硬碟",
+   "spec": "1TB NVMe PCIe Gen4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-82a7b70c3717edc8.webp",
+   "image": "img/hk-82a7b70c3717edc8.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2448.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1780,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/2448/corsair-mp600-elite-1tb-gen-4-m2-ssd",
     "stock": "現貨",
     "others": []
    },
@@ -12168,37 +11998,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:wd:1tb::2280::sn850x",
-   "category": "ssd",
-   "brand": "WD",
-   "model_key": "ssd:wd:1tb::2280::sn850x",
-   "title": "WD Black M.2 SN850X 1TB 無散熱片 WDS100T2X0E Type 2280 PCIe Gen4 x4 NVMe SSD(R:7300MB/s,W:6…",
-   "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c997534e6802f0b5.webp",
-   "image": "img/hk-c997534e6802f0b5.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/27528423560f9f1cff0a231fa514472d.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1799,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/47518",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 1840,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/wd-1tb-black-sn850x-wds100t2x0e-m-2-2280-pcie-gen4-x4-ssd"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1799,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:zhitai:2tb:::ti600:2000gb",
    "category": "ssd",
    "brand": "ZhiTai",
@@ -12271,26 +12070,57 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:corsair:1tb:::mp600:f1000gbmp600pnh",
+   "id": "ssd|ssd:corsair:1tb:::mp600:#4",
    "category": "ssd",
    "brand": "Corsair",
-   "model_key": "ssd:corsair:1tb:::mp600:f1000gbmp600pnh",
+   "model_key": "ssd:corsair:1tb:::mp600:",
    "title": "CORSAIR 1TB MP600 PRO NH CSSD-F1000GBMP600PNH M.2 2280 PCIe Gen4 x4 SSD",
    "spec": "1TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9a454224a37a9564.jpg",
-   "image": "img/hk-9a454224a37a9564.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/5190bABujgL._AC_SL1066_cdefe4f4-53aa-4971-91ab-11e859b863f0.jpg?v=1698315073",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-038a290aac3fe1e1.webp",
+   "image": "img/hk-038a290aac3fe1e1.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2453.webp",
    "water": null,
    "official": {
-    "price_hkd": 1860,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-1tb-mp600-pro-nh-cssd-f1000gbmp600pnh-m-2-2280-pcie-gen4-x4-ssd",
+    "price_hkd": 1850,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/2453/corsair-mp600-pro-nh-1tb-gen4-m2-ssd",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 1860,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-1tb-mp600-pro-nh-cssd-f1000gbmp600pnh-m-2-2280-pcie-gen4-x4-ssd"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1850,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:corsair:1tb:::mp600:#3",
+   "category": "ssd",
+   "brand": "Corsair",
+   "model_key": "ssd:corsair:1tb:::mp600:",
+   "title": "Corsair MP600 ELITE 1TB Gen 4 M.2 SSD 散熱器 PS5 Ready",
+   "spec": "1TB NVMe PCIe Gen4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dc6d71d30f103408.webp",
+   "image": "img/hk-dc6d71d30f103408.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2447.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1850,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/2447/corsair-mp600-elite-1tb-gen4-m2-ssd-ps5",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 1860,
+   "best_price": 1850,
    "has_water": false,
    "has_official": true
   },
@@ -12341,6 +12171,12 @@
       "store_short": "SE",
       "price_hkd": 1930,
       "url": "https://secomputer.com.hk/products/56861"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1978,
+      "url": "https://centralfield.com/product/14089/samsung-9100pro-1tb-gen5-nvme-m2-ssd-2"
      }
     ]
    },
@@ -12453,26 +12289,26 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:samsung:1tb::::9100pro",
+   "id": "ssd|ssd:corsair:1tb:::mp700:#2",
    "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:1tb::::9100pro",
-   "title": "Samsung 9100PRO 1TB Gen 5.0 NVMe M.2 SSD 固態硬碟",
+   "brand": "Corsair",
+   "model_key": "ssd:corsair:1tb:::mp700:",
+   "title": "Corsair MP700 PRO 1TB Gen 5 NVMe M.2 固態硬碟",
    "spec": "1TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-48d2d5ee7bb882da.webp",
-   "image": "img/hk-48d2d5ee7bb882da.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/14089.webp",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6a9411cf8bd50c86.webp",
+   "image": "img/hk-6a9411cf8bd50c86.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12610.webp",
    "water": null,
    "official": {
-    "price_hkd": 1978,
+    "price_hkd": 1950,
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
-    "url": "https://centralfield.com/product/14089/samsung-9100pro-1tb-gen5-nvme-m2-ssd-2",
+    "url": "https://centralfield.com/product/12610/corsair-mp700-pro-1tb-gen5-nvme-m2-ssd",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 1978,
+   "best_price": 1950,
    "has_water": false,
    "has_official": true
   },
@@ -12505,12 +12341,6 @@
       "store_short": "飛馬",
       "price_hkd": 2199,
       "url": "https://shop.pegasus.hk/products/211339/Kingston-Fury-Renegade-2TB-PCIe-40-NVMe-M2-SSD-w-Heatsink-連散熱片-SFYRDK2000G---5年保養"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2600,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-2tb-fury-renegade-sfyrd-2000g-pcie-4-0-nvme-m-2-ssd"
      }
     ]
    },
@@ -12536,14 +12366,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/18220/klevv-cras-c910g-2tb-gen4-m2-ssd",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2560,
-      "url": "https://centralfield.com/product/7466/klevv-cras-c910-2tb-gen4-m2-ssd"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 1999,
@@ -12579,7 +12402,7 @@
    "category": "ssd",
    "brand": "Crucial",
    "model_key": "ssd:crucial:2tb::::ct2000p310ssd8",
-   "title": "Crucial 2TB P310 CT2000P310SSD8 PCIe Gen4 NVMe 2280 M.2 SSD (HD-CP3102T)",
+   "title": "Crucial M.2 P310 2TB PCIe Gen4 NVMe 2280 SSD CT2000P310SSD8, R:7100MB/s, W:6000MB/s ***…",
    "spec": "2TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0e11d681f43741a7.png",
    "image": "img/hk-0e11d681f43741a7.png",
@@ -12591,7 +12414,26 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-2tb-p310-ct2000p310ssd8-pcie-gen4-nvme-2280-m-2-ssd",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2099,
+      "url": "https://shop.pegasus.hk/products/206274/Crucial-BX500-2TB-3D-TLC-SATA-III-SSD---3年保養"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2099,
+      "url": "https://shop.pegasus.hk/products/222517/Crucial-P310-2TB-PCIe-40-NVMe-M2-SSD-CT2000P310SSD8---5年保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2100,
+      "url": "https://centralfield.com/product/17353/crucial-p310-2tb-gen4-m2-ssd-6"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2010,
@@ -12669,49 +12511,6 @@
       "store_short": "飛馬",
       "price_hkd": 2199,
       "url": "https://shop.pegasus.hk/products/222175/ADATA-Legend-860-2TB-PCIe-40-NVMe-M2-SSD-SLEG-860-2000GCS---5年保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2099,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:crucial:2tb::::",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:2tb::::",
-   "title": "Crucial 美光 P310 2TB Gen 4 M.2 SSD 高速固態硬碟",
-   "spec": "2TB SATA 2.5\"",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-68fc8da8d9286eea.jpg",
-   "image": "img/hk-68fc8da8d9286eea.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b7079caf-cec1-4b40-6249-2a0493e4af00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 2099,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/206274/Crucial-BX500-2TB-3D-TLC-SATA-III-SSD---3年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 2099,
-      "url": "https://shop.pegasus.hk/products/222517/Crucial-P310-2TB-PCIe-40-NVMe-M2-SSD-CT2000P310SSD8---5年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2100,
-      "url": "https://centralfield.com/product/17353/crucial-p310-2tb-gen4-m2-ssd-6"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2200,
-      "url": "https://centralfield.com/product/21627/crucial-p310-2tb-gen4-m2-ssd-5"
      }
     ]
    },
@@ -12830,6 +12629,30 @@
    "has_official": true
   },
   {
+   "id": "ssd|ssd:corsair:1tb:::mp700:#3",
+   "category": "ssd",
+   "brand": "Corsair",
+   "model_key": "ssd:corsair:1tb:::mp700:",
+   "title": "Corsair MP700 Pro XT 1TB Gen 5 高速 NVMe M.2 SSD",
+   "spec": "1TB NVMe PCIe Gen5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e1ed07943f68d2cb.webp",
+   "image": "img/hk-e1ed07943f68d2cb.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/16232.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2120,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/16232/corsair-mp700-pro-xt-1tb-gen5-nvme-ssd",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2120,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ssd|ssd:crucial:2tb::::ct2000bx500ssd1",
    "category": "ssd",
    "brand": "Crucial",
@@ -12939,6 +12762,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2290,
+      "url": "https://centralfield.com/product/12809/samsung-990evo-plus-2tb-gen5-nvme-m2-ssd"
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 2399,
@@ -12995,11 +12824,35 @@
    "has_official": true
   },
   {
+   "id": "ssd|ssd:crucial:2tb::::",
+   "category": "ssd",
+   "brand": "Crucial",
+   "model_key": "ssd:crucial:2tb::::",
+   "title": "Crucial 美光 P310 2TB Gen 4 M.2 SSD 固態硬碟",
+   "spec": "2TB NVMe PCIe Gen4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-367cb6cfe7810070.webp",
+   "image": "img/hk-367cb6cfe7810070.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21627.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2200,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21627/crucial-p310-2tb-gen4-m2-ssd-5",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2200,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ssd|ssd:kingston:2tb::::",
    "category": "ssd",
    "brand": "Kingston",
    "model_key": "ssd:kingston:2tb::::",
-   "title": "Kingston NV3 2TB Gen 4 M.2 SSD 固態硬碟 (SNV3S/2000G)",
+   "title": "Kingston M.2 NV3 SNV3S/2000G 2TB Gen4.0 NVMe Type 2280 SSD (6000MB/s, 5000MB/s)",
    "spec": "2TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-00669ef3fb80eac0.webp",
    "image": "img/hk-00669ef3fb80eac0.webp",
@@ -13011,7 +12864,14 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/2511/kingston-nv3-2tb-gen4-m2-ssd-snv3s-2000g",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2280,
+      "url": "https://secomputer.com.hk/products/54349"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2210,
@@ -13023,7 +12883,7 @@
    "category": "ssd",
    "brand": "WD",
    "model_key": "ssd:wd:2tb::2230::",
-   "title": "WD PC SN740 2TB Gen 4 M.2 2230 SSD 固態硬碟",
+   "title": "WD 2TB PC SN740 SDDPTQE-2T00 M.2 2230 PCIe Gen4 x4 NVME SSD (WD-SN740-2230-2T)",
    "spec": "2TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-68c619fc00297e0a.webp",
    "image": "img/hk-68c619fc00297e0a.webp",
@@ -13035,7 +12895,14 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/2660/wd-pc-sn740-2tb-gen4-m2-2230-ssd-2",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2230,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/wd-2tb-sn740-sddptqd-2t00-m-2-2230-pcie-gen4-x4-nvme-ssd"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2210,
@@ -13063,78 +12930,6 @@
    },
    "delta_hkd": null,
    "best_price": 2230,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:wd:2tb::2230::sn740-2230-2t",
-   "category": "ssd",
-   "brand": "WD",
-   "model_key": "ssd:wd:2tb::2230::sn740-2230-2t",
-   "title": "WD 2TB PC SN740 SDDPTQE-2T00 M.2 2230 PCIe Gen4 x4 NVME SSD (WD-SN740-2230-2T)",
-   "spec": "2TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f5cd07b104cade55.png",
-   "image": "img/hk-f5cd07b104cade55.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/pc-sn740-nvme-ssd-2230.png.wdthumb.1280.1280_f34565e7-ad5d-4a29-a07b-ced9496f9542.webp?v=1699690433",
-   "water": null,
-   "official": {
-    "price_hkd": 2230,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/wd-2tb-sn740-sddptqd-2t00-m-2-2230-pcie-gen4-x4-nvme-ssd",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2230,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:kingston:2tb::::6000mb",
-   "category": "ssd",
-   "brand": "Kingston",
-   "model_key": "ssd:kingston:2tb::::6000mb",
-   "title": "Kingston M.2 NV3 SNV3S/2000G 2TB Gen4.0 NVMe Type 2280 SSD (6000MB/s, 5000MB/s)",
-   "spec": "2TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4df48e1df6f6a863.webp",
-   "image": "img/hk-4df48e1df6f6a863.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/aa45d50b18f95a55ab9b0ebe4ba65d35.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2280,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/54349",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2280,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:samsung:2tb::::990evo",
-   "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:2tb::::990evo",
-   "title": "三星 Samsung 990EVO PLUS 2TB Gen 5 NVMe M.2 固態硬碟",
-   "spec": "2TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-be5ba15d2da3b9c0.webp",
-   "image": "img/hk-be5ba15d2da3b9c0.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/12809.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2290,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/12809/samsung-990evo-plus-2tb-gen5-nvme-m2-ssd",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2290,
    "has_water": false,
    "has_official": true
   },
@@ -13191,12 +12986,6 @@
       "store_short": "中田",
       "price_hkd": 2928,
       "url": "https://centralfield.com/product/14005/corsair-mp600-core-xt-2tb-gen4-m2-ssd"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2999,
-      "url": "https://centralfield.com/product/2458/corsair-mp600-elite-2tb-gen4-m2-ssd"
      }
     ]
    },
@@ -13222,34 +13011,17 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/41411",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2320,
+      "url": "https://centralfield.com/product/13074/samsung-870evo-1tb-sata-iii-ssd"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:samsung:1tb::::870evo",
-   "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:1tb::::870evo",
-   "title": "Samsung 870EVO 1TB SATA III 2.5吋 SSD 固態硬碟",
-   "spec": "1TB SATA 2.5\"",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-679b3ce2ddd0b3bb.webp",
-   "image": "img/hk-679b3ce2ddd0b3bb.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/13074.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2320,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/13074/samsung-870evo-1tb-sata-iii-ssd",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2320,
    "has_water": false,
    "has_official": true
   },
@@ -13281,30 +13053,6 @@
    },
    "delta_hkd": null,
    "best_price": 2349,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:crucial:2tb::2280::ct2000p310ssd8",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:2tb::2280::ct2000p310ssd8",
-   "title": "Crucial M.2 P310 2TB PCIe Gen4 NVMe 2280 SSD CT2000P310SSD8, R:7100MB/s, W:6000MB/s ***…",
-   "spec": "2TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e5979656c9c9977d.webp",
-   "image": "img/hk-e5979656c9c9977d.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/98bcee59d500859fa9fe802295ec77e4.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2370,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/58057",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2370,
    "has_water": false,
    "has_official": true
   },
@@ -13433,7 +13181,7 @@
    "category": "ssd",
    "brand": "Crucial",
    "model_key": "ssd:crucial:2tb::::10000mb",
-   "title": "Crucial P510 2TB Gen 5.0 M.2 SSD (10000MB/s) 高速固態硬碟",
+   "title": "Crucial 2TB P510 CT2000P510SSD8 PCIe Gen5 NVMe M.2 SSD (HD-P5102T)",
    "spec": "2TB NVMe PCIe Gen5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8d34124f69c9755d.webp",
    "image": "img/hk-8d34124f69c9755d.webp",
@@ -13445,34 +13193,17 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/12315/crucial-p510-2tb-gen5-m2-ssd-3",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2440,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-2tb-p510-ct2000p510ssd8-pcie-gen5-nvme-m-2-ssd"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2415,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:crucial:2tb::::ct2000p510ssd8",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:2tb::::ct2000p510ssd8",
-   "title": "Crucial 2TB P510 CT2000P510SSD8 PCIe Gen5 NVMe M.2 SSD (HD-P5102T)",
-   "spec": "2TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-acdbca783b50bbf0.png",
-   "image": "img/hk-acdbca783b50bbf0.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Crucial_1TB_P510_CT1000P510SSD8.png?v=1750929615",
-   "water": null,
-   "official": {
-    "price_hkd": 2440,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-2tb-p510-ct2000p510ssd8-pcie-gen5-nvme-m-2-ssd",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2440,
    "has_water": false,
    "has_official": true
   },
@@ -13493,7 +13224,20 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/44082",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2599,
+      "url": "https://centralfield.com/product/2503/kingston-kc3000-2048gb-gen4-m2-ssd"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2600,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-2tb-kc3000-skc3000d-2048g-m-2-2280-pcie-gen4-x4-ssd"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2490,
@@ -13505,7 +13249,7 @@
    "category": "ssd",
    "brand": "ADATA",
    "model_key": "ssd:adata:2tb:::gammix:",
-   "title": "ADATA XPG GAMMIX S70 BLADE 2TB PCIe 4.0 NVMe M.2 SSD",
+   "title": "ADATA XPG GAMMIX S70 BLADE 2TB M.2 NVMe Gen4 SSD (R: 7400MB/s, W: 6400MB/s, AGAMMIXS70B…",
    "spec": "2TB NVMe PCIe Gen4",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-996b6cfeff052644.jpg",
    "image": "img/hk-996b6cfeff052644.jpg",
@@ -13518,6 +13262,18 @@
     "url": "https://shop.pegasus.hk/products/208843/ADATA-XPG-GAMMIX-S70-BLADE-2TB-PCIe-40-NVMe-M2-SSD-AGAMMIXS70B-2T-CS---5年保養",
     "stock": "現貨",
     "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2579,
+      "url": "https://secomputer.com.hk/products/43095"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2750,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-2tb-xpg-gammix-s70-blade-agammixs70b-2t-cs-m-2-2280-pcie-gen4-x4-ssd"
+     },
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
@@ -13581,10 +13337,22 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2599,
+      "url": "https://shop.pegasus.hk/products/211248/WD-Black-SN850X-2TB-PCIe-40-NVMe-M2-SSD-WDS200T2X0E---5年保養"
+     },
+     {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
       "price_hkd": 2699,
       "url": "https://www.jumbo-computer.com/zh-hk/products/wd-2tb-black-sn850x-wds200t2x0e-m-2-2280-pcie-gen4-x4-ssd"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2765,
+      "url": "https://centralfield.com/product/2635/wd-black-sn850x-2tb-gen4-m2-ssd-wds200t2x0e-2"
      }
     ]
    },
@@ -13614,6 +13382,30 @@
    },
    "delta_hkd": null,
    "best_price": 2550,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:klevv:2tb::::#2",
+   "category": "ssd",
+   "brand": "Klevv",
+   "model_key": "ssd:klevv:2tb::::",
+   "title": "Klevv CRAS C910 2TB Gen 4 M.2 SSD 固態硬碟",
+   "spec": "2TB NVMe PCIe Gen4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9adb19424141da96.webp",
+   "image": "img/hk-9adb19424141da96.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7466.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2560,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7466/klevv-cras-c910-2tb-gen4-m2-ssd",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2560,
    "has_water": false,
    "has_official": true
   },
@@ -13649,35 +13441,11 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:adata:2tb::7400:gammix:7400mb",
-   "category": "ssd",
-   "brand": "ADATA",
-   "model_key": "ssd:adata:2tb::7400:gammix:7400mb",
-   "title": "ADATA XPG GAMMIX S70 BLADE 2TB M.2 NVMe Gen4 SSD (R: 7400MB/s, W: 6400MB/s, AGAMMIXS70B…",
-   "spec": "2TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-238020cbc232f230.png",
-   "image": "img/hk-238020cbc232f230.png",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/b0fdac707e2aa0387b0cee5dd89eedc5.png",
-   "water": null,
-   "official": {
-    "price_hkd": 2579,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/43095",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2579,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:crucial:2tb::::14500mb",
    "category": "ssd",
    "brand": "Crucial",
    "model_key": "ssd:crucial:2tb::::14500mb",
-   "title": "Crucial 美光 T705 2TB Gen 5.0 M.2 SSD 固態硬碟 (R:14500MB/s)",
+   "title": "Crucial M.2 T705 2TB PCIe Gen5 NVMe SSD (R:14500, W:12700 MB/s, CT2000T705SSD3)",
    "spec": "2TB NVMe PCIe Gen5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-73a91a3a4617ebe4.webp",
    "image": "img/hk-73a91a3a4617ebe4.webp",
@@ -13691,10 +13459,10 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
+      "store": "SE Computer",
+      "store_short": "SE",
       "price_hkd": 2680,
-      "url": "https://centralfield.com/product/20608/crucial-t710-2tb-gen5-m2-ssd-2"
+      "url": "https://secomputer.com.hk/products/53277"
      }
     ]
    },
@@ -13752,37 +13520,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:kingston:2tb::3000::kc3000",
-   "category": "ssd",
-   "brand": "Kingston",
-   "model_key": "ssd:kingston:2tb::3000::kc3000",
-   "title": "Kingston 2TB KC3000 SKC3000D/2048G M.2 2280 PCIe Gen4 x4 SSD",
-   "spec": "2TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-00edeba10b7be8eb.webp",
-   "image": "img/hk-00edeba10b7be8eb.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/2503.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2599,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/2503/kingston-kc3000-2048gb-gen4-m2-ssd",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2600,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-2tb-kc3000-skc3000d-2048g-m-2-2280-pcie-gen4-x4-ssd"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:msi:2tb::6000::5000mb",
    "category": "ssd",
    "brand": "MSI",
@@ -13800,43 +13537,6 @@
     "url": "https://secomputer.com.hk/products/56666",
     "stock": "現貨",
     "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:wd:2tb::::sn850x",
-   "category": "ssd",
-   "brand": "WD",
-   "model_key": "ssd:wd:2tb::::sn850x",
-   "title": "WD Black SN850X 2TB PCIe 4.0 NVMe M.2 SSD (w/ Heatsink)",
-   "spec": "2TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6faff81e6f53662a.png",
-   "image": "img/hk-6faff81e6f53662a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3a5864da-56eb-4b35-869b-1a242dd08600/public",
-   "water": null,
-   "official": {
-    "price_hkd": 2599,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/211248/WD-Black-SN850X-2TB-PCIe-40-NVMe-M2-SSD-WDS200T2X0E---5年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2765,
-      "url": "https://centralfield.com/product/2635/wd-black-sn850x-2tb-gen4-m2-ssd-wds200t2x0e-2"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 2799,
-      "url": "https://shop.pegasus.hk/products/212846/WD-Black-SN850X-2TB-PCIe-40-NVMe-M2-SSD-w-Heatsink-WDS200T2XHE---5年保養"
-     }
-    ]
    },
    "delta_hkd": null,
    "best_price": 2599,
@@ -13864,6 +13564,30 @@
    },
    "delta_hkd": null,
    "best_price": 2599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:kingston:2tb:::fury+renegade:#2",
+   "category": "ssd",
+   "brand": "Kingston",
+   "model_key": "ssd:kingston:2tb:::fury+renegade:",
+   "title": "Kingston 2TB FURY Renegade SFYRD/2000G PCIe Gen4 NVMe M.2 SSD",
+   "spec": "2TB NVMe PCIe Gen4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8873eca7554d3cd6.png",
+   "image": "img/hk-8873eca7554d3cd6.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Kingston_2TB_FURY_Renegade_SFYRD2000G_PCIe_Gen4_NVMe_M.2_SSD.png?v=1788760587",
+   "water": null,
+   "official": {
+    "price_hkd": 2600,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-2tb-fury-renegade-sfyrd-2000g-pcie-4-0-nvme-m-2-ssd",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2600,
    "has_water": false,
    "has_official": true
   },
@@ -13934,6 +13658,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2635,
+      "url": "https://centralfield.com/product/2566/samsung-990pro-2tb-gen4-m2-ssd-3"
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 2699,
@@ -13971,30 +13701,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:samsung:2tb::::990pro",
-   "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:2tb::::990pro",
-   "title": "Samsung 990PRO 2TB Gen 4 M.2 SSD 固態硬碟",
-   "spec": "2TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b5c4ca2845aedb94.webp",
-   "image": "img/hk-b5c4ca2845aedb94.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/2566.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2635,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/2566/samsung-990pro-2tb-gen4-m2-ssd-3",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2635,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:klevv:2tb::7400::7400mb",
    "category": "ssd",
    "brand": "Klevv",
@@ -14019,34 +13725,10 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:crucial:2tb::::ct2000t705ssd3",
+   "id": "ssd|ssd:crucial:2tb::::14500mb#2",
    "category": "ssd",
    "brand": "Crucial",
-   "model_key": "ssd:crucial:2tb::::ct2000t705ssd3",
-   "title": "Crucial M.2 T705 2TB PCIe Gen5 NVMe SSD (R:14500, W:12700 MB/s, CT2000T705SSD3)",
-   "spec": "2TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8fd5fc295699f993.webp",
-   "image": "img/hk-8fd5fc295699f993.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/fefc87ce1823fcad7821e56b17c81375.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2680,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/53277",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2680,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:crucial:2tb::2280::ct2000t710ssd8",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:2tb::2280::ct2000t710ssd8",
+   "model_key": "ssd:crucial:2tb::::14500mb",
    "title": "Crucial T710 2TB PCIe Gen5 NVMe 2280 M.2 SSD (R:14,900MB/s W:13,800MB/s, CT2000T710SSD8…",
    "spec": "2TB NVMe PCIe Gen5",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b3e3a0833734d84.webp",
@@ -14059,7 +13741,14 @@
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/62252",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2680,
+      "url": "https://centralfield.com/product/20608/crucial-t710-2tb-gen5-m2-ssd-2"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2680,
@@ -14146,12 +13835,6 @@
       "url": "https://centralfield.com/product/1210/corsair-mp700-elite-2tb-gen5-nvme-m2-ssd"
      },
      {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2880,
-      "url": "https://centralfield.com/product/2465/corsair-mp700-pro-2tb-gen5-nvme-m2-ssd"
-     },
-     {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 3299,
@@ -14185,30 +13868,6 @@
    },
    "delta_hkd": null,
    "best_price": 2700,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:adata:2tb::2280:gammix:agammixs70b-2t-cs",
-   "category": "ssd",
-   "brand": "ADATA",
-   "model_key": "ssd:adata:2tb::2280:gammix:agammixs70b-2t-cs",
-   "title": "ADATA 2TB XPG GAMMIX S70 BLADE AGAMMIXS70B-2T-CS M.2 2280 PCIe Gen4 x4 SSD (HD-S70B2T)",
-   "spec": "2TB NVMe PCIe Gen4",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-91bd07f76856fc88.png",
-   "image": "img/hk-91bd07f76856fc88.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ADATA_2TB_S70_Blade.png?v=1739434239",
-   "water": null,
-   "official": {
-    "price_hkd": 2750,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/adata-2tb-xpg-gammix-s70-blade-agammixs70b-2t-cs-m-2-2280-pcie-gen4-x4-ssd",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2750,
    "has_water": false,
    "has_official": true
   },
@@ -14264,6 +13923,30 @@
    },
    "delta_hkd": null,
    "best_price": 2799,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:corsair:2tb:::mp700:#2",
+   "category": "ssd",
+   "brand": "Corsair",
+   "model_key": "ssd:corsair:2tb:::mp700:",
+   "title": "Corsair MP700 PRO 2TB Gen 5.0 NVMe M.2 固態硬碟",
+   "spec": "2TB NVMe PCIe Gen5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ee9d323230be3f71.webp",
+   "image": "img/hk-ee9d323230be3f71.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2465.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2880,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/2465/corsair-mp700-pro-2tb-gen5-nvme-m2-ssd",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2880,
    "has_water": false,
    "has_official": true
   },
@@ -14332,7 +14015,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/samsung-2tb-9100-pro-mz-vap2t0bw-pcie-gen5-nvme-m-2-ssd",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 3150,
+      "url": "https://centralfield.com/product/13798/samsung-9100pro-2tb-gen5-nvme-m2-ssd-3"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2980,
@@ -14340,50 +14030,57 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:samsung:2tb::::9100pro",
+   "id": "ssd|ssd:corsair:2tb:::mp600:#2",
    "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:2tb::::9100pro",
-   "title": "Samsung 9100PRO 2TB Gen 5.0 NVMe M.2 固態硬碟",
-   "spec": "2TB NVMe PCIe Gen5",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a6fa67379e0ba26a.webp",
-   "image": "img/hk-a6fa67379e0ba26a.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/13798.webp",
+   "brand": "Corsair",
+   "model_key": "ssd:corsair:2tb:::mp600:",
+   "title": "Corsair MP600 Elite 2TB M.2 NVMe PCIe Gen. 4 x4 SSD (Read: 7,000MB/s, Write: 6,500MB/s,…",
+   "spec": "2TB NVMe PCIe Gen4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-62a4cd8102b02070.webp",
+   "image": "img/hk-62a4cd8102b02070.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2458.webp",
    "water": null,
    "official": {
-    "price_hkd": 3150,
+    "price_hkd": 2999,
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
-    "url": "https://centralfield.com/product/13798/samsung-9100pro-2tb-gen5-nvme-m2-ssd-3",
+    "url": "https://centralfield.com/product/2458/corsair-mp600-elite-2tb-gen4-m2-ssd",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 3199,
+      "url": "https://secomputer.com.hk/products/53085"
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 3150,
+   "best_price": 2999,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "ssd|ssd:corsair:2tb:::mp600:f2000gbmp600enh",
+   "id": "ssd|ssd:corsair:2tb:::mp600:#3",
    "category": "ssd",
    "brand": "Corsair",
-   "model_key": "ssd:corsair:2tb:::mp600:f2000gbmp600enh",
-   "title": "Corsair MP600 Elite 2TB M.2 NVMe PCIe Gen. 4 x4 SSD (Read: 7,000MB/s, Write: 6,500MB/s,…",
-   "spec": "2TB M.2 NVMe",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-116a7d16bd29292c.jpg",
-   "image": "img/hk-116a7d16bd29292c.jpg",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/953105dbcc0ebe92cab3cf64b2873760.jpg",
+   "model_key": "ssd:corsair:2tb:::mp600:",
+   "title": "Corsair MP600 Pro NH 2TB Gen 4 M.2 SSD 固態硬碟",
+   "spec": "2TB NVMe PCIe Gen4",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c85f76e545aeeef0.webp",
+   "image": "img/hk-c85f76e545aeeef0.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2462.webp",
    "water": null,
    "official": {
-    "price_hkd": 3199,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/53085",
+    "price_hkd": 3180,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/2462/corsair-mp600-pro-nh-2tb-gen4-m2-ssd",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 3199,
+   "best_price": 3180,
    "has_water": false,
    "has_official": true
   },
@@ -14455,6 +14152,30 @@
    "has_official": true
   },
   {
+   "id": "ssd|ssd:corsair:2tb:::mp700:#3",
+   "category": "ssd",
+   "brand": "Corsair",
+   "model_key": "ssd:corsair:2tb:::mp700:",
+   "title": "Corsair MP700 Pro XT NH 2TB Gen 5 NVMe M.2 固態硬碟",
+   "spec": "2TB NVMe PCIe Gen5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6446db4274241927.webp",
+   "image": "img/hk-6446db4274241927.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/16233.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3499,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/16233/corsair-mp700-pro-xt-2tb-gen5-nvme-m2-ssd",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ssd|ssd:samsung:2tb:::870:77e2t0bw",
    "category": "ssd",
    "brand": "Samsung",
@@ -14506,6 +14227,30 @@
    },
    "delta_hkd": null,
    "best_price": 4650,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:kingston:2tb:::fury+renegade:#3",
+   "category": "ssd",
+   "brand": "Kingston",
+   "model_key": "ssd:kingston:2tb:::fury+renegade:",
+   "title": "Kingston Fury Renegade 2TB Gen 5.0 M.2 SSD 固態硬碟",
+   "spec": "2TB NVMe PCIe Gen5",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cfbae247648960e4.webp",
+   "image": "img/hk-cfbae247648960e4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12479.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4699,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12479/kingston-fury-renegade-2tb-gen5-m2-ssd",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4699,
    "has_water": false,
    "has_official": true
   },
