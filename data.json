@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-07T12:36:45Z",
- "generated_at_hkt": "2026-10-07 20:36 HKT",
- "price_updated_hkt": "2026-10-07 20:36 HKT",
+ "generated_at": "2026-10-07T18:14:44Z",
+ "generated_at_hkt": "2026-10-08 02:14 HKT",
+ "price_updated_hkt": "2026-10-08 02:14 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-07 09:56–20:05 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261007/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 137,
+   "count": 136,
    "enabled": true
   },
   "cpu": {
@@ -35,17 +35,17 @@
   }
  },
  "stats": {
-  "items": 491,
+  "items": 490,
   "both_sides": 11,
   "water_only": 13,
-  "official_only": 467,
+  "official_only": 466,
   "matched_water": 11,
-  "official_groups": 491,
+  "official_groups": 490,
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 24,
-   "official_downloaded": 8,
-   "official_cached": 402,
+   "official_downloaded": 0,
+   "official_cached": 410,
    "failed": 0
   },
   "image_samples": [
@@ -108,10 +108,10 @@
   ],
   "ivan": {
    "total_listings": 151,
-   "qualified": 51,
+   "qualified": 54,
    "deduped": 24,
    "excluded": {
-    "seller": 77,
+    "seller": 74,
     "ship unknown": 8,
     "no ship": 14,
     "used": 1
@@ -2637,15 +2637,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|inno3d:5070:2x+twin",
+   "id": "gpu|inno3d:5070:2x",
    "category": "gpu",
    "brand": "Inno3D",
-   "model_key": "inno3d:5070:2x+twin",
+   "model_key": "inno3d:5070:2x",
    "title": "【RTX5070】INNO3D RTX5070 TWIN X2 12GB [黑色] [長:250mm]",
    "spec": "RTX 5070",
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bb5442af62480233.webp",
+   "image": "img/hk-bb5442af62480233.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11582.webp",
    "water": null,
    "official": {
     "price_hkd": 6450,
@@ -2653,34 +2653,17 @@
     "store_short": "未來科技",
     "url": "https://buymore.hk/shop/goods.php?id=43920",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 6499,
+      "url": "https://centralfield.com/product/11582/inno3d-rtx-5070-x2-12gb-gddr7"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 6450,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|inno3d:5070:2x",
-   "category": "gpu",
-   "brand": "Inno3D",
-   "model_key": "inno3d:5070:2x",
-   "title": "Inno3D 映眾 GeForce RTX 5070 X2 12GB GDDR7 顯示卡",
-   "spec": "RTX 5070",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bb5442af62480233.webp",
-   "image": "img/hk-bb5442af62480233.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/11582.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 6499,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11582/inno3d-rtx-5070-x2-12gb-gddr7",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 6499,
    "has_water": false,
    "has_official": true
   },
@@ -4475,33 +4458,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:argb+oc+triple+verto|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+oc+triple+verto",
-   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
-   "image": "img/B0DZCVQGG6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
-   "water": {
-    "price_hkd": 11347,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DZCVQGG6",
-    "url": "https://www.amazon.de/dp/B0DZCVQGG6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11347,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|?:5070ti:oc+sff+ultra+white",
    "category": "gpu",
    "brand": "Colorful",
@@ -4924,6 +4880,33 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:argb+oc+triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+oc+triple",
+   "title": "PNY GeForce RTX™ 5080 16GB ARGB OC Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJDR3V9.jpg",
+   "image": "img/B0DTJDR3V9.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 12194,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DTJDR3V9",
+    "url": "https://www.amazon.co.uk/dp/B0DTJDR3V9",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": null
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12194,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5080:3x+black+oc+ventus|water",
    "category": "gpu",
    "brand": "MSI",
@@ -4967,7 +4950,7 @@
     "domain": "amazon.fr",
     "asin": "B0BX6LGM2X",
     "url": "https://www.amazon.fr/dp/B0BX6LGM2X",
-    "stock": "In stock",
+    "stock": "Only 7 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:gaming trio+oc"
    },
@@ -5239,6 +5222,33 @@
    "has_official": false
   },
   {
+   "id": "gpu|pny:5080:argb+oc+triple+verto|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+oc+triple+verto",
+   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
+   "image": "img/B0DZCVQGG6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
+   "water": {
+    "price_hkd": 12764,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DZCVQGG6",
+    "url": "https://www.amazon.de/dp/B0DZCVQGG6",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12764,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|inno3d:5080:3x",
    "category": "gpu",
    "brand": "Inno3D",
@@ -5268,33 +5278,6 @@
    "best_price": 12799,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:argb+oc+triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+oc+triple",
-   "title": "PNY GeForce RTX™ 5080 16GB ARGB OC Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJDR3V9.jpg",
-   "image": "img/B0DTJDR3V9.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 12812,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DTJDR3V9",
-    "url": "https://www.amazon.it/dp/B0DTJDR3V9",
-    "stock": "Only 3 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 12812,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|asus:5080:oc+proart",
