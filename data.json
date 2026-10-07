@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-07T18:51:24Z",
- "generated_at_hkt": "2026-10-08 02:51 HKT",
- "price_updated_hkt": "2026-10-08 02:51 HKT",
+ "generated_at": "2026-10-07T19:01:03Z",
+ "generated_at_hkt": "2026-10-08 03:01 HKT",
+ "price_updated_hkt": "2026-10-08 03:01 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-07 09:56–20:05 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261007/hkcompare_rows.json",
@@ -47,12 +47,12 @@
    "unions_part_number": 112,
    "old_cards_bridged_by_upc": 2,
    "old_cards_bridged_by_part_number": 4,
-   "skipped_conflicts": 7,
+   "skipped_conflicts": 6,
    "name_key_splits": 3,
    "ram_soft_unions": 0,
    "ram_soft_ambiguous": 1,
    "same_store_offers_dropped": 3,
-   "pn_dropped_capacity_mismatch": 1
+   "pn_dropped_capacity_mismatch": 0
   },
   "hk_parallel": {
    "enabled": true,
@@ -7563,10 +7563,10 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:vcolor:x?:v.color.manta.xsky.rgb.xmp.ddr5.6000mhz.cl28.1.4v.32gb.kit.1:ddr5:dimm:32:6000:black:2x16:cl28",
+   "id": "ram|ram:v-color:x?:v.color.manta.xsky.rgb.xmp.ddr5.6000mhz.cl28.1.4v.32gb.kit.1:ddr5:dimm:32:6000:black:2x16:cl28",
    "category": "ram",
-   "brand": "V Color",
-   "model_key": "ram:vcolor:x?:v.color.manta.xsky.rgb.xmp.ddr5.6000mhz.cl28.1.4v.32gb.kit.1:ddr5:dimm:32:6000:black:2x16:cl28",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x?:v.color.manta.xsky.rgb.xmp.ddr5.6000mhz.cl28.1.4v.32gb.kit.1:ddr5:dimm:32:6000:black:2x16:cl28",
    "title": "V Color MANTA XSKY RGB XMP DDR5 6000MHz CL28 1.4V 32GB Kit (16GBx2) (BLACK) (SCC KIT 2+…",
    "spec": "DDR5 32GB (2x16GB) 6000MHz 桌面 DIMM",
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d733cc4550161b24.png",
