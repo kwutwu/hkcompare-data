@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-09T18:11:49Z",
- "generated_at_hkt": "2026-10-10 02:11 HKT",
- "price_updated_hkt": "2026-10-10 02:11 HKT",
+ "generated_at": "2026-10-09T18:51:28Z",
+ "generated_at_hkt": "2026-10-10 02:51 HKT",
+ "price_updated_hkt": "2026-10-10 02:51 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–18:01 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -26403,44 +26403,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|zotac:5070ti:apocalypse+oc+white",
-   "category": "gpu",
-   "brand": "Zotac",
-   "model_key": "zotac:5070ti:apocalypse+oc+white",
-   "title": "ZOTAC索泰 GAMING GeForce RTX5070TI 16GB GDDR7 天启 OC Edition (ZT-B50710C-10P)",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d01ccb1032cc67eb.webp",
-   "image": "img/hk-d01ccb1032cc67eb.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/0827163b84f825f6c3064b7bffee22e9.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 11450,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=45996",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 11980,
-      "url": "https://secomputer.com.hk/products/63112"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 13199,
-      "url": "https://centralfield.com/product/16546/zotac-gaming-rtx-5070ti-apocalypse-oc-16gb"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 11450,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5080:3x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
@@ -26452,7 +26414,7 @@
    "image": "img/B0DT6NZ9V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71PEi8EcUBL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 11472,
+    "price_hkd": 11438,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -26491,9 +26453,47 @@
      }
     ]
    },
-   "delta_hkd": 2427,
-   "best_price": 11472,
+   "delta_hkd": 2461,
+   "best_price": 11438,
    "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|zotac:5070ti:apocalypse+oc+white",
+   "category": "gpu",
+   "brand": "Zotac",
+   "model_key": "zotac:5070ti:apocalypse+oc+white",
+   "title": "ZOTAC索泰 GAMING GeForce RTX5070TI 16GB GDDR7 天启 OC Edition (ZT-B50710C-10P)",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d01ccb1032cc67eb.webp",
+   "image": "img/hk-d01ccb1032cc67eb.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/0827163b84f825f6c3064b7bffee22e9.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 11450,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=45996",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 11980,
+      "url": "https://secomputer.com.hk/products/63112"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 13199,
+      "url": "https://centralfield.com/product/16546/zotac-gaming-rtx-5070ti-apocalypse-oc-16gb"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 11450,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -27143,7 +27143,7 @@
     "domain": "amazon.de",
     "asin": "B0DTJDR3V9",
     "url": "https://www.amazon.de/dp/B0DTJDR3V9",
-    "stock": "Only 5 left in stock.",
+    "stock": "Only 4 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
