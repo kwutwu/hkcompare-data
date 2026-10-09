@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-09T03:20:50Z",
- "generated_at_hkt": "2026-10-09 11:20 HKT",
- "price_updated_hkt": "2026-10-09 11:20 HKT",
+ "generated_at": "2026-10-09T03:31:27Z",
+ "generated_at_hkt": "2026-10-09 11:31 HKT",
+ "price_updated_hkt": "2026-10-09 11:31 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–11:15 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 131,
+   "count": 132,
    "enabled": true
   },
   "cpu": {
@@ -35,12 +35,12 @@
   }
  },
  "stats": {
-  "items": 538,
-  "both_sides": 26,
-  "water_only": 21,
-  "official_only": 488,
-  "matched_water": 27,
-  "official_groups": 538,
+  "items": 539,
+  "both_sides": 29,
+  "water_only": 22,
+  "official_only": 485,
+  "matched_water": 30,
+  "official_groups": 539,
   "id_merge": {
    "enabled": true,
    "unions_upc": 55,
@@ -64,9 +64,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 21,
+   "amazon_cached": 25,
    "official_downloaded": 0,
-   "official_cached": 479,
+   "official_cached": 476,
    "failed": 0
   },
   "image_samples": [
@@ -128,13 +128,12 @@
    }
   ],
   "ivan": {
-   "total_listings": 158,
-   "qualified": 80,
-   "deduped": 48,
+   "total_listings": 159,
+   "qualified": 88,
+   "deduped": 52,
    "excluded": {
-    "seller": 80,
+    "seller": 81,
     "no ship": 15,
-    "ship unknown": 8,
     "used": 2
    }
   }
@@ -3590,6 +3589,49 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070:oc+prime+white",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5070:oc+prime+white",
+   "title": "ASUS Prime GeForce RTX 5070 12GB GDDR7 White OC Edition Gaming Graphics Card",
+   "spec": "RTX 5070",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FFKWFMYM.jpg",
+   "image": "img/B0FFKWFMYM.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81GLS28VqWL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7364,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0FFKWFMYM",
+    "url": "https://www.amazon.com/dp/B0FFKWFMYM",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070:oc+prime+white",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8050,
+      "url": "https://centralfield.com/product/12870/asus-prime-rtx-5070-oc-white-12gb"
+     }
+    ]
+   },
+   "delta_hkd": 436,
+   "best_price": 7364,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|pny:5070:oc+triple|water",
    "category": "gpu",
    "brand": "PNY",
@@ -3790,37 +3832,6 @@
    },
    "delta_hkd": null,
    "best_price": 7699,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:oc+prime+white",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5070:oc+prime+white",
-   "title": "ASUS PRIME GeForce Series RTX 5070 OC White 12GB GDDR7 PRIME-RTX5070-O12G-WHITE (DI-E50…",
-   "spec": "RTX 5070",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-568a11b0cf71611d.png",
-   "image": "img/hk-568a11b0cf71611d.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_RTX_5070_OC_White_BOX.png?v=1761378836",
-   "water": null,
-   "official": {
-    "price_hkd": 7800,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 8050,
-      "url": "https://centralfield.com/product/12870/asus-prime-rtx-5070-oc-white-12gb"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 7800,
    "has_water": false,
    "has_official": true
   },
@@ -5087,42 +5098,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|palit:5080:gamingpro",
-   "category": "gpu",
-   "brand": "Palit",
-   "model_key": "palit:5080:gamingpro",
-   "title": "Palit RTX5080 GamingPro 16GB GDDR7 NE75080019T2-GB2031A Retail",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSWKJLJP.jpg",
-   "image": "img/B0DSWKJLJP.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61UoqlycAqL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 11398,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DSWKJLJP",
-    "url": "https://www.amazon.fr/dp/B0DSWKJLJP",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": "model key palit:5080:gamingpro",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 12699,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223071/Palit-GeForce-RTX-5080-GamingPro-16G-顯示卡",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 1301,
-   "best_price": 11398,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5070ti:gaming trio+oc+white",
    "category": "gpu",
    "brand": "MSI",
@@ -5171,6 +5146,42 @@
    "has_official": true
   },
   {
+   "id": "gpu|palit:5080:gamingpro",
+   "category": "gpu",
+   "brand": "Palit",
+   "model_key": "palit:5080:gamingpro",
+   "title": "Palit RTX5080 GamingPro 16GB GDDR7 NE75080019T2-GB2031A Retail",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSWKJLJP.jpg",
+   "image": "img/B0DSWKJLJP.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61UoqlycAqL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 11408,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DSWKJLJP",
+    "url": "https://www.amazon.fr/dp/B0DSWKJLJP",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": "model key palit:5080:gamingpro",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 12699,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223071/Palit-GeForce-RTX-5080-GamingPro-16G-顯示卡",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 1291,
+   "best_price": 11408,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|pny:5080:dual+slim|water",
    "category": "gpu",
    "brand": "PNY",
@@ -5181,7 +5192,7 @@
    "image": "img/B0GTQTWTY5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 11403,
+    "price_hkd": 11413,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -5195,7 +5206,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11403,
+   "best_price": 11413,
    "has_water": true,
    "has_official": false
   },
@@ -5235,6 +5246,35 @@
    "best_price": 11450,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5080:triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:triple",
+   "title": "PNY RTX 5080 16GB Triple Fan DLSS 4",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H1MSZFW6.jpg",
+   "image": "img/B0H1MSZFW6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61qIACMZ3zL._AC_SL1200_.jpg",
+   "water": {
+    "price_hkd": 11779,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0H1MSZFW6",
+    "url": "https://www.amazon.fr/dp/B0H1MSZFW6",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11779,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|colorful:5070ti:oc+sff+ultra",
@@ -5405,7 +5445,7 @@
    "image": "img/B0DTJDR3V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 12148,
+    "price_hkd": 12149,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -5419,7 +5459,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 12148,
+   "best_price": 12149,
    "has_water": true,
    "has_official": false
   },
@@ -5434,7 +5474,7 @@
    "image": "img/B0DS65VMC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12168,
+    "price_hkd": 12169,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -5467,8 +5507,8 @@
      }
     ]
    },
-   "delta_hkd": 2582,
-   "best_price": 12168,
+   "delta_hkd": 2581,
+   "best_price": 12169,
    "has_water": true,
    "has_official": true
   },
@@ -5483,7 +5523,7 @@
    "image": "img/B0GZWW2RKH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12189,
+    "price_hkd": 12190,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -5522,8 +5562,8 @@
      }
     ]
    },
-   "delta_hkd": 1710,
-   "best_price": 12189,
+   "delta_hkd": 1709,
+   "best_price": 12190,
    "has_water": true,
    "has_official": true
   },
@@ -5538,7 +5578,7 @@
    "image": "img/B0BX6LGM2X.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12491,
+    "price_hkd": 12492,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -5565,8 +5605,8 @@
      }
     ]
    },
-   "delta_hkd": 2208,
-   "best_price": 12491,
+   "delta_hkd": 2207,
+   "best_price": 12492,
    "has_water": true,
    "has_official": true
   },
@@ -5667,7 +5707,7 @@
    "image": "img/B0DTJFZ4YS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 12505,
+    "price_hkd": 12506,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -5681,7 +5721,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 12505,
+   "best_price": 12506,
    "has_water": true,
    "has_official": false
   },
@@ -5696,7 +5736,7 @@
    "image": "img/B0H5NNTMTH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12633,
+    "price_hkd": 12644,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -5716,8 +5756,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 1766,
-   "best_price": 12633,
+   "delta_hkd": 1755,
+   "best_price": 12644,
    "has_water": true,
    "has_official": true
   },
@@ -5732,7 +5772,7 @@
    "image": "img/B0DTHTWBMB.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61jBGR4QhNL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 12662,
+    "price_hkd": 12673,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -5746,7 +5786,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 12662,
+   "best_price": 12673,
    "has_water": true,
    "has_official": false
   },
@@ -5761,7 +5801,7 @@
    "image": "img/B0DZCVQGG6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
    "water": {
-    "price_hkd": 12726,
+    "price_hkd": 12727,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -5775,7 +5815,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 12726,
+   "best_price": 12727,
    "has_water": true,
    "has_official": false
   },
@@ -5827,7 +5867,7 @@
    "image": "img/B09CL8ZFJ5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81tgFzasCHL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12826,
+    "price_hkd": 12837,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -5860,8 +5900,8 @@
      }
     ]
    },
-   "delta_hkd": 2673,
-   "best_price": 12826,
+   "delta_hkd": 2662,
+   "best_price": 12837,
    "has_water": true,
    "has_official": true
   },
@@ -5961,7 +6001,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13204,
+    "price_hkd": 13205,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -5981,8 +6021,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 2795,
-   "best_price": 13204,
+   "delta_hkd": 2794,
+   "best_price": 13205,
    "has_water": true,
    "has_official": true
   },
@@ -5997,7 +6037,7 @@
    "image": "img/B0FD3XZ8P1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/7192KlMK8gL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13238,
+    "price_hkd": 13250,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -6011,7 +6051,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 13238,
+   "best_price": 13250,
    "has_water": true,
    "has_official": false
   },
@@ -6026,7 +6066,7 @@
    "image": "img/B09BD59F4T.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/814lQWaeAzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13252,
+    "price_hkd": 13263,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -6046,8 +6086,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 1947,
-   "best_price": 13252,
+   "delta_hkd": 1936,
+   "best_price": 13263,
    "has_water": true,
    "has_official": true
   },
@@ -6062,7 +6102,7 @@
    "image": "img/B0GWRN4Q36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13333,
+    "price_hkd": 13334,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -6082,8 +6122,57 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 866,
-   "best_price": 13333,
+   "delta_hkd": 865,
+   "best_price": 13334,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5080:3x+oc+ventus+white",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus+white",
+   "title": "【RTX5080】MSI RTX5080 VENTUS 3X OC 16GB [白色] [長: 303mm]",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSWQNGYF.jpg",
+   "image": "img/B0DSWQNGYF.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71s0L-D-LBL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13447,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0DSWQNGYF",
+    "url": "https://www.amazon.com/dp/B0DSWQNGYF",
+    "stock": "Available to ship in 1-2 days",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+oc+ventus+white",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 13999,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=44052",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 14099,
+      "url": "https://secomputer.com.hk/products/56659"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 14299,
+      "url": "https://shop.pegasus.hk/products/223395/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-WHITE--顯示卡"
+     }
+    ]
+   },
+   "delta_hkd": 552,
+   "best_price": 13447,
    "has_water": true,
    "has_official": true
   },
@@ -6146,7 +6235,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13712,
+    "price_hkd": 13724,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -6166,8 +6255,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 3287,
-   "best_price": 13712,
+   "delta_hkd": 3275,
+   "best_price": 13724,
    "has_water": true,
    "has_official": true
   },
@@ -6182,7 +6271,7 @@
    "image": "img/B0DS65KD1C.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13770,
+    "price_hkd": 13771,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -6215,8 +6304,8 @@
      }
     ]
    },
-   "delta_hkd": 1930,
-   "best_price": 13770,
+   "delta_hkd": 1929,
+   "best_price": 13771,
    "has_water": true,
    "has_official": true
   },
@@ -6320,43 +6409,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+oc+ventus+white",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus+white",
-   "title": "【RTX5080】MSI RTX5080 VENTUS 3X OC 16GB [白色] [長: 303mm]",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bd9163efa7657ca7.webp",
-   "image": "img/hk-bd9163efa7657ca7.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/3b2b9011ae94ac424a9cef9c4f6998c8.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 13999,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=44052",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 14099,
-      "url": "https://secomputer.com.hk/products/56659"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 14299,
-      "url": "https://shop.pegasus.hk/products/223395/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-WHITE--顯示卡"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 13999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|zotac:5080:core+oc+solid",
    "category": "gpu",
    "brand": "Zotac",
@@ -6422,7 +6474,7 @@
    "image": "img/B0DT9VM5DC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81koP+J468L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14497,
+    "price_hkd": 14509,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -6436,7 +6488,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14497,
+   "best_price": 14509,
    "has_water": true,
    "has_official": false
   },
@@ -6451,7 +6503,7 @@
    "image": "img/B0DSXNXTSS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14565,
+    "price_hkd": 14577,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -6465,7 +6517,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14565,
+   "best_price": 14577,
    "has_water": true,
    "has_official": false
   },
@@ -6480,7 +6532,7 @@
    "image": "img/B0DQGB8FTQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71MTgvMq55L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14877,
+    "price_hkd": 14879,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -6507,7 +6559,7 @@
      }
     ]
    },
-   "delta_hkd": -78,
+   "delta_hkd": -80,
    "best_price": 14799,
    "has_water": true,
    "has_official": true
@@ -6688,6 +6740,61 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5080:astral+oc+rog+white",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5080:astral+oc+rog+white",
+   "title": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 White OC Edition Graphics Card",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FKX6LPR6.jpg",
+   "image": "img/B0FKX6LPR6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81gkdvlaWTL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 17210,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0FKX6LPR6",
+    "url": "https://www.amazon.com/dp/B0FKX6LPR6",
+    "stock": "Only 14 left in stock - order soon.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:astral+oc+rog+white",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 17999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13794/asus-rog-astral-rtx-5080-oc-white-16gb",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 17999,
+      "url": "https://shop.pegasus.hk/products/225441/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-White-顯示卡"
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 18199,
+      "url": "https://buymore.hk/shop/goods.php?id=44891"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 18299,
+      "url": "https://secomputer.com.hk/products/58141"
+     }
+    ]
+   },
+   "delta_hkd": 789,
+   "best_price": 17210,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5080:astral+oc+rog",
    "category": "gpu",
    "brand": "ASUS",
@@ -6739,49 +6846,6 @@
    },
    "delta_hkd": null,
    "best_price": 17499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:astral+oc+rog+white",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5080:astral+oc+rog+white",
-   "title": "ASUS華碩 ROG Astral GeForce RTX5080 16GB GDDR7 WHITE OC Edition (ROG-ASTRAL-RTX5080-O16G-…",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-243e2b3cff9f5fb0.webp",
-   "image": "img/hk-243e2b3cff9f5fb0.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/13794.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 17999,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/13794/asus-rog-astral-rtx-5080-oc-white-16gb",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 17999,
-      "url": "https://shop.pegasus.hk/products/225441/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-White-顯示卡"
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 18199,
-      "url": "https://buymore.hk/shop/goods.php?id=44891"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 18299,
-      "url": "https://secomputer.com.hk/products/58141"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 17999,
    "has_water": false,
    "has_official": true
   },
