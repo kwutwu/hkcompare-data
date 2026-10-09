@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-09T23:17:21Z",
- "generated_at_hkt": "2026-10-10 07:17 HKT",
- "price_updated_hkt": "2026-10-10 07:17 HKT",
+ "generated_at": "2026-10-09T23:45:18Z",
+ "generated_at_hkt": "2026-10-10 07:45 HKT",
+ "price_updated_hkt": "2026-10-10 07:45 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–18:01 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 131,
+   "count": 130,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2282,
+  "items": 2281,
   "both_sides": 27,
-  "water_only": 21,
+  "water_only": 20,
   "official_only": 2231,
   "matched_water": 28,
-  "official_groups": 2282,
+  "official_groups": 2281,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -88,7 +88,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 21,
+   "amazon_cached": 20,
    "official_downloaded": 0,
    "official_cached": 2057,
    "failed": 0
@@ -153,10 +153,10 @@
   ],
   "ivan": {
    "total_listings": 160,
-   "qualified": 85,
-   "deduped": 49,
+   "qualified": 84,
+   "deduped": 48,
    "excluded": {
-    "seller": 82,
+    "seller": 83,
     "no ship": 12,
     "ship unknown": 7,
     "used": 2
@@ -26707,7 +26707,7 @@
    "image": "img/B0DS65VMC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12193,
+    "price_hkd": 12201,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -26740,8 +26740,8 @@
      }
     ]
    },
-   "delta_hkd": 2557,
-   "best_price": 12193,
+   "delta_hkd": 2549,
+   "best_price": 12201,
    "has_water": true,
    "has_official": true
   },
@@ -26933,36 +26933,6 @@
    "best_price": 12534,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:oc+triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:oc+triple",
-   "title": "PNY GeForce RTX™ 5080 16GB OC Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJFZ4YS.jpg",
-   "image": "img/B0DTJFZ4YS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 12548,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DTJFZ4YS",
-    "url": "https://www.amazon.co.uk/dp/B0DTJFZ4YS",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 12548,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5080:gaming+oc",
