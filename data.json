@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-09T04:23:45Z",
- "generated_at_hkt": "2026-10-09 12:23 HKT",
- "price_updated_hkt": "2026-10-09 12:23 HKT",
+ "generated_at": "2026-10-09T04:42:03Z",
+ "generated_at_hkt": "2026-10-09 12:42 HKT",
+ "price_updated_hkt": "2026-10-09 12:42 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–11:15 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 131,
+   "count": 130,
    "enabled": true
   },
   "cpu": {
@@ -35,12 +35,12 @@
   }
  },
  "stats": {
-  "items": 538,
+  "items": 537,
   "both_sides": 31,
-  "water_only": 21,
+  "water_only": 20,
   "official_only": 483,
   "matched_water": 32,
-  "official_groups": 538,
+  "official_groups": 537,
   "id_merge": {
    "enabled": true,
    "unions_upc": 55,
@@ -129,8 +129,8 @@
   ],
   "ivan": {
    "total_listings": 159,
-   "qualified": 92,
-   "deduped": 53,
+   "qualified": 91,
+   "deduped": 52,
    "excluded": {
     "seller": 81,
     "no ship": 15,
@@ -2826,7 +2826,7 @@
    "image": "img/hk-0267beecf48f040a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
    "water": {
-    "price_hkd": 6505,
+    "price_hkd": 6518,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -2859,8 +2859,8 @@
      }
     ]
    },
-   "delta_hkd": 694,
-   "best_price": 6505,
+   "delta_hkd": 681,
+   "best_price": 6518,
    "has_water": true,
    "has_official": true
   },
@@ -2899,7 +2899,7 @@
    "image": "img/hk-ee6481ee60223dd5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForceRTX_5070WINDFORCEOCSFF12G_01.png?v=1785232982",
    "water": {
-    "price_hkd": 6623,
+    "price_hkd": 6636,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -2932,8 +2932,8 @@
      }
     ]
    },
-   "delta_hkd": 476,
-   "best_price": 6623,
+   "delta_hkd": 463,
+   "best_price": 6636,
    "has_water": true,
    "has_official": true
   },
@@ -2948,7 +2948,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6634,
+    "price_hkd": 6647,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -2968,8 +2968,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 1265,
-   "best_price": 6634,
+   "delta_hkd": 1252,
+   "best_price": 6647,
    "has_water": true,
    "has_official": true
   },
@@ -3134,7 +3134,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6815,
+    "price_hkd": 6828,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -3148,7 +3148,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6815,
+   "best_price": 6828,
    "has_water": true,
    "has_official": false
   },
@@ -3630,35 +3630,6 @@
    "best_price": 7364,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070:oc+triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5070:oc+triple",
-   "title": "PNY GeForce RTX™ 5070 12GB OC Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5070",
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7388,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DYPFGL88",
-    "url": "https://www.amazon.es/dp/B0DYPFGL88",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7388,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|colorful:5070:oc+ultra",
