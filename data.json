@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-09T07:34:57Z",
- "generated_at_hkt": "2026-10-09 15:34 HKT",
- "price_updated_hkt": "2026-10-09 15:34 HKT",
+ "generated_at": "2026-10-09T07:57:33Z",
+ "generated_at_hkt": "2026-10-09 15:57 HKT",
+ "price_updated_hkt": "2026-10-09 15:57 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–11:15 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -36,10 +36,10 @@
  },
  "stats": {
   "items": 538,
-  "both_sides": 31,
+  "both_sides": 29,
   "water_only": 21,
-  "official_only": 483,
-  "matched_water": 32,
+  "official_only": 485,
+  "matched_water": 30,
   "official_groups": 538,
   "id_merge": {
    "enabled": true,
@@ -64,9 +64,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 25,
+   "amazon_cached": 23,
    "official_downloaded": 0,
-   "official_cached": 476,
+   "official_cached": 478,
    "failed": 0
   },
   "image_samples": [
@@ -129,11 +129,12 @@
   ],
   "ivan": {
    "total_listings": 159,
-   "qualified": 93,
-   "deduped": 53,
+   "qualified": 87,
+   "deduped": 51,
    "excluded": {
-    "seller": 79,
-    "no ship": 16,
+    "seller": 78,
+    "no ship": 17,
+    "ship unknown": 7,
     "used": 2
    }
   }
@@ -3634,7 +3635,7 @@
     "domain": "amazon.com",
     "asin": "B0FFKWFMYM",
     "url": "https://www.amazon.com/dp/B0FFKWFMYM",
-    "stock": "",
+    "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5070:oc+prime+white",
     "source": "amazon",
@@ -5093,6 +5094,35 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:dual+slim|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:dual+slim",
+   "title": "PNY GeForce RTX™ 5080 16GB Slim Dual-Fan, 2-Slot Graphics Card",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GTQTWTY5.jpg",
+   "image": "img/B0GTQTWTY5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 11377,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0GTQTWTY5",
+    "url": "https://www.amazon.es/dp/B0GTQTWTY5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11377,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5070ti:gaming trio+oc+white",
    "category": "gpu",
    "brand": "MSI",
@@ -5175,35 +5205,6 @@
    "best_price": 11408,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:dual+slim|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:dual+slim",
-   "title": "PNY GeForce RTX™ 5080 16GB Slim Dual-Fan, 2-Slot Graphics Card",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GTQTWTY5.jpg",
-   "image": "img/B0GTQTWTY5.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 11413,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0GTQTWTY5",
-    "url": "https://www.amazon.it/dp/B0GTQTWTY5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11413,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|zotac:5070ti:apocalypse+oc+white",
@@ -6123,55 +6124,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+oc+ventus+white",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus+white",
-   "title": "【RTX5080】MSI RTX5080 VENTUS 3X OC 16GB [白色] [長: 303mm]",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSWQNGYF.jpg",
-   "image": "img/B0DSWQNGYF.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71s0L-D-LBL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13447,
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0DSWQNGYF",
-    "url": "https://www.amazon.com/dp/B0DSWQNGYF",
-    "stock": "Available to ship in 1-2 days",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus+white",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 13999,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=44052",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 14099,
-      "url": "https://secomputer.com.hk/products/56659"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 14299,
-      "url": "https://shop.pegasus.hk/products/223395/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-WHITE--顯示卡"
-     }
-    ]
-   },
-   "delta_hkd": 552,
-   "best_price": 13447,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5070ti:oc+rog",
    "category": "gpu",
    "brand": "ASUS",
@@ -6395,6 +6347,43 @@
       "store_short": "中田",
       "price_hkd": 14499,
       "url": "https://centralfield.com/product/20712/colorful-igame-rtx-5080-ultra-oc-16gb"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 13999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5080:3x+oc+ventus+white",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus+white",
+   "title": "【RTX5080】MSI RTX5080 VENTUS 3X OC 16GB [白色] [長: 303mm]",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bd9163efa7657ca7.webp",
+   "image": "img/hk-bd9163efa7657ca7.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/3b2b9011ae94ac424a9cef9c4f6998c8.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 13999,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=44052",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 14099,
+      "url": "https://secomputer.com.hk/products/56659"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 14299,
+      "url": "https://shop.pegasus.hk/products/223395/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-WHITE--顯示卡"
      }
     ]
    },
@@ -6735,61 +6724,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5080:astral+oc+rog+white",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5080:astral+oc+rog+white",
-   "title": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 White OC Edition Graphics Card",
-   "spec": "RTX 5080",
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FKX6LPR6.jpg",
-   "image": "img/B0FKX6LPR6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81gkdvlaWTL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 17210,
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0FKX6LPR6",
-    "url": "https://www.amazon.com/dp/B0FKX6LPR6",
-    "stock": "Only 13 left in stock - order soon.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:astral+oc+rog+white",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 17999,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/13794/asus-rog-astral-rtx-5080-oc-white-16gb",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 17999,
-      "url": "https://shop.pegasus.hk/products/225441/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-White-顯示卡"
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 18199,
-      "url": "https://buymore.hk/shop/goods.php?id=44891"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 18299,
-      "url": "https://secomputer.com.hk/products/58141"
-     }
-    ]
-   },
-   "delta_hkd": 789,
-   "best_price": 17210,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5080:astral+oc+rog",
    "category": "gpu",
    "brand": "ASUS",
@@ -6841,6 +6775,49 @@
    },
    "delta_hkd": null,
    "best_price": 17499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5080:astral+oc+rog+white",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5080:astral+oc+rog+white",
+   "title": "ASUS華碩 ROG Astral GeForce RTX5080 16GB GDDR7 WHITE OC Edition (ROG-ASTRAL-RTX5080-O16G-…",
+   "spec": "RTX 5080",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-243e2b3cff9f5fb0.webp",
+   "image": "img/hk-243e2b3cff9f5fb0.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13794.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 17999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13794/asus-rog-astral-rtx-5080-oc-white-16gb",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 17999,
+      "url": "https://shop.pegasus.hk/products/225441/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-White-顯示卡"
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 18199,
+      "url": "https://buymore.hk/shop/goods.php?id=44891"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 18299,
+      "url": "https://secomputer.com.hk/products/58141"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 17999,
    "has_water": false,
    "has_official": true
   },
