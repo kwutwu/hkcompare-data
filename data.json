@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-10T14:19:33Z",
- "generated_at_hkt": "2026-10-10 22:19 HKT",
- "price_updated_hkt": "2026-10-10 22:19 HKT",
+ "generated_at": "2026-10-10T14:48:48Z",
+ "generated_at_hkt": "2026-10-10 22:48 HKT",
+ "price_updated_hkt": "2026-10-10 22:48 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–18:01 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 132,
+   "count": 129,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2282,
+  "items": 2279,
   "both_sides": 31,
-  "water_only": 22,
+  "water_only": 19,
   "official_only": 2226,
   "matched_water": 32,
-  "official_groups": 2282,
+  "official_groups": 2279,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -88,7 +88,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 24,
+   "amazon_cached": 22,
    "official_downloaded": 0,
    "official_cached": 2053,
    "failed": 0
@@ -153,11 +153,12 @@
   ],
   "ivan": {
    "total_listings": 162,
-   "qualified": 98,
-   "deduped": 54,
+   "qualified": 92,
+   "deduped": 51,
    "excluded": {
-    "seller": 79,
-    "no ship": 16,
+    "seller": 83,
+    "no ship": 17,
+    "ship unknown": 1,
     "used": 1
    }
   }
@@ -24864,13 +24865,13 @@
    "image": "img/B0FFKWFMYM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81GLS28VqWL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7365,
+    "price_hkd": 7364,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
     "asin": "B0FFKWFMYM",
     "url": "https://www.amazon.com/dp/B0FFKWFMYM",
-    "stock": "Only 6 left in stock - order soon.",
+    "stock": "Only 5 left in stock - order soon.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5070:oc+prime+white",
     "source": "amazon",
@@ -24891,8 +24892,8 @@
      }
     ]
    },
-   "delta_hkd": 435,
-   "best_price": 7365,
+   "delta_hkd": 436,
+   "best_price": 7364,
    "has_water": true,
    "has_official": true
   },
@@ -26358,36 +26359,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:dual+slim|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:dual+slim",
-   "title": "PNY GeForce RTX™ 5080 16GB Slim Dual-Fan, 2-Slot Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GTQTWTY5.jpg",
-   "image": "img/B0GTQTWTY5.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 11376,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0GTQTWTY5",
-    "url": "https://www.amazon.es/dp/B0GTQTWTY5",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11376,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5070ti:gaming trio+oc+white",
    "category": "gpu",
    "brand": "MSI",
@@ -27402,36 +27373,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+oc+shadow|water",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+shadow",
-   "title": "MSI GeForce RTX 5080 16G SHADOW 3X OC Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BT9R5XNN.jpg",
-   "image": "img/B0BT9R5XNN.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71vuPWXUwNL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13422,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0BT9R5XNN",
-    "url": "https://www.amazon.co.uk/dp/B0BT9R5XNN",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 13422,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5080:3x+oc+ventus+white",
    "category": "gpu",
    "brand": "MSI",
@@ -27443,13 +27384,13 @@
    "image": "img/B0DSWQNGYF.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71s0L-D-LBL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13449,
+    "price_hkd": 13448,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
     "asin": "B0DSWQNGYF",
     "url": "https://www.amazon.com/dp/B0DSWQNGYF",
-    "stock": "Only 1 left in stock - order soon.",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+oc+ventus+white",
     "source": "amazon",
@@ -27476,8 +27417,8 @@
      }
     ]
    },
-   "delta_hkd": 550,
-   "best_price": 13449,
+   "delta_hkd": 551,
+   "best_price": 13448,
    "has_water": true,
    "has_official": true
   },
@@ -27939,36 +27880,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5080:noctua+oc|water",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5080:noctua+oc",
-   "title": "ASUS GeForce RTX 5080 16GB GDDR7 Noctua OC Edition Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 15210,
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0FQM4N5RP",
-    "url": "https://www.amazon.com/dp/B0FQM4N5RP",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15210,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|galax:5080:gaming",
    "category": "gpu",
    "brand": "GALAX",
@@ -28105,7 +28016,7 @@
    "image": "img/B0FKX6LPR6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81gkdvlaWTL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 17211,
+    "price_hkd": 17210,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -28144,8 +28055,8 @@
      }
     ]
    },
-   "delta_hkd": 788,
-   "best_price": 17211,
+   "delta_hkd": 789,
+   "best_price": 17210,
    "has_water": true,
    "has_official": true
   },
