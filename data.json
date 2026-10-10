@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-10T11:13:35Z",
- "generated_at_hkt": "2026-10-10 19:13 HKT",
- "price_updated_hkt": "2026-10-10 19:13 HKT",
+ "generated_at": "2026-10-10T11:47:48Z",
+ "generated_at_hkt": "2026-10-10 19:47 HKT",
+ "price_updated_hkt": "2026-10-10 19:47 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–18:01 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 129,
+   "count": 130,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2279,
+  "items": 2280,
   "both_sides": 30,
-  "water_only": 19,
+  "water_only": 20,
   "official_only": 2227,
   "matched_water": 31,
-  "official_groups": 2279,
+  "official_groups": 2280,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -88,7 +88,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 21,
+   "amazon_cached": 22,
    "official_downloaded": 0,
    "official_cached": 2054,
    "failed": 0
@@ -152,13 +152,13 @@
    }
   ],
   "ivan": {
-   "total_listings": 160,
-   "qualified": 91,
-   "deduped": 50,
+   "total_listings": 161,
+   "qualified": 92,
+   "deduped": 51,
    "excluded": {
-    "seller": 84,
+    "seller": 85,
     "no ship": 14,
-    "used": 2
+    "used": 1
    }
   }
  },
@@ -24864,7 +24864,7 @@
    "image": "img/B0FFKWFMYM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81GLS28VqWL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7365,
+    "price_hkd": 7364,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -24891,8 +24891,8 @@
      }
     ]
    },
-   "delta_hkd": 435,
-   "best_price": 7365,
+   "delta_hkd": 436,
+   "best_price": 7364,
    "has_water": true,
    "has_official": true
   },
@@ -27372,6 +27372,36 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:3x+oc+shadow|water",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+shadow",
+   "title": "MSI GeForce RTX 5080 16G SHADOW 3X OC Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BT9R5XNN.jpg",
+   "image": "img/B0BT9R5XNN.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71vuPWXUwNL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13422,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0BT9R5XNN",
+    "url": "https://www.amazon.co.uk/dp/B0BT9R5XNN",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 13422,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|asus:5070ti:oc+rog",
    "category": "gpu",
    "brand": "ASUS",
@@ -28003,7 +28033,7 @@
    "image": "img/B0FKX6LPR6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81gkdvlaWTL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 17211,
+    "price_hkd": 17210,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -28042,8 +28072,8 @@
      }
     ]
    },
-   "delta_hkd": 788,
-   "best_price": 17211,
+   "delta_hkd": 789,
+   "best_price": 17210,
    "has_water": true,
    "has_official": true
   },
