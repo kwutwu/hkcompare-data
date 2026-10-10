@@ -1,10 +1,10 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-10T18:25:08Z",
- "generated_at_hkt": "2026-10-11 02:25 HKT",
- "price_updated_hkt": "2026-10-11 02:25 HKT",
+ "generated_at": "2026-10-10T18:35:36Z",
+ "generated_at_hkt": "2026-10-11 02:35 HKT",
+ "price_updated_hkt": "2026-10-11 02:35 HKT",
  "amazon_data_updated_hkt": null,
- "hk_data_updated_hkt": "2026-10-10 09:55–10:44 HKT",
+ "hk_data_updated_hkt": "2026-10-10 09:55 – 2026-10-11 02:34 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261010/hkcompare_rows.json",
  "notes": {
   "water": "水貨價錢為 Amazon 合計港幣（已含運費 + 2% 手續費），僅列可寄香港、價格已確認、Amazon 自營／官方賣場。香港舖頭標明「平行進口」嘅現貨亦當水貨顯示（舖頭價）。",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 119,
+   "count": 209,
    "enabled": true
   },
   "ssd": {
@@ -59,22 +59,22 @@
   }
  },
  "stats": {
-  "items": 2184,
+  "items": 2274,
   "both_sides": 30,
   "water_only": 18,
-  "official_only": 2133,
+  "official_only": 2223,
   "matched_water": 31,
-  "official_groups": 2184,
+  "official_groups": 2274,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
-   "unions_part_number": 125,
+   "unions_part_number": 169,
    "old_cards_bridged_by_upc": 82,
    "old_cards_bridged_by_part_number": 16,
-   "skipped_conflicts": 40,
-   "name_key_splits": 11,
-   "ram_soft_unions": 0,
-   "ram_soft_ambiguous": 1,
+   "skipped_conflicts": 42,
+   "name_key_splits": 26,
+   "ram_soft_unions": 2,
+   "ram_soft_ambiguous": 2,
    "same_store_offers_dropped": 74,
    "pn_dropped_capacity_mismatch": 0
   },
@@ -90,7 +90,7 @@
    "amazon_downloaded": 0,
    "amazon_cached": 21,
    "official_downloaded": 0,
-   "official_cached": 1955,
+   "official_cached": 2046,
    "failed": 0
   },
   "image_samples": [
@@ -52192,6 +52192,34 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:g.skill:ripjawsv:ddr4:dimm:32:3600:black:2x16:cl18",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:ripjawsv:ddr4:dimm:32:3600:black:2x16:cl18",
+   "title": "G.Skill Ripjaws V 32GB 黑色套裝 (2x16GB) D4-3600C18 (F4-3600C18D-32GVK)(Intel XMP)",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 2130,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/3384/gskill-ripjaws-v-32gb-ddr4-3600c18-f4-3600c18d-32gvk",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2130,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:adata:gammixd35:ddr4:dimm:32:3200:black:2x16:cl16",
    "category": "ram",
    "brand": "ADATA",
@@ -52336,7 +52364,7 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:vengeancelpx:ddr4:dimm:32:3200:black:2x16:cl16",
-   "title": "Corsair Vengeance LPX 黑色 CMK32GX4M2E3200C16 DDR4 3200MHz 32GB Kit (16GB*2, CL16)",
+   "title": "Corsair Vengeance LPX 32GB 黑色套裝 (2x16GB) D4-3200C16 (CMK32GX4M2E3200C16)(Intel XMP)",
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -52358,6 +52386,12 @@
       "store_short": "未來科技",
       "price_hkd": 2530,
       "url": "https://buymore.hk/shop/goods.php?id=18946"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2570,
+      "url": "https://centralfield.com/product/5477/corsair-vengeance-lpx-32gb-ddr4-3200mhz-cmk32gx4m2e3200c16"
      },
      {
       "store": "Jumbo 珍寶電腦",
@@ -52411,7 +52445,7 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:vengeancergbrs:ddr4:dimm:32:3200:black:2x16:cl16",
-   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE RGB RS CMG32GX4M2E3200C16 DDR4 3200MHz Memory",
+   "title": "Corsair Vengeance RGB RS 32GB 黑色套裝 (2x16GB) D4-3200C16 (CMG32GX4M2E3200C16)(Intel XMP)",
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -52428,6 +52462,12 @@
     "url": "https://shop.pegasus.hk/products/207464/Corsair-VENGEANCE-RGB-RS-DDR4-32GB-16GB-x-2-3200MHz-CL16-CMG32GX4M2E3200C16---Limited-Lifetime保養",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2575,
+      "url": "https://centralfield.com/product/5404/corsair-vengeance-rgb-rs-32gb-ddr4-3200c16-black"
+     },
      {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
@@ -52452,20 +52492,27 @@
     "DIMM",
     "DDR4"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a2796e77373b0e8b.jpg",
-   "image": "img/hk-a2796e77373b0e8b.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71e6YWJio-L._AC_SL1500_52e2dfdb-45ed-4dcc-8e52-1e13f89e5e68.jpg?v=1698133212",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8bc4415be78d2e9c.webp",
+   "image": "img/hk-8bc4415be78d2e9c.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/9848.webp",
    "water": null,
    "official": {
-    "price_hkd": 2629,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-pro-cmw32gx4m2e3200c16-black-ddr4-3200mhz-memory",
+    "price_hkd": 2600,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/9848/corsair-vengeance-rgb-pro-32gb-ddr4-3200c16-black",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2629,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-pro-cmw32gx4m2e3200c16-black-ddr4-3200mhz-memory"
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 2629,
+   "best_price": 2600,
    "has_water": false,
    "has_official": true
   },
@@ -52480,20 +52527,27 @@
     "DIMM",
     "DDR4"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-116797f32b8a82f6.jpg",
-   "image": "img/hk-116797f32b8a82f6.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71O62yfX1-L._AC_SL1500_127efa88-92ec-458d-8b12-b9b92d263529.jpg?v=1698133303",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-460cd78114a6c4dc.webp",
+   "image": "img/hk-460cd78114a6c4dc.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5600.webp",
    "water": null,
    "official": {
-    "price_hkd": 2629,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-pro-cmw32gx4m2e3200c16w-white-ddr4-3200mhz-memory",
+    "price_hkd": 2600,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5600/corsair-vengeance-rgb-pro-32gb-ddr4-3200-white-ram",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2629,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-pro-cmw32gx4m2e3200c16w-white-ddr4-3200mhz-memory"
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 2629,
+   "best_price": 2600,
    "has_water": false,
    "has_official": true
   },
@@ -52706,17 +52760,23 @@
     "DDR5",
     "5600"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6fc71893393b0dee.png",
-   "image": "img/hk-6fc71893393b0dee.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/2d86edd5-afad-4449-e50b-fc5ace521800/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3c74418826e87d6a.webp",
+   "image": "img/hk-3c74418826e87d6a.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5362.webp",
    "water": null,
    "official": {
     "price_hkd": 3499,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/219865/ADATA-XPG-Lancer-Blade-DDR5-White-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABWH---Limited-Lifetime保養",
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5362/adata-xpg-lancer-blade-32gb-ddr5-5600-white",
     "stock": "現貨",
     "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 3499,
+      "url": "https://shop.pegasus.hk/products/219865/ADATA-XPG-Lancer-Blade-DDR5-White-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABWH---Limited-Lifetime保養"
+     },
      {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
@@ -52741,7 +52801,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:lancerblade:ddr5:dimm:32:5600:black:2x16:cl46",
-   "title": "ADATA XPG Lancer Blade DDR5 32GB (16GB x 2) 5600MHz CL46",
+   "title": "ADATA XPG Lancer Blade 32GB 黑色套裝 (2x16GB) D5-5600C46 (AX5U5600C4616G-DTLABBK)(RM-LBC32B…",
    "spec": "DDR5-5600 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -52758,7 +52818,14 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/219509/ADATA-XPG-Lancer-Blade-DDR5-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABBK---Limited-Lifetime保養",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 3560,
+      "url": "https://centralfield.com/product/5361/adata-xpg-lancer-blade-32gb-ddr5-5600-c46"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 3499,
@@ -52860,6 +52927,54 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:crucial:pro:ddr5:dimm:32:6000:black:2x16:cl36",
+   "category": "ram",
+   "brand": "Crucial",
+   "model_key": "ram:crucial:pro:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "Crucial Pro 32GB Kit (2x16GB) OC Gaming Memory Black 黑色 DDR5-6000 UDIMM CP2K16G60C36U5B…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ec98fd8fe01a0736.webp",
+   "image": "img/hk-ec98fd8fe01a0736.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5392.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3699,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5392/crucial-pro-32gb-ddr5-6000c36-desktop-memory",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4300,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-32gb-kit-2x16gb-pro-overclocking-ddr5-6000-udimm-cp2k16g60c36u5b-support-amd-expo"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4380,
+      "url": "https://secomputer.com.hk/products/54403"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4399,
+      "url": "https://shop.pegasus.hk/products/218523/Crucial-Pro-Overclocking-DDR5-32GB-16GB-x-2-6000MHz-CL36-CP2K16G60C36U5B---Limited-Lifetime保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3699,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:teamgroup:tforcedeltargb:ddr5:dimm:32:6000:black:2x16:cl38",
    "category": "ram",
    "brand": "TeamGroup",
@@ -52883,6 +52998,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 3780,
+      "url": "https://centralfield.com/product/21123/teamgroup-t-force-delta-rgb-32gb-d5-6000c38"
+     },
+     {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
       "price_hkd": 3900,
@@ -52902,31 +53023,67 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:5600:black:2x16:cl36",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:5600:black:2x16:cl36",
+   "title": "Corsair Vengeance 32GB 黑色套裝 (2x16GB) D5-5600C36 (CMK32GX5M2B5600Z36)(AMD EXPO)",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1caafdec78ddac65.webp",
+   "image": "img/hk-1caafdec78ddac65.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5401.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3710,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5401/corsair-vengeance-32gb-ddr5-5600c36-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3710,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl48",
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl48",
-   "title": "ADATA XPG Lancer Blade RGB DDR5 32GB (16GB x 2) 6000MHz CL48",
+   "title": "ADATA XPG Lancer Blade RGB 32GB 黑色套裝 (2x16GB) D5-6000C48 (AX5U6000C4816G-DTLABRBK)(XMP/…",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-578f2c4ab4f7ed8a.png",
-   "image": "img/hk-578f2c4ab4f7ed8a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3d263648-148d-4888-9d45-f247ccafd200/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6aaea15202495700.webp",
+   "image": "img/hk-6aaea15202495700.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12109.webp",
    "water": null,
    "official": {
-    "price_hkd": 3749,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/222837/ADATA-XPG-Lancer-Blade-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL48-AX5U6000C4816G-DTLABRBK---Limited-Lifetime保養",
+    "price_hkd": 3720,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12109/adata-xpg-lancer-blade-rgb-32gb-ddr5-6000c48-black",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 3749,
+      "url": "https://shop.pegasus.hk/products/222837/ADATA-XPG-Lancer-Blade-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL48-AX5U6000C4816G-DTLABRBK---Limited-Lifetime保養"
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 3749,
+   "best_price": 3720,
    "has_water": false,
    "has_official": true
   },
@@ -52996,6 +53153,35 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:agi:x:6000c30.ud858:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "AGI",
+   "model_key": "ram:agi:x:6000c30.ud858:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "AGI UD858 TURBOJET RGB 32GB 黑色套裝 (2x16GB) D5-6000C30 (XMP/EXPO)(AGI6APC16UD858-DC)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-644edb35dbb447e3.webp",
+   "image": "img/hk-644edb35dbb447e3.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21365.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21365/agi-ud858-turbojet-rgb-32gb-ddr5-6000",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:crucial:std:ddr5:dimm:32:5600:black:1x32:cl46",
    "category": "ram",
    "brand": "Crucial",
@@ -53050,6 +53236,129 @@
    },
    "delta_hkd": null,
    "best_price": 3750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:v-color:x:6000c36:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x:6000c36:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "v-color Manta XSky RGB 32GB 黑色套裝 (2x16GB) D5-6000C36 (TMXSAL1660836KWK)(AMD EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-222668bc04cc8c14.webp",
+   "image": "img/hk-222668bc04cc8c14.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22621.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22621/v-color-manta-xsky-rgb-32gb-ddr5-6000c36-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:agi:x:6000c30.ud858:ddr5:dimm:32:6000:white:2x16:cl?",
+   "category": "ram",
+   "brand": "AGI",
+   "model_key": "ram:agi:x:6000c30.ud858:ddr5:dimm:32:6000:white:2x16:cl?",
+   "title": "AGI UD858 TURBOJET RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (XMP/EXPO)(AGI6APD16UD858-DC)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6008ebd66d62a3c4.webp",
+   "image": "img/hk-6008ebd66d62a3c4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21364.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3780,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21364/agi-ud858-turbojet-rgb-32gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3780,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl32",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl32",
+   "title": "Corsair Vengeance RGB 32GB 黑色套裝 (2x16GB) D5-6400C32 (CMH32GX5M2B6400C32)(Intel XMP)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8b022bb1b127cdd6.webp",
+   "image": "img/hk-8b022bb1b127cdd6.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5425.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3780,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5425/corsair-vengeance-rgb-32gb-ddr5-6400c32",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 3799,
+      "url": "https://buymore.hk/shop/goods.php?id=34532"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3780,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:crucial:pro:ddr5:dimm:32:6000:white:2x16:cl36",
+   "category": "ram",
+   "brand": "Crucial",
+   "model_key": "ram:crucial:pro:ddr5:dimm:32:6000:white:2x16:cl36",
+   "title": "Crucial 美光 Pro 32GB 白色套裝 (2x16GB) D5-6000C36 (XMP/EXPO)(CP2K16G60C36U5W)(桌上型超頻記憶體)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e66b71ee1bd93b0d.webp",
+   "image": "img/hk-e66b71ee1bd93b0d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21985.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3780,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21985/crucial-pro-32gb-ddr5-6000c36-cp2k16g60c36u5w",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3780,
    "has_water": false,
    "has_official": true
   },
@@ -53174,7 +53483,7 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6000:white:2x16:cl38",
-   "title": "Corsair VENGEANCE RGB DDR5 White 32GB (16GB x 2) 6000MHz CL38",
+   "title": "Corsair Vengeance RGB 32GB 白色套裝 (2x16GB) D5-6000C38 (CMH32GX5M2D6000Z38W)(XMP/EXPO)",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -53191,7 +53500,14 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/234216/Corsair-VENGEANCE-RGB-DDR5-White--32GB-16GB-x-2-6000MHz-CL38-CMH32GX5M2D6000Z38W---Limited-Lifetime保養",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4100,
+      "url": "https://centralfield.com/product/22095/corsair-vengeance-rgb-32gb-ddr5-6000-white-2"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 3799,
@@ -53199,31 +53515,60 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl32",
+   "id": "ram|ram:crucial:pro:ddr5:dimm:32:6400:black:2x16:cl38",
    "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl32",
-   "title": "【DDR5 32GB 6400MHz】CORSAIR VENGEANCE RGB 32GB (16GBx2) CL32【黑色】",
+   "brand": "Crucial",
+   "model_key": "ram:crucial:pro:ddr5:dimm:32:6400:black:2x16:cl38",
+   "title": "Crucial 美光 Pro 32GB 黑色套裝 (2x16GB) D5-6400C38 (XMP/EXPO)(CP2K16G64C38U5B)(桌上型超頻記憶體)",
    "spec": "DDR5-6400 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6400"
    ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f0b31a1268cca475.webp",
+   "image": "img/hk-f0b31a1268cca475.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21228.webp",
    "water": null,
    "official": {
-    "price_hkd": 3799,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=34532",
+    "price_hkd": 3860,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21228/crucial-pro-32gb-ddr5-6400c38-ram",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 3799,
+   "best_price": 3860,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:crucial:pro:ddr5:dimm:32:6400:white:2x16:cl38",
+   "category": "ram",
+   "brand": "Crucial",
+   "model_key": "ram:crucial:pro:ddr5:dimm:32:6400:white:2x16:cl38",
+   "title": "Crucial 美光 Pro 32GB 白色套裝 (2x16GB) D5-6400C38 (XMP/EXPO)(CP2K16G64C38U5W)(桌上型超頻記憶體)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-92ea5a2fb5741fea.webp",
+   "image": "img/hk-92ea5a2fb5741fea.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/19052.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3880,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/19052/crucial-pro-32gb-ddr5-6400-cp2k16g64c38u5w-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3880,
    "has_water": false,
    "has_official": true
   },
@@ -53312,6 +53657,194 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl36",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER BLADE RGB Black 黑色 AX5U6000C3616G-DTLABRBK DDR5 6000…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e455b6584ce2d33e.webp",
+   "image": "img/hk-e455b6584ce2d33e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/15114.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3910,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/15114/adata-xpg-lancer-blade-rgb-32gb-ddr5-6000-c36-black",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4150,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-blade-rgb-black-黑色-ax5u6000c3616g-dtlabrbk-ddr5-6000mhz-cl36-memory-amd-expo-intel-xmp-3-0-rm-lbr632b"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3910,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl34",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl34",
+   "title": "ADATA XPG Lancer Blade RGB 32GB 黑色套裝 (2x16GB) D5-6000C34 (AX5U6000C3416G-DTLABRBK)(XMP/…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-20d6954a49a097f4.webp",
+   "image": "img/hk-20d6954a49a097f4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11807.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3950,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11807/adata-xpg-lancer-blade-rgb-32gb-ddr5-6000-c34-black",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 4499,
+      "url": "https://buymore.hk/shop/goods.php?id=45351"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3950,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingston:valueram:ddr5:dimm:32:5600:black:1x32:cl?",
+   "category": "ram",
+   "brand": "Kingston",
+   "model_key": "ram:kingston:valueram:ddr5:dimm:32:5600:black:1x32:cl?",
+   "title": "Kingston ValueRAM 32GB 單條 (1x32GB) D5-5600C46 (KVR56U46BD8-32)",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ef039b2ec22fe775.webp",
+   "image": "img/hk-ef039b2ec22fe775.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5781.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3970,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5781/kingston-valueram-32gb-ddr5-5600-kvr56u46bd8-32",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3970,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:fitv:ddr5:dimm:32:6000:white:2x16:cl28#2",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:fitv:ddr5:dimm:32:6000:white:2x16:cl28",
+   "title": "Klevv 科賦 FIT V 32GB 白色套裝 (2x16GB) D5-6000C28 (KD5AGU880-60B280F)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cd2d23ea7cfa70e8.webp",
+   "image": "img/hk-cd2d23ea7cfa70e8.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/15278.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3980,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/15278/klevv-fit-v-32gb-ddr5-6000c28-white-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3980,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:fitv:ddr5:dimm:32:6000:black:2x16:cl28#2",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:fitv:ddr5:dimm:32:6000:black:2x16:cl28",
+   "title": "Klevv 科賦 FIT V 32GB 黑色套裝 (2x16GB) D5-6000C28 (KD5AGU880-60B280L)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-03c57fb9bab843b4.webp",
+   "image": "img/hk-03c57fb9bab843b4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/15279.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3980,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/15279/klevv-fit-v-32gb-ddr5-6000c28",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3980,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:acer:x:6000c32:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "Acer",
+   "model_key": "ram:acer:x:6000c32:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "Acer Predator Pallas II 32GB 黑色套裝 (2x16GB) D5-6000C32 (XMP/EXPO)(RM-AP5D32V)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ba20b1f376d82ad2.webp",
+   "image": "img/hk-ba20b1f376d82ad2.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/15309.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/15309/acer-predator-pallas-ii-32gb-ddr5-6000c32-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6400:black:2x16:cl32",
    "category": "ram",
    "brand": "Corsair",
@@ -53352,7 +53885,7 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:white:2x16:cl36",
-   "title": "Corsair VENGEANCE RGB DDR5 White 32GB (16GB x 2) 6400MHz CL36",
+   "title": "Corsair Vengeance RGB 32GB 白色套裝 (2x16GB) D5-6400C36 (CMH32GX5M2B6400Z36W)(XMP/EXPO)",
    "spec": "DDR5-6400 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -53369,7 +53902,14 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/225687/Corsair-VENGEANCE-RGB-DDR5-White-32GB-16GB-x-2-6400MHz-CL36-CMH32GX5M2B6400Z36W---Limited-Lifetime保養",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4285,
+      "url": "https://centralfield.com/product/13214/corsair-vengeance-rgb-ddr5-32gb-6400mhz-white"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 3999,
@@ -53442,6 +53982,12 @@
       "url": "https://secomputer.com.hk/products/57543"
      },
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4230,
+      "url": "https://centralfield.com/product/13031/klevv-bolt-v-32gb-ddr5-6000c28-ram"
+     },
+     {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 4299,
@@ -53482,6 +54028,12 @@
       "store_short": "SE",
       "price_hkd": 4229,
       "url": "https://secomputer.com.hk/products/57555"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4230,
+      "url": "https://centralfield.com/product/13058/klevv-bolt-v-32gb-ddr5-6000c28-white"
      }
     ]
    },
@@ -53520,6 +54072,151 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:v-color:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?",
+   "category": "ram",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?",
+   "title": "v-color Manta XSky RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (TMXSAL1660830WWK)(AMD EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-aaa49983813ce635.webp",
+   "image": "img/hk-aaa49983813ce635.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22581.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22581/v-color-manta-xsky-rgb-32gb-ddr5-6000-c30-white-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:v-color:x:6000c30:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x:6000c30:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "v-color Manta XSky RGB 32GB 黑色套裝 (2x16GB) D5-6000C30 (TMXSAL1660830KWK)(AMD EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fb6a55684570135e.webp",
+   "image": "img/hk-fb6a55684570135e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21703.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21703/v-color-manta-xsky-rgb-32gb-ddr5-6000c30-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:grey:2x16:cl38",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:grey:2x16:cl38",
+   "title": "Corsair Vengeance 32GB 灰色套裝 (2x16GB) D5-6000C38 (CMK32GX5M2D6000Z38)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4e8bfe74f70470d3.webp",
+   "image": "img/hk-4e8bfe74f70470d3.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22099.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4000,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22099/corsair-vengeance-32gb-ddr5-6000c38-grey-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4000,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl38",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl38",
+   "title": "Corsair Vengeance 32GB 白色套裝 (2x16GB) D5-6000C38 (CMK32GX5M2D6000Z38W)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dddd52ce8c2af442.webp",
+   "image": "img/hk-dddd52ce8c2af442.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22100.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4010,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22100/corsair-vengeance-32gb-ddr5-6000c38-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4010,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:acer:x:6000c36:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "Acer",
+   "model_key": "ram:acer:x:6000c36:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "Ace Predator Pallas II 32GB 黑色套裝 (2x16GB) D5-6000C36 (XMP/EXPO)(RM-AP5D32D)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-91e8731c4fd55c9d.webp",
+   "image": "img/hk-91e8731c4fd55c9d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/15308.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4050,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/15308/acer-predator-pallas-ii-32gb-d5-6000c36-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4050,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:adata:lancerblade:ddr5:dimm:32:6000:black:2x16:cl30",
    "category": "ram",
    "brand": "ADATA",
@@ -53531,17 +54228,23 @@
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-90a43023870d4441.png",
-   "image": "img/hk-90a43023870d4441.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ADATA_DDR5_XPG_LANCER_BLACK.png?v=1739886608",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1e301d4d90c6ec8e.webp",
+   "image": "img/hk-1e301d4d90c6ec8e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5365.webp",
    "water": null,
    "official": {
-    "price_hkd": 4099,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=42212",
+    "price_hkd": 4070,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5365/adata-xpg-lancer-blade-32gb-ddr5-6000-c30-black",
     "stock": "現貨",
     "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 4099,
+      "url": "https://buymore.hk/shop/goods.php?id=42212"
+     },
      {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
@@ -53563,7 +54266,94 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 4099,
+   "best_price": 4070,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingbank:x:6000c36:ddr5:dimm:32:6000:white:2x16:cl?",
+   "category": "ram",
+   "brand": "KingBank",
+   "model_key": "ram:kingbank:x:6000c36:ddr5:dimm:32:6000:white:2x16:cl?",
+   "title": "KingBank 金百達 KRRW RGB 32GB 白色套裝 (2x16GB) D5-6000C36 (K5.01.FL05ED9302)(XMP/EXPO)(RM-KRR…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-98ab2f144560d465.webp",
+   "image": "img/hk-98ab2f144560d465.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/20685.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4080,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20685/kingbank-krrbrgb-32gb-ddr5-6000-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4080,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6000:grey:2x16:cl38",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6000:grey:2x16:cl38",
+   "title": "Corsair Vengeance RGB 32GB 灰色套裝 (2x16GB) D5-6000C38 (CMH32GX5M2D6000Z38)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-49d93b1cd7c0d04a.webp",
+   "image": "img/hk-49d93b1cd7c0d04a.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22094.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4100,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22094/corsair-vengeance-rgb-32gb-ddr5-6000-cmh32gx5m2d6000z38",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4100,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingbank:x:6000c36:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "KingBank",
+   "model_key": "ram:kingbank:x:6000c36:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "KingBank 金百達 KRRB RGB 32GB 黑色套裝 (2x16GB) D5-6000C36 (K5.01.FL05ED9401)(XMP/EXPO)(RM-KRR…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-13144e81c8f27f04.webp",
+   "image": "img/hk-13144e81c8f27f04.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/20578.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4100,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20578/kingbank-krrbrgb-32gb-ddr5-6000c30",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4100,
    "has_water": false,
    "has_official": true
   },
@@ -53579,9 +54369,9 @@
     "DDR5",
     "5600"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bfa6e76a2d895471.jpg",
-   "image": "img/hk-bfa6e76a2d895471.jpg",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/0c7e3e5781d82f6e16f15690232b5d01.jpeg",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-da960ff58158e04e.webp",
+   "image": "img/hk-da960ff58158e04e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5730.webp",
    "water": null,
    "official": {
     "price_hkd": 4100,
@@ -53590,6 +54380,12 @@
     "url": "https://buymore.hk/shop/goods.php?id=31786",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4150,
+      "url": "https://centralfield.com/product/5730/kingston-fury-beast-32gb-ddr5-5600c36-kf556c36bbek2-32"
+     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -53600,6 +54396,84 @@
    },
    "delta_hkd": null,
    "best_price": 4100,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:black:2x16:cl36",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "Corsair VENGEANCE 黑色 CMK32GX5M2E6000Z36 AMD EXPO DDR5 6000MHz 32GB Kit (16GB*2, CL 36-4…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-487ba1bb157ddbaf.webp",
+   "image": "img/hk-487ba1bb157ddbaf.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5492.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4110,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5492/corsair-vengeance-32gb-ddr5-6000-c36-ram",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4250,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeancer-cmk32gx5m2e6000z36-ddr5-6000mhz-memory-amd-expo"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4380,
+      "url": "https://secomputer.com.hk/products/55424"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4110,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl36",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl36",
+   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE White 白色 CMK32GX5M2E6000Z36W DDR5 6000MHz Memory (A…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-80d84ebb3f5816e7.webp",
+   "image": "img/hk-80d84ebb3f5816e7.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/818.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4120,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/818/corsair-vengeance-ddr5-32gb-6000c36-white",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4378,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/本週特價-corsair-32gb-kit-2x16gb-vengeance-white-白色-cmk32gx5m2e6000z36w-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4120,
    "has_water": false,
    "has_official": true
   },
@@ -53633,26 +54507,97 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl36",
+   "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6400:black:2x16:cl32",
    "category": "ram",
    "brand": "ADATA",
-   "model_key": "ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl36",
-   "title": "ADATA 32GB Kit (2x16GB) XPG LANCER BLADE RGB Black 黑色 AX5U6000C3616G-DTLABRBK DDR5 6000…",
+   "model_key": "ram:adata:lancerbladergb:ddr5:dimm:32:6400:black:2x16:cl32",
+   "title": "ADATA XPG Lancer Blade RGB 32GB 黑色套裝 (2x16GB) D5-6400C32 (AX5U6400C3216G-DTLABRBK)(XMP/…",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6813190d6825fd7c.webp",
+   "image": "img/hk-6813190d6825fd7c.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7951.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4150,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7951/adata-xpg-lancer-blade-rgb-ddr5-32gb-6400c32-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4150,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:black:2x16:cl36",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "G.SKILL 32GB Kit (2x16GB) Trident Z5 Neo RGB Black 黑色 F5-6000J3636F16GX2-TZ5NR DDR5 600…",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f94057b31c5be544.png",
-   "image": "img/hk-f94057b31c5be544.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ADATADDR5XPGLANCERBLACKRGBBLACK.png?v=1764682400",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a7f1d36464de21bb.webp",
+   "image": "img/hk-a7f1d36464de21bb.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/285.webp",
    "water": null,
    "official": {
     "price_hkd": 4150,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/adata-32gb-kit-2x16gb-xpg-lancer-blade-rgb-black-黑色-ax5u6000c3616g-dtlabrbk-ddr5-6000mhz-cl36-memory-amd-expo-intel-xmp-3-0-rm-lbr632b",
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/285/gskill-trident-z5-neo-rgb-32gb-ddr5-6000-c36-amd-expo",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4299,
+      "url": "https://shop.pegasus.hk/products/210506/GSkill-Trident-Z5-Neo-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL36-F5-6000J3636F16GX2-TZ5NR---Limited-Lifetime保養"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 5022,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-trident-z5-neo-rgb-f5-6000j3636f16gx2-tz5nr-ddr5-6000mhz-32gb-kit-2x16gb-amd-expo"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4150,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:boltv:ddr5:dimm:32:6000:black:2x16:cl30",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:boltv:ddr5:dimm:32:6000:black:2x16:cl30",
+   "title": "Klevv 科賦 BOLT V 32GB 黑色套裝 (2x16GB) D5-6000C30 (KD5AGUA80-60A300H)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1c2853b3158969ce.webp",
+   "image": "img/hk-1c2853b3158969ce.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/23247.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4150,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/23247/klevv-bolt-v-32gb-ddr5-6000c30",
     "stock": "現貨",
     "others": []
    },
@@ -53727,6 +54672,64 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:7000:black:2x16:cl34",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:7000:black:2x16:cl34",
+   "title": "Corsair Vengeance 32GB 黑色套裝 (2x16GB) D5-7000C34 (CMK32GX5M2X7000C34)(Intel XMP)",
+   "spec": "DDR5-6400以上 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400以上"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0bb30f6b12d4fac8.webp",
+   "image": "img/hk-0bb30f6b12d4fac8.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5495.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4200,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5495/corsair-vengeance-32gb-ddr5-7000c34-black-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4200,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:v-color:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?#2",
+   "category": "ram",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?",
+   "title": "v-color Manta XFinity RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (TMXFL1660830WWK)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d93d3aeb311b58e6.webp",
+   "image": "img/hk-d93d3aeb311b58e6.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22583.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4200,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22583/v-color-manta-xfinity-rgb-32gb-ddr5-6000-white-2",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4200,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl30",
    "category": "ram",
    "brand": "Klevv",
@@ -53756,38 +54759,247 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:black:2x16:cl36",
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl30#2",
    "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:black:2x16:cl36",
-   "title": "Corsair VENGEANCE 黑色 CMK32GX5M2E6000Z36 AMD EXPO DDR5 6000MHz 32GB Kit (16GB*2, CL 36-4…",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl30",
+   "title": "Klevv 科賦 CRAS V RGB 32GB 黑色套裝 (2x16GB) D5-6000C30 (KD5AGUA80-60A300G)(XMP/EXPO)",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b0dd988122210574.png",
-   "image": "img/hk-b0dd988122210574.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/CMK32GX5M2B5600Z36_10.webp?v=1700048820",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fd86808d297be291.webp",
+   "image": "img/hk-fd86808d297be291.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7460.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4220,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7460/klevv-cras-v-rgb-32gb-ddr5-6000c30-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4220,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:v-color:x:6000c30:ddr5:dimm:32:6000:black:2x16:cl?#2",
+   "category": "ram",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x:6000c30:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "v-color Manta XFinity RGB 32GB 黑色套裝 (2x16GB) D5-6000C30 (TMXFL1660830KWK)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f22ad85866b8265b.webp",
+   "image": "img/hk-f22ad85866b8265b.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22582.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4220,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22582/v-color-manta-xfinity-rgb-32gb-ddr5-6000c30",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4220,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6000:black:2x16:cl36",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "Corsair VENGEANCE RGB 黑色 AMD EXPO CMH32GX5M2E6000Z36 DDR5 6000MHz 32GB Kit (16GB*2, CL36)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d597de7bae739ca5.webp",
+   "image": "img/hk-d597de7bae739ca5.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5438.webp",
    "water": null,
    "official": {
     "price_hkd": 4250,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeancer-cmk32gx5m2e6000z36-ddr5-6000mhz-memory-amd-expo",
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5438/corsair-vengeance-rgb-32gb-ddr5-6000c36-black-ram",
     "stock": "現貨",
     "others": [
      {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4300,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2e6000z36-ddr5-6000mhz-amd-expo-memory"
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
-      "price_hkd": 4380,
-      "url": "https://secomputer.com.hk/products/55424"
+      "price_hkd": 4500,
+      "url": "https://secomputer.com.hk/products/54743"
      }
     ]
    },
    "delta_hkd": null,
    "best_price": 4250,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:lancerblade:ddr5:dimm:32:6400:white:2x16:cl32",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:lancerblade:ddr5:dimm:32:6400:white:2x16:cl32",
+   "title": "ADATA XPG Lancer Blade 32GB 白色套裝 (2x16GB) D5-6400C32 (AX5U6400C3216G-DTLABWH)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c770b178b645975b.webp",
+   "image": "img/hk-c770b178b645975b.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/8655.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4280,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/8655/adata-xpg-lancer-blade-32gb-white-ddr5-6400c32",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4280,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:lancerblade:ddr5:dimm:32:6400:black:2x16:cl32",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:lancerblade:ddr5:dimm:32:6400:black:2x16:cl32",
+   "title": "ADATA XPG Lancer Blade 32GB 黑色套裝 (2x16GB) D5-6400C32 (AX5U6400C3216G-DTLABBK)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-40bc598de972db64.webp",
+   "image": "img/hk-40bc598de972db64.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/8654.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4280,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/8654/adata-xpg-lancer-blade-32gb-ddr5-6400-c32-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4280,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:lancerneonrgb:ddr5:dimm:32:7200:black:2x16:cl34",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:lancerneonrgb:ddr5:dimm:32:7200:black:2x16:cl34",
+   "title": "ADATA XPG Lancer Neon RGB 32GB 環保套裝 (2x16GB) D5-7200C34 (AX5U7200C3416G-DCLANRSG)(XMP/E…",
+   "spec": "DDR5-6400以上 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400以上"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f520cf349ada9d17.webp",
+   "image": "img/hk-f520cf349ada9d17.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11541.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4280,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11541/adata-xpg-lancer-neon-rgb-32gb-ddr5-7200c34",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4280,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:teamgroup:x:7600c36:ddr5:dimm:32:7600:black:2x16:cl36",
+   "category": "ram",
+   "brand": "TeamGroup",
+   "model_key": "ram:teamgroup:x:7600c36:ddr5:dimm:32:7600:black:2x16:cl36",
+   "title": "TeamGroup T-Force Xtreem RGB 32GB 粉紅色套裝 (2x16GB) D5-7600C36 (RM-XR5J32B)(FFPD532G7600HC…",
+   "spec": "DDR5-6400以上 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400以上"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2be1e56b7925bb4b.webp",
+   "image": "img/hk-2be1e56b7925bb4b.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/18424.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4280,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/18424/teamgroup-t-force-xtreem-rgb-32gb-pink-ddr5-7600c36",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4280,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl36",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl36",
+   "title": "Corsair Vengeance RGB 32GB 黑色套裝 (2x16GB) D5-6400C36 (CMH32GX5M2B6400Z36)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d4ead3ce8526a1bf.webp",
+   "image": "img/hk-d4ead3ce8526a1bf.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13216.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4285,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13216/corsair-vengeance-rgb-32gb-ddr5-6400c36",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4285,
    "has_water": false,
    "has_official": true
   },
@@ -53821,6 +55033,12 @@
       "url": "https://shop.pegasus.hk/products/219508/ADATA-XPG-Lancer-Blade-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DTLABRBK---Limited-Lifetime保養"
      },
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4499,
+      "url": "https://centralfield.com/product/5366/adata-xpg-lancer-blade-rgb-32gb-d5-6000c30"
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 4699,
@@ -53838,7 +55056,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:lancerbladergb:ddr5:dimm:32:6000:white:2x16:cl30",
-   "title": "ADATA XPG Lancer Blade RGB DDR5 White 32GB (16GB x 2) 6000MHz CL30",
+   "title": "ADATA XPG Lancer Blade RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (AX5U6000C3016G-DTLABRWH)(RM-L…",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -53855,7 +55073,14 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/219863/ADATA-XPG-Lancer-Blade-RGB-DDR5-White-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DTLABRWH---Limited-Lifetime保養",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4499,
+      "url": "https://centralfield.com/product/7950/adata-xpg-lancer-blade-rgb-32gb-ddr5-6000-white"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4299,
@@ -53885,6 +55110,42 @@
     "url": "https://shop.pegasus.hk/products/221437/ADATA-XPG-Lancer-Blade-RGB-DDR5-White-32GB-16GB-x-2-6400MHz-CL32-AX5U6400C3216G-DTLABRWH---Limited-Lifetime保養",
     "stock": "現貨",
     "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4299,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:lancerneonrgb:ddr5:dimm:32:6000:black:2x16:cl30",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:lancerneonrgb:ddr5:dimm:32:6000:black:2x16:cl30",
+   "title": "ADATA XPG Lancer Neon RGB 32GB 環保套裝 (2x16GB) D5-6000C30 (AX5U6000C3016G-DCLANRSG)(XMP/E…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-152990ea3ef38e83.webp",
+   "image": "img/hk-152990ea3ef38e83.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11538.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4299,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11538/adata-xpg-lancer-neon-rgb-32gb-d5-6000c30-eco-pack",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4499,
+      "url": "https://shop.pegasus.hk/products/223243/ADATA-XPG-Lancer-NEON-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DCLANRSG---Limited-Lifetime保養"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4299,
@@ -53950,6 +55211,12 @@
       "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2b6000z30k-ddr5-6000mhz-memory"
      },
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4690,
+      "url": "https://centralfield.com/product/5422/corsair-vengeance-rgb-32gb-ddr5-6000c30"
+     },
+     {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
       "price_hkd": 4699,
@@ -53992,71 +55259,28 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:black:2x16:cl36",
-   "category": "ram",
-   "brand": "G.Skill",
-   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:black:2x16:cl36",
-   "title": "G.SKILL 32GB Kit (2x16GB) Trident Z5 Neo RGB Black 黑色 F5-6000J3636F16GX2-TZ5NR DDR5 600…",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3e414ea58770b118.png",
-   "image": "img/hk-3e414ea58770b118.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c1b0a43d-7be5-4c10-68bd-d7e65302c800/public",
-   "water": null,
-   "official": {
-    "price_hkd": 4299,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/210506/GSkill-Trident-Z5-Neo-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL36-F5-6000J3636F16GX2-TZ5NR---Limited-Lifetime保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 5022,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-trident-z5-neo-rgb-f5-6000j3636f16gx2-tz5nr-ddr5-6000mhz-32gb-kit-2x16gb-amd-expo"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 4299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6000:black:2x16:cl36",
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6400:black:2x16:cl36",
    "category": "ram",
    "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6000:black:2x16:cl36",
-   "title": "Corsair VENGEANCE RGB 黑色 AMD EXPO CMH32GX5M2E6000Z36 DDR5 6000MHz 32GB Kit (16GB*2, CL36)",
-   "spec": "DDR5-6000 · DIMM",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6400:black:2x16:cl36",
+   "title": "Corsair Vengeance 32GB 黑色套裝 (2x16GB) D5-6400C36 (CMK32GX5M2B6400Z36)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
-    "6000"
+    "6400"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c790c9ec1b36cd32.png",
-   "image": "img/hk-c790c9ec1b36cd32.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Corsair_VENGEANCE_RGB_DDR5_Kit.png?v=1737977772",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b6c4618e663ca73a.webp",
+   "image": "img/hk-b6c4618e663ca73a.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/14019.webp",
    "water": null,
    "official": {
     "price_hkd": 4300,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2e6000z36-ddr5-6000mhz-amd-expo-memory",
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/14019/corsair-vengeance-32gb-ddr5-6400-c36-2",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 4500,
-      "url": "https://secomputer.com.hk/products/54743"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 4300,
@@ -54064,44 +55288,79 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:crucial:pro:ddr5:dimm:32:6000:black:2x16:cl36",
+   "id": "ram|ram:corsair:vengeancergbrs:ddr5:dimm:32:6000:black:2x16:cl36",
    "category": "ram",
-   "brand": "Crucial",
-   "model_key": "ram:crucial:pro:ddr5:dimm:32:6000:black:2x16:cl36",
-   "title": "Crucial Pro 32GB Kit (2x16GB) OC Gaming Memory Black 黑色 DDR5-6000 UDIMM CP2K16G60C36U5B…",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergbrs:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "Corsair Vengeance RGB RS 32GB 黑色套裝 (2x16GB) D5-6000C36 (CMG32GX5M2E6000Z36)(XMP/EXPO)",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a16491e6d0ea5938.png",
-   "image": "img/hk-a16491e6d0ea5938.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/image_8d508bb2-7e0a-4384-a2c9-f89dd3bd7028.png?v=1720100151",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d23380c5fa83e2d2.webp",
+   "image": "img/hk-d23380c5fa83e2d2.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/19019.webp",
    "water": null,
    "official": {
     "price_hkd": 4300,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-32gb-kit-2x16gb-pro-overclocking-ddr5-6000-udimm-cp2k16g60c36u5b-support-amd-expo",
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/19019/corsair-vengeance-rgb-rs-32gb-ddr5-6000-c36",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4300,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl28",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl28",
+   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXP…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-37c6a345ae863be2.webp",
+   "image": "img/hk-37c6a345ae863be2.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13057.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4340,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13057/klevv-cras-v-rgb-32gb-ddr5-6000c28",
     "stock": "現貨",
     "others": [
      {
       "store": "SE Computer",
       "store_short": "SE",
-      "price_hkd": 4380,
-      "url": "https://secomputer.com.hk/products/54403"
+      "price_hkd": 4379,
+      "url": "https://secomputer.com.hk/products/57556"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4431,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-black-黑色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-cv16x2-kd5agua80-60b280g"
      },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
-      "price_hkd": 4399,
-      "url": "https://shop.pegasus.hk/products/218523/Crucial-Pro-Overclocking-DDR5-32GB-16GB-x-2-6000MHz-CL36-CP2K16G60C36U5B---Limited-Lifetime保養"
+      "price_hkd": 4499,
+      "url": "https://shop.pegasus.hk/products/224727/Klevv-科賦-CRAS-V-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL28--KD5AGUA80-60B280G---Limited-Lifetime保養"
      }
     ]
    },
    "delta_hkd": null,
-   "best_price": 4300,
+   "best_price": 4340,
    "has_water": false,
    "has_official": true
   },
@@ -54148,6 +55407,35 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6000:white:2x16:cl36",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6000:white:2x16:cl36",
+   "title": "Corsair Vengeance RGB 32GB 白色套裝 (2x16GB) D5-6000C36 (CMH32GX5M2E6000Z36W)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b0f4cbe19964086c.webp",
+   "image": "img/hk-b0f4cbe19964086c.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/6314.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4350,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/6314/corsair-vengeance-rgb-32gb-ddr5-6000c36-white-3",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4350,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:kingston:furybeast:ddr5:dimm:32:6000:black:2x16:cl30",
    "category": "ram",
    "brand": "Kingston",
@@ -54169,81 +55457,17 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/kingston-32gb-kit-2x16gb-kf560c30bbek2-32-cl30-fury-beast-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0",
     "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4350,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl36",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl36",
-   "title": "CORSAIR 32GB Kit (2x16GB) VENGEANCE White 白色 CMK32GX5M2E6000Z36W DDR5 6000MHz Memory (A…",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9754be71827d106b.png",
-   "image": "img/hk-9754be71827d106b.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/VENGEANCE_DDR5_WHT_01_fd99fc47-ebe1-43ce-9daa-3797948188df.webp?v=1735205538",
-   "water": null,
-   "official": {
-    "price_hkd": 4378,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/本週特價-corsair-32gb-kit-2x16gb-vengeance-white-白色-cmk32gx5m2e6000z36w-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4378,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl28",
-   "category": "ram",
-   "brand": "Klevv",
-   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl28",
-   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXP…",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-db76f1fc0ae7d331.webp",
-   "image": "img/hk-db76f1fc0ae7d331.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/14cc2457b4b985eef95e0b6cb5428937.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4379,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/57556",
-    "stock": "現貨",
     "others": [
      {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4431,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-black-黑色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-cv16x2-kd5agua80-60b280g"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 4499,
-      "url": "https://shop.pegasus.hk/products/224727/Klevv-科賦-CRAS-V-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL28--KD5AGUA80-60B280G---Limited-Lifetime保養"
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4680,
+      "url": "https://centralfield.com/product/5738/kingston-fury-beast-32gb-ddr5-6000-kf560c30bbek2-32"
      }
     ]
    },
    "delta_hkd": null,
-   "best_price": 4379,
+   "best_price": 4350,
    "has_water": false,
    "has_official": true
   },
@@ -54271,6 +55495,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4380,
+      "url": "https://centralfield.com/product/13059/klevv-cras-v-rgb-ddr5-32gb-6000c28-white"
+     },
+     {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
       "price_hkd": 4431,
@@ -54280,6 +55510,35 @@
    },
    "delta_hkd": null,
    "best_price": 4379,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:dominatortitanium:ddr5:dimm:32:6400:black:2x16:cl32",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:32:6400:black:2x16:cl32",
+   "title": "Corsair Dominator Titanium RGB 32GB 黑色套裝 (2x16GB) D5-6400C32 (CMP32GX5M2B6400C32)(Intel…",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 4380,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5539/corsair-dominator-titanium-rgb-32gb-ddr5-6400c32-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4380,
    "has_water": false,
    "has_official": true
   },
@@ -54311,6 +55570,12 @@
       "store_short": "飛馬",
       "price_hkd": 4399,
       "url": "https://shop.pegasus.hk/products/214645/ADATA-XPG-Lancer-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DCLARBK---Limited-Lifetime保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4499,
+      "url": "https://centralfield.com/product/5363/adata-xpg-lancer-rgb-32gb-ddr5-6000c30"
      },
      {
       "store": "Jumbo 珍寶電腦",
@@ -54404,6 +55669,64 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:kingbank:x:6000c30:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "KingBank",
+   "model_key": "ram:kingbank:x:6000c30:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "KingBank 金百達 KRRB RGB 32GB 黑色套裝 (2x16GB) D5-6000C30 (K5.01.FLM5ED9402)(RM-KRRD32B)(XMP/…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a1b1cac334ec2cfd.webp",
+   "image": "img/hk-a1b1cac334ec2cfd.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13913.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4400,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13913/kingbank-krrrb-rgb-32gb-ddr5-6000c30-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4400,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingbank:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?",
+   "category": "ram",
+   "brand": "KingBank",
+   "model_key": "ram:kingbank:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?",
+   "title": "KingBank 金百達 KRRW RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (K5.01.FLM5ED9304)(RM-KRRD32W)(XMP/…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e0a53940c64613a4.webp",
+   "image": "img/hk-e0a53940c64613a4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13914.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4400,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13914/kingbank-krrw-rgb-32gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4400,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:kingston:furybeast:ddr5:dimm:32:6000:white:2x16:cl30",
    "category": "ram",
    "brand": "Kingston",
@@ -54427,6 +55750,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4680,
+      "url": "https://centralfield.com/product/11134/kingston-fury-beast-32gb-ddr5-6000c30-white-kf560c30bwek2-32"
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 5380,
@@ -54440,7 +55769,217 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:dominatortitanium:ddr5:dimm:32:6000:black:2x16:cl30",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:32:6000:black:2x16:cl30",
+   "title": "Corsair Dominator Titanium RGB 32GB 黑色套裝 (2x16GB) D5-6000C30 (CMP32GX5M2B6000C30)(Intel…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e4fb73bdde15c2dd.webp",
+   "image": "img/hk-e4fb73bdde15c2dd.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5536.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4420,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5536/corsair-dominator-titanium-rgb-32gb-d5-6000c30-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4420,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6400:white:2x16:cl32",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6400:white:2x16:cl32",
+   "title": "Klevv 科賦 CRAS V RGB 32GB 白色套裝 (2x16GB) D5-6400C32 (KD5AGUA80-64A320J)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4c45ceaa585bd8c3.webp",
+   "image": "img/hk-4c45ceaa585bd8c3.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7449.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4440,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7449/klevv-cras-v-rgb-32gb-ddr5-6400-white-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4440,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6400:black:2x16:cl32",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6400:black:2x16:cl32",
+   "title": "Klevv 科賦 CRAS V RGB 32GB 黑色套裝 (2x16GB) D5-6400C32 (KD5AGUA80-64A320G)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5ba2f8c507630582.webp",
+   "image": "img/hk-5ba2f8c507630582.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7470.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4440,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7470/klevv-cras-v-rgb-ddr5-6400c32-32gb-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4440,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:dominatortitanium:ddr5:dimm:32:6600:black:2x16:cl32",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:32:6600:black:2x16:cl32",
+   "title": "Corsair DOMINATOR TITANIUM RGB 黑色 CMP32GX5M2X6600C32 DDR5 6600MT/s 32GB Kit (16GB*2,CL3…",
+   "spec": "DDR5-6400以上 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400以上"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3fc0124ad2a23c59.webp",
+   "image": "img/hk-3fc0124ad2a23c59.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5541.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4450,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5541/corsair-dominator-titanium-rgb-32gb-ddr5-6600c32",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4530,
+      "url": "https://secomputer.com.hk/products/51138"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4450,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:dominatortitanium:ddr5:dimm:32:6600:white:2x16:cl32",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:32:6600:white:2x16:cl32",
+   "title": "Corsair Dominator Titanium RGB 32GB 白色套裝 (2x16GB) D5-6600C32(CMP32GX5M2X6600C32W)(Intel…",
+   "spec": "DDR5-6400以上 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400以上"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a0d6f917fd0b7e36.webp",
+   "image": "img/hk-a0d6f917fd0b7e36.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5542.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4450,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5542/corsair-dominator-titanium-rgb-32gb-ddr5-6600-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4450,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:ripjawss5:ddr5:dimm:32:6000:white:2x16:cl28",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:ripjawss5:ddr5:dimm:32:6000:white:2x16:cl28",
+   "title": "G.Skill Ripjaws S5 32GB 白色焰刃套裝 (2x16GB) D5-6000C28 (F5-6000J2836G16GX2-RS5W)(Intel XMP)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f4f1ec56d263a065.webp",
+   "image": "img/hk-f4f1ec56d263a065.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10899.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4450,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10899/g-skill-ripjaws-s5-32gb-ddr5-6000-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4450,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:ripjawss5:ddr5:dimm:32:6000:black:2x16:cl28",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:ripjawss5:ddr5:dimm:32:6000:black:2x16:cl28",
+   "title": "G.Skill Ripjaws S5 32GB 黑色焰刃套裝 (2x16GB) D5-6000C28 (F5-6000J2836G16GX2-RS5K)(Intel XMP)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e9a93d31fdb9c531.webp",
+   "image": "img/hk-e9a93d31fdb9c531.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10898.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4450,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10898/gskill-ripjaws-s5-32gb-ddr5-6000-c28",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4450,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6400:black:2x16:cl32#2",
    "category": "ram",
    "brand": "Klevv",
    "model_key": "ram:klevv:crasv:ddr5:dimm:32:6400:black:2x16:cl32",
@@ -54469,60 +56008,118 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:adata:lancerneonrgb:ddr5:dimm:32:6000:black:2x16:cl30",
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6400:white:2x16:cl30",
    "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:lancerneonrgb:ddr5:dimm:32:6000:black:2x16:cl30",
-   "title": "ADATA XPG Lancer NEON RGB DDR5 32GB (16GB x 2) 6000MHz CL30",
-   "spec": "DDR5-6000 · DIMM",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6400:white:2x16:cl30",
+   "title": "Klevv 科賦 CRAS V RGB 32GB 白色套裝 (2x16GB) D5-6400C30 (KD5AGUA80-64B300J)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
-    "6000"
+    "6400"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b6f98a7ae5d456d0.png",
-   "image": "img/hk-b6f98a7ae5d456d0.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/57870d7d-f232-49eb-6983-9cfe9e916f00/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ee3f944605fd0c79.webp",
+   "image": "img/hk-ee3f944605fd0c79.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/16972.webp",
    "water": null,
    "official": {
-    "price_hkd": 4499,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223243/ADATA-XPG-Lancer-NEON-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL30-AX5U6000C3016G-DCLANRSG---Limited-Lifetime保養",
+    "price_hkd": 4490,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/16972/klevv-cras-v-rgb-32gb-ddr5-6400-white",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 4499,
+   "best_price": 4490,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl34",
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6400:black:2x16:cl30",
    "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl34",
-   "title": "【DDR5 32GB 6000MHz】ADATA LANCER BLADE RGB 32GB (16GBx2) CL34【黑色】",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6400:black:2x16:cl30",
+   "title": "Klevv 科賦 CRAS V RGB 32GB 黑色套裝 (2x16GB) D5-6400C30 (KD5AGUA80-64B300G)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3452f477a0ff77ee.webp",
+   "image": "img/hk-3452f477a0ff77ee.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/16971.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4490,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/16971/klevv-cras-v-rgb-32gb-ddr5-6400c30",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4490,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:siliconpower:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?",
+   "category": "ram",
+   "brand": "Silicon Power",
+   "model_key": "ram:siliconpower:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?",
+   "title": "Silicon Power XPOWER Zenith RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (SP032GXLWU60AFDH)(EXPO/XMP)",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b6085f73b80b3707.webp",
+   "image": "img/hk-b6085f73b80b3707.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22457.webp",
    "water": null,
    "official": {
-    "price_hkd": 4499,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=45351",
+    "price_hkd": 4498,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22457/silicon-power-xpower-zenith-rgb-32gb-ddr5-6000c30-white",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 4499,
+   "best_price": 4498,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:siliconpower:x:6000c30:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "Silicon Power",
+   "model_key": "ram:siliconpower:x:6000c30:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "Silicon Power XPOWER Zenith RGB 32GB 黑色套裝 (2x16GB) D5-6000C30 (SP032GXLWU60AFDF)(EXPO/XMP)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1055360c7b37ef7.webp",
+   "image": "img/hk-d1055360c7b37ef7.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22456.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4498,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22456/silicon-power-xpower-zenith-rgb-32gb-ddr5-6000c30-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4498,
    "has_water": false,
    "has_official": true
   },
@@ -54548,7 +56145,14 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/電腦節搶購貨-corsair-32gb-kit-2x16gb-vengeance-white-白色-cmk32gx5m2b6400z32w-ddr5-6400mhz-cl32-memory-amd-expo-intel-xmp-3-0",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4570,
+      "url": "https://centralfield.com/product/14018/corsair-vengeance-32gb-ddr5-6400-white-ram"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4499,
@@ -54608,6 +56212,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4800,
+      "url": "https://centralfield.com/product/5736/kingston-fury-beast-rgb-32gb-ddr5-6000c30-ram"
+     },
+     {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
       "price_hkd": 5200,
@@ -54617,35 +56227,6 @@
    },
    "delta_hkd": null,
    "best_price": 4500,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:dominatortitanium:ddr5:dimm:32:6600:black:2x16:cl32",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:32:6600:black:2x16:cl32",
-   "title": "Corsair DOMINATOR TITANIUM RGB 黑色 CMP32GX5M2X6600C32 DDR5 6600MT/s 32GB Kit (16GB*2,CL3…",
-   "spec": "DDR5-6400以上 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6400以上"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-50204a0723915864.webp",
-   "image": "img/hk-50204a0723915864.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/5ea9631430ea1c9664a3987db92da9f0.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4530,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/51138",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4530,
    "has_water": false,
    "has_official": true
   },
@@ -54679,6 +56260,12 @@
       "url": "https://buymore.hk/shop/goods.php?id=36430"
      },
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4620,
+      "url": "https://centralfield.com/product/5480/corsair-vengeance-ddr5-32gb-6000c30"
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 4680,
@@ -54688,6 +56275,93 @@
    },
    "delta_hkd": null,
    "best_price": 4550,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:ripjawss5:ddr5:dimm:32:6000:black:2x16:cl36",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:ripjawss5:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "G.Skill Ripjaws S5 32GB 黑色焰刃套裝 (2x16GB) D5-6000C36 (F5-6000J3636F16GX2-RS5K)(EXPO/XMP)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-35e99ade2a0778a6.webp",
+   "image": "img/hk-35e99ade2a0778a6.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7139.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4550,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7139/gskill-ripjaws-s5-32gb-ddr5-6000c36-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4550,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:32:6400:black:2x16:cl32",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:32:6400:black:2x16:cl32",
+   "title": "G.Skill Trident Z5 Neo RGB 32GB 黑色套裝 (2x16GB) D5-6400C32 (F5-6400J3239G16GX2-TZ5NR)(AMD…",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-87e21b6323684535.webp",
+   "image": "img/hk-87e21b6323684535.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/528.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4550,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/528/gskill-trident-z5-neo-rgb-32gb-ddr5-6400c32-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4550,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6400:grey:2x16:cl32",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6400:grey:2x16:cl32",
+   "title": "Corsair Vengeance 32GB 灰色套裝 (2x16GB) D5-6400C32 (CMK32GX5M2B6400Z32)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dd70b6c926ee6aa5.webp",
+   "image": "img/hk-dd70b6c926ee6aa5.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5484.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4570,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5484/corsair-vengeance-32gb-ddr5-6400c32",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4570,
    "has_water": false,
    "has_official": true
   },
@@ -54721,6 +56395,35 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:acer:x:6000c28:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "Acer",
+   "model_key": "ram:acer:x:6000c28:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "Acer Predator Vesta II RGB 32GB 黑色套裝 (2x16GB) D5-6000C28 (XMP/EXPO)(RM-AV5D32A)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a3f28dcdd637cf19.webp",
+   "image": "img/hk-a3f28dcdd637cf19.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21623.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4599,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21623/acer-predator-vesta-ii-rgb-32gb-ddr5-6000c28-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl32#2",
    "category": "ram",
    "brand": "Corsair",
@@ -54743,6 +56446,12 @@
     "url": "https://www.jumbo-computer.com/zh-hk/products/本週特價-corsair-32gb-kit-2x16gb-vengeance-rgb-cmh32gx5m2b6400z32-ddr5-6400mhz-memory-amd-expo-intel-xmp-3-0",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4620,
+      "url": "https://centralfield.com/product/5429/corsair-vengeance-rgb-32gb-ddr5-6400c32-ram"
+     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -54768,17 +56477,23 @@
     "DDR5",
     "6400"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4b31125966613830.webp",
-   "image": "img/hk-4b31125966613830.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/04e57e9d8dd6a13f0e799e78faa57860.webp",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e62a0545cb751b07.webp",
+   "image": "img/hk-e62a0545cb751b07.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13215.webp",
    "water": null,
    "official": {
-    "price_hkd": 4680,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/57904",
+    "price_hkd": 4620,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13215/corsair-vengeance-rgb-32gb-ddr5-6400-white-2",
     "stock": "現貨",
     "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4680,
+      "url": "https://secomputer.com.hk/products/57904"
+     },
      {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
@@ -54788,7 +56503,100 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 4680,
+   "best_price": 4620,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:biwin:dw100:ddr5:dimm:32:6000:black:2x16:cl?",
+   "category": "ram",
+   "brand": "Biwin",
+   "model_key": "ram:biwin:dw100:ddr5:dimm:32:6000:black:2x16:cl?",
+   "title": "Biwin Black Opal DW100 32GB 黑色套裝 (2x16GB) D5-6000C28 (RM-BD5D32B)(EXPO/XMP)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5745e2544ead96a4.webp",
+   "image": "img/hk-5745e2544ead96a4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/8780.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4650,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/8780/biwin-black-opal-dw100-32gb-d5-6000c28",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4650,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6200:white:2x16:cl32",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6200:white:2x16:cl32",
+   "title": "Klevv 科賦 CRAS V RGB 32GB 銀白色套裝 (2x16GB) D5-6200C32 (ROG CERTIFIED)(KD5AGUA80-62B320P)(X…",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3b012b2f724fe825.webp",
+   "image": "img/hk-3b012b2f724fe825.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13860.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4660,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13860/klevv-cras-v-rgb-ddr5-32gb-6200c32-rog-silver",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4660,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl30",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl30",
+   "title": "Corsair VENGEANCE LPX 白色(AMD EXPO) CMK32GX5M2B6000Z30W DDR5 6000MT/s 32GB Kit (16GB*2, …",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c05d689cc9a0cbe5.webp",
+   "image": "img/hk-c05d689cc9a0cbe5.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/228.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4670,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/228/corsair-vengeance-32gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4720,
+      "url": "https://secomputer.com.hk/products/55476"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4670,
    "has_water": false,
    "has_official": true
   },
@@ -54822,6 +56630,35 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:kingbank:x:6000c28:ddr5:dimm:32:6000:white:2x16:cl?",
+   "category": "ram",
+   "brand": "KingBank",
+   "model_key": "ram:kingbank:x:6000c28:ddr5:dimm:32:6000:white:2x16:cl?",
+   "title": "KingBank 金百達 KFRW RGB 32GB 白色套裝 (2x16GB) D5-6000C28 (RM-KFRD32W)(XMP/EXPO)(Hynix A Die)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-78d08b7cd1f35f10.webp",
+   "image": "img/hk-78d08b7cd1f35f10.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13912.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4699,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13912/kingbank-kfrw-rgb-32gb-ddr5-6000c28-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4699,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6000:black:2x16:cl28",
    "category": "ram",
    "brand": "Corsair",
@@ -54845,6 +56682,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 4800,
+      "url": "https://centralfield.com/product/7374/corsair-vengeance-rgb-32gb-ddr5-6000c28-memory"
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 4890,
@@ -54854,35 +56697,6 @@
    },
    "delta_hkd": null,
    "best_price": 4700,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl30",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl30",
-   "title": "Corsair VENGEANCE LPX 白色(AMD EXPO) CMK32GX5M2B6000Z30W DDR5 6000MT/s 32GB Kit (16GB*2, …",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5864cb267fe9257e.webp",
-   "image": "img/hk-5864cb267fe9257e.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/c9a1098b38d79936dce41d626ee75837.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4720,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/55476",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4720,
    "has_water": false,
    "has_official": true
   },
@@ -54948,6 +56762,77 @@
    },
    "delta_hkd": null,
    "best_price": 4750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:white:2x16:cl30",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:white:2x16:cl30",
+   "title": "G.Skill Trident Z5 NEO RGB (AMD EXPO) F5-6000J3036F16GX2-TZ5NRW 白色 DDR5-6000 32GB Kit R…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-87b7357c0adea6a6.webp",
+   "image": "img/hk-87b7357c0adea6a6.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7076.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7076/gskill-trident-z5-neo-rgb-32gb-ddr5-6000-white-expo",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 6478,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-32gb-kit-2x16gb-trident-z5-neo-rgb-white-f5-6000j3036f16gx2-tz5nrw-ddr5-6000mhz-memory-amd-expo"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 6690,
+      "url": "https://secomputer.com.hk/products/55249"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:grey:2x16:cl28",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6000:grey:2x16:cl28",
+   "title": "Corsair Vengeance 32GB 灰色套裝 (2x16GB) D5-6000C28 (CMK32GX5M2B6000Z28)(XMP/EXPO) (Central…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dcd0e3a2465270aa.webp",
+   "image": "img/hk-dcd0e3a2465270aa.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/6155.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4760,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/6155/corsair-vengeance-32gb-ddr5-6000c28",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4760,
    "has_water": false,
    "has_official": true
   },
@@ -55039,6 +56924,383 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:g.skill:flarex5:ddr5:dimm:32:6000:black:2x16:cl28",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:flarex5:ddr5:dimm:32:6000:black:2x16:cl28",
+   "title": "G.Skill Flare X5 32GB 黑色烈焰槍套裝 (2x16GB) D5-6000C28 (F5-6000J2836G16GX2-FX5)(AMD EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a313fe7e0c077ece.webp",
+   "image": "img/hk-a313fe7e0c077ece.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12228.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4800,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12228/gskill-flare-x5-32gb-ddr5-6000-c28-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4800,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:32:6400:black:2x16:cl30",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:32:6400:black:2x16:cl30",
+   "title": "G.Skill Trident Z5 Neo RGB 32GB 黑色套裝 (2x16GB) D5-6400C30 (F5-6400J3039G16GX2-TZ5NR)(AMD…",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-974c1e022eef43b2.webp",
+   "image": "img/hk-974c1e022eef43b2.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7084.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4800,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7084/gskill-trident-z5-neo-rgb-32gb-ddr5-6400c30-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4800,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingston:furybeastrgb:ddr5:dimm:32:6000:white:2x16:cl30",
+   "category": "ram",
+   "brand": "Kingston",
+   "model_key": "ram:kingston:furybeastrgb:ddr5:dimm:32:6000:white:2x16:cl30",
+   "title": "Kingston FURY BEAST RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (KF560C30BWEAK2-32)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-594c7ca4475a191e.webp",
+   "image": "img/hk-594c7ca4475a191e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11132.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4800,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11132/kingston-fury-beast-rgb-32gb-ddr5-6000-c30-white-kf560c30bweak2-32",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4800,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neo:ddr5:dimm:32:6000:black:2x16:cl36",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neo:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "G.Skill Trident Z5 Neo X RGB 32GB 亮面黑色套裝 (2x16GB) D5-6000C36 (F5-6000A3636F16GX2-TZ5NXR…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0ad4fb57b366ac42.webp",
+   "image": "img/hk-0ad4fb57b366ac42.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21278.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4900,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21278/gskill-trident-z5-neo-rgb-32gb-ddr5-6000-c36-amd-expo-2",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4900,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neo:ddr5:dimm:32:6000:black:2x16:cl36#2",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neo:ddr5:dimm:32:6000:black:2x16:cl36",
+   "title": "G.Skill Trident Z5 Neo X RGB 32GB 黑色套裝 (2x16GB) D5-6000C36 (F5-6000A3636F16GX2-TZ5NXRK)…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-28ac731cff640492.webp",
+   "image": "img/hk-28ac731cff640492.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21276.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4900,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21276/gskill-trident-z5-neo-rgb-32gb-ddr5-6000-amd-expo-3",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4900,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:dominatortitanium:ddr5:dimm:32:6000:grey:2x16:cl30",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:32:6000:grey:2x16:cl30",
+   "title": "Corsair Dominator Titanium RGB 32GB 灰色套裝 (2x16GB) D5-6000C30 (CMP32GX5M2B6000Z30)(EXPO/…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c8271a1ea51f2f7f.webp",
+   "image": "img/hk-c8271a1ea51f2f7f.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5538.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4970,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5538/corsair-dominator-titanium-rgb-32gb-ddr5-6000c30-grey",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4970,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5royalneo:ddr5:dimm:32:8000:black:2x16:cl38",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5royalneo:ddr5:dimm:32:8000:black:2x16:cl38",
+   "title": "G.Skill Trident Z5 Royal Neo 32GB 金色皇家戟套裝 (2x16GB) D5-8000C38 (F5-8000J3848H16GX2-TR5NG…",
+   "spec": "DDR5-6400以上 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400以上"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f340b995263a2c93.webp",
+   "image": "img/hk-f340b995263a2c93.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/3535.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 5000,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/3535/gskill-trident-z5-royal-neo-32gb-ddr5-8000c38-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5000,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:black:2x16:cl26",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:black:2x16:cl26",
+   "title": "G.Skill Trident Z5 Neo RGB 32GB 焰鋒戟黑色套裝 (2x16GB) D5-6000C26 (F5-6000J2636H16GX2-TZ5NR)(…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-104a1f933d099980.webp",
+   "image": "img/hk-104a1f933d099980.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12241.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 5400,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12241/gskill-trident-z5-neo-rgb-32gb-ddr5-6000c26-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5400,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neo:ddr5:dimm:32:6000:black:2x16:cl30",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neo:ddr5:dimm:32:6000:black:2x16:cl30",
+   "title": "G.Skill Trident Z5 Neo 32GB 黑色套裝 (2x16GB) D5-6000C30 (F5-6000J3038F16GX2-TZ5N)(AMD EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-908007163513071d.webp",
+   "image": "img/hk-908007163513071d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/1207.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 5560,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/1207/gskill-trident-z5-neo-32gb-ddr5-6000c30-amd-expo",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5560,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5rgb:ddr5:dimm:32:6400:white:2x16:cl32",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5rgb:ddr5:dimm:32:6400:white:2x16:cl32",
+   "title": "G.Skill Trident Z5 RGB 32GB 白色套裝 (2x16GB) D5-6400C32 (F5-6400J3239G16GX2-TZ5RW)(Intel XMP)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b3dadba622a77394.webp",
+   "image": "img/hk-b3dadba622a77394.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/524.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 5580,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/524/gskill-trident-z5-rgb-32gb-ddr5-6400-white-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5580,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:white:2x16:cl26",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:white:2x16:cl26",
+   "title": "G.Skill Trident Z5 Neo RGB 32GB 焰鋒戟白色套裝 (2x16GB) D5-6000C26 (F5-6000J2636H16GX2-TZ5NRW)…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6bdd00fc8a2fd567.webp",
+   "image": "img/hk-6bdd00fc8a2fd567.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12242.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 5600,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12242/gskill-trident-z5-neo-rgb-32gb-ddr5-6000c26-amd-expo-2",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5600,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neo:ddr5:dimm:32:6000:white:2x16:cl30",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neo:ddr5:dimm:32:6000:white:2x16:cl30",
+   "title": "G.Skill Trident Z5 Neo X RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (F5-6000A3038F16GX2-TZ5NXRW)…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e2cbda60d177a640.webp",
+   "image": "img/hk-e2cbda60d177a640.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21286.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 5950,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21286/gskill-trident-z5-neo-rgb-32gb-ddr5-6000-white-amd-expo-3",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5950,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5rgb:ddr5:dimm:32:6400:black:2x16:cl32",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5rgb:ddr5:dimm:32:6400:black:2x16:cl32",
+   "title": "G.Skill Trident Z5 RGB 32GB 黑色套裝 (2x16GB) D5-6400C32 (F5-6400J3239G16GX2-TZ5RK)(Intel XMP)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-36734a6ca3b2bdca.webp",
+   "image": "img/hk-36734a6ca3b2bdca.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/525.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 5999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/525/gskill-trident-z5-rgb-32gb-ddr5-6400-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:g.skill:tz5rgb:ddr5:dimm:32:6000:black:2x16:cl32",
    "category": "ram",
    "brand": "G.Skill",
@@ -55110,38 +57372,38 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:white:2x16:cl30",
+   "id": "ram|ram:teamgroup:tforcedeltargb:ddr5:dimm:64:6000:black:2x32:cl?",
    "category": "ram",
-   "brand": "G.Skill",
-   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:32:6000:white:2x16:cl30",
-   "title": "G.Skill Trident Z5 NEO RGB (AMD EXPO) F5-6000J3036F16GX2-TZ5NRW 白色 DDR5-6000 32GB Kit R…",
+   "brand": "TeamGroup",
+   "model_key": "ram:teamgroup:tforcedeltargb:ddr5:dimm:64:6000:black:2x32:cl?",
+   "title": "TEAMGROUP 64GB Kit (2x32GB) T-Force Delta RGB D5 Black 黑色 DDR5 6000MHz Memory FF3D564G6…",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-12fd54acd43b9f74.png",
-   "image": "img/hk-12fd54acd43b9f74.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/G.SKILL_Trident_Z5_Neo_RGB_White_f2a99c1e-7c13-41a4-90a3-15aa5827fbb5.png?v=1752048023",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bdd1cfa93499fbb9.webp",
+   "image": "img/hk-bdd1cfa93499fbb9.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/18365.webp",
    "water": null,
    "official": {
-    "price_hkd": 6478,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-32gb-kit-2x16gb-trident-z5-neo-rgb-white-f5-6000j3036f16gx2-tz5nrw-ddr5-6000mhz-memory-amd-expo",
+    "price_hkd": 7580,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/18365/teamgroup-t-force-delta-rgb-64gb-ddr5-6000-c38-black",
     "stock": "現貨",
     "others": [
      {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 6690,
-      "url": "https://secomputer.com.hk/products/55249"
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 7600,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/teamgroup-64gb-kit-2x32gb-t-force-delta-rgb-d5-black-黑色-ddr5-6000mhz-cl28-memory-ff3d564g6000hc38gdc01-rm-dr5b64b"
      }
     ]
    },
    "delta_hkd": null,
-   "best_price": 6478,
+   "best_price": 7580,
    "has_water": false,
    "has_official": true
   },
@@ -55175,31 +57437,131 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:teamgroup:tforcedeltargb:ddr5:dimm:64:6000:black:2x32:cl38",
+   "id": "ram|ram:crucial:std:ddr5:dimm:64:5600:black:1x64:cl46",
    "category": "ram",
-   "brand": "TeamGroup",
-   "model_key": "ram:teamgroup:tforcedeltargb:ddr5:dimm:64:6000:black:2x32:cl38",
-   "title": "TEAMGROUP 64GB Kit (2x32GB) T-Force Delta RGB D5 Black 黑色 DDR5 6000MHz Memory FF3D564G6…",
+   "brand": "Crucial",
+   "model_key": "ram:crucial:std:ddr5:dimm:64:5600:black:1x64:cl46",
+   "title": "Crucial 美光 UDIMM 64GB 單條 (1x64GB) D5-5600C46 (CT64G56C46U5)(XMP/EXPO)",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e6179beb6c023a4f.webp",
+   "image": "img/hk-e6179beb6c023a4f.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13258.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 7650,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13258/crucial-udimm-64gb-ddr5-5600-c46-ct64g56c46u5",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7650,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:64:6000:black:2x32:cl36",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:64:6000:black:2x32:cl36",
+   "title": "G.SKILL 64GB Kit (2x32GB) Trident Z5 Neo RGB Black 黑色 F5-6000J3636F32GX2-TZ5NR DDR5 600…",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cb5a640b75d32ed9.jpg",
-   "image": "img/hk-cb5a640b75d32ed9.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/dual_01_d1cbfd7a-8372-4605-9c69-f225da292162.jpg?v=1750246603",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-34b9f2cba0efaf92.webp",
+   "image": "img/hk-34b9f2cba0efaf92.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7403.webp",
    "water": null,
    "official": {
-    "price_hkd": 7600,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/teamgroup-64gb-kit-2x32gb-t-force-delta-rgb-d5-black-黑色-ddr5-6000mhz-cl28-memory-ff3d564g6000hc38gdc01-rm-dr5b64b",
+    "price_hkd": 7700,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7403/gskill-trident-z5-neo-rgb-64gb-ddr5-6000-c36",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 8199,
+      "url": "https://shop.pegasus.hk/products/222831/GSkill-Trident-Z5-Neo-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL36-F5-6000J3636F32GX2-TZ5NR---Limited-Lifetime保養"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 9801,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-64gb-kit-2x32gb-trident-z5-neo-rgb-black-f5-6000j3636f32gx2-tz5nr-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 7700,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergbrs:ddr5:dimm:64:6000:black:2x32:cl40",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergbrs:ddr5:dimm:64:6000:black:2x32:cl40",
+   "title": "Corsair Vengeance RGB RS 64GB 黑色套裝 (2x32GB) D5-6000C40 (CMG64GX5M2D6000Z40)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-708f70e528b81864.webp",
+   "image": "img/hk-708f70e528b81864.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/19021.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 7750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/19021/corsair-vengeance-rgb-rs-64gb-ddr5-6000c40-ram",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 7600,
+   "best_price": 7750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:aegis:ddr5:dimm:64:6000:black:2x32:cl36",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:aegis:ddr5:dimm:64:6000:black:2x32:cl36",
+   "title": "G.Skill Aegis 5 64GB 黑色神盾套裝 (2x32GB) D5-6000C36 (F5-6000J3636F32GX2-IS)(EXPO/XMP)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-91091ee66dc0ee4f.webp",
+   "image": "img/hk-91091ee66dc0ee4f.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11497.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 7750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11497/gskill-aegis-5-64gb-ddr5-6000c36",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7750,
    "has_water": false,
    "has_official": true
   },
@@ -55227,6 +57589,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7850,
+      "url": "https://centralfield.com/product/5729/kingston-fury-beast-rgb-64gb-ddr5-5600mhz-kf556c36bbeak2-64"
+     },
+     {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
       "price_hkd": 7899,
@@ -55236,6 +57604,71 @@
    },
    "delta_hkd": null,
    "best_price": 7799,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:6000:black:2x32:cl40",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:6000:black:2x32:cl40",
+   "title": "Corsair Vengeance 64GB 黑色套裝 (2x32GB) D5-6000C40 (CMK64GX5M2D6000Z40)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-918da93f81cdeef4.webp",
+   "image": "img/hk-918da93f81cdeef4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/16236.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 7950,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/16236/corsair-vengeance-64gb-ddr5-6000c40-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7950,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:6000:black:2x32:cl40",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:64:6000:black:2x32:cl40",
+   "title": "Corsair Vengeance RGB 64GB 黑色套裝 (2x32GB) D5-6000C40 (CMH64GX5M2B6000Z40)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d45fee5d343f0032.webp",
+   "image": "img/hk-d45fee5d343f0032.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5459.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 7950,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5459/corsair-vengeance-rgb-64gb-ddr5-6000c40-black",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 7999,
+      "url": "https://shop.pegasus.hk/products/231406/Corsair-VENGEANCE-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL40-CMG64GX5M2D6000Z40---Limited-Lifetime保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 7950,
    "has_water": false,
    "has_official": true
   },
@@ -55269,31 +57702,137 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:6000:black:2x32:cl40",
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:6000:black:2x32:cl40#2",
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:vengeancergb:ddr5:dimm:64:6000:black:2x32:cl40",
-   "title": "Corsair VENGEANCE RGB DDR5 64GB (32GB x 2) 6000MHz CL40",
+   "title": "Corsair Vengeance RGB 64GB 黑色套裝 (2x32GB) D5-6000C40 (CMH64GX5M2D6000Z40)(XMP/EXPO)",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c316bc0fd22ef0fc.png",
-   "image": "img/hk-c316bc0fd22ef0fc.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/71aac97e-747b-4259-45f7-88e38a89ed00/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-391c2c0c18f86c69.webp",
+   "image": "img/hk-391c2c0c18f86c69.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/16234.webp",
    "water": null,
    "official": {
-    "price_hkd": 7999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/231406/Corsair-VENGEANCE-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL40-CMG64GX5M2D6000Z40---Limited-Lifetime保養",
+    "price_hkd": 8050,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/16234/corsair-vengeance-rgb-64gb-ddr5-6000c40-cmh64gx5m2d6000z40",
     "stock": "現貨",
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 7999,
+   "best_price": 8050,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingston:furybeastrgb:ddr5:dimm:64:6000:black:2x32:cl36",
+   "category": "ram",
+   "brand": "Kingston",
+   "model_key": "ram:kingston:furybeastrgb:ddr5:dimm:64:6000:black:2x32:cl36",
+   "title": "Kingston FURY BEAST RGB 64GB 黑色套裝 (2x32GB) D5-6000C36 (KF560C36BBE2AK2-64)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f1020dbdd6d7b255.webp",
+   "image": "img/hk-f1020dbdd6d7b255.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13997.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8080,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13997/kingston-fury-beast-rgb-64gb-ddr5-6000c36-kf560c36bbe2ak2-64",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8080,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:boltv:ddr5:dimm:64:6000:white:2x32:cl30",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:boltv:ddr5:dimm:64:6000:white:2x32:cl30",
+   "title": "Klevv 科賦 BOLT V 64GB 白色套裝 (2x32GB) D5-6000C30 (KD5BGUA80-60A300I)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-515d29866286a015.webp",
+   "image": "img/hk-515d29866286a015.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/14900.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8100,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/14900/klevv-bolt-v-64gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8100,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6000:black:2x32:cl30",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:64:6000:black:2x32:cl30",
+   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 64GB (2x32GB) 6000MHz CL30 SK Hynix A-Die Memory AMD EXP…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-93d4708d0864d67a.webp",
+   "image": "img/hk-93d4708d0864d67a.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7498.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8180,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7498/klevv-cras-v-rgb-64gb-ddr5-6000-c30-ram",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 8335,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6000mhz-cl30-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-black-黑色-kd5bgua80-60a300g"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 8399,
+      "url": "https://secomputer.com.hk/products/53239"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 8499,
+      "url": "https://shop.pegasus.hk/products/215889/Klevv-科賦-CRAS-V-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL30-KD5BGUA80-60A300G---Limited-Lifetime保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 8180,
    "has_water": false,
    "has_official": true
   },
@@ -55323,42 +57862,6 @@
    },
    "delta_hkd": null,
    "best_price": 8190,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:64:6000:black:2x32:cl36",
-   "category": "ram",
-   "brand": "G.Skill",
-   "model_key": "ram:g.skill:tz5neorgb:ddr5:dimm:64:6000:black:2x32:cl36",
-   "title": "G.SKILL 64GB Kit (2x32GB) Trident Z5 Neo RGB Black 黑色 F5-6000J3636F32GX2-TZ5NR DDR5 600…",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2d156660dc53abb0.png",
-   "image": "img/hk-2d156660dc53abb0.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/e761145c-3476-4df0-6c2a-4a236976a700/public",
-   "water": null,
-   "official": {
-    "price_hkd": 8199,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/222831/GSkill-Trident-Z5-Neo-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL36-F5-6000J3636F32GX2-TZ5NR---Limited-Lifetime保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 9801,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/g-skill-64gb-kit-2x32gb-trident-z5-neo-rgb-black-f5-6000j3636f32gx2-tz5nr-ddr5-6000mhz-memory-amd-expo-intel-xmp-3-0"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 8199,
    "has_water": false,
    "has_official": true
   },
@@ -55399,7 +57902,7 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:klevv:boltv:ddr5:dimm:64:6000:white:2x32:cl30",
+   "id": "ram|ram:klevv:boltv:ddr5:dimm:64:6000:white:2x32:cl30#2",
    "category": "ram",
    "brand": "Klevv",
    "model_key": "ram:klevv:boltv:ddr5:dimm:64:6000:white:2x32:cl30",
@@ -55435,44 +57938,31 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6000:black:2x32:cl30",
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6400:white:2x32:cl32",
    "category": "ram",
    "brand": "Klevv",
-   "model_key": "ram:klevv:crasv:ddr5:dimm:64:6000:black:2x32:cl30",
-   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 64GB (2x32GB) 6000MHz CL30 SK Hynix A-Die Memory AMD EXP…",
-   "spec": "DDR5-6000 · DIMM",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:64:6400:white:2x32:cl32",
+   "title": "Klevv 科賦 CRAS V RGB 64GB 白色套裝 (2x32GB) D5-6400C32 (KD5BGUA80-64A320J)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
-    "6000"
+    "6400"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-979f3db016de126b.jpg",
-   "image": "img/hk-979f3db016de126b.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/81lYtyzm53L._AC_SL1500.jpg?v=1715590191",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1016794e59eebae1.webp",
+   "image": "img/hk-1016794e59eebae1.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7476.webp",
    "water": null,
    "official": {
-    "price_hkd": 8335,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6000mhz-cl30-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-black-黑色-kd5bgua80-60a300g",
+    "price_hkd": 8230,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7476/klevv-cras-v-rgb-64gb-ddr5-6400c32-white",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 8399,
-      "url": "https://secomputer.com.hk/products/53239"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 8499,
-      "url": "https://shop.pegasus.hk/products/215889/Klevv-科賦-CRAS-V-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL30-KD5BGUA80-60A300G---Limited-Lifetime保養"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
-   "best_price": 8335,
+   "best_price": 8230,
    "has_water": false,
    "has_official": true
   },
@@ -55488,17 +57978,23 @@
     "DDR5",
     "6000"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-56758ef83841f629.jpg",
-   "image": "img/hk-56758ef83841f629.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71pmMaMPOAL._AC_SL1500.jpg?v=1715599704",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b04c4395052b54a7.webp",
+   "image": "img/hk-b04c4395052b54a7.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7499.webp",
    "water": null,
    "official": {
-    "price_hkd": 8335,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6000mhz-cl30-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-white-白色-kd5bgua80-60a300j",
+    "price_hkd": 8280,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7499/klevv-cras-v-rgb-64gb-ddr5-6000c30-white",
     "stock": "現貨",
     "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 8335,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-ddr5-64gb-2x32gb-6000mhz-cl30-1-35v-gaming-desktop-memory-sk-hynix-chip-xmp-3-0-amd-expo-ready-white-白色-kd5bgua80-60a300j"
+     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -55514,7 +58010,36 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 8335,
+   "best_price": 8280,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6400:black:2x32:cl32",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:64:6400:black:2x32:cl32",
+   "title": "Klevv 科賦 CRAS V RGB 64GB 黑色套裝 (2x32GB) D5-6400C32 (KD5BGUA80-64A320G)(XMP/EXPO)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5ee6380af5b2a80b.webp",
+   "image": "img/hk-5ee6380af5b2a80b.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7475.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8280,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/7475/klevv-cras-v-rgb-64gb-ddr5-6400c32-ram",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8280,
    "has_water": false,
    "has_official": true
   },
@@ -55588,7 +58113,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:lancerrgb:ddr5:dimm:64:6000:black:2x32:cl30",
-   "title": "【DDR5 64GB 6000MHz】ADATA LANCER RGB 64GB (32GBx2) CL30【黑色】",
+   "title": "ADATA XPG Lancer RGB 64GB 黑色套裝 (2x32GB) D5-6000C30 (AX5U6000C3032G-DCLARBK)(XMP/EXPO)",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -55611,6 +58136,12 @@
       "store_short": "飛馬",
       "price_hkd": 8499,
       "url": "https://shop.pegasus.hk/products/216803/ADATA-XPG-Lancer-RGB-DDR5-64GB-32GB-x-2-6000MHz-CL30-AX5U6000C3032G-DCLARBK---Limited-Lifetime保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8650,
+      "url": "https://centralfield.com/product/5370/adata-xpg-lancer-rgb-64gb-ddr5-6000c30-black"
      }
     ]
    },
@@ -55678,7 +58209,7 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6400:black:2x32:cl32",
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6400:black:2x32:cl32#2",
    "category": "ram",
    "brand": "Klevv",
    "model_key": "ram:klevv:crasv:ddr5:dimm:64:6400:black:2x32:cl32",
@@ -55707,7 +58238,7 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6400:white:2x32:cl32",
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6400:white:2x32:cl32#2",
    "category": "ram",
    "brand": "Klevv",
    "model_key": "ram:klevv:crasv:ddr5:dimm:64:6400:white:2x32:cl32",
@@ -55798,7 +58329,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:lancerrgb:ddr5:dimm:64:6400:white:2x32:cl32",
-   "title": "ADATA XPG Lancer RGB DDR5 White 64GB (32GB x 2) 6400MHz CL32",
+   "title": "ADATA XPG Lancer RGB 64GB 白色套裝 (2x32GB) D5-6400C32 (AX5U6400C3232G-DCLARWH)(XMP/EXPO)",
    "spec": "DDR5-6400 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -55815,7 +58346,14 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/218722/ADATA-XPG-Lancer-RGB-DDR5-White-64GB-32GB-x-2-6400MHz-CL32-AX5U6400C3232G-DCLARWH---Limited-Lifetime保養",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8999,
+      "url": "https://centralfield.com/product/5375/adata-xpg-lancer-rgb-64gb-ddr5-6400-white"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 8599,
@@ -55827,7 +58365,7 @@
    "category": "ram",
    "brand": "ADATA",
    "model_key": "ram:adata:lancerrgb:ddr5:dimm:64:6400:black:2x32:cl32",
-   "title": "【DDR5 64GB 6400MHz】ADATA LANCER RGB 64GB (32GBx2) CL32【黑色】",
+   "title": "ADATA XPG Lancer RGB 64GB 黑色套裝 (2x32GB) D5-6400C32 (AX5U6400C3232G-DCLARBK)(XMP/EXPO)",
    "spec": "DDR5-6400 · DIMM",
    "filter_tags": [
     "DIMM",
@@ -55850,6 +58388,12 @@
       "store_short": "飛馬",
       "price_hkd": 8599,
       "url": "https://shop.pegasus.hk/products/218721/ADATA-XPG-Lancer-RGB-DDR5-64GB-32GB-x-2-6400MHz-CL32-AX5U6400C3232G-DCLARBK---Limited-Lifetime保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8850,
+      "url": "https://centralfield.com/product/5374/adata-xpg-lancer-rgb-64gb-ddr5-6400c32-black"
      }
     ]
    },
@@ -55892,11 +58436,162 @@
       "store_short": "未來科技",
       "price_hkd": 8899,
       "url": "https://buymore.hk/shop/goods.php?id=36428"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8900,
+      "url": "https://centralfield.com/product/5514/corsair-vengeance-64gb-ddr5-6000-c30-ram"
      }
     ]
    },
    "delta_hkd": null,
    "best_price": 8599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:flarex5:ddr5:dimm:64:6000:white:2x32:cl36",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:flarex5:ddr5:dimm:64:6000:white:2x32:cl36",
+   "title": "G.Skill Flare X5 64GB 白色烈焰槍套裝 (2x32GB) D5-6000C36 (F5-6000J3636F32GX2-FX5W)(EXPO/XMP)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6e06734421eef86c.webp",
+   "image": "img/hk-6e06734421eef86c.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11500.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8650,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11500/gskill-flare-x5-64gb-ddr5-6000c36-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8650,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingston:furybeast:ddr5:dimm:64:6000:white:2x32:cl30",
+   "category": "ram",
+   "brand": "Kingston",
+   "model_key": "ram:kingston:furybeast:ddr5:dimm:64:6000:white:2x32:cl30",
+   "title": "Kingston FURY BEAST 64GB 白色套裝 (2x32GB) D5-6000C30 (KF560C30BWEK2-64)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-90f617d52a321e18.webp",
+   "image": "img/hk-90f617d52a321e18.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11135.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8680,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11135/kingston-fury-beast-64gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8680,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingston:furybeastrgb:ddr5:dimm:64:6000:white:2x32:cl30",
+   "category": "ram",
+   "brand": "Kingston",
+   "model_key": "ram:kingston:furybeastrgb:ddr5:dimm:64:6000:white:2x32:cl30",
+   "title": "Kingston FURY BEAST RGB 64GB 白色套裝 (2x32GB) D5-6000C30 (KF560C30BWEAK2-64)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-09ab6d0e93b6002e.webp",
+   "image": "img/hk-09ab6d0e93b6002e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11133.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8800,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11133/kingston-fury-beast-rgb-64gb-ddr5-6000mhz-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8800,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:kingston:furybeastrgb:ddr5:dimm:64:6000:black:2x32:cl30",
+   "category": "ram",
+   "brand": "Kingston",
+   "model_key": "ram:kingston:furybeastrgb:ddr5:dimm:64:6000:black:2x32:cl30",
+   "title": "Kingston FURY BEAST RGB 64GB 黑色套裝 (2x32GB) D5-6000C30 (KF560C30BBEAK2-64)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cb12e98cd3ce10f6.webp",
+   "image": "img/hk-cb12e98cd3ce10f6.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5737.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8800,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5737/kingston-fury-beast-rgb-64gb-ddr5-6000c30",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8800,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:dominatorplatinum:ddr5:dimm:64:6000:black:2x32:cl30",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatorplatinum:ddr5:dimm:64:6000:black:2x32:cl30",
+   "title": "Corsair Dominator Platinum RGB 64GB 黑色套裝 (2x32GB) D5-6000C30 (CMT64GX5M2B6000Z30)(EXPO/…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ae9cfc9f0fc431fd.webp",
+   "image": "img/hk-ae9cfc9f0fc431fd.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5592.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8850,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5592/corsair-dominator-platinum-rgb-64gb-ddr5-6000c30",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8850,
    "has_water": false,
    "has_official": true
   },
@@ -55926,6 +58621,151 @@
    },
    "delta_hkd": null,
    "best_price": 8900,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:dominatortitanium:ddr5:dimm:64:6000:white:2x32:cl30",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:64:6000:white:2x32:cl30",
+   "title": "Corsair Dominator Titanium RGB 64GB 白色套裝 (2x32GB) D5-6000C30(CMP64GX5M2B6000C30W)(Intel…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-72760989860f0531.webp",
+   "image": "img/hk-72760989860f0531.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5554.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8900,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5554/corsair-dominator-titanium-rgb-64gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8900,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:dominatortitanium:ddr5:dimm:64:6000:black:2x32:cl30",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:64:6000:black:2x32:cl30",
+   "title": "Corsair Dominator Titanium RGB 64GB 黑色套裝 (2x32GB) D5-6000C30 (CMP64GX5M2B6000C30)(Intel…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-38ef417e4184e9bb.webp",
+   "image": "img/hk-38ef417e4184e9bb.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5553.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8900,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5553/corsair-dominator-titanium-rgb-64gb-d5-6000c30",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8900,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:6000:white:2x32:cl30",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:6000:white:2x32:cl30",
+   "title": "Corsair Vengeance 64GB 白色套裝 (2x32GB) D5-6000C30 (CMK64GX5M2B6000Z30W)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-47520e1e6c97c2fe.webp",
+   "image": "img/hk-47520e1e6c97c2fe.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/868.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8900,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/868/corsair-vengeance-64gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8900,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:v-color:x:6000c30:ddr5:dimm:64:6000:white:2x32:cl?",
+   "category": "ram",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x:6000c30:ddr5:dimm:64:6000:white:2x32:cl?",
+   "title": "v-color Manta XFinity RGB 64GB 白色套裝 (2x32GB) D5-6000C30 (TMXFL3260830WWK)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9efe94094b69d943.webp",
+   "image": "img/hk-9efe94094b69d943.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22580.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8950,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22580/v-color-manta-xfinity-rgb-64gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8950,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:v-color:x:6000c30:ddr5:dimm:64:6000:black:2x32:cl?",
+   "category": "ram",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x:6000c30:ddr5:dimm:64:6000:black:2x32:cl?",
+   "title": "v-color Manta XFinity RGB 64GB 黑色套裝 (2x32GB) D5-6000C30 (TMXFL3260830KWK)(XMP/EXPO)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-132107ef13d90557.webp",
+   "image": "img/hk-132107ef13d90557.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22579.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 8950,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22579/v-color-manta-xfinity-rgb-64gb-ddr5-6000-c30-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8950,
    "has_water": false,
    "has_official": true
   },
@@ -55963,16 +58803,16 @@
    "category": "ram",
    "brand": "Corsair",
    "model_key": "ram:corsair:dominatortitanium:ddr5:dimm:64:6000:grey:2x32:cl30",
-   "title": "【DDR5 64GB 6000MHz】CORSAIR DOMINATOR TITANIUM RGB 64GB (32GBx2) CL30【灰色】",
+   "title": "Corsair Dominator Titanium RGB 64GB 灰色套裝 (2x32GB) D5-6000C30 (CMP64GX5M2B6000Z30)(XMP/E…",
    "spec": "DDR5-6000 · DIMM",
    "filter_tags": [
     "DIMM",
     "DDR5",
     "6000"
    ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e375b0259bbd0141.webp",
+   "image": "img/hk-e375b0259bbd0141.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/5555.webp",
    "water": null,
    "official": {
     "price_hkd": 9299,
@@ -55980,10 +58820,46 @@
     "store_short": "未來科技",
     "url": "https://buymore.hk/shop/goods.php?id=36639",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 9300,
+      "url": "https://centralfield.com/product/5555/corsair-dominator-titanium-rgb-64gb-ddr5-6000c30-grey"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 9299,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:6000:black:2x32:cl28",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:64:6000:black:2x32:cl28",
+   "title": "Corsair Vengeance RGB 64GB 黑色套裝 (2x32GB) D5-6000C28 (CMH64GX5M2B6000Z28)(XMP/EXPO)(Cent…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3b914127ee2c88c3.webp",
+   "image": "img/hk-3b914127ee2c88c3.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11444.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 9650,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11444/corsair-vengeance-rgb-64gb-ddr5-6000-c28-memory",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 9650,
    "has_water": false,
    "has_official": true
   },
@@ -56017,6 +58893,35 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:g.skill:tz5rgb:ddr5:dimm:64:6000:black:2x32:cl32",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5rgb:ddr5:dimm:64:6000:black:2x32:cl32",
+   "title": "G.Skill Trident Z5 RGB 64GB 黑色套裝 (2x32GB) D5-6000C32 (F5-6000J3238G32GX2-TZ5RK)(Intel XMP)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-99c9ef0822871a19.webp",
+   "image": "img/hk-99c9ef0822871a19.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/294.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 10650,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/294/gskill-trident-z5-rgb-64gb-ddr5-6000c32",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 10650,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:g.skill:tz5neorgb:ddr5:dimm:64:6000:black:2x32:cl30",
    "category": "ram",
    "brand": "G.Skill",
@@ -56042,6 +58947,35 @@
    },
    "delta_hkd": null,
    "best_price": 11899,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:g.skill:tz5rgb:ddr5:dimm:64:6400:black:2x32:cl32",
+   "category": "ram",
+   "brand": "G.Skill",
+   "model_key": "ram:g.skill:tz5rgb:ddr5:dimm:64:6400:black:2x32:cl32",
+   "title": "G.Skill Trident Z5 RGB 64GB 黑色套裝 (2x32GB) D5-6400C32 (F5-6400J3239G32GX2-TZ5RK)(Intel XMP)",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ab1b5bfa465a3462.webp",
+   "image": "img/hk-ab1b5bfa465a3462.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/520.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 17700,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/520/gskill-trident-z5-rgb-64gb-ddr5-6400c32-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 17700,
    "has_water": false,
    "has_official": true
   },
