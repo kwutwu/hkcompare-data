@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-10T09:35:13Z",
- "generated_at_hkt": "2026-10-10 17:35 HKT",
- "price_updated_hkt": "2026-10-10 17:35 HKT",
+ "generated_at": "2026-10-10T09:38:39Z",
+ "generated_at_hkt": "2026-10-10 17:38 HKT",
+ "price_updated_hkt": "2026-10-10 17:38 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–18:01 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 400,
+   "count": 399,
    "enabled": true,
    "note": ""
   },
@@ -59,17 +59,17 @@
   }
  },
  "stats": {
-  "items": 2279,
+  "items": 2278,
   "both_sides": 27,
   "water_only": 18,
-  "official_only": 2231,
+  "official_only": 2230,
   "matched_water": 28,
-  "official_groups": 2279,
+  "official_groups": 2278,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
    "unions_part_number": 164,
-   "old_cards_bridged_by_upc": 82,
+   "old_cards_bridged_by_upc": 81,
    "old_cards_bridged_by_part_number": 16,
    "skipped_conflicts": 44,
    "name_key_splits": 25,
@@ -90,7 +90,7 @@
    "amazon_downloaded": 0,
    "amazon_cached": 20,
    "official_downloaded": 0,
-   "official_cached": 2057,
+   "official_cached": 2056,
    "failed": 0
   },
   "image_samples": [
@@ -28563,6 +28563,12 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 649,
+      "url": "https://secomputer.com.hk/products/59152"
+     },
+     {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 649,
@@ -28572,31 +28578,6 @@
    },
    "delta_hkd": null,
    "best_price": 635,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "mobo|mobo:msi:B760:mATX:pro-b760m-e::nowifi:",
-   "category": "mobo",
-   "brand": "MSI",
-   "model_key": "mobo:msi:B760:mATX:pro-b760m-e::nowifi:",
-   "title": "MSI微星 PRO B760M-E LGA1700 mATX MB",
-   "spec": "B760",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-903ab45f1455b26b.webp",
-   "image": "img/hk-903ab45f1455b26b.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/c0b2e04f53e59ba07fa3569db08b1899.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 649,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/59152",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 649,
    "has_water": false,
    "has_official": true
   },
@@ -29085,10 +29066,10 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B760:ATX:b760-gaming-x-wifi6e-gen5::wifi:",
+   "id": "mobo|mobo:gigabyte:B760:ATX:b760-gaming-x-wifi6e-gen5:ddr5:wifi:",
    "category": "mobo",
    "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B760:ATX:b760-gaming-x-wifi6e-gen5::wifi:",
+   "model_key": "mobo:gigabyte:B760:ATX:b760-gaming-x-wifi6e-gen5:ddr5:wifi:",
    "title": "GIGABYTE B760 GAMING X WIFI6E GEN5 DDR5,LGA 1700 ATX Motherboard (GA-B760 G X WF6E GEN5)",
    "spec": "B760（DDR5）",
    "filter_tags": [
