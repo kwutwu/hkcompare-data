@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-10T16:36:53Z",
- "generated_at_hkt": "2026-10-11 00:36 HKT",
- "price_updated_hkt": "2026-10-11 00:36 HKT",
+ "generated_at": "2026-10-10T16:37:59Z",
+ "generated_at_hkt": "2026-10-11 00:37 HKT",
+ "price_updated_hkt": "2026-10-11 00:37 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–18:01 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -60,10 +60,10 @@
  },
  "stats": {
   "items": 2278,
-  "both_sides": 32,
+  "both_sides": 31,
   "water_only": 18,
-  "official_only": 2225,
-  "matched_water": 33,
+  "official_only": 2226,
+  "matched_water": 32,
   "official_groups": 2278,
   "id_merge": {
    "enabled": true,
@@ -88,9 +88,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 22,
+   "amazon_cached": 21,
    "official_downloaded": 0,
-   "official_cached": 2053,
+   "official_cached": 2054,
    "failed": 0
   },
   "image_samples": [
@@ -154,11 +154,12 @@
   "ivan": {
    "total_listings": 162,
    "qualified": 91,
-   "deduped": 51,
+   "deduped": 50,
    "excluded": {
-    "seller": 85,
-    "no ship": 16,
-    "used": 1
+    "seller": 86,
+    "no ship": 14,
+    "used": 1,
+    "ship unknown": 1
    }
   }
  },
@@ -26465,6 +26466,62 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:3x+oc+ventus",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus",
+   "title": "MSI NVIDIA GeForce RTX 5080 16G Ventus 3X OC Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT6NZ9V9.jpg",
+   "image": "img/B0DT6NZ9V9.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71PEi8EcUBL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 11471,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DT6NZ9V9",
+    "url": "https://www.amazon.fr/dp/B0DT6NZ9V9",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+oc+ventus",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 13899,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=43721",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 13999,
+      "url": "https://secomputer.com.hk/products/56737"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 13999,
+      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 14199,
+      "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡"
+     }
+    ]
+   },
+   "delta_hkd": 2428,
+   "best_price": 11471,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5070ti:oc+tuf+white",
    "category": "gpu",
    "brand": "ASUS",
@@ -26668,62 +26725,6 @@
    "delta_hkd": null,
    "best_price": 11999,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5080:3x+oc+ventus",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus",
-   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
-   "image": "img/B0GZWW2RKH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 12187,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0GZWW2RKH",
-    "url": "https://www.amazon.de/dp/B0GZWW2RKH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 13899,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=43721",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 13999,
-      "url": "https://secomputer.com.hk/products/56737"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 13999,
-      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 14199,
-      "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡"
-     }
-    ]
-   },
-   "delta_hkd": 1712,
-   "best_price": 12187,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -27354,56 +27355,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+oc+ventus+white",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus+white",
-   "title": "【RTX5080】MSI RTX5080 VENTUS 3X OC 16GB [白色] [長: 303mm]",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSWQNGYF.jpg",
-   "image": "img/B0DSWQNGYF.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71s0L-D-LBL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13448,
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0DSWQNGYF",
-    "url": "https://www.amazon.com/dp/B0DSWQNGYF",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus+white",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 13999,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=44052",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 14099,
-      "url": "https://secomputer.com.hk/products/56659"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 14299,
-      "url": "https://shop.pegasus.hk/products/223395/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-WHITE--顯示卡"
-     }
-    ]
-   },
-   "delta_hkd": 551,
-   "best_price": 13448,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5070ti:oc+rog",
    "category": "gpu",
    "brand": "ASUS",
@@ -27634,6 +27585,44 @@
       "store_short": "中田",
       "price_hkd": 14499,
       "url": "https://centralfield.com/product/20712/colorful-igame-rtx-5080-ultra-oc-16gb"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 13999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5080:3x+oc+ventus+white",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus+white",
+   "title": "【RTX5080】MSI RTX5080 VENTUS 3X OC 16GB [白色] [長: 303mm]",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bd9163efa7657ca7.webp",
+   "image": "img/hk-bd9163efa7657ca7.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/3b2b9011ae94ac424a9cef9c4f6998c8.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 13999,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=44052",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 14099,
+      "url": "https://secomputer.com.hk/products/56659"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 14299,
+      "url": "https://shop.pegasus.hk/products/223395/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-WHITE--顯示卡"
      }
     ]
    },
@@ -28003,7 +27992,7 @@
     "domain": "amazon.com",
     "asin": "B0FKX6LPR6",
     "url": "https://www.amazon.com/dp/B0FKX6LPR6",
-    "stock": "",
+    "stock": "Usually ships within 4 days",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:astral+oc+rog+white",
     "source": "amazon",
