@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-10T16:02:37Z",
- "generated_at_hkt": "2026-10-11 00:02 HKT",
- "price_updated_hkt": "2026-10-11 00:02 HKT",
+ "generated_at": "2026-10-10T16:36:53Z",
+ "generated_at_hkt": "2026-10-11 00:36 HKT",
+ "price_updated_hkt": "2026-10-11 00:36 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–18:01 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 129,
+   "count": 128,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2279,
-  "both_sides": 31,
-  "water_only": 19,
-  "official_only": 2226,
-  "matched_water": 32,
-  "official_groups": 2279,
+  "items": 2278,
+  "both_sides": 32,
+  "water_only": 18,
+  "official_only": 2225,
+  "matched_water": 33,
+  "official_groups": 2278,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -153,7 +153,7 @@
   ],
   "ivan": {
    "total_listings": 162,
-   "qualified": 92,
+   "qualified": 91,
    "deduped": 51,
    "excluded": {
     "seller": 85,
@@ -25626,36 +25626,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070ti:3x+oc+shadow+triple|water",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5070ti:3x+oc+shadow+triple",
-   "title": "MSI GeForce RTX 5070 Ti 16G SHADOW 3X OC - 16GB GDDR7 (28Gbps / 256-bit) - PCIe 5.0 - T…",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 9829,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DZD6QV9L",
-    "url": "https://www.amazon.it/dp/B0DZD6QV9L",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 9829,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|asus:5070ti:oc+prime",
    "category": "gpu",
    "brand": "ASUS",
@@ -25722,6 +25692,56 @@
    },
    "delta_hkd": 1343,
    "best_price": 9857,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070ti:3x+oc+shadow",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5070ti:3x+oc+shadow",
+   "title": "MSI GeForce RTX 5070 Ti SHADOW 3X OC 16GB GDDR7 (DI-N507TF1)",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a9426181b641472a.png",
+   "image": "img/hk-a9426181b641472a.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/1024_a30f919d-46a4-44c7-a38e-4e2b9392d0d8.png?v=1752494110",
+   "water": {
+    "price_hkd": 9869,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DZD6QV9L",
+    "url": "https://www.amazon.es/dp/B0DZD6QV9L",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5070ti:3x+oc+shadow",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 10299,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/小量現貨-msi-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-di-n507tf1",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 10399,
+      "url": "https://shop.pegasus.hk/products/223697/MSI-微星-GeForce-RTX-5070-Ti-16G-SHADOW-3X-OC-顯示卡---3年保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 10599,
+      "url": "https://centralfield.com/product/11902/msi-geforce-rtx-5070ti-shadow-3x-oc-16gb"
+     }
+    ]
+   },
+   "delta_hkd": 430,
+   "best_price": 9869,
    "has_water": true,
    "has_official": true
   },
@@ -25831,43 +25851,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070ti:gaming+oc",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:gaming+oc",
-   "title": "Gigabyte 技嘉 GeForce RTX 5070 Ti GAMING OC 16G 顯示卡",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-09b228b293e166fa.png",
-   "image": "img/hk-09b228b293e166fa.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/46ac5ca0-d115-417e-6236-0bfa8eb1a500/public",
-   "water": {
-    "price_hkd": 10006,
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0DTRC7782",
-    "url": "https://www.amazon.com/dp/B0DTRC7782",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5070ti:gaming+oc",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 10899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223261/Gigabyte-技嘉-GeForce-RTX-5070-Ti-GAMING-OC-16G-顯示卡---3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 893,
-   "best_price": 10006,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5070ti:aero+oc",
    "category": "gpu",
    "brand": "Gigabyte",
@@ -25908,6 +25891,43 @@
    },
    "delta_hkd": 1213,
    "best_price": 10086,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070ti:gaming+oc",
+   "category": "gpu",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:gaming+oc",
+   "title": "Gigabyte 技嘉 GeForce RTX 5070 Ti GAMING OC 16G 顯示卡",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-09b228b293e166fa.png",
+   "image": "img/hk-09b228b293e166fa.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/46ac5ca0-d115-417e-6236-0bfa8eb1a500/public",
+   "water": {
+    "price_hkd": 10103,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DTGPC5KR",
+    "url": "https://www.amazon.co.uk/dp/B0DTGPC5KR",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5070ti:gaming+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 10899,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223261/Gigabyte-技嘉-GeForce-RTX-5070-Ti-GAMING-OC-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 796,
+   "best_price": 10103,
    "has_water": true,
    "has_official": true
   },
@@ -25978,44 +25998,6 @@
    "delta_hkd": 1108,
    "best_price": 10291,
    "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5070ti:3x+oc+shadow",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5070ti:3x+oc+shadow",
-   "title": "MSI GeForce RTX 5070 Ti SHADOW 3X OC 16GB GDDR7 (DI-N507TF1)",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a9426181b641472a.png",
-   "image": "img/hk-a9426181b641472a.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/1024_a30f919d-46a4-44c7-a38e-4e2b9392d0d8.png?v=1752494110",
-   "water": null,
-   "official": {
-    "price_hkd": 10299,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/小量現貨-msi-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-di-n507tf1",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 10399,
-      "url": "https://shop.pegasus.hk/products/223697/MSI-微星-GeForce-RTX-5070-Ti-16G-SHADOW-3X-OC-顯示卡---3年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 10599,
-      "url": "https://centralfield.com/product/11902/msi-geforce-rtx-5070ti-shadow-3x-oc-16gb"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 10299,
-   "has_water": false,
    "has_official": true
   },
   {
