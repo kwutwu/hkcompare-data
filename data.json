@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-10T01:48:56Z",
- "generated_at_hkt": "2026-10-10 09:48 HKT",
- "price_updated_hkt": "2026-10-10 09:48 HKT",
+ "generated_at": "2026-10-10T02:21:04Z",
+ "generated_at_hkt": "2026-10-10 10:21 HKT",
+ "price_updated_hkt": "2026-10-10 10:21 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-09 10:43–18:01 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261009/hkcompare_rows.json",
@@ -153,11 +153,11 @@
   ],
   "ivan": {
    "total_listings": 160,
-   "qualified": 89,
+   "qualified": 88,
    "deduped": 48,
    "excluded": {
-    "seller": 79,
-    "no ship": 11,
+    "seller": 76,
+    "no ship": 15,
     "ship unknown": 7,
     "used": 2
    }
@@ -26353,6 +26353,36 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:dual+slim|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:dual+slim",
+   "title": "PNY GeForce RTX™ 5080 16GB Slim Dual-Fan, 2-Slot Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GTQTWTY5.jpg",
+   "image": "img/B0GTQTWTY5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 11376,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0GTQTWTY5",
+    "url": "https://www.amazon.es/dp/B0GTQTWTY5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11376,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5070ti:gaming trio+oc+white",
    "category": "gpu",
    "brand": "MSI",
@@ -26438,36 +26468,6 @@
    "best_price": 11406,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:dual+slim|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:dual+slim",
-   "title": "PNY GeForce RTX™ 5080 16GB Slim Dual-Fan, 2-Slot Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GTQTWTY5.jpg",
-   "image": "img/B0GTQTWTY5.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 11414,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0GTQTWTY5",
-    "url": "https://www.amazon.es/dp/B0GTQTWTY5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11414,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|zotac:5070ti:apocalypse+oc+white",
