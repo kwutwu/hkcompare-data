@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-11T14:17:37Z",
- "generated_at_hkt": "2026-10-11 22:17 HKT",
- "price_updated_hkt": "2026-10-11 22:17 HKT",
+ "generated_at": "2026-10-11T15:02:26Z",
+ "generated_at_hkt": "2026-10-11 23:02 HKT",
+ "price_updated_hkt": "2026-10-11 23:02 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-10 09:55 – 2026-10-11 02:34 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261010/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 126,
+   "count": 127,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2273,
+  "items": 2274,
   "both_sides": 33,
-  "water_only": 17,
+  "water_only": 18,
   "official_only": 2220,
   "matched_water": 34,
-  "official_groups": 2273,
+  "official_groups": 2274,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 165,
-   "qualified": 92,
-   "deduped": 51,
+   "qualified": 93,
+   "deduped": 52,
    "excluded": {
     "seller": 83,
     "no ship": 19,
@@ -24996,6 +24996,36 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 9212,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|pny:5070ti:oc|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc",
+   "title": "PNY Placa Gráfica GeForce RTX 5070 Ti OC 16GB GDDR7",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9357,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0G6ZGLZWM",
+    "url": "https://www.amazon.de/dp/B0G6ZGLZWM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9357,
    "has_water": true,
    "has_official": false
   },
