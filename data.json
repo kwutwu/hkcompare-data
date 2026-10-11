@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-11T08:35:33Z",
- "generated_at_hkt": "2026-10-11 16:35 HKT",
- "price_updated_hkt": "2026-10-11 16:35 HKT",
+ "generated_at": "2026-10-11T09:31:31Z",
+ "generated_at_hkt": "2026-10-11 17:31 HKT",
+ "price_updated_hkt": "2026-10-11 17:31 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-10 09:55 – 2026-10-11 02:34 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261010/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 128,
+   "count": 127,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2275,
+  "items": 2274,
   "both_sides": 32,
-  "water_only": 19,
+  "water_only": 18,
   "official_only": 2221,
   "matched_water": 33,
-  "official_groups": 2275,
+  "official_groups": 2274,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 164,
-   "qualified": 96,
-   "deduped": 52,
+   "qualified": 95,
+   "deduped": 51,
    "excluded": {
     "seller": 85,
     "no ship": 14,
@@ -23648,36 +23648,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070:oc+triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5070:oc+triple",
-   "title": "PNY GeForce RTX™ 5070 12GB OC Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 6407,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DYPFGL88",
-    "url": "https://www.amazon.fr/dp/B0DYPFGL88",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 6407,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|inno3d:5070:2x",
    "category": "gpu",
    "brand": "Inno3D",
@@ -23970,7 +23940,7 @@
    "image": "img/hk-f8e9f929e4440ca0.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_DUAL_RTX_5070_OC_BOX.png?v=1761378496",
    "water": {
-    "price_hkd": 6736,
+    "price_hkd": 6735,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -24015,8 +23985,8 @@
      }
     ]
    },
-   "delta_hkd": 463,
-   "best_price": 6736,
+   "delta_hkd": 464,
+   "best_price": 6735,
    "has_water": true,
    "has_official": true
   },
@@ -24226,6 +24196,36 @@
    "best_price": 6899,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070:oc+triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5070:oc+triple",
+   "title": "PNY GeForce RTX™ 5070 12GB OC Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 6957,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DYPFGL88",
+    "url": "https://www.amazon.de/dp/B0DYPFGL88",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 6957,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|galax:5070:oc",
@@ -24711,36 +24711,6 @@
    "best_price": 7499,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:|water",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5070:",
-   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7525,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0H6M1Z5TM",
-    "url": "https://www.amazon.fr/dp/B0H6M1Z5TM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7525,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070:3x+inspire+oc",
