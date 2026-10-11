@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-11T22:18:43Z",
- "generated_at_hkt": "2026-10-12 06:18 HKT",
- "price_updated_hkt": "2026-10-12 06:18 HKT",
+ "generated_at": "2026-10-11T22:51:17Z",
+ "generated_at_hkt": "2026-10-12 06:51 HKT",
+ "price_updated_hkt": "2026-10-12 06:51 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-10 09:55 – 2026-10-11 02:34 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261010/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 126,
+   "count": 127,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2273,
+  "items": 2274,
   "both_sides": 31,
-  "water_only": 17,
+  "water_only": 18,
   "official_only": 2222,
   "matched_water": 32,
-  "official_groups": 2273,
+  "official_groups": 2274,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -88,7 +88,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 22,
+   "amazon_cached": 23,
    "official_downloaded": 0,
    "official_cached": 2046,
    "failed": 0
@@ -153,10 +153,10 @@
   ],
   "ivan": {
    "total_listings": 165,
-   "qualified": 91,
-   "deduped": 49,
+   "qualified": 92,
+   "deduped": 50,
    "excluded": {
-    "seller": 85,
+    "seller": 84,
     "no ship": 17,
     "used": 1
    }
@@ -26408,6 +26408,36 @@
    "best_price": 12530,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5080:triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:triple",
+   "title": "PNY GeForce RTX™ 5080 16GB Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYRZZJZ1.jpg",
+   "image": "img/B0DYRZZJZ1.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 12548,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DYRZZJZ1",
+    "url": "https://www.amazon.de/dp/B0DYRZZJZ1",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12548,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5080:gaming+oc",
