@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-11T11:58:04Z",
- "generated_at_hkt": "2026-10-11 19:58 HKT",
- "price_updated_hkt": "2026-10-11 19:58 HKT",
+ "generated_at": "2026-10-11T12:54:16Z",
+ "generated_at_hkt": "2026-10-11 20:54 HKT",
+ "price_updated_hkt": "2026-10-11 20:54 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-10 09:55 – 2026-10-11 02:34 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261010/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 129,
+   "count": 128,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2276,
+  "items": 2275,
   "both_sides": 32,
-  "water_only": 20,
+  "water_only": 19,
   "official_only": 2221,
   "matched_water": 33,
-  "official_groups": 2276,
+  "official_groups": 2275,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -88,7 +88,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 24,
+   "amazon_cached": 23,
    "official_downloaded": 0,
    "official_cached": 2045,
    "failed": 0
@@ -153,11 +153,11 @@
   ],
   "ivan": {
    "total_listings": 165,
-   "qualified": 97,
-   "deduped": 53,
+   "qualified": 93,
+   "deduped": 52,
    "excluded": {
-    "seller": 83,
-    "no ship": 15,
+    "seller": 85,
+    "no ship": 17,
     "used": 1
    }
   }
@@ -26025,36 +26025,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+oc+shadow|water",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+shadow",
-   "title": "msi GeForce RTX 5080 16G SHADOW 3X OC Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BT9R5XNN.jpg",
-   "image": "img/B0BT9R5XNN.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71vuPWXUwNL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 11492,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0BT9R5XNN",
-    "url": "https://www.amazon.it/dp/B0BT9R5XNN",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11492,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|asus:5070ti:oc+tuf+white",
    "category": "gpu",
    "brand": "ASUS",
@@ -26962,7 +26932,7 @@
     "domain": "amazon.es",
     "asin": "B0FD3XZ8P1",
     "url": "https://www.amazon.es/dp/B0FD3XZ8P1",
-    "stock": "Only 3 left in stock.",
+    "stock": "Only 4 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
@@ -27066,7 +27036,7 @@
     "domain": "amazon.com",
     "asin": "B0DSWQNGYF",
     "url": "https://www.amazon.com/dp/B0DSWQNGYF",
-    "stock": "Available to ship in 1-2 days",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+oc+ventus+white",
     "source": "amazon",
@@ -27704,7 +27674,7 @@
     "domain": "amazon.com",
     "asin": "B0FKX6LPR6",
     "url": "https://www.amazon.com/dp/B0FKX6LPR6",
-    "stock": "Available to ship in 1-2 days",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:astral+oc+rog+white",
     "source": "amazon",
