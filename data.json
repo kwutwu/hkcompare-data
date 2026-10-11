@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-11T01:35:15Z",
- "generated_at_hkt": "2026-10-11 09:35 HKT",
- "price_updated_hkt": "2026-10-11 09:35 HKT",
+ "generated_at": "2026-10-11T01:49:57Z",
+ "generated_at_hkt": "2026-10-11 09:49 HKT",
+ "price_updated_hkt": "2026-10-11 09:49 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-10 09:55 – 2026-10-11 02:34 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261010/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 129,
+   "count": 130,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2276,
+  "items": 2277,
   "both_sides": 30,
-  "water_only": 20,
+  "water_only": 21,
   "official_only": 2223,
   "matched_water": 31,
-  "official_groups": 2276,
+  "official_groups": 2277,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -88,7 +88,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 23,
+   "amazon_cached": 24,
    "official_downloaded": 0,
    "official_cached": 2046,
    "failed": 0
@@ -153,11 +153,11 @@
   ],
   "ivan": {
    "total_listings": 164,
-   "qualified": 95,
-   "deduped": 51,
+   "qualified": 99,
+   "deduped": 52,
    "excluded": {
-    "seller": 82,
-    "no ship": 16,
+    "seller": 79,
+    "no ship": 15,
     "used": 1
    }
   }
@@ -25988,6 +25988,36 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:dual+slim|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:dual+slim",
+   "title": "PNY GeForce RTX™ 5080 16GB Slim Dual-Fan, 2-Slot Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GTQTWTY5.jpg",
+   "image": "img/B0GTQTWTY5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 11396,
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0GTQTWTY5",
+    "url": "https://www.amazon.it/dp/B0GTQTWTY5",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11396,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5070ti:gaming trio+oc+white",
    "category": "gpu",
    "brand": "MSI",
@@ -26067,7 +26097,7 @@
     "domain": "amazon.it",
     "asin": "B0BT9R5XNN",
     "url": "https://www.amazon.it/dp/B0BT9R5XNN",
-    "stock": "Only 2 left in stock.",
+    "stock": "Only 1 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
