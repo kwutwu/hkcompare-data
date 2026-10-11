@@ -1,6 +1,6 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-11T10:17:10Z",
+ "generated_at": "2026-10-11T10:17:49Z",
  "generated_at_hkt": "2026-10-11 18:17 HKT",
  "price_updated_hkt": "2026-10-11 18:17 HKT",
  "amazon_data_updated_hkt": null,
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 128,
+   "count": 127,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2275,
+  "items": 2274,
   "both_sides": 32,
-  "water_only": 19,
+  "water_only": 18,
   "official_only": 2221,
   "matched_water": 33,
-  "official_groups": 2275,
+  "official_groups": 2274,
   "id_merge": {
    "enabled": true,
    "unions_upc": 141,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 164,
-   "qualified": 96,
-   "deduped": 52,
+   "qualified": 95,
+   "deduped": 51,
    "excluded": {
     "seller": 85,
     "no ship": 14,
@@ -24711,36 +24711,6 @@
    "best_price": 7499,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:|water",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5070:",
-   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7525,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0H6M1Z5TM",
-    "url": "https://www.amazon.fr/dp/B0H6M1Z5TM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7525,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070:3x+inspire+oc",
