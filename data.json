@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T06:08:39Z",
- "generated_at_hkt": "2026-10-13 14:08 HKT",
- "price_updated_hkt": "2026-10-13 14:08 HKT",
+ "generated_at": "2026-10-13T06:36:31Z",
+ "generated_at_hkt": "2026-10-13 14:36 HKT",
+ "price_updated_hkt": "2026-10-13 14:36 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-12 09:59–13:54 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261012/hkcompare_rows.json",
@@ -156,9 +156,9 @@
    "qualified": 84,
    "deduped": 49,
    "excluded": {
-    "seller": 90,
-    "no ship": 21,
-    "used": 3
+    "seller": 93,
+    "no ship": 20,
+    "used": 1
    }
   }
  },
@@ -26227,6 +26227,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:gaming trio+oc",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:gaming trio+oc",
+   "title": "MSI GeForce RTX 5080 16G Gaming Trio OC - Gaming Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BX6LGM2X.jpg",
+   "image": "img/B0BX6LGM2X.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 12518,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0BX6LGM2X",
+    "url": "https://www.amazon.co.uk/dp/B0BX6LGM2X",
+    "stock": "Only 2 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:gaming trio+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 2282,
+   "best_price": 12518,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|pny:5080:triple|water",
    "category": "gpu",
    "brand": "PNY",
@@ -26257,43 +26294,6 @@
    "has_official": false
   },
   {
-   "id": "gpu|msi:5080:gaming trio+oc",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming trio+oc",
-   "title": "MSI GeForce RTX 5080 16G Gaming Trio OC - Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BX6LGM2X.jpg",
-   "image": "img/B0BX6LGM2X.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 12534,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0BX6LGM2X",
-    "url": "https://www.amazon.co.uk/dp/B0BX6LGM2X",
-    "stock": "Only 5 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:gaming trio+oc",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14800,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 2266,
-   "best_price": 12534,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5080:gaming+oc",
    "category": "gpu",
    "brand": "Gigabyte",
@@ -26305,7 +26305,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12580,
+    "price_hkd": 12564,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -26325,8 +26325,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 3419,
-   "best_price": 12580,
+   "delta_hkd": 3435,
+   "best_price": 12564,
    "has_water": true,
    "has_official": true
   },
@@ -26707,7 +26707,7 @@
    "image": "img/B0GWRN4Q36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13378,
+    "price_hkd": 13361,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -26727,8 +26727,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 821,
-   "best_price": 13378,
+   "delta_hkd": 838,
+   "best_price": 13361,
    "has_water": true,
    "has_official": true
   },
@@ -26744,7 +26744,7 @@
    "image": "img/B0BT9R5XNN.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71vuPWXUwNL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13426,
+    "price_hkd": 13409,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -26758,7 +26758,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 13426,
+   "best_price": 13409,
    "has_water": true,
    "has_official": false
   },
@@ -26898,7 +26898,7 @@
    "image": "img/B0DS65KD1C.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13817,
+    "price_hkd": 13799,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -26925,8 +26925,8 @@
      }
     ]
    },
-   "delta_hkd": 2482,
-   "best_price": 13817,
+   "delta_hkd": 2500,
+   "best_price": 13799,
    "has_water": true,
    "has_official": true
   },
@@ -27137,7 +27137,7 @@
    "image": "img/B0DQGB8FTQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71MTgvMq55L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14928,
+    "price_hkd": 14909,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -27170,7 +27170,7 @@
      }
     ]
    },
-   "delta_hkd": -178,
+   "delta_hkd": -159,
    "best_price": 14750,
    "has_water": true,
    "has_official": true
