@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T10:22:58Z",
- "generated_at_hkt": "2026-10-13 18:22 HKT",
- "price_updated_hkt": "2026-10-13 18:22 HKT",
+ "generated_at": "2026-10-13T10:34:06Z",
+ "generated_at_hkt": "2026-10-13 18:34 HKT",
+ "price_updated_hkt": "2026-10-13 18:34 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-12 09:59–13:54 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261012/hkcompare_rows.json",
@@ -152,13 +152,14 @@
    }
   ],
   "ivan": {
-   "total_listings": 169,
+   "total_listings": 170,
    "qualified": 80,
    "deduped": 45,
    "excluded": {
     "seller": 99,
     "no ship": 17,
-    "used": 1
+    "used": 1,
+    "not desktop GPU": 1
    }
   }
  },
@@ -25926,7 +25927,7 @@
     "domain": "amazon.de",
     "asin": "B0DTJDR3V9",
     "url": "https://www.amazon.de/dp/B0DTJDR3V9",
-    "stock": "Only 5 left in stock.",
+    "stock": "Only 11 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
@@ -26641,7 +26642,7 @@
     "domain": "amazon.co.uk",
     "asin": "B0BT9R5XNN",
     "url": "https://www.amazon.co.uk/dp/B0BT9R5XNN",
-    "stock": "Only 14 left in stock.",
+    "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
