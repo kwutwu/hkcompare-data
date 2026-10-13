@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T22:31:53Z",
- "generated_at_hkt": "2026-10-14 06:31 HKT",
- "price_updated_hkt": "2026-10-14 06:31 HKT",
+ "generated_at": "2026-10-13T22:51:01Z",
+ "generated_at_hkt": "2026-10-14 06:51 HKT",
+ "price_updated_hkt": "2026-10-14 06:51 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-13 09:58–19:57 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261013/hkcompare_rows.json",
@@ -60,10 +60,10 @@
  },
  "stats": {
   "items": 2267,
-  "both_sides": 27,
+  "both_sides": 28,
   "water_only": 19,
-  "official_only": 2217,
-  "matched_water": 28,
+  "official_only": 2216,
+  "matched_water": 29,
   "official_groups": 2267,
   "id_merge": {
    "enabled": true,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 173,
-   "qualified": 86,
-   "deduped": 47,
+   "qualified": 87,
+   "deduped": 48,
    "excluded": {
     "seller": 96,
     "ship unknown": 5,
@@ -25045,6 +25045,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070ti:eagle+ice+oc+sff",
+   "category": "gpu",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:eagle+ice+oc+sff",
+   "title": "Gigabyte 技嘉 GeForce RTX 5070 Ti EAGLE OC ICE SFF 16G 顯示卡",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-344d621fbbea263b.png",
+   "image": "img/hk-344d621fbbea263b.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/9815c54f-f41b-4a17-c36e-8e602ec92e00/public",
+   "water": {
+    "price_hkd": 9446,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0DTQT98M3",
+    "url": "https://www.amazon.com/dp/B0DTQT98M3",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5070ti:eagle+ice+oc+sff",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 10799,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223260/Gigabyte-技嘉-GeForce-RTX-5070-Ti-EAGLE-OC-ICE-SFF-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 1353,
+   "best_price": 9446,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|gainward:5070ti:phoenix",
    "category": "gpu",
    "brand": "Gainward",
@@ -25713,31 +25750,6 @@
    },
    "delta_hkd": null,
    "best_price": 10700,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070ti:eagle+ice+oc+sff",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:eagle+ice+oc+sff",
-   "title": "Gigabyte 技嘉 GeForce RTX 5070 Ti EAGLE OC ICE SFF 16G 顯示卡",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-344d621fbbea263b.png",
-   "image": "img/hk-344d621fbbea263b.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/9815c54f-f41b-4a17-c36e-8e602ec92e00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 10799,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223260/Gigabyte-技嘉-GeForce-RTX-5070-Ti-EAGLE-OC-ICE-SFF-16G-顯示卡---3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 10799,
    "has_water": false,
    "has_official": true
   },
