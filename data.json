@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T05:24:14Z",
- "generated_at_hkt": "2026-10-13 13:24 HKT",
- "price_updated_hkt": "2026-10-13 13:24 HKT",
+ "generated_at": "2026-10-13T05:35:17Z",
+ "generated_at_hkt": "2026-10-13 13:35 HKT",
+ "price_updated_hkt": "2026-10-13 13:35 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-12 09:59–13:54 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261012/hkcompare_rows.json",
@@ -156,9 +156,9 @@
    "qualified": 84,
    "deduped": 49,
    "excluded": {
-    "seller": 92,
+    "seller": 89,
     "no ship": 21,
-    "used": 1
+    "used": 4
    }
   }
  },
@@ -26398,6 +26398,36 @@
    "has_official": false
   },
   {
+   "id": "gpu|pny:5080:argb+oc+triple+verto|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+oc+triple+verto",
+   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
+   "image": "img/B0DZCVQGG6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
+   "water": {
+    "price_hkd": 12692,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DZCVQGG6",
+    "url": "https://www.amazon.de/dp/B0DZCVQGG6",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12692,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|palit:5080:gamingpro",
    "category": "gpu",
    "brand": "Palit",
@@ -26421,36 +26451,6 @@
    "best_price": 12699,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:argb+oc+triple+verto|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+oc+triple+verto",
-   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
-   "image": "img/B0DZCVQGG6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
-   "water": {
-    "price_hkd": 12731,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DZCVQGG6",
-    "url": "https://www.amazon.de/dp/B0DZCVQGG6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 12731,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|asus:5080:oc+proart",
