@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T09:16:45Z",
- "generated_at_hkt": "2026-10-13 17:16 HKT",
- "price_updated_hkt": "2026-10-13 17:16 HKT",
+ "generated_at": "2026-10-13T09:40:55Z",
+ "generated_at_hkt": "2026-10-13 17:40 HKT",
+ "price_updated_hkt": "2026-10-13 17:40 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-12 09:59–13:54 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261012/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 127,
+   "count": 126,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2262,
+  "items": 2261,
   "both_sides": 27,
-  "water_only": 18,
+  "water_only": 17,
   "official_only": 2214,
   "matched_water": 28,
-  "official_groups": 2262,
+  "official_groups": 2261,
   "id_merge": {
    "enabled": true,
    "unions_upc": 137,
@@ -88,7 +88,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 20,
+   "amazon_cached": 19,
    "official_downloaded": 0,
    "official_cached": 2038,
    "failed": 0
@@ -153,10 +153,10 @@
   ],
   "ivan": {
    "total_listings": 169,
-   "qualified": 82,
-   "deduped": 46,
+   "qualified": 80,
+   "deduped": 45,
    "excluded": {
-    "seller": 96,
+    "seller": 98,
     "no ship": 18,
     "used": 1
    }
@@ -26185,36 +26185,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:triple",
-   "title": "PNY GeForce RTX™ 5080 16GB Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYRZZJZ1.jpg",
-   "image": "img/B0DYRZZJZ1.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 12518,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DYRZZJZ1",
-    "url": "https://www.amazon.de/dp/B0DYRZZJZ1",
-    "stock": "Available to ship in 1-2 days",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 12518,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5080:gaming+oc",
    "category": "gpu",
    "brand": "Gigabyte",
@@ -26671,7 +26641,7 @@
     "domain": "amazon.co.uk",
     "asin": "B0BT9R5XNN",
     "url": "https://www.amazon.co.uk/dp/B0BT9R5XNN",
-    "stock": "Only 12 left in stock.",
+    "stock": "Only 13 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
