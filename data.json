@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T10:03:09Z",
- "generated_at_hkt": "2026-10-13 18:03 HKT",
- "price_updated_hkt": "2026-10-13 18:03 HKT",
+ "generated_at": "2026-10-13T10:22:58Z",
+ "generated_at_hkt": "2026-10-13 18:22 HKT",
+ "price_updated_hkt": "2026-10-13 18:22 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-12 09:59–13:54 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261012/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 127,
+   "count": 126,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2262,
+  "items": 2261,
   "both_sides": 27,
-  "water_only": 18,
+  "water_only": 17,
   "official_only": 2214,
   "matched_water": 28,
-  "official_groups": 2262,
+  "official_groups": 2261,
   "id_merge": {
    "enabled": true,
    "unions_upc": 137,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 169,
-   "qualified": 81,
-   "deduped": 46,
+   "qualified": 80,
+   "deduped": 45,
    "excluded": {
     "seller": 99,
     "no ship": 17,
@@ -23616,36 +23616,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070:triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5070:triple",
-   "title": "PNY GeForce RTX™ 5070 12GB Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 6734,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0F59N58GV",
-    "url": "https://www.amazon.co.uk/dp/B0F59N58GV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 6734,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|asus:5070:oc+prime+white",
    "category": "gpu",
    "brand": "ASUS",
@@ -23783,6 +23753,36 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 6807,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|asus:5070:dual+gaming+oc|water",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5070:dual+gaming+oc",
+   "title": "ASUS Dual GeForce RTX 5070 12GB GDDR7 OC Edition Graphics Card Gaming",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 6809,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F8KJKC9Y",
+    "url": "https://www.amazon.fr/dp/B0F8KJKC9Y",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 6809,
    "has_water": true,
    "has_official": false
   },
@@ -24725,36 +24725,6 @@
    "best_price": 9100,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|msi:5070:2x+oc+ventus+white|water",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5070:2x+oc+ventus+white",
-   "title": "MSI Gaming RTX 5070 12G Ventus 2X OC White Graphics Card (12 GB GDDR7, 192-bit, Extreme…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 9150,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DYG3JLGY",
-    "url": "https://www.amazon.co.uk/dp/B0DYG3JLGY",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 9150,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|pny:5070ti:oc+triple|water",
