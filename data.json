@@ -1,11 +1,11 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T11:49:38Z",
- "generated_at_hkt": "2026-10-13 19:49 HKT",
- "price_updated_hkt": "2026-10-13 19:49 HKT",
+ "generated_at": "2026-10-13T12:05:48Z",
+ "generated_at_hkt": "2026-10-13 20:05 HKT",
+ "price_updated_hkt": "2026-10-13 20:05 HKT",
  "amazon_data_updated_hkt": null,
- "hk_data_updated_hkt": "2026-10-12 09:59–13:54 HKT",
- "hk_source": "/workspace/hk_price_cache/run_20261012/hkcompare_rows.json",
+ "hk_data_updated_hkt": "2026-10-13 09:58–19:57 HKT",
+ "hk_source": "/workspace/hk_price_cache/run_20261013/hkcompare_rows.json",
  "notes": {
   "water": "水貨價錢為 Amazon 合計港幣（已含運費 + 2% 手續費），僅列可寄香港、價格已確認、Amazon 自營／官方賣場。香港舖頭標明「平行進口」嘅現貨亦當水貨顯示（舖頭價）。",
   "official": "行貨只比較 Sherlock 監察嘅五間香港舖：飛馬 PEGASUS、Jumbo 珍寶電腦、中田電腦 Centralfield、SE Computer、未來科技 BUYMORE（只計現貨）。",
@@ -25,17 +25,17 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 208,
+   "count": 211,
    "enabled": true
   },
   "ssd": {
    "label": "SSD",
-   "count": 136,
+   "count": 137,
    "enabled": true
   },
   "psu": {
    "label": "火牛",
-   "count": 510,
+   "count": 505,
    "enabled": true,
    "note": ""
   },
@@ -53,44 +53,44 @@
   },
   "case": {
    "label": "機箱",
-   "count": 464,
+   "count": 469,
    "enabled": true,
    "note": ""
   }
  },
  "stats": {
-  "items": 2262,
+  "items": 2266,
   "both_sides": 27,
   "water_only": 18,
-  "official_only": 2214,
+  "official_only": 2217,
   "matched_water": 28,
-  "official_groups": 2262,
+  "official_groups": 2266,
   "id_merge": {
    "enabled": true,
-   "unions_upc": 137,
+   "unions_upc": 135,
    "unions_part_number": 167,
-   "old_cards_bridged_by_upc": 80,
-   "old_cards_bridged_by_part_number": 15,
-   "skipped_conflicts": 42,
-   "name_key_splits": 26,
+   "old_cards_bridged_by_upc": 78,
+   "old_cards_bridged_by_part_number": 17,
+   "skipped_conflicts": 43,
+   "name_key_splits": 27,
    "ram_soft_unions": 2,
    "ram_soft_ambiguous": 1,
-   "same_store_offers_dropped": 72,
+   "same_store_offers_dropped": 70,
    "pn_dropped_capacity_mismatch": 0
   },
   "hk_parallel": {
    "enabled": true,
-   "rows": 3,
-   "cards": 3,
-   "cards_hk_parallel_best": 3,
-   "titles_stripped_rows": 3,
+   "rows": 5,
+   "cards": 4,
+   "cards_hk_parallel_best": 4,
+   "titles_stripped_rows": 5,
    "titles_still_tagged": 0
   },
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 20,
-   "official_downloaded": 0,
-   "official_cached": 2038,
+   "official_downloaded": 18,
+   "official_cached": 2026,
    "failed": 0
   },
   "image_samples": [
@@ -395,6 +395,31 @@
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/208467/GTR-S608-Micro-ATX-機箱---White-白色",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 210,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "case|case:gtr:mATX:gtr.s608.電腦機箱.前置.sfx:black",
+   "category": "case",
+   "brand": "GTR",
+   "model_key": "case:gtr:mATX:gtr.s608.電腦機箱.前置.sfx:black",
+   "title": "GTR S608 Micro-ATX 電腦機箱 (黑色) - 前置 SFX 電源",
+   "spec": "mATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a2c28b29af3993be.webp",
+   "image": "img/hk-a2c28b29af3993be.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/1476.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 210,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/1476/gtr-s608-micro-atx-case-black",
     "stock": "現貨",
     "others": []
    },
@@ -1018,6 +1043,31 @@
    "has_official": true
   },
   {
+   "id": "case|case:其他:mATX:okinos.aqua.uno.aqua.uno:black",
+   "category": "case",
+   "brand": "其他",
+   "model_key": "case:其他:mATX:okinos.aqua.uno.aqua.uno:black",
+   "title": "Okinos AQUA UNO BLACK MATX Case (AQUA-UNO-BLACK)",
+   "spec": "mATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3ad1fb3fa1d69ad8.png",
+   "image": "img/hk-3ad1fb3fa1d69ad8.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/2-AQUA-UNO_Black-scaled.png?v=1791800589",
+   "water": null,
+   "official": {
+    "price_hkd": 265,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/okinos-aqua-uno-black-matx-case-aqua-uno-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 265,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "case|case:其他:mATX:okinos.aqua.uno.polar.aqua:",
    "category": "case",
    "brand": "其他",
@@ -1584,31 +1634,6 @@
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/207403/MONTECH-AIR-100-LITE-Micro-ATX-機箱---Black-黑色",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "case|case:segotep:mATX:segotep.endura.240s.argb.風扇:white",
-   "category": "case",
-   "brand": "Segotep",
-   "model_key": "case:segotep:mATX:segotep.endura.240s.argb.風扇:white",
-   "title": "【MATX】SEGOTEP ENDURA 240S *跟3把ARGB風扇*【白色】[CPU: 165mm] [GPU: 345mm]",
-   "spec": "mATX",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 299,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=47937",
     "stock": "現貨",
     "others": []
    },
@@ -2418,6 +2443,31 @@
    "has_official": true
   },
   {
+   "id": "case|case:其他:ATX:okinos.argb:",
+   "category": "case",
+   "brand": "其他",
+   "model_key": "case:其他:ATX:okinos.argb:",
+   "title": "Okinos 612 ARGB ATX 機箱",
+   "spec": "ATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3100d1bdefb2690f.png",
+   "image": "img/hk-3100d1bdefb2690f.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c6590099-7399-4370-c74b-db7bc7c24200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 369,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/228423/Okinos-612-ARGB-ATX-機箱-預裝4把ARGB風扇---1年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 369,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "case|case:gtr:mATX:gtr.s502.黑色機箱.內置.tfx:black",
    "category": "case",
    "brand": "GTR",
@@ -3075,6 +3125,31 @@
    "has_official": true
   },
   {
+   "id": "case|case:zotac:mATX:zotac.索泰.alloy.電腦機箱.支援長顯卡:black",
+   "category": "case",
+   "brand": "Zotac",
+   "model_key": "case:zotac:mATX:zotac.索泰.alloy.電腦機箱.支援長顯卡:black",
+   "title": "ZOTAC 索泰 ALLOY Micro-ATX 電腦機箱 黑色 | 支援長顯卡",
+   "spec": "mATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-be4f3e033cd49c41.webp",
+   "image": "img/hk-be4f3e033cd49c41.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/18756.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 399,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/18756/zotac-alloy-micro-atx-case-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 399,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "case|case:其他:ITX:darkflash.dlh.pink:",
    "category": "case",
    "brand": "其他",
@@ -3354,7 +3429,7 @@
    "category": "case",
    "brand": "Antec",
    "model_key": "case:antec:ATX:antec.p7s.p7s:black",
-   "title": "Antec P7 S Mid Tower ATX Case (w/120mm Fan x4)",
+   "title": "ANTEC P7S Black 黑色 ATX Case",
    "spec": "ATX",
    "filter_tags": null,
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-afde2813fe06148d.jpg",
@@ -3367,14 +3442,7 @@
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/antec-p7s-tempered-glass-black-黑色-atx-case",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 549,
-      "url": "https://secomputer.com.hk/products/61274"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 429,
@@ -4339,6 +4407,31 @@
    "has_official": true
   },
   {
+   "id": "case|case:deepcool:mATX:deepcool.ch260.wood.wh.ch260:white",
+   "category": "case",
+   "brand": "Deepcool",
+   "model_key": "case:deepcool:mATX:deepcool.ch260.wood.wh.ch260:white",
+   "title": "DEEPCOOL CH260 WOOD WH Micro-ATX 機箱 - White 白色",
+   "spec": "mATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-522bdbc59adf3e39.jpg",
+   "image": "img/hk-522bdbc59adf3e39.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/9d2e7fc6-9fe7-4f63-887c-b9762e4d0e00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 469,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/229709/DEEPCOOL-CH260-WOOD-WH-Micro-ATX-機箱---White-白色---2年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 469,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "case|case:montech:ATX:montech.air.premium.argb.tempered:white",
    "category": "case",
    "brand": "Montech",
@@ -4405,6 +4498,31 @@
     "store": "未來科技 BUYMORE",
     "store_short": "未來科技",
     "url": "https://buymore.hk/shop/goods.php?id=36973",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "case|case:antec:mATX:antec.c2m.argb.270°.full:black",
+   "category": "case",
+   "brand": "Antec",
+   "model_key": "case:antec:mATX:antec.c2m.argb.270°.full:black",
+   "title": "ANTEC C2M-ARGB mATX Tower Case 黑色 (270° Full-view tempered glass, 12cm ARGB Fan*3)",
+   "spec": "mATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b6b3ac2dbcb24582.jpg",
+   "image": "img/hk-b6b3ac2dbcb24582.jpg",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/3975668ed920a73da45e7070d1c646bb.jpg",
+   "water": null,
+   "official": {
+    "price_hkd": 499,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/62781",
     "stock": "現貨",
     "others": []
    },
@@ -4737,31 +4855,6 @@
     "store": "Jumbo 珍寶電腦",
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/jonsplus-z20-white-白色-micro-atx-case",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "case|case:jonsbo:ATX:jonsbo.d400.無中柱全景玻璃.d400.無中柱全景玻璃:black",
-   "category": "case",
-   "brand": "Jonsbo",
-   "model_key": "case:jonsbo:ATX:jonsbo.d400.無中柱全景玻璃.d400.無中柱全景玻璃:black",
-   "title": "Jonsbo D400 無中柱全景玻璃 ATX 機箱 - Black 黑色",
-   "spec": "ATX",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4d9c31f28ffd8a48.png",
-   "image": "img/hk-4d9c31f28ffd8a48.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/cb92b303-0ef7-4139-1462-08db3db53900/public",
-   "water": null,
-   "official": {
-    "price_hkd": 499,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224183/Jonsbo-D400-無中柱全景玻璃-ATX-機箱---Black-黑色",
     "stock": "現貨",
     "others": []
    },
@@ -5339,7 +5432,7 @@
    "category": "case",
    "brand": "Antec",
    "model_key": "case:antec:ATX:antec.c3.argb.無立柱全景.c3:black",
-   "title": "ANTEC C3 ARGB Black 黑色 無立柱全景 ATX Case (C3-ARGB)",
+   "title": "ANTEC C3 ARGB ATX Tower Case 黑色 (270° Full-view tempered glass, 12cm ARGB Fan*4)",
    "spec": "ATX",
    "filter_tags": null,
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1bc19d653dadb28a.jpg",
@@ -5351,6 +5444,38 @@
     "store": "Jumbo 珍寶電腦",
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/antec-c3-argb-black-黑色-無立柱全景-atx-case",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 530,
+      "url": "https://secomputer.com.hk/products/53964"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 530,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "case|case:antec:ATX:antec.c3.argb.c3.argb:black",
+   "category": "case",
+   "brand": "Antec",
+   "model_key": "case:antec:ATX:antec.c3.argb.c3.argb:black",
+   "title": "Antec C3 ARGB ATX 機箱 - Black 黑色",
+   "spec": "ATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b5b25a0e5bb06867.png",
+   "image": "img/hk-b5b25a0e5bb06867.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c52858b8-4918-48ff-0307-b31a1b538200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 530,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/217321/Antec-C3-ARGB-ATX-機箱---Black-黑色",
     "stock": "現貨",
     "others": []
    },
@@ -6567,6 +6692,31 @@
    "has_official": true
   },
   {
+   "id": "case|case:antec:ATX:antec.p10c.實心側板.p10c.實心側板:",
+   "category": "case",
+   "brand": "Antec",
+   "model_key": "case:antec:ATX:antec.p10c.實心側板.p10c.實心側板:",
+   "title": "Antec P10C ATX 機箱 (實心側板)",
+   "spec": "ATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-290368280fb056bf.jpg",
+   "image": "img/hk-290368280fb056bf.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/7c09b0bb-7879-420e-c066-6b8313d4b200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 600,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/208787/Antec-P10C-ATX-機箱-實心側板",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 600,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "case|case:lianli:ATX:lian.li.vector.v100.argb:black",
    "category": "case",
    "brand": "Lian Li",
@@ -6763,6 +6913,31 @@
    },
    "delta_hkd": null,
    "best_price": 620,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "case|case:antec:ATX:antec.p30.air.mid.140mm:",
+   "category": "case",
+   "brand": "Antec",
+   "model_key": "case:antec:ATX:antec.p30.air.mid.140mm:",
+   "title": "ANTEC P30 AIR Mid-Tower ATX Case (w/140mm Fan x2, 120mm Fan x3)",
+   "spec": "ATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5c06e9bd263890d1.webp",
+   "image": "img/hk-5c06e9bd263890d1.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/e438b3a087988d299659ffddd955f04b.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 629,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/60088",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 629,
    "has_water": false,
    "has_official": true
   },
@@ -7215,6 +7390,31 @@
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/220624/Antec-FLUX-ATX-機箱---Black-黑色",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 679,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "case|case:antec:ATX:antec.flux.se.flux.se:black",
+   "category": "case",
+   "brand": "Antec",
+   "model_key": "case:antec:ATX:antec.flux.se.flux.se:black",
+   "title": "Antec FLUX SE ATX 機箱 - Black 黑色",
+   "spec": "ATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-25222ff946b9d6dc.png",
+   "image": "img/hk-25222ff946b9d6dc.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/744a1711-f453-4d39-43c1-3cfedbac7500/public",
+   "water": null,
+   "official": {
+    "price_hkd": 679,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224558/Antec-FLUX-SE-ATX-機箱---Black-黑色",
     "stock": "現貨",
     "others": []
    },
@@ -7834,31 +8034,6 @@
    },
    "delta_hkd": null,
    "best_price": 729,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "case|case:jonsbo:ATX:jonsbo.x400.gray.灰色.x400:",
-   "category": "case",
-   "brand": "Jonsbo",
-   "model_key": "case:jonsbo:ATX:jonsbo.x400.gray.灰色.x400:",
-   "title": "Jonsbo X400 ATX 機箱 - Gray 灰色",
-   "spec": "ATX",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-32aa98d654a83b58.png",
-   "image": "img/hk-32aa98d654a83b58.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3b799b14-603b-4123-975e-03cbdcf2c700/public",
-   "water": null,
-   "official": {
-    "price_hkd": 739,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/227842/Jonsbo-X400-ATX-機箱---Gray-灰色",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 739,
    "has_water": false,
    "has_official": true
   },
@@ -9745,31 +9920,6 @@
    "has_official": true
   },
   {
-   "id": "case|case:thermaltake:mATX:thermaltake.曜越.the.gravel.sand:",
-   "category": "case",
-   "brand": "Thermaltake",
-   "model_key": "case:thermaltake:mATX:thermaltake.曜越.the.gravel.sand:",
-   "title": "Thermaltake 曜越 The Tower 300 Micro-ATX 機箱 - Gravel Sand 礫石砂",
-   "spec": "mATX",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-59d68952fd19fa78.png",
-   "image": "img/hk-59d68952fd19fa78.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/543a242b-0d12-4fe2-7266-84c379844800/public",
-   "water": null,
-   "official": {
-    "price_hkd": 999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/226416/Thermaltake-曜越-The-Tower-300-Micro-ATX-機箱---Gravel-Sand-礫石砂-預裝2把140mm風扇---3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "case|case:thermaltake:mATX:thermaltake.曜越.the.matcha.green:",
    "category": "case",
    "brand": "Thermaltake",
@@ -9941,31 +10091,6 @@
    },
    "delta_hkd": null,
    "best_price": 1010,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "case|case:fractaldesign:ITX:fractal.design.ridge.with.pcie:black",
-   "category": "case",
-   "brand": "Fractal Design",
-   "model_key": "case:fractaldesign:ITX:fractal.design.ridge.with.pcie:black",
-   "title": "Fractal Design Ridge Black Mini-ITX Case with PCIe 4.0 Riser FD-C-RID1N-11",
-   "spec": "ITX",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5893e53ca104defd.jpg",
-   "image": "img/hk-5893e53ca104defd.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/11-352-210-01.jpg?v=1750591333",
-   "water": null,
-   "official": {
-    "price_hkd": 1020,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/fractal-design-ridge-black-黑色-mini-itx-case-fd-c-rid1n-01",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1020,
    "has_water": false,
    "has_official": true
   },
@@ -10477,31 +10602,6 @@
    "has_official": true
   },
   {
-   "id": "case|case:phanteks:ATX:phanteks.追風者.enthoo.pro.server:",
-   "category": "case",
-   "brand": "Phanteks",
-   "model_key": "case:phanteks:ATX:phanteks.追風者.enthoo.pro.server:",
-   "title": "Phanteks 追風者 ENTHOO PRO 2 SERVER EDITION ATX 機箱 - Tempered Glass 玻璃側透版",
-   "spec": "ATX",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8632bda5bf62eb1a.jpg",
-   "image": "img/hk-8632bda5bf62eb1a.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f3cc4fd2-67fa-47d3-e12a-230c42032b00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 1280,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/232932/Phanteks-追風者-ENTHOO-PRO-2-SERVER-V2-ATX-機箱---5年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1280,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "case|case:phanteks:ATX:phanteks.追風者.ex5.plus.追風者:",
    "category": "case",
    "brand": "Phanteks",
@@ -10768,6 +10868,31 @@
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/216608/LIAN-LI-聯力-O11D-EVO-RGB-ATX-機箱---Black-黑色",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1360,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "case|case:phanteks:ATX:phanteks.追風者.enthoo.pro.server:",
+   "category": "case",
+   "brand": "Phanteks",
+   "model_key": "case:phanteks:ATX:phanteks.追風者.enthoo.pro.server:",
+   "title": "Phanteks 追風者 ENTHOO PRO 2 SERVER EDITION ATX 機箱 - Tempered Glass 玻璃側透版",
+   "spec": "ATX",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-384e5bc7671eab7e.jpg",
+   "image": "img/hk-384e5bc7671eab7e.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/443ead45-17ab-4d07-c229-1626e44e6000/public",
+   "water": null,
+   "official": {
+    "price_hkd": 1360,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/216958/Phanteks-追風者-ENTHOO-PRO-2-SERVER-EDITION-ATX-機箱---Tempered-Glass-玻璃側透版",
     "stock": "現貨",
     "others": []
    },
@@ -11991,6 +12116,38 @@
    "has_official": true
   },
   {
+   "id": "cooler|cooler:msi:240mm:msi.微星.mag.coreliquid.a13:white",
+   "category": "cooler",
+   "brand": "MSI",
+   "model_key": "cooler:msi:240mm:msi.微星.mag.coreliquid.a13:white",
+   "title": "MSI 微星 MAG CORELIQUID A13 240mm 水冷散熱器 - White 白色",
+   "spec": "240mm",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4d0451ed0c4cf91a.png",
+   "image": "img/hk-4d0451ed0c4cf91a.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/21be5019-6570-476b-9e78-2bbb9cf22d00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 299,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/222270/MSI-微星-MAG-CORELIQUID-A13-240mm-水冷散熱器---White-白色",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 409,
+      "url": "https://secomputer.com.hk/products/55413"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 299,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "cooler|cooler:jonsbo:240mm:jonsbo.tg.白色一體式水冷散熱器.喬思伯.tg:white",
    "category": "cooler",
    "brand": "Jonsbo",
@@ -12784,38 +12941,6 @@
     "url": "https://shop.pegasus.hk/products/222089/MSI-微星-MAG-CORELIQUID-A13-240mm-水冷散熱器",
     "stock": "現貨",
     "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 399,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cooler|cooler:msi:240mm:msi.微星.mag.coreliquid.a13:white",
-   "category": "cooler",
-   "brand": "MSI",
-   "model_key": "cooler:msi:240mm:msi.微星.mag.coreliquid.a13:white",
-   "title": "MSI 微星 MAG CORELIQUID A13 240mm 水冷散熱器 - White 白色",
-   "spec": "240mm",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4d0451ed0c4cf91a.png",
-   "image": "img/hk-4d0451ed0c4cf91a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/21be5019-6570-476b-9e78-2bbb9cf22d00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 399,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/222270/MSI-微星-MAG-CORELIQUID-A13-240mm-水冷散熱器---White-白色",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 409,
-      "url": "https://secomputer.com.hk/products/55413"
-     }
-    ]
    },
    "delta_hkd": null,
    "best_price": 399,
@@ -18358,6 +18483,31 @@
    "has_official": true
   },
   {
+   "id": "cooler|cooler:msi:360mm:msi.微星.mpg.coreliquid.p13:white",
+   "category": "cooler",
+   "brand": "MSI",
+   "model_key": "cooler:msi:360mm:msi.微星.mpg.coreliquid.p13:white",
+   "title": "MSI 微星 MPG CORELIQUID P13 360mm 水冷散熱器 - White 白色",
+   "spec": "360mm",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7c5bc798f67c7af7.png",
+   "image": "img/hk-7c5bc798f67c7af7.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/e6a4c229-f7f3-42ae-4f45-db3f5d46e500/public",
+   "water": null,
+   "official": {
+    "price_hkd": 1199,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/226338/MSI-微星-MPG-CORELIQUID-P13-360mm-水冷散熱器---White-白色",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1199,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "cooler|cooler:nzxt:240mm:nzxt.kraken.plus.水冷散熱器.kraken:black",
    "category": "cooler",
    "brand": "NZXT",
@@ -18662,20 +18812,27 @@
    "category": "cooler",
    "brand": "ASUS",
    "model_key": "cooler:asus:360mm:asus.華碩.tuf.gaming.lc:black",
-   "title": "ASUS 華碩 TUF Gaming LC III 360 ARGB LCD 360mm 水冷散熱器 - Black 黑色",
+   "title": "ASUS華碩 TUF Gaming LC III 360 ARGB 2.8\" LCD Black 黑色 CPU Liquid Cooler",
    "spec": "360mm",
    "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a7396a6ddfb46b7c.png",
-   "image": "img/hk-a7396a6ddfb46b7c.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d86ba477-f296-4371-a8bd-323030271a00/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d518781f49b40c70.webp",
+   "image": "img/hk-d518781f49b40c70.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/d35cc14df4b489352eca206d93213be3.webp",
    "water": null,
    "official": {
     "price_hkd": 1299,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/225314/ASUS-華碩-TUF-Gaming-LC-III-360-ARGB-LCD-360mm-水冷散熱器---Black-黑色---6年保養",
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/58092",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1299,
+      "url": "https://shop.pegasus.hk/products/225314/ASUS-華碩-TUF-Gaming-LC-III-360-ARGB-LCD-360mm-水冷散熱器---Black-黑色---6年保養"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1299,
@@ -18749,31 +18906,6 @@
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/226337/MSI-微星-MPG-CORELIQUID-P13-360mm-水冷散熱器",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cooler|cooler:msi:360mm:msi.微星.mpg.coreliquid.p13:white",
-   "category": "cooler",
-   "brand": "MSI",
-   "model_key": "cooler:msi:360mm:msi.微星.mpg.coreliquid.p13:white",
-   "title": "MSI 微星 MPG CORELIQUID P13 360mm 水冷散熱器 - White 白色",
-   "spec": "360mm",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7c5bc798f67c7af7.png",
-   "image": "img/hk-7c5bc798f67c7af7.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/e6a4c229-f7f3-42ae-4f45-db3f5d46e500/public",
-   "water": null,
-   "official": {
-    "price_hkd": 1299,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/226338/MSI-微星-MPG-CORELIQUID-P13-360mm-水冷散熱器---White-白色",
     "stock": "現貨",
     "others": []
    },
@@ -18915,17 +19047,24 @@
    "title": "ASUS 華碩 TUF Gaming LC III 360 ARGB LCD White Edition 360mm 水冷散熱器 - White 白色",
    "spec": "360mm",
    "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c5591fb4fb9563f9.png",
-   "image": "img/hk-c5591fb4fb9563f9.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/24868b58-c40c-4c37-5121-0e7fdb2d8400/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f3c9638aa954993b.webp",
+   "image": "img/hk-f3c9638aa954993b.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/fa08eba8122f084803bd8eaaa6afadaa.webp",
    "water": null,
    "official": {
     "price_hkd": 1350,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/226083/ASUS-華碩-TUF-Gaming-LC-III-360-ARGB-LCD-White-Edition-360mm-水冷散熱器---White-白色---6年保養",
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/58580",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1350,
+      "url": "https://shop.pegasus.hk/products/226083/ASUS-華碩-TUF-Gaming-LC-III-360-ARGB-LCD-White-Edition-360mm-水冷散熱器---White-白色---6年保養"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1350,
@@ -20444,7 +20583,7 @@
    "category": "cooler",
    "brand": "ASUS",
    "model_key": "cooler:asus:360mm:asus.華碩.rog.ryuo.iv:white",
-   "title": "ASUS 華碩 ROG RYUO IV SLC 360 ARGB White Edition 360mm 水冷散熱器 - White 白色",
+   "title": "ASUS華碩 ROG RYUO IV 360 ARGB WHT White Edition curved 6.67\" Display CPU Liquid Cooler (6…",
    "spec": "360mm",
    "filter_tags": null,
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f7a17cce0aac161f.png",
@@ -20457,7 +20596,14 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/226879/ASUS-華碩-ROG-RYUO-IV-SLC-360-ARGB-White-Edition-360mm-水冷散熱器---White-白色---6年保養",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2650,
+      "url": "https://secomputer.com.hk/products/61230"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 2550,
@@ -20893,44 +21039,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|amd ryzen 5 5600|am4",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 5 5600|am4",
-   "title": "AMD Ryzen 5 5600",
-   "spec": "AM4",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7a4bc31d67310fa3.webp",
-   "image": "img/hk-7a4bc31d67310fa3.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/21318.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 790,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技（散裝）",
-    "url": "https://buymore.hk/shop/goods.php?id=42124",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（散裝）",
-      "price_hkd": 799,
-      "url": "https://centralfield.com/product/21318/amd-ryzen-5-5600-processor-2"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（散裝）",
-      "price_hkd": 840,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600-tray-processor-6c-12t-am4-socket-with-cpu-fan"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 790,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "cpu|cpu|intel core i3-12100f (12th gen)|lga1700",
    "category": "cpu",
    "brand": "Intel",
@@ -20975,6 +21083,82 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|amd ryzen 5 5600|am4",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 5600|am4",
+   "title": "AMD Ryzen 5 5600",
+   "spec": "AM4",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7a4bc31d67310fa3.webp",
+   "image": "img/hk-7a4bc31d67310fa3.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21318.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 799,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田（散裝）",
+    "url": "https://centralfield.com/product/21318/amd-ryzen-5-5600-processor-2",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技（散裝）",
+      "price_hkd": 830,
+      "url": "https://buymore.hk/shop/goods.php?id=42124"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo（散裝）",
+      "price_hkd": 840,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600-tray-processor-6c-12t-am4-socket-with-cpu-fan"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 799,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 8500g|am5",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 8500g|am5",
+   "title": "AMD Ryzen 5 8500G",
+   "spec": "AM5",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d37216eed45a3762.jpg",
+   "image": "img/hk-d37216eed45a3762.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/db17d78a-4acf-4f63-1f8c-021b7c287f00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 799,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬（散裝）",
+    "url": "https://shop.pegasus.hk/products/220949/AMD-Ryzen-5-8500G-6核心12線程-Tray-不含散熱器---3年保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技（散裝）",
+      "price_hkd": 1010,
+      "url": "https://buymore.hk/shop/goods.php?id=41305"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（盒裝）",
+      "price_hkd": 1148,
+      "url": "https://centralfield.com/product/904/amd-ryzen-5-8500g-processor"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 799,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "cpu|cpu|amd ryzen 5 5600x|am4",
    "category": "cpu",
    "brand": "AMD",
@@ -20987,18 +21171,12 @@
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5600X_Tray_3.jpg?v=1759137970",
    "water": null,
    "official": {
-    "price_hkd": 820,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技（散裝）",
-    "url": "https://buymore.hk/shop/goods.php?id=27082",
+    "price_hkd": 840,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo（散裝）",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600x-tray-processor-6c-12t-am4-socket-香港行貨-3年保養",
     "stock": "現貨",
     "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（散裝）",
-      "price_hkd": 840,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600x-tray-processor-6c-12t-am4-socket-香港行貨-3年保養"
-     },
      {
       "store": "SE Computer",
       "store_short": "SE（散裝）",
@@ -21020,7 +21198,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 820,
+   "best_price": 840,
    "has_water": false,
    "has_official": true
   },
@@ -21043,6 +21221,12 @@
     "url": "https://secomputer.com.hk/products/51491",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（散裝）",
+      "price_hkd": 875,
+      "url": "https://centralfield.com/product/15399/amd-ryzen-5-7500f-cpu-processor"
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬（散裝）",
@@ -21277,7 +21461,7 @@
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田（散裝）",
-      "price_hkd": 1010,
+      "price_hkd": 999,
       "url": "https://centralfield.com/product/12802/amd-ryzen-7-8700f-am5-processor-2"
      },
      {
@@ -21290,38 +21474,6 @@
    },
    "delta_hkd": null,
    "best_price": 990,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|amd ryzen 5 8500g|am5",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 5 8500g|am5",
-   "title": "AMD Ryzen 5 8500G",
-   "spec": "AM5",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d37216eed45a3762.jpg",
-   "image": "img/hk-d37216eed45a3762.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/db17d78a-4acf-4f63-1f8c-021b7c287f00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 1010,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技（散裝）",
-    "url": "https://buymore.hk/shop/goods.php?id=41305",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬（散裝）",
-      "price_hkd": 1129,
-      "url": "https://shop.pegasus.hk/products/220949/AMD-Ryzen-5-8500G-6核心12線程-Tray-不含散熱器---3年保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1010,
    "has_water": false,
    "has_official": true
   },
@@ -21376,7 +21528,7 @@
    "image_fallback_url": "https://centralfield.com/Pimg/22041.webp",
    "water": null,
    "official": {
-    "price_hkd": 1050,
+    "price_hkd": 1040,
     "store": "中田電腦 Centralfield",
     "store_short": "中田（散裝）",
     "url": "https://centralfield.com/product/22041/amd-ryzen-5-8600g-tray-processor",
@@ -21409,7 +21561,57 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 1050,
+   "best_price": 1040,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 5700x|am4",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 5700x|am4",
+   "title": "AMD Ryzen 7 5700X",
+   "spec": "AM4",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-989faca2cbc25fb5.webp",
+   "image": "img/hk-989faca2cbc25fb5.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21536.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1040,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技（散裝）",
+    "url": "https://buymore.hk/shop/goods.php?id=28831",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（散裝）",
+      "price_hkd": 1045,
+      "url": "https://centralfield.com/product/21536/amd-ryzen-7-5700x-processor"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo（散裝）",
+      "price_hkd": 1080,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-5700x-tray-processor-8c-16t-am4-socket"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE（散裝）",
+      "price_hkd": 1080,
+      "url": "https://secomputer.com.hk/products/62738"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬（散裝）",
+      "price_hkd": 1120,
+      "url": "https://shop.pegasus.hk/products/228470/AMD-Ryzen-7-5700X-8核心16線程-Tray-不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1040,
    "has_water": false,
    "has_official": true
   },
@@ -21426,7 +21628,7 @@
    "image_fallback_url": "https://centralfield.com/Pimg/20862.webp",
    "water": null,
    "official": {
-    "price_hkd": 1050,
+    "price_hkd": 1060,
     "store": "中田電腦 Centralfield",
     "store_short": "中田（散裝）",
     "url": "https://centralfield.com/product/20862/amd-ryzen-5-pro-8600g-am5-processor",
@@ -21441,7 +21643,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 1050,
+   "best_price": 1060,
    "has_water": false,
    "has_official": true
   },
@@ -21486,44 +21688,6 @@
    },
    "delta_hkd": null,
    "best_price": 1060,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|amd ryzen 7 5700x|am4",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 7 5700x|am4",
-   "title": "AMD Ryzen 7 5700X",
-   "spec": "AM4",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-243f2e92c1ad7a40.jpg",
-   "image": "img/hk-243f2e92c1ad7a40.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5700X_Tray_1.jpg?v=1759137510",
-   "water": null,
-   "official": {
-    "price_hkd": 1080,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo（散裝）",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-5700x-tray-processor-8c-16t-am4-socket",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE（散裝）",
-      "price_hkd": 1080,
-      "url": "https://secomputer.com.hk/products/62738"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬（散裝）",
-      "price_hkd": 1120,
-      "url": "https://shop.pegasus.hk/products/228470/AMD-Ryzen-7-5700X-8核心16線程-Tray-不含散熱器---3年保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1080,
    "has_water": false,
    "has_official": true
   },
@@ -21800,6 +21964,31 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|intel core i5-13400f (13th gen)|lga1700",
+   "category": "cpu",
+   "brand": "Intel",
+   "model_key": "cpu|intel core i5-13400f (13th gen)|lga1700",
+   "title": "Intel Core i5-13400F (13th Gen)",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 1230,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技（散裝）",
+    "url": "https://buymore.hk/shop/goods.php?id=32869",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1230,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "cpu|cpu|amd ryzen 5 9600x|am5",
    "category": "cpu",
    "brand": "AMD",
@@ -21812,7 +22001,7 @@
    "image_fallback_url": "https://centralfield.com/Pimg/11810.webp",
    "water": null,
    "official": {
-    "price_hkd": 1220,
+    "price_hkd": 1245,
     "store": "中田電腦 Centralfield",
     "store_short": "中田（散裝）",
     "url": "https://centralfield.com/product/11810/amd-ryzen-5-9600x-tray-am5-cpu",
@@ -21857,32 +22046,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 1220,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|intel core i5-13400f (13th gen)|lga1700",
-   "category": "cpu",
-   "brand": "Intel",
-   "model_key": "cpu|intel core i5-13400f (13th gen)|lga1700",
-   "title": "Intel Core i5-13400F (13th Gen)",
-   "spec": "LGA1700（Intel 12–14 代）",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 1230,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技（散裝）",
-    "url": "https://buymore.hk/shop/goods.php?id=32869",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1230,
+   "best_price": 1245,
    "has_water": false,
    "has_official": true
   },
@@ -22188,7 +22352,7 @@
    "image_fallback_url": "https://centralfield.com/Pimg/9387.webp",
    "water": null,
    "official": {
-    "price_hkd": 1600,
+    "price_hkd": 1640,
     "store": "中田電腦 Centralfield",
     "store_short": "中田（散裝）",
     "url": "https://centralfield.com/product/9387/amd-ryzen-7-9700x-processor-am5",
@@ -22215,7 +22379,7 @@
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬（散裝）",
-      "price_hkd": 1689,
+      "price_hkd": 1670,
       "url": "https://shop.pegasus.hk/products/220791/AMD-Ryzen-7-9700X-8核心16線程-Tray-不含散熱器---3年保養"
      },
      {
@@ -22233,7 +22397,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 1600,
+   "best_price": 1640,
    "has_water": false,
    "has_official": true
   },
@@ -22907,12 +23071,6 @@
       "store_short": "SE",
       "price_hkd": 2799,
       "url": "https://secomputer.com.hk/products/45300"
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技（盒裝）",
-      "price_hkd": 2850,
-      "url": "https://buymore.hk/shop/goods.php?id=47722"
      }
     ]
    },
@@ -22943,68 +23101,6 @@
    },
    "delta_hkd": null,
    "best_price": 2780,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|amd ryzen 7 9800x3d|am5",
-   "category": "cpu",
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 7 9800x3d|am5",
-   "title": "AMD Ryzen 7 9800X3D",
-   "spec": "AM5",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-60da3740d35307a1.webp",
-   "image": "img/hk-60da3740d35307a1.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/7362.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2860,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技（散裝）",
-    "url": "https://buymore.hk/shop/goods.php?id=42205",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（散裝）",
-      "price_hkd": 2890,
-      "url": "https://centralfield.com/product/7362/amd-ryzen-7-9800x3d"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE（散裝）",
-      "price_hkd": 2899,
-      "url": "https://secomputer.com.hk/products/55092"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（散裝）",
-      "price_hkd": 2930,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9800x3d-tray-processor-8c-16t-socket-am5"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬（散裝）",
-      "price_hkd": 2980,
-      "url": "https://shop.pegasus.hk/products/221478/AMD-Ryzen-7-9800X3D-8核心16線程-Tray-不含散熱器---3年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（盒裝）",
-      "price_hkd": 3250,
-      "url": "https://centralfield.com/product/12162/amd-ryzen-7-9800x3d-cpu"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬（盒裝）",
-      "price_hkd": 3380,
-      "url": "https://shop.pegasus.hk/products/221477/AMD-Ryzen-7-9800X3D-8核心16線程-處理器-Box--不含散熱器---3年保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2860,
    "has_water": false,
    "has_official": true
   },
@@ -23079,6 +23175,62 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|amd ryzen 7 9800x3d|am5",
+   "category": "cpu",
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 9800x3d|am5",
+   "title": "AMD Ryzen 7 9800X3D",
+   "spec": "AM5",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-60da3740d35307a1.webp",
+   "image": "img/hk-60da3740d35307a1.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/7362.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2890,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田（散裝）",
+    "url": "https://centralfield.com/product/7362/amd-ryzen-7-9800x3d",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE（散裝）",
+      "price_hkd": 2899,
+      "url": "https://secomputer.com.hk/products/55092"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo（散裝）",
+      "price_hkd": 2930,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9800x3d-tray-processor-8c-16t-socket-am5"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬（散裝）",
+      "price_hkd": 2980,
+      "url": "https://shop.pegasus.hk/products/221478/AMD-Ryzen-7-9800X3D-8核心16線程-Tray-不含散熱器---3年保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（盒裝）",
+      "price_hkd": 3250,
+      "url": "https://centralfield.com/product/12162/amd-ryzen-7-9800x3d-cpu"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬（盒裝）",
+      "price_hkd": 3380,
+      "url": "https://shop.pegasus.hk/products/221477/AMD-Ryzen-7-9800X3D-8核心16線程-處理器-Box--不含散熱器---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 2890,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "cpu|cpu|intel core i9-13900f (13th gen)|lga1700",
    "category": "cpu",
    "brand": "Intel",
@@ -23122,12 +23274,6 @@
     "url": "https://centralfield.com/product/11279/amd-ryzen-9-9950x-am5-processor-3",
     "stock": "現貨",
     "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE（散裝）",
-      "price_hkd": 3129,
-      "url": "https://secomputer.com.hk/products/56752"
-     },
      {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo（散裝）",
@@ -23214,12 +23360,6 @@
       "store_short": "Jumbo（散裝）",
       "price_hkd": 3270,
       "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-tray-processor-8c-16t-socket-am5-cp-at985x3-香港代理-3年保養"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（盒裝）",
-      "price_hkd": 3540,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-processor-8c-16t-socket-am5-cp-ab985x3"
      },
      {
       "store": "中田電腦 Centralfield",
@@ -23502,7 +23642,7 @@
    "category": "gpu",
    "brand": "Inno3D",
    "model_key": "inno3d:5070:2x",
-   "title": "【RTX5070】INNO3D RTX5070 TWIN X2 12GB [黑色] [長:250mm]",
+   "title": "INNO3D GeForce RTX5070 TWIN X2 12GB GDDR7 (N50712-12D7-195064N)",
    "spec": "RTX 5070",
    "filter_tags": null,
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bb5442af62480233.webp",
@@ -23521,6 +23661,12 @@
       "store_short": "未來科技",
       "price_hkd": 6899,
       "url": "https://buymore.hk/shop/goods.php?id=43920"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 6980,
+      "url": "https://secomputer.com.hk/products/64348"
      }
     ]
    },
@@ -23551,6 +23697,44 @@
    },
    "delta_hkd": null,
    "best_price": 6599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|galax:5070:2x+oc",
+   "category": "gpu",
+   "brand": "GALAX",
+   "model_key": "galax:5070:2x+oc",
+   "title": "GALAX影馳 GeForce RTX5070 1-Click OC Black 12GB GDDR7 黑色 (192-bit DP2.1b*3/HDMI 2.1b,57NO…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fdb55f83adfb3e96.png",
+   "image": "img/hk-fdb55f83adfb3e96.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GALAXGeForceRTX50701-ClickOC_1.png?v=1741239538",
+   "water": null,
+   "official": {
+    "price_hkd": 6680,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/galax-geforce-rtx-5070-1-click-oc-12gb-gddr7-ga-dcn-rtx5070-1clickoc-2x-bk",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 6999,
+      "url": "https://shop.pegasus.hk/products/223439/GALAX-GeForce-RTX-5070-1-Click-OC-顯示卡---3年保養"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7099,
+      "url": "https://secomputer.com.hk/products/56700"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 6680,
    "has_water": false,
    "has_official": true
   },
@@ -23888,38 +24072,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|galax:5070:oc",
-   "category": "gpu",
-   "brand": "GALAX",
-   "model_key": "galax:5070:oc",
-   "title": "GALAX影馳 GeForce RTX5070 1-Click OC Black 12GB GDDR7 黑色 (192-bit DP2.1b*3/HDMI 2.1b,57NO…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ad654354da5c62e5.png",
-   "image": "img/hk-ad654354da5c62e5.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/37601c55-c82a-4fe3-f13f-a52f9c9d8100/public",
-   "water": null,
-   "official": {
-    "price_hkd": 6999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223439/GALAX-GeForce-RTX-5070-1-Click-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 7099,
-      "url": "https://secomputer.com.hk/products/56700"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 6999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5070:eagle+oc+sff",
    "category": "gpu",
    "brand": "Gigabyte",
@@ -24030,6 +24182,31 @@
     "store": "未來科技 BUYMORE",
     "store_short": "未來科技",
     "url": "https://buymore.hk/shop/goods.php?id=44817",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7099,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070:3x+inspire",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5070:3x+inspire",
+   "title": "MSI 微星 GeForce RTX 5070 12G INSPIRE 3X 顯示卡",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5fb7f95b254096b4.png",
+   "image": "img/hk-5fb7f95b254096b4.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b6763ab7-ea07-4e32-bdd5-dfe0f836a600/public",
+   "water": null,
+   "official": {
+    "price_hkd": 7099,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/226010/MSI-微星-GeForce-RTX-5070-12G-INSPIRE-3X-顯示卡---3年保養",
     "stock": "現貨",
     "others": []
    },
@@ -24409,6 +24586,50 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070:oc",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5070:oc",
+   "title": "ASUS華碩 T1 GeForce RTX5070 12GB GDDR7 OC Edition (T1-RTX5070-O12G-GAMING)",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7f7e4ca003d31689.png",
+   "image": "img/hk-7f7e4ca003d31689.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3004b5b3-3d02-4f7e-2d7d-79d0fa3f7200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 7580,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=47588",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 7899,
+      "url": "https://shop.pegasus.hk/products/232576/ASUS-T1-GeForce-RTX-5070-12GB-OC-顯示卡---T1聯名版---3年保養"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7999,
+      "url": "https://centralfield.com/product/21495/asus-rtx-5070-t1-oc-12gb-gddr7"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 8799,
+      "url": "https://secomputer.com.hk/products/62216"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 7580,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5070:3x+inspire+oc",
    "category": "gpu",
    "brand": "MSI",
@@ -24496,50 +24717,6 @@
    "has_official": false
   },
   {
-   "id": "gpu|asus:5070:oc",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5070:oc",
-   "title": "ASUS華碩 T1 GeForce RTX5070 12GB GDDR7 OC Edition (T1-RTX5070-O12G-GAMING)",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7f7e4ca003d31689.png",
-   "image": "img/hk-7f7e4ca003d31689.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3004b5b3-3d02-4f7e-2d7d-79d0fa3f7200/public",
-   "water": null,
-   "official": {
-    "price_hkd": 7899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/232576/ASUS-T1-GeForce-RTX-5070-12GB-OC-顯示卡---T1聯名版---3年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 8199,
-      "url": "https://buymore.hk/shop/goods.php?id=47588"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 8250,
-      "url": "https://centralfield.com/product/21495/asus-rtx-5070-t1-oc-12gb-gddr7"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 8799,
-      "url": "https://secomputer.com.hk/products/62216"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 7899,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5070:gaming trio+oc",
    "category": "gpu",
    "brand": "MSI",
@@ -24622,12 +24799,18 @@
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
    "water": null,
    "official": {
-    "price_hkd": 8400,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-tuf-geforce-rtx-5070-oc-12gb-gddr7-tuf-rtx5070-o12g-gaming-di-e5070y1",
+    "price_hkd": 8299,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=43967",
     "stock": "現貨",
     "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 8400,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-tuf-geforce-rtx-5070-oc-12gb-gddr7-tuf-rtx5070-o12g-gaming-di-e5070y1"
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -24641,12 +24824,6 @@
       "url": "https://centralfield.com/product/11573/asus-tuf-rtx-5070-oc-12gb"
      },
      {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 8699,
-      "url": "https://buymore.hk/shop/goods.php?id=43967"
-     },
-     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 9199,
@@ -24655,7 +24832,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 8400,
+   "best_price": 8299,
    "has_water": false,
    "has_official": true
   },
@@ -25847,31 +26024,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070ti:aorus+master",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:aorus+master",
-   "title": "GIGABYTE 技嘉 AORUS GeForce RTX 5070 Ti MASTER 16G 顯示卡",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6cac9b7353ca838f.png",
-   "image": "img/hk-6cac9b7353ca838f.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c597f470-f616-4818-a792-1035a1e8ac00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 11799,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223264/GIGABYTE-技嘉-AORUS-GeForce-RTX-5070-Ti-MASTER-16G-顯示卡---3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 11799,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5070ti:oc+tuf",
    "category": "gpu",
    "brand": "ASUS",
@@ -26796,12 +26948,18 @@
     "others": []
    },
    "official": {
-    "price_hkd": 16299,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/10532/asus-tuf-gaming-rtx-5080-oc-16gb-graphics-card",
+    "price_hkd": 15799,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 16299,
+      "url": "https://centralfield.com/product/10532/asus-tuf-gaming-rtx-5080-oc-16gb-graphics-card"
+     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -26810,7 +26968,7 @@
      }
     ]
    },
-   "delta_hkd": 2500,
+   "delta_hkd": 2000,
    "best_price": 13799,
    "has_water": true,
    "has_official": true
@@ -27048,6 +27206,38 @@
    "has_official": false
   },
   {
+   "id": "gpu|msi:5080:gaming trio+oc",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:gaming trio+oc",
+   "title": "MSI GeForce RTX 5080 GAMING TRIO OC 16GB GDDR7 (DI-N5080L1)",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-403a6dfd06668330.webp",
+   "image": "img/hk-403a6dfd06668330.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10678.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 14750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10678/msi-rtx-5080-gaming-trio-oc-16gb",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 14800,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 14750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5080:gaming trio+oc+white",
    "category": "gpu",
    "brand": "MSI",
@@ -27095,31 +27285,6 @@
    "delta_hkd": -159,
    "best_price": 14750,
    "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5080:gaming trio+oc",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming trio+oc",
-   "title": "MSI GeForce RTX 5080 GAMING TRIO OC 16GB GDDR7 (DI-N5080L1)",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-eaf2122fb442fa44.png",
-   "image": "img/hk-eaf2122fb442fa44.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/1024_6fd986f3-a98f-42e7-a014-f0ff94de1efe.png?v=1738318839",
-   "water": null,
-   "official": {
-    "price_hkd": 14800,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 14800,
-   "has_water": false,
    "has_official": true
   },
   {
@@ -27435,7 +27600,7 @@
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/dcb6d469-102c-4f2c-172a-340905359b00/public",
    "water": null,
    "official": {
-    "price_hkd": 17399,
+    "price_hkd": 17799,
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡",
@@ -27443,7 +27608,7 @@
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 17399,
+   "best_price": 17799,
    "has_water": false,
    "has_official": true
   },
@@ -27469,31 +27634,6 @@
    },
    "delta_hkd": null,
    "best_price": 29999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5090d:gaming+oc+v2",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5090d:gaming+oc+v2",
-   "title": "GIGABYTE 技嘉 GeForce RTX 5090D V2 GAMING OC 24G 顯示卡",
-   "spec": "RTX 5090D",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-082791ea0e095389.png",
-   "image": "img/hk-082791ea0e095389.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/13396a26-9ce4-4de3-9e1b-336dd729f500/public",
-   "water": null,
-   "official": {
-    "price_hkd": 31999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/226334/GIGABYTE-技嘉-GeForce-RTX-5090D-V2-GAMING-OC-24G-顯示卡---4年需網上註冊保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 31999,
    "has_water": false,
    "has_official": true
   },
@@ -27691,6 +27831,42 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 56599,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|asus:5090:astral+oc+rog",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5090:astral+oc+rog",
+   "title": "ASUS華碩 ROG Astral GeForce RTX5090 32GB GDDR7 OC",
+   "spec": "RTX 5090",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ebc03a904a71cb4a.png",
+   "image": "img/hk-ebc03a904a71cb4a.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/54f6dafb-a28e-4ffc-1461-3ebfd1bd9100/public",
+   "water": {
+    "price_hkd": 56999,
+    "source": "hk_shop",
+    "store": "SE Computer",
+    "store_short": "SE",
+    "marketplace": "SE",
+    "url": "https://secomputer.com.hk/products/57059",
+    "stock": "現貨",
+    "note": "香港舖頭現貨（平行進口）",
+    "others": [
+     {
+      "source": "hk_shop",
+      "store_short": "飛馬",
+      "marketplace": "飛馬",
+      "price_hkd": 56999,
+      "url": "https://shop.pegasus.hk/products/224063/平行進口ASUS-華碩-ROG-Astral-GeForce-RTX-5090-32G-OC-顯示卡---3年保養"
+     }
+    ]
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 56999,
    "has_water": true,
    "has_official": false
   },
@@ -27969,12 +28145,6 @@
       "store_short": "SE",
       "price_hkd": 649,
       "url": "https://secomputer.com.hk/products/59152"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 649,
-      "url": "https://shop.pegasus.hk/products/220400/MSI-微星-PRO-B760M-E-Micro-ATX-主機板-DDR5---3年保養"
      }
     ]
    },
@@ -28712,7 +28882,7 @@
    "category": "mobo",
    "brand": "ASUS",
    "model_key": "mobo:asus:B760:mATX:b760m-ayw-wifi:ddr4:wifi:",
-   "title": "Asus 華碩 B760M-AYW WiFi D4 Micro-ATX 主機板 (DDR4/LGA 1700)",
+   "title": "ASUS 華碩 B760M-AYW WIFI D4 Micro-ATX 主機板 (DDR4)",
    "spec": "B760（DDR4）",
    "filter_tags": [
     "B760",
@@ -28731,10 +28901,10 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1010,
-      "url": "https://centralfield.com/product/19487/asus-b760m-ayw-wifi-d4-micro-atx-motherboard"
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 950,
+      "url": "https://secomputer.com.hk/products/61458"
      }
     ]
    },
@@ -28791,6 +28961,12 @@
     "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-b760m-a-d4-ddr4-lga-1700-matx-motherboard",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 980,
+      "url": "https://centralfield.com/product/3664/asus-prime-b760m-a-d4-matx-ddr4-lga1700"
+     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -28864,6 +29040,12 @@
       "store_short": "中田",
       "price_hkd": 948,
       "url": "https://centralfield.com/product/3926/msi-b650m-gaming-plus-wifi-matx-motherboard"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 970,
+      "url": "https://shop.pegasus.hk/products/220171/MSI-微星-B650M-GAMING-PLUS-WIFI-Micro-ATX-主機板-DDR5---3年保養"
      }
     ]
    },
@@ -29390,6 +29572,35 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:asus:B760:mATX:b760m-ayw-wifi:ddr4:wifi:#2",
+   "category": "mobo",
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B760:mATX:b760m-ayw-wifi:ddr4:wifi:",
+   "title": "Asus 華碩 B760M-AYW WiFi D4 Micro-ATX 主機板 (DDR4/LGA 1700)",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ac942b5d05aadf15.webp",
+   "image": "img/hk-ac942b5d05aadf15.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/19487.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1010,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/19487/asus-b760m-ayw-wifi-d4-micro-atx-motherboard",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1010,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:asus:B760:mATX:prime-b760m-a-wifi:ddr4:wifi:",
    "category": "mobo",
    "brand": "ASUS",
@@ -29856,35 +30067,6 @@
    },
    "delta_hkd": null,
    "best_price": 1120,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "mobo|mobo:asus:B760:mATX:b760m:ddr4:wifi:",
-   "category": "mobo",
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B760:mATX:b760m:ddr4:wifi:",
-   "title": "【INTEL B760M DDR4】ASUS PRIME B760M-A WIFI D4 MATX [LGA1700]",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 1130,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=32906",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1130,
    "has_water": false,
    "has_official": true
   },
@@ -31326,7 +31508,14 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/8266/msi-b850-gaming-plus-wifi-atx-motherboard",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1499,
+      "url": "https://shop.pegasus.hk/products/222675/MSI-微星-B850-GAMING-PLUS-WIFI-ATX-主機板-DDR5---3年保養"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1499,
@@ -32214,31 +32403,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asrock:B850:ATX:b850-steel-legend-wifi:ddr5:wifi:white",
-   "category": "mobo",
-   "brand": "ASRock",
-   "model_key": "mobo:asrock:B850:ATX:b850-steel-legend-wifi:ddr5:wifi:white",
-   "title": "ASRock 華擎 B850 Steel Legend WiFi ATX 白色主機板 (DDR5)",
-   "spec": "B850",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d2961f5ac8056ac9.png",
-   "image": "img/hk-d2961f5ac8056ac9.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/187553c0-cc5e-413b-1846-11f7519c4e00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 1699,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224854/ASRock-華擎-B850-Steel-Legend-WiFi-ATX-白色主機板-DDR5---3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1699,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:asrock:B850:mATX:b850m-riptide-wifi:ddr5:wifi:",
    "category": "mobo",
    "brand": "ASRock",
@@ -32591,6 +32755,31 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:msi:B850:ATX:mag-b850-gaming-plus-max-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "brand": "MSI",
+   "model_key": "mobo:msi:B850:ATX:mag-b850-gaming-plus-max-wifi:ddr5:wifi:",
+   "title": "MSI 微星 MAG B850 GAMING PLUS MAX WIFI ATX 主機板 (DDR5)",
+   "spec": "B850",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f825f7177de41763.png",
+   "image": "img/hk-f825f7177de41763.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/1aa97bdc-cf63-48e6-d90d-b24220b27600/public",
+   "water": null,
+   "official": {
+    "price_hkd": 1749,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/229526/MSI-微星-MAG-B850-GAMING-PLUS-MAX-WIFI-ATX-主機板-DDR5---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1749,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:msi:Z890:ATX:x:wifi6e.z890s:ddr5:wifi:white",
    "category": "mobo",
    "brand": "MSI",
@@ -32851,6 +33040,31 @@
    },
    "delta_hkd": null,
    "best_price": 1770,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B850:?:tuf-gaming-b850e-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B850:?:tuf-gaming-b850e-wifi:ddr5:wifi:",
+   "title": "ASUS 華碩 TUF GAMING B850-E WIFI 主機板 (DDR5)",
+   "spec": "B850",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6fb86f803168607d.png",
+   "image": "img/hk-6fb86f803168607d.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/0ab5535e-34dd-4cac-e104-fd5d11449a00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 1790,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224955/ASUS-華碩-TUF-GAMING-B850-E-WIFI-主機板-DDR5---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1790,
    "has_water": false,
    "has_official": true
   },
@@ -33519,38 +33733,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asrock:Z890:ATX:z890-steel-legend-wifi:ddr5:wifi:",
-   "category": "mobo",
-   "brand": "ASRock",
-   "model_key": "mobo:asrock:Z890:ATX:z890-steel-legend-wifi:ddr5:wifi:",
-   "title": "ASRock Z890 Steel Legend WiFi DDR5,LGA 1851 ATX Motherboard",
-   "spec": "Z890",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-82060ce325948327.webp",
-   "image": "img/hk-82060ce325948327.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/6526.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1970,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/6526/asrock-z890-steel-legend-wifi-atx-motherboard",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2150,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asrock-z890-steel-legend-wifi-ddr5-lga-1851-atx-motherboard"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1970,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:msi:B850:ATX:b850-tomahawk-max-wifi:ddr5:wifi:",
    "category": "mobo",
    "brand": "MSI",
@@ -33568,7 +33750,14 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/8882/msi-b850-tomahawk-max-wifi-atx-motherboard",
     "stock": "現貨",
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1970,
+      "url": "https://shop.pegasus.hk/products/222842/MSI-微星-B850-TOMAHAWK-MAX-WIFI-ATX-主機板-DDR5---3年保養"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1970,
@@ -33834,31 +34023,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asrock:Z890:ATX:z890-lightning-wifi:ddr5:wifi:",
-   "category": "mobo",
-   "brand": "ASRock",
-   "model_key": "mobo:asrock:Z890:ATX:z890-lightning-wifi:ddr5:wifi:",
-   "title": "ASRock Z890 Lightning WiFi ATX 主機板 | DDR5 | Wi-Fi | LGA1851",
-   "spec": "Z890",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b386a78769786218.webp",
-   "image": "img/hk-b386a78769786218.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/4017.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2030,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/4017/asrock-z890-lightning-wifi-atx-motherboard",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2030,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:asus:B850:mATX:tuf-gaming-b850m-plus-wifi7:ddr5:wifi:white",
    "category": "mobo",
    "brand": "ASUS",
@@ -33884,16 +34048,16 @@
       "url": "https://secomputer.com.hk/products/59946"
      },
      {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2099,
+      "url": "https://shop.pegasus.hk/products/228448/ASUS-華碩-TUF-GAMING-B850M-PLUS-WIFI7-W-Micro-ATX-主機板-DDR5---白色-White---3年保養"
+     },
+     {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
       "price_hkd": 2135,
       "url": "https://centralfield.com/product/17797/asus-tuf-gaming-b850m-plus-wifi7-w-matx"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 2160,
-      "url": "https://shop.pegasus.hk/products/228448/ASUS-華碩-TUF-GAMING-B850M-PLUS-WIFI7-W-Micro-ATX-主機板-DDR5---白色-White---3年保養"
      }
     ]
    },
@@ -34406,6 +34570,31 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:msi:X870:ATX:mag-x870e-gaming-max-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "brand": "MSI",
+   "model_key": "mobo:msi:X870:ATX:mag-x870e-gaming-max-wifi:ddr5:wifi:",
+   "title": "MSI 微星 MAG X870E GAMING MAX WIFI ATX 主機板 (DDR5)",
+   "spec": "X870",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-06c1c2c913498008.png",
+   "image": "img/hk-06c1c2c913498008.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/088f30ae-b37d-4ff1-f548-49ab3b7c5d00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 2099,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/231733/MSI-微星-MAG-X870E-GAMING-MAX-WIFI-ATX-主機板-DDR5---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2099,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:msi:X870:ATX:x870e-gaming-plus-wifi::wifi:",
    "category": "mobo",
    "brand": "MSI",
@@ -34477,6 +34666,31 @@
    },
    "delta_hkd": null,
    "best_price": 2130,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asrock:Z890:ATX:z890-steel-legend-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "brand": "ASRock",
+   "model_key": "mobo:asrock:Z890:ATX:z890-steel-legend-wifi:ddr5:wifi:",
+   "title": "ASRock Z890 Steel Legend WiFi DDR5,LGA 1851 ATX Motherboard",
+   "spec": "Z890",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1ab59a9181ec5786.png",
+   "image": "img/hk-1ab59a9181ec5786.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ASROCK_Z890_STEEL_LEGEND_WIFI.png?v=1737029269",
+   "water": null,
+   "official": {
+    "price_hkd": 2150,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/asrock-z890-steel-legend-wifi-ddr5-lga-1851-atx-motherboard",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2150,
    "has_water": false,
    "has_official": true
   },
@@ -36235,38 +36449,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:msi:Z890:ATX:mpg-z890-edge-ti-wifi:ddr5:wifi:white",
-   "category": "mobo",
-   "brand": "MSI",
-   "model_key": "mobo:msi:Z890:ATX:mpg-z890-edge-ti-wifi:ddr5:wifi:white",
-   "title": "MSI MPG Z890 EDGE TI WiFi ATX 白色主機板 (DDR5/Wi-Fi 7/LGA1851)",
-   "spec": "Z890",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-657d51b1f59f1b88.png",
-   "image": "img/hk-657d51b1f59f1b88.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c71e5d42-cbe6-4f84-b0cd-0d814993dc00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 2720,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/221272/MSI-微星-MPG-Z890-EDGE-TI-WIFI-ATX-白色主機板-DDR5---3年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2750,
-      "url": "https://centralfield.com/product/6552/msi-mpg-z890-edge-ti-wifi-atx-white"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2720,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:msi:Z890:ATX:mpg-z890-edge-ti-wifi::wifi:",
    "category": "mobo",
    "brand": "MSI",
@@ -36381,6 +36563,31 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:msi:Z890:ATX:mpg-z890-edge-ti-wifi:ddr5:wifi:white",
+   "category": "mobo",
+   "brand": "MSI",
+   "model_key": "mobo:msi:Z890:ATX:mpg-z890-edge-ti-wifi:ddr5:wifi:white",
+   "title": "MSI MPG Z890 EDGE TI WiFi ATX 白色主機板 (DDR5/Wi-Fi 7/LGA1851)",
+   "spec": "Z890",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2a362f50aa81e62e.webp",
+   "image": "img/hk-2a362f50aa81e62e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/6552.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/6552/msi-mpg-z890-edge-ti-wifi-atx-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2750,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:asus:B850:ATX:x:am5.b850a.bb85san.wifi7:ddr5:wifi:",
    "category": "mobo",
    "brand": "ASUS",
@@ -36484,6 +36691,31 @@
    },
    "delta_hkd": null,
    "best_price": 2780,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B850:ITX:x:b850i:ddr5:wifi:",
+   "category": "mobo",
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B850:ITX:x:b850i:ddr5:wifi:",
+   "title": "ASUS 華碩 ROG STRIX B850-I GAMING WIFI ITX 主機板 (DDR5)",
+   "spec": "B850",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d842b71d79dc2e2c.jpg",
+   "image": "img/hk-d842b71d79dc2e2c.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/177005a0-8a05-428d-ac6f-27a81497b500/public",
+   "water": null,
+   "official": {
+    "price_hkd": 2799,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/222666/ASUS-華碩-ROG-STRIX-B850-I-GAMING-WIFI-ITX-主機板-DDR5---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2799,
    "has_water": false,
    "has_official": true
   },
@@ -36711,31 +36943,6 @@
     "store": "Jumbo 珍寶電腦",
     "store_short": "Jumbo",
     "url": "https://www.jumbo-computer.com/zh-hk/products/asus-rog-strix-b850-i-gaming-wifi-ddr5-socket-am5-mini-itx-motherboard",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2930,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "mobo|mobo:asus:B850:ITX:x:b850i:ddr5:wifi:",
-   "category": "mobo",
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B850:ITX:x:b850i:ddr5:wifi:",
-   "title": "ASUS 華碩 ROG STRIX B850-I GAMING WIFI ITX 主機板 (DDR5)",
-   "spec": "B850",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d842b71d79dc2e2c.jpg",
-   "image": "img/hk-d842b71d79dc2e2c.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/177005a0-8a05-428d-ac6f-27a81497b500/public",
-   "water": null,
-   "official": {
-    "price_hkd": 2930,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/222666/ASUS-華碩-ROG-STRIX-B850-I-GAMING-WIFI-ITX-主機板-DDR5---3年保養",
     "stock": "現貨",
     "others": []
    },
@@ -37122,6 +37329,31 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:asus:X870:ATX:tuf-gaming-x870-pro-wifi7::wifi:",
+   "category": "mobo",
+   "brand": "ASUS",
+   "model_key": "mobo:asus:X870:ATX:tuf-gaming-x870-pro-wifi7::wifi:",
+   "title": "ASUS華碩 TUF GAMING X870-PRO WIFI7 W NEO AM5 ATX MB",
+   "spec": "X870",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d4d2ae43ce6821fe.webp",
+   "image": "img/hk-d4d2ae43ce6821fe.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/7e360861e2c71eebce0c8e2bf746cdb5.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3280,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/61105",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3280,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d-ice::nowifi:",
    "category": "mobo",
    "brand": "Gigabyte",
@@ -37301,31 +37533,6 @@
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
     "url": "https://centralfield.com/product/6536/asus-rog-strix-z890-a-gaming-wifi-atx-motherboard",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 3499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aero-x-dark-wood-x3d:ddr5:nowifi:",
-   "category": "mobo",
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:X870:ATX:x870e-aero-x-dark-wood-x3d:ddr5:nowifi:",
-   "title": "GIGABYTE 技嘉 X870E AERO X DARK WOOD X3D ATX 主機板 (DDR5)",
-   "spec": "X870",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5d403350e263ed8d.png",
-   "image": "img/hk-5d403350e263ed8d.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/315cbc65-48bc-4da9-64e7-ccb68f61e100/public",
-   "water": null,
-   "official": {
-    "price_hkd": 3499,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/232561/GIGABYTE-技嘉-X870E-AERO-X-DARK-WOOD-X3D-ATX-主機板-DDR5---3年保養",
     "stock": "現貨",
     "others": []
    },
@@ -38517,31 +38724,6 @@
    },
    "delta_hkd": null,
    "best_price": 6599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aorus-xtreme-ai-top:ddr5:nowifi:",
-   "category": "mobo",
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:X870:ATX:x870e-aorus-xtreme-ai-top:ddr5:nowifi:",
-   "title": "GIGABYTE 技嘉 X870E AORUS XTREME AI TOP ATX 主機板 (DDR5)",
-   "spec": "X870",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b052e86d271cf759.png",
-   "image": "img/hk-b052e86d271cf759.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/fb1c9d68-b12f-47f6-898f-f7ef3f75f000/public",
-   "water": null,
-   "official": {
-    "price_hkd": 6750,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224121/GIGABYTE-技嘉-X870E-AORUS-XTREME-AI-TOP-ATX-主機板-DDR5---3-年-網上登記延長至-5-年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 6750,
    "has_water": false,
    "has_official": true
   },
@@ -40025,31 +40207,6 @@
    "has_official": true
   },
   {
-   "id": "psu|psu:thermalright:750:金牌全模組.thermalright.tg.tg.金牌全模組:black",
-   "category": "psu",
-   "brand": "Thermalright",
-   "model_key": "psu:thermalright:750:金牌全模組.thermalright.tg.tg.金牌全模組:black",
-   "title": "【750W金牌全模組GEN5】THERMALRIGHT TG-750W PCIE5【黑色】【ATX3.0】",
-   "spec": "750W",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 480,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=34704",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 480,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "psu|psu:asus:650:asus.prime.prime:black",
    "category": "psu",
    "brand": "ASUS",
@@ -40507,31 +40664,6 @@
    "has_official": true
   },
   {
-   "id": "psu|psu:coolermaster:750:cooler.master.mwe.v3.金牌火牛:",
-   "category": "psu",
-   "brand": "Cooler Master",
-   "model_key": "psu:coolermaster:750:cooler.master.mwe.v3.金牌火牛:",
-   "title": "Cooler Master MWE Gold 750 V3 750W 金牌火牛 ATX3.1 PCIe5.1",
-   "spec": "750W",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1d4dbdf9b5cd5a17.webp",
-   "image": "img/hk-1d4dbdf9b5cd5a17.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/12818.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 549,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/12818/cooler-master-mwe-gold-750-v3-750w-atx3-1",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 549,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "psu|psu:coolermaster:750:cooler.master.mwe.v3.3.1:black",
    "category": "psu",
    "brand": "Cooler Master",
@@ -40964,6 +41096,31 @@
    "has_official": true
   },
   {
+   "id": "psu|psu:asus:750:asus.prime.750b.銅牌火牛.華碩:",
+   "category": "psu",
+   "brand": "ASUS",
+   "model_key": "psu:asus:750:asus.prime.750b.銅牌火牛.華碩:",
+   "title": "ASUS PRIME 750B 750W 銅牌火牛 | 華碩 80+ Bronze 電源供應器",
+   "spec": "750W",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0ad71e42bc473c8a.webp",
+   "image": "img/hk-0ad71e42bc473c8a.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12720.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 598,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12720/asus-prime-750b-750w-bronze-psu",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 598,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "psu|psu:asus:750:asus.華碩.prime.華碩.prime:",
    "category": "psu",
    "brand": "ASUS",
@@ -41235,6 +41392,31 @@
    },
    "delta_hkd": null,
    "best_price": 599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "psu|psu:fsp:650:fsp.全漢.vic.gm.全漢:",
+   "category": "psu",
+   "brand": "FSP",
+   "model_key": "psu:fsp:650:fsp.全漢.vic.gm.全漢:",
+   "title": "FSP 全漢 VIC GM 650W 80Plus Gold 金牌 全模組 火牛",
+   "spec": "650W",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ff32711ea0c4d0f6.png",
+   "image": "img/hk-ff32711ea0c4d0f6.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/41ad80e2-7986-4b9e-70f0-a0446d67b600/public",
+   "water": null,
+   "official": {
+    "price_hkd": 600,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/231301/FSP-全漢-VIC-GM-650W-80Plus-Gold-金牌-全模組-火牛---5年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 600,
    "has_water": false,
    "has_official": true
   },
@@ -42216,6 +42398,31 @@
    "has_official": true
   },
   {
+   "id": "psu|psu:coolermaster:1000:金牌全模組.cooler.master.elite..1:",
+   "category": "psu",
+   "brand": "Cooler Master",
+   "model_key": "psu:coolermaster:1000:金牌全模組.cooler.master.elite..1:",
+   "title": "【1000W金牌全模組GEN5】COOLER MASTER ELITE GOLD 1000W【PCIE5.1】",
+   "spec": "1000W+",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 740,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=45571",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 740,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "psu|psu:corsair:750:金牌全模組.corsair.rm750e..1.rm750e:black",
    "category": "psu",
    "brand": "Corsair",
@@ -42405,6 +42612,31 @@
    "has_official": true
   },
   {
+   "id": "psu|psu:thermalright:850:thermalright.tgfx.sfx.金牌火牛.tgfx:",
+   "category": "psu",
+   "brand": "Thermalright",
+   "model_key": "psu:thermalright:850:thermalright.tgfx.sfx.金牌火牛.tgfx:",
+   "title": "Thermalright TGFX-850 850W SFX 金牌火牛 ATX3.0 PCIe5.0",
+   "spec": "850W",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cb2c302a28be222d.webp",
+   "image": "img/hk-cb2c302a28be222d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/8561.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 759,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/8561/thermalright-tgfx-850-850w-sfx-psu",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 759,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "psu|psu:thermalright:850:sfx.thermalright.利民.tgfx850.sfx:",
    "category": "psu",
    "brand": "Thermalright",
@@ -42451,38 +42683,6 @@
    },
    "delta_hkd": null,
    "best_price": 769,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "psu|psu:fsp:650:fsp.dagger.pro.sfx.fsp:",
-   "category": "psu",
-   "brand": "FSP",
-   "model_key": "psu:fsp:650:fsp.dagger.pro.sfx.fsp:",
-   "title": "FSP全漢 DAGGER PRO 650W FSP-SDA2-650 Fully-Modular SFX PowerSupply( 7 Years Warranty,80PL…",
-   "spec": "650W",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-82042e7104b095f6.png",
-   "image": "img/hk-82042e7104b095f6.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/1_f58bad6b-dcca-46c7-8831-fe5e4fb0c8e8.png?v=1695729547",
-   "water": null,
-   "official": {
-    "price_hkd": 770,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/fsp-650w-dagger-pro-80plus-gold-full-modular-power-supply-fsp-sda2-650",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 829,
-      "url": "https://secomputer.com.hk/products/40604"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 770,
    "has_water": false,
    "has_official": true
   },
@@ -43301,6 +43501,56 @@
    "has_official": true
   },
   {
+   "id": "psu|psu:antec:850:antec.gsk850.v2.gsk850.v2:black",
+   "category": "psu",
+   "brand": "Antec",
+   "model_key": "psu:antec:850:antec.gsk850.v2.gsk850.v2:black",
+   "title": "Antec GSK850 V2 ATX3.1 850W 80Plus Gold 金牌 全模組 火牛 - Black 黑色",
+   "spec": "850W",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d92e9507fcfb106c.png",
+   "image": "img/hk-d92e9507fcfb106c.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/47bdfb18-7541-4cc4-9193-55c568e51700/public",
+   "water": null,
+   "official": {
+    "price_hkd": 820,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/226580/Antec-GSK850-V2-ATX31-850W-80Plus-Gold-金牌-全模組-火牛---Black-黑色---10年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 820,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "psu|psu:fsp:650:fsp.全漢.dagger.pro.fsp:",
+   "category": "psu",
+   "brand": "FSP",
+   "model_key": "psu:fsp:650:fsp.全漢.dagger.pro.fsp:",
+   "title": "FSP全漢 DAGGER PRO 650W FSP-SDA2-650 Fully-Modular SFX PowerSupply( 7 Years Warranty,80PL…",
+   "spec": "650W",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-50646d90029ac213.jpg",
+   "image": "img/hk-50646d90029ac213.jpg",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/0371733be3f8690a09a9034f42eea461.jpg",
+   "water": null,
+   "official": {
+    "price_hkd": 829,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/40604",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 829,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "psu|psu:asus:750:asus.華碩.prime.edition.華碩:black",
    "category": "psu",
    "brand": "ASUS",
@@ -43367,31 +43617,6 @@
     "store": "SE Computer",
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/58127",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 839,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "psu|psu:seasonic:750:seasonic.core.v2.gx.750bk:",
-   "category": "psu",
-   "brand": "Seasonic",
-   "model_key": "psu:seasonic:750:seasonic.core.v2.gx.750bk:",
-   "title": "Seasonic Core V2 GX-750BK 750W 金牌全模組 ATX3.1 火牛",
-   "spec": "750W",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-53bd045d3ed49fc6.webp",
-   "image": "img/hk-53bd045d3ed49fc6.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/13809.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 839,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/13809/seasonic-core-v2-gx-750bk-750w-atx3-1-psu",
     "stock": "現貨",
     "others": []
    },
@@ -44165,31 +44390,6 @@
    "has_official": true
   },
   {
-   "id": "psu|psu:thermaltake:1000:金牌全模組.thermaltake.toughpower.gt.toughpower:white",
-   "category": "psu",
-   "brand": "Thermaltake",
-   "model_key": "psu:thermaltake:1000:金牌全模組.thermaltake.toughpower.gt.toughpower:white",
-   "title": "【1000W金牌全模組GEN5】THERMALTAKE TOUGHPOWER GT 1000W【白色】",
-   "spec": "1000W+",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 899,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=47948",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 899,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "psu|psu:bequiet!:1000:be.quiet!.pure.power.13m:",
    "category": "psu",
    "brand": "be quiet!",
@@ -44436,31 +44636,6 @@
    },
    "delta_hkd": null,
    "best_price": 929,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "psu|psu:corsair:850:金牌全模組.corsair.rm850x..1.rm850x:",
-   "category": "psu",
-   "brand": "Corsair",
-   "model_key": "psu:corsair:850:金牌全模組.corsair.rm850x..1.rm850x:",
-   "title": "【850W金牌全模組GEN5】CORSAIR RM850X [PCIE5.1]",
-   "spec": "850W",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 930,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=40774",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 930,
    "has_water": false,
    "has_official": true
   },
@@ -45161,6 +45336,31 @@
    "has_official": true
   },
   {
+   "id": "psu|psu:corsair:850:corsair.rm850x.cybenetics.rm850x.cybenetics:",
+   "category": "psu",
+   "brand": "Corsair",
+   "model_key": "psu:corsair:850:corsair.rm850x.cybenetics.rm850x.cybenetics:",
+   "title": "Corsair RM850X 850W Cybenetics Gold 金牌 全模組 火牛",
+   "spec": "850W",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-81d83fe7de85f34b.png",
+   "image": "img/hk-81d83fe7de85f34b.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/0f3281ca-9e2d-4411-280e-c6eaef19c400/public",
+   "water": null,
+   "official": {
+    "price_hkd": 1029,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/220048/Corsair-RM850X-850W-Cybenetics-Gold-金牌-全模組-火牛---10年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1029,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "psu|psu:nzxt:1000:nzxt.c1000.core.3.1.c1000:black",
    "category": "psu",
    "brand": "NZXT",
@@ -45389,31 +45589,6 @@
    },
    "delta_hkd": null,
    "best_price": 1070,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "psu|psu:antec:1000:金牌全模組.antec.gsk1000.gb.gsk1000:black",
-   "category": "psu",
-   "brand": "Antec",
-   "model_key": "psu:antec:1000:金牌全模組.antec.gsk1000.gb.gsk1000:black",
-   "title": "【1000W金牌全模組GEN5】ANTEC GSK1000 GB【黑色】[ATX3.1]",
-   "spec": "1000W+",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 1080,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=46526",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1080,
    "has_water": false,
    "has_official": true
   },
@@ -46371,31 +46546,6 @@
    "has_official": true
   },
   {
-   "id": "psu|psu:corsair:750:corsair.sf750.白金全模組.sfx..1:",
-   "category": "psu",
-   "brand": "Corsair",
-   "model_key": "psu:corsair:750:corsair.sf750.白金全模組.sfx..1:",
-   "title": "Corsair SF750 750W 白金全模組SFX火牛 ATX3.1 PCIe5.1",
-   "spec": "750W",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7a15d0006c48f0de.webp",
-   "image": "img/hk-7a15d0006c48f0de.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/4980.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1199,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/4980/corsair-sf750-750w-sfx-psu",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1199,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "psu|psu:corsair:750:sfx.corsair.sf750.鉑金牌.sfx:",
    "category": "psu",
    "brand": "Corsair",
@@ -46496,6 +46646,12 @@
     "url": "https://shop.pegasus.hk/products/220349/Super-Flower-Leadex-VII-Platinum-PRO-1000W-White-ATX-31-80Plus-Platinum-鉑金牌-全模組-白色火牛---10年保養",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1280,
+      "url": "https://centralfield.com/product/20797/super-flower-leadex-vii-platinum-pro-1000w-atx3-1-white-psu"
+     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -47031,31 +47187,6 @@
    "has_official": true
   },
   {
-   "id": "psu|psu:seasonic:850:seasonic.focus.gx.focus.gx:black",
-   "category": "psu",
-   "brand": "Seasonic",
-   "model_key": "psu:seasonic:850:seasonic.focus.gx.focus.gx:black",
-   "title": "Seasonic FOCUS GX ATX 3 (2024) 850W 80 Plus Gold 金牌 全模組 火牛 - Black 黑色",
-   "spec": "850W",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7d4e113db2467491.png",
-   "image": "img/hk-7d4e113db2467491.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/cd01253c-0f74-4f93-a492-a96b04f2db00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 1259,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/221142/Seasonic-FOCUS-GX-ATX-3-2024-850W-80-Plus-Gold-金牌-全模組-火牛---Black-黑色---10年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1259,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "psu|psu:seasonic:850:seasonic.focus.gx.3.1.金牌全模組火牛:",
    "category": "psu",
    "brand": "Seasonic",
@@ -47231,6 +47362,12 @@
     "url": "https://www.jumbo-computer.com/zh-hk/products/super-flower-leadex-viii-platinum-pro-1000w-white-白色-platinum-atx-3-1-full-modular-power-supply-sf-1000f14sp-t-w-10年保養",
     "stock": "現貨",
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1398,
+      "url": "https://centralfield.com/product/17284/super-flower-leadex-viii-platinum-pro-1000w-white-atx3-1-psu"
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -48084,31 +48221,6 @@
    "has_official": true
   },
   {
-   "id": "psu|psu:corsair:850:sfx.鉑金全模組.corsair.sf850.sf850:",
-   "category": "psu",
-   "brand": "Corsair",
-   "model_key": "psu:corsair:850:sfx.鉑金全模組.corsair.sf850.sf850:",
-   "title": "【SFX 850W鉑金全模組GEN5】CORSAIR SF850 PLATINUM 【ATX 3】",
-   "spec": "850W",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 1379,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=40776",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1379,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "psu|psu:thermalright:1650:thermalright.tg1650.3.0.tr.tg1650:",
    "category": "psu",
    "brand": "Thermalright",
@@ -48375,31 +48487,6 @@
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
     "url": "https://centralfield.com/product/4967/corsair-sf850-850w-sfx-psu",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1399,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "psu|psu:thermalright:1650:thermalright.利民.tg.利民.tg:black",
-   "category": "psu",
-   "brand": "Thermalright",
-   "model_key": "psu:thermalright:1650:thermalright.利民.tg.利民.tg:black",
-   "title": "ThermalRight 利民 TG-1650 1650W 80Plus Gold 金牌 全模組 火牛 - Black 黑色",
-   "spec": "1000W+",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-43667c96a535a39a.png",
-   "image": "img/hk-43667c96a535a39a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/688c80d7-1968-4b2b-f045-693d1bf7f300/public",
-   "water": null,
-   "official": {
-    "price_hkd": 1399,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/220030/ThermalRight-利民-TG-1650-1650W-80Plus-Gold-金牌-全模組-火牛---Black-黑色---10年保養",
     "stock": "現貨",
     "others": []
    },
@@ -48700,6 +48787,31 @@
     "store": "未來科技 BUYMORE",
     "store_short": "未來科技",
     "url": "https://buymore.hk/shop/goods.php?id=36844",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1450,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "psu|psu:seasonic:1000:金牌全模組.seasonic.focus.gx1000.focus:black",
+   "category": "psu",
+   "brand": "Seasonic",
+   "model_key": "psu:seasonic:1000:金牌全模組.seasonic.focus.gx1000.focus:black",
+   "title": "【1000W金牌全模組GEN5】SEASONIC FOCUS GX1000【黑色】【ATX3.1】",
+   "spec": "1000W+",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 1450,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=35751",
     "stock": "現貨",
     "others": []
    },
@@ -49105,31 +49217,6 @@
    },
    "delta_hkd": null,
    "best_price": 1499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "psu|psu:superflower:1200:super.flower.leadex.viii.pro:",
-   "category": "psu",
-   "brand": "Super Flower",
-   "model_key": "psu:superflower:1200:super.flower.leadex.viii.pro:",
-   "title": "Super Flower 1200W Leadex VIII Platinum Pro 80 PLUS Platinum, ATX 3.1, Full Modular Pow…",
-   "spec": "1000W+",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-73b65936735233b5.png",
-   "image": "img/hk-73b65936735233b5.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/SuperFlowerLeadexVIIIPlatinumPRO1200WP1.png?v=1774267380",
-   "water": null,
-   "official": {
-    "price_hkd": 1518,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/super-flower-leadex-viii-platinum-pro-1200w-black-黑色-pcie-5-1-atx-3-1-80-plus-platinum-白金牌認證全模組化-full-modular-power-supply-sf-1200f14sp-t-10年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1518,
    "has_water": false,
    "has_official": true
   },
@@ -51043,38 +51130,6 @@
    "has_official": true
   },
   {
-   "id": "psu|psu:nzxt:1500:nzxt.c1500.3.1.pa.5p1bb:",
-   "category": "psu",
-   "brand": "NZXT",
-   "model_key": "psu:nzxt:1500:nzxt.c1500.3.1.pa.5p1bb:",
-   "title": "NZXT 1500W C1500 Platinum 80 PLUS Platinum, ATX 3.1, Full Modular Power Supply (PA-5P1B…",
-   "spec": "1000W+",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-15e49b982185bb08.jpg",
-   "image": "img/hk-15e49b982185bb08.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/61pIrirmY8L._AC_SL1000.jpg?v=1730201655",
-   "water": null,
-   "official": {
-    "price_hkd": 2450,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/nzxt-1500w-c1500-gold-80plus-gold-atx3-1-full-modular-power-supply-pa-5g1bb-uk",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2599,
-      "url": "https://secomputer.com.hk/products/54170"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2450,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "psu|psu:fsp:1650:fsp.全漢.hydro.ptm.pro:",
    "category": "psu",
    "brand": "FSP",
@@ -51141,6 +51196,31 @@
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/231511/MSI-微星-MPG-Ai1300TS-PCIE5-1300W-80Plus-TITANIUM-鈦金牌-全模組-火牛",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "psu|psu:nzxt:1500:nzxt.c1500.fully.3.1.pa:black",
+   "category": "psu",
+   "brand": "NZXT",
+   "model_key": "psu:nzxt:1500:nzxt.c1500.fully.3.1.pa:black",
+   "title": "NZXT C1500 80PLUS Platinum 1500W Fully Modular ATX 3.1 PSU (Black, PA-5P1BB-UK, 10年保養)",
+   "spec": "1000W+",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-21a5aa47c9623fe1.webp",
+   "image": "img/hk-21a5aa47c9623fe1.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/feecb430994e8b00731c5fbd8a8872ab.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2599,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/54170",
     "stock": "現貨",
     "others": []
    },
@@ -51271,31 +51351,6 @@
    },
    "delta_hkd": null,
    "best_price": 3199,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "psu|psu:asrock:1650:asrock.華擎.taichi.tc.1650t:",
-   "category": "psu",
-   "brand": "ASRock",
-   "model_key": "psu:asrock:1650:asrock.華擎.taichi.tc.1650t:",
-   "title": "ASRock 華擎 Taichi TC-1650T 1650W 80Plus Titanium 鈦金牌 全模組 火牛",
-   "spec": "1000W+",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f890c5ccbb14cb00.png",
-   "image": "img/hk-f890c5ccbb14cb00.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/aae905ef-6d63-43e8-b260-7036e2315500/public",
-   "water": null,
-   "official": {
-    "price_hkd": 3299,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224569/ASRock-華擎-Taichi-TC-1650T-1650W-80Plus-Titanium-鈦金牌-全模組-火牛---10年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 3299,
    "has_water": false,
    "has_official": true
   },
@@ -51550,38 +51605,6 @@
    "has_official": true
   },
   {
-   "id": "psu|psu:seasonic:1600:seasonic.prime.tx.3.1.年保養:",
-   "category": "psu",
-   "brand": "Seasonic",
-   "model_key": "psu:seasonic:1600:seasonic.prime.tx.3.1.年保養:",
-   "title": "SEASONIC PRIME TX-1600 1600W ATX3.1 GEN5 Power Supply (80PLUS Titanium, SSR-1600TR2(TX)…",
-   "spec": "1000W+",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ad2f6ccb633c24a2.png",
-   "image": "img/hk-ad2f6ccb633c24a2.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/atx3-prime-tx-1600-psu-box_a054088b-bc0a-4d91-af83-2aeb3b7713dc.png?v=1695717800",
-   "water": null,
-   "official": {
-    "price_hkd": 4050,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/seasonic-1600w-prime-tx-1600-atx-3-0-pcie5-0-80plus-titaninum-full-modular-power-supply",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 4350,
-      "url": "https://secomputer.com.hk/products/50077"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 4050,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "psu|psu:fsp:1650:fsp.全漢.mega.ti.鈦金牌:",
    "category": "psu",
    "brand": "FSP",
@@ -51603,6 +51626,31 @@
    },
    "delta_hkd": null,
    "best_price": 4200,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "psu|psu:seasonic:1600:seasonic.prime.tx.ssr.1600tr2:",
+   "category": "psu",
+   "brand": "Seasonic",
+   "model_key": "psu:seasonic:1600:seasonic.prime.tx.ssr.1600tr2:",
+   "title": "SEASONIC PRIME TX-1600 1600W ATX3.1 GEN5 Power Supply (80PLUS Titanium, SSR-1600TR2(TX)…",
+   "spec": "1000W+",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3547eea7cfe17a51.webp",
+   "image": "img/hk-3547eea7cfe17a51.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/a89a0f6269f5c0a04f266413f0111181.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4350,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/50077",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4350,
    "has_water": false,
    "has_official": true
   },
@@ -51763,6 +51811,69 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:adata:spectrixd35g:ddr4:dimm:32:3200:white:2x16:cl?",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:spectrixd35g:ddr4:dimm:32:3200:white:2x16:cl?",
+   "title": "ADATA Spectrix D35G RGB 32GB 白色套裝 (2x16GB) D4-3200C16 (AX4U320016G16A-DTWHD35G)",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d210d2b29dfc9e54.png",
+   "image": "img/hk-d210d2b29dfc9e54.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/e81d1e4f-5102-43ec-8fad-1f229de90200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 2080,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/14529/adata-spectrix-d35g-rgb-32gb-ddr4-3200-white-ram",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2299,
+      "url": "https://shop.pegasus.hk/products/216008/ADATA-XPG-SPECTRIX-RGB-D35G-DDR4-White-32GB-16GB-x-2-3200MHz-CL16-AX4U320016G16A-DTWHD35G---Limited-Lifetime保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 2080,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:spectrixd35g:ddr4:dimm:32:3200:black:2x16:cl?",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:spectrixd35g:ddr4:dimm:32:3200:black:2x16:cl?",
+   "title": "ADATA Spectrix D35G RGB 32GB 黑色套裝 (2x16GB) D4-3200C16 (AX4U320016G16A-DTBKD35G)",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 2080,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/5382/adata-spectrix-d35g-rgb-32gb-ddr4-3200mhz-black",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2080,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:g.skill:ripjawsv:ddr4:dimm:32:3600:black:2x16:cl18",
    "category": "ram",
    "brand": "G.Skill",
@@ -51903,34 +52014,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:adata:x:d35g:ddr4:dimm:32:3200:white:2x16:cl16",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:x:d35g:ddr4:dimm:32:3200:white:2x16:cl16",
-   "title": "ADATA XPG SPECTRIX RGB D35G DDR4 White 32GB (16GB x 2) 3200MHz CL16",
-   "spec": "DDR4 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR4"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d210d2b29dfc9e54.png",
-   "image": "img/hk-d210d2b29dfc9e54.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/e81d1e4f-5102-43ec-8fad-1f229de90200/public",
-   "water": null,
-   "official": {
-    "price_hkd": 2299,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/216008/ADATA-XPG-SPECTRIX-RGB-D35G-DDR4-White-32GB-16GB-x-2-3200MHz-CL16-AX4U320016G16A-DTWHD35G---Limited-Lifetime保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:corsair:vengeancelpx:ddr4:dimm:32:3200:black:2x16:cl16",
    "category": "ram",
    "brand": "Corsair",
@@ -52036,7 +52119,7 @@
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
-      "price_hkd": 2575,
+      "price_hkd": 2580,
       "url": "https://centralfield.com/product/5404/corsair-vengeance-rgb-rs-32gb-ddr4-3200c16-black"
      },
      {
@@ -52242,6 +52325,42 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:adata:std:ddr5:dimm:32:5600:black:1x32:cl46",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:std:ddr5:dimm:32:5600:black:1x32:cl46",
+   "title": "ADATA Desktop Value 32GB 單條 (1x32GB) D5-5600C46(AD5U560032G-S)(RM-AD5C32)",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f1127e7519e5e5c3.png",
+   "image": "img/hk-f1127e7519e5e5c3.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/8dbc0556-ab90-4b63-9fd4-f24dc8d86200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 3399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/218549/ADATA-Desktop-Value-DDR5-32GB-32GB-x-1-5600MHz-CL46-AD5U560032G-S---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 3580,
+      "url": "https://centralfield.com/product/5351/adata-32gb-ddr5-5600-cl46-desktop-memory-ad5u560032g-s"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 3399,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:adata:std:ddr5:dimm:32:5600:black:2x16:cl46",
    "category": "ram",
    "brand": "ADATA",
@@ -52262,35 +52381,6 @@
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/212764/ADATA-Desktop-Value-DDR5-32GB-16GB-x-2-5600MHz-CL46-AD5U560016G-S--2---Limited-Lifetime保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 3399,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:adata:std:ddr5:dimm:32:5600:black:1x32:cl46",
-   "category": "ram",
-   "brand": "ADATA",
-   "model_key": "ram:adata:std:ddr5:dimm:32:5600:black:1x32:cl46",
-   "title": "ADATA Desktop Value DDR5 32GB (32GB x 1) 5600MHz CL46",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "5600"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f1127e7519e5e5c3.png",
-   "image": "img/hk-f1127e7519e5e5c3.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/8dbc0556-ab90-4b63-9fd4-f24dc8d86200/public",
-   "water": null,
-   "official": {
-    "price_hkd": 3399,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/218549/ADATA-Desktop-Value-DDR5-32GB-32GB-x-1-5600MHz-CL46-AD5U560032G-S---Limited-Lifetime保養",
     "stock": "現貨",
     "others": []
    },
@@ -52327,12 +52417,6 @@
       "store_short": "飛馬",
       "price_hkd": 3499,
       "url": "https://shop.pegasus.hk/products/219865/ADATA-XPG-Lancer-Blade-DDR5-White-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABWH---Limited-Lifetime保養"
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 3699,
-      "url": "https://buymore.hk/shop/goods.php?id=42305"
      },
      {
       "store": "Jumbo 珍寶電腦",
@@ -52384,48 +52468,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:crucial:std:ddr5:sodimm:32:5600:black:1x32:cl46",
-   "category": "ram",
-   "brand": "Crucial",
-   "model_key": "ram:crucial:std:ddr5:sodimm:32:5600:black:1x32:cl46",
-   "title": "Crucial DDR5 SODIMM 32GB (1x32GB) DDR5 5600MHz CT32G56C46S5 Memory (RM-NCD5C32)",
-   "spec": "DDR5-5600 · SODIMM",
-   "filter_tags": [
-    "SODIMM",
-    "DDR5",
-    "5600"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-19025d5f2ca6500a.png",
-   "image": "img/hk-19025d5f2ca6500a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/7e99a60a-3521-4bab-38ab-14ce51980a00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 3499,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/217097/Crucial-DDR5-SO-DIMM-32GB-32GB-x-1-5600MHz-CL46-CT32G56C46S5---Limited-Lifetime保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 3580,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-ddr5-sodimm-32gb-1x32gb-ddr5-5600mhz-ct32g56c46s5-memory"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 3730,
-      "url": "https://secomputer.com.hk/products/52998"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 3499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:5600:black:2x16:cl46",
    "category": "ram",
    "brand": "ADATA",
@@ -52448,6 +52490,48 @@
     "url": "https://shop.pegasus.hk/products/235123/ADATA-XPG-Lancer-Blade-RGB-DDR5-32GB-16GB-x-2-5600MHz-CL46-AX5U5600C4616G-DTLABRBK---Limited-Lifetime保養",
     "stock": "現貨",
     "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:crucial:std:ddr5:sodimm:32:5600:black:1x32:cl46",
+   "category": "ram",
+   "brand": "Crucial",
+   "model_key": "ram:crucial:std:ddr5:sodimm:32:5600:black:1x32:cl46",
+   "title": "Crucial DDR5 SODIMM 32GB (1x32GB) DDR5 5600MHz CT32G56C46S5 Memory (RM-NCD5C32)",
+   "spec": "DDR5-5600 · SODIMM",
+   "filter_tags": [
+    "SODIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-19025d5f2ca6500a.png",
+   "image": "img/hk-19025d5f2ca6500a.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/7e99a60a-3521-4bab-38ab-14ce51980a00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 3599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/217097/Crucial-DDR5-SO-DIMM-32GB-32GB-x-1-5600MHz-CL46-CT32G56C46S5---Limited-Lifetime保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 3730,
+      "url": "https://secomputer.com.hk/products/52998"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 3800,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-ddr5-sodimm-32gb-1x32gb-ddr5-5600mhz-ct32g56c46s5-memory"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 3599,
@@ -52545,7 +52629,7 @@
      {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
-      "price_hkd": 4300,
+      "price_hkd": 3930,
       "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-32gb-kit-2x16gb-pro-overclocking-ddr5-6000-udimm-cp2k16g60c36u5b-support-amd-expo"
      },
      {
@@ -52670,7 +52754,7 @@
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
-      "price_hkd": 3749,
+      "price_hkd": 3849,
       "url": "https://shop.pegasus.hk/products/222837/ADATA-XPG-Lancer-Blade-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL48-AX5U6000C4816G-DTLABRBK---Limited-Lifetime保養"
      }
     ]
@@ -52775,35 +52859,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:crucial:std:ddr5:dimm:32:5600:black:1x32:cl46",
-   "category": "ram",
-   "brand": "Crucial",
-   "model_key": "ram:crucial:std:ddr5:dimm:32:5600:black:1x32:cl46",
-   "title": "Crucial 32GB (1x32GB) CT32G56C46U5 DDR5 5600MHz UDIMM Memory (RM-DCD5C32)",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "5600"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5bee14e870920fec.png",
-   "image": "img/hk-5bee14e870920fec.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/image_2f888c85-57f2-4178-9e2e-2378a338d9fd.png?v=1698669118",
-   "water": null,
-   "official": {
-    "price_hkd": 3750,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-32gb-1x32gb-ct32g56c46u5-ddr5-5600mhz-memory",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 3750,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:klevv:std:ddr5:dimm:32:5600:black:1x32:cl46",
    "category": "ram",
    "brand": "Klevv",
@@ -52833,6 +52888,35 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:agi:x:6000c30.ud858:ddr5:dimm:32:6000:white:2x16:cl?",
+   "category": "ram",
+   "brand": "AGI",
+   "model_key": "ram:agi:x:6000c30.ud858:ddr5:dimm:32:6000:white:2x16:cl?",
+   "title": "AGI UD858 TURBOJET RGB 32GB 白色套裝 (2x16GB) D5-6000C30 (XMP/EXPO)(AGI6APD16UD858-DC)",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6008ebd66d62a3c4.webp",
+   "image": "img/hk-6008ebd66d62a3c4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21364.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3780,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21364/agi-ud858-turbojet-rgb-32gb-ddr5-6000c30-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3780,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl32",
    "category": "ram",
    "brand": "Corsair",
@@ -52858,7 +52942,7 @@
      {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
-      "price_hkd": 3799,
+      "price_hkd": 4299,
       "url": "https://buymore.hk/shop/goods.php?id=34532"
      }
     ]
@@ -52889,6 +52973,35 @@
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
     "url": "https://centralfield.com/product/21985/crucial-pro-32gb-ddr5-6000c36-cp2k16g60c36u5w",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3780,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:v-color:x?:ddr5.32gb.6000mhz.v.color.manta.xsky.rgb.32gb.16gbx2.cl30.黑色:ddr5:dimm:32:6000:black:2x16:cl30",
+   "category": "ram",
+   "brand": "V-Color",
+   "model_key": "ram:v-color:x?:ddr5.32gb.6000mhz.v.color.manta.xsky.rgb.32gb.16gbx2.cl30.黑色:ddr5:dimm:32:6000:black:2x16:cl30",
+   "title": "【DDR5 32GB 6000Mhz】V-COLOR MANTA XSKY RGB 32GB (16GBx2) CL30【黑色】",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 3780,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=47840",
     "stock": "現貨",
     "others": []
    },
@@ -53050,6 +53163,35 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:crucial:std:ddr5:dimm:32:5600:black:1x32:cl46",
+   "category": "ram",
+   "brand": "Crucial",
+   "model_key": "ram:crucial:std:ddr5:dimm:32:5600:black:1x32:cl46",
+   "title": "Crucial 32GB (1x32GB) CT32G56C46U5 DDR5 5600MHz UDIMM Memory (RM-DCD5C32)",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5bee14e870920fec.png",
+   "image": "img/hk-5bee14e870920fec.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/image_2f888c85-57f2-4178-9e2e-2378a338d9fd.png?v=1698669118",
+   "water": null,
+   "official": {
+    "price_hkd": 3800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-32gb-1x32gb-ct32g56c46u5-ddr5-5600mhz-memory",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3800,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:crucial:pro:ddr5:dimm:32:6400:black:2x16:cl38",
    "category": "ram",
    "brand": "Crucial",
@@ -53075,6 +53217,35 @@
    },
    "delta_hkd": null,
    "best_price": 3860,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:white:2x16:cl48",
+   "category": "ram",
+   "brand": "ADATA",
+   "model_key": "ram:adata:lancerbladergb:ddr5:dimm:32:6000:white:2x16:cl48",
+   "title": "ADATA XPG Lancer Blade RGB 32GB 白色套裝 (2x16GB) D5-6000C48 (AX5U6000C4816G-DTLABRWH)(XMP/…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-cbd881510fd70a31.webp",
+   "image": "img/hk-cbd881510fd70a31.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12110.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 3880,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12110/adata-xpg-lancer-blade-rgb-32gb-ddr5-6000mhz-white",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 3880,
    "has_water": false,
    "has_official": true
   },
@@ -54401,60 +54572,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl28",
-   "category": "ram",
-   "brand": "Klevv",
-   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl28",
-   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXP…",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-37c6a345ae863be2.webp",
-   "image": "img/hk-37c6a345ae863be2.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/13057.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4250,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=44854",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 4340,
-      "url": "https://centralfield.com/product/13057/klevv-cras-v-rgb-32gb-ddr5-6000c28"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 4379,
-      "url": "https://secomputer.com.hk/products/57556"
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 4431,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-black-黑色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-cv16x2-kd5agua80-60b280g"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 4499,
-      "url": "https://shop.pegasus.hk/products/224727/Klevv-科賦-CRAS-V-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL28--KD5AGUA80-60B280G---Limited-Lifetime保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 4250,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:adata:lancerblade:ddr5:dimm:32:6400:white:2x16:cl32",
    "category": "ram",
    "brand": "ADATA",
@@ -54909,6 +55026,60 @@
    },
    "delta_hkd": null,
    "best_price": 4300,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ram|ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl28",
+   "category": "ram",
+   "brand": "Klevv",
+   "model_key": "ram:klevv:crasv:ddr5:dimm:32:6000:black:2x16:cl28",
+   "title": "KLEVV CRAS V RGB Black 黑色 DDR5 32GB (2x16GB) 6000MHz CL28 SK Hynix A-Die Memory AMD EXP…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-37c6a345ae863be2.webp",
+   "image": "img/hk-37c6a345ae863be2.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13057.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4340,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13057/klevv-cras-v-rgb-32gb-ddr5-6000c28",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4379,
+      "url": "https://secomputer.com.hk/products/57556"
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 4400,
+      "url": "https://buymore.hk/shop/goods.php?id=44854"
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4431,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/klevv-cras-v-rgb-black-黑色-ddr5-32gb-2x16gb-6000mhz-cl28-memory-sk-hynix-chip-amd-expo-intel-xmp-3-0-cv16x2-kd5agua80-60b280g"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4499,
+      "url": "https://shop.pegasus.hk/products/224727/Klevv-科賦-CRAS-V-RGB-DDR5-32GB-16GB-x-2-6000MHz-CL28--KD5AGUA80-60B280G---Limited-Lifetime保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4340,
    "has_water": false,
    "has_official": true
   },
@@ -56907,15 +57078,9 @@
     "stock": "現貨",
     "others": [
      {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 7250,
-      "url": "https://centralfield.com/product/11666/crucial-nb-64gb-d5-5600-sodimm-memory"
-     },
-     {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
-      "price_hkd": 7500,
+      "price_hkd": 7600,
       "url": "https://www.jumbo-computer.com/zh-hk/products/crucial-ddr5-sodimm-64gb-kit-2x32gb-ddr5-5600mhz-ct2k32g56c46s5-memory-rm-dc5du64"
      }
     ]
@@ -57964,54 +58129,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:6000:black:2x32:cl30",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:6000:black:2x32:cl30",
-   "title": "CORSAIR 64GB Kit (2x32GB) VENGEANCE CMK64GX5M2B6000Z30 DDR5 6000MHz CL30 Memory (AMD EX…",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3b1d69f2dc57d4fe.jpg",
-   "image": "img/hk-3b1d69f2dc57d4fe.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/fa0c2d2c-8c1d-48e7-0049-f7868600d800/public",
-   "water": null,
-   "official": {
-    "price_hkd": 8599,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/215228/Corsair-VENGEANCE-DDR5-64GB-32GB-x-2-6000MHz-CL30-CMK64GX5M2B6000Z30---Limited-Lifetime保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 8800,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-64gb-kit-2x32gb-vengeance-cmk64gx5m2b6000z30-ddr5-6000mhz-memory-amd-expo"
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 8899,
-      "url": "https://buymore.hk/shop/goods.php?id=36428"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 8900,
-      "url": "https://centralfield.com/product/5514/corsair-vengeance-64gb-ddr5-6000-c30-ram"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 8599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ram|ram:g.skill:flarex5:ddr5:dimm:64:6000:white:2x32:cl36",
    "category": "ram",
    "brand": "G.Skill",
@@ -58070,6 +58187,48 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:6000:black:2x32:cl30",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:6000:black:2x32:cl30",
+   "title": "CORSAIR 64GB Kit (2x32GB) VENGEANCE CMK64GX5M2B6000Z30 DDR5 6000MHz CL30 Memory (AMD EX…",
+   "spec": "DDR5-6000 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6000"
+   ],
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8cbc1c61318f85ea.png",
+   "image": "img/hk-8cbc1c61318f85ea.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Corsair_Vengeance.png?v=1739435160",
+   "water": null,
+   "official": {
+    "price_hkd": 8800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-64gb-kit-2x32gb-vengeance-cmk64gx5m2b6000z30-ddr5-6000mhz-memory-amd-expo",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 8899,
+      "url": "https://buymore.hk/shop/goods.php?id=36428"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8900,
+      "url": "https://centralfield.com/product/5514/corsair-vengeance-64gb-ddr5-6000-c30-ram"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 8800,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:kingston:furybeastrgb:ddr5:dimm:64:6000:white:2x32:cl30",
    "category": "ram",
    "brand": "Kingston",
@@ -58124,35 +58283,6 @@
    },
    "delta_hkd": null,
    "best_price": 8800,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:dominatorplatinum:ddr5:dimm:64:6000:black:2x32:cl30",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:dominatorplatinum:ddr5:dimm:64:6000:black:2x32:cl30",
-   "title": "Corsair Dominator Platinum RGB 64GB 黑色套裝 (2x32GB) D5-6000C30 (CMT64GX5M2B6000Z30)(EXPO/…",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ae9cfc9f0fc431fd.webp",
-   "image": "img/hk-ae9cfc9f0fc431fd.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/5592.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 8850,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/5592/corsair-dominator-platinum-rgb-64gb-ddr5-6000c30",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 8850,
    "has_water": false,
    "has_official": true
   },
@@ -58818,44 +58948,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:klevv:c715:1000:nohs:",
-   "category": "ssd",
-   "brand": "Klevv",
-   "model_key": "ssd:klevv:c715:1000:nohs:",
-   "title": "KLEVV CRAS C715 1TB M.2 PCIe® Gen3x4 NVMe SSD (Read: 3,200MB/s, Write: 2000MB/s, K01TBM…",
-   "spec": "1TB NVMe PCIe Gen3",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c49638a861d1325f.jpg",
-   "image": "img/hk-c49638a861d1325f.jpg",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/9e186145792f056905f5eca290a3ab82.jpg",
-   "water": null,
-   "official": {
-    "price_hkd": 1099,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=42887",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1380,
-      "url": "https://secomputer.com.hk/products/57529"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1399,
-      "url": "https://centralfield.com/product/2689/klevv-cras-c715-1tb-gen3-m2-ssd"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1099,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:wd:sn3000:1000:nohs:",
    "category": "ssd",
    "brand": "WD",
@@ -59003,7 +59095,7 @@
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
       "price_hkd": 1300,
-      "url": "https://centralfield.com/product/2489/kingston-nv3-1tb-gen4-m2-ssd-snv3s-1000g"
+      "url": "https://centralfield.com/product/22053/kingston-nv3-1tb-gen4-m2-ssd"
      }
     ]
    },
@@ -59334,46 +59426,27 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:wd:sn7100:1000:nohs:",
+   "id": "ssd|ssd:kodak:x:x250s:960:nohs:",
    "category": "ssd",
-   "brand": "WD",
-   "model_key": "ssd:wd:sn7100:1000:nohs:",
-   "title": "WD_BLACK 1TB SN7100 WDS100T4X0E M.2 2280 PCIe Gen4 x4 SSD (R:7,250 MB/s / W:6,900 MB/s)…",
-   "spec": "1TB NVMe PCIe Gen4",
+   "brand": "Kodak",
+   "model_key": "ssd:kodak:x:x250s:960:nohs:",
+   "title": "Kodak 柯達 X250S 960GB M.2 2280 SATA 固態硬碟",
+   "spec": "1TB SATA M.2",
    "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a38937667c0f9791.png",
-   "image": "img/hk-a38937667c0f9791.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/WD_1TB_SN7100_BOX_1.png?v=1742391015",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a7476a730dfcc0ee.webp",
+   "image": "img/hk-a7476a730dfcc0ee.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22081.webp",
    "water": null,
    "official": {
-    "price_hkd": 1289,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/wd_black-1tb-sn7100-wds100t4x0e-m-2-2280-pcie-gen4-x4-ssd",
+    "price_hkd": 1293,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22081/kodak-x250s-960gb-m2-sata-ssd",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1399,
-      "url": "https://secomputer.com.hk/products/55853"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1450,
-      "url": "https://centralfield.com/product/1787/wd-black-sn7100-1tb-gen4-m2-ssd-wds100t4x0e"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1499,
-      "url": "https://shop.pegasus.hk/products/222301/WD-Black-SN7100-1TB-PCIe-40-NVMe-M2-SSD-WDS100T4X0E---5年保養"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
-   "best_price": 1289,
+   "best_price": 1293,
    "has_water": false,
    "has_official": true
   },
@@ -59390,7 +59463,7 @@
    "image_fallback_url": "https://centralfield.com/Pimg/18003.webp",
    "water": null,
    "official": {
-    "price_hkd": 1290,
+    "price_hkd": 1299,
     "store": "中田電腦 Centralfield",
     "store_short": "中田",
     "url": "https://centralfield.com/product/18003/crucial-p310-1tb-gen4-m2-ssd-2",
@@ -59417,32 +59490,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 1290,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:kodak:x:x250s:960:nohs:",
-   "category": "ssd",
-   "brand": "Kodak",
-   "model_key": "ssd:kodak:x:x250s:960:nohs:",
-   "title": "Kodak 柯達 X250S 960GB M.2 2280 SATA 固態硬碟",
-   "spec": "1TB SATA M.2",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a7476a730dfcc0ee.webp",
-   "image": "img/hk-a7476a730dfcc0ee.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/22081.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1293,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/22081/kodak-x250s-960gb-m2-sata-ssd",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1293,
+   "best_price": 1299,
    "has_water": false,
    "has_official": true
   },
@@ -59497,6 +59545,50 @@
     "url": "https://centralfield.com/product/18444/teamgroup-ga-pro-1tb-gen5-nvme-m2-ssd",
     "stock": "現貨",
     "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1310,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:wd:sn7100:1000:nohs:",
+   "category": "ssd",
+   "brand": "WD",
+   "model_key": "ssd:wd:sn7100:1000:nohs:",
+   "title": "WD_BLACK 1TB SN7100 WDS100T4X0E M.2 2280 PCIe Gen4 x4 SSD (R:7,250 MB/s / W:6,900 MB/s)…",
+   "spec": "1TB NVMe PCIe Gen4",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a38937667c0f9791.png",
+   "image": "img/hk-a38937667c0f9791.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/WD_1TB_SN7100_BOX_1.png?v=1742391015",
+   "water": null,
+   "official": {
+    "price_hkd": 1310,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/wd_black-1tb-sn7100-wds100t4x0e-m-2-2280-pcie-gen4-x4-ssd",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1399,
+      "url": "https://secomputer.com.hk/products/55853"
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1450,
+      "url": "https://centralfield.com/product/1787/wd-black-sn7100-1tb-gen4-m2-ssd-wds100t4x0e"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1499,
+      "url": "https://shop.pegasus.hk/products/222301/WD-Black-SN7100-1TB-PCIe-40-NVMe-M2-SSD-WDS100T4X0E---5年保養"
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 1310,
@@ -59619,6 +59711,38 @@
    },
    "delta_hkd": null,
    "best_price": 1350,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:klevv:c715:1000:nohs:",
+   "category": "ssd",
+   "brand": "Klevv",
+   "model_key": "ssd:klevv:c715:1000:nohs:",
+   "title": "KLEVV CRAS C715 1TB M.2 PCIe® Gen3x4 NVMe SSD (Read: 3,200MB/s, Write: 2000MB/s, K01TBM…",
+   "spec": "1TB NVMe PCIe Gen3",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c49638a861d1325f.jpg",
+   "image": "img/hk-c49638a861d1325f.jpg",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/9e186145792f056905f5eca290a3ab82.jpg",
+   "water": null,
+   "official": {
+    "price_hkd": 1380,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/57529",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1399,
+      "url": "https://centralfield.com/product/2689/klevv-cras-c715-1tb-gen3-m2-ssd"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1380,
    "has_water": false,
    "has_official": true
   },
@@ -60896,6 +61020,31 @@
    "has_official": true
   },
   {
+   "id": "ssd|ssd:huadisk:x?:m.2.gen4.2tb.huadisk.nvme.4.0.2000gb.讀.7.100mb.s.寫.5.700mb.s:2000:nohs:",
+   "category": "ssd",
+   "brand": "HuaDisk",
+   "model_key": "ssd:huadisk:x?:m.2.gen4.2tb.huadisk.nvme.4.0.2000gb.讀.7.100mb.s.寫.5.700mb.s:2000:nohs:",
+   "title": "【M.2 GEN4 2TB】HUADISK NVME 4.0 2000GB (讀: 7,100MB/s 寫: 5,700MB/s)",
+   "spec": "2TB NVMe PCIe Gen4",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 1899,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=47367",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1899,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ssd|ssd:wd:sn8100:1000:nohs:",
    "category": "ssd",
    "brand": "WD",
@@ -61035,10 +61184,10 @@
       "url": "https://www.jumbo-computer.com/zh-hk/products/adata-2tb-legend-860-sleg-860-2000gcs-m-2-2280-pcie-gen4-x4-ssd"
      },
      {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 2599,
-      "url": "https://buymore.hk/shop/goods.php?id=43140"
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2600,
+      "url": "https://centralfield.com/product/14235/adata-legend-860-2tb-gen4-m2-ssd"
      }
     ]
    },
@@ -61075,7 +61224,7 @@
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
-      "price_hkd": 2199,
+      "price_hkd": 2299,
       "url": "https://shop.pegasus.hk/products/211339/Kingston-Fury-Renegade-2TB-PCIe-40-NVMe-M2-SSD-w-Heatsink-連散熱片-SFYRDK2000G---5年保養"
      },
      {
@@ -61698,6 +61847,44 @@
    "has_official": true
   },
   {
+   "id": "ssd|ssd:samsung:870evo:1000:nohs:",
+   "category": "ssd",
+   "brand": "Samsung",
+   "model_key": "ssd:samsung:870evo:1000:nohs:",
+   "title": "Samsung 2.5\" 870 EVO 1TB MZ-77E1T0BW SATA3 SSD",
+   "spec": "1TB SATA 2.5\"",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-679b3ce2ddd0b3bb.webp",
+   "image": "img/hk-679b3ce2ddd0b3bb.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/13074.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2280,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13074/samsung-870evo-1tb-sata-iii-ssd",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2299,
+      "url": "https://secomputer.com.hk/products/41411"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2299,
+      "url": "https://shop.pegasus.hk/products/204717/Samsung-三星-870-EVO-1TB-25-SATA-III-SSD-MZ-77E1T0BW---5年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 2280,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ssd|ssd:acer:gm6:2000:nohs:",
    "category": "ssd",
    "brand": "Acer",
@@ -61752,44 +61939,6 @@
       "store_short": "SE",
       "price_hkd": 3199,
       "url": "https://secomputer.com.hk/products/53085"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ssd|ssd:samsung:870evo:1000:nohs:",
-   "category": "ssd",
-   "brand": "Samsung",
-   "model_key": "ssd:samsung:870evo:1000:nohs:",
-   "title": "Samsung 2.5\" 870 EVO 1TB MZ-77E1T0BW SATA3 SSD",
-   "spec": "1TB SATA 2.5\"",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6a4208c1dd381382.webp",
-   "image": "img/hk-6a4208c1dd381382.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/6de809be8d1e4a97fae1b81df64e26cf.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2299,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/41411",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 2299,
-      "url": "https://shop.pegasus.hk/products/204717/Samsung-三星-870-EVO-1TB-25-SATA-III-SSD-MZ-77E1T0BW---5年保養"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2300,
-      "url": "https://centralfield.com/product/2579/samsung-870evo-1tb-sata-iii-ssd-2"
      }
     ]
    },
@@ -62222,50 +62371,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:crucial:t710:2000:nohs:",
-   "category": "ssd",
-   "brand": "Crucial",
-   "model_key": "ssd:crucial:t710:2000:nohs:",
-   "title": "Crucial T710 2TB PCIe Gen5 NVMe 2280 M.2 SSD (R:14,900MB/s W:13,800MB/s, CT2000T710SSD8…",
-   "spec": "2TB NVMe PCIe Gen5",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b3e3a0833734d84.webp",
-   "image": "img/hk-5b3e3a0833734d84.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/3ac8794d041bdcce18b136ab281aced3.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2610,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=46984",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2680,
-      "url": "https://secomputer.com.hk/products/62252"
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2680,
-      "url": "https://centralfield.com/product/20608/crucial-t710-2tb-gen5-m2-ssd-2"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 2699,
-      "url": "https://shop.pegasus.hk/products/228166/Crucial-T710-2TB-PCIe-50-NVMe-M2-SSD---5年保養"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2610,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:samsung:990pro:2000:nohs:",
    "category": "ssd",
    "brand": "Samsung",
@@ -62337,6 +62442,44 @@
    },
    "delta_hkd": null,
    "best_price": 2650,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "ssd|ssd:crucial:t710:2000:nohs:",
+   "category": "ssd",
+   "brand": "Crucial",
+   "model_key": "ssd:crucial:t710:2000:nohs:",
+   "title": "Crucial T710 2TB PCIe Gen5 NVMe 2280 M.2 SSD (R:14,900MB/s W:13,800MB/s, CT2000T710SSD8…",
+   "spec": "2TB NVMe PCIe Gen5",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5b3e3a0833734d84.webp",
+   "image": "img/hk-5b3e3a0833734d84.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/3ac8794d041bdcce18b136ab281aced3.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2680,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/62252",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2680,
+      "url": "https://centralfield.com/product/20608/crucial-t710-2tb-gen5-m2-ssd-2"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2699,
+      "url": "https://shop.pegasus.hk/products/228166/Crucial-T710-2TB-PCIe-50-NVMe-M2-SSD---5年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 2680,
    "has_water": false,
    "has_official": true
   },
@@ -62562,31 +62705,6 @@
    "has_official": true
   },
   {
-   "id": "ssd|ssd:acer:gm9000:2000:nohs:",
-   "category": "ssd",
-   "brand": "Acer",
-   "model_key": "ssd:acer:gm9000:2000:nohs:",
-   "title": "Acer Predator GM9000 2TB PCIe 5.0 NVMe M.2 SSD",
-   "spec": "2TB NVMe PCIe Gen5",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0fdcfaef7e846f84.jpg",
-   "image": "img/hk-0fdcfaef7e846f84.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/51dab7f4-e9bf-4241-ed3a-a32cfdfe2a00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 2899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/222974/Acer-Predator-GM9000-2TB-PCIe-50-NVMe-M2-SSD---5年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 2899,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "ssd|ssd:samsung:990pro:2000:hs:",
    "category": "ssd",
    "brand": "Samsung",
@@ -62612,6 +62730,31 @@
    "has_official": true
   },
   {
+   "id": "ssd|ssd:acer:gm9000:2000:nohs:",
+   "category": "ssd",
+   "brand": "Acer",
+   "model_key": "ssd:acer:gm9000:2000:nohs:",
+   "title": "Acer Predator GM9000 2TB PCIe 5.0 NVMe M.2 SSD",
+   "spec": "2TB NVMe PCIe Gen5",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0fdcfaef7e846f84.jpg",
+   "image": "img/hk-0fdcfaef7e846f84.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/51dab7f4-e9bf-4241-ed3a-a32cfdfe2a00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 2999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/222974/Acer-Predator-GM9000-2TB-PCIe-50-NVMe-M2-SSD---5年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 2999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "ssd|ssd:samsung:9100pro:2000:nohs:",
    "category": "ssd",
    "brand": "Samsung",
@@ -62631,16 +62774,16 @@
     "stock": "現貨",
     "others": [
      {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 3099,
+      "url": "https://shop.pegasus.hk/products/223737/Samsung-三星-9100-PRO-2TB-PCIe-50-NVMe-M2-SSD-MZ-VAP2T0BW---5年保養"
+     },
+     {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
       "price_hkd": 3150,
       "url": "https://centralfield.com/product/13798/samsung-9100pro-2tb-gen5-nvme-m2-ssd-3"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 3199,
-      "url": "https://shop.pegasus.hk/products/223737/Samsung-三星-9100-PRO-2TB-PCIe-50-NVMe-M2-SSD-MZ-VAP2T0BW---5年保養"
      }
     ]
    },
@@ -62795,22 +62938,22 @@
    "title": "Samsung 2TB 870 EVO MZ-77E2T0BW 2.5\" SATA 6Gb/s SSD (R:560 MB/s / W:530 MB/s) (HD-S87E2…",
    "spec": "2TB SATA 2.5\"",
    "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-621635ffea26090a.jpg",
-   "image": "img/hk-621635ffea26090a.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/MZ-77E2T0BW_006_Black.webp?v=1695898498",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3da4a924b6ef3843.webp",
+   "image": "img/hk-3da4a924b6ef3843.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2584.webp",
    "water": null,
    "official": {
-    "price_hkd": 4580,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/samsung-2tb-870-evo-mz-77e2t0bw-2-5-sata-6gb-s-ssd",
+    "price_hkd": 4150,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/2584/samsung-870evo-2tb-sata-iii-2-5-ssd-4",
     "stock": "現貨",
     "others": [
      {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 4650,
-      "url": "https://centralfield.com/product/2584/samsung-870evo-2tb-sata-iii-2-5-ssd-4"
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4580,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/samsung-2tb-870-evo-mz-77e2t0bw-2-5-sata-6gb-s-ssd"
      },
      {
       "store": "SE Computer",
@@ -62827,7 +62970,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 4580,
+   "best_price": 4150,
    "has_water": false,
    "has_official": true
   },
