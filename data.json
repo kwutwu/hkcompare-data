@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T05:08:24Z",
- "generated_at_hkt": "2026-10-13 13:08 HKT",
- "price_updated_hkt": "2026-10-13 13:08 HKT",
+ "generated_at": "2026-10-13T05:24:14Z",
+ "generated_at_hkt": "2026-10-13 13:24 HKT",
+ "price_updated_hkt": "2026-10-13 13:24 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-12 09:59–13:54 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261012/hkcompare_rows.json",
@@ -23447,38 +23447,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|inno3d:5070:2x",
-   "category": "gpu",
-   "brand": "Inno3D",
-   "model_key": "inno3d:5070:2x",
-   "title": "【RTX5070】INNO3D RTX5070 TWIN X2 12GB [黑色] [長:250mm]",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bb5442af62480233.webp",
-   "image": "img/hk-bb5442af62480233.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/11582.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 6499,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11582/inno3d-rtx-5070-x2-12gb-gddr7",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 6899,
-      "url": "https://buymore.hk/shop/goods.php?id=43920"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 6499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5070:2x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
@@ -23490,7 +23458,7 @@
    "image": "img/hk-0267beecf48f040a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
    "water": {
-    "price_hkd": 6507,
+    "price_hkd": 6487,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -23523,9 +23491,41 @@
      }
     ]
    },
-   "delta_hkd": 692,
-   "best_price": 6507,
+   "delta_hkd": 712,
+   "best_price": 6487,
    "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|inno3d:5070:2x",
+   "category": "gpu",
+   "brand": "Inno3D",
+   "model_key": "inno3d:5070:2x",
+   "title": "【RTX5070】INNO3D RTX5070 TWIN X2 12GB [黑色] [長:250mm]",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bb5442af62480233.webp",
+   "image": "img/hk-bb5442af62480233.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11582.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 6499,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11582/inno3d-rtx-5070-x2-12gb-gddr7",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 6899,
+      "url": "https://buymore.hk/shop/goods.php?id=43920"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 6499,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -24769,6 +24769,36 @@
    "has_official": false
   },
   {
+   "id": "gpu|pny:5070ti:oc+triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc+triple",
+   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9334,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DXL7GSYC",
+    "url": "https://www.amazon.de/dp/B0DXL7GSYC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9334,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|pny:5070ti:oc|water",
    "category": "gpu",
    "brand": "PNY",
@@ -24795,36 +24825,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 9334,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|pny:5070ti:oc+triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5070ti:oc+triple",
-   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 9363,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DXL7GSYC",
-    "url": "https://www.amazon.de/dp/B0DXL7GSYC",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 9363,
    "has_water": true,
    "has_official": false
   },
@@ -25092,12 +25092,12 @@
    "image": "img/hk-733836fa60c702e5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/486214b6-de3c-43f0-ab3a-9c9e22aa2e00/public",
    "water": {
-    "price_hkd": 9838,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
+    "price_hkd": 9826,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
     "asin": "B0DTGNB9Q5",
-    "url": "https://www.amazon.es/dp/B0DTGNB9Q5",
+    "url": "https://www.amazon.de/dp/B0DTGNB9Q5",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5070ti:oc+sff+windforce",
@@ -25119,8 +25119,8 @@
      }
     ]
    },
-   "delta_hkd": 561,
-   "best_price": 9838,
+   "delta_hkd": 573,
+   "best_price": 9826,
    "has_water": true,
    "has_official": true
   },
