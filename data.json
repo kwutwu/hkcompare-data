@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-13T22:25:43Z",
- "generated_at_hkt": "2026-10-14 06:25 HKT",
- "price_updated_hkt": "2026-10-14 06:25 HKT",
+ "generated_at": "2026-10-13T22:31:53Z",
+ "generated_at_hkt": "2026-10-14 06:31 HKT",
+ "price_updated_hkt": "2026-10-14 06:31 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-13 09:58–19:57 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261013/hkcompare_rows.json",
@@ -60,10 +60,10 @@
  },
  "stats": {
   "items": 2267,
-  "both_sides": 28,
+  "both_sides": 27,
   "water_only": 19,
-  "official_only": 2216,
-  "matched_water": 29,
+  "official_only": 2217,
+  "matched_water": 28,
   "official_groups": 2267,
   "id_merge": {
    "enabled": true,
@@ -88,9 +88,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 19,
+   "amazon_cached": 18,
    "official_downloaded": 0,
-   "official_cached": 2045,
+   "official_cached": 2046,
    "failed": 0
   },
   "image_samples": [
@@ -153,10 +153,10 @@
   ],
   "ivan": {
    "total_listings": 173,
-   "qualified": 87,
-   "deduped": 48,
+   "qualified": 86,
+   "deduped": 47,
    "excluded": {
-    "seller": 95,
+    "seller": 96,
     "ship unknown": 5,
     "no ship": 15,
     "used": 1,
@@ -26418,50 +26418,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:gaming trio+oc",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming trio+oc",
-   "title": "MSI GeForce RTX 5080 16G Gaming Trio OC - Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BX6LGM2X.jpg",
-   "image": "img/B0BX6LGM2X.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 12518,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0BX6LGM2X",
-    "url": "https://www.amazon.co.uk/dp/B0BX6LGM2X",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:gaming trio+oc",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14750,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/10678/msi-rtx-5080-gaming-trio-oc-16gb",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 14800,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7"
-     }
-    ]
-   },
-   "delta_hkd": 2232,
-   "best_price": 12518,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|pny:5080:triple|water",
    "category": "gpu",
    "brand": "PNY",
@@ -27321,6 +27277,38 @@
    "best_price": 14529,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|msi:5080:gaming trio+oc",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:gaming trio+oc",
+   "title": "MSI GeForce RTX 5080 GAMING TRIO OC 16GB GDDR7 (DI-N5080L1)",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-403a6dfd06668330.webp",
+   "image": "img/hk-403a6dfd06668330.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10678.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 14750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10678/msi-rtx-5080-gaming-trio-oc-16gb",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 14800,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 14750,
+   "has_water": false,
+   "has_official": true
   },
   {
    "id": "gpu|msi:5080:gaming trio+oc+white",
