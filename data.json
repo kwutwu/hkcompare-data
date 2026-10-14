@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-14T13:11:53Z",
- "generated_at_hkt": "2026-10-14 21:11 HKT",
- "price_updated_hkt": "2026-10-14 21:11 HKT",
+ "generated_at": "2026-10-14T13:33:42Z",
+ "generated_at_hkt": "2026-10-14 21:33 HKT",
+ "price_updated_hkt": "2026-10-14 21:33 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-14 09:58–14:49 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261014/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 132,
+   "count": 133,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2149,
+  "items": 2150,
   "both_sides": 34,
-  "water_only": 20,
+  "water_only": 21,
   "official_only": 2091,
   "matched_water": 36,
-  "official_groups": 2149,
+  "official_groups": 2150,
   "id_merge": {
    "enabled": true,
    "unions_upc": 143,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 176,
-   "qualified": 105,
-   "deduped": 56,
+   "qualified": 106,
+   "deduped": 57,
    "excluded": {
     "seller": 89,
     "no ship": 15,
@@ -25785,7 +25785,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 8015,
+      "price_hkd": 8028,
       "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
      }
     ]
@@ -26311,6 +26311,38 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070:|water",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5070:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7516,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0H6M1Z5TM",
+    "url": "https://www.amazon.fr/dp/B0H6M1Z5TM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7516,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|asus:5070:oc",
    "category": "gpu",
    "brand": "ASUS",
@@ -26431,7 +26463,7 @@
    "image": "img/hk-7bfb4df0de75c040.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/72208b96-8399-4698-d933-4144351e6700/public",
    "water": {
-    "price_hkd": 8076,
+    "price_hkd": 8088,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26464,8 +26496,8 @@
      }
     ]
    },
-   "delta_hkd": 23,
-   "best_price": 8076,
+   "delta_hkd": 11,
+   "best_price": 8088,
    "has_water": true,
    "has_official": true
   },
@@ -26517,7 +26549,7 @@
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
    "water": {
-    "price_hkd": 8567,
+    "price_hkd": 8580,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26562,7 +26594,7 @@
      }
     ]
    },
-   "delta_hkd": -268,
+   "delta_hkd": -281,
    "best_price": 8299,
    "has_water": true,
    "has_official": true
@@ -26862,7 +26894,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9731,
+    "price_hkd": 9746,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26876,7 +26908,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9731,
+   "best_price": 9746,
    "has_water": true,
    "has_official": false
   },
@@ -27231,7 +27263,7 @@
    "image": "img/hk-72a67e50e3a027fe.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4bbbff23-9575-4c8e-962b-5a4bd93b5a00/public",
    "water": {
-    "price_hkd": 10086,
+    "price_hkd": 10087,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -27258,8 +27290,8 @@
      }
     ]
    },
-   "delta_hkd": 1213,
-   "best_price": 10086,
+   "delta_hkd": 1212,
+   "best_price": 10087,
    "has_water": true,
    "has_official": true
   },
