@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-14T14:48:55Z",
- "generated_at_hkt": "2026-10-14 22:48 HKT",
- "price_updated_hkt": "2026-10-14 22:48 HKT",
+ "generated_at": "2026-10-14T15:08:42Z",
+ "generated_at_hkt": "2026-10-14 23:08 HKT",
+ "price_updated_hkt": "2026-10-14 23:08 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-14 09:58–14:49 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261014/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 133,
+   "count": 132,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2201,
+  "items": 2200,
   "both_sides": 49,
-  "water_only": 72,
+  "water_only": 71,
   "official_only": 2076,
   "matched_water": 53,
-  "official_groups": 2201,
+  "official_groups": 2200,
   "id_merge": {
    "enabled": true,
    "unions_upc": 143,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 176,
-   "qualified": 176,
-   "deduped": 125,
+   "qualified": 175,
+   "deduped": 124,
    "excluded": {
     "seller": 89,
     "ship unknown": 6,
@@ -163,10 +163,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 32,
+    "ivan_gpu_rows": 31,
     "nic_jp_rows": 81,
     "skipped": {
-     "bad_or_dup": 44
+     "bad_or_dup": 43
     }
    }
   }
@@ -26317,38 +26317,6 @@
    "best_price": 7499,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:|water",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5070:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7516,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0H6M1Z5TM",
-    "url": "https://www.amazon.fr/dp/B0H6M1Z5TM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7516,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|asus:5070:oc",
