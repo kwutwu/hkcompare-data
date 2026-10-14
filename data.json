@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-14T12:07:59Z",
- "generated_at_hkt": "2026-10-14 20:07 HKT",
- "price_updated_hkt": "2026-10-14 20:07 HKT",
+ "generated_at": "2026-10-14T12:29:26Z",
+ "generated_at_hkt": "2026-10-14 20:29 HKT",
+ "price_updated_hkt": "2026-10-14 20:29 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-14 09:58–14:49 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261014/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 131,
+   "count": 132,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2148,
-  "both_sides": 32,
-  "water_only": 19,
-  "official_only": 2093,
-  "matched_water": 33,
-  "official_groups": 2148,
+  "items": 2149,
+  "both_sides": 34,
+  "water_only": 20,
+  "official_only": 2091,
+  "matched_water": 36,
+  "official_groups": 2149,
   "id_merge": {
    "enabled": true,
    "unions_upc": 143,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 175,
-   "qualified": 100,
-   "deduped": 52,
+   "qualified": 105,
+   "deduped": 56,
    "excluded": {
     "seller": 87,
     "no ship": 16,
@@ -25780,7 +25780,15 @@
     "note": "已含運費 + 2%",
     "match_by": "part number GV-N5070EAGLEOC-12GD",
     "source": "amazon",
-    "others": []
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "日本 Amazon",
+      "price_hkd": 8015,
+      "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
+     }
+    ]
    },
    "official": {
     "price_hkd": 7199,
@@ -26422,7 +26430,19 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7bfb4df0de75c040.png",
    "image": "img/hk-7bfb4df0de75c040.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/72208b96-8399-4698-d933-4144351e6700/public",
-   "water": null,
+   "water": {
+    "price_hkd": 8076,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DX7GSX7B",
+    "url": "https://www.amazon.co.jp/dp/B0DX7GSX7B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5070:gaming trio+oc",
+    "source": "amazon",
+    "others": []
+   },
    "official": {
     "price_hkd": 8099,
     "store": "飛馬 PEGASUS",
@@ -26444,9 +26464,9 @@
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 8099,
-   "has_water": false,
+   "delta_hkd": 23,
+   "best_price": 8076,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -26496,7 +26516,19 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-21c3d81db934b2c5.png",
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
-   "water": null,
+   "water": {
+    "price_hkd": 8567,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DZ62D3MP",
+    "url": "https://www.amazon.co.jp/dp/B0DZ62D3MP",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number TUF-RTX5070-O12G-GAMING",
+    "source": "amazon",
+    "others": []
+   },
    "official": {
     "price_hkd": 8299,
     "store": "未來科技 BUYMORE",
@@ -26530,9 +26562,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -268,
    "best_price": 8299,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -26817,6 +26849,38 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5070:oc+slim|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5070:oc+slim",
+   "part_number": "VCG507012DFSXPB1",
+   "upc": null,
+   "title": "PNY GeForce RTX 5070 12GB OC SLIM Graphics Board VCG507012DFSXPB1-O VD9404",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9731,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0GSXJPTLN",
+    "url": "https://www.amazon.co.jp/dp/B0GSXJPTLN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9731,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gainward:5070ti:gs+phoenix",
    "category": "gpu",
    "brand": "Gainward",
@@ -26988,7 +27052,7 @@
    "image": "img/hk-733836fa60c702e5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/486214b6-de3c-43f0-ab3a-9c9e22aa2e00/public",
    "water": {
-    "price_hkd": 9856,
+    "price_hkd": 9855,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -27015,8 +27079,8 @@
      }
     ]
    },
-   "delta_hkd": 543,
-   "best_price": 9856,
+   "delta_hkd": 544,
+   "best_price": 9855,
    "has_water": true,
    "has_official": true
   },
