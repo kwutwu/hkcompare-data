@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-14T20:09:00Z",
- "generated_at_hkt": "2026-10-15 04:09 HKT",
- "price_updated_hkt": "2026-10-15 04:09 HKT",
+ "generated_at": "2026-10-14T20:30:57Z",
+ "generated_at_hkt": "2026-10-15 04:30 HKT",
+ "price_updated_hkt": "2026-10-15 04:30 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-14 09:58–14:49 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261014/hkcompare_rows.json",
@@ -165,7 +165,7 @@
     "ivan_gpu_rows": 37,
     "nic_jp_rows": 81,
     "skipped": {
-     "bad_or_dup": 47
+     "bad_or_dup": 46
     }
    }
   }
@@ -25816,60 +25816,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:eagle+oc+sff",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:eagle+oc+sff",
-   "part_number": "GV-N5070EAGLEOC-12GD",
-   "upc": "0889523048412",
-   "title": "GIGABYTE 技嘉 GeForce RTX5070 EAGLE OC SFF 12GB (GV-N5070EAGLE OC-12GD)",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-85953dbb3d937cb0.png",
-   "image": "img/hk-85953dbb3d937cb0.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/1f165c23-fd5e-4723-0cb7-7bba95970900/public",
-   "water": {
-    "price_hkd": 7016,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTGP4M7J",
-    "url": "https://www.amazon.es/dp/B0DTGP4M7J",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number GV-N5070EAGLEOC-12GD",
-    "source": "amazon",
-    "others": [
-     {
-      "source": "amazon",
-      "store_short": null,
-      "marketplace": "日本 Amazon",
-      "price_hkd": 8015,
-      "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
-     }
-    ]
-   },
-   "official": {
-    "price_hkd": 7199,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223410/GIGABYTE-技嘉-GeForce-RTX-5070-EAGLE-OC-SFF-12G-顯示卡---3年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 7580,
-      "url": "https://secomputer.com.hk/products/56671"
-     }
-    ]
-   },
-   "delta_hkd": 183,
-   "best_price": 7016,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|?:5070:",
    "category": "gpu",
    "brand": "Leadtek",
@@ -25966,6 +25912,60 @@
    },
    "delta_hkd": 975,
    "best_price": 7125,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070:eagle+oc+sff",
+   "category": "gpu",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:eagle+oc+sff",
+   "part_number": "GV-N5070EAGLEOC-12GD",
+   "upc": "0889523048412",
+   "title": "GIGABYTE 技嘉 GeForce RTX5070 EAGLE OC SFF 12GB (GV-N5070EAGLE OC-12GD)",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-85953dbb3d937cb0.png",
+   "image": "img/hk-85953dbb3d937cb0.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/1f165c23-fd5e-4723-0cb7-7bba95970900/public",
+   "water": {
+    "price_hkd": 7136,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DTGP4M7J",
+    "url": "https://www.amazon.fr/dp/B0DTGP4M7J",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number GV-N5070EAGLEOC-12GD",
+    "source": "amazon",
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "日本 Amazon",
+      "price_hkd": 8015,
+      "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
+     }
+    ]
+   },
+   "official": {
+    "price_hkd": 7199,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223410/GIGABYTE-技嘉-GeForce-RTX-5070-EAGLE-OC-SFF-12G-顯示卡---3年保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7580,
+      "url": "https://secomputer.com.hk/products/56671"
+     }
+    ]
+   },
+   "delta_hkd": 63,
+   "best_price": 7136,
    "has_water": true,
    "has_official": true
   },
