@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-14T06:59:45Z",
- "generated_at_hkt": "2026-10-14 14:59 HKT",
- "price_updated_hkt": "2026-10-14 14:59 HKT",
+ "generated_at": "2026-10-14T07:05:57Z",
+ "generated_at_hkt": "2026-10-14 15:05 HKT",
+ "price_updated_hkt": "2026-10-14 15:05 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-14 09:58–14:49 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261014/hkcompare_rows.json",
@@ -152,14 +152,14 @@
    }
   ],
   "ivan": {
-   "total_listings": 173,
-   "qualified": 95,
+   "total_listings": 174,
+   "qualified": 96,
    "deduped": 51,
    "excluded": {
-    "seller": 89,
+    "seller": 88,
     "no ship": 17,
     "used": 1,
-    "not desktop GPU": 1
+    "not desktop GPU": 2
    }
   }
  },
@@ -26125,54 +26125,24 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:argb+oc+triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+oc+triple",
-   "title": "PNY GeForce RTX™ 5080 16GB ARGB OC Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJDR3V9.jpg",
-   "image": "img/B0DTJDR3V9.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 12163,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DTJDR3V9",
-    "url": "https://www.amazon.de/dp/B0DTJDR3V9",
-    "stock": "Only 4 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 12163,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5080:3x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
    "model_key": "msi:5080:3x+oc+ventus",
-   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
+   "title": "MSI NVIDIA GeForce RTX 5080 16G Ventus 3X OC Graphics Card",
    "spec": "RTX 5080",
    "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
-   "image": "img/B0GZWW2RKH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT6NZ9V9.jpg",
+   "image": "img/B0DT6NZ9V9.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71PEi8EcUBL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12193,
+    "price_hkd": 12155,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
-    "asin": "B0GZWW2RKH",
-    "url": "https://www.amazon.de/dp/B0GZWW2RKH",
-    "stock": "In stock",
+    "asin": "B0DT6NZ9V9",
+    "url": "https://www.amazon.de/dp/B0DT6NZ9V9",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+oc+ventus",
     "source": "amazon",
@@ -26205,10 +26175,40 @@
      }
     ]
    },
-   "delta_hkd": 1706,
-   "best_price": 12193,
+   "delta_hkd": 1744,
+   "best_price": 12155,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5080:argb+oc+triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+oc+triple",
+   "title": "PNY GeForce RTX™ 5080 16GB ARGB OC Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJDR3V9.jpg",
+   "image": "img/B0DTJDR3V9.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 12163,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DTJDR3V9",
+    "url": "https://www.amazon.de/dp/B0DTJDR3V9",
+    "stock": "Only 4 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12163,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gainward:5080:python",
@@ -26991,7 +26991,7 @@
    "image": "img/B0DS65KD1C.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13800,
+    "price_hkd": 13846,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -27024,8 +27024,8 @@
      }
     ]
    },
-   "delta_hkd": 1999,
-   "best_price": 13800,
+   "delta_hkd": 1953,
+   "best_price": 13846,
    "has_water": true,
    "has_official": true
   },
