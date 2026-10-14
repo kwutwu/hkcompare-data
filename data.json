@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-14T06:52:30Z",
- "generated_at_hkt": "2026-10-14 14:52 HKT",
- "price_updated_hkt": "2026-10-14 14:52 HKT",
+ "generated_at": "2026-10-14T06:59:45Z",
+ "generated_at_hkt": "2026-10-14 14:59 HKT",
+ "price_updated_hkt": "2026-10-14 14:59 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-14 09:58–14:49 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261014/hkcompare_rows.json",
@@ -89,8 +89,8 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 21,
-   "official_downloaded": 25,
-   "official_cached": 1938,
+   "official_downloaded": 0,
+   "official_cached": 1963,
    "failed": 0
   },
   "image_samples": [
@@ -23622,7 +23622,7 @@
    "image": "img/hk-9e0e66f1d7b9fb42.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/782b0949-3349-46a7-f54d-3c03865a6d00/public",
    "water": {
-    "price_hkd": 6703,
+    "price_hkd": 6725,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -23642,8 +23642,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 996,
-   "best_price": 6703,
+   "delta_hkd": 974,
+   "best_price": 6725,
    "has_water": true,
    "has_official": true
   },
@@ -23721,7 +23721,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6735,
+    "price_hkd": 6757,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -23735,7 +23735,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6735,
+   "best_price": 6757,
    "has_water": true,
    "has_official": false
   },
@@ -24775,7 +24775,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9151,
+    "price_hkd": 9181,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -24789,7 +24789,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9151,
+   "best_price": 9181,
    "has_water": true,
    "has_official": false
   },
@@ -25347,7 +25347,7 @@
    "image": "img/hk-09b228b293e166fa.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/46ac5ca0-d115-417e-6236-0bfa8eb1a500/public",
    "water": {
-    "price_hkd": 10093,
+    "price_hkd": 10127,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -25367,8 +25367,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 806,
-   "best_price": 10093,
+   "delta_hkd": 772,
+   "best_price": 10127,
    "has_water": true,
    "has_official": true
   },
@@ -25857,56 +25857,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5070ti:oc+tuf+white",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5070ti:oc+tuf+white",
-   "title": "ASUS TUF GeForce RTX 5070 Ti OC White 16GB GDDR7 TUF-RTX5070TI-O16G-WHITE-GAMING (DI-E5…",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1ba4dd49a0f4422.png",
-   "image": "img/hk-d1ba4dd49a0f4422.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/10_7fe1c1e5-a242-4a8d-bd9b-43dba59f1f49.png?v=1761378599",
-   "water": {
-    "price_hkd": 11677,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DWMJSGCM",
-    "url": "https://www.amazon.co.uk/dp/B0DWMJSGCM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5070ti:oc+tuf+white",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 11800,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/少量現貨-asus-tuf-geforce-rtx-5070-ti-oc-white-16gb-gddr7-tuf-rtx5070ti-o16g-white-gaming-di-e507tu1",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 11999,
-      "url": "https://shop.pegasus.hk/products/224825/ASUS-華碩-TUF-Gaming-GeForce-RTX-5070-Ti-16GB-OC-WHITE-顯示卡---3年保養"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 12699,
-      "url": "https://secomputer.com.hk/products/57600"
-     }
-    ]
-   },
-   "delta_hkd": 123,
-   "best_price": 11677,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|zotac:5070ti:apocalypse+oc+white",
    "category": "gpu",
    "brand": "Zotac",
@@ -25942,6 +25892,56 @@
    "delta_hkd": null,
    "best_price": 11700,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5070ti:oc+tuf+white",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5070ti:oc+tuf+white",
+   "title": "ASUS TUF GeForce RTX 5070 Ti OC White 16GB GDDR7 TUF-RTX5070TI-O16G-WHITE-GAMING (DI-E5…",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1ba4dd49a0f4422.png",
+   "image": "img/hk-d1ba4dd49a0f4422.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/10_7fe1c1e5-a242-4a8d-bd9b-43dba59f1f49.png?v=1761378599",
+   "water": {
+    "price_hkd": 11716,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DWMJSGCM",
+    "url": "https://www.amazon.co.uk/dp/B0DWMJSGCM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070ti:oc+tuf+white",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 11800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/少量現貨-asus-tuf-geforce-rtx-5070-ti-oc-white-16gb-gddr7-tuf-rtx5070ti-o16g-white-gaming-di-e507tu1",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 11999,
+      "url": "https://shop.pegasus.hk/products/224825/ASUS-華碩-TUF-Gaming-GeForce-RTX-5070-Ti-16GB-OC-WHITE-顯示卡---3年保養"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 12699,
+      "url": "https://secomputer.com.hk/products/57600"
+     }
+    ]
+   },
+   "delta_hkd": 84,
+   "best_price": 11716,
+   "has_water": true,
    "has_official": true
   },
   {
