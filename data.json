@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-14T23:08:23Z",
- "generated_at_hkt": "2026-10-15 07:08 HKT",
- "price_updated_hkt": "2026-10-15 07:08 HKT",
+ "generated_at": "2026-10-14T23:34:41Z",
+ "generated_at_hkt": "2026-10-15 07:34 HKT",
+ "price_updated_hkt": "2026-10-15 07:34 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-14 09:58–14:49 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261014/hkcompare_rows.json",
@@ -152,11 +152,11 @@
    }
   ],
   "ivan": {
-   "total_listings": 178,
+   "total_listings": 179,
    "qualified": 187,
    "deduped": 126,
    "excluded": {
-    "seller": 91,
+    "seller": 92,
     "no ship": 13,
     "used": 1,
     "not desktop GPU": 2
@@ -28441,38 +28441,6 @@
    "has_official": false
   },
   {
-   "id": "gpu|pny:5080:argb+oc+triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB ARGB OC Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJDR3V9.jpg",
-   "image": "img/B0DTJDR3V9.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 12665,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DTJDR3V9",
-    "url": "https://www.amazon.de/dp/B0DTJDR3V9",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 12665,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|pny:5080:argb+oc+triple+verto|water",
    "category": "gpu",
    "brand": "PNY",
@@ -28562,6 +28530,38 @@
    "best_price": 12699,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5080:argb+oc+triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5080 16GB ARGB OC Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJDR3V9.jpg",
+   "image": "img/B0DTJDR3V9.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 12739,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DTJDR3V9",
+    "url": "https://www.amazon.de/dp/B0DTJDR3V9",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12739,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|inno3d:5080:3x",
@@ -29677,7 +29677,7 @@
     "domain": "amazon.com",
     "asin": "B0FKX6LPR6",
     "url": "https://www.amazon.com/dp/B0FKX6LPR6",
-    "stock": "Only 4 left in stock - order soon.",
+    "stock": "Only 3 left in stock - order soon.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:astral+oc+rog+white",
     "source": "amazon",
