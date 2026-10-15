@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-15T07:58:19Z",
- "generated_at_hkt": "2026-10-15 15:58 HKT",
- "price_updated_hkt": "2026-10-15 15:58 HKT",
+ "generated_at": "2026-10-15T08:10:25Z",
+ "generated_at_hkt": "2026-10-15 16:10 HKT",
+ "price_updated_hkt": "2026-10-15 16:10 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-15 09:53–12:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261015/hkcompare_rows.json",
@@ -88,9 +88,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 20,
+   "amazon_cached": 21,
    "official_downloaded": 0,
-   "official_cached": 1953,
+   "official_cached": 1952,
    "failed": 0
   },
   "image_samples": [
@@ -153,10 +153,10 @@
   ],
   "ivan": {
    "total_listings": 179,
-   "qualified": 183,
+   "qualified": 181,
    "deduped": 127,
    "excluded": {
-    "seller": 95,
+    "seller": 97,
     "no ship": 14,
     "used": 1,
     "not desktop GPU": 2
@@ -28197,7 +28197,7 @@
    "image": "img/B0H5NNTMTH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12614,
+    "price_hkd": 12580,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -28217,8 +28217,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 1785,
-   "best_price": 12614,
+   "delta_hkd": 1819,
+   "best_price": 12580,
    "has_water": true,
    "has_official": true
   },
@@ -28306,7 +28306,7 @@
     "domain": "amazon.it",
     "asin": "B0DS65VMC6",
     "url": "https://www.amazon.it/dp/B0DS65VMC6",
-    "stock": "Only 10 left in stock.",
+    "stock": "Only 9 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:oc+prime",
     "source": "amazon",
@@ -28637,17 +28637,17 @@
    "title": "GIGABYTE 技嘉 AERO SFF GeForce RTX 5080 16G OC 顯示卡",
    "spec": "RTX 5080",
    "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7605c119ad8d845d.png",
-   "image": "img/hk-7605c119ad8d845d.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/8343a1dc-a9cf-472b-a3eb-669b61cc8700/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ3B6PH.jpg",
+   "image": "img/B0DSQ3B6PH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13252,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DT7JVPVH",
-    "url": "https://www.amazon.de/dp/B0DT7JVPVH",
-    "stock": "Only 1 left in stock.",
+    "price_hkd": 13422,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DSQ3B6PH",
+    "url": "https://www.amazon.co.uk/dp/B0DSQ3B6PH",
+    "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:aero+oc+sff",
     "source": "amazon",
@@ -28661,8 +28661,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 2747,
-   "best_price": 13252,
+   "delta_hkd": 2577,
+   "best_price": 13422,
    "has_water": true,
    "has_official": true
   },
