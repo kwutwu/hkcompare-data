@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-15T13:33:30Z",
- "generated_at_hkt": "2026-10-15 21:33 HKT",
- "price_updated_hkt": "2026-10-15 21:33 HKT",
+ "generated_at": "2026-10-15T13:41:45Z",
+ "generated_at_hkt": "2026-10-15 21:41 HKT",
+ "price_updated_hkt": "2026-10-15 21:41 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-15 09:53–12:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261015/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 128,
+   "count": 129,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2196,
+  "items": 2197,
   "both_sides": 48,
-  "water_only": 75,
+  "water_only": 76,
   "official_only": 2071,
   "matched_water": 52,
-  "official_groups": 2196,
+  "official_groups": 2197,
   "id_merge": {
    "enabled": true,
    "unions_upc": 139,
@@ -88,7 +88,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 20,
+   "amazon_cached": 21,
    "official_downloaded": 0,
    "official_cached": 1952,
    "failed": 0
@@ -153,14 +153,13 @@
   ],
   "ivan": {
    "total_listings": 184,
-   "qualified": 187,
-   "deduped": 127,
+   "qualified": 188,
+   "deduped": 128,
    "excluded": {
-    "seller": 100,
-    "used": 2,
-    "no ship": 12,
-    "not desktop GPU": 2,
-    "ship unknown": 1
+    "seller": 96,
+    "used": 4,
+    "no ship": 14,
+    "not desktop GPU": 2
    },
    "amazon_exports": {
     "ivan_gpu_rows": 36,
@@ -27658,6 +27657,38 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:3x+oc+shadow|water",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+shadow",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5080 16G SHADOW 3X OC Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BT9R5XNN.jpg",
+   "image": "img/B0BT9R5XNN.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71vuPWXUwNL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 11567,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0BT9R5XNN",
+    "url": "https://www.amazon.co.uk/dp/B0BT9R5XNN",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11567,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|zotac:5070ti:apocalypse+oc+white",
    "category": "gpu",
    "brand": "Zotac",
@@ -28160,7 +28191,7 @@
     "domain": "amazon.fr",
     "asin": "B0H5NNTMTH",
     "url": "https://www.amazon.fr/dp/B0H5NNTMTH",
-    "stock": "Only 12 left in stock.",
+    "stock": "Only 11 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "source": "amazon",
@@ -28231,7 +28262,7 @@
     "domain": "amazon.it",
     "asin": "B0DS65VMC6",
     "url": "https://www.amazon.it/dp/B0DS65VMC6",
-    "stock": "Only 5 left in stock.",
+    "stock": "Only 6 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:oc+prime",
     "source": "amazon",
@@ -28551,6 +28582,52 @@
    "best_price": 13218,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|msi:5080:3x+inspire+oc",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+inspire+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
+   "image": "img/B0GWRN4Q36.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13374,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0GWRN4Q36",
+    "url": "https://www.amazon.co.uk/dp/B0GWRN4Q36",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+inspire+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14199,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223249/MSI-微星-GeForce-RTX-5080-16G-INSPIRE-3X-OC-顯示卡",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 14899,
+      "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb"
+     }
+    ]
+   },
+   "delta_hkd": 825,
+   "best_price": 13374,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5080:aero+oc+sff",
@@ -28930,40 +29007,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+inspire+oc",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+inspire+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5080 Inspire 3X OC 16GB 顯示卡 三風扇超頻版",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8c0a7ec4900853cf.png",
-   "image": "img/hk-8c0a7ec4900853cf.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c8d0272b-db47-45fc-2ce1-88a36010e400/public",
-   "water": null,
-   "official": {
-    "price_hkd": 14199,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223249/MSI-微星-GeForce-RTX-5080-16G-INSPIRE-3X-OC-顯示卡",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 14899,
-      "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 14199,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|zotac:5080:oc+solid",
    "category": "gpu",
    "brand": "Zotac",
@@ -29294,45 +29337,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5080:astral+oc+rog",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5080:astral+oc+rog",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS ROG ASTRAL RTX5080 OC 16GB GDDR7 NVIDIA GeForce Graphics Card, Black",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS643QRW.jpg",
-   "image": "img/B0DS643QRW.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81Wcw8qLt3L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15808,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DS643QRW",
-    "url": "https://www.amazon.it/dp/B0DS643QRW",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:astral+oc+rog",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 17999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 2191,
-   "best_price": 15808,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|nvidia:5080:",
    "category": "gpu",
    "brand": "NVIDIA",
@@ -29434,7 +29438,7 @@
    "image": "img/B0FKX6LPR6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81gkdvlaWTL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 17211,
+    "price_hkd": 17209,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -29473,9 +29477,36 @@
      }
     ]
    },
-   "delta_hkd": 788,
-   "best_price": 17211,
+   "delta_hkd": 790,
+   "best_price": 17209,
    "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5080:astral+oc+rog",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5080:astral+oc+rog",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS 華碩 ROG Astral GeForce RTX 5080 16G OC 顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1bd06cce248dd8ab.jpg",
+   "image": "img/hk-1bd06cce248dd8ab.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/dcb6d469-102c-4f2c-172a-340905359b00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 17999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 17999,
+   "has_water": false,
    "has_official": true
   },
   {
