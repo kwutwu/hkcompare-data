@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-15T03:12:41Z",
- "generated_at_hkt": "2026-10-15 11:12 HKT",
- "price_updated_hkt": "2026-10-15 11:12 HKT",
+ "generated_at": "2026-10-15T03:33:22Z",
+ "generated_at_hkt": "2026-10-15 11:33 HKT",
+ "price_updated_hkt": "2026-10-15 11:33 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-14 09:58–14:49 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261014/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 133,
+   "count": 132,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2201,
+  "items": 2200,
   "both_sides": 50,
-  "water_only": 72,
+  "water_only": 71,
   "official_only": 2075,
   "matched_water": 54,
-  "official_groups": 2201,
+  "official_groups": 2200,
   "id_merge": {
    "enabled": true,
    "unions_upc": 143,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 179,
-   "qualified": 186,
-   "deduped": 126,
+   "qualified": 185,
+   "deduped": 125,
    "excluded": {
     "seller": 93,
     "no ship": 13,
@@ -162,7 +162,7 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 35,
+    "ivan_gpu_rows": 34,
     "nic_jp_rows": 81,
     "skipped": {
      "bad_or_dup": 43
@@ -25792,7 +25792,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 8032,
+      "price_hkd": 8028,
       "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
      }
     ]
@@ -26246,38 +26246,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:aorus+master|water",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:aorus+master",
-   "part_number": "GV-N5070AORUSM-12GD",
-   "upc": null,
-   "title": "Gigabyte AORUS GeForce RTX 5070 MASTER 12G Graphics Card - 12GB GDDR7, 192bit, PCI-E 5.…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7471,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DTGMBHQ3",
-    "url": "https://www.amazon.co.uk/dp/B0DTGMBHQ3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7471,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5070:3x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
@@ -26316,38 +26284,6 @@
    "best_price": 7499,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:|water",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5070:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7508,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0H6M1Z5TM",
-    "url": "https://www.amazon.fr/dp/B0H6M1Z5TM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7508,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|asus:5070:oc",
@@ -26457,6 +26393,38 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070:aorus+master|water",
+   "category": "gpu",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:aorus+master",
+   "part_number": "GV-N5070AORUSM-12GD",
+   "upc": null,
+   "title": "GIGABYTE AORUS GeForce RTX 5070 Master 12G Graphics Card - 12GB GDDR7, 192-bit, PCI-E 5…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7804,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DTGMBHQ3",
+    "url": "https://www.amazon.es/dp/B0DTGMBHQ3",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7804,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5070:gaming trio+oc",
    "category": "gpu",
    "brand": "MSI",
@@ -26470,7 +26438,7 @@
    "image": "img/hk-7bfb4df0de75c040.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/72208b96-8399-4698-d933-4144351e6700/public",
    "water": {
-    "price_hkd": 8092,
+    "price_hkd": 8089,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26503,8 +26471,8 @@
      }
     ]
    },
-   "delta_hkd": 7,
-   "best_price": 8092,
+   "delta_hkd": 10,
+   "best_price": 8089,
    "has_water": true,
    "has_official": true
   },
@@ -26556,7 +26524,7 @@
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
    "water": {
-    "price_hkd": 8584,
+    "price_hkd": 8580,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26601,7 +26569,7 @@
      }
     ]
    },
-   "delta_hkd": -285,
+   "delta_hkd": -281,
    "best_price": 8299,
    "has_water": true,
    "has_official": true
@@ -26823,7 +26791,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9751,
+    "price_hkd": 9747,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26837,7 +26805,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9751,
+   "best_price": 9747,
    "has_water": true,
    "has_official": false
   },
@@ -27715,7 +27683,7 @@
    "image": "img/hk-4b9d165a1fb2d4d8.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/15265.webp",
    "water": {
-    "price_hkd": 11207,
+    "price_hkd": 11208,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -27748,8 +27716,8 @@
      }
     ]
    },
-   "delta_hkd": 892,
-   "best_price": 11207,
+   "delta_hkd": 891,
+   "best_price": 11208,
    "has_water": true,
    "has_official": true
   },
