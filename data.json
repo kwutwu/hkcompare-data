@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-15T06:06:34Z",
- "generated_at_hkt": "2026-10-15 14:06 HKT",
- "price_updated_hkt": "2026-10-15 14:06 HKT",
+ "generated_at": "2026-10-15T06:27:43Z",
+ "generated_at_hkt": "2026-10-15 14:27 HKT",
+ "price_updated_hkt": "2026-10-15 14:27 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-15 09:53–12:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261015/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 128,
+   "count": 129,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2193,
+  "items": 2194,
   "both_sides": 50,
-  "water_only": 72,
+  "water_only": 73,
   "official_only": 2069,
   "matched_water": 53,
-  "official_groups": 2193,
+  "official_groups": 2194,
   "id_merge": {
    "enabled": true,
    "unions_upc": 139,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 179,
-   "qualified": 185,
-   "deduped": 125,
+   "qualified": 186,
+   "deduped": 126,
    "excluded": {
     "seller": 90,
     "no ship": 14,
@@ -162,10 +162,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 32,
+    "ivan_gpu_rows": 33,
     "nic_jp_rows": 81,
     "skipped": {
-     "bad_or_dup": 42
+     "bad_or_dup": 44
     }
    }
   }
@@ -25609,7 +25609,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 8028,
+      "price_hkd": 8032,
       "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
      }
     ]
@@ -26228,7 +26228,7 @@
    "image": "img/hk-7bfb4df0de75c040.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/72208b96-8399-4698-d933-4144351e6700/public",
    "water": {
-    "price_hkd": 8089,
+    "price_hkd": 8092,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26261,8 +26261,8 @@
      }
     ]
    },
-   "delta_hkd": 10,
-   "best_price": 8089,
+   "delta_hkd": 7,
+   "best_price": 8092,
    "has_water": true,
    "has_official": true
   },
@@ -26314,7 +26314,7 @@
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
    "water": {
-    "price_hkd": 8580,
+    "price_hkd": 8584,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26359,7 +26359,7 @@
      }
     ]
    },
-   "delta_hkd": -281,
+   "delta_hkd": -285,
    "best_price": 8299,
    "has_water": true,
    "has_official": true
@@ -26435,6 +26435,38 @@
    "best_price": 9100,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070:2x+oc+ventus+white|water",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5070:2x+oc+ventus+white",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI Gaming RTX 5070 12G Ventus 2X OC White Graphics Card (12 GB GDDR7, 192-bit, Extreme…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9181,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DYG3JLGY",
+    "url": "https://www.amazon.co.uk/dp/B0DYG3JLGY",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9181,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|pny:5070ti:oc+triple|water",
@@ -26581,7 +26613,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9747,
+    "price_hkd": 9751,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -26595,7 +26627,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9747,
+   "best_price": 9751,
    "has_water": true,
    "has_official": false
   },
