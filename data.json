@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-15T05:42:29Z",
- "generated_at_hkt": "2026-10-15 13:42 HKT",
- "price_updated_hkt": "2026-10-15 13:42 HKT",
+ "generated_at": "2026-10-15T06:06:34Z",
+ "generated_at_hkt": "2026-10-15 14:06 HKT",
+ "price_updated_hkt": "2026-10-15 14:06 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-15 09:53–12:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261015/hkcompare_rows.json",
@@ -28057,7 +28057,7 @@
    "image": "img/B0DYRZZJZ1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12569,
+    "price_hkd": 12570,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -28071,9 +28071,48 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 12569,
+   "best_price": 12570,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|gigabyte:5080:oc+sff+windforce",
+   "category": "gpu",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:oc+sff+windforce",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 WINDFORCE SFF GeForce RTX 5080 16G OC 顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H5NNTMTH.jpg",
+   "image": "img/B0H5NNTMTH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 12580,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0H5NNTMTH",
+    "url": "https://www.amazon.fr/dp/B0H5NNTMTH",
+    "stock": "Only 12 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:oc+sff+windforce",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223101/GIGABYTE-技嘉-WINDFORCE-SFF-GeForce-RTX-5080-16G-OC-顯示卡---3-年保固需線上註冊保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 1819,
+   "best_price": 12580,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5080:gaming+oc",
@@ -28089,7 +28128,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12606,
+    "price_hkd": 12607,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -28122,47 +28161,8 @@
      }
     ]
    },
-   "delta_hkd": 2894,
-   "best_price": 12606,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:oc+sff+windforce",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:oc+sff+windforce",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 WINDFORCE SFF GeForce RTX 5080 16G OC 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H5NNTMTH.jpg",
-   "image": "img/B0H5NNTMTH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 12614,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0H5NNTMTH",
-    "url": "https://www.amazon.fr/dp/B0H5NNTMTH",
-    "stock": "Only 12 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:oc+sff+windforce",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14399,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223101/GIGABYTE-技嘉-WINDFORCE-SFF-GeForce-RTX-5080-16G-OC-顯示卡---3-年保固需線上註冊保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 1785,
-   "best_price": 12614,
+   "delta_hkd": 2893,
+   "best_price": 12607,
    "has_water": true,
    "has_official": true
   },
@@ -29107,7 +29107,7 @@
    "image": "img/B0DQGB8FTQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71MTgvMq55L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14960,
+    "price_hkd": 14961,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -29140,7 +29140,7 @@
      }
     ]
    },
-   "delta_hkd": -210,
+   "delta_hkd": -211,
    "best_price": 14750,
    "has_water": true,
    "has_official": true
