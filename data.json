@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-15T11:02:38Z",
- "generated_at_hkt": "2026-10-15 19:02 HKT",
- "price_updated_hkt": "2026-10-15 19:02 HKT",
+ "generated_at": "2026-10-15T11:07:36Z",
+ "generated_at_hkt": "2026-10-15 19:07 HKT",
+ "price_updated_hkt": "2026-10-15 19:07 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-15 09:53–12:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261015/hkcompare_rows.json",
@@ -153,7 +153,7 @@
   ],
   "ivan": {
    "total_listings": 184,
-   "qualified": 191,
+   "qualified": 190,
    "deduped": 129,
    "excluded": {
     "seller": 96,
@@ -162,7 +162,7 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 36,
+    "ivan_gpu_rows": 35,
     "nic_jp_rows": 84,
     "skipped": {
      "bad_or_dup": 45
@@ -25019,7 +25019,7 @@
    "image": "img/hk-0267beecf48f040a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
    "water": {
-    "price_hkd": 6517,
+    "price_hkd": 6555,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -25052,8 +25052,8 @@
      }
     ]
    },
-   "delta_hkd": 682,
-   "best_price": 6517,
+   "delta_hkd": 644,
+   "best_price": 6555,
    "has_water": true,
    "has_official": true
   },
@@ -26036,38 +26036,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:aorus+master|water",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:aorus+master",
-   "part_number": "GV-N5070AORUSM-12GD",
-   "upc": null,
-   "title": "Gigabyte AORUS GeForce RTX 5070 MASTER 12G Graphics Card - 12GB GDDR7, 192bit, PCI-E 5.…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7452,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DTGMBHQ3",
-    "url": "https://www.amazon.co.uk/dp/B0DTGMBHQ3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7452,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5070:3x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
@@ -26215,6 +26183,38 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070:aorus+master|water",
+   "category": "gpu",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:aorus+master",
+   "part_number": "GV-N5070AORUSM-12GD",
+   "upc": null,
+   "title": "GIGABYTE AORUS GeForce RTX 5070 Master 12G Graphics Card - 12GB GDDR7, 192-bit, PCI-E 5…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7804,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DTGMBHQ3",
+    "url": "https://www.amazon.es/dp/B0DTGMBHQ3",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7804,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|asus:5070:|water",
    "category": "gpu",
    "brand": "ASUS",
@@ -26228,7 +26228,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7895,
+    "price_hkd": 7916,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -26242,7 +26242,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7895,
+   "best_price": 7916,
    "has_water": true,
    "has_official": false
   },
