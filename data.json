@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-15T15:53:20Z",
- "generated_at_hkt": "2026-10-15 23:53 HKT",
- "price_updated_hkt": "2026-10-15 23:53 HKT",
+ "generated_at": "2026-10-15T16:11:00Z",
+ "generated_at_hkt": "2026-10-16 00:11 HKT",
+ "price_updated_hkt": "2026-10-16 00:11 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-15 09:53–12:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261015/hkcompare_rows.json",
@@ -60,10 +60,10 @@
  },
  "stats": {
   "items": 2198,
-  "both_sides": 46,
+  "both_sides": 47,
   "water_only": 77,
-  "official_only": 2073,
-  "matched_water": 50,
+  "official_only": 2072,
+  "matched_water": 51,
   "official_groups": 2198,
   "id_merge": {
    "enabled": true,
@@ -88,9 +88,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 21,
+   "amazon_cached": 22,
    "official_downloaded": 0,
-   "official_cached": 1952,
+   "official_cached": 1951,
    "failed": 0
   },
   "image_samples": [
@@ -153,11 +153,11 @@
   ],
   "ivan": {
    "total_listings": 185,
-   "qualified": 181,
-   "deduped": 127,
+   "qualified": 180,
+   "deduped": 128,
    "excluded": {
-    "seller": 101,
-    "no ship": 16,
+    "seller": 99,
+    "no ship": 19,
     "used": 2,
     "not desktop GPU": 2
    },
@@ -27982,7 +27982,7 @@
    "image": "img/B0DTJFZ4YS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 12442,
+    "price_hkd": 12413,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -27996,9 +27996,61 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 12442,
+   "best_price": 12413,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|asus:5080:oc+prime",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5080:oc+prime",
+   "part_number": "PRIME-RTX5080-O16G",
+   "upc": "0197105837782",
+   "title": "ASUS Prime GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card Gaming",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65VMC6.jpg",
+   "image": "img/B0DS65VMC6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 12428,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DS65VMC6",
+    "url": "https://www.amazon.fr/dp/B0DS65VMC6",
+    "stock": "Only 5 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:oc+prime",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14750,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10530/asus-rtx-5080-prime-oc-16gb",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 15299,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5080-oc-16gb-gddr7-prime-rtx5080-o16g-gaming-di-e5080r1"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 15299,
+      "url": "https://shop.pegasus.hk/products/223027/ASUS-華碩-Prime-GeForce-RTX-5080-16G-OC-顯示卡---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": 2322,
+   "best_price": 12428,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|gainward:5080:phoenix",
@@ -28249,58 +28301,6 @@
    "best_price": 12643,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|asus:5080:oc+prime",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5080:oc+prime",
-   "part_number": "PRIME-RTX5080-O16G",
-   "upc": "0197105837782",
-   "title": "ASUS PRIME RTX5080 OC 16GB GDDR7 NVIDIA GeForce Graphics Card, Black",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65VMC6.jpg",
-   "image": "img/B0DS65VMC6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/814lQWaeAzL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 12697,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DS65VMC6",
-    "url": "https://www.amazon.it/dp/B0DS65VMC6",
-    "stock": "Only 6 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:oc+prime",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14750,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/10530/asus-rtx-5080-prime-oc-16gb",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 15299,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5080-oc-16gb-gddr7-prime-rtx5080-o16g-gaming-di-e5080r1"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 15299,
-      "url": "https://shop.pegasus.hk/products/223027/ASUS-華碩-Prime-GeForce-RTX-5080-16G-OC-顯示卡---3年保養"
-     }
-    ]
-   },
-   "delta_hkd": 2053,
-   "best_price": 12697,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "gpu|palit:5080:gamingpro",
@@ -29291,6 +29291,45 @@
    "has_official": false
   },
   {
+   "id": "gpu|asus:5080:astral+oc+rog",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5080:astral+oc+rog",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS ROG ASTRAL RTX5080 OC 16GB GDDR7 NVIDIA GeForce Graphics Card, Black",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS643QRW.jpg",
+   "image": "img/B0DS643QRW.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81Wcw8qLt3L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 15489,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DS643QRW",
+    "url": "https://www.amazon.fr/dp/B0DS643QRW",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:astral+oc+rog",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 17999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 2510,
+   "best_price": 15489,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|galax:5080:gaming",
    "category": "gpu",
    "brand": "GALAX",
@@ -29452,7 +29491,7 @@
     "domain": "amazon.com",
     "asin": "B0FKX6LPR6",
     "url": "https://www.amazon.com/dp/B0FKX6LPR6",
-    "stock": "Only 5 left in stock - order soon.",
+    "stock": "Only 3 left in stock - order soon.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:astral+oc+rog+white",
     "source": "amazon",
@@ -29488,33 +29527,6 @@
    "delta_hkd": 790,
    "best_price": 17209,
    "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:astral+oc+rog",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5080:astral+oc+rog",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS 華碩 ROG Astral GeForce RTX 5080 16G OC 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1bd06cce248dd8ab.jpg",
-   "image": "img/hk-1bd06cce248dd8ab.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/dcb6d469-102c-4f2c-172a-340905359b00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 17999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 17999,
-   "has_water": false,
    "has_official": true
   },
   {
