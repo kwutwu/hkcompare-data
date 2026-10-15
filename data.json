@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-15T12:03:16Z",
- "generated_at_hkt": "2026-10-15 20:03 HKT",
- "price_updated_hkt": "2026-10-15 20:03 HKT",
+ "generated_at": "2026-10-15T12:07:39Z",
+ "generated_at_hkt": "2026-10-15 20:07 HKT",
+ "price_updated_hkt": "2026-10-15 20:07 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-15 09:53–12:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261015/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 129,
+   "count": 128,
    "enabled": true
   },
   "cpu": {
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2197,
+  "items": 2196,
   "both_sides": 48,
-  "water_only": 76,
+  "water_only": 75,
   "official_only": 2071,
   "matched_water": 52,
-  "official_groups": 2197,
+  "official_groups": 2196,
   "id_merge": {
    "enabled": true,
    "unions_upc": 139,
@@ -153,13 +153,14 @@
   ],
   "ivan": {
    "total_listings": 184,
-   "qualified": 187,
-   "deduped": 128,
+   "qualified": 185,
+   "deduped": 127,
    "excluded": {
-    "seller": 98,
+    "seller": 100,
     "used": 2,
-    "no ship": 13,
-    "not desktop GPU": 2
+    "no ship": 12,
+    "not desktop GPU": 2,
+    "ship unknown": 1
    },
    "amazon_exports": {
     "ivan_gpu_rows": 34,
@@ -28207,38 +28208,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 12643,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|pny:5080:dual+oc+slim|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5080:dual+oc+slim",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB Slim OC Dual Fan 2",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 12682,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0GPKCL34W",
-    "url": "https://www.amazon.fr/dp/B0GPKCL34W",
-    "stock": "Available to ship in 1-2 days",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 12682,
    "has_water": true,
    "has_official": false
   },
