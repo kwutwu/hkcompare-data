@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-16T13:42:07Z",
- "generated_at_hkt": "2026-10-16 21:42 HKT",
- "price_updated_hkt": "2026-10-16 21:42 HKT",
+ "generated_at": "2026-10-16T13:59:16Z",
+ "generated_at_hkt": "2026-10-16 21:59 HKT",
+ "price_updated_hkt": "2026-10-16 21:59 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-16 09:57–10:43 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261016/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 226,
+   "count": 225,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 345,
+   "count": 344,
    "enabled": true,
    "note": ""
   },
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2213,
-  "both_sides": 49,
-  "water_only": 74,
-  "official_only": 2086,
-  "matched_water": 53,
-  "official_groups": 2213,
+  "items": 2211,
+  "both_sides": 48,
+  "water_only": 72,
+  "official_only": 2087,
+  "matched_water": 51,
+  "official_groups": 2211,
   "id_merge": {
    "enabled": true,
    "unions_upc": 142,
@@ -277,8 +277,8 @@
   ],
   "ivan": {
    "total_listings": 186,
-   "qualified": 185,
-   "deduped": 127,
+   "qualified": 180,
+   "deduped": 123,
    "excluded": {
     "seller": 97,
     "no ship": 19,
@@ -287,7 +287,7 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 34,
-    "nic_jp_rows": 85,
+    "nic_jp_rows": 80,
     "skipped": {
      "bad_or_dup": 46
     }
@@ -31003,42 +31003,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B760:mATX:b760m-d3hp-wifi6:ddr5:wifi:|water",
-   "category": "mobo",
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B760:mATX:b760m-d3hp-wifi6:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "【Amazon.co.jp限定】GIGABYTE B760M D3HP WIFI6 Micro-ATX マザーボード MB6697",
-   "spec": "B760（DDR5）",
-   "filter_tags": [
-    "B760",
-    "DDR5",
-    "B760-DDR5"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 561,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B083Y2FY2X",
-    "url": "https://www.amazon.co.jp/dp/B083Y2FY2X",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 561,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:msi:H610:mATX:pro-h610m-e:ddr5:nowifi:",
    "category": "mobo",
    "brand": "MSI",
@@ -31535,7 +31499,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 690,
+    "price_hkd": 691,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -31549,7 +31513,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 690,
+   "best_price": 691,
    "has_water": true,
    "has_official": false
   },
@@ -31840,7 +31804,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 742,
+    "price_hkd": 743,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -31854,7 +31818,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 742,
+   "best_price": 743,
    "has_water": true,
    "has_official": false
   },
@@ -32263,6 +32227,42 @@
    "best_price": 820,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:msi:B760:mATX:b760m-gaming-plus-wifi:ddr4:wifi:|water",
+   "category": "mobo",
+   "brand": "MSI",
+   "model_key": "mobo:msi:B760:mATX:b760m-gaming-plus-wifi:ddr4:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI B760M GAMING PLUS WIFI DDR4 Intel第14/13/12世代 Coreプロセッサ対応 Micro-ATX マザーボード MB6564",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 820,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DM8K3ZCH",
+    "url": "https://www.amazon.co.jp/dp/B0DM8K3ZCH",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 820,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:|water",
@@ -33177,7 +33177,7 @@
    "image": "img/hk-17e3d550df331b8f.jpg",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/72ce78a97a11e4dec5e8bcca6302d1f1.jpg",
    "water": {
-    "price_hkd": 994,
+    "price_hkd": 995,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -33197,8 +33197,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 186,
-   "best_price": 994,
+   "delta_hkd": 185,
+   "best_price": 995,
    "has_water": true,
    "has_official": true
   },
@@ -33537,7 +33537,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1035,
+    "price_hkd": 1036,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -33551,7 +33551,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1035,
+   "best_price": 1036,
    "has_water": true,
    "has_official": false
   },
@@ -33982,7 +33982,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1168,
+    "price_hkd": 1169,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -33996,7 +33996,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1168,
+   "best_price": 1169,
    "has_water": true,
    "has_official": false
   },
@@ -34208,7 +34208,7 @@
    "image": "img/hk-4ddf3fa3210e79d5.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/6550.webp",
    "water": {
-    "price_hkd": 1223,
+    "price_hkd": 1224,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -34235,8 +34235,8 @@
      }
     ]
    },
-   "delta_hkd": 1157,
-   "best_price": 1223,
+   "delta_hkd": 1156,
+   "best_price": 1224,
    "has_water": true,
    "has_official": true
   },
@@ -34580,6 +34580,52 @@
    "delta_hkd": null,
    "best_price": 1299,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B860:ATX:rog-strix-b860f-gaming-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B860:ATX:rog-strix-b860f-gaming-wifi:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "Asus ROG Strix B860-F Gaming WiFi ATX 主機板 (DDR5/LGA1851)",
+   "spec": "B860",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-13aa50407e06bfe4.png",
+   "image": "img/hk-13aa50407e06bfe4.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/54a08c5b-b4cf-47d0-bd43-129f300e3600/public",
+   "water": {
+    "price_hkd": 1302,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DSFDL16B",
+    "url": "https://www.amazon.co.jp/dp/B0DSFDL16B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:asus:B860:ATX:rog-strix-b860f-gaming-wifi:ddr5:wifi:",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 2280,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/222790/ASUS-華碩-ROG-STRIX-B860-F-GAMING-WIFI-ATX-主機板-DDR5---3年保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2330,
+      "url": "https://centralfield.com/product/8802/asus-rog-strix-b860-f-gaming-wifi-atx-motherboard"
+     }
+    ]
+   },
+   "delta_hkd": 978,
+   "best_price": 1302,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -34985,45 +35031,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B850:mATX:b850m-aorus-stealth-ice:ddr5:nowifi:",
-   "category": "mobo",
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B850:mATX:b850m-aorus-stealth-ice:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 B850M AORUS STEALTH ICE MATX 主機板 (DDR5)",
-   "spec": "B850",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ab700aa3df78b826.png",
-   "image": "img/hk-ab700aa3df78b826.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/0f2a2021-a8cb-4b5b-d2f2-dc35f07d1d00/public",
-   "water": {
-    "price_hkd": 1443,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0H5QMVP4C",
-    "url": "https://www.amazon.co.jp/dp/B0H5QMVP4C",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:gigabyte:B850:mATX:b850m-aorus-stealth-ice:ddr5:nowifi:",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 1549,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/233479/GIGABYTE-技嘉-B850M-AORUS-STEALTH-ICE-MATX-主機板-DDR5---3-年-網上登記延長至-5-年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 106,
-   "best_price": 1443,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:gigabyte:X870:mATX:x870m-aorus-elite-wifi7:ddr5:wifi:",
    "category": "mobo",
    "brand": "Gigabyte",
@@ -35319,58 +35326,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
-   "category": "mobo",
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
-   "part_number": "MB-AB86SGW",
-   "upc": "0197105806856",
-   "title": "ASUS ROG STRIX B860-G GAMING WIFI DDR5,LGA 1851 mATX Motherboard (MB-AB86SGW)",
-   "spec": "B860",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a2787b5fc44df09b.webp",
-   "image": "img/hk-a2787b5fc44df09b.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/8819.webp",
-   "water": {
-    "price_hkd": 1481,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DSFDBPP3",
-    "url": "https://www.amazon.co.jp/dp/B0DSFDBPP3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 2120,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/8819/asus-rog-strix-b860-g-gaming-wifi-micro-atx-motherboard",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2150,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-rog-strix-b860-g-gaming-wifi-ddr5-lga-1851-matx-motherboard"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2250,
-      "url": "https://secomputer.com.hk/products/55941"
-     }
-    ]
-   },
-   "delta_hkd": 639,
-   "best_price": 1481,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:asus:B860:mATX:tuf-gaming-b860m-plus:ddr5:nowifi:",
    "category": "mobo",
    "brand": "ASUS",
@@ -35642,6 +35597,33 @@
    },
    "delta_hkd": null,
    "best_price": 1540,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B850:mATX:b850m-aorus-stealth-ice:ddr5:nowifi:",
+   "category": "mobo",
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B850:mATX:b850m-aorus-stealth-ice:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 B850M AORUS STEALTH ICE MATX 主機板 (DDR5)",
+   "spec": "B850",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ab700aa3df78b826.png",
+   "image": "img/hk-ab700aa3df78b826.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/0f2a2021-a8cb-4b5b-d2f2-dc35f07d1d00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 1549,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/233479/GIGABYTE-技嘉-B850M-AORUS-STEALTH-ICE-MATX-主機板-DDR5---3-年-網上登記延長至-5-年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 1549,
    "has_water": false,
    "has_official": true
   },
@@ -36905,38 +36887,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asus:B650:ITX:rog-strix-b650e-i-gaming-wifi-ryzen:ddr5:wifi:|water",
-   "category": "mobo",
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B650:ITX:rog-strix-b650e-i-gaming-wifi-ryzen:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS ROG STRIX B650E-I GAMING WIFI AMD Ryzen 7000 シリーズ AM5 対応 B650 搭載 Mini-ITX マザーボード/国…",
-   "spec": "B650",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1824,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BPRJ7QDR",
-    "url": "https://www.amazon.co.jp/dp/B0BPRJ7QDR",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1824,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asus:B850:ITX:tuf-gaming-b850i-wifi-neo:ddr5:wifi:",
    "category": "mobo",
    "brand": "ASUS",
@@ -37184,38 +37134,6 @@
    "best_price": 1880,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:asus:X870:ATX:tuf-gaming-x870e-plus-wifi7:ddr5:wifi:|water",
-   "category": "mobo",
-   "brand": "ASUS",
-   "model_key": "mobo:asus:X870:ATX:tuf-gaming-x870e-plus-wifi7:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS AMD X870E AM5 対応 ATX マザーボード TUF GAMING X870E-PLUS WIFI7 国内正規代理店品",
-   "spec": "X870",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1881,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0FDFVPRP2",
-    "url": "https://www.amazon.co.jp/dp/B0FDFVPRP2",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1881,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asrock:X870:ATX:x870e-challenger-wifi:ddr5:wifi:",
@@ -37480,6 +37398,38 @@
    "best_price": 1920,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:Z890:?:z890-aorus-elite-duo-x:ddr5:nowifi:|water",
+   "category": "mobo",
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:Z890:?:z890-aorus-elite-duo-x:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE Z890 AORUS ELITE DUO X ATXマザーボードMB7012",
+   "spec": "Z890",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 1940,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0GTTDC1QK",
+    "url": "https://www.amazon.co.jp/dp/B0GTTDC1QK",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1940,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:gigabyte:B860:ATX:b860-aorus-elite-wifi7-ice:ddr5:wifi:white",
@@ -38337,7 +38287,7 @@
    "image": "img/hk-768cffe305fbdfe1.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/67132403-139f-4ae3-63bb-bd1e80469900/public",
    "water": {
-    "price_hkd": 2108,
+    "price_hkd": 2109,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -38357,9 +38307,49 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 691,
-   "best_price": 2108,
+   "delta_hkd": 690,
+   "best_price": 2109,
    "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
+   "part_number": "MB-AB86SGW",
+   "upc": "0197105806856",
+   "title": "ASUS ROG STRIX B860-G GAMING WIFI DDR5,LGA 1851 mATX Motherboard (MB-AB86SGW)",
+   "spec": "B860",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a2787b5fc44df09b.webp",
+   "image": "img/hk-a2787b5fc44df09b.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/8819.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 2120,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/8819/asus-rog-strix-b860-g-gaming-wifi-micro-atx-motherboard",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2150,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-rog-strix-b860-g-gaming-wifi-ddr5-lga-1851-matx-motherboard"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2250,
+      "url": "https://secomputer.com.hk/products/55941"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 2120,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -38874,7 +38864,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 2271,
+    "price_hkd": 2272,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -38888,43 +38878,9 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2271,
+   "best_price": 2272,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "mobo|mobo:asus:B860:ATX:rog-strix-b860f-gaming-wifi:ddr5:wifi:",
-   "category": "mobo",
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B860:ATX:rog-strix-b860f-gaming-wifi:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "Asus ROG Strix B860-F Gaming WiFi ATX 主機板 (DDR5/LGA1851)",
-   "spec": "B860",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-13aa50407e06bfe4.png",
-   "image": "img/hk-13aa50407e06bfe4.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/54a08c5b-b4cf-47d0-bd43-129f300e3600/public",
-   "water": null,
-   "official": {
-    "price_hkd": 2280,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/222790/ASUS-華碩-ROG-STRIX-B860-F-GAMING-WIFI-ATX-主機板-DDR5---3年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2330,
-      "url": "https://centralfield.com/product/8802/asus-rog-strix-b860-f-gaming-wifi-atx-motherboard"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2280,
-   "has_water": false,
-   "has_official": true
   },
   {
    "id": "mobo|mobo:asus:Z890:ATX:z890-ayw-gaming-wifi:ddr5:wifi:",
@@ -39790,38 +39746,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:X870:?:x870e-aero-x3d-wood:ddr5:nowifi:|water",
-   "category": "mobo",
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:X870:?:x870e-aero-x3d-wood:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE X870E AERO X3D WOOD ATXマザーボード MB6934",
-   "spec": "X870",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2627,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0G823QDFD",
-    "url": "https://www.amazon.co.jp/dp/B0G823QDFD",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2627,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asus:Z890:ATX:tuf-gaming-z890-plus-wifi:ddr5:wifi:",
    "category": "mobo",
    "brand": "ASUS",
@@ -40196,7 +40120,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 2795,
+    "price_hkd": 2796,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -40210,7 +40134,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2795,
+   "best_price": 2796,
    "has_water": true,
    "has_official": false
   },
@@ -40443,7 +40367,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 2911,
+    "price_hkd": 2912,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -40457,7 +40381,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2911,
+   "best_price": 2912,
    "has_water": true,
    "has_official": false
   },
@@ -41967,6 +41891,38 @@
    "best_price": 5299,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:X870:E-ATX:x870-aorus-infinity:ddr5:nowifi:|water",
+   "category": "mobo",
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:X870:E-ATX:x870-aorus-infinity:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE X870 AORUS INFINITY 40周年記念 E-ATXマザーボード MB7037",
+   "spec": "X870",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 5465,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H7VQYD23",
+    "url": "https://www.amazon.co.jp/dp/B0H7VQYD23",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 5465,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:msi:X870:?:meg-x870e-ace-max-draco-epic-edition:ddr5:nowifi:",
@@ -56000,15 +55956,7 @@
     "note": "已含運費 + 2%",
     "match_by": "model key ram:corsair:vengeancergbpro:ddr4:dimm:32:3200:black:2x16:cl16",
     "source": "amazon",
-    "others": [
-     {
-      "source": "amazon",
-      "store_short": null,
-      "marketplace": "日本 Amazon",
-      "price_hkd": 2624,
-      "url": "https://www.amazon.co.jp/dp/B09QPFWQW7"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 2600,
@@ -56354,7 +56302,7 @@
    "image": "img/hk-b118da33c2294252.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f2cba9d3-6043-488e-27f9-3f082d14d200/public",
    "water": {
-    "price_hkd": 3762,
+    "price_hkd": 3763,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -56387,7 +56335,7 @@
      }
     ]
    },
-   "delta_hkd": -1263,
+   "delta_hkd": -1264,
    "best_price": 2499,
    "has_water": true,
    "has_official": true
@@ -56476,7 +56424,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 2650,
+    "price_hkd": 2651,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -56490,7 +56438,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2650,
+   "best_price": 2651,
    "has_water": true,
    "has_official": false
   },
@@ -56523,42 +56471,6 @@
    "best_price": 2699,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:cfd:x:16gb×2.288pin.pc5:ddr5:dimm:32:5600:black:2x16:cl?|water",
-   "category": "ram",
-   "brand": "CFD",
-   "model_key": "ram:cfd:x:16gb×2.288pin.pc5:ddr5:dimm:32:5600:black:2x16:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CFD販売 デスクトップPC用メモリ ブラック 黒 ヒートシンク ゲーミング RGB DDR5-5600 (PC5-44800) 16GB×2枚 (32GB) 288pin …",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "5600"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2736,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0H5JMKRP9",
-    "url": "https://www.amazon.co.jp/dp/B0H5JMKRP9",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2736,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:kingston:valueram:ddr4:sodimm:32:3200:black:?:cl?",
@@ -56681,7 +56593,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 3386,
+    "price_hkd": 3387,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -56695,7 +56607,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3386,
+   "best_price": 3387,
    "has_water": true,
    "has_official": false
   },
@@ -56888,42 +56800,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:5600:black:2x16:cl?|water",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:5600:black:2x16:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5 32GB（16GB×2）最大 5600MHz対応 Intel RAM",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "5600"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 3567,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0CJ8ZT9S1",
-    "url": "https://www.amazon.co.jp/dp/B0CJ8ZT9S1",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 3567,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:crucial:std:ddr5:sodimm:32:5600:black:2x16:cl46",
    "category": "ram",
    "brand": "Crucial",
@@ -57066,7 +56942,7 @@
    "image": "img/hk-1caafdec78ddac65.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/5401.webp",
    "water": {
-    "price_hkd": 3820,
+    "price_hkd": 3821,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -57093,7 +56969,7 @@
      }
     ]
    },
-   "delta_hkd": -110,
+   "delta_hkd": -111,
    "best_price": 3710,
    "has_water": true,
    "has_official": true
@@ -57630,77 +57506,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6400:black:2x16:cl?|water",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6400:black:2x16:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 32GB(16GB×2)最大 6400MHz対応 AMD・Intel RAM",
-   "spec": "DDR5-6400 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6400"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 3809,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F66VYML2",
-    "url": "https://www.amazon.co.jp/dp/B0F66VYML2",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 3809,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:5200:black:2x16:cl40|water",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:5200:black:2x16:cl40",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 メモリ 32GB（16GB×2）最大5200MHz対応 Intel XMP対応 CL40 デスクトップPC用 ブラック CMK3…",
-   "spec": "DDR5 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 3830,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09NCPTVX5",
-    "url": "https://www.amazon.co.jp/dp/B09NCPTVX5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 3830,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:crucial:pro:ddr5:dimm:32:6400:black:2x16:cl38",
    "category": "ram",
    "brand": "Crucial",
@@ -57918,6 +57723,42 @@
    "best_price": 3910,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:5600:black:2x16:cl?|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:5600:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 32GB（16GB×2）最大 5600MHz対応 Intel RAM",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 3934,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BJ37G4PS",
+    "url": "https://www.amazon.co.jp/dp/B0BJ37G4PS",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3934,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl34",
@@ -59316,6 +59157,42 @@
    "best_price": 4285,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 32GB（16GB×2）最大 6400MHz対応 Intel RAM",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 4296,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BPL82FD9",
+    "url": "https://www.amazon.co.jp/dp/B0BPL82FD9",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4296,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl30",
@@ -60947,6 +60824,42 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:dominatorplatinum:ddr5:dimm:32:6400:black:2x16:cl32|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatorplatinum:ddr5:dimm:32:6400:black:2x16:cl32",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR DOMINATOR PLATINUM RGB DDR5 メモリ 32GB(16GB×2)最大6400MHz対応 Intel XMP対応 CL32 デスクトップ…",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 4635,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BPLCCR1J",
+    "url": "https://www.amazon.co.jp/dp/B0BPLCCR1J",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4635,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:biwin:dw100:ddr5:dimm:32:6000:black:2x16:cl?",
    "category": "ram",
    "brand": "Biwin",
@@ -61482,6 +61395,41 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:5200:black:2x16:cl?|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:5200:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 32GB（16GB×2）最大 5200MHz対応 AMD・Intel RAM",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 4819,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BHVCVNKD",
+    "url": "https://www.amazon.co.jp/dp/B0BHVCVNKD",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4819,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:g.skill:tz5neo:ddr5:dimm:32:6000:black:2x16:cl36",
    "category": "ram",
    "brand": "G.Skill",
@@ -61747,7 +61695,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 5870,
+    "price_hkd": 5871,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -61761,7 +61709,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 5870,
+   "best_price": 5871,
    "has_water": true,
    "has_official": false
   },
@@ -61956,7 +61904,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7202,
+    "price_hkd": 7203,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -61970,7 +61918,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7202,
+   "best_price": 7203,
    "has_water": true,
    "has_official": false
   },
@@ -61992,7 +61940,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7216,
+    "price_hkd": 7217,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -62006,7 +61954,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7216,
+   "best_price": 7217,
    "has_water": true,
    "has_official": false
   },
@@ -62027,7 +61975,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7346,
+    "price_hkd": 7347,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -62041,7 +61989,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7346,
+   "best_price": 7347,
    "has_water": true,
    "has_official": false
   },
@@ -62275,7 +62223,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7825,
+    "price_hkd": 7826,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -62289,43 +62237,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7825,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40|water",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 メモリ 64GB（32GB×2）最大5600MHz対応 Intel XMP対応 CL40 デスクトップPC用 ブラック CMK6…",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "5600"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7897,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09WN2H42Y",
-    "url": "https://www.amazon.co.jp/dp/B09WN2H42Y",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7897,
+   "best_price": 7826,
    "has_water": true,
    "has_official": false
   },
@@ -62347,7 +62259,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7909,
+    "price_hkd": 7910,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -62361,7 +62273,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7909,
+   "best_price": 7910,
    "has_water": true,
    "has_official": false
   },
@@ -62451,7 +62363,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7966,
+    "price_hkd": 7977,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -62465,7 +62377,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7966,
+   "best_price": 7977,
    "has_water": true,
    "has_official": false
   },
@@ -62986,7 +62898,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 8484,
+    "price_hkd": 8485,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -63000,7 +62912,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8484,
+   "best_price": 8485,
    "has_water": true,
    "has_official": false
   },
