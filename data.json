@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-16T13:59:16Z",
- "generated_at_hkt": "2026-10-16 21:59 HKT",
- "price_updated_hkt": "2026-10-16 21:59 HKT",
+ "generated_at": "2026-10-16T14:03:57Z",
+ "generated_at_hkt": "2026-10-16 22:03 HKT",
+ "price_updated_hkt": "2026-10-16 22:03 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-16 09:57–10:43 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261016/hkcompare_rows.json",
@@ -289,7 +289,7 @@
     "ivan_gpu_rows": 34,
     "nic_jp_rows": 80,
     "skipped": {
-     "bad_or_dup": 46
+     "bad_or_dup": 47
     }
    }
   }
@@ -26436,38 +26436,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070:triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5070:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5070 12GB Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 6769,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0F59N58GV",
-    "url": "https://www.amazon.co.uk/dp/B0F59N58GV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 6769,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5070:2x+dual+oc+shadow|water",
    "category": "gpu",
    "brand": "MSI",
@@ -26658,7 +26626,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 8047,
+      "price_hkd": 8048,
       "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
      }
     ]
@@ -26849,6 +26817,38 @@
    "best_price": 7200,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070:triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5070:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GEFORCE RTX™ 5070 12GB Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7223,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0F59N58GV",
+    "url": "https://www.amazon.es/dp/B0F59N58GV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7223,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|asus:5070:oc+prime",
@@ -27348,7 +27348,7 @@
    "image": "img/hk-7bfb4df0de75c040.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/72208b96-8399-4698-d933-4144351e6700/public",
    "water": {
-    "price_hkd": 8104,
+    "price_hkd": 8105,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -27381,7 +27381,7 @@
      }
     ]
    },
-   "delta_hkd": -5,
+   "delta_hkd": -6,
    "best_price": 8099,
    "has_water": true,
    "has_official": true
@@ -27434,7 +27434,7 @@
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
    "water": {
-    "price_hkd": 8597,
+    "price_hkd": 8598,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -27479,7 +27479,7 @@
      }
     ]
    },
-   "delta_hkd": -298,
+   "delta_hkd": -299,
    "best_price": 8299,
    "has_water": true,
    "has_official": true
@@ -27701,7 +27701,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9765,
+    "price_hkd": 9766,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -27715,7 +27715,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9765,
+   "best_price": 9766,
    "has_water": true,
    "has_official": false
   },
@@ -28018,7 +28018,7 @@
    "image": "img/hk-09b228b293e166fa.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/46ac5ca0-d115-417e-6236-0bfa8eb1a500/public",
    "water": {
-    "price_hkd": 10005,
+    "price_hkd": 10006,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -28038,8 +28038,47 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 894,
-   "best_price": 10005,
+   "delta_hkd": 893,
+   "best_price": 10006,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070ti:eagle+oc+sff",
+   "category": "gpu",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:eagle+oc+sff",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5070 Ti EAGLE OC SFF 16G 顯示卡",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a4d8dcfa7ab0afd3.png",
+   "image": "img/hk-a4d8dcfa7ab0afd3.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4b04d8d5-b946-4d22-dbcb-4ca7b388fd00/public",
+   "water": {
+    "price_hkd": 10020,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DTGPPVVT",
+    "url": "https://www.amazon.co.uk/dp/B0DTGPPVVT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5070ti:eagle+oc+sff",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 10699,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223259/GIGABYTE-技嘉-GeForce-RTX-5070-Ti-EAGLE-OC-SFF-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 679,
+   "best_price": 10020,
    "has_water": true,
    "has_official": true
   },
@@ -28057,7 +28096,7 @@
    "image": "img/hk-72a67e50e3a027fe.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4bbbff23-9575-4c8e-962b-5a4bd93b5a00/public",
    "water": {
-    "price_hkd": 10085,
+    "price_hkd": 10086,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -28084,8 +28123,8 @@
      }
     ]
    },
-   "delta_hkd": 1214,
-   "best_price": 10085,
+   "delta_hkd": 1213,
+   "best_price": 10086,
    "has_water": true,
    "has_official": true
   },
@@ -28207,45 +28246,6 @@
    "delta_hkd": null,
    "best_price": 10300,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070ti:eagle+oc+sff",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:eagle+oc+sff",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5070 Ti EAGLE OC SFF 16G 顯示卡",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a4d8dcfa7ab0afd3.png",
-   "image": "img/hk-a4d8dcfa7ab0afd3.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4b04d8d5-b946-4d22-dbcb-4ca7b388fd00/public",
-   "water": {
-    "price_hkd": 10314,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTGPPVVT",
-    "url": "https://www.amazon.es/dp/B0DTGPPVVT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5070ti:eagle+oc+sff",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 10699,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223259/GIGABYTE-技嘉-GeForce-RTX-5070-Ti-EAGLE-OC-SFF-16G-顯示卡---3年保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 385,
-   "best_price": 10314,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -28608,7 +28608,7 @@
    "image": "img/hk-4b9d165a1fb2d4d8.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/15265.webp",
    "water": {
-    "price_hkd": 11206,
+    "price_hkd": 11207,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -28641,8 +28641,8 @@
      }
     ]
    },
-   "delta_hkd": 893,
-   "best_price": 11206,
+   "delta_hkd": 892,
+   "best_price": 11207,
    "has_water": true,
    "has_official": true
   },
