@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-16T04:39:30Z",
- "generated_at_hkt": "2026-10-16 12:39 HKT",
- "price_updated_hkt": "2026-10-16 12:39 HKT",
+ "generated_at": "2026-10-16T04:53:43Z",
+ "generated_at_hkt": "2026-10-16 12:53 HKT",
+ "price_updated_hkt": "2026-10-16 12:53 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-16 09:57–10:43 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261016/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 225,
+   "count": 226,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 344,
+   "count": 345,
    "enabled": true,
    "note": ""
   },
@@ -59,12 +59,12 @@
   }
  },
  "stats": {
-  "items": 2210,
-  "both_sides": 47,
-  "water_only": 71,
-  "official_only": 2088,
-  "matched_water": 49,
-  "official_groups": 2210,
+  "items": 2212,
+  "both_sides": 48,
+  "water_only": 73,
+  "official_only": 2087,
+  "matched_water": 51,
+  "official_groups": 2212,
   "id_merge": {
    "enabled": true,
    "unions_upc": 142,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 186,
-   "qualified": 173,
-   "deduped": 120,
+   "qualified": 176,
+   "deduped": 124,
    "excluded": {
     "seller": 104,
     "no ship": 15,
@@ -163,7 +163,7 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 32,
-    "nic_jp_rows": 78,
+    "nic_jp_rows": 81,
     "skipped": {
      "bad_or_dup": 45
     }
@@ -32157,6 +32157,45 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:sapphire:B850:mATX:b850m-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "brand": "Sapphire",
+   "model_key": "mobo:sapphire:B850:mATX:b850m-wifi:ddr5:wifi:",
+   "part_number": null,
+   "upc": "0840777092316",
+   "title": "Sapphire藍寶石 NITRO+ B850M WIFI AM5 mATX MB",
+   "spec": "B850",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-17e3d550df331b8f.jpg",
+   "image": "img/hk-17e3d550df331b8f.jpg",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/72ce78a97a11e4dec5e8bcca6302d1f1.jpg",
+   "water": {
+    "price_hkd": 995,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0G42TM649",
+    "url": "https://www.amazon.co.jp/dp/B0G42TM649",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:sapphire:B850:mATX:b850m-wifi:ddr5:wifi:",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 1180,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/59191",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 185,
+   "best_price": 995,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:asus:B760:mATX:prime-b760m-a-wifi:ddr5:wifi:",
    "category": "mobo",
    "brand": "ASUS",
@@ -33189,33 +33228,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:sapphire:B850:mATX:b850m-wifi:ddr5:wifi:",
-   "category": "mobo",
-   "brand": "Sapphire",
-   "model_key": "mobo:sapphire:B850:mATX:b850m-wifi:ddr5:wifi:",
-   "part_number": null,
-   "upc": "0840777092316",
-   "title": "Sapphire藍寶石 NITRO+ B850M WIFI AM5 mATX MB",
-   "spec": "B850",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-17e3d550df331b8f.jpg",
-   "image": "img/hk-17e3d550df331b8f.jpg",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/72ce78a97a11e4dec5e8bcca6302d1f1.jpg",
-   "water": null,
-   "official": {
-    "price_hkd": 1180,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/59191",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1180,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:sapphire:B850:mATX:b850m-nitro-wifi:ddr5:wifi:",
    "category": "mobo",
    "brand": "Sapphire",
@@ -33742,6 +33754,42 @@
    "best_price": 1302,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:msi:B760:ATX:b760-gaming-plus-wifi-a:ddr5:wifi:|water",
+   "category": "mobo",
+   "brand": "MSI",
+   "model_key": "mobo:msi:B760:ATX:b760-gaming-plus-wifi-a:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "【Amazon限定1年延長保証版】MSI B760 GAMING PLUS WIFI/A DDR5 マザーボード 第13/12世代CPU(LGA1700)対応 PCIEスロッ…",
+   "spec": "B760（DDR5）",
+   "filter_tags": [
+    "B760",
+    "DDR5",
+    "B760-DDR5"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 1323,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0CCXNVWC9",
+    "url": "https://www.amazon.co.jp/dp/B0CCXNVWC9",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1323,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:msi:B860:mATX:b860m-gaming-plus-wifi6e:ddr5:wifi:",
@@ -55007,7 +55055,7 @@
    "image": "img/hk-2d4618a0181771d9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/97b1bbb2-ff47-478b-60ed-66390a2a8f00/public",
    "water": {
-    "price_hkd": 1613,
+    "price_hkd": 1693,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -55060,8 +55108,8 @@
      }
     ]
    },
-   "delta_hkd": 686,
-   "best_price": 1613,
+   "delta_hkd": 606,
+   "best_price": 1693,
    "has_water": true,
    "has_official": true
   },
@@ -55092,7 +55140,15 @@
     "note": "已含運費 + 2%",
     "match_by": "model key ram:corsair:vengeancergbpro:ddr4:dimm:32:3200:black:2x16:cl16",
     "source": "amazon",
-    "others": []
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "日本 Amazon",
+      "price_hkd": 2624,
+      "url": "https://www.amazon.co.jp/dp/B09QPFWQW7"
+     }
+    ]
    },
    "official": {
     "price_hkd": 2600,
@@ -55936,6 +55992,42 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:5600:black:2x16:cl?|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:5600:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 32GB（16GB×2）最大 5600MHz対応 Intel RAM",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 3567,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0CJ8ZT9S1",
+    "url": "https://www.amazon.co.jp/dp/B0CJ8ZT9S1",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3567,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:crucial:std:ddr5:sodimm:32:5600:black:2x16:cl46",
    "category": "ram",
    "brand": "Crucial",
@@ -56642,6 +56734,77 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6400:black:2x16:cl?|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:6400:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 32GB(16GB×2)最大 6400MHz対応 AMD・Intel RAM",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "6400"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 3809,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F66VYML2",
+    "url": "https://www.amazon.co.jp/dp/B0F66VYML2",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3809,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:5200:black:2x16:cl40|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:5200:black:2x16:cl40",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 メモリ 32GB（16GB×2）最大5200MHz対応 Intel XMP対応 CL40 デスクトップPC用 ブラック CMK3…",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 3830,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09NCPTVX5",
+    "url": "https://www.amazon.co.jp/dp/B09NCPTVX5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3830,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:crucial:pro:ddr5:dimm:32:6400:black:2x16:cl38",
    "category": "ram",
    "brand": "Crucial",
@@ -56859,42 +57022,6 @@
    "best_price": 3910,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:5600:black:2x16:cl?|water",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:5600:black:2x16:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5 32GB（16GB×2）最大 5600MHz対応 Intel RAM",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "5600"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 3934,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BJ37G4PS",
-    "url": "https://www.amazon.co.jp/dp/B0BJ37G4PS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 3934,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl34",
@@ -58293,42 +58420,6 @@
    "best_price": 4285,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?|water",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5 32GB（16GB×2）最大 6400MHz対応 Intel RAM",
-   "spec": "DDR5-6400 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6400"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4296,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BPL82FD9",
-    "url": "https://www.amazon.co.jp/dp/B0BPL82FD9",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4296,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:32:6000:black:2x16:cl30",
@@ -59960,42 +60051,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:dominatorplatinum:ddr5:dimm:32:6400:black:2x16:cl32|water",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:dominatorplatinum:ddr5:dimm:32:6400:black:2x16:cl32",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR DOMINATOR PLATINUM RGB DDR5 メモリ 32GB(16GB×2)最大6400MHz対応 Intel XMP対応 CL32 デスクトップ…",
-   "spec": "DDR5-6400 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6400"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4635,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BPLCCR1J",
-    "url": "https://www.amazon.co.jp/dp/B0BPLCCR1J",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4635,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:biwin:dw100:ddr5:dimm:32:6000:black:2x16:cl?",
    "category": "ram",
    "brand": "Biwin",
@@ -61096,6 +61151,41 @@
    "has_official": false
   },
   {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 64GB（32GB×2）最大 5200MHz対応 Intel RAM",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7347,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09R7S7PXC",
+    "url": "https://www.amazon.co.jp/dp/B09R7S7PXC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7347,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:teamgroup:tforcedeltargb:ddr5:dimm:64:6000:black:2x32:cl?",
    "category": "ram",
    "brand": "TeamGroup",
@@ -61340,6 +61430,42 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 7806,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40|water",
+   "category": "ram",
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 メモリ 64GB（32GB×2）最大5600MHz対応 Intel XMP対応 CL40 デスクトップPC用 ブラック CMK6…",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "5600"
+   ],
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7898,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09WN2H42Y",
+    "url": "https://www.amazon.co.jp/dp/B09WN2H42Y",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7898,
    "has_water": true,
    "has_official": false
   },
@@ -61776,41 +61902,6 @@
    "best_price": 8199,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?|water",
-   "category": "ram",
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 64GB（32GB×2）最大 5200MHz対応 Intel RAM",
-   "spec": "DDR5 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5"
-   ],
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 8202,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09Y99CRP9",
-    "url": "https://www.amazon.co.jp/dp/B09Y99CRP9",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 8202,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6400:white:2x32:cl32",
