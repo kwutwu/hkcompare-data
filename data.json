@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-16T05:11:47Z",
- "generated_at_hkt": "2026-10-16 13:11 HKT",
- "price_updated_hkt": "2026-10-16 13:11 HKT",
+ "generated_at": "2026-10-16T05:33:19Z",
+ "generated_at_hkt": "2026-10-16 13:33 HKT",
+ "price_updated_hkt": "2026-10-16 13:33 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-16 09:57–10:43 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261016/hkcompare_rows.json",
@@ -63,7 +63,7 @@
   "both_sides": 48,
   "water_only": 73,
   "official_only": 2087,
-  "matched_water": 51,
+  "matched_water": 52,
   "official_groups": 2212,
   "id_merge": {
    "enabled": true,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 186,
-   "qualified": 177,
-   "deduped": 124,
+   "qualified": 179,
+   "deduped": 125,
    "excluded": {
     "seller": 102,
     "no ship": 16,
@@ -162,10 +162,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 32,
+    "ivan_gpu_rows": 34,
     "nic_jp_rows": 81,
     "skipped": {
-     "bad_or_dup": 45
+     "bad_or_dup": 44
     }
    }
   }
@@ -25262,7 +25262,15 @@
     "note": "已含運費 + 2%",
     "match_by": "part number GV-N5070EAGLEOC-12GD",
     "source": "amazon",
-    "others": []
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "日本 Amazon",
+      "price_hkd": 8048,
+      "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
+     }
+    ]
    },
    "official": {
     "price_hkd": 7199,
@@ -25325,6 +25333,40 @@
    "has_official": true
   },
   {
+   "id": "gpu|colorful:5070:gaming",
+   "category": "gpu",
+   "brand": "Colorful",
+   "model_key": "colorful:5070:gaming",
+   "part_number": null,
+   "upc": "6937232403887",
+   "title": "Colorful GeForce RTX5070 Gaming 12GB-V (CF-212600000039/38)",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5c157dafee275900.webp",
+   "image": "img/hk-5c157dafee275900.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/17978.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 6598,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/17978/colorful-geforce-rtx-5070-gaming-12gb",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7299,
+      "url": "https://secomputer.com.hk/products/59737"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 6598,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5070:2x+oc+ventus",
    "category": "gpu",
    "brand": "MSI",
@@ -25338,7 +25380,7 @@
    "image": "img/hk-0267beecf48f040a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
    "water": {
-    "price_hkd": 6593,
+    "price_hkd": 6598,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -25371,43 +25413,9 @@
      }
     ]
    },
-   "delta_hkd": 606,
-   "best_price": 6593,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|colorful:5070:gaming",
-   "category": "gpu",
-   "brand": "Colorful",
-   "model_key": "colorful:5070:gaming",
-   "part_number": null,
-   "upc": "6937232403887",
-   "title": "Colorful GeForce RTX5070 Gaming 12GB-V (CF-212600000039/38)",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-5c157dafee275900.webp",
-   "image": "img/hk-5c157dafee275900.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/17978.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 6598,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/17978/colorful-geforce-rtx-5070-gaming-12gb",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 7299,
-      "url": "https://secomputer.com.hk/products/59737"
-     }
-    ]
-   },
-   "delta_hkd": null,
+   "delta_hkd": 601,
    "best_price": 6598,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -25552,7 +25560,7 @@
    "image": "img/hk-9e0e66f1d7b9fb42.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/782b0949-3349-46a7-f54d-3c03865a6d00/public",
    "water": {
-    "price_hkd": 6709,
+    "price_hkd": 6710,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -25572,8 +25580,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 990,
-   "best_price": 6709,
+   "delta_hkd": 989,
+   "best_price": 6710,
    "has_water": true,
    "has_official": true
   },
@@ -25655,7 +25663,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6741,
+    "price_hkd": 6742,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -25669,7 +25677,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6741,
+   "best_price": 6742,
    "has_water": true,
    "has_official": false
   },
@@ -25687,7 +25695,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6771,
+    "price_hkd": 6777,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -25707,8 +25715,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 1128,
-   "best_price": 6771,
+   "delta_hkd": 1122,
+   "best_price": 6777,
    "has_water": true,
    "has_official": true
   },
@@ -26682,7 +26690,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9060,
+    "price_hkd": 9061,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -26696,7 +26704,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9060,
+   "best_price": 9061,
    "has_water": true,
    "has_official": false
   },
@@ -26754,7 +26762,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9377,
+    "price_hkd": 9385,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -26768,7 +26776,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9377,
+   "best_price": 9385,
    "has_water": true,
    "has_official": false
   },
@@ -26786,7 +26794,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9377,
+    "price_hkd": 9385,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -26800,7 +26808,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9377,
+   "best_price": 9385,
    "has_water": true,
    "has_official": false
   },
@@ -27018,7 +27026,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "英國 Amazon",
-      "price_hkd": 10149,
+      "price_hkd": 10151,
       "url": "https://www.amazon.co.uk/dp/B0DX6FT5MM"
      }
     ]
@@ -27075,7 +27083,7 @@
    "image": "img/hk-733836fa60c702e5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/486214b6-de3c-43f0-ab3a-9c9e22aa2e00/public",
    "water": {
-    "price_hkd": 9868,
+    "price_hkd": 9876,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -27102,8 +27110,8 @@
      }
     ]
    },
-   "delta_hkd": 531,
-   "best_price": 9868,
+   "delta_hkd": 523,
+   "best_price": 9876,
    "has_water": true,
    "has_official": true
   },
@@ -27566,7 +27574,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 10860,
+    "price_hkd": 10862,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -27580,7 +27588,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 10860,
+   "best_price": 10862,
    "has_water": true,
    "has_official": false
   },
@@ -27993,7 +28001,7 @@
    "image": "img/hk-d1ba4dd49a0f4422.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/10_7fe1c1e5-a242-4a8d-bd9b-43dba59f1f49.png?v=1761378599",
    "water": {
-    "price_hkd": 12129,
+    "price_hkd": 12131,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -28026,7 +28034,7 @@
      }
     ]
    },
-   "delta_hkd": -329,
+   "delta_hkd": -331,
    "best_price": 11800,
    "has_water": true,
    "has_official": true
