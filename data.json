@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-16T02:12:12Z",
- "generated_at_hkt": "2026-10-16 10:12 HKT",
- "price_updated_hkt": "2026-10-16 10:12 HKT",
+ "generated_at": "2026-10-16T02:31:51Z",
+ "generated_at_hkt": "2026-10-16 10:31 HKT",
+ "price_updated_hkt": "2026-10-16 10:31 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-15 09:53–12:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261015/hkcompare_rows.json",
@@ -60,10 +60,10 @@
  },
  "stats": {
   "items": 2192,
-  "both_sides": 46,
+  "both_sides": 47,
   "water_only": 71,
-  "official_only": 2073,
-  "matched_water": 49,
+  "official_only": 2072,
+  "matched_water": 50,
   "official_groups": 2192,
   "id_merge": {
    "enabled": true,
@@ -153,8 +153,8 @@
   ],
   "ivan": {
    "total_listings": 186,
-   "qualified": 171,
-   "deduped": 120,
+   "qualified": 172,
+   "deduped": 121,
    "excluded": {
     "seller": 104,
     "no ship": 15,
@@ -162,7 +162,7 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 30,
+    "ivan_gpu_rows": 31,
     "nic_jp_rows": 78,
     "skipped": {
      "bad_or_dup": 43
@@ -26482,7 +26482,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9377,
+    "price_hkd": 9378,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -26496,7 +26496,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9377,
+   "best_price": 9378,
    "has_water": true,
    "has_official": false
   },
@@ -26514,7 +26514,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9415,
+    "price_hkd": 9378,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -26528,7 +26528,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9415,
+   "best_price": 9378,
    "has_water": true,
    "has_official": false
   },
@@ -27668,7 +27668,19 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1ba4dd49a0f4422.png",
    "image": "img/hk-d1ba4dd49a0f4422.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/10_7fe1c1e5-a242-4a8d-bd9b-43dba59f1f49.png?v=1761378599",
-   "water": null,
+   "water": {
+    "price_hkd": 12129,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DWMJSGCM",
+    "url": "https://www.amazon.co.uk/dp/B0DWMJSGCM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070ti:oc+tuf+white",
+    "source": "amazon",
+    "others": []
+   },
    "official": {
     "price_hkd": 11800,
     "store": "Jumbo 珍寶電腦",
@@ -27690,9 +27702,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -329,
    "best_price": 11800,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
