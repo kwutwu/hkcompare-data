@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-16T09:34:53Z",
- "generated_at_hkt": "2026-10-16 17:34 HKT",
- "price_updated_hkt": "2026-10-16 17:34 HKT",
+ "generated_at": "2026-10-16T10:14:07Z",
+ "generated_at_hkt": "2026-10-16 18:14 HKT",
+ "price_updated_hkt": "2026-10-16 18:14 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-16 09:57–10:43 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261016/hkcompare_rows.json",
@@ -60,10 +60,10 @@
  },
  "stats": {
   "items": 2208,
-  "both_sides": 47,
+  "both_sides": 48,
   "water_only": 69,
-  "official_only": 2088,
-  "matched_water": 51,
+  "official_only": 2087,
+  "matched_water": 52,
   "official_groups": 2208,
   "id_merge": {
    "enabled": true,
@@ -88,9 +88,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 19,
+   "amazon_cached": 20,
    "official_downloaded": 0,
-   "official_cached": 1960,
+   "official_cached": 1959,
    "failed": 0
   },
   "image_samples": [
@@ -153,12 +153,11 @@
   ],
   "ivan": {
    "total_listings": 186,
-   "qualified": 167,
-   "deduped": 120,
+   "qualified": 173,
+   "deduped": 121,
    "excluded": {
     "seller": 103,
-    "ship unknown": 5,
-    "no ship": 16,
+    "no ship": 15,
     "used": 2,
     "not desktop GPU": 2
    },
@@ -29333,38 +29332,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:gaming+gaming trio+oc|water",
-   "category": "gpu",
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming+gaming trio+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI Gaming RTX 5080 16G Gaming Trio OC Graphics Card (16GB GDDR7, 256",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSXNXTSS.jpg",
-   "image": "img/B0DSXNXTSS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14585,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DSXNXTSS",
-    "url": "https://www.amazon.es/dp/B0DSXNXTSS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 14585,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5080:gaming trio+oc+white",
    "category": "gpu",
    "brand": "MSI",
@@ -29451,6 +29418,38 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:gaming+gaming trio+oc|water",
+   "category": "gpu",
+   "brand": "MSI",
+   "model_key": "msi:5080:gaming+gaming trio+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI Gaming RTX 5080 16G Gaming Trio OC Graphics Card (16GB GDDR7, 256",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSXNXTSS.jpg",
+   "image": "img/B0DSXNXTSS.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14912,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DSXNXTSS",
+    "url": "https://www.amazon.es/dp/B0DSXNXTSS",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 14912,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|zotac:5080:oc+solid+white",
    "category": "gpu",
    "brand": "Zotac",
@@ -29497,7 +29496,7 @@
     "domain": "amazon.fr",
     "asin": "B0H86338KX",
     "url": "https://www.amazon.fr/dp/B0H86338KX",
-    "stock": "Only 2 left in stock.",
+    "stock": "Only 7 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
@@ -29684,6 +29683,64 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5080:astral+oc+rog+white",
+   "category": "gpu",
+   "brand": "ASUS",
+   "model_key": "asus:5080:astral+oc+rog+white",
+   "part_number": "ROG-ASTRAL-RTX5080-O16G-WHITE",
+   "upc": "0199291112049",
+   "title": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 White OC Edition Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FKX6LPR6.jpg",
+   "image": "img/B0FKX6LPR6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81gkdvlaWTL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 17209,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0FKX6LPR6",
+    "url": "https://www.amazon.com/dp/B0FKX6LPR6",
+    "stock": "Only 2 left in stock - order soon.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:astral+oc+rog+white",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 17999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13794/asus-rog-astral-rtx-5080-oc-white-16gb",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 17999,
+      "url": "https://shop.pegasus.hk/products/225441/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-White-顯示卡"
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 18199,
+      "url": "https://buymore.hk/shop/goods.php?id=44891"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 18299,
+      "url": "https://secomputer.com.hk/products/58141"
+     }
+    ]
+   },
+   "delta_hkd": 790,
+   "best_price": 17209,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5080:noctua+oc",
    "category": "gpu",
    "brand": "ASUS",
@@ -29742,52 +29799,6 @@
       "store_short": "飛馬",
       "price_hkd": 17999,
       "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 17999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:astral+oc+rog+white",
-   "category": "gpu",
-   "brand": "ASUS",
-   "model_key": "asus:5080:astral+oc+rog+white",
-   "part_number": "ROG-ASTRAL-RTX5080-O16G-WHITE",
-   "upc": "0199291112049",
-   "title": "ASUS華碩 ROG Astral GeForce RTX5080 16GB GDDR7 WHITE OC Edition (ROG-ASTRAL-RTX5080-O16G-…",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-243e2b3cff9f5fb0.webp",
-   "image": "img/hk-243e2b3cff9f5fb0.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/13794.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 17999,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/13794/asus-rog-astral-rtx-5080-oc-white-16gb",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 17999,
-      "url": "https://shop.pegasus.hk/products/225441/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-White-顯示卡"
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 18199,
-      "url": "https://buymore.hk/shop/goods.php?id=44891"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 18299,
-      "url": "https://secomputer.com.hk/products/58141"
      }
     ]
    },
