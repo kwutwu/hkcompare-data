@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-16T10:14:07Z",
- "generated_at_hkt": "2026-10-16 18:14 HKT",
- "price_updated_hkt": "2026-10-16 18:14 HKT",
+ "generated_at": "2026-10-16T10:33:47Z",
+ "generated_at_hkt": "2026-10-16 18:33 HKT",
+ "price_updated_hkt": "2026-10-16 18:33 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-16 09:57–10:43 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261016/hkcompare_rows.json",
@@ -85,6 +85,130 @@
    "cards_hk_parallel_best": 4,
    "titles_stripped_rows": 5,
    "titles_still_tagged": 0
+  },
+  "case_clearance": {
+   "source": "/workspace/site_hkcompare/diy_pc_cases_clearance.json",
+   "table_rows": 52,
+   "matched_rows": 28,
+   "matched_items": 76,
+   "by_how": {
+    "pn": 3,
+    "upc": 0,
+    "name": 25
+   },
+   "missed_count": 24,
+   "missed": [
+    "Corsair 4000D Airflow",
+    "Corsair 5000D Airflow",
+    "NZXT H9 Flow (2025)",
+    "NZXT H7 Flow (2024)",
+    "Fractal Design Meshify 3",
+    "Fractal Design Meshify 2",
+    "Fractal Design Pop Air",
+    "be quiet! Pure Base 500DX",
+    "be quiet! Dark Base 701",
+    "DeepCool CH560 DIGITAL",
+    "Cooler Master HAF 700",
+    "Phanteks Eclipse G360A",
+    "Thermaltake View 270 TG ARGB",
+    "SilverStone ALTA G1M",
+    "SilverStone FARA R1 PRO V2",
+    "MSI MAG Forge 112R",
+    "Lian Li LANCOOL 205 Mesh",
+    "Corsair iCUE 7000X RGB",
+    "NZXT H9 Flow",
+    "NZXT H7 Flow",
+    "Fractal Design Meshify 2 Compact",
+    "Fractal Design Torrent Compact",
+    "Montech AIR 903 BASE",
+    "Thermaltake View 51 TG ARGB"
+   ],
+   "samples": [
+    {
+     "clearance": "Lian Li LANCOOL 217",
+     "how": "name",
+     "item": "LIAN LI LANCOOL 217 Black 黑色 Tempered Glass ATX Case (LANCOOL-217X)",
+     "cooler_max_mm": 180,
+     "gpu_max_mm": 380
+    },
+    {
+     "clearance": "Lian Li LANCOOL 216",
+     "how": "pn",
+     "item": "LIAN LI LANCOOL 216X Black 黑色 Tempered Glass ATX Case",
+     "cooler_max_mm": 180.5,
+     "gpu_max_mm": 392
+    },
+    {
+     "clearance": "Lian Li LANCOOL 207",
+     "how": "name",
+     "item": "LIAN LI 聯力 LANCOOL 207 ATX 機箱 - Black 黑色",
+     "cooler_max_mm": 180,
+     "gpu_max_mm": 375
+    },
+    {
+     "clearance": "Lian Li O11 Dynamic EVO",
+     "how": "name",
+     "item": "LIAN LI O11 Dynamic EVO RGB PC-O11DERGBX Black 黑色 ATX Tower Case",
+     "cooler_max_mm": 167,
+     "gpu_max_mm": 426
+    },
+    {
+     "clearance": "Lian Li O11 Vision Compact",
+     "how": "name",
+     "item": "LIAN LI O11 Vision Compact - BLACK 黑色 ATX Mid-Tower Case PC-O11VPX",
+     "cooler_max_mm": 167,
+     "gpu_max_mm": 408
+    },
+    {
+     "clearance": "Corsair FRAME 4000D RS ARGB",
+     "how": "name",
+     "item": "Corsair FRAME 4000D WOOD RS ATX 機箱 - Black 黑色",
+     "cooler_max_mm": 170,
+     "gpu_max_mm": 430
+    },
+    {
+     "clearance": "Corsair 3000D Airflow",
+     "how": "name",
+     "item": "Corsair 3000D AIRFLOW ATX 機箱 - Black without Fan 黑色無風扇版",
+     "cooler_max_mm": 170,
+     "gpu_max_mm": 360
+    },
+    {
+     "clearance": "NZXT H5 Flow (2024)",
+     "how": "name",
+     "item": "NZXT H5 FLOW RGB (2024) Black 黑色 Tempered Glass ATX Airflow Case CC-H52FB-R1",
+     "cooler_max_mm": 170,
+     "gpu_max_mm": 410
+    },
+    {
+     "clearance": "Fractal Design North",
+     "how": "pn",
+     "item": "Fractal Design North Chalk White ATX Case with Oak Front and Clear TG Side Panel FD-C-N…",
+     "cooler_max_mm": 170,
+     "gpu_max_mm": 355
+    },
+    {
+     "clearance": "Fractal Design Torrent",
+     "how": "name",
+     "item": "Fractal Design Torrent Solid ATX 機箱 - Black 黑色",
+     "cooler_max_mm": 188,
+     "gpu_max_mm": 423
+    },
+    {
+     "clearance": "Montech AIR 903 MAX",
+     "how": "pn",
+     "item": "MONTECH AIR 903 MAX E-ATX ARGB 機箱 - Black 黑色",
+     "cooler_max_mm": 180,
+     "gpu_max_mm": 400
+    },
+    {
+     "clearance": "Hyte Y70",
+     "how": "name",
+     "item": "HYTE Y70 ATX 機箱 Honkai: Star Rail Firefly Limited Edition 崩壞：星穹鐵道 流螢 特別版 - JP VER. 日文版",
+     "cooler_max_mm": 180,
+     "gpu_max_mm": 422
+    }
+   ]
   },
   "images": {
    "amazon_downloaded": 0,
@@ -1648,7 +1772,16 @@
    "delta_hkd": null,
    "best_price": 299,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 370,
+   "width_mm": 220,
+   "depth_mm": 416,
+   "height_mm": 477,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "CC560",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:ITX:jonsbo.c6.c6:white",
@@ -2890,7 +3023,16 @@
    "delta_hkd": null,
    "best_price": 379,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 168,
+   "gpu_max_mm": 400,
+   "width_mm": 205,
+   "depth_mm": 440,
+   "height_mm": 392,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "D41",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:其他:mATX:darkflash.ds900m.argb.風扇.cpu:black",
@@ -3059,7 +3201,16 @@
    "delta_hkd": null,
    "best_price": 399,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 168,
+   "gpu_max_mm": 400,
+   "width_mm": 205,
+   "depth_mm": 440,
+   "height_mm": 392,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "D41",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:mATX:jonsbo.d200.d200:black",
@@ -3113,7 +3264,16 @@
    "delta_hkd": null,
    "best_price": 399,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 168,
+   "gpu_max_mm": 400,
+   "width_mm": 205,
+   "depth_mm": 440,
+   "height_mm": 392,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "D41",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:ATX:jonsbo.d41.mesh.d41.mesh:white",
@@ -3140,7 +3300,16 @@
    "delta_hkd": null,
    "best_price": 399,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 168,
+   "gpu_max_mm": 400,
+   "width_mm": 205,
+   "depth_mm": 440,
+   "height_mm": 392,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "D41",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:mATX:jonsbo.喬思伯.d32.pro.喬思伯:black",
@@ -3167,7 +3336,16 @@
    "delta_hkd": null,
    "best_price": 399,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 164,
+   "gpu_max_mm": 365,
+   "width_mm": 207,
+   "depth_mm": 384,
+   "height_mm": 302,
+   "released_year": 2024,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "D32 PRO",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:mATX:jonsbo.喬思伯.d32.pro.喬思伯:white",
@@ -3194,7 +3372,16 @@
    "delta_hkd": null,
    "best_price": 399,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 164,
+   "gpu_max_mm": 365,
+   "width_mm": 207,
+   "depth_mm": 384,
+   "height_mm": 302,
+   "released_year": 2024,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "D32 PRO",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:msi:mATX:msi.微星.mag.forge.m120r:",
@@ -4585,7 +4772,16 @@
    "delta_hkd": null,
    "best_price": 449,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 400,
+   "width_mm": 230,
+   "depth_mm": 478,
+   "height_mm": 493,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "AIR 903 MAX",
+   "clearance_match": "pn"
   },
   {
    "id": "case|case:montech:mATX:montech.ten.cpu.155mm.gpu:white",
@@ -5861,7 +6057,16 @@
    "delta_hkd": null,
    "best_price": 520,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 338,
+   "width_mm": 205,
+   "depth_mm": 460,
+   "height_mm": 350,
+   "released_year": 2022,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Prime AP201",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:mATX:lian.li.聯力.computer.電腦機箱:white",
@@ -5895,7 +6100,16 @@
    "delta_hkd": null,
    "best_price": 520,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 340,
+   "width_mm": 260,
+   "depth_mm": 380,
+   "height_mm": 400,
+   "released_year": 2024,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "A3-mATX",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:corsair:ATX:corsair.3000d.airflow.without.fan:black",
@@ -5922,7 +6136,16 @@
    "delta_hkd": null,
    "best_price": 529,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 360,
+   "width_mm": 230,
+   "depth_mm": 462,
+   "height_mm": 466,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "3000D Airflow",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:mATX:jonsbo.喬思伯.z20.pink.粉白色:white",
@@ -6098,7 +6321,16 @@
    "delta_hkd": null,
    "best_price": 530,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 340,
+   "width_mm": 260,
+   "depth_mm": 380,
+   "height_mm": 400,
+   "released_year": 2024,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "A3-mATX",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:deepcool:mATX:deepcool.ch270.digital.ch270.digital:black",
@@ -6429,7 +6661,16 @@
    "delta_hkd": null,
    "best_price": 559,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 360,
+   "width_mm": 230,
+   "depth_mm": 462,
+   "height_mm": 466,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "3000D Airflow",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:gigabyte:ATX:gigabyte.gaming.c301.glass.v2:black",
@@ -6456,7 +6697,16 @@
    "delta_hkd": null,
    "best_price": 559,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 400,
+   "width_mm": 220,
+   "depth_mm": 440,
+   "height_mm": 480,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "C301 Glass",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:gigabyte:ATX:gigabyte.技嘉.c301.glass.v2:black",
@@ -6483,7 +6733,16 @@
    "delta_hkd": null,
    "best_price": 559,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 400,
+   "width_mm": 220,
+   "depth_mm": 440,
+   "height_mm": 480,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "C301 Glass",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:gigabyte:ATX:gigabyte.技嘉.c301.glass.v2:white",
@@ -6510,7 +6769,16 @@
    "delta_hkd": null,
    "best_price": 559,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 400,
+   "width_mm": 220,
+   "depth_mm": 440,
+   "height_mm": 480,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "C301 Glass",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:mATX:jonsbo.喬思伯.d34.喬思伯.d34:white",
@@ -6780,7 +7048,16 @@
    "delta_hkd": null,
    "best_price": 580,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 340,
+   "width_mm": 260,
+   "depth_mm": 380,
+   "height_mm": 400,
+   "released_year": 2024,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "A3-mATX",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:mATX:lian.li.dan.cases.b4:white",
@@ -6834,7 +7111,16 @@
    "delta_hkd": null,
    "best_price": 580,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 340,
+   "width_mm": 260,
+   "depth_mm": 380,
+   "height_mm": 400,
+   "released_year": 2024,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "A3-mATX",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:mATX:lian.li.聯力.dan.a3:white",
@@ -6861,7 +7147,16 @@
    "delta_hkd": null,
    "best_price": 580,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 340,
+   "width_mm": 260,
+   "depth_mm": 380,
+   "height_mm": 400,
+   "released_year": 2024,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "A3-mATX",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:silverstone:mATX:silverstone.ml04b.ml04b:",
@@ -6942,7 +7237,16 @@
    "delta_hkd": null,
    "best_price": 595,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 410,
+   "width_mm": 220,
+   "depth_mm": 499,
+   "height_mm": 500,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "MasterBox TD500 Mesh V2",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:coolermaster:ATX:cooler.master.masterbox.td500.mesh:white",
@@ -6969,7 +7273,16 @@
    "delta_hkd": null,
    "best_price": 595,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 410,
+   "width_mm": 220,
+   "depth_mm": 499,
+   "height_mm": 500,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "MasterBox TD500 Mesh V2",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:mATX:asus.華碩.a21.華碩.a21:black",
@@ -7185,7 +7498,16 @@
    "delta_hkd": null,
    "best_price": 599,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 182,
+   "gpu_max_mm": 450,
+   "width_mm": 240,
+   "depth_mm": 481,
+   "height_mm": 516,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "CH690 DIGITAL",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:deepcool:ATX:deepcool.ch690.digital.ch690.digital:white",
@@ -7212,7 +7534,16 @@
    "delta_hkd": null,
    "best_price": 599,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 182,
+   "gpu_max_mm": 450,
+   "width_mm": 240,
+   "depth_mm": 481,
+   "height_mm": 516,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "CH690 DIGITAL",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:deepcool:ATX:deepcool.ch690.digital.cpu.182mm:black",
@@ -7239,7 +7570,16 @@
    "delta_hkd": null,
    "best_price": 599,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 182,
+   "gpu_max_mm": 450,
+   "width_mm": 240,
+   "depth_mm": 481,
+   "height_mm": 516,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "CH690 DIGITAL",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:mATX:jonsbo.d33.tempered.glass.d33:white",
@@ -7536,7 +7876,16 @@
    "delta_hkd": null,
    "best_price": 600,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 375,
+   "width_mm": 219,
+   "depth_mm": 455.6,
+   "height_mm": 456,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "LANCOOL 207",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.聯力.o11.vision:white",
@@ -7698,7 +8047,16 @@
    "delta_hkd": null,
    "best_price": 629,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 168,
+   "gpu_max_mm": 400,
+   "width_mm": 205,
+   "depth_mm": 440,
+   "height_mm": 392,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "D41",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:thermaltake:mATX:thermaltake.曜越.arcus.tg.argb:black",
@@ -7914,7 +8272,16 @@
    "delta_hkd": null,
    "best_price": 659,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 338,
+   "width_mm": 205,
+   "depth_mm": 460,
+   "height_mm": 350,
+   "released_year": 2022,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Prime AP201",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:mATX:asus.prime.ap201.mesh.ca:white",
@@ -7948,7 +8315,16 @@
    "delta_hkd": null,
    "best_price": 659,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 338,
+   "width_mm": 205,
+   "depth_mm": 460,
+   "height_mm": 350,
+   "released_year": 2022,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Prime AP201",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:mATX:asus.prime.ap201.tempered.glass:white",
@@ -7975,7 +8351,16 @@
    "delta_hkd": null,
    "best_price": 659,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 338,
+   "width_mm": 205,
+   "depth_mm": 460,
+   "height_mm": 350,
+   "released_year": 2022,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Prime AP201",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:ATX:asus.華碩.a31.華碩.a31:black",
@@ -8056,7 +8441,16 @@
    "delta_hkd": null,
    "best_price": 659,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 338,
+   "width_mm": 205,
+   "depth_mm": 460,
+   "height_mm": 350,
+   "released_year": 2022,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Prime AP201",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:mATX:asus.華碩.prime.ap201.tempered:black",
@@ -8083,7 +8477,16 @@
    "delta_hkd": null,
    "best_price": 659,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 338,
+   "width_mm": 205,
+   "depth_mm": 460,
+   "height_mm": 350,
+   "released_year": 2022,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Prime AP201",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:mATX:asus.華碩.prime.ap201.tempered:white",
@@ -8110,7 +8513,16 @@
    "delta_hkd": null,
    "best_price": 659,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 338,
+   "width_mm": 205,
+   "depth_mm": 460,
+   "height_mm": 350,
+   "released_year": 2022,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Prime AP201",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:thermaltake:mATX:thermaltake.曜越.arcus.tg.argb:white",
@@ -8353,7 +8765,16 @@
    "delta_hkd": null,
    "best_price": 680,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 375,
+   "width_mm": 219,
+   "depth_mm": 455.6,
+   "height_mm": 456,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "LANCOOL 207",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.聯力.lancool.聯力:white",
@@ -8380,7 +8801,16 @@
    "delta_hkd": null,
    "best_price": 680,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 375,
+   "width_mm": 219,
+   "depth_mm": 455.6,
+   "height_mm": 456,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "LANCOOL 207",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:mATX:lian.li.聯力.vector.v150:black",
@@ -8434,7 +8864,16 @@
    "delta_hkd": null,
    "best_price": 680,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 340,
+   "width_mm": 260,
+   "depth_mm": 380,
+   "height_mm": 400,
+   "released_year": 2024,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "A3-mATX",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:phanteks:ATX:phanteks.追風者.xt.view.mid:black",
@@ -8745,7 +9184,16 @@
    "delta_hkd": null,
    "best_price": 699,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 160,
+   "gpu_max_mm": 357,
+   "width_mm": 185,
+   "depth_mm": 372,
+   "height_mm": 292,
+   "released_year": 2023,
+   "clearance_form_factor": "Mini-ITX",
+   "clearance_model": "NR200P V2",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:corsair:mATX:corsair.2800x.rs.argb.2800x:black",
@@ -9049,7 +9497,16 @@
    "delta_hkd": null,
    "best_price": 750,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 369,
+   "width_mm": 269,
+   "depth_mm": 420,
+   "height_mm": 379,
+   "released_year": 2021,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "O11 Dynamic Mini",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:ATX:jonsbo.x400.x400:white",
@@ -9130,7 +9587,16 @@
    "delta_hkd": null,
    "best_price": 780,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 369,
+   "width_mm": 269,
+   "depth_mm": 420,
+   "height_mm": 379,
+   "released_year": 2021,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "O11 Dynamic Mini",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:mATX:asus.華碩.prime.ap202.華碩:black",
@@ -9292,7 +9758,16 @@
    "delta_hkd": null,
    "best_price": 799,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": null,
+   "gpu_max_mm": 410,
+   "width_mm": null,
+   "depth_mm": null,
+   "height_mm": null,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "C8",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:coolermaster:ATX:cooler.master.qube.stainless.mirror:silver",
@@ -9373,7 +9848,16 @@
    "delta_hkd": null,
    "best_price": 799,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 160,
+   "gpu_max_mm": 375,
+   "width_mm": 285,
+   "depth_mm": 456,
+   "height_mm": 462,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "Y60",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:jonsbo:ATX:jonsbo.tk.無立柱側透全景.支援背插式主機板.tk2:white",
@@ -9535,7 +10019,16 @@
    "delta_hkd": null,
    "best_price": 800,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 369,
+   "width_mm": 269,
+   "depth_mm": 420,
+   "height_mm": 379,
+   "released_year": 2021,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "O11 Dynamic Mini",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:phanteks:E-ATX:phanteks.追風者.eclipse.g400a.drgb:black",
@@ -9589,7 +10082,16 @@
    "delta_hkd": null,
    "best_price": 820,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180.5,
+   "gpu_max_mm": 392,
+   "width_mm": 235,
+   "depth_mm": 480.9,
+   "height_mm": 491.7,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "LANCOOL 216",
+   "clearance_match": "pn"
   },
   {
    "id": "case|case:asus:ATX:asus.華碩.a32.華碩.a32:black",
@@ -9670,7 +10172,16 @@
    "delta_hkd": null,
    "best_price": 830,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 369,
+   "width_mm": 269,
+   "depth_mm": 420,
+   "height_mm": 379,
+   "released_year": 2021,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "O11 Dynamic Mini",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.聯力.o11.dynamic:white",
@@ -9697,7 +10208,16 @@
    "delta_hkd": null,
    "best_price": 850,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 369,
+   "width_mm": 269,
+   "depth_mm": 420,
+   "height_mm": 379,
+   "released_year": 2021,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "O11 Dynamic Mini",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:phanteks:ATX:phanteks.追風者.nv5.mkii.drgb:black",
@@ -9724,7 +10244,16 @@
    "delta_hkd": null,
    "best_price": 850,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 440,
+   "width_mm": null,
+   "depth_mm": null,
+   "height_mm": null,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "NV5",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:corsair:ATX:corsair.3000d.rgb.airflow.3000d:black",
@@ -9751,7 +10280,16 @@
    "delta_hkd": null,
    "best_price": 859,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 360,
+   "width_mm": 230,
+   "depth_mm": 462,
+   "height_mm": 466,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "3000D Airflow",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:corsair:ATX:corsair.3000d.rgb.airflow.3000d:white",
@@ -9778,7 +10316,16 @@
    "delta_hkd": null,
    "best_price": 859,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 360,
+   "width_mm": 230,
+   "depth_mm": 462,
+   "height_mm": 466,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "3000D Airflow",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.lancool.216rx.argb:black",
@@ -10021,7 +10568,16 @@
    "delta_hkd": null,
    "best_price": 899,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 410,
+   "width_mm": 225,
+   "depth_mm": 430,
+   "height_mm": 465,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "H5 Flow (2024)",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:nzxt:ATX:nzxt.h5.flow.rgb.tempered:white",
@@ -10048,7 +10604,16 @@
    "delta_hkd": null,
    "best_price": 899,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 410,
+   "width_mm": 225,
+   "depth_mm": 430,
+   "height_mm": 465,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "H5 Flow (2024)",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:thermaltake:ATX:thermaltake.曜越.view.air.snow:white",
@@ -10291,7 +10856,16 @@
    "delta_hkd": null,
    "best_price": 930,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 440,
+   "width_mm": null,
+   "depth_mm": null,
+   "height_mm": null,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "NV5",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:fractaldesign:ATX:fractal.design.define.compact.tg:black",
@@ -10372,7 +10946,16 @@
    "delta_hkd": null,
    "best_price": 960,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 380,
+   "width_mm": 238,
+   "depth_mm": 482,
+   "height_mm": 503,
+   "released_year": 2025,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "LANCOOL 217",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.o11.vision.compact:black",
@@ -10399,7 +10982,16 @@
    "delta_hkd": null,
    "best_price": 960,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 167,
+   "gpu_max_mm": 408,
+   "width_mm": 287.5,
+   "depth_mm": 447.5,
+   "height_mm": 446.4,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "O11 Vision Compact",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.o11.vision.compact:white",
@@ -10426,7 +11018,16 @@
    "delta_hkd": null,
    "best_price": 960,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 167,
+   "gpu_max_mm": 408,
+   "width_mm": 287.5,
+   "depth_mm": 447.5,
+   "height_mm": 446.4,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "O11 Vision Compact",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:phanteks:ATX:phanteks.追風者.xt.view.matrix:black",
@@ -10696,7 +11297,16 @@
    "delta_hkd": null,
    "best_price": 999,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 355,
+   "width_mm": 215,
+   "depth_mm": 447,
+   "height_mm": 469,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "North",
+   "clearance_match": "pn"
   },
   {
    "id": "case|case:fractaldesign:ATX:fractal.design.north.chalk.with:white#2",
@@ -10858,7 +11468,16 @@
    "delta_hkd": null,
    "best_price": 999,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 210,
+   "gpu_max_mm": 400,
+   "width_mm": 281,
+   "depth_mm": 281,
+   "height_mm": 550,
+   "released_year": 2023,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Tower 300",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:thermaltake:mATX:thermaltake.曜越.the.matcha.green:",
@@ -10885,7 +11504,16 @@
    "delta_hkd": null,
    "best_price": 999,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 210,
+   "gpu_max_mm": 400,
+   "width_mm": 281,
+   "depth_mm": 281,
+   "height_mm": 550,
+   "released_year": 2023,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Tower 300",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:thermaltake:mATX:thermaltake.曜越.the.racing.green:",
@@ -10912,7 +11540,16 @@
    "delta_hkd": null,
    "best_price": 999,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 210,
+   "gpu_max_mm": 400,
+   "width_mm": 281,
+   "depth_mm": 281,
+   "height_mm": 550,
+   "released_year": 2023,
+   "clearance_form_factor": "Micro-ATX",
+   "clearance_model": "Tower 300",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:tryx:ATX:tryx.flova.f50.flova.f50:black",
@@ -10993,7 +11630,16 @@
    "delta_hkd": null,
    "best_price": 1000,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 380,
+   "width_mm": 238,
+   "depth_mm": 482,
+   "height_mm": 503,
+   "released_year": 2025,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "LANCOOL 217",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.sup01.內附.pcie4.0:white",
@@ -11047,7 +11693,16 @@
    "delta_hkd": null,
    "best_price": 1010,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 380,
+   "width_mm": 238,
+   "depth_mm": 482,
+   "height_mm": 503,
+   "released_year": 2025,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "LANCOOL 217",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.聯力.lancool.infinity:white",
@@ -11074,7 +11729,16 @@
    "delta_hkd": null,
    "best_price": 1080,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 380,
+   "width_mm": 238,
+   "depth_mm": 482,
+   "height_mm": 503,
+   "released_year": 2025,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "LANCOOL 217",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:ATX:asus.華碩.tuf.gaming.gt302:black",
@@ -11101,7 +11765,16 @@
    "delta_hkd": null,
    "best_price": 1099,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 407,
+   "width_mm": 235,
+   "depth_mm": 520,
+   "height_mm": 485,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "TUF Gaming GT302",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:ATX:asus.華碩.tuf.gaming.gt302:white",
@@ -11128,7 +11801,16 @@
    "delta_hkd": null,
    "best_price": 1099,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 165,
+   "gpu_max_mm": 407,
+   "width_mm": 235,
+   "depth_mm": 520,
+   "height_mm": 485,
+   "released_year": 2023,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "TUF Gaming GT302",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:hyte:ATX:hyte.y60.red.紅黑色.y60:black",
@@ -11155,7 +11837,16 @@
    "delta_hkd": null,
    "best_price": 1099,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 160,
+   "gpu_max_mm": 375,
+   "width_mm": 285,
+   "depth_mm": 456,
+   "height_mm": 462,
+   "released_year": 2022,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "Y60",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:ssupd:ATX:ssupd.xhuttle.xhuttle:black",
@@ -11290,7 +11981,16 @@
    "delta_hkd": null,
    "best_price": 1199,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 430,
+   "width_mm": 239,
+   "depth_mm": 490,
+   "height_mm": 486,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "FRAME 4000D RS ARGB",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:hyte:ATX:hyte.x50.air.pitch.x50:black",
@@ -11790,7 +12490,16 @@
    "delta_hkd": null,
    "best_price": 1340,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 167,
+   "gpu_max_mm": 426,
+   "width_mm": 285,
+   "depth_mm": 465,
+   "height_mm": 459,
+   "released_year": 2021,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "O11 Dynamic EVO",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:phanteks:ATX:phanteks.追風者.evolv.x2.mid:black",
@@ -12033,7 +12742,16 @@
    "delta_hkd": null,
    "best_price": 1410,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 188,
+   "gpu_max_mm": 423,
+   "width_mm": 242,
+   "depth_mm": 544,
+   "height_mm": 530,
+   "released_year": 2021,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "Torrent",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:hyte:ATX:hyte.y40.songque.\"encased.fortune\"特別版:",
@@ -12303,7 +13021,16 @@
    "delta_hkd": null,
    "best_price": 1900,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 167,
+   "gpu_max_mm": 426,
+   "width_mm": 285,
+   "depth_mm": 465,
+   "height_mm": 459,
+   "released_year": 2021,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "O11 Dynamic EVO",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:lianli:ATX:lian.li.聯力.pc.o11:white",
@@ -12330,7 +13057,16 @@
    "delta_hkd": null,
    "best_price": 1960,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 167,
+   "gpu_max_mm": 426,
+   "width_mm": 285,
+   "depth_mm": 465,
+   "height_mm": 459,
+   "released_year": 2021,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "O11 Dynamic EVO",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:ATX:asus.華碩.rog.strix.helios:white",
@@ -12600,7 +13336,16 @@
    "delta_hkd": null,
    "best_price": 2199,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 420,
+   "width_mm": 245,
+   "depth_mm": 520,
+   "height_mm": 520,
+   "released_year": 2021,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "iCUE 5000X RGB",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:coolermaster:ATX:cooler.master.masterframe.stage.lcd:",
@@ -12661,7 +13406,16 @@
    "delta_hkd": null,
    "best_price": 2490,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 160,
+   "gpu_max_mm": 357,
+   "width_mm": 185,
+   "depth_mm": 372,
+   "height_mm": 292,
+   "released_year": 2023,
+   "clearance_form_factor": "Mini-ITX",
+   "clearance_model": "NR200P V2",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:coolermaster:ITX:cooler.master.ncore.max.bronze:",
@@ -12722,7 +13476,16 @@
    "delta_hkd": null,
    "best_price": 2599,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 422,
+   "width_mm": 320,
+   "depth_mm": 470,
+   "height_mm": 470,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "Y70",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:corsair:ATX:corsair.frame.4000d.lcd.rs:black",
@@ -12749,7 +13512,16 @@
    "delta_hkd": null,
    "best_price": 2699,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 170,
+   "gpu_max_mm": 430,
+   "width_mm": 239,
+   "depth_mm": 490,
+   "height_mm": 486,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "FRAME 4000D RS ARGB",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:E-ATX:asus.華碩.rog.cronox.gr801:black",
@@ -12884,7 +13656,16 @@
    "delta_hkd": null,
    "best_price": 3599,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 422,
+   "width_mm": 320,
+   "depth_mm": 470,
+   "height_mm": 470,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "Y70",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:hyte:ATX:hyte.y70.touch.infinite.panda:white",
@@ -12911,7 +13692,16 @@
    "delta_hkd": null,
    "best_price": 3599,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 422,
+   "width_mm": 320,
+   "depth_mm": 470,
+   "height_mm": 470,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "Y70",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:hyte:ATX:hyte.y70.touch.infinite.pitch:black",
@@ -12938,7 +13728,16 @@
    "delta_hkd": null,
    "best_price": 3599,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 422,
+   "width_mm": 320,
+   "depth_mm": 470,
+   "height_mm": 470,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "Y70",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:hyte:ATX:hyte.y70.touch.infinite.snow:white",
@@ -12965,7 +13764,16 @@
    "delta_hkd": null,
    "best_price": 3599,
    "has_water": false,
-   "has_official": true
+   "has_official": true,
+   "cooler_max_mm": 180,
+   "gpu_max_mm": 422,
+   "width_mm": 320,
+   "depth_mm": 470,
+   "height_mm": 470,
+   "released_year": 2024,
+   "clearance_form_factor": "ATX Mid Tower",
+   "clearance_model": "Y70",
+   "clearance_match": "name"
   },
   {
    "id": "case|case:asus:E-ATX:asus.華碩.rog.cronox.argb:black",
