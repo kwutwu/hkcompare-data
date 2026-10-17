@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-17T06:38:32Z",
- "generated_at_hkt": "2026-10-17 14:38 HKT",
- "price_updated_hkt": "2026-10-17 14:38 HKT",
+ "generated_at": "2026-10-17T07:10:30Z",
+ "generated_at_hkt": "2026-10-17 15:10 HKT",
+ "price_updated_hkt": "2026-10-17 15:10 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–14:14 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -275,9 +275,9 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 20,
-   "official_downloaded": 0,
+   "official_downloaded": 2,
    "official_cached": 2206,
-   "failed": 2
+   "failed": 0
   },
   "image_samples": [
    {
@@ -48432,7 +48432,7 @@
    "image": "img/B0H1MSZFW6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61qIACMZ3zL._AC_SL1200_.jpg",
    "water": {
-    "price_hkd": 11996,
+    "price_hkd": 12023,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -48446,7 +48446,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11996,
+   "best_price": 12023,
    "has_water": true,
    "has_official": false
   },
@@ -48469,7 +48469,7 @@
    "image": "img/B0DTJDR3V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 12239,
+    "price_hkd": 12267,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -48483,7 +48483,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 12239,
+   "best_price": 12267,
    "has_water": true,
    "has_official": false
   },
@@ -48626,7 +48626,7 @@
    "image": "img/B0DT6NZ9V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71PEi8EcUBL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12619,
+    "price_hkd": 12648,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -48665,8 +48665,8 @@
      }
     ]
    },
-   "delta_hkd": 1280,
-   "best_price": 12619,
+   "delta_hkd": 1251,
+   "best_price": 12648,
    "has_water": true,
    "has_official": true
   },
@@ -48689,7 +48689,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12632,
+    "price_hkd": 12660,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -48722,8 +48722,8 @@
      }
     ]
    },
-   "delta_hkd": 2868,
-   "best_price": 12632,
+   "delta_hkd": 2840,
+   "best_price": 12660,
    "has_water": true,
    "has_official": true
   },
@@ -49208,7 +49208,7 @@
    "image": "img/B0GWRN4Q36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13433,
+    "price_hkd": 13464,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -49235,8 +49235,8 @@
      }
     ]
    },
-   "delta_hkd": 766,
-   "best_price": 13433,
+   "delta_hkd": 735,
+   "best_price": 13464,
    "has_water": true,
    "has_official": true
   },
@@ -49789,7 +49789,7 @@
    "image": "img/B0DQGB8FTQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71MTgvMq55L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14990,
+    "price_hkd": 15024,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -49822,7 +49822,7 @@
      }
     ]
    },
-   "delta_hkd": -240,
+   "delta_hkd": -274,
    "best_price": 14750,
    "has_water": true,
    "has_official": true
@@ -90301,9 +90301,9 @@
    "has_wifi": null,
    "ssd_capacity": "1TB",
    "ssd_interface": "PCIe",
-   "image_url": "https://centralfield.com/Pimg/23690.webp",
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a46b2b17719aa6c7.webp",
+   "image": "img/hk-a46b2b17719aa6c7.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/23690.webp",
    "water": null,
    "official": {
     "price_hkd": 1350,
@@ -92355,9 +92355,9 @@
    "has_wifi": null,
    "ssd_capacity": "2TB",
    "ssd_interface": "PCIe",
-   "image_url": "https://centralfield.com/Pimg/23691.webp",
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9fc6dc10c4656c40.webp",
+   "image": "img/hk-9fc6dc10c4656c40.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/23691.webp",
    "water": null,
    "official": {
     "price_hkd": 2060,
