@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-17T06:32:16Z",
- "generated_at_hkt": "2026-10-17 14:32 HKT",
- "price_updated_hkt": "2026-10-17 14:32 HKT",
+ "generated_at": "2026-10-17T06:33:19Z",
+ "generated_at_hkt": "2026-10-17 14:33 HKT",
+ "price_updated_hkt": "2026-10-17 14:33 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–14:14 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -53,7 +53,7 @@
   },
   "air_cooler": {
    "label": "風冷",
-   "count": 272,
+   "count": 280,
    "enabled": true,
    "note": ""
   },
@@ -65,23 +65,23 @@
   }
  },
  "stats": {
-  "items": 2489,
+  "items": 2497,
   "both_sides": 46,
   "water_only": 70,
-  "official_only": 2370,
+  "official_only": 2378,
   "matched_water": 50,
-  "official_groups": 2489,
+  "official_groups": 2497,
   "id_merge": {
    "enabled": true,
    "unions_upc": 188,
    "unions_part_number": 172,
-   "old_cards_bridged_by_upc": 90,
+   "old_cards_bridged_by_upc": 88,
    "old_cards_bridged_by_part_number": 20,
    "skipped_conflicts": 47,
-   "name_key_splits": 34,
+   "name_key_splits": 32,
    "ram_soft_unions": 2,
    "ram_soft_ambiguous": 3,
-   "same_store_offers_dropped": 83,
+   "same_store_offers_dropped": 76,
    "pn_dropped_capacity_mismatch": 0
   },
   "hk_parallel": {
@@ -275,7 +275,7 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 20,
-   "official_downloaded": 0,
+   "official_downloaded": 8,
    "official_cached": 2198,
    "failed": 2
   },
@@ -330,10 +330,10 @@
     "via": "official"
    },
    {
-    "title": "VALKYRIE AQ125 BLACK 黑色 4x6MM高性能散熱管 CPU Cooler (VK-AQ125-BK)",
-    "image": "img/hk-e3fbdb3a134ed1e5.jpg",
-    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e3fbdb3a134ed1e5.jpg",
-    "fallback": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/682dc9302377f1050.jpg_d480.jpg?v=1748838245",
+    "title": "ID-COOLING DK-19 PWM 風冷散熱器",
+    "image": "img/hk-55994515ec72a1cf.png",
+    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-55994515ec72a1cf.png",
+    "fallback": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d99c1375-42ff-451f-aaa3-ee14712c3200",
     "via": "official"
    }
   ],
@@ -454,11 +454,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.dk.風冷散熱器.dk:",
+   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.dk17.風冷散熱器.dk17:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "ID-COOLING",
-   "model_key": "air_cooler:id-cooling:下壓:id.cooling.dk.風冷散熱器.dk:",
+   "model_key": "air_cooler:id-cooling:下壓:id.cooling.dk17.風冷散熱器.dk17:",
    "part_number": null,
    "upc": null,
    "title": "ID-COOLING DK-17 PWM 風冷散熱器",
@@ -614,11 +614,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:塔散.thermalright.assassin.refined.se:",
+   "id": "air_cooler|air_cooler:thermalright:單塔:塔散.thermalright.assassin.x120.refined:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:塔散.thermalright.assassin.refined.se:",
+   "model_key": "air_cooler:thermalright:單塔:塔散.thermalright.assassin.x120.refined:",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT ASSASSIN X 120 REFINED SE PLUS [高: 148mm]",
@@ -642,6 +642,38 @@
    },
    "delta_hkd": null,
    "best_price": 110,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.dk19.風冷散熱器.dk19:",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "ID-COOLING",
+   "model_key": "air_cooler:id-cooling:下壓:id.cooling.dk19.風冷散熱器.dk19:",
+   "part_number": null,
+   "upc": null,
+   "title": "ID-COOLING DK-19 PWM 風冷散熱器",
+   "spec": "下壓",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-55994515ec72a1cf.png",
+   "image": "img/hk-55994515ec72a1cf.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d99c1375-42ff-451f-aaa3-ee14712c3200/public",
+   "water": null,
+   "official": {
+    "price_hkd": 129,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/216211/ID-COOLING-DK-19-PWM-風冷散熱器",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 129,
    "has_water": false,
    "has_official": true
   },
@@ -710,11 +742,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:塔散.thermalright.assassin.refined.se:black",
+   "id": "air_cooler|air_cooler:thermalright:單塔:塔散.thermalright.assassin.x120.refined:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:塔散.thermalright.assassin.refined.se:black",
+   "model_key": "air_cooler:thermalright:單塔:塔散.thermalright.assassin.x120.refined:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT ASSASSIN X 120 REFINED SE ARGB [黑色] [高: 148mm]",
@@ -742,11 +774,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.spectrum.v3.風冷散熱器:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper212.spectrum.v3.風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.spectrum.v3.風冷散熱器:",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper212.spectrum.v3.風冷散熱器:",
    "part_number": null,
    "upc": null,
    "title": "Cooler Master Hyper 212 Spectrum V3 風冷散熱器",
@@ -774,11 +806,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.nano.風冷散熱器.hyper:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper411.nano.風冷散熱器.hyper411:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.nano.風冷散熱器.hyper:",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper411.nano.風冷散熱器.hyper411:",
    "part_number": null,
    "upc": null,
    "title": "Cooler Master Hyper 411 Nano 風冷散熱器",
@@ -902,11 +934,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.refined.se.ax120:white",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.x120.refined.se:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.refined.se.ax120:white",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.x120.refined.se:white",
    "part_number": "TMR-AX120R-SE-WH",
    "upc": "0814256015837",
    "title": "Thermalright Assassin X 120 Refined SE WHITE 白色 CPU Cooler AX120 R SE WH (TMR-AX120R-SE…",
@@ -973,11 +1005,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.3dhp.風冷散熱器.hyper:black",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper212.3dhp.風冷散熱器.hyper212:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.3dhp.風冷散熱器.hyper:black",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper212.3dhp.風冷散熱器.hyper212:black",
    "part_number": "MAY-T2HP-217PA-C1",
    "upc": "6928968323860",
    "title": "Cooler Master Hyper 212 3DHP Black ARGB CPU COOLER 傳奇冷卻器 (MAY-T2HP-217PA-C1)",
@@ -1018,11 +1050,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:gamemax:單塔:塔散.gamemax.sigma.infinity.bk:black",
+   "id": "air_cooler|air_cooler:gamemax:單塔:塔散.gamemax.sigma550.infinity.bk:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "GameMax",
-   "model_key": "air_cooler:gamemax:單塔:塔散.gamemax.sigma.infinity.bk:black",
+   "model_key": "air_cooler:gamemax:單塔:塔散.gamemax.sigma550.infinity.bk:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】GAMEMAX SIGMA 550 INFINITY BK [黑色] [高: 153mm]",
@@ -1082,11 +1114,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.assassin.refined.se:black",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.assassin.x120.refined:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.assassin.refined.se:black",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.assassin.x120.refined:black",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Assassin X 120 Refined SE ARGB 風冷散熱器 - Black 黑色",
@@ -1114,11 +1146,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.assassin.refined.se:white",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.assassin.x120.refined:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.assassin.refined.se:white",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.assassin.x120.refined:white",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Assassin X 120 Refined SE WHITE ARGB 風冷散熱器 - White 白色",
@@ -1146,12 +1178,12 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.refined.se.ax120:black",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.x120.refined.se:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.refined.se.ax120:black",
-   "part_number": null,
+   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.x120.refined.se:black",
+   "part_number": "TMR-TL-AX120R-SE",
    "upc": "0814256003780",
    "title": "Thermalright Assassin X 120 Refined SE ARGB BLACK 黑色 CPU Cooler AX120 R SE ARGB BK",
    "spec": "單塔",
@@ -1345,11 +1377,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.refined.se.ax120:white#2",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.x120.refined.se:white#2",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.refined.se.ax120:white",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.x120.refined.se:white",
    "part_number": "TMR-TL-AX120R-SEARGB-WH",
    "upc": "0814256004022",
    "title": "ThermalRight Assassin X 120 Refined SE - White ARGB CPU COOLER (TMR-TL-AX120R-SEARGB-WH)",
@@ -1416,11 +1448,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.h411.nano.熱管:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.h411.nano4.熱管:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.h411.nano.熱管:",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper.h411.nano4.熱管:",
    "part_number": "RR-H410-25PK-R1",
    "upc": "0884102126970",
    "title": "Cooler Master Hyper H411 Nano CPU Cooler (4熱管, RR-H410-25PK-R1)",
@@ -1608,43 +1640,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.refined.se.tmr:black",
-   "category": "air_cooler",
-   "cooler_kind": "air",
-   "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.refined.se.tmr:black",
-   "part_number": "TMR-TL-AX120R-SE",
-   "upc": "0100014366815",
-   "title": "ThermalRight Assassin X 120 Refined SE CPU Cooler Black (TMR-TL-AX120R-SE)",
-   "spec": "單塔",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-302747a37e270aba.webp",
-   "image": "img/hk-302747a37e270aba.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/c53095815c32d70e57c12ea743f3aad4.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 169,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/45307",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 169,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "air_cooler|air_cooler:jonsbo:下壓:jonsbo.hp.400s.wh.9cm:white",
+   "id": "air_cooler|air_cooler:jonsbo:下壓:jonsbo.hp400s.wh9cm.下吹式.low:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Jonsbo",
-   "model_key": "air_cooler:jonsbo:下壓:jonsbo.hp.400s.wh.9cm:white",
+   "model_key": "air_cooler:jonsbo:下壓:jonsbo.hp400s.wh9cm.下吹式.low:white",
    "part_number": "HP-400S-WH",
    "upc": "0100065441549",
    "title": "JONSBO HP-400S-WH 白色(9CM)下吹式 low-profile CPU Cooler",
@@ -1736,11 +1736,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.120r.se.plus:",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.assassin.x120r.se.plus:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.120r.se.plus:",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.assassin.x120r.se.plus:",
    "part_number": null,
    "upc": "0814256016223",
    "title": "Thermalright Assassin X 120R SE Plus 雙風扇 CPU Cooler AX120 R SE PLUS",
@@ -1775,50 +1775,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.se.雙塔式:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin90.se.雙塔式:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.se.雙塔式:white",
-   "part_number": "PA120-SE-WHITE-ARGB",
-   "upc": "0814256017817",
-   "title": "Thermalright Peerless Assassin 120 SE ARGB WHITE 白色 雙塔式 CPU Cooler (TMR-PA120-SE-ARGB-WH)",
-   "spec": "雙塔",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b3f81489dc1bae20.jpg",
-   "image": "img/hk-b3f81489dc1bae20.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/4-11_5c93dac8-1322-4b6e-8375-94420452d834.jpg?v=1719649643",
-   "water": null,
-   "official": {
-    "price_hkd": 198,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/thermalright-peerless-assassin-90-se-white-白色-雙塔式-cpu-cooler-pa90-se-wh",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 269,
-      "url": "https://centralfield.com/product/2196/thermalright-peerless-assassin-120se-argb-white-air-cooler"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 198,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.se.雙塔式:black",
-   "category": "air_cooler",
-   "cooler_kind": "air",
-   "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.se.雙塔式:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin90.se.雙塔式:black",
    "part_number": "TMR-PA90-SE-BK",
    "upc": "0814256017824",
    "title": "Thermalright Peerless Assassin 90 SE BLACK 黑色 雙塔式 CPU Cooler TMR-PA90-SE-BK",
@@ -1846,11 +1807,43 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.se.白色雙塔風冷散熱器:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin90.se.雙塔式:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.se.白色雙塔風冷散熱器:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin90.se.雙塔式:white",
+   "part_number": null,
+   "upc": "0814256017817",
+   "title": "Thermalright Peerless Assassin 90 SE WHITE 白色 雙塔式 CPU Cooler PA90 SE WH",
+   "spec": "雙塔",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b3f81489dc1bae20.jpg",
+   "image": "img/hk-b3f81489dc1bae20.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/4-11_5c93dac8-1322-4b6e-8375-94420452d834.jpg?v=1719649643",
+   "water": null,
+   "official": {
+    "price_hkd": 198,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/thermalright-peerless-assassin-90-se-white-白色-雙塔式-cpu-cooler-pa90-se-wh",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 198,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin90.se.白色雙塔風冷散熱器:white",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "Thermalright",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin90.se.白色雙塔風冷散熱器:white",
    "part_number": "TL-PS90SE-WH",
    "upc": null,
    "title": "Thermalright Peerless Assassin 90 SE 白色雙塔風冷散熱器",
@@ -1910,11 +1903,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:gamemax:單塔:塔散.gamemax.sigma.digital.bk:black",
+   "id": "air_cooler|air_cooler:gamemax:單塔:塔散.gamemax.sigma520.digital.bk:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "GameMax",
-   "model_key": "air_cooler:gamemax:單塔:塔散.gamemax.sigma.digital.bk:black",
+   "model_key": "air_cooler:gamemax:單塔:塔散.gamemax.sigma520.digital.bk:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】GAMEMAX SIGMA 520 DIGITAL BK *溫度顯示* [黑色] [高: 157mm]",
@@ -1942,11 +1935,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.id.is.xt:",
+   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.id.is47.xt:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "ID-COOLING",
-   "model_key": "air_cooler:id-cooling:下壓:id.cooling.id.is.xt:",
+   "model_key": "air_cooler:id-cooling:下壓:id.cooling.id.is47.xt:",
    "part_number": null,
    "upc": null,
    "title": "ID-COOLING ID-IS-47-XT 風冷散熱器",
@@ -2038,14 +2031,14 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.se:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin90.se:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.se:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin90.se:black",
    "part_number": null,
    "upc": null,
-   "title": "ThermalRight 利民 Peerless Assassin 120 SE ARGB 雙塔風冷散熱器 - Black 黑色",
+   "title": "ThermalRight 利民 Peerless Assassin 90 SE BLACK 雙塔風冷散熱器",
    "spec": "雙塔",
    "filter_tags": null,
    "form_factor": null,
@@ -2070,14 +2063,14 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.se:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin90.se:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.se:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin90.se:white",
    "part_number": null,
    "upc": null,
-   "title": "ThermalRight 利民 Peerless Assassin 120 SE WHITE ARGB 雙塔風冷散熱器 - White 白色",
+   "title": "ThermalRight 利民 Peerless Assassin 90 SE WHITE 雙塔風冷散熱器",
    "spec": "雙塔",
    "filter_tags": null,
    "form_factor": null,
@@ -2102,11 +2095,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:bequiet!:單塔:be.quiet!.pure.rock.lx:",
+   "id": "air_cooler|air_cooler:bequiet!:單塔:be.quiet!.pure.rock3.lx:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "be quiet!",
-   "model_key": "air_cooler:bequiet!:單塔:be.quiet!.pure.rock.lx:",
+   "model_key": "air_cooler:bequiet!:單塔:be.quiet!.pure.rock3.lx:",
    "part_number": null,
    "upc": null,
    "title": "be quiet! PURE ROCK 3 LX 風冷散熱器",
@@ -2134,11 +2127,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:其他:單塔:scythe.鐮刀.虎徹.kotetsu.mark:",
+   "id": "air_cooler|air_cooler:其他:單塔:scythe.鐮刀.虎徹.kotetsu.mark4:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "其他",
-   "model_key": "air_cooler:其他:單塔:scythe.鐮刀.虎徹.kotetsu.mark:",
+   "model_key": "air_cooler:其他:單塔:scythe.鐮刀.虎徹.kotetsu.mark4:",
    "part_number": null,
    "upc": null,
    "title": "SCYTHE 鐮刀 虎徹 4 KOTETSU MARK 4 ARGB PLUS 風冷散熱器",
@@ -2166,11 +2159,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:塔散.arctic.freezer.36s.156mm:black",
+   "id": "air_cooler|air_cooler:arctic:單塔:塔散.arctic.freezer36s.156mm.freezer36s:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:塔散.arctic.freezer.36s.156mm:black",
+   "model_key": "air_cooler:arctic:單塔:塔散.arctic.freezer36s.156mm.freezer36s:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】ARCTIC FREEZER 36-S【黑色】[CPU: 156mm]",
@@ -2230,11 +2223,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.is.xt.風冷散熱器:",
+   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.is53.xt.風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "ID-COOLING",
-   "model_key": "air_cooler:id-cooling:下壓:id.cooling.is.xt.風冷散熱器:",
+   "model_key": "air_cooler:id-cooling:下壓:id.cooling.is53.xt.風冷散熱器:",
    "part_number": null,
    "upc": null,
    "title": "ID-COOLING IS-53-XT 風冷散熱器",
@@ -2262,11 +2255,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer.36s.風冷散熱器:black",
+   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer36s.風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:arctic.freezer.36s.風冷散熱器:black",
+   "model_key": "air_cooler:arctic:單塔:arctic.freezer36s.風冷散熱器:black",
    "part_number": null,
    "upc": null,
    "title": "ARCTIC Freezer 36-S A-RGB (Black) 風冷散熱器 - Black 黑色",
@@ -2294,11 +2287,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer.36s.黑色風冷散熱器.散熱:black",
+   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer36s.黑色風冷散熱器.散熱.freezer36s:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:arctic.freezer.36s.黑色風冷散熱器.散熱:black",
+   "model_key": "air_cooler:arctic:單塔:arctic.freezer36s.黑色風冷散熱器.散熱.freezer36s:black",
    "part_number": "TH-RFZ36SB",
    "upc": "4895265000980",
    "title": "ARCTIC Freezer 36-S Black 黑色風冷散熱器 | CPU散熱",
@@ -2326,11 +2319,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer.36s.風冷散熱器.freezer:",
+   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer36s.風冷散熱器.freezer36s.風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:arctic.freezer.36s.風冷散熱器.freezer:",
+   "model_key": "air_cooler:arctic:單塔:arctic.freezer36s.風冷散熱器.freezer36s.風冷散熱器:",
    "part_number": null,
    "upc": null,
    "title": "ARCTIC Freezer 36-S 風冷散熱器",
@@ -2358,11 +2351,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer.36s.風冷散熱器.銀黑色:black",
+   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer36s.風冷散熱器.銀黑色.電腦配件:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:arctic.freezer.36s.風冷散熱器.銀黑色:black",
+   "model_key": "air_cooler:arctic:單塔:arctic.freezer36s.風冷散熱器.銀黑色.電腦配件:black",
    "part_number": "TH-RFZ36S",
    "upc": "4895265000966",
    "title": "ARCTIC Freezer 36-S 風冷散熱器 銀黑色 電腦配件",
@@ -2390,11 +2383,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.is.風冷散熱器.is:black",
+   "id": "air_cooler|air_cooler:id-cooling:下壓:id.cooling.is55.風冷散熱器.is55:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "ID-COOLING",
-   "model_key": "air_cooler:id-cooling:下壓:id.cooling.is.風冷散熱器.is:black",
+   "model_key": "air_cooler:id-cooling:下壓:id.cooling.is55.風冷散熱器.is55:black",
    "part_number": null,
    "upc": null,
    "title": "ID-COOLING IS-55 BLACK 風冷散熱器",
@@ -2422,11 +2415,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.assassin.digital.風冷散熱器:white",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.assassin.x120.digital:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.assassin.digital.風冷散熱器:white",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.assassin.x120.digital:white",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Assassin X 120 R ARGB DIGITAL WHITE 風冷散熱器 - White 白色",
@@ -2518,11 +2511,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:gamemax:單塔:塔散.gamemax.gamma.digital.bk:black",
+   "id": "air_cooler|air_cooler:gamemax:單塔:塔散.gamemax.gamma90.digital.bk:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "GameMax",
-   "model_key": "air_cooler:gamemax:單塔:塔散.gamemax.gamma.digital.bk:black",
+   "model_key": "air_cooler:gamemax:單塔:塔散.gamemax.gamma90.digital.bk:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】GAMEMAX GAMMA 90 DIGITAL BK *溫度顯示* [黑色] [高: 132mm]",
@@ -2621,11 +2614,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v4.alpha.3dhp.雙風扇塔冷:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v4.alpha3dhp.雙風扇塔冷.maz:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.v4.alpha.3dhp.雙風扇塔冷:",
+   "model_key": "air_cooler:coolermaster:單塔:master.v4.alpha3dhp.雙風扇塔冷.maz:",
    "part_number": "MAZ-T2HP-217PK-R1",
    "upc": "0884102131158",
    "title": "Cooler Master V4 ALPHA 3DHP 雙風扇塔冷 CPU Cooler (MAZ-T2HP-217PK-R1)",
@@ -2685,11 +2678,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.assassin.digital.風冷散熱器:black",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.assassin.x120.digital:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.assassin.digital.風冷散熱器:black",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.assassin.x120.digital:black",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Assassin X 120 R ARGB DIGITAL BLACK 風冷散熱器 - Black 黑色",
@@ -2794,11 +2787,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer.風冷散熱器.freezer.風冷散熱器:black",
+   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer36.風冷散熱器.freezer36.風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:arctic.freezer.風冷散熱器.freezer.風冷散熱器:black",
+   "model_key": "air_cooler:arctic:單塔:arctic.freezer36.風冷散熱器.freezer36.風冷散熱器:black",
    "part_number": null,
    "upc": null,
    "title": "ARCTIC Freezer 36 A-RGB 風冷散熱器 - Black 黑色",
@@ -2826,11 +2819,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer.36s.風冷散熱器:white",
+   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer36s.風冷散熱器:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:arctic.freezer.36s.風冷散熱器:white",
+   "model_key": "air_cooler:arctic:單塔:arctic.freezer36s.風冷散熱器:white",
    "part_number": null,
    "upc": null,
    "title": "ARCTIC Freezer 36-S A-RGB (White) 風冷散熱器 - White 白色",
@@ -2858,11 +2851,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer.36s.白色風冷散熱器.freezer:white",
+   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer36s.白色風冷散熱器.freezer36s.白色風冷散熱器:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:arctic.freezer.36s.白色風冷散熱器.freezer:white",
+   "model_key": "air_cooler:arctic:單塔:arctic.freezer36s.白色風冷散熱器.freezer36s.白色風冷散熱器:white",
    "part_number": "TH-RFZ36SW",
    "upc": "4895265001017",
    "title": "ARCTIC Freezer 36-S ARGB White 白色風冷散熱器",
@@ -2922,11 +2915,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:gamemax:單塔:gamemax.sigma.digital.風冷散熱器:black",
+   "id": "air_cooler|air_cooler:gamemax:單塔:gamemax.sigma520.digital.風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "GameMax",
-   "model_key": "air_cooler:gamemax:單塔:gamemax.sigma.digital.風冷散熱器:black",
+   "model_key": "air_cooler:gamemax:單塔:gamemax.sigma520.digital.風冷散熱器:black",
    "part_number": null,
    "upc": null,
    "title": "GameMax Sigma 520 Digital ARGB 風冷散熱器 - Black 黑色",
@@ -2954,11 +2947,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.se:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.se:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.se:white",
+   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.se:white",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT PEERLESS ASSASSIN 120 SE ARGB [白色] [高: 155mm]",
@@ -3018,11 +3011,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:下壓:thermalright.利民.si.風冷散熱器.利民:black",
+   "id": "air_cooler|air_cooler:thermalright:下壓:thermalright.利民.si100.風冷散熱器.利民:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:下壓:thermalright.利民.si.風冷散熱器.利民:black",
+   "model_key": "air_cooler:thermalright:下壓:thermalright.利民.si100.風冷散熱器.利民:black",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 SI-100 BLACK 風冷散熱器",
@@ -3050,11 +3043,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.halo.風冷散熱器.street:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper212.halo.風冷散熱器.street:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.halo.風冷散熱器.street:",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper212.halo.風冷散熱器.street:",
    "part_number": "RR-S4WW-20PA-RY",
    "upc": null,
    "title": "Cooler Master Hyper 212 Halo ARGB 風冷散熱器 - STREET FIGHTER 6 RYU Edition",
@@ -3112,6 +3105,45 @@
       "store_short": "SE",
       "price_hkd": 299,
       "url": "https://secomputer.com.hk/products/46223"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 269,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin120se.白色雙塔式風冷散熱器.peerless:white",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "Thermalright",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin120se.白色雙塔式風冷散熱器.peerless:white",
+   "part_number": "PA120-SE-WHITE-ARGB",
+   "upc": "0814256004480",
+   "title": "Thermalright Peerless Assassin 120 SE ARGB WHITE 白色 雙塔式 CPU Cooler (TMR-PA120-SE-ARGB-WH)",
+   "spec": "雙塔",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4b044e38ff69bf3d.webp",
+   "image": "img/hk-4b044e38ff69bf3d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/2196.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 269,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/2196/thermalright-peerless-assassin-120se-argb-white-air-cooler",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 308,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/thermalright-peerless-assassin-120-se-argb-white-白色-雙塔式-cpu-cooler-pa120-se-argb"
      }
     ]
    },
@@ -3281,11 +3313,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.phantom.spirit.se:",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.phantom.spirit120.se:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.phantom.spirit.se:",
+   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.phantom.spirit120.se:",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT PHANTOM SPIRIT 120 SE ARGB [高: 154mm]",
@@ -3313,11 +3345,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:其他:單塔:scythe.鐮刀.無限六.闇黑雙風版.mugen:black",
+   "id": "air_cooler|air_cooler:其他:單塔:scythe.鐮刀.無限六.闇黑雙風版.mugen6:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "其他",
-   "model_key": "air_cooler:其他:單塔:scythe.鐮刀.無限六.闇黑雙風版.mugen:black",
+   "model_key": "air_cooler:其他:單塔:scythe.鐮刀.無限六.闇黑雙風版.mugen6:black",
    "part_number": null,
    "upc": null,
    "title": "SCYTHE 鐮刀 無限六 闇黑雙風版 MUGEN 6 DUAL FAN BLACK EDITION 風冷散熱器 - Black 黑色",
@@ -3377,11 +3409,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.mini.雙塔式:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.mini.雙塔式:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.mini.雙塔式:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.mini.雙塔式:black",
    "part_number": "PA120-MINI-BK",
    "upc": "0814256016940",
    "title": "Thermalright Peerless Assassin 120 MINI BLACK 黑色 雙塔式 CPU Cooler PA120 MINI BK",
@@ -3416,11 +3448,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.mini.雙塔式:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.mini.雙塔式:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.mini.雙塔式:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.mini.雙塔式:white",
    "part_number": "PA120-MINI-WH",
    "upc": "0814256016957",
    "title": "Thermalright Peerless Assassin 120 MINI WHITE 白色 雙塔式 CPU Cooler PA120 MINI WH",
@@ -3693,11 +3725,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:silverstone:雙塔:silverstone.frost.mage.fm.高效能:black",
+   "id": "air_cooler|air_cooler:silverstone:雙塔:silverstone.frost.mage.fm620.高效能:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "SilverStone",
-   "model_key": "air_cooler:silverstone:雙塔:silverstone.frost.mage.fm.高效能:black",
+   "model_key": "air_cooler:silverstone:雙塔:silverstone.frost.mage.fm620.高效能:black",
    "part_number": "SST-FM620B-ARGB",
    "upc": "0844761028442",
    "title": "Silverstone Frost Mage FM 620 ARGB 高效能120mm PWM六熱管雙塔散熱器 黑色 CPU COOLER (SST-FM620B-ARGB)",
@@ -3716,6 +3748,70 @@
     "store": "SE Computer",
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/62102",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 299,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.se:black",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "Thermalright",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.se:black",
+   "part_number": null,
+   "upc": null,
+   "title": "ThermalRight 利民 Peerless Assassin 120 SE ARGB 雙塔風冷散熱器 - Black 黑色",
+   "spec": "雙塔",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d7835d3e56540af4.jpg",
+   "image": "img/hk-d7835d3e56540af4.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/1d9e46ee-b46f-4fb3-2cf2-9514ec13c400/public",
+   "water": null,
+   "official": {
+    "price_hkd": 299,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/207580/ThermalRight-利民-Peerless-Assassin-120-SE-ARGB-雙塔風冷散熱器---Black-黑色",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 299,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin140.se:black",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "Thermalright",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin140.se:black",
+   "part_number": null,
+   "upc": null,
+   "title": "ThermalRight 利民 Peerless Assassin 140 SE ARGB 雙塔風冷散熱器 - Black 黑色",
+   "spec": "雙塔",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-52ed9036196ad85f.jpg",
+   "image": "img/hk-52ed9036196ad85f.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/64625449-ba25-48da-1a2e-097dac765300/public",
+   "water": null,
+   "official": {
+    "price_hkd": 299,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/227360/ThermalRight-利民-Peerless-Assassin-140-SE-ARGB-雙塔風冷散熱器---Black-黑色",
     "stock": "現貨",
     "others": []
    },
@@ -3802,11 +3898,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.se:",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit120.se:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.se:",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit120.se:",
    "part_number": "TMR-PS120-SE",
    "upc": "0814256015561",
    "title": "Thermalright 利民 Phantom Spirit 120 SE ARGB CPU Cooler 雙塔散熱器(TMR-PS120-SE-ARGB, TL-C12BS…",
@@ -3847,8 +3943,8 @@
    "brand": "be quiet!",
    "model_key": "air_cooler:bequiet!:下壓:be.quiet!.pure.rock.lp:",
    "part_number": null,
-   "upc": "4260052189757",
-   "title": "be quiet! PURE ROCK LP CPU Cooler (3yr warranty)",
+   "upc": null,
+   "title": "be quiet! PURE ROCK LP 風冷散熱器",
    "spec": "下壓",
    "filter_tags": null,
    "form_factor": null,
@@ -3865,14 +3961,7 @@
     "store_short": "飛馬",
     "url": "https://shop.pegasus.hk/products/222524/be-quiet-PURE-ROCK-LP-風冷散熱器---3年保養",
     "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 399,
-      "url": "https://secomputer.com.hk/products/56029"
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 299,
@@ -3880,11 +3969,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:bequiet!:單塔:塔散.be.quiet.pure.rock:",
+   "id": "air_cooler|air_cooler:bequiet!:單塔:塔散.be.quiet.pure.rock3:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "be quiet!",
-   "model_key": "air_cooler:bequiet!:單塔:塔散.be.quiet.pure.rock:",
+   "model_key": "air_cooler:bequiet!:單塔:塔散.be.quiet.pure.rock3:",
    "part_number": null,
    "upc": null,
    "title": "【塔散】BE QUIET PURE ROCK 3 LX [高: 154mm]",
@@ -3944,11 +4033,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:其他:雙塔:scythe.fuma.風魔叁.heat.pipes:",
+   "id": "air_cooler|air_cooler:其他:雙塔:scythe.fuma3.風魔叁.heat.pipes120mm:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "其他",
-   "model_key": "air_cooler:其他:雙塔:scythe.fuma.風魔叁.heat.pipes:",
+   "model_key": "air_cooler:其他:雙塔:scythe.fuma3.風魔叁.heat.pipes120mm:",
    "part_number": null,
    "upc": "0812623021993",
    "title": "SCYTHE FUMA 3 風魔叁 雙塔CPU Cooler (6 Heat Pipes, 120mm Fan, 2yr warranty, SCFM-3000, TH-SF…",
@@ -4168,11 +4257,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:下壓:上吹式塔散.thermalright.axp.x77r.原色:",
+   "id": "air_cooler|air_cooler:thermalright:下壓:上吹式塔散.thermalright.axp120.x77r.原色:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:下壓:上吹式塔散.thermalright.axp.x77r.原色:",
+   "model_key": "air_cooler:thermalright:下壓:上吹式塔散.thermalright.axp120.x77r.原色:",
    "part_number": null,
    "upc": null,
    "title": "【上吹式塔散】THERMALRIGHT AXP-120 X77R【原色】[高: 77mm]",
@@ -4200,11 +4289,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:下壓:下吹式塔散.thermalright.axp.x77.原色:",
+   "id": "air_cooler|air_cooler:thermalright:下壓:下吹式塔散.thermalright.axp120.x77.原色:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:下壓:下吹式塔散.thermalright.axp.x77.原色:",
+   "model_key": "air_cooler:thermalright:下壓:下吹式塔散.thermalright.axp120.x77.原色:",
    "part_number": null,
    "upc": null,
    "title": "【下吹式塔散】THERMALRIGHT AXP-120 X77【原色】[高: 77mm]",
@@ -4232,11 +4321,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer.風冷散熱器.freezer.風冷散熱器:white",
+   "id": "air_cooler|air_cooler:arctic:單塔:arctic.freezer36.風冷散熱器.freezer36.風冷散熱器:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Arctic",
-   "model_key": "air_cooler:arctic:單塔:arctic.freezer.風冷散熱器.freezer.風冷散熱器:white",
+   "model_key": "air_cooler:arctic:單塔:arctic.freezer36.風冷散熱器.freezer36.風冷散熱器:white",
    "part_number": null,
    "upc": null,
    "title": "ARCTIC Freezer 36 A-RGB 風冷散熱器 - White 白色",
@@ -4296,11 +4385,43 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.157mm:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.se:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.157mm:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.se:white",
+   "part_number": null,
+   "upc": null,
+   "title": "ThermalRight 利民 Peerless Assassin 120 SE WHITE ARGB 雙塔風冷散熱器 - White 白色",
+   "spec": "雙塔",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-98c524eda12e7084.png",
+   "image": "img/hk-98c524eda12e7084.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/03bf6a01-e95f-4f0c-9a57-3f5e464ecb00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 319,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/208249/ThermalRight-利民-Peerless-Assassin-120-SE-WHITE-ARGB-雙塔風冷散熱器---White-白色",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 319,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.157mm:white",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "Thermalright",
+   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.157mm:white",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT PEERLESS ASSASSIN 120 [白色] [高: 157mm]",
@@ -4328,11 +4449,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.157mm:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.157mm:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.157mm:black",
+   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.157mm:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT PEERLESS ASSASSIN 120 [黑色] [高: 157mm]",
@@ -4360,11 +4481,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.雙塔風冷散熱器:",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit120.雙塔風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.雙塔風冷散熱器:",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit120.雙塔風冷散熱器:",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Phantom Spirit 120 雙塔風冷散熱器",
@@ -4392,11 +4513,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.phantom.spirit.雙塔式.tmr:",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.phantom.spirit120.雙塔式.tmr:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.phantom.spirit.雙塔式.tmr:",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.phantom.spirit120.雙塔式.tmr:",
    "part_number": "TMR-PS120",
    "upc": "0814256015424",
    "title": "Thermalright Phantom Spirit 120 雙塔式 CPU Cooler (TMR-PS120)",
@@ -4456,11 +4577,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.雙塔風冷散熱器:",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.雙塔風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.雙塔風冷散熱器:",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.雙塔風冷散熱器:",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Peerless Assassin 120 雙塔風冷散熱器",
@@ -4488,11 +4609,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.白色雙塔式風冷散熱器.peerless:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.白色雙塔式風冷散熱器.peerless:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.白色雙塔式風冷散熱器.peerless:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.白色雙塔式風冷散熱器.peerless:white",
    "part_number": "TL-PA120-W",
    "upc": "0814256003124",
    "title": "Thermalright Peerless Assassin 120 WHITE 白色 雙塔式 CPU Cooler PA120 WH",
@@ -4533,11 +4654,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:其他:單塔:scythe.鐮刀.無限六.mugen.tuf:white",
+   "id": "air_cooler|air_cooler:其他:單塔:scythe.鐮刀.無限六.mugen6.tuf:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "其他",
-   "model_key": "air_cooler:其他:單塔:scythe.鐮刀.無限六.mugen.tuf:white",
+   "model_key": "air_cooler:其他:單塔:scythe.鐮刀.無限六.mugen6.tuf:white",
    "part_number": null,
    "upc": null,
    "title": "SCYTHE 鐮刀 無限六 MUGEN 6 TUF ALLIANCE 風冷散熱器 - White 白色",
@@ -4565,11 +4686,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.雙塔式風冷散熱器.pa120bk:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.雙塔式風冷散熱器.pa120bk:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.雙塔式風冷散熱器.pa120bk:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.雙塔式風冷散熱器.pa120bk:black",
    "part_number": null,
    "upc": "0814256003049",
    "title": "Thermalright 利民 Peerless Assassin 120 Black TL-PA120 黑化版 CPU Cooler 雙塔散熱器",
@@ -4668,11 +4789,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.mini:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.mini:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.mini:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.mini:black",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Peerless Assassin 120 MINI BLACK 雙塔風冷散熱器 - Black 黑色",
@@ -4700,11 +4821,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.mini:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.mini:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.mini:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.mini:white",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Peerless Assassin 120 MINI WHITE 雙塔風冷散熱器 - White 白色",
@@ -4810,11 +4931,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v4.alpha.3dhp.風冷散熱器:black",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v4.alpha3dhp.風冷散熱器.v4:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.v4.alpha.3dhp.風冷散熱器:black",
+   "model_key": "air_cooler:coolermaster:單塔:master.v4.alpha3dhp.風冷散熱器.v4:black",
    "part_number": null,
    "upc": null,
    "title": "Cooler Master V4 Alpha 3DHP Black 風冷散熱器",
@@ -4842,14 +4963,14 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.雙塔風冷散熱器:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.雙塔風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.雙塔風冷散熱器:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.雙塔風冷散熱器:black",
    "part_number": null,
    "upc": null,
-   "title": "ThermalRight 利民 Peerless Assassin 140 BLACK 雙塔風冷散熱器 - Black 黑色",
+   "title": "ThermalRight 利民 Peerless Assassin 120 Black 雙塔風冷散熱器",
    "spec": "雙塔",
    "filter_tags": null,
    "form_factor": null,
@@ -4874,14 +4995,14 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.雙塔風冷散熱器:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.雙塔風冷散熱器:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.雙塔風冷散熱器:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.雙塔風冷散熱器:white",
    "part_number": null,
    "upc": null,
-   "title": "ThermalRight 利民 Peerless Assassin 140 WHITE 雙塔風冷散熱器 - White 白色",
+   "title": "ThermalRight 利民 Peerless Assassin 120 白色 雙塔風冷散熱器",
    "spec": "雙塔",
    "filter_tags": null,
    "form_factor": null,
@@ -4906,11 +5027,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:bequiet!:單塔:be.quiet!.dark.rock.風冷散熱器:",
+   "id": "air_cooler|air_cooler:bequiet!:單塔:be.quiet!.dark.rock5.風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "be quiet!",
-   "model_key": "air_cooler:bequiet!:單塔:be.quiet!.dark.rock.風冷散熱器:",
+   "model_key": "air_cooler:bequiet!:單塔:be.quiet!.dark.rock5.風冷散熱器:",
    "part_number": null,
    "upc": null,
    "title": "be quiet! DARK ROCK 5 風冷散熱器",
@@ -4938,11 +5059,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:nzxt:單塔:nzxt.t120.with.copper.heat:black",
+   "id": "air_cooler|air_cooler:nzxt:單塔:nzxt.t120.with4.copper.heat:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "NZXT",
-   "model_key": "air_cooler:nzxt:單塔:nzxt.t120.with.copper.heat:black",
+   "model_key": "air_cooler:nzxt:單塔:nzxt.t120.with4.copper.heat:black",
    "part_number": "RC-TN120-B1",
    "upc": "0810074840200",
    "title": "NZXT T120 CPU Cooler Black 黑色 with 4 Copper Heat Pipes (RC-TN120-B1)",
@@ -5009,11 +5130,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.雙塔式.pa140:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin140.雙塔式.pa140:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.雙塔式.pa140:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin140.雙塔式.pa140:black",
    "part_number": "TL-PA140BK",
    "upc": "0814256018197",
    "title": "Thermalright Peerless Assassin 140 BLACK 黑色 雙塔式 CPU Cooler PA140 BK",
@@ -5044,6 +5165,70 @@
    },
    "delta_hkd": null,
    "best_price": 355,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin140.雙塔風冷散熱器:black",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "Thermalright",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin140.雙塔風冷散熱器:black",
+   "part_number": null,
+   "upc": null,
+   "title": "ThermalRight 利民 Peerless Assassin 140 BLACK 雙塔風冷散熱器 - Black 黑色",
+   "spec": "雙塔",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1e74044ad896ba32.jpg",
+   "image": "img/hk-1e74044ad896ba32.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b3ee9390-9e4e-4640-ed79-720491857d00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 359,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/221424/ThermalRight-利民-Peerless-Assassin-140-BLACK-雙塔風冷散熱器---Black-黑色",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 359,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin140.雙塔風冷散熱器:white",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "Thermalright",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin140.雙塔風冷散熱器:white",
+   "part_number": null,
+   "upc": null,
+   "title": "ThermalRight 利民 Peerless Assassin 140 WHITE 雙塔風冷散熱器 - White 白色",
+   "spec": "雙塔",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-92466fe0ea3323f9.jpg",
+   "image": "img/hk-92466fe0ea3323f9.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/fde49c00-6c7e-4a94-d658-027a4d219f00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 359,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/221203/ThermalRight-利民-Peerless-Assassin-140-WHITE-雙塔風冷散熱器---White-白色",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 359,
    "has_water": false,
    "has_official": true
   },
@@ -5083,6 +5268,38 @@
    },
    "delta_hkd": null,
    "best_price": 359,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit140.雙塔風冷散熱器:",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "Thermalright",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit140.雙塔風冷散熱器:",
+   "part_number": null,
+   "upc": null,
+   "title": "ThermalRight 利民 Phantom Spirit 140 雙塔風冷散熱器",
+   "spec": "雙塔",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d17aa23a3c473fe4.jpg",
+   "image": "img/hk-d17aa23a3c473fe4.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/971f2156-31c0-4a00-5cb4-9b509a00d000/public",
+   "water": null,
+   "official": {
+    "price_hkd": 378,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/232558/ThermalRight-利民-Phantom-Spirit-140-雙塔風冷散熱器",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 378,
    "has_water": false,
    "has_official": true
   },
@@ -5209,11 +5426,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.雙塔風冷散熱器:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit140.雙塔風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.雙塔風冷散熱器:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit140.雙塔風冷散熱器:black",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Phantom Spirit 140 BLACK 雙塔風冷散熱器 - Black 黑色",
@@ -5241,11 +5458,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.雙塔風冷散熱器:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit140.雙塔風冷散熱器:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.雙塔風冷散熱器:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit140.雙塔風冷散熱器:white",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Phantom Spirit 140 WHITE 雙塔風冷散熱器 - White 白色",
@@ -5273,11 +5490,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.phantom.spirit.白色雙塔式風冷散熱器.phantom:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.phantom.spirit140.白色雙塔式風冷散熱器.phantom:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.phantom.spirit.白色雙塔式風冷散熱器.phantom:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.phantom.spirit140.白色雙塔式風冷散熱器.phantom:white",
    "part_number": "TL-PS140WH",
    "upc": null,
    "title": "Thermalright Phantom Spirit 140 白色雙塔式風冷散熱器",
@@ -5305,11 +5522,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.全黑雙塔風冷散熱器:",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit140.全黑雙塔風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit.全黑雙塔風冷散熱器:",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.phantom.spirit140.全黑雙塔風冷散熱器:",
    "part_number": "TL-PS140BK",
    "upc": null,
    "title": "Thermalright 利民 Phantom Spirit 140 全黑雙塔風冷散熱器 (TL-PS140BK)",
@@ -5337,11 +5554,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.apex.bk.intel:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper612.apex.bk.intel:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.apex.bk.intel:",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper612.apex.bk.intel:",
    "part_number": "MAP-T6PN-225PK-R1",
    "upc": "0884102127267",
    "title": "Cooler Master Hyper 612 APEX BK CPU Cooler (Intel LGA1851/1700 & AMD AM5, 5yr warranty,…",
@@ -5376,11 +5593,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.apex.intel.lga1851:white",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper612.apex.intel.lga1851:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.apex.intel.lga1851:white",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper612.apex.intel.lga1851:white",
    "part_number": "MAP-T6PN-225PW-CW",
    "upc": "0884102132223",
    "title": "Cooler Master Hyper 612 APEX 白色 CPU Cooler (Intel LGA1851/1700 & AMD AM5, 5yr warranty,…",
@@ -5518,11 +5735,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.burst.assassin.vision:white",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.利民.burst.assassin120.vision:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.burst.assassin.vision:white",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.利民.burst.assassin120.vision:white",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Burst Assassin 120 VISION WHITE 風冷散熱器 - White 白色",
@@ -5550,11 +5767,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.burst.assassin.vision.黑色風冷散熱器:black",
+   "id": "air_cooler|air_cooler:thermalright:單塔:thermalright.burst.assassin120.vision.黑色風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:單塔:thermalright.burst.assassin.vision.黑色風冷散熱器:black",
+   "model_key": "air_cooler:thermalright:單塔:thermalright.burst.assassin120.vision.黑色風冷散熱器:black",
    "part_number": "BA120VISION-BK",
    "upc": "0814256018791",
    "title": "Thermalright Burst Assassin 120 VISION 黑色風冷散熱器",
@@ -5646,11 +5863,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:利民.thermalright.peerless.assassin.digital:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:利民.thermalright.peerless.assassin120.digital:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:利民.thermalright.peerless.assassin.digital:black",
+   "model_key": "air_cooler:thermalright:雙塔:利民.thermalright.peerless.assassin120.digital:black",
    "part_number": "PA120-DIGITAL-BK",
    "upc": "0814256019354",
    "title": "利民 Thermalright Peerless Assassin 120 Digital 黑色雙塔式風冷散熱器",
@@ -5710,6 +5927,38 @@
    "has_official": true
   },
   {
+   "id": "air_cooler|air_cooler:bequiet!:下壓:be.quiet!.pure.rock.lp3yr:",
+   "category": "air_cooler",
+   "cooler_kind": "air",
+   "brand": "be quiet!",
+   "model_key": "air_cooler:bequiet!:下壓:be.quiet!.pure.rock.lp3yr:",
+   "part_number": null,
+   "upc": "4260052189757",
+   "title": "be quiet! PURE ROCK LP CPU Cooler (3yr warranty)",
+   "spec": "下壓",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d7b57ebaea9a04d1.webp",
+   "image": "img/hk-d7b57ebaea9a04d1.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/2c889686b34aaf9850036145374ffbde.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 399,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/56029",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 399,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "air_cooler|air_cooler:noctua:下壓:noctua.nh.l9a.am5.low:",
    "category": "air_cooler",
    "cooler_kind": "air",
@@ -5749,11 +5998,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.silver.soul.風冷散熱器:silver",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.silver.soul135.風冷散熱器:silver",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.silver.soul.風冷散熱器:silver",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.silver.soul135.風冷散熱器:silver",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Silver Soul 135 White 風冷散熱器",
@@ -5781,11 +6030,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.digital:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.digital:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.digital:black",
+   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.digital:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT PEERLESS ASSASSIN 120 DIGITAL ARGB *溫度顯示* [黑色] [高: 162mm]",
@@ -5845,11 +6094,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:雙塔:master.hyper.apex.雙塔風冷散熱器.hyper:white",
+   "id": "air_cooler|air_cooler:coolermaster:雙塔:master.hyper612.apex.雙塔風冷散熱器.hyper612:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:雙塔:master.hyper.apex.雙塔風冷散熱器.hyper:white",
+   "model_key": "air_cooler:coolermaster:雙塔:master.hyper612.apex.雙塔風冷散熱器.hyper612:white",
    "part_number": "MAP-T6PN-225PW-CW",
    "upc": null,
    "title": "Cooler Master Hyper 612 APEX 雙塔風冷散熱器 (白色)",
@@ -6133,11 +6382,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:gamemax:單塔:塔散.gamemax.sigma.lcd.159mm:white",
+   "id": "air_cooler|air_cooler:gamemax:單塔:塔散.gamemax.sigma620.lcd.159mm:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "GameMax",
-   "model_key": "air_cooler:gamemax:單塔:塔散.gamemax.sigma.lcd.159mm:white",
+   "model_key": "air_cooler:gamemax:單塔:塔散.gamemax.sigma620.lcd.159mm:white",
    "part_number": null,
    "upc": null,
    "title": "【塔散】GAMEMAX SIGMA 620 LCD【白色】[高: 159mm]",
@@ -6261,11 +6510,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:雙塔:master.hyper.apex.pro.雙塔風冷散熱器:black",
+   "id": "air_cooler|air_cooler:coolermaster:雙塔:master.hyper612.apex.pro.雙塔風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:雙塔:master.hyper.apex.pro.雙塔風冷散熱器:black",
+   "model_key": "air_cooler:coolermaster:雙塔:master.hyper612.apex.pro.雙塔風冷散熱器:black",
    "part_number": "MAP-T6PN-227PK-R1",
    "upc": null,
    "title": "Cooler Master Hyper 612 APEX Pro 雙塔風冷散熱器 (黑色)",
@@ -6364,11 +6613,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.frost.commander.白色雙塔風冷散熱器:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.frost.commander140.白色雙塔風冷散熱器:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.frost.commander.白色雙塔風冷散熱器:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.frost.commander140.白色雙塔風冷散熱器:white",
    "part_number": null,
    "upc": "0814256003582",
    "title": "Thermalright 利民 Frost Commander 140 白色雙塔風冷散熱器",
@@ -6396,11 +6645,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:利民.thermalright.frost.commander.黑色雙塔風冷散熱器:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:利民.thermalright.frost.commander140.黑色雙塔風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:利民.thermalright.frost.commander.黑色雙塔風冷散熱器:black",
+   "model_key": "air_cooler:thermalright:雙塔:利民.thermalright.frost.commander140.黑色雙塔風冷散熱器:black",
    "part_number": null,
    "upc": "0814256003056",
    "title": "利民 Thermalright Frost Commander 140 黑色雙塔風冷散熱器 FC140",
@@ -6666,11 +6915,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.apex.風冷散熱器.hyper:white",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper612.apex.風冷散熱器.hyper612:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.apex.風冷散熱器.hyper:white",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper612.apex.風冷散熱器.hyper612:white",
    "part_number": null,
    "upc": null,
    "title": "Cooler Master Hyper 612 APEX 風冷散熱器 - White 白色",
@@ -6698,11 +6947,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:塔散.master.hyper.apex.159mm:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:塔散.master.hyper612.apex.159mm:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:塔散.master.hyper.apex.159mm:",
+   "model_key": "air_cooler:coolermaster:單塔:塔散.master.hyper612.apex.159mm:",
    "part_number": null,
    "upc": null,
    "title": "【塔散】COOLER MASTER HYPER 612 APEX [高: 159mm]",
@@ -6826,11 +7075,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.frost.commander.雙塔風冷散熱器:",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.frost.commander140.雙塔風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.frost.commander.雙塔風冷散熱器:",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.frost.commander140.雙塔風冷散熱器:",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Frost Commander 140 雙塔風冷散熱器",
@@ -7153,11 +7402,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.frost.commander.雙塔風冷散熱器:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.frost.commander140.雙塔風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.frost.commander.雙塔風冷散熱器:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.frost.commander140.雙塔風冷散熱器:black",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Frost Commander 140 Black 雙塔風冷散熱器",
@@ -7185,11 +7434,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.frost.commander.雙塔風冷散熱器:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.frost.commander140.雙塔風冷散熱器:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.frost.commander.雙塔風冷散熱器:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.frost.commander140.雙塔風冷散熱器:white",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Frost Commander 140 White 雙塔風冷散熱器",
@@ -7281,11 +7530,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper.apex.pro.風冷散熱器:black",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.hyper612.apex.pro.風冷散熱器:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.hyper.apex.pro.風冷散熱器:black",
+   "model_key": "air_cooler:coolermaster:單塔:master.hyper612.apex.pro.風冷散熱器:black",
    "part_number": null,
    "upc": null,
    "title": "Cooler Master Hyper 612 APEX PRO 風冷散熱器 - Black 黑色",
@@ -7313,11 +7562,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:塔散.master.hyper.apex.pro:black",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:塔散.master.hyper612.apex.pro:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:塔散.master.hyper.apex.pro:black",
+   "model_key": "air_cooler:coolermaster:單塔:塔散.master.hyper612.apex.pro:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】COOLER MASTER HYPER 612 APEX PRO【黑色】[高: 159mm]",
@@ -7345,11 +7594,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.vision:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.vision:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.vision:white",
+   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.vision:white",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT PEERLESS ASSASSIN 120 VISION MAX ARGB【白色】[高: 164mm]",
@@ -7377,11 +7626,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.vision:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.vision:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin.vision:black",
+   "model_key": "air_cooler:thermalright:雙塔:塔散.thermalright.peerless.assassin120.vision:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】THERMALRIGHT PEERLESS ASSASSIN 120 VISION MAX ARGB【黑色】[高: 164mm]",
@@ -7409,11 +7658,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:bequiet!:單塔:be.quiet!.dark.rock.th:",
+   "id": "air_cooler|air_cooler:bequiet!:單塔:be.quiet!.dark.rock5.th:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "be quiet!",
-   "model_key": "air_cooler:bequiet!:單塔:be.quiet!.dark.rock.th:",
+   "model_key": "air_cooler:bequiet!:單塔:be.quiet!.dark.rock5.th:",
    "part_number": null,
    "upc": "4260052190739",
    "title": "be quiet! Dark Rock 5 CPU Tower Cooler (TH-BDR5)",
@@ -7473,11 +7722,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.vision:black",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.vision:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.vision:black",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.vision:black",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Peerless Assassin 120 Vision MAX ARGB BLACK 雙塔風冷散熱器 - Black 黑色",
@@ -7505,11 +7754,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.vision:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.vision:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin.vision:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.利民.peerless.assassin120.vision:white",
    "part_number": null,
    "upc": null,
    "title": "ThermalRight 利民 Peerless Assassin 120 Vision MAX ARGB WHITE 雙塔風冷散熱器 - White 白色",
@@ -7569,11 +7818,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin.vision.max:white",
+   "id": "air_cooler|air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.vision.max:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Thermalright",
-   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin.vision.max:white",
+   "model_key": "air_cooler:thermalright:雙塔:thermalright.peerless.assassin120.vision.max:white",
    "part_number": null,
    "upc": "0814256022149",
    "title": "Thermalright Peerless Assassin 120 Vision MAX ARGB 白色雙塔風冷散熱器",
@@ -8494,11 +8743,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:塔散.master.v8.ace.3dhp:black",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:塔散.master.v8.ace3dhp.amd:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:塔散.master.v8.ace.3dhp:black",
+   "model_key": "air_cooler:coolermaster:單塔:塔散.master.v8.ace3dhp.amd:black",
    "part_number": null,
    "upc": null,
    "title": "【塔散】COOLER MASTER V8 ACE 3DHP AMD【黑色】[高: 167.3mm]",
@@ -8571,11 +8820,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v8.ace.3dhp.amd:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v8.ace3dhp.amd.風冷散熱器:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.v8.ace.3dhp.amd:",
+   "model_key": "air_cooler:coolermaster:單塔:master.v8.ace3dhp.amd.風冷散熱器:",
    "part_number": null,
    "upc": null,
    "title": "Cooler Master V8 ACE 3DHP AMD 風冷散熱器",
@@ -8603,11 +8852,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v8.ace.3dhp.bk:",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v8.ace3dhp.bk.amd:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.v8.ace.3dhp.bk:",
+   "model_key": "air_cooler:coolermaster:單塔:master.v8.ace3dhp.bk.amd:",
    "part_number": null,
    "upc": "0884102141775",
    "title": "Cooler Master V8 ACE 3DHP BK AMD Tower CPU Cooler (Heatpipes x4, 6yr warranty)",
@@ -8635,11 +8884,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v8.ace.3dhp.旗艦單塔式風冷散熱器:black",
+   "id": "air_cooler|air_cooler:coolermaster:單塔:master.v8.ace3dhp.旗艦單塔式風冷散熱器.v8:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Cooler Master",
-   "model_key": "air_cooler:coolermaster:單塔:master.v8.ace.3dhp.旗艦單塔式風冷散熱器:black",
+   "model_key": "air_cooler:coolermaster:單塔:master.v8.ace3dhp.旗艦單塔式風冷散熱器.v8:black",
    "part_number": "MAM-T6HA-225PK-RB",
    "upc": null,
    "title": "Cooler Master V8 ACE 3DHP 旗艦單塔式風冷散熱器 (黑色)",
@@ -9097,11 +9346,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:noctua:單塔:noctua.貓頭鷹.nh.u14s.dx:",
+   "id": "air_cooler|air_cooler:noctua:單塔:noctua.貓頭鷹.nh.u14s.dx4189:",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "Noctua",
-   "model_key": "air_cooler:noctua:單塔:noctua.貓頭鷹.nh.u14s.dx:",
+   "model_key": "air_cooler:noctua:單塔:noctua.貓頭鷹.nh.u14s.dx4189:",
    "part_number": "NF-A15PWM",
    "upc": "0841501100291",
    "title": "Noctua貓頭鷹 NH-U14S DX-4189 CPU Cooler (FCLGA3647, 內置1把 NF-A15PWM 風扇)",
@@ -9129,11 +9378,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:tryx:雙塔:tryx.turris.風冷散熱器.turris.風冷散熱器:white",
+   "id": "air_cooler|air_cooler:tryx:雙塔:tryx.turris620.風冷散熱器.turris620.風冷散熱器:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "tryx",
-   "model_key": "air_cooler:tryx:雙塔:tryx.turris.風冷散熱器.turris.風冷散熱器:white",
+   "model_key": "air_cooler:tryx:雙塔:tryx.turris620.風冷散熱器.turris620.風冷散熱器:white",
    "part_number": null,
    "upc": null,
    "title": "TRYX TURRIS 620 CPU AIR COOLER 風冷散熱器 - White 白色",
@@ -9161,11 +9410,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:tryx:雙塔:tryx.turris.dual.5\".60hz:black",
+   "id": "air_cooler|air_cooler:tryx:雙塔:tryx.turris620.dual5\".60hz.ips1280:black",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "tryx",
-   "model_key": "air_cooler:tryx:雙塔:tryx.turris.dual.5\".60hz:black",
+   "model_key": "air_cooler:tryx:雙塔:tryx.turris620.dual5\".60hz.ips1280:black",
    "part_number": "TH-TUT620A",
    "upc": "0850066255537",
    "title": "TRYX Turris 620 Air Dual Tower CPU Cooler (Black 5\" 60Hz IPS, 1280 x 720, LGA1851/1700,…",
@@ -9193,11 +9442,11 @@
    "has_official": true
   },
   {
-   "id": "air_cooler|air_cooler:tryx:雙塔:tryx.turris.dual.5\".60hz:white",
+   "id": "air_cooler|air_cooler:tryx:雙塔:tryx.turris620.dual5\".60hz.ips1280:white",
    "category": "air_cooler",
    "cooler_kind": "air",
    "brand": "tryx",
-   "model_key": "air_cooler:tryx:雙塔:tryx.turris.dual.5\".60hz:white",
+   "model_key": "air_cooler:tryx:雙塔:tryx.turris620.dual5\".60hz.ips1280:white",
    "part_number": "TH-TUT620W",
    "upc": "0850066255544",
    "title": "TRYX Turris 620 Air Dual Tower CPU Cooler (White 5\" 60Hz IPS, 1280 x 720, LGA1851/1700,…",
