@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-17T04:07:48Z",
- "generated_at_hkt": "2026-10-17 12:07 HKT",
- "price_updated_hkt": "2026-10-17 12:07 HKT",
+ "generated_at": "2026-10-17T04:29:51Z",
+ "generated_at_hkt": "2026-10-17 12:29 HKT",
+ "price_updated_hkt": "2026-10-17 12:29 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–10:22 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -351,7 +351,7 @@
     "ivan_gpu_rows": 33,
     "nic_jp_rows": 78,
     "skipped": {
-     "bad_or_dup": 48
+     "bad_or_dup": 49
     }
    }
   }
@@ -32157,7 +32157,7 @@
    "image": "img/hk-9e0e66f1d7b9fb42.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/782b0949-3349-46a7-f54d-3c03865a6d00/public",
    "water": {
-    "price_hkd": 6738,
+    "price_hkd": 6739,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -32177,8 +32177,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 961,
-   "best_price": 6738,
+   "delta_hkd": 960,
+   "best_price": 6739,
    "has_water": true,
    "has_official": true
   },
@@ -32262,7 +32262,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6769,
+    "price_hkd": 6771,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -32276,7 +32276,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6769,
+   "best_price": 6771,
    "has_water": true,
    "has_official": false
   },
@@ -32552,7 +32552,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 8038,
+      "price_hkd": 8035,
       "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
      }
     ]
@@ -33180,7 +33180,7 @@
    "image": "img/hk-7bfb4df0de75c040.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/72208b96-8399-4698-d933-4144351e6700/public",
    "water": {
-    "price_hkd": 8095,
+    "price_hkd": 8092,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -33207,8 +33207,8 @@
      }
     ]
    },
-   "delta_hkd": 4,
-   "best_price": 8095,
+   "delta_hkd": 7,
+   "best_price": 8092,
    "has_water": true,
    "has_official": true
   },
@@ -33297,7 +33297,7 @@
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
    "water": {
-    "price_hkd": 8587,
+    "price_hkd": 8584,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -33336,7 +33336,7 @@
      }
     ]
    },
-   "delta_hkd": -288,
+   "delta_hkd": -285,
    "best_price": 8299,
    "has_water": true,
    "has_official": true
@@ -33371,42 +33371,6 @@
    "best_price": 8799,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070ti:triple|water",
-   "category": "gpu",
-   "brand": "PNY",
-   "model_key": "pny:5070ti:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5070 Ti 16GB Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 9098,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0F67GQBVT",
-    "url": "https://www.amazon.co.uk/dp/B0F67GQBVT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 9098,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|asus:5070:oc+rog",
@@ -33451,6 +33415,42 @@
    "best_price": 9100,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:triple|water",
+   "category": "gpu",
+   "brand": "PNY",
+   "model_key": "pny:5070ti:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070 Ti 16GB Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9100,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0F67GQBVT",
+    "url": "https://www.amazon.co.uk/dp/B0F67GQBVT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9100,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|pny:5070ti:oc+triple|water",
@@ -34250,7 +34250,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 10907,
+    "price_hkd": 10909,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -34264,7 +34264,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 10907,
+   "best_price": 10909,
    "has_water": true,
    "has_official": false
   },
