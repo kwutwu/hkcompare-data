@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-17T05:14:52Z",
- "generated_at_hkt": "2026-10-17 13:14 HKT",
- "price_updated_hkt": "2026-10-17 13:14 HKT",
+ "generated_at": "2026-10-17T05:31:19Z",
+ "generated_at_hkt": "2026-10-17 13:31 HKT",
+ "price_updated_hkt": "2026-10-17 13:31 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–13:10 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -333,7 +333,7 @@
   ],
   "ivan": {
    "total_listings": 188,
-   "qualified": 177,
+   "qualified": 178,
    "deduped": 120,
    "excluded": {
     "seller": 101,
@@ -342,7 +342,7 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 33,
+    "ivan_gpu_rows": 34,
     "nic_jp_rows": 78,
     "skipped": {
      "bad_or_dup": 49
@@ -35128,7 +35128,7 @@
    "image": "img/hk-0267beecf48f040a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
    "water": {
-    "price_hkd": 6527,
+    "price_hkd": 6528,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -35161,8 +35161,8 @@
      }
     ]
    },
-   "delta_hkd": 672,
-   "best_price": 6527,
+   "delta_hkd": 671,
+   "best_price": 6528,
    "has_water": true,
    "has_official": true
   },
@@ -35346,6 +35346,62 @@
    "delta_hkd": null,
    "best_price": 6699,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070:oc+windforce",
+   "category": "gpu",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:oc+windforce",
+   "part_number": "GV-N5070WF3OC-12GD",
+   "upc": "0889523048191",
+   "title": "GIGABYTE GeForce Series RTX 5070 WINDFORCE OC 12GB GDDR7 (GV-N5070WF3OC-12GD)",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ee6481ee60223dd5.png",
+   "image": "img/hk-ee6481ee60223dd5.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForceRTX_5070WINDFORCEOCSFF12G_01.png?v=1785232982",
+   "water": {
+    "price_hkd": 6724,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0DTQMLX4F",
+    "url": "https://www.amazon.com/dp/B0DTQMLX4F",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number GV-N5070WF3OC-12GD",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7099,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-series-rtx-5070-windforce-oc-12gb-gddr7-gv-n5070wf3oc-12gd",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 7199,
+      "url": "https://shop.pegasus.hk/products/223408/GIGABYTE-技嘉-GeForce-RTX-5070-WINDFORCE-OC-SFF-12G-顯示卡---3年保養"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7480,
+      "url": "https://secomputer.com.hk/products/56672"
+     }
+    ]
+   },
+   "delta_hkd": 375,
+   "best_price": 6724,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -35764,62 +35820,6 @@
    },
    "delta_hkd": 152,
    "best_price": 7047,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070:oc+windforce",
-   "category": "gpu",
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:oc+windforce",
-   "part_number": "GV-N5070WF3OC-12GD",
-   "upc": "0889523048191",
-   "title": "GIGABYTE GeForce Series RTX 5070 WINDFORCE OC 12GB GDDR7 (GV-N5070WF3OC-12GD)",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ee6481ee60223dd5.png",
-   "image": "img/hk-ee6481ee60223dd5.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForceRTX_5070WINDFORCEOCSFF12G_01.png?v=1785232982",
-   "water": {
-    "price_hkd": 7251,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTGP2WMT",
-    "url": "https://www.amazon.es/dp/B0DTGP2WMT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5070:oc+sff+windforce",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7099,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-series-rtx-5070-windforce-oc-12gb-gddr7-gv-n5070wf3oc-12gd",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 7199,
-      "url": "https://shop.pegasus.hk/products/223408/GIGABYTE-技嘉-GeForce-RTX-5070-WINDFORCE-OC-SFF-12G-顯示卡---3年保養"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 7480,
-      "url": "https://secomputer.com.hk/products/56672"
-     }
-    ]
-   },
-   "delta_hkd": -152,
-   "best_price": 7099,
    "has_water": true,
    "has_official": true
   },
@@ -36754,7 +36754,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9385,
+    "price_hkd": 9387,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -36768,7 +36768,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9385,
+   "best_price": 9387,
    "has_water": true,
    "has_official": false
   },
