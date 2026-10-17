@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-17T12:03:16Z",
- "generated_at_hkt": "2026-10-17 20:03 HKT",
- "price_updated_hkt": "2026-10-17 20:03 HKT",
+ "generated_at": "2026-10-17T12:13:23Z",
+ "generated_at_hkt": "2026-10-17 20:13 HKT",
+ "price_updated_hkt": "2026-10-17 20:13 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–14:14 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2495,
-  "both_sides": 45,
+  "both_sides": 46,
   "water_only": 68,
-  "official_only": 2379,
-  "matched_water": 48,
+  "official_only": 2378,
+  "matched_water": 49,
   "official_groups": 2495,
   "id_merge": {
    "enabled": true,
@@ -274,9 +274,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 20,
+   "amazon_cached": 21,
    "official_downloaded": 0,
-   "official_cached": 2208,
+   "official_cached": 2207,
    "failed": 0
   },
   "image_samples": [
@@ -339,20 +339,19 @@
   ],
   "ivan": {
    "total_listings": 188,
-   "qualified": 167,
-   "deduped": 116,
+   "qualified": 169,
+   "deduped": 117,
    "excluded": {
-    "seller": 105,
-    "ship unknown": 3,
-    "no ship": 18,
-    "used": 1,
+    "seller": 103,
+    "no ship": 19,
+    "used": 2,
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 33,
+    "ivan_gpu_rows": 32,
     "nic_jp_rows": 75,
     "skipped": {
-     "bad_or_dup": 46
+     "bad_or_dup": 47
     }
    }
   }
@@ -50170,6 +50169,63 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5080:astral+oc+rog+white",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5080:astral+oc+rog+white",
+   "part_number": "ROG-ASTRAL-RTX5080-O16G-WHITE",
+   "upc": null,
+   "title": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 White OC Edition Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FKX6LPR6.jpg",
+   "image": "img/B0FKX6LPR6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81gkdvlaWTL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 17210,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0FKX6LPR6",
+    "url": "https://www.amazon.com/dp/B0FKX6LPR6",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:astral+oc+rog+white",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 17999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13794/asus-rog-astral-rtx-5080-oc-white-16gb",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 17999,
+      "url": "https://shop.pegasus.hk/products/225441/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-White-顯示卡"
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 18199,
+      "url": "https://buymore.hk/shop/goods.php?id=44891"
+     }
+    ]
+   },
+   "delta_hkd": 789,
+   "best_price": 17210,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5080:astral+oc+rog",
    "category": "gpu",
    "cooler_kind": null,
@@ -50206,51 +50262,6 @@
       "store_short": "飛馬",
       "price_hkd": 17999,
       "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 17999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:astral+oc+rog+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:astral+oc+rog+white",
-   "part_number": "ROG-ASTRAL-RTX5080-O16G-WHITE",
-   "upc": null,
-   "title": "【RTX5080】ASUS ROG ASTRAL RTX5080 OC 16GB WHITE [長:358mm]",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-243e2b3cff9f5fb0.webp",
-   "image": "img/hk-243e2b3cff9f5fb0.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/13794.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 17999,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/13794/asus-rog-astral-rtx-5080-oc-white-16gb",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 17999,
-      "url": "https://shop.pegasus.hk/products/225441/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-White-顯示卡"
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 18199,
-      "url": "https://buymore.hk/shop/goods.php?id=44891"
      }
     ]
    },
