@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-17T06:31:29Z",
- "generated_at_hkt": "2026-10-17 14:31 HKT",
- "price_updated_hkt": "2026-10-17 14:31 HKT",
+ "generated_at": "2026-10-17T06:32:16Z",
+ "generated_at_hkt": "2026-10-17 14:32 HKT",
+ "price_updated_hkt": "2026-10-17 14:32 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–14:14 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -53,7 +53,7 @@
   },
   "air_cooler": {
    "label": "風冷",
-   "count": 273,
+   "count": 272,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2490,
+  "items": 2489,
   "both_sides": 46,
   "water_only": 70,
-  "official_only": 2371,
+  "official_only": 2370,
   "matched_water": 50,
-  "official_groups": 2490,
+  "official_groups": 2489,
   "id_merge": {
    "enabled": true,
    "unions_upc": 188,
@@ -81,7 +81,7 @@
    "name_key_splits": 34,
    "ram_soft_unions": 2,
    "ram_soft_ambiguous": 3,
-   "same_store_offers_dropped": 82,
+   "same_store_offers_dropped": 83,
    "pn_dropped_capacity_mismatch": 0
   },
   "hk_parallel": {
@@ -275,7 +275,7 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 20,
-   "official_downloaded": 1,
+   "official_downloaded": 0,
    "official_cached": 2198,
    "failed": 2
   },
@@ -330,10 +330,10 @@
     "via": "official"
    },
    {
-    "title": "ID-COOLING DK-19 PWM 風冷散熱器",
-    "image": "img/hk-55994515ec72a1cf.png",
-    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-55994515ec72a1cf.png",
-    "fallback": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d99c1375-42ff-451f-aaa3-ee14712c3200",
+    "title": "VALKYRIE AQ125 BLACK 黑色 4x6MM高性能散熱管 CPU Cooler (VK-AQ125-BK)",
+    "image": "img/hk-e3fbdb3a134ed1e5.jpg",
+    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e3fbdb3a134ed1e5.jpg",
+    "fallback": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/682dc9302377f1050.jpg_d480.jpg?v=1748838245",
     "via": "official"
    }
   ],
@@ -642,38 +642,6 @@
    },
    "delta_hkd": null,
    "best_price": 110,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "air_cooler|air_cooler:id-cooling:風冷:id.cooling.dk.風冷散熱器.dk:",
-   "category": "air_cooler",
-   "cooler_kind": "air",
-   "brand": "ID-COOLING",
-   "model_key": "air_cooler:id-cooling:風冷:id.cooling.dk.風冷散熱器.dk:",
-   "part_number": null,
-   "upc": null,
-   "title": "ID-COOLING DK-19 PWM 風冷散熱器",
-   "spec": "風冷",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-55994515ec72a1cf.png",
-   "image": "img/hk-55994515ec72a1cf.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d99c1375-42ff-451f-aaa3-ee14712c3200/public",
-   "water": null,
-   "official": {
-    "price_hkd": 129,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/216211/ID-COOLING-DK-19-PWM-風冷散熱器",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 129,
    "has_water": false,
    "has_official": true
   },
