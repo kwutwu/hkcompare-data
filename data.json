@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-17T18:32:07Z",
- "generated_at_hkt": "2026-10-18 02:32 HKT",
- "price_updated_hkt": "2026-10-18 02:32 HKT",
+ "generated_at": "2026-10-17T18:36:13Z",
+ "generated_at_hkt": "2026-10-18 02:36 HKT",
+ "price_updated_hkt": "2026-10-18 02:36 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–14:14 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 130,
+   "count": 131,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2505,
+  "items": 2506,
   "both_sides": 47,
-  "water_only": 78,
+  "water_only": 79,
   "official_only": 2377,
   "matched_water": 50,
-  "official_groups": 2505,
+  "official_groups": 2506,
   "id_merge": {
    "enabled": true,
    "unions_upc": 188,
@@ -274,7 +274,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 21,
+   "amazon_cached": 22,
    "official_downloaded": 0,
    "official_cached": 2207,
    "failed": 0
@@ -338,9 +338,9 @@
    }
   ],
   "ivan": {
-   "total_listings": 188,
-   "qualified": 175,
-   "deduped": 128,
+   "total_listings": 189,
+   "qualified": 176,
+   "deduped": 129,
    "excluded": {
     "seller": 106,
     "no ship": 19,
@@ -48965,6 +48965,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:dual+slim|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:dual+slim",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5080 16GB Slim Dual-Fan, 2-Slot Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GTQTWTY5.jpg",
+   "image": "img/B0GTQTWTY5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 13028,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0GTQTWTY5",
+    "url": "https://www.amazon.co.uk/dp/B0GTQTWTY5",
+    "stock": "Only 5 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 13028,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|palit:5080:gamingpro+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -50242,7 +50279,7 @@
     "domain": "amazon.com",
     "asin": "B0FKX6LPR6",
     "url": "https://www.amazon.com/dp/B0FKX6LPR6",
-    "stock": "",
+    "stock": "Usually ships within 4 days",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:astral+oc+rog+white",
     "source": "amazon",
