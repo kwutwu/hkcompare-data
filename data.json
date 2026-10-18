@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-18T13:01:29Z",
- "generated_at_hkt": "2026-10-18 21:01 HKT",
- "price_updated_hkt": "2026-10-18 21:01 HKT",
+ "generated_at": "2026-10-18T13:10:15Z",
+ "generated_at_hkt": "2026-10-18 21:10 HKT",
+ "price_updated_hkt": "2026-10-18 21:10 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–14:14 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 129,
+   "count": 130,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2503,
+  "items": 2504,
   "both_sides": 50,
-  "water_only": 76,
+  "water_only": 77,
   "official_only": 2374,
   "matched_water": 53,
-  "official_groups": 2503,
+  "official_groups": 2504,
   "id_merge": {
    "enabled": true,
    "unions_upc": 188,
@@ -274,7 +274,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 21,
+   "amazon_cached": 22,
    "official_downloaded": 0,
    "official_cached": 2207,
    "failed": 0
@@ -339,10 +339,10 @@
   ],
   "ivan": {
    "total_listings": 192,
-   "qualified": 182,
-   "deduped": 129,
+   "qualified": 184,
+   "deduped": 130,
    "excluded": {
-    "seller": 111,
+    "seller": 109,
     "no ship": 15,
     "used": 1,
     "not desktop GPU": 2
@@ -48454,7 +48454,7 @@
     "domain": "amazon.co.uk",
     "asin": "B0DTJDR3V9",
     "url": "https://www.amazon.co.uk/dp/B0DTJDR3V9",
-    "stock": "Only 1 left in stock.",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
@@ -48567,7 +48567,7 @@
     "domain": "amazon.fr",
     "asin": "B0H5NNTMTH",
     "url": "https://www.amazon.fr/dp/B0H5NNTMTH",
-    "stock": "Only 3 left in stock.",
+    "stock": "Only 2 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "source": "amazon",
@@ -48699,6 +48699,43 @@
    "best_price": 12740,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5080:argb+oc+triple+verto|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+oc+triple+verto",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
+   "image": "img/B0DZCVQGG6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
+   "water": {
+    "price_hkd": 12765,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DZCVQGG6",
+    "url": "https://www.amazon.de/dp/B0DZCVQGG6",
+    "stock": "Only 6 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12765,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|pny:5080:triple|water",
