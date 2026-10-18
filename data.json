@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-18T01:57:17Z",
- "generated_at_hkt": "2026-10-18 09:57 HKT",
- "price_updated_hkt": "2026-10-18 09:57 HKT",
+ "generated_at": "2026-10-18T02:03:19Z",
+ "generated_at_hkt": "2026-10-18 10:03 HKT",
+ "price_updated_hkt": "2026-10-18 10:03 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-17 09:55–14:14 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261017/hkcompare_rows.json",
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 350,
+   "count": 349,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2505,
+  "items": 2504,
   "both_sides": 46,
-  "water_only": 78,
+  "water_only": 77,
   "official_only": 2378,
   "matched_water": 49,
-  "official_groups": 2505,
+  "official_groups": 2504,
   "id_merge": {
    "enabled": true,
    "unions_upc": 188,
@@ -339,8 +339,8 @@
   ],
   "ivan": {
    "total_listings": 189,
-   "qualified": 180,
-   "deduped": 127,
+   "qualified": 178,
+   "deduped": 126,
    "excluded": {
     "seller": 105,
     "ship unknown": 3,
@@ -350,7 +350,7 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 34,
-    "nic_jp_rows": 85,
+    "nic_jp_rows": 83,
     "skipped": {
      "bad_or_dup": 46
     }
@@ -50645,7 +50645,7 @@
    "image": "img/hk-eeffea3935699333.png",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/eea15f9ee7d6cf0c66a2bd0bb833f2aa.png",
    "water": {
-    "price_hkd": 706,
+    "price_hkd": 707,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -50672,10 +50672,51 @@
      }
     ]
    },
-   "delta_hkd": -186,
+   "delta_hkd": -187,
    "best_price": 520,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B760:mATX:b760m-d3hp-wifi6:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B760:mATX:b760m-d3hp-wifi6:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "【Amazon.co.jp限定】GIGABYTE B760M D3HP WIFI6 Micro-ATX マザーボード MB6697",
+   "spec": "B760（DDR5）",
+   "filter_tags": [
+    "B760",
+    "DDR5",
+    "B760-DDR5"
+   ],
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 561,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B083Y2FY2X",
+    "url": "https://www.amazon.co.jp/dp/B083Y2FY2X",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 561,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:msi:H610:mATX:pro-h610m-e:ddr5:nowifi:",
@@ -50771,7 +50812,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 585,
+    "price_hkd": 586,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -50785,7 +50826,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 585,
+   "best_price": 586,
    "has_water": true,
    "has_official": false
   },
@@ -50925,7 +50966,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 630,
+    "price_hkd": 631,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -50939,7 +50980,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 630,
+   "best_price": 631,
    "has_water": true,
    "has_official": false
   },
@@ -51149,7 +51190,7 @@
    "image": "img/hk-ec8bbe7bfae16d45.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_B760M-A_D4.png?v=1736936880",
    "water": {
-    "price_hkd": 681,
+    "price_hkd": 682,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -51182,8 +51223,8 @@
      }
     ]
    },
-   "delta_hkd": 219,
-   "best_price": 681,
+   "delta_hkd": 218,
+   "best_price": 682,
    "has_water": true,
    "has_official": true
   },
@@ -51206,7 +51247,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 682,
+    "price_hkd": 683,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -51220,7 +51261,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 682,
+   "best_price": 683,
    "has_water": true,
    "has_official": false
   },
@@ -51243,7 +51284,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 689,
+    "price_hkd": 691,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -51257,7 +51298,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 689,
+   "best_price": 691,
    "has_water": true,
    "has_official": false
   },
@@ -51438,7 +51479,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 711,
+    "price_hkd": 712,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -51452,7 +51493,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 711,
+   "best_price": 712,
    "has_water": true,
    "has_official": false
   },
@@ -51475,7 +51516,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 728,
+    "price_hkd": 729,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -51489,7 +51530,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 728,
+   "best_price": 729,
    "has_water": true,
    "has_official": false
   },
@@ -51575,6 +51616,43 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:asrock:B650:mATX:b650m-pro-x3d:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASRock",
+   "model_key": "mobo:asrock:B650:mATX:b650m-pro-x3d:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASRock B650M Pro X3D Micro-ATXマザーボード MB6751",
+   "spec": "B650",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 742,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F3N9FR6K",
+    "url": "https://www.amazon.co.jp/dp/B0F3N9FR6K",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 742,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:sapphire:B650:mATX:b650m-e:ddr5:nowifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -51625,7 +51703,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 766,
+    "price_hkd": 767,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -51639,7 +51717,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 766,
+   "best_price": 767,
    "has_water": true,
    "has_official": false
   },
@@ -51662,7 +51740,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 766,
+    "price_hkd": 768,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -51676,7 +51754,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 766,
+   "best_price": 768,
    "has_water": true,
    "has_official": false
   },
@@ -51796,43 +51874,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asus:B850:ATX:prime-b850-plus-csm:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B850:ATX:prime-b850-plus-csm:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "【Amazon.co.jp限定】ASUS AMD Socket AM5 AMD Ryzen 9000 & 8000 & 7000 シリーズ 対応 B850 搭載 ATX 対応…",
-   "spec": "B850",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 798,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F4VWZWXN",
-    "url": "https://www.amazon.co.jp/dp/B0F4VWZWXN",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 798,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asrock:B850:mATX:b850m-x-wifi-r2.0:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -51863,6 +51904,43 @@
    "best_price": 799,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B850:ATX:prime-b850-plus-csm:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B850:ATX:prime-b850-plus-csm:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "【Amazon.co.jp限定】ASUS AMD Socket AM5 AMD Ryzen 9000 & 8000 & 7000 シリーズ 対応 B850 搭載 ATX 対応…",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 799,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F4VWZWXN",
+    "url": "https://www.amazon.co.jp/dp/B0F4VWZWXN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 799,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:colorful:B850:mATX:b850m-e-wifi-v14:ddr5:wifi:black",
@@ -51958,7 +52036,7 @@
    "image": "img/hk-019d66f87272b9d6.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f9eece67-99d1-4696-01bd-edddeacb8a00/public",
    "water": {
-    "price_hkd": 814,
+    "price_hkd": 816,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -51978,51 +52056,10 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 116,
-   "best_price": 814,
+   "delta_hkd": 114,
+   "best_price": 816,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:msi:B760:mATX:b760m-gaming-plus-wifi:ddr4:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:B760:mATX:b760m-gaming-plus-wifi:ddr4:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI B760M GAMING PLUS WIFI DDR4 Intel第14/13/12世代 Coreプロセッサ対応 Micro-ATX マザーボード MB6564",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 819,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DM8K3ZCH",
-    "url": "https://www.amazon.co.jp/dp/B0DM8K3ZCH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 819,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B650:mATX:b650m-ayw-wifi:ddr5:wifi:",
@@ -52104,7 +52141,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 834,
+    "price_hkd": 835,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -52118,7 +52155,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 834,
+   "best_price": 835,
    "has_water": true,
    "has_official": false
   },
@@ -52141,7 +52178,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 842,
+    "price_hkd": 844,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -52155,7 +52192,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 842,
+   "best_price": 844,
    "has_water": true,
    "has_official": false
   },
@@ -52214,7 +52251,7 @@
    "image": "img/hk-f8f92d5563bace3a.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_B760M-A_WIFI_D4.png?v=1736937215",
    "water": {
-    "price_hkd": 864,
+    "price_hkd": 866,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -52259,8 +52296,8 @@
      }
     ]
    },
-   "delta_hkd": 176,
-   "best_price": 864,
+   "delta_hkd": 174,
+   "best_price": 866,
    "has_water": true,
    "has_official": true
   },
@@ -52315,7 +52352,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 888,
+    "price_hkd": 890,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -52329,7 +52366,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 888,
+   "best_price": 890,
    "has_water": true,
    "has_official": false
   },
@@ -52730,43 +52767,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-ds3h-wifi6e-rev2:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B860:mATX:b860m-ds3h-wifi6e-rev2:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE B860M DS3H WIFI6E Rev2 Micro-ATXマザーボード MB6951",
-   "spec": "B860",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 939,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DQLHYCVZ",
-    "url": "https://www.amazon.co.jp/dp/B0DQLHYCVZ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 939,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asrock:B850:mATX:b850m-rock-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -52804,6 +52804,43 @@
    "best_price": 940,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-ds3h-wifi6e-rev2:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B860:mATX:b860m-ds3h-wifi6e-rev2:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE B860M DS3H WIFI6E Rev2 Micro-ATXマザーボード MB6951",
+   "spec": "B860",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 940,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DQLHYCVZ",
+    "url": "https://www.amazon.co.jp/dp/B0DQLHYCVZ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 940,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B760:mATX:b760m-ayw-wifi:ddr5:wifi:#2",
@@ -52917,63 +52954,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
-   "part_number": "MB-MB86MGW",
-   "upc": "0824142435731",
-   "title": "MSI B860M GAMING WIFI DDR5,LGA 1851 mATX Motherboard (MB-MB86MGW)",
-   "spec": "B860",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-54479f451f98f6d8.png",
-   "image": "img/hk-54479f451f98f6d8.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/product_175037937029ce4047c6fc763e2a1ea07cbe3f5165.webp?v=1776666863",
-   "water": {
-    "price_hkd": 989,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0G1LVGDPT",
-    "url": "https://www.amazon.co.jp/dp/B0G1LVGDPT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 1220,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-b860m-gaming-wifi-ddr5-lga-1851-matx-motherboard-mb-mb86mgw",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1249,
-      "url": "https://secomputer.com.hk/products/61673"
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1280,
-      "url": "https://shop.pegasus.hk/products/227733/MSI-微星-B860M-GAMING-WIFI-Micro-ATX-主機板-DDR5---3年保養"
-     }
-    ]
-   },
-   "delta_hkd": 231,
-   "best_price": 989,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:msi:B850:mATX:b850m-gaming-plus-wifi6e:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -52992,7 +52972,7 @@
    "image": "img/hk-3dd0d5c5fa845ebc.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4fde4031c8738e213d856980b8901dc0.webp",
    "water": {
-    "price_hkd": 991,
+    "price_hkd": 993,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53019,8 +52999,8 @@
      }
     ]
    },
-   "delta_hkd": 258,
-   "best_price": 991,
+   "delta_hkd": 256,
+   "best_price": 993,
    "has_water": true,
    "has_official": true
   },
@@ -53043,7 +53023,7 @@
    "image": "img/hk-106f299f549a50f8.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/MSI_B860M_GAMING_PLUS_WIFI.png?v=1737034621",
    "water": {
-    "price_hkd": 991,
+    "price_hkd": 993,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53063,8 +53043,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 399,
-   "best_price": 991,
+   "delta_hkd": 397,
+   "best_price": 993,
    "has_water": true,
    "has_official": true
   },
@@ -53087,7 +53067,7 @@
    "image": "img/hk-17e3d550df331b8f.jpg",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/72ce78a97a11e4dec5e8bcca6302d1f1.jpg",
    "water": {
-    "price_hkd": 993,
+    "price_hkd": 994,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53107,8 +53087,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 187,
-   "best_price": 993,
+   "delta_hkd": 186,
+   "best_price": 994,
    "has_water": true,
    "has_official": true
   },
@@ -53409,7 +53389,7 @@
    "image": "img/hk-e9b3bd5b46c3e4bd.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GIGABYTE_B860M_GAMING_X_WIFI6E.png?v=1750858119",
    "water": {
-    "price_hkd": 1014,
+    "price_hkd": 1016,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53436,8 +53416,8 @@
      }
     ]
    },
-   "delta_hkd": 386,
-   "best_price": 1014,
+   "delta_hkd": 384,
+   "best_price": 1016,
    "has_water": true,
    "has_official": true
   },
@@ -53460,7 +53440,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1016,
+    "price_hkd": 1018,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53474,7 +53454,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1016,
+   "best_price": 1018,
    "has_water": true,
    "has_official": false
   },
@@ -53497,7 +53477,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1034,
+    "price_hkd": 1036,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53511,7 +53491,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1034,
+   "best_price": 1036,
    "has_water": true,
    "has_official": false
   },
@@ -53534,7 +53514,7 @@
    "image": "img/hk-e3ae09aaf7396c66.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AsusTUFGAMINGB650EM-EWIFIP4.webp?v=1762241126",
    "water": {
-    "price_hkd": 1456,
+    "price_hkd": 1596,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53561,7 +53541,7 @@
      }
     ]
    },
-   "delta_hkd": -411,
+   "delta_hkd": -551,
    "best_price": 1045,
    "has_water": true,
    "has_official": true
@@ -53707,7 +53687,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1082,
+    "price_hkd": 1084,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53721,7 +53701,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1082,
+   "best_price": 1084,
    "has_water": true,
    "has_official": false
   },
@@ -53744,7 +53724,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1090,
+    "price_hkd": 1091,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -53758,7 +53738,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1090,
+   "best_price": 1091,
    "has_water": true,
    "has_official": false
   },
@@ -54019,7 +53999,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1143,
+    "price_hkd": 1145,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -54033,7 +54013,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1143,
+   "best_price": 1145,
    "has_water": true,
    "has_official": false
   },
@@ -54301,6 +54281,51 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
+   "part_number": "MB-MB86MGW",
+   "upc": "0824142435731",
+   "title": "MSI B860M GAMING WIFI DDR5,LGA 1851 mATX Motherboard (MB-MB86MGW)",
+   "spec": "B860",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-54479f451f98f6d8.png",
+   "image": "img/hk-54479f451f98f6d8.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/product_175037937029ce4047c6fc763e2a1ea07cbe3f5165.webp?v=1776666863",
+   "water": null,
+   "official": {
+    "price_hkd": 1220,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-b860m-gaming-wifi-ddr5-lga-1851-matx-motherboard-mb-mb86mgw",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1249,
+      "url": "https://secomputer.com.hk/products/61673"
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1280,
+      "url": "https://shop.pegasus.hk/products/227733/MSI-微星-B860M-GAMING-WIFI-Micro-ATX-主機板-DDR5---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1220,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:msi:Z890:ATX:pro-z890a-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -54319,7 +54344,7 @@
    "image": "img/hk-4ddf3fa3210e79d5.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/6550.webp",
    "water": {
-    "price_hkd": 1222,
+    "price_hkd": 1224,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -54346,8 +54371,8 @@
      }
     ]
    },
-   "delta_hkd": 1158,
-   "best_price": 1222,
+   "delta_hkd": 1156,
+   "best_price": 1224,
    "has_water": true,
    "has_official": true
   },
@@ -54441,7 +54466,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1236,
+    "price_hkd": 1238,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -54455,7 +54480,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1236,
+   "best_price": 1238,
    "has_water": true,
    "has_official": false
   },
@@ -54627,7 +54652,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1254,
+    "price_hkd": 1256,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -54641,7 +54666,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1254,
+   "best_price": 1256,
    "has_water": true,
    "has_official": false
   },
@@ -54664,7 +54689,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1266,
+    "price_hkd": 1268,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -54678,7 +54703,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1266,
+   "best_price": 1268,
    "has_water": true,
    "has_official": false
   },
@@ -54808,7 +54833,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1321,
+    "price_hkd": 1323,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -54822,7 +54847,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1321,
+   "best_price": 1323,
    "has_water": true,
    "has_official": false
   },
@@ -55030,43 +55055,6 @@
    "best_price": 1350,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-aorus-elite-wifi6e:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B860:mATX:b860m-aorus-elite-wifi6e:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE B860M AORUS ELITE WIFI6E Micro-ATXマザーボード MB6791",
-   "spec": "B860",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1357,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DQNTTYDP",
-    "url": "https://www.amazon.co.jp/dp/B0DQNTTYDP",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1357,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:gigabyte:B760:mATX:b760m-aorus-elite-wifi6e-gen5:ddr5:wifi:",
@@ -55303,7 +55291,7 @@
    "image": "img/hk-a807fe74b7c2bd6a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/a74eb17b-9f57-48bf-b2d1-2ccad06ef500/public",
    "water": {
-    "price_hkd": 1443,
+    "price_hkd": 1446,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -55323,8 +55311,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 506,
-   "best_price": 1443,
+   "delta_hkd": 503,
+   "best_price": 1446,
    "has_water": true,
    "has_official": true
   },
@@ -55430,7 +55418,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1461,
+    "price_hkd": 1463,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -55444,7 +55432,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1461,
+   "best_price": 1463,
    "has_water": true,
    "has_official": false
   },
@@ -55577,6 +55565,63 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
+   "part_number": "MB-AB86SGW",
+   "upc": "0197105806856",
+   "title": "ASUS ROG STRIX B860-G GAMING WIFI DDR5,LGA 1851 mATX Motherboard (MB-AB86SGW)",
+   "spec": "B860",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a2787b5fc44df09b.webp",
+   "image": "img/hk-a2787b5fc44df09b.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/8819.webp",
+   "water": {
+    "price_hkd": 1481,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DSFDBPP3",
+    "url": "https://www.amazon.co.jp/dp/B0DSFDBPP3",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 2120,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/8819/asus-rog-strix-b860-g-gaming-wifi-micro-atx-motherboard",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2150,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-rog-strix-b860-g-gaming-wifi-ddr5-lga-1851-matx-motherboard"
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2250,
+      "url": "https://secomputer.com.hk/products/55941"
+     }
+    ]
+   },
+   "delta_hkd": 639,
+   "best_price": 1481,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:asus:B860:mATX:tuf-gaming-b860m-plus:ddr5:nowifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -55595,7 +55640,7 @@
    "image": "img/hk-9be35bb3fd24e7e5.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/7af705ba97844e9b60bec043c8ddfb73.webp",
    "water": {
-    "price_hkd": 1487,
+    "price_hkd": 1489,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -55615,8 +55660,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 253,
-   "best_price": 1487,
+   "delta_hkd": 251,
+   "best_price": 1489,
    "has_water": true,
    "has_official": true
   },
@@ -55639,7 +55684,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1489,
+    "price_hkd": 1492,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -55653,44 +55698,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1489,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "mobo|mobo:gigabyte:Z890:?:z890-eagle-wifi7-plus:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:Z890:?:z890-eagle-wifi7-plus:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE Z890 EAGLE WIFI7 PLUS ATXマザーボード MB7014",
-   "spec": "Z890",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1498,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0GV3H3SKM",
-    "url": "https://www.amazon.co.jp/dp/B0GV3H3SKM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1498,
+   "best_price": 1492,
    "has_water": true,
    "has_official": false
   },
@@ -55734,6 +55742,43 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:gigabyte:Z890:?:z890-eagle-wifi7-plus:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:Z890:?:z890-eagle-wifi7-plus:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE Z890 EAGLE WIFI7 PLUS ATXマザーボード MB7014",
+   "spec": "Z890",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 1501,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0GV3H3SKM",
+    "url": "https://www.amazon.co.jp/dp/B0GV3H3SKM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1501,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:gigabyte:X870:mATX:x870m-a-elite-wf7-ice:ddr5:nowifi:|water",
    "category": "mobo",
    "cooler_kind": null,
@@ -55752,7 +55797,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1505,
+    "price_hkd": 1507,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -55766,7 +55811,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1505,
+   "best_price": 1507,
    "has_water": true,
    "has_official": false
   },
@@ -56468,7 +56513,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1676,
+    "price_hkd": 1678,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -56482,7 +56527,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1676,
+   "best_price": 1678,
    "has_water": true,
    "has_official": false
   },
@@ -56615,7 +56660,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1682,
+    "price_hkd": 1685,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -56629,7 +56674,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1682,
+   "best_price": 1685,
    "has_water": true,
    "has_official": false
   },
@@ -57217,6 +57262,43 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:gigabyte:X870:?:x870e-eagle-x3d-wifi7:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:X870:?:x870e-eagle-x3d-wifi7:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE X870E EAGLE X3D WIFI7 ATXマザーボード MB7018",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 1770,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0GF9F92NM",
+    "url": "https://www.amazon.co.jp/dp/B0GF9F92NM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1770,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:gigabyte:Z890:ATX:z890-ud-wifi6e:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -57331,7 +57413,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1796,
+    "price_hkd": 1799,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -57345,7 +57427,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1796,
+   "best_price": 1799,
    "has_water": true,
    "has_official": false
   },
@@ -57471,7 +57553,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1830,
+    "price_hkd": 1833,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -57485,7 +57567,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1830,
+   "best_price": 1833,
    "has_water": true,
    "has_official": false
   },
@@ -57539,43 +57621,6 @@
    "best_price": 1860,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE B850 AORUS ELITE-P ICE ATXマザーボード 神鷹凛モデル MB7038",
-   "spec": "B850",
-   "filter_tags": null,
-   "form_factor": "E-ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1877,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0H62232LX",
-    "url": "https://www.amazon.co.jp/dp/B0H62232LX",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1877,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B860:ATX:tuf-gaming-b860-plus-wifi:ddr5:wifi:",
@@ -57647,6 +57692,43 @@
    "best_price": 1880,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE B850 AORUS ELITE-P ICE ATXマザーボード 神鷹凛モデル MB7038",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "E-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 1880,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H62232LX",
+    "url": "https://www.amazon.co.jp/dp/B0H62232LX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1880,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:gigabyte:B850:mATX:b850m-aorus-elite-wifi7-ice-p:ddr5:wifi:white",
@@ -57814,6 +57896,43 @@
    "best_price": 1880,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:X870:ATX:tuf-gaming-x870e-plus-wifi7:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:X870:ATX:tuf-gaming-x870e-plus-wifi7:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS AMD X870E AM5 対応 ATX マザーボード TUF GAMING X870E-PLUS WIFI7 国内正規代理店品",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 1881,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0FDFVPRP2",
+    "url": "https://www.amazon.co.jp/dp/B0FDFVPRP2",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1881,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asrock:X870:ATX:x870e-challenger-wifi:ddr5:wifi:",
@@ -58123,43 +58242,6 @@
    "best_price": 1920,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:Z890:?:z890-aorus-elite-duo-x:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:Z890:?:z890-aorus-elite-duo-x:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE Z890 AORUS ELITE DUO X ATXマザーボードMB7012",
-   "spec": "Z890",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1937,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0GTTDC1QK",
-    "url": "https://www.amazon.co.jp/dp/B0GTTDC1QK",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1937,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:gigabyte:B860:ATX:b860-aorus-elite-wifi7-ice:ddr5:wifi:white",
@@ -58540,6 +58622,43 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:msi:Z890:?:z890-gaming-plus-wifi6e:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "mobo:msi:Z890:?:z890-gaming-plus-wifi6e:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI Z890 GAMING PLUS WIFI6E ATXマザーボード MB6968",
+   "spec": "Z890",
+   "filter_tags": null,
+   "form_factor": "E-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 2040,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0GYS86T2W",
+    "url": "https://www.amazon.co.jp/dp/B0GYS86T2W",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2040,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:asus:Z890:mATX:prime-z890m-plus-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -58737,43 +58856,6 @@
    "best_price": 2070,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:msi:Z890:?:z890-gaming-plus-wifi6e:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:Z890:?:z890-gaming-plus-wifi6e:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI Z890 GAMING PLUS WIFI6E ATXマザーボード MB6968",
-   "spec": "Z890",
-   "filter_tags": null,
-   "form_factor": "E-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2073,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0GYS86T2W",
-    "url": "https://www.amazon.co.jp/dp/B0GYS86T2W",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2073,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:gigabyte:X870:ATX:x870-gaming-x-wifi7:ddr5:wifi:",
@@ -59154,7 +59236,7 @@
    "image": "img/hk-768cffe305fbdfe1.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/67132403-139f-4ae3-63bb-bd1e80469900/public",
    "water": {
-    "price_hkd": 2105,
+    "price_hkd": 2108,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -59174,54 +59256,9 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 694,
-   "best_price": 2105,
+   "delta_hkd": 691,
+   "best_price": 2108,
    "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "mobo|mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B860:mATX:rog-strix-b860g-gaming-wifi:ddr5:wifi:",
-   "part_number": "MB-AB86SGW",
-   "upc": "0197105806856",
-   "title": "ASUS ROG STRIX B860-G GAMING WIFI DDR5,LGA 1851 mATX Motherboard (MB-AB86SGW)",
-   "spec": "B860",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a2787b5fc44df09b.webp",
-   "image": "img/hk-a2787b5fc44df09b.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/8819.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 2120,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/8819/asus-rog-strix-b860-g-gaming-wifi-micro-atx-motherboard",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2150,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-rog-strix-b860-g-gaming-wifi-ddr5-lga-1851-matx-motherboard"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2250,
-      "url": "https://secomputer.com.hk/products/55941"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 2120,
-   "has_water": false,
    "has_official": true
   },
   {
@@ -59353,43 +59390,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE X870E AORUS ELITE X3D ATX マザーボード MB6873",
-   "spec": "X870",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2177,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0FRFKRSTV",
-    "url": "https://www.amazon.co.jp/dp/B0FRFKRSTV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2177,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:gigabyte:B850:ITX:b850i-aorus-pro-wifi7:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -59505,30 +59505,30 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:msi:Z890:?:mag-z890-tomahawk-wifi-ii:ddr5:wifi:|water",
+   "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d:ddr5:nowifi:|water",
    "category": "mobo",
    "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:Z890:?:mag-z890-tomahawk-wifi-ii:ddr5:wifi:",
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d:ddr5:nowifi:",
    "part_number": null,
    "upc": null,
-   "title": "MSI MAG Z890 TOMAHAWK WIFI II ATXマザーボード MB7059",
-   "spec": "Z890",
+   "title": "GIGABYTE X870E AORUS ELITE X3D ATX マザーボード MB6873",
+   "spec": "X870",
    "filter_tags": null,
    "form_factor": "ATX",
-   "has_wifi": true,
+   "has_wifi": false,
    "ssd_capacity": null,
    "ssd_interface": null,
    "image_url": null,
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 2185,
+    "price_hkd": 2181,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
-    "asin": "B0HH88PR3W",
-    "url": "https://www.amazon.co.jp/dp/B0HH88PR3W",
+    "asin": "B0FRFKRSTV",
+    "url": "https://www.amazon.co.jp/dp/B0FRFKRSTV",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -59537,7 +59537,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2185,
+   "best_price": 2181,
    "has_water": true,
    "has_official": false
   },
@@ -59900,7 +59900,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 2268,
+    "price_hkd": 2272,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -59914,7 +59914,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2268,
+   "best_price": 2272,
    "has_water": true,
    "has_official": false
   },
@@ -60954,6 +60954,43 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:gigabyte:X870:?:x870e-aero-x3d-wood:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:X870:?:x870e-aero-x3d-wood:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE X870E AERO X3D WOOD ATXマザーボード MB6934",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 2628,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0G823QDFD",
+    "url": "https://www.amazon.co.jp/dp/B0G823QDFD",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2628,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:asus:Z890:ATX:tuf-gaming-z890-plus-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -61370,43 +61407,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:X870:?:x870e-aorus-pro-x3d:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:X870:?:x870e-aorus-pro-x3d:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE X870E AORUS PRO X3D ATXマザーボード X870E A PRO X MB6933",
-   "spec": "X870",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2791,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0G5ZXFXNH",
-    "url": "https://www.amazon.co.jp/dp/B0G5ZXFXNH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2791,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asus:B850:ITX:rog-strix-b850i-gaming-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -61655,43 +61655,6 @@
    "best_price": 2899,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aorus-pro-x3d-ice:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:X870:ATX:x870e-aorus-pro-x3d-ice:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE X870E AORUS PRO X3D ICE ATX マザーボード MB6871",
-   "spec": "X870",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2907,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0FRFKRCKT",
-    "url": "https://www.amazon.co.jp/dp/B0FRFKRCKT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2907,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:X870:ATX:tuf-gaming-x870-plus-wifi:ddr5:wifi:",
@@ -80160,7 +80123,7 @@
    "image": "img/hk-2d4618a0181771d9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/97b1bbb2-ff47-478b-60ed-66390a2a8f00/public",
    "water": {
-    "price_hkd": 1599,
+    "price_hkd": 1607,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -80175,7 +80138,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 1758,
+      "price_hkd": 1761,
       "url": "https://www.amazon.co.jp/dp/B09QPWRWLY"
      }
     ]
@@ -80213,8 +80176,8 @@
      }
     ]
    },
-   "delta_hkd": 700,
-   "best_price": 1599,
+   "delta_hkd": 692,
+   "best_price": 1607,
    "has_water": true,
    "has_official": true
   },
@@ -80240,7 +80203,7 @@
    "image": "img/hk-8bc4415be78d2e9c.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/9848.webp",
    "water": {
-    "price_hkd": 1787,
+    "price_hkd": 1790,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -80255,7 +80218,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 2620,
+      "price_hkd": 2624,
       "url": "https://www.amazon.co.jp/dp/B09QPFWQW7"
      }
     ]
@@ -80275,8 +80238,8 @@
      }
     ]
    },
-   "delta_hkd": 813,
-   "best_price": 1787,
+   "delta_hkd": 810,
+   "best_price": 1790,
    "has_water": true,
    "has_official": true
   },
@@ -80659,7 +80622,7 @@
    "image": "img/hk-b118da33c2294252.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f2cba9d3-6043-488e-27f9-3f082d14d200/public",
    "water": {
-    "price_hkd": 3756,
+    "price_hkd": 3763,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -80692,7 +80655,7 @@
      }
     ]
    },
-   "delta_hkd": -1257,
+   "delta_hkd": -1264,
    "best_price": 2499,
    "has_water": true,
    "has_official": true
@@ -80796,7 +80759,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 2646,
+    "price_hkd": 2651,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -80810,7 +80773,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2646,
+   "best_price": 2651,
    "has_water": true,
    "has_official": false
   },
@@ -80949,7 +80912,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 3156,
+    "price_hkd": 3161,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -80963,7 +80926,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3156,
+   "best_price": 3161,
    "has_water": true,
    "has_official": false
   },
@@ -80990,7 +80953,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 3381,
+    "price_hkd": 3387,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -81004,7 +80967,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3381,
+   "best_price": 3387,
    "has_water": true,
    "has_official": false
   },
@@ -81244,7 +81207,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 3562,
+    "price_hkd": 3567,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -81258,7 +81221,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3562,
+   "best_price": 3567,
    "has_water": true,
    "has_official": false
   },
@@ -81431,7 +81394,7 @@
    "image": "img/hk-1caafdec78ddac65.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/5401.webp",
    "water": {
-    "price_hkd": 3815,
+    "price_hkd": 3821,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -81458,7 +81421,7 @@
      }
     ]
    },
-   "delta_hkd": -105,
+   "delta_hkd": -111,
    "best_price": 3710,
    "has_water": true,
    "has_official": true
@@ -82133,7 +82096,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 3803,
+    "price_hkd": 3809,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -82147,7 +82110,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3803,
+   "best_price": 3809,
    "has_water": true,
    "has_official": false
   },
@@ -82173,7 +82136,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 3824,
+    "price_hkd": 3830,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -82187,7 +82150,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3824,
+   "best_price": 3830,
    "has_water": true,
    "has_official": false
   },
@@ -86860,7 +86823,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 5861,
+    "price_hkd": 5871,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -86874,7 +86837,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 5861,
+   "best_price": 5871,
    "has_water": true,
    "has_official": false
   },
@@ -87009,7 +86972,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6459,
+    "price_hkd": 6469,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87023,7 +86986,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6459,
+   "best_price": 6469,
    "has_water": true,
    "has_official": false
   },
@@ -87050,7 +87013,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6573,
+    "price_hkd": 6583,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87064,7 +87027,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6573,
+   "best_price": 6583,
    "has_water": true,
    "has_official": false
   },
@@ -87140,7 +87103,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7185,
+    "price_hkd": 7194,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87154,7 +87117,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7185,
+   "best_price": 7194,
    "has_water": true,
    "has_official": false
   },
@@ -87181,7 +87144,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7205,
+    "price_hkd": 7217,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87195,7 +87158,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7205,
+   "best_price": 7217,
    "has_water": true,
    "has_official": false
   },
@@ -87415,7 +87378,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7758,
+    "price_hkd": 7770,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87429,47 +87392,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7758,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "ram|ram:corsair:dominatorplatinum:ddr5:dimm:64:5200:black:2x32:cl40|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:dominatorplatinum:ddr5:dimm:64:5200:black:2x32:cl40",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR DOMINATOR PLATINUM RGB DDR5 メモリ 64GB（32GB×2）最大5200MHz対応 Intel XMP対応 CL40 デスクトップ…",
-   "spec": "DDR5 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7793,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09RX4N6JZ",
-    "url": "https://www.amazon.co.jp/dp/B09RX4N6JZ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7793,
+   "best_price": 7770,
    "has_water": true,
    "has_official": false
   },
@@ -87523,6 +87446,46 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:dominatorplatinum:ddr5:dimm:64:5200:black:2x32:cl40|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:dominatorplatinum:ddr5:dimm:64:5200:black:2x32:cl40",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR DOMINATOR PLATINUM RGB DDR5 メモリ 64GB（32GB×2）最大5200MHz対応 Intel XMP対応 CL40 デスクトップ…",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7806,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09RX4N6JZ",
+    "url": "https://www.amazon.co.jp/dp/B09RX4N6JZ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7806,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40|water",
    "category": "ram",
    "cooler_kind": null,
@@ -87545,7 +87508,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7885,
+    "price_hkd": 7898,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87559,7 +87522,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7885,
+   "best_price": 7898,
    "has_water": true,
    "has_official": false
   },
@@ -87586,7 +87549,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7897,
+    "price_hkd": 7909,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87600,7 +87563,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7897,
+   "best_price": 7909,
    "has_water": true,
    "has_official": false
   },
@@ -87705,7 +87668,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7964,
+    "price_hkd": 7977,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87719,7 +87682,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7964,
+   "best_price": 7977,
    "has_water": true,
    "has_official": false
   },
@@ -88315,7 +88278,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 8471,
+    "price_hkd": 8448,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -88329,7 +88292,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8471,
+   "best_price": 8448,
    "has_water": true,
    "has_official": false
   },
