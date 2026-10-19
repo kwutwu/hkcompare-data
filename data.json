@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-19T11:09:29Z",
- "generated_at_hkt": "2026-10-19 19:09 HKT",
- "price_updated_hkt": "2026-10-19 19:09 HKT",
+ "generated_at": "2026-10-19T11:38:57Z",
+ "generated_at_hkt": "2026-10-19 19:38 HKT",
+ "price_updated_hkt": "2026-10-19 19:38 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-18 09:53 – 2026-10-19 10:00 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261018/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 115,
+   "count": 114,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2344,
+  "items": 2343,
   "both_sides": 49,
-  "water_only": 71,
+  "water_only": 70,
   "official_only": 2221,
   "matched_water": 52,
-  "official_groups": 2344,
+  "official_groups": 2343,
   "id_merge": {
    "enabled": true,
    "unions_upc": 192,
@@ -317,7 +317,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 20,
+   "amazon_cached": 19,
    "official_downloaded": 0,
    "official_cached": 2240,
    "failed": 0
@@ -383,7 +383,7 @@
   "ivan": {
    "total_listings": 195,
    "qualified": 175,
-   "deduped": 123,
+   "deduped": 122,
    "excluded": {
     "seller": 115,
     "used": 1,
@@ -45986,43 +45986,6 @@
    "best_price": 13499,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:argb+oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB ARGB OC Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJDR3V9.jpg",
-   "image": "img/B0DTJDR3V9.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 13528,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DTJDR3V9",
-    "url": "https://www.amazon.it/dp/B0DTJDR3V9",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 13528,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|pny:5080:dual+slim|water",
