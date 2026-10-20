@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-20T00:58:11Z",
- "generated_at_hkt": "2026-10-20 08:58 HKT",
- "price_updated_hkt": "2026-10-20 08:58 HKT",
+ "generated_at": "2026-10-20T01:11:15Z",
+ "generated_at_hkt": "2026-10-20 09:11 HKT",
+ "price_updated_hkt": "2026-10-20 09:11 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-18 09:53 – 2026-10-19 10:00 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261018/hkcompare_rows.json",
@@ -382,10 +382,10 @@
   ],
   "ivan": {
    "total_listings": 198,
-   "qualified": 177,
+   "qualified": 176,
    "deduped": 125,
    "excluded": {
-    "seller": 121,
+    "seller": 122,
     "no ship": 11,
     "not desktop GPU": 2
    },
@@ -45299,7 +45299,7 @@
    "image": "img/B0DTJFZ4YS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 12491,
+    "price_hkd": 12482,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -45313,7 +45313,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 12491,
+   "best_price": 12482,
    "has_water": true,
    "has_official": false
   },
@@ -45375,7 +45375,7 @@
    "image": "img/B0GWRN4Q36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12750,
+    "price_hkd": 12741,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -45402,8 +45402,8 @@
      }
     ]
    },
-   "delta_hkd": 1449,
-   "best_price": 12750,
+   "delta_hkd": 1458,
+   "best_price": 12741,
    "has_water": true,
    "has_official": true
   },
@@ -45426,7 +45426,7 @@
    "image": "img/B0DT6NZ9V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71PEi8EcUBL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12798,
+    "price_hkd": 12789,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -45459,8 +45459,8 @@
      }
     ]
    },
-   "delta_hkd": 1401,
-   "best_price": 12798,
+   "delta_hkd": 1410,
+   "best_price": 12789,
    "has_water": true,
    "has_official": true
   },
@@ -45483,7 +45483,7 @@
    "image": "img/B09CL8ZFJ5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81tgFzasCHL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12856,
+    "price_hkd": 12847,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -45516,8 +45516,8 @@
      }
     ]
    },
-   "delta_hkd": 2643,
-   "best_price": 12856,
+   "delta_hkd": 2652,
+   "best_price": 12847,
    "has_water": true,
    "has_official": true
   },
@@ -45557,6 +45557,50 @@
    "best_price": 12883,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|msi:5080:gaming trio+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:gaming trio+oc",
+   "part_number": null,
+   "upc": "0824142395721",
+   "title": "MSI GeForce RTX 5080 16G Gaming Trio OC - Gaming Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BX6LGM2X.jpg",
+   "image": "img/B0BX6LGM2X.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 12920,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0BX6LGM2X",
+    "url": "https://www.amazon.fr/dp/B0BX6LGM2X",
+    "stock": "Only 2 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:gaming trio+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 1880,
+   "best_price": 12920,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5080:gaming+oc",
@@ -45616,50 +45660,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:gaming trio+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming trio+oc",
-   "part_number": null,
-   "upc": "0824142395721",
-   "title": "MSI GeForce RTX 5080 16G Gaming Trio OC - Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BX6LGM2X.jpg",
-   "image": "img/B0BX6LGM2X.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 12929,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0BX6LGM2X",
-    "url": "https://www.amazon.fr/dp/B0BX6LGM2X",
-    "stock": "Only 2 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:gaming trio+oc",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14800,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 1871,
-   "best_price": 12929,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5080:oc+sff+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -45678,7 +45678,7 @@
    "image": "img/B0DT9Y2B49.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12948,
+    "price_hkd": 12939,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -45698,8 +45698,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 1451,
-   "best_price": 12948,
+   "delta_hkd": 1460,
+   "best_price": 12939,
    "has_water": true,
    "has_official": true
   },
@@ -45761,7 +45761,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13220,
+    "price_hkd": 13211,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -45781,8 +45781,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 2779,
-   "best_price": 13220,
+   "delta_hkd": 2788,
+   "best_price": 13211,
    "has_water": true,
    "has_official": true
   },
@@ -45805,7 +45805,7 @@
    "image": "img/B0FD3XZ8P1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/7192KlMK8gL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13270,
+    "price_hkd": 13261,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -45819,7 +45819,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 13270,
+   "best_price": 13261,
    "has_water": true,
    "has_official": false
   },
@@ -45842,7 +45842,7 @@
    "image": "img/B0DTHTWBMB.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61jBGR4QhNL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 13451,
+    "price_hkd": 13441,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -45856,7 +45856,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 13451,
+   "best_price": 13441,
    "has_water": true,
    "has_official": false
   },
@@ -45911,7 +45911,7 @@
    "image": "img/B0GTQTWTY5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 13541,
+    "price_hkd": 13540,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -45925,7 +45925,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 13541,
+   "best_price": 13540,
    "has_water": true,
    "has_official": false
   },
@@ -45948,7 +45948,7 @@
    "image": "img/B09BD59F4T.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/814lQWaeAzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13698,
+    "price_hkd": 13688,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -45968,8 +45968,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 1501,
-   "best_price": 13698,
+   "delta_hkd": 1511,
+   "best_price": 13688,
    "has_water": true,
    "has_official": true
   },
@@ -45992,7 +45992,7 @@
    "image": "img/B0DS65VMC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13726,
+    "price_hkd": 13716,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -46025,8 +46025,52 @@
      }
     ]
    },
-   "delta_hkd": 1024,
-   "best_price": 13726,
+   "delta_hkd": 1034,
+   "best_price": 13716,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5080:aorus+ice+master",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:aorus+ice+master",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 AORUS GeForce RTX 5080 MASTER ICE 16G 顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9YQ2Q1.jpg",
+   "image": "img/B0DT9YQ2Q1.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13794,
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0DT9YQ2Q1",
+    "url": "https://www.amazon.it/dp/B0DT9YQ2Q1",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:aorus+ice+master",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 16999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223225/GIGABYTE-技嘉-AORUS-GeForce-RTX-5080-MASTER-ICE-16G-顯示卡---4-年保固需線上註冊保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 3205,
+   "best_price": 13794,
    "has_water": true,
    "has_official": true
   },
@@ -46079,50 +46123,6 @@
    "delta_hkd": null,
    "best_price": 13799,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:aorus+ice+master",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aorus+ice+master",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 AORUS GeForce RTX 5080 MASTER ICE 16G 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9YQ2Q1.jpg",
-   "image": "img/B0DT9YQ2Q1.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13803,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DT9YQ2Q1",
-    "url": "https://www.amazon.it/dp/B0DT9YQ2Q1",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:aorus+ice+master",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 16999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223225/GIGABYTE-技嘉-AORUS-GeForce-RTX-5080-MASTER-ICE-16G-顯示卡---4-年保固需線上註冊保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 3196,
-   "best_price": 13803,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -46279,7 +46279,7 @@
    "image": "img/B0DT9VM5DC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81koP+J468L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14369,
+    "price_hkd": 14359,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -46293,7 +46293,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14369,
+   "best_price": 14359,
    "has_water": true,
    "has_official": false
   },
@@ -46470,7 +46470,7 @@
    "image": "img/B0DSXNXTSS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15275,
+    "price_hkd": 15265,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -46484,7 +46484,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15275,
+   "best_price": 15265,
    "has_water": true,
    "has_official": false
   },
@@ -46507,7 +46507,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 15453,
+    "price_hkd": 15442,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -46521,7 +46521,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15453,
+   "best_price": 15442,
    "has_water": true,
    "has_official": false
   },
@@ -46749,7 +46749,7 @@
     "domain": "amazon.com",
     "asin": "B0FKX6LPR6",
     "url": "https://www.amazon.com/dp/B0FKX6LPR6",
-    "stock": "",
+    "stock": "Only 1 left in stock - order soon.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:astral+oc+rog+white",
     "source": "amazon",
