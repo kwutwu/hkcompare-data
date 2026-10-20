@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-20T13:06:53Z",
- "generated_at_hkt": "2026-10-20 21:06 HKT",
- "price_updated_hkt": "2026-10-20 21:06 HKT",
+ "generated_at": "2026-10-20T13:27:41Z",
+ "generated_at_hkt": "2026-10-20 21:27 HKT",
+ "price_updated_hkt": "2026-10-20 21:27 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-20 10:00–15:33 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261020/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 112,
+   "count": 114,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2489,
+  "items": 2491,
   "both_sides": 47,
-  "water_only": 73,
+  "water_only": 75,
   "official_only": 2365,
   "matched_water": 51,
-  "official_groups": 2489,
+  "official_groups": 2491,
   "id_merge": {
    "enabled": true,
    "unions_upc": 184,
@@ -346,18 +346,18 @@
   ],
   "ivan": {
    "total_listings": 199,
-   "qualified": 172,
-   "deduped": 124,
+   "qualified": 174,
+   "deduped": 126,
    "excluded": {
     "seller": 129,
     "no ship": 12,
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 32,
+    "ivan_gpu_rows": 34,
     "nic_jp_rows": 84,
     "skipped": {
-     "bad_or_dup": 48
+     "bad_or_dup": 49
     }
    }
   }
@@ -47287,6 +47287,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5070:2x+oc+ventus+white|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:2x+oc+ventus+white",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI Gaming RTX 5070 12G Ventus 2X OC White Graphics Card (12 GB GDDR7, 192-bit, Extreme…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7682,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DYG3JLGY",
+    "url": "https://www.amazon.co.uk/dp/B0DYG3JLGY",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7682,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|zotac:5070:amp+oc+white",
    "category": "gpu",
    "cooler_kind": null,
@@ -48660,7 +48697,7 @@
    "image": "img/hk-4b9d165a1fb2d4d8.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/15265.webp",
    "water": {
-    "price_hkd": 11207,
+    "price_hkd": 11208,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -48693,8 +48730,8 @@
      }
     ]
    },
-   "delta_hkd": 892,
-   "best_price": 11207,
+   "delta_hkd": 891,
+   "best_price": 11208,
    "has_water": true,
    "has_official": true
   },
@@ -48908,6 +48945,43 @@
    "best_price": 11800,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:5070ti:tuf|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070ti:tuf",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 Gaming Graphics Card (PCIe 5.0, HDMI/DP …",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 11860,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DVH1Y9VN",
+    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11860,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070ti:aorus+master",
