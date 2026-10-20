@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-20T17:14:00Z",
- "generated_at_hkt": "2026-10-21 01:14 HKT",
- "price_updated_hkt": "2026-10-21 01:14 HKT",
+ "generated_at": "2026-10-20T17:37:43Z",
+ "generated_at_hkt": "2026-10-21 01:37 HKT",
+ "price_updated_hkt": "2026-10-21 01:37 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-20 10:00–15:33 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261020/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2490,
-  "both_sides": 48,
+  "both_sides": 49,
   "water_only": 74,
-  "official_only": 2364,
-  "matched_water": 51,
+  "official_only": 2363,
+  "matched_water": 53,
   "official_groups": 2490,
   "id_merge": {
    "enabled": true,
@@ -346,18 +346,18 @@
   ],
   "ivan": {
    "total_listings": 200,
-   "qualified": 171,
-   "deduped": 125,
+   "qualified": 173,
+   "deduped": 127,
    "excluded": {
     "seller": 133,
     "no ship": 12,
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 33,
+    "ivan_gpu_rows": 35,
     "nic_jp_rows": 85,
     "skipped": {
-     "bad_or_dup": 49
+     "bad_or_dup": 48
     }
    }
   }
@@ -46570,7 +46570,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6916,
+    "price_hkd": 6924,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -46590,8 +46590,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 983,
-   "best_price": 6916,
+   "delta_hkd": 975,
+   "best_price": 6924,
    "has_water": true,
    "has_official": true
   },
@@ -46664,7 +46664,19 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ee6481ee60223dd5.png",
    "image": "img/hk-ee6481ee60223dd5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForceRTX_5070WINDFORCEOCSFF12G_01.png?v=1785232982",
-   "water": null,
+   "water": {
+    "price_hkd": 7060,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DTGP2WMT",
+    "url": "https://www.amazon.co.uk/dp/B0DTGP2WMT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number GV-N5070WF3OC-12GD",
+    "source": "amazon",
+    "others": []
+   },
    "official": {
     "price_hkd": 7099,
     "store": "Jumbo 珍寶電腦",
@@ -46686,9 +46698,9 @@
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 7099,
-   "has_water": false,
+   "delta_hkd": 39,
+   "best_price": 7060,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -46835,7 +46847,15 @@
     "note": "已含運費 + 2%",
     "match_by": "part number GV-N5070EAGLEOC-12GD",
     "source": "amazon",
-    "others": []
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "日本 Amazon",
+      "price_hkd": 8038,
+      "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
+     }
+    ]
    },
    "official": {
     "price_hkd": 7199,
