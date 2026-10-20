@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-20T02:03:42Z",
- "generated_at_hkt": "2026-10-20 10:03 HKT",
- "price_updated_hkt": "2026-10-20 10:03 HKT",
+ "generated_at": "2026-10-20T02:14:07Z",
+ "generated_at_hkt": "2026-10-20 10:14 HKT",
+ "price_updated_hkt": "2026-10-20 10:14 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-19 09:59 – 2026-10-20 10:00 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261019/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 112,
+   "count": 113,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2242,
+  "items": 2243,
   "both_sides": 52,
-  "water_only": 74,
+  "water_only": 75,
   "official_only": 2113,
   "matched_water": 55,
-  "official_groups": 2242,
+  "official_groups": 2243,
   "id_merge": {
    "enabled": true,
    "unions_upc": 188,
@@ -318,9 +318,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 20,
-   "official_downloaded": 6,
-   "official_cached": 2132,
+   "amazon_cached": 21,
+   "official_downloaded": 0,
+   "official_cached": 2138,
    "failed": 0
   },
   "image_samples": [
@@ -383,10 +383,10 @@
   ],
   "ivan": {
    "total_listings": 198,
-   "qualified": 184,
-   "deduped": 129,
+   "qualified": 186,
+   "deduped": 130,
    "excluded": {
-    "seller": 122,
+    "seller": 120,
     "no ship": 11,
     "not desktop GPU": 2
    },
@@ -45108,6 +45108,43 @@
    "best_price": 12789,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5080:argb+oc+triple+verto|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+oc+triple+verto",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
+   "image": "img/B0DZCVQGG6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
+   "water": {
+    "price_hkd": 12799,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DZCVQGG6",
+    "url": "https://www.amazon.de/dp/B0DZCVQGG6",
+    "stock": "Only 4 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12799,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|asus:5080:oc+proart",
