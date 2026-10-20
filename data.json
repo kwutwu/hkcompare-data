@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-20T11:06:18Z",
- "generated_at_hkt": "2026-10-20 19:06 HKT",
- "price_updated_hkt": "2026-10-20 19:06 HKT",
+ "generated_at": "2026-10-20T11:27:27Z",
+ "generated_at_hkt": "2026-10-20 19:27 HKT",
+ "price_updated_hkt": "2026-10-20 19:27 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-20 10:00–15:33 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261020/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 112,
+   "count": 113,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2489,
+  "items": 2490,
   "both_sides": 46,
-  "water_only": 73,
+  "water_only": 74,
   "official_only": 2366,
   "matched_water": 50,
-  "official_groups": 2489,
+  "official_groups": 2490,
   "id_merge": {
    "enabled": true,
    "unions_upc": 184,
@@ -346,8 +346,8 @@
   ],
   "ivan": {
    "total_listings": 199,
-   "qualified": 172,
-   "deduped": 123,
+   "qualified": 173,
+   "deduped": 124,
    "excluded": {
     "seller": 129,
     "used": 1,
@@ -355,10 +355,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 33,
+    "ivan_gpu_rows": 34,
     "nic_jp_rows": 84,
     "skipped": {
-     "bad_or_dup": 54
+     "bad_or_dup": 51
     }
    }
   }
@@ -46853,7 +46853,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 8044,
+      "price_hkd": 8038,
       "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
      }
     ]
@@ -47286,6 +47286,43 @@
    "best_price": 7599,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070:2x+oc+ventus+white|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:2x+oc+ventus+white",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI Gaming RTX 5070 12G Ventus 2X OC White Graphics Card (12 GB GDDR7, 192-bit, Extreme…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7682,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DYG3JLGY",
+    "url": "https://www.amazon.co.uk/dp/B0DYG3JLGY",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7682,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|zotac:5070:amp+oc+white",
