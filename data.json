@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-20T23:04:04Z",
- "generated_at_hkt": "2026-10-21 07:04 HKT",
- "price_updated_hkt": "2026-10-21 07:04 HKT",
+ "generated_at": "2026-10-20T23:10:51Z",
+ "generated_at_hkt": "2026-10-21 07:10 HKT",
+ "price_updated_hkt": "2026-10-21 07:10 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-20 10:00–15:33 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261020/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2491,
-  "both_sides": 45,
+  "both_sides": 46,
   "water_only": 75,
-  "official_only": 2367,
-  "matched_water": 49,
+  "official_only": 2366,
+  "matched_water": 50,
   "official_groups": 2491,
   "id_merge": {
    "enabled": true,
@@ -281,9 +281,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 16,
+   "amazon_cached": 17,
    "official_downloaded": 0,
-   "official_cached": 2207,
+   "official_cached": 2206,
    "failed": 0
   },
   "image_samples": [
@@ -346,10 +346,10 @@
   ],
   "ivan": {
    "total_listings": 201,
-   "qualified": 165,
-   "deduped": 124,
+   "qualified": 166,
+   "deduped": 125,
    "excluded": {
-    "seller": 135,
+    "seller": 134,
     "ship unknown": 2,
     "no ship": 12,
     "not desktop GPU": 2
@@ -50017,6 +50017,57 @@
    "has_official": false
   },
   {
+   "id": "gpu|asus:5080:astral+oc+rog",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5080:astral+oc+rog",
+   "part_number": "ROG-ASTRAL-RTX5080-O16G-GAMING",
+   "upc": "0197105837911",
+   "title": "ASUS ROG ASTRAL RTX5080 OC 16GB GDDR7 NVIDIA GeForce Graphics Card, Black",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS643QRW.jpg",
+   "image": "img/B0DS643QRW.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81Wcw8qLt3L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 15539,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DS643QRW",
+    "url": "https://www.amazon.fr/dp/B0DS643QRW",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:astral+oc+rog",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 17800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-rog-astral-geforce-rtx-5080-oc-16gb-gddr7-rog-astral-rtx5080-o16g-gaming-di-e5080a1",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 17999,
+      "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡"
+     }
+    ]
+   },
+   "delta_hkd": 2261,
+   "best_price": 15539,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|galax:5080:gaming",
    "category": "gpu",
    "cooler_kind": null,
@@ -50212,45 +50263,6 @@
    },
    "delta_hkd": null,
    "best_price": 16999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:astral+oc+rog",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:astral+oc+rog",
-   "part_number": "ROG-ASTRAL-RTX5080-O16G-GAMING",
-   "upc": "0197105837911",
-   "title": "ASUS ROG ASTRAL GeForce RTX 5080 OC 16GB GDDR7 ROG-ASTRAL-RTX5080-O16G-GAMING (DI-E5080A1)",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d2f30c944ddb1d00.png",
-   "image": "img/hk-d2f30c944ddb1d00.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AsusROGAStralRTX5080P6.png?v=1761380211",
-   "water": null,
-   "official": {
-    "price_hkd": 17800,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-rog-astral-geforce-rtx-5080-oc-16gb-gddr7-rog-astral-rtx5080-o16g-gaming-di-e5080a1",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 17999,
-      "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 17800,
    "has_water": false,
    "has_official": true
   },
