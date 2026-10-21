@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-21T20:37:36Z",
- "generated_at_hkt": "2026-10-22 04:37 HKT",
- "price_updated_hkt": "2026-10-22 04:37 HKT",
+ "generated_at": "2026-10-21T20:57:50Z",
+ "generated_at_hkt": "2026-10-22 04:57 HKT",
+ "price_updated_hkt": "2026-10-22 04:57 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-21 09:58–16:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261021/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 118,
+   "count": 119,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2497,
-  "both_sides": 44,
-  "water_only": 72,
-  "official_only": 2377,
-  "matched_water": 47,
-  "official_groups": 2497,
+  "items": 2498,
+  "both_sides": 46,
+  "water_only": 73,
+  "official_only": 2375,
+  "matched_water": 49,
+  "official_groups": 2498,
   "id_merge": {
    "enabled": true,
    "unions_upc": 183,
@@ -282,9 +282,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 18,
+   "amazon_cached": 19,
    "official_downloaded": 0,
-   "official_cached": 2208,
+   "official_cached": 2207,
    "failed": 0
   },
   "image_samples": [
@@ -347,8 +347,8 @@
   ],
   "ivan": {
    "total_listings": 204,
-   "qualified": 165,
-   "deduped": 119,
+   "qualified": 170,
+   "deduped": 122,
    "excluded": {
     "seller": 135,
     "ship unknown": 2,
@@ -357,7 +357,7 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 26,
+    "ivan_gpu_rows": 31,
     "nic_jp_rows": 85,
     "skipped": {
      "bad_or_dup": 47
@@ -46948,6 +46948,57 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070:oc+prime+white",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070:oc+prime+white",
+   "part_number": "PRIME-RTX5070-O12G-WHITE",
+   "upc": "0199291046122",
+   "title": "ASUS Prime GeForce RTX 5070 12GB GDDR7 White OC Edition Gaming Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FFKWFMYM.jpg",
+   "image": "img/B0FFKWFMYM.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81GLS28VqWL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7364,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0FFKWFMYM",
+    "url": "https://www.amazon.com/dp/B0FFKWFMYM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070:oc+prime+white",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7800,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8050,
+      "url": "https://centralfield.com/product/12870/asus-prime-rtx-5070-oc-white-12gb"
+     }
+    ]
+   },
+   "delta_hkd": 436,
+   "best_price": 7364,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5070:3x+oc+ventus",
    "category": "gpu",
    "cooler_kind": null,
@@ -47111,45 +47162,6 @@
    },
    "delta_hkd": null,
    "best_price": 7699,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:oc+prime+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070:oc+prime+white",
-   "part_number": "PRIME-RTX5070-O12G-WHITE",
-   "upc": "0199291046122",
-   "title": "ASUS PRIME GeForce RTX 5070 OC White 白色 12GB GDDR7 PRIME-RTX5070-O12G-WHITE (DI-E5070Q1…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-568a11b0cf71611d.png",
-   "image": "img/hk-568a11b0cf71611d.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_RTX_5070_OC_White_BOX.png?v=1761378836",
-   "water": null,
-   "official": {
-    "price_hkd": 7800,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 8050,
-      "url": "https://centralfield.com/product/12870/asus-prime-rtx-5070-oc-white-12gb"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 7800,
    "has_water": false,
    "has_official": true
   },
@@ -47656,7 +47668,7 @@
    "model_key": "gigabyte:5070ti:gaming+oc",
    "part_number": null,
    "upc": null,
-   "title": "Gigabyte GeForce RTX 5070 Ti GAMING OC 16G Graphics Card - 16GB GDDR7, 256bit, PCI-E 5.…",
+   "title": "GIGABYTE GeForce RTX 5070 Ti Gaming OC 16G Graphics Card, 16GB 256-bit GDDR7, PCIe 5.0,…",
    "spec": "RTX 5070 Ti",
    "filter_tags": null,
    "form_factor": null,
@@ -47667,12 +47679,12 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 10208,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DTGPC5KR",
-    "url": "https://www.amazon.co.uk/dp/B0DTGPC5KR",
+    "price_hkd": 10005,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0DTRC7782",
+    "url": "https://www.amazon.com/dp/B0DTRC7782",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -47681,9 +47693,60 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 10208,
+   "best_price": 10005,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|gigabyte:5070ti:aero+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:aero+oc",
+   "part_number": "GV-N507TAEROOC-16GD",
+   "upc": "0889523048542",
+   "title": "GIGABYTE 技嘉 GeForce RTX5070Ti AERO OC 16G (GV-N507TAERO OC-16GD)",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-72a67e50e3a027fe.png",
+   "image": "img/hk-72a67e50e3a027fe.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4bbbff23-9575-4c8e-962b-5a4bd93b5a00/public",
+   "water": {
+    "price_hkd": 10085,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0DTQVHQ6G",
+    "url": "https://www.amazon.com/dp/B0DTQVHQ6G",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5070ti:aero+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 11299,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223265/Gigabyte-技嘉-GeForce-RTX-5070-Ti-AERO-OC-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 11480,
+      "url": "https://secomputer.com.hk/products/56475"
+     }
+    ]
+   },
+   "delta_hkd": 1214,
+   "best_price": 10085,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5070ti:eagle+oc+sff",
@@ -48338,42 +48401,60 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070ti:aero+oc",
+   "id": "gpu|asus:5070ti:oc+proart",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:aero+oc",
-   "part_number": "GV-N507TAEROOC-16GD",
-   "upc": "0889523048542",
-   "title": "GIGABYTE 技嘉 GeForce RTX5070Ti AERO OC 16G (GV-N507TAERO OC-16GD)",
+   "brand": "ASUS",
+   "model_key": "asus:5070ti:oc+proart",
+   "part_number": "PROART-RTX5070TI-O16G",
+   "upc": "0199291226999",
+   "title": "ASUS華碩 ProArt GeForce RTX5070Ti OC Edition 16GB GDDR7 (PROART-RTX5070TI-O16G, 90TV0NR0-…",
    "spec": "RTX 5070 Ti",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
    "ssd_capacity": null,
    "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-72a67e50e3a027fe.png",
-   "image": "img/hk-72a67e50e3a027fe.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4bbbff23-9575-4c8e-962b-5a4bd93b5a00/public",
-   "water": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1ff6fa59b5e570cd.png",
+   "image": "img/hk-1ff6fa59b5e570cd.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/a3019217-21ed-44c5-d20d-b8410709d400/public",
+   "water": {
+    "price_hkd": 11205,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0FSNPHV7M",
+    "url": "https://www.amazon.com/dp/B0FSNPHV7M",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070ti:oc+proart",
+    "source": "amazon",
+    "others": []
+   },
    "official": {
-    "price_hkd": 11299,
+    "price_hkd": 12399,
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223265/Gigabyte-技嘉-GeForce-RTX-5070-Ti-AERO-OC-16G-顯示卡---3年保養",
+    "url": "https://shop.pegasus.hk/products/228418/ASUS-華碩-ProArt-GeForce-RTX-5070-Ti-16GB-GDDR7-OC-顯示卡---3年保養",
     "stock": "現貨",
     "others": [
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 12999,
+      "url": "https://centralfield.com/product/15265/asus-proart-rtx-5070ti-oc-16gb-graphics-card"
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
-      "price_hkd": 11480,
-      "url": "https://secomputer.com.hk/products/56475"
+      "price_hkd": 13199,
+      "url": "https://secomputer.com.hk/products/59282"
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 11299,
-   "has_water": false,
+   "delta_hkd": 1194,
+   "best_price": 11205,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -48531,6 +48612,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070ti:tuf|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070ti:tuf",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 Gaming Graphics Card (PCIe 5.0, HDMI/DP …",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 11885,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DVH1Y9VN",
+    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11885,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5070ti:aorus+master",
    "category": "gpu",
    "cooler_kind": null,
@@ -48560,63 +48678,6 @@
    "delta_hkd": null,
    "best_price": 11980,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070ti:oc+proart",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070ti:oc+proart",
-   "part_number": "PROART-RTX5070TI-O16G",
-   "upc": "0199291226999",
-   "title": "ASUS華碩 ProArt GeForce RTX5070Ti OC Edition 16GB GDDR7 (PROART-RTX5070TI-O16G, 90TV0NR0-…",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1ff6fa59b5e570cd.png",
-   "image": "img/hk-1ff6fa59b5e570cd.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/a3019217-21ed-44c5-d20d-b8410709d400/public",
-   "water": {
-    "price_hkd": 12526,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0FQCR9QQZ",
-    "url": "https://www.amazon.co.uk/dp/B0FQCR9QQZ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number PROART-RTX5070TI-O16G",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 12399,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/228418/ASUS-華碩-ProArt-GeForce-RTX-5070-Ti-16GB-GDDR7-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 12999,
-      "url": "https://centralfield.com/product/15265/asus-proart-rtx-5070ti-oc-16gb-graphics-card"
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 13199,
-      "url": "https://secomputer.com.hk/products/59282"
-     }
-    ]
-   },
-   "delta_hkd": -127,
-   "best_price": 12399,
-   "has_water": true,
    "has_official": true
   },
   {
