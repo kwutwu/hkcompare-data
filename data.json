@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-21T17:36:46Z",
- "generated_at_hkt": "2026-10-22 01:36 HKT",
- "price_updated_hkt": "2026-10-22 01:36 HKT",
+ "generated_at": "2026-10-21T17:57:09Z",
+ "generated_at_hkt": "2026-10-22 01:57 HKT",
+ "price_updated_hkt": "2026-10-22 01:57 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-21 09:58–16:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261021/hkcompare_rows.json",
@@ -359,7 +359,7 @@
     "ivan_gpu_rows": 27,
     "nic_jp_rows": 85,
     "skipped": {
-     "bad_or_dup": 46
+     "bad_or_dup": 44
     }
    }
   }
@@ -47648,6 +47648,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070ti:gaming+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:gaming+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte GeForce RTX 5070 Ti GAMING OC 16G Graphics Card - 16GB GDDR7, 256bit, PCI-E 5.…",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 10208,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DTGPC5KR",
+    "url": "https://www.amazon.co.uk/dp/B0DTGPC5KR",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 10208,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5070ti:eagle+oc+sff",
    "category": "gpu",
    "cooler_kind": null,
@@ -47907,43 +47944,6 @@
    "best_price": 10650,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070ti:gaming+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:gaming+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte GeForce RTX 5070 Ti GAMING OC 16G Graphics Card - 16GB GDDR7, 256 Bit, PCI-E 5…",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 10670,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DTGPC5KR",
-    "url": "https://www.amazon.it/dp/B0DTGPC5KR",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 10670,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|colorful:5070ti:sff",
@@ -48548,7 +48548,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 11980,
+    "price_hkd": 11885,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -48562,7 +48562,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11980,
+   "best_price": 11885,
    "has_water": true,
    "has_official": false
   },
