@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-21T20:09:13Z",
- "generated_at_hkt": "2026-10-22 04:09 HKT",
- "price_updated_hkt": "2026-10-22 04:09 HKT",
+ "generated_at": "2026-10-21T20:29:04Z",
+ "generated_at_hkt": "2026-10-22 04:29 HKT",
+ "price_updated_hkt": "2026-10-22 04:29 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-21 09:58–16:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261021/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 119,
+   "count": 118,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2498,
+  "items": 2497,
   "both_sides": 43,
-  "water_only": 73,
+  "water_only": 72,
   "official_only": 2378,
   "matched_water": 46,
-  "official_groups": 2498,
+  "official_groups": 2497,
   "id_merge": {
    "enabled": true,
    "unions_upc": 183,
@@ -347,8 +347,8 @@
   ],
   "ivan": {
    "total_listings": 204,
-   "qualified": 164,
-   "deduped": 119,
+   "qualified": 163,
+   "deduped": 118,
    "excluded": {
     "seller": 136,
     "ship unknown": 2,
@@ -356,10 +356,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 27,
+    "ivan_gpu_rows": 26,
     "nic_jp_rows": 85,
     "skipped": {
-     "bad_or_dup": 46
+     "bad_or_dup": 47
     }
    }
   }
@@ -48528,43 +48528,6 @@
    "best_price": 11800,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070ti:tuf|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070ti:tuf",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 Gaming Graphics Card (PCIe 5.0, HDMI/DP …",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 11885,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DVH1Y9VN",
-    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11885,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070ti:aorus+master",
