@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-21T04:56:21Z",
- "generated_at_hkt": "2026-10-21 12:56 HKT",
- "price_updated_hkt": "2026-10-21 12:56 HKT",
+ "generated_at": "2026-10-21T05:02:01Z",
+ "generated_at_hkt": "2026-10-21 13:02 HKT",
+ "price_updated_hkt": "2026-10-21 13:02 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-20 10:00–15:33 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261020/hkcompare_rows.json",
@@ -66,9 +66,9 @@
  },
  "stats": {
   "items": 2494,
-  "both_sides": 40,
+  "both_sides": 41,
   "water_only": 78,
-  "official_only": 2372,
+  "official_only": 2371,
   "matched_water": 44,
   "official_groups": 2494,
   "id_merge": {
@@ -46111,7 +46111,7 @@
    "image": "img/hk-f8e9f929e4440ca0.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_DUAL_RTX_5070_OC_BOX.png?v=1761378496",
    "water": {
-    "price_hkd": 6604,
+    "price_hkd": 6602,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -46156,8 +46156,8 @@
      }
     ]
    },
-   "delta_hkd": 326,
-   "best_price": 6604,
+   "delta_hkd": 328,
+   "best_price": 6602,
    "has_water": true,
    "has_official": true
   },
@@ -46609,7 +46609,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6925,
+    "price_hkd": 6923,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -46629,8 +46629,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 974,
-   "best_price": 6925,
+   "delta_hkd": 976,
+   "best_price": 6923,
    "has_water": true,
    "has_official": true
   },
@@ -46663,15 +46663,7 @@
     "note": "已含運費 + 2%",
     "match_by": "part number GV-N5070WF3OC-12GD",
     "source": "amazon",
-    "others": [
-     {
-      "source": "amazon",
-      "store_short": null,
-      "marketplace": "日本 Amazon",
-      "price_hkd": 7898,
-      "url": "https://www.amazon.co.jp/dp/B0F6CBQF48"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 7099,
@@ -47651,7 +47643,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9360,
+    "price_hkd": 9280,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -47665,7 +47657,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9360,
+   "best_price": 9280,
    "has_water": true,
    "has_official": false
   },
@@ -47762,7 +47754,7 @@
    "image": "img/hk-733836fa60c702e5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/486214b6-de3c-43f0-ab3a-9c9e22aa2e00/public",
    "water": {
-    "price_hkd": 9863,
+    "price_hkd": 9861,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -47789,8 +47781,8 @@
      }
     ]
    },
-   "delta_hkd": 536,
-   "best_price": 9863,
+   "delta_hkd": 538,
+   "best_price": 9861,
    "has_water": true,
    "has_official": true
   },
@@ -48898,7 +48890,19 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1ba4dd49a0f4422.png",
    "image": "img/hk-d1ba4dd49a0f4422.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/10_7fe1c1e5-a242-4a8d-bd9b-43dba59f1f49.png?v=1761378599",
-   "water": null,
+   "water": {
+    "price_hkd": 12668,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DWMJSGCM",
+    "url": "https://www.amazon.co.uk/dp/B0DWMJSGCM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070ti:oc+tuf+white",
+    "source": "amazon",
+    "others": []
+   },
    "official": {
     "price_hkd": 11800,
     "store": "Jumbo 珍寶電腦",
@@ -48920,9 +48924,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -868,
    "best_price": 11800,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
