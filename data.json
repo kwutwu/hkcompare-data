@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-22T19:44:34Z",
- "generated_at_hkt": "2026-10-23 03:44 HKT",
- "price_updated_hkt": "2026-10-23 03:44 HKT",
+ "generated_at": "2026-10-22T20:05:41Z",
+ "generated_at_hkt": "2026-10-23 04:05 HKT",
+ "price_updated_hkt": "2026-10-23 04:05 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-22 09:56–21:32 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261022/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 110,
+   "count": 109,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2352,
+  "items": 2351,
   "both_sides": 46,
-  "water_only": 66,
+  "water_only": 65,
   "official_only": 2236,
   "matched_water": 50,
-  "official_groups": 2352,
+  "official_groups": 2351,
   "id_merge": {
    "enabled": true,
    "unions_upc": 163,
@@ -350,18 +350,18 @@
   ],
   "ivan": {
    "total_listings": 207,
-   "qualified": 153,
-   "deduped": 116,
+   "qualified": 152,
+   "deduped": 115,
    "excluded": {
     "seller": 148,
     "no ship": 14,
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 30,
+    "ivan_gpu_rows": 29,
     "nic_jp_rows": 80,
     "skipped": {
-     "bad_or_dup": 45
+     "bad_or_dup": 46
     }
    }
   }
@@ -43434,7 +43434,7 @@
    "image": "img/hk-ee6481ee60223dd5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForceRTX_5070WINDFORCEOCSFF12G_01.png?v=1785232982",
    "water": {
-    "price_hkd": 6697,
+    "price_hkd": 6703,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -43475,8 +43475,8 @@
      }
     ]
    },
-   "delta_hkd": 402,
-   "best_price": 6697,
+   "delta_hkd": 396,
+   "best_price": 6703,
    "has_water": true,
    "has_official": true
   },
@@ -45734,43 +45734,6 @@
    "best_price": 11800,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070ti:tuf|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070ti:tuf",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 Gaming Graphics Card (PCIe 5.0, HDMI/DP …",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 11917,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DVH1Y9VN",
-    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11917,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070ti:aorus+master",
