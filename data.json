@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-22T02:10:50Z",
- "generated_at_hkt": "2026-10-22 10:10 HKT",
- "price_updated_hkt": "2026-10-22 10:10 HKT",
+ "generated_at": "2026-10-22T02:31:34Z",
+ "generated_at_hkt": "2026-10-22 10:31 HKT",
+ "price_updated_hkt": "2026-10-22 10:31 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-21 09:58–16:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261021/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 120,
+   "count": 121,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2501,
-  "both_sides": 47,
-  "water_only": 76,
-  "official_only": 2374,
-  "matched_water": 50,
-  "official_groups": 2501,
+  "items": 2502,
+  "both_sides": 46,
+  "water_only": 77,
+  "official_only": 2375,
+  "matched_water": 49,
+  "official_groups": 2502,
   "id_merge": {
    "enabled": true,
    "unions_upc": 183,
@@ -358,7 +358,7 @@
     "ivan_gpu_rows": 32,
     "nic_jp_rows": 84,
     "skipped": {
-     "bad_or_dup": 47
+     "bad_or_dup": 48
     }
    }
   }
@@ -45846,7 +45846,7 @@
    "image": "img/hk-0267beecf48f040a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
    "water": {
-    "price_hkd": 6407,
+    "price_hkd": 6378,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -45879,8 +45879,8 @@
      }
     ]
    },
-   "delta_hkd": 792,
-   "best_price": 6407,
+   "delta_hkd": 821,
+   "best_price": 6378,
    "has_water": true,
    "has_official": true
   },
@@ -46728,7 +46728,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 8017,
+      "price_hkd": 8031,
       "url": "https://www.amazon.co.jp/dp/B0F11VB65S"
      }
     ]
@@ -48615,19 +48615,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1ba4dd49a0f4422.png",
    "image": "img/hk-d1ba4dd49a0f4422.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/10_7fe1c1e5-a242-4a8d-bd9b-43dba59f1f49.png?v=1761378599",
-   "water": {
-    "price_hkd": 12700,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DWMJSGCM",
-    "url": "https://www.amazon.co.uk/dp/B0DWMJSGCM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5070ti:oc+tuf+white",
-    "source": "amazon",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 11800,
     "store": "Jumbo 珍寶電腦",
@@ -48649,10 +48637,47 @@
      }
     ]
    },
-   "delta_hkd": -900,
+   "delta_hkd": null,
    "best_price": 11800,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:5070ti:tuf|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070ti:tuf",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 Gaming Graphics Card (PCIe 5.0, HDMI/DP …",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 11884,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DVH1Y9VN",
+    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11884,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070ti:aorus+master",
