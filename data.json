@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-22T10:36:13Z",
- "generated_at_hkt": "2026-10-22 18:36 HKT",
- "price_updated_hkt": "2026-10-22 18:36 HKT",
+ "generated_at": "2026-10-22T10:56:25Z",
+ "generated_at_hkt": "2026-10-22 18:56 HKT",
+ "price_updated_hkt": "2026-10-22 18:56 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-21 09:58–16:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261021/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 223,
+   "count": 222,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 353,
+   "count": 352,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2498,
-  "both_sides": 44,
-  "water_only": 73,
-  "official_only": 2377,
+  "items": 2496,
+  "both_sides": 43,
+  "water_only": 71,
+  "official_only": 2378,
   "matched_water": 48,
-  "official_groups": 2498,
+  "official_groups": 2496,
   "id_merge": {
    "enabled": true,
    "unions_upc": 183,
@@ -347,8 +347,8 @@
   ],
   "ivan": {
    "total_listings": 205,
-   "qualified": 162,
-   "deduped": 121,
+   "qualified": 160,
+   "deduped": 119,
    "excluded": {
     "seller": 143,
     "ship unknown": 1,
@@ -357,7 +357,7 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 31,
-    "nic_jp_rows": 85,
+    "nic_jp_rows": 83,
     "skipped": {
      "bad_or_dup": 48
     }
@@ -52614,7 +52614,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 971,
+    "price_hkd": 974,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -52628,7 +52628,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 971,
+   "best_price": 974,
    "has_water": true,
    "has_official": false
   },
@@ -53757,6 +53757,57 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
+   "part_number": null,
+   "upc": "0889523046951",
+   "title": "GIGABYTE B860M GAMING X WIFI6E DDR5,LGA 1851 mATX Motherboard (GA-B860M GAMING X WIFI6E)",
+   "spec": "B860",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e9b3bd5b46c3e4bd.png",
+   "image": "img/hk-e9b3bd5b46c3e4bd.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GIGABYTE_B860M_GAMING_X_WIFI6E.png?v=1750858119",
+   "water": {
+    "price_hkd": 1155,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DQLJRPTX",
+    "url": "https://www.amazon.co.jp/dp/B0DQLJRPTX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 1400,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-b860m-gaming-x-wifi6e-ddr5-lga-1851-matx-motherboard",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1459,
+      "url": "https://shop.pegasus.hk/products/226371/GIGABYTE-技嘉-B860M-GAMING-X-WIFI-6E-MATX-主機板-DDR5---3年保養"
+     }
+    ]
+   },
+   "delta_hkd": 245,
+   "best_price": 1155,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:asrock:B850:mATX:b850m-pro-a-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -53793,57 +53844,6 @@
    "delta_hkd": null,
    "best_price": 1160,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
-   "part_number": null,
-   "upc": "0889523046951",
-   "title": "GIGABYTE B860M GAMING X WIFI6E DDR5,LGA 1851 mATX Motherboard (GA-B860M GAMING X WIFI6E)",
-   "spec": "B860",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e9b3bd5b46c3e4bd.png",
-   "image": "img/hk-e9b3bd5b46c3e4bd.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GIGABYTE_B860M_GAMING_X_WIFI6E.png?v=1750858119",
-   "water": {
-    "price_hkd": 1165,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DQLJRPTX",
-    "url": "https://www.amazon.co.jp/dp/B0DQLJRPTX",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 1400,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-b860m-gaming-x-wifi6e-ddr5-lga-1851-matx-motherboard",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1459,
-      "url": "https://shop.pegasus.hk/products/226371/GIGABYTE-技嘉-B860M-GAMING-X-WIFI-6E-MATX-主機板-DDR5---3年保養"
-     }
-    ]
-   },
-   "delta_hkd": 235,
-   "best_price": 1165,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -59334,43 +59334,6 @@
    "best_price": 2180,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:msi:Z890:?:mag-z890-tomahawk-wifi-ii:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:Z890:?:mag-z890-tomahawk-wifi-ii:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI MAG Z890 TOMAHAWK WIFI II ATXマザーボード MB7059",
-   "spec": "Z890",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2185,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0HH88PR3W",
-    "url": "https://www.amazon.co.jp/dp/B0HH88PR3W",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2185,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asrock:Z890:mATX:z890m-riptide-wifi:ddr5:wifi:",
@@ -79778,7 +79741,15 @@
     "note": "已含運費 + 2%",
     "match_by": "model key ram:corsair:vengeancergbpro:ddr4:dimm:32:3200:black:2x16:cl16",
     "source": "amazon",
-    "others": []
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "日本 Amazon",
+      "price_hkd": 2620,
+      "url": "https://www.amazon.co.jp/dp/B09QPFWQW7"
+     }
+    ]
    },
    "official": {
     "price_hkd": 2600,
@@ -80178,19 +80149,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b118da33c2294252.png",
    "image": "img/hk-b118da33c2294252.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f2cba9d3-6043-488e-27f9-3f082d14d200/public",
-   "water": {
-    "price_hkd": 3675,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09C5X1T7V",
-    "url": "https://www.amazon.co.jp/dp/B09C5X1T7V",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key ram:corsair:vengeancergbrs:ddr4:dimm:32:3200:black:2x16:cl16",
-    "source": "amazon",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 2499,
     "store": "飛馬 PEGASUS",
@@ -80212,9 +80171,9 @@
      }
     ]
    },
-   "delta_hkd": -1176,
+   "delta_hkd": null,
    "best_price": 2499,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -80293,46 +80252,6 @@
    "best_price": 2600,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancergbpro:ddr4:dimm:32:2666:black:2x16:cl16|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergbpro:ddr4:dimm:32:2666:black:2x16:cl16",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB PRO DDR4 メモリ 32GB（16GB×2）最大2666MHz対応 Intel XMP対応 CL16 デスクトップPC用 ブ…",
-   "spec": "DDR4 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR4"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2646,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B07GSKMJ6D",
-    "url": "https://www.amazon.co.jp/dp/B07GSKMJ6D",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2646,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:crucial:std:ddr4:dimm:32:3200:black:1x32:cl22",
