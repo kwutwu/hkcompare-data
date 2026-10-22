@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-22T02:01:40Z",
- "generated_at_hkt": "2026-10-22 10:01 HKT",
- "price_updated_hkt": "2026-10-22 10:01 HKT",
+ "generated_at": "2026-10-22T02:10:50Z",
+ "generated_at_hkt": "2026-10-22 10:10 HKT",
+ "price_updated_hkt": "2026-10-22 10:10 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-21 09:58–16:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261021/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 118,
+   "count": 120,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2499,
-  "both_sides": 46,
-  "water_only": 74,
-  "official_only": 2375,
-  "matched_water": 49,
-  "official_groups": 2499,
+  "items": 2501,
+  "both_sides": 47,
+  "water_only": 76,
+  "official_only": 2374,
+  "matched_water": 50,
+  "official_groups": 2501,
   "id_merge": {
    "enabled": true,
    "unions_upc": 183,
@@ -282,9 +282,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 18,
+   "amazon_cached": 21,
    "official_downloaded": 0,
-   "official_cached": 2207,
+   "official_cached": 2206,
    "failed": 0
   },
   "image_samples": [
@@ -347,12 +347,11 @@
   ],
   "ivan": {
    "total_listings": 204,
-   "qualified": 163,
-   "deduped": 123,
+   "qualified": 176,
+   "deduped": 126,
    "excluded": {
-    "seller": 130,
-    "ship unknown": 14,
-    "no ship": 11,
+    "seller": 132,
+    "no ship": 10,
     "not desktop GPU": 2
    },
    "amazon_exports": {
@@ -48688,6 +48687,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY RTX 5080 16GB Triple Fan DLSS 4",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H1MSZFW6.jpg",
+   "image": "img/B0H1MSZFW6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61qIACMZ3zL._AC_SL1200_.jpg",
+   "water": {
+    "price_hkd": 12066,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0H1MSZFW6",
+    "url": "https://www.amazon.co.uk/dp/B0H1MSZFW6",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12066,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5070ti:aorus+infinity",
    "category": "gpu",
    "cooler_kind": null,
@@ -48861,6 +48897,108 @@
    },
    "delta_hkd": 2044,
    "best_price": 12955,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5080:3x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus",
+   "part_number": "G5080-16V3C",
+   "upc": "0824142406380",
+   "title": "MSI NVIDIA GeForce RTX 5080 16G Ventus 3X OC Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT6NZ9V9.jpg",
+   "image": "img/B0DT6NZ9V9.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71PEi8EcUBL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 12968,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DT6NZ9V9",
+    "url": "https://www.amazon.co.uk/dp/B0DT6NZ9V9",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+oc+ventus",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14999,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/56737",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 14999,
+      "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡"
+     }
+    ]
+   },
+   "delta_hkd": 2031,
+   "best_price": 12968,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5080:gaming+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:gaming+oc",
+   "part_number": "GV-N5080GAMINGOC-16GD",
+   "upc": "0889523047521",
+   "title": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 (GV-N5080GAMING OC-16GD) - 3年保養",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
+   "image": "img/B0DSQ1RCZV.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 12973,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DSQ1RCZV",
+    "url": "https://www.amazon.co.uk/dp/B0DSQ1RCZV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:gaming+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15980,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7-gv-n5080gaming-oc-16gd",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 15999,
+      "url": "https://shop.pegasus.hk/products/223088/GIGABYTE-技嘉-GAMING-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養"
+     }
+    ]
+   },
+   "delta_hkd": 3007,
+   "best_price": 12973,
    "has_water": true,
    "has_official": true
   },
@@ -49048,57 +49186,6 @@
    "has_official": false
   },
   {
-   "id": "gpu|gigabyte:5080:gaming+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:gaming+oc",
-   "part_number": "GV-N5080GAMINGOC-16GD",
-   "upc": "0889523047521",
-   "title": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 (GV-N5080GAMING OC-16GD) - 3年保養",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
-   "image": "img/B0DSQ1RCZV.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13418,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DSQ1RCZV",
-    "url": "https://www.amazon.de/dp/B0DSQ1RCZV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:gaming+oc",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 15980,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7-gv-n5080gaming-oc-16gd",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 15999,
-      "url": "https://shop.pegasus.hk/products/223088/GIGABYTE-技嘉-GAMING-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養"
-     }
-    ]
-   },
-   "delta_hkd": 2562,
-   "best_price": 13418,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5080:prime|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -49168,6 +49255,87 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:dual+slim|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:dual+slim",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5080 16GB Slim Dual-Fan, 2-Slot Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GTQTWTY5.jpg",
+   "image": "img/B0GTQTWTY5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/518wUbBOhaL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 13522,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0GTQTWTY5",
+    "url": "https://www.amazon.co.uk/dp/B0GTQTWTY5",
+    "stock": "Only 2 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 13522,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|gigabyte:5080:aero+oc+sff",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:aero+oc+sff",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 AERO SFF GeForce RTX 5080 16G OC 顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ3B6PH.jpg",
+   "image": "img/B0DSQ3B6PH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13560,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DSQ3B6PH",
+    "url": "https://www.amazon.co.uk/dp/B0DSQ3B6PH",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:aero+oc+sff",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223087/GIGABYTE-技嘉-AERO-SFF-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 2439,
+   "best_price": 13560,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5080:evo+oc+prime|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -49203,57 +49371,6 @@
    "best_price": 13705,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|msi:5080:3x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus",
-   "part_number": "G5080-16V3C",
-   "upc": "0824142406380",
-   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
-   "image": "img/B0GZWW2RKH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13791,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0GZWW2RKH",
-    "url": "https://www.amazon.de/dp/B0GZWW2RKH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14999,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/56737",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 14999,
-      "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡"
-     }
-    ]
-   },
-   "delta_hkd": 1208,
-   "best_price": 13791,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5080:aorus+ice+master",
@@ -49296,6 +49413,57 @@
    },
    "delta_hkd": 3188,
    "best_price": 13811,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5080:oc+tuf",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5080:oc+tuf",
+   "part_number": "TUF-RTX5080-O16G-GAMING",
+   "upc": "0197105856677",
+   "title": "ASUS TUF Gaming GeForce RTX 5080 OC Edition 16GB GDDR7 Gaming Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65KD1C.jpg",
+   "image": "img/B0DS65KD1C.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13954,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DS65KD1C",
+    "url": "https://www.amazon.co.uk/dp/B0DS65KD1C",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:oc+tuf",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 16599,
+      "url": "https://secomputer.com.hk/products/56194"
+     }
+    ]
+   },
+   "delta_hkd": 2045,
+   "best_price": 13954,
    "has_water": true,
    "has_official": true
   },
@@ -49438,43 +49606,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:gaming+suprim|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming+suprim",
-   "part_number": null,
-   "upc": null,
-   "title": "msi Gaming RTX 5080 16G SUPRIM SOC Graphics Card (16GB GDDR7, 256",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSXJ5QF4.jpg",
-   "image": "img/B0DSXJ5QF4.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71hVE3eq1bL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14407,
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0DSXJ5QF4",
-    "url": "https://www.amazon.com/dp/B0DSXJ5QF4",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 14407,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gainward:5080:phoenix",
    "category": "gpu",
    "cooler_kind": null,
@@ -49603,6 +49734,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:gaming trio+oc+white|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:gaming trio+oc+white",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5080 16G GAMING TRIO OC WHITE Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DQGB8FTQ.jpg",
+   "image": "img/B0DQGB8FTQ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71MTgvMq55L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 15077,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DQGB8FTQ",
+    "url": "https://www.amazon.co.uk/dp/B0DQGB8FTQ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 15077,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5080:3x+oc+ventus+white",
    "category": "gpu",
    "cooler_kind": null,
@@ -49639,50 +49807,6 @@
    "delta_hkd": null,
    "best_price": 15199,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:aero+oc+sff",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aero+oc+sff",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 AERO SFF GeForce RTX 5080 16G OC 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ3B6PH.jpg",
-   "image": "img/B0DSQ3B6PH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15244,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DSQ3B6PH",
-    "url": "https://www.amazon.it/dp/B0DSQ3B6PH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:aero+oc+sff",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 15999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223087/GIGABYTE-技嘉-AERO-SFF-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 755,
-   "best_price": 15244,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -49975,45 +50099,6 @@
    },
    "delta_hkd": null,
    "best_price": 15980,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:oc+tuf",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:oc+tuf",
-   "part_number": "TUF-RTX5080-O16G-GAMING",
-   "upc": "0197105856677",
-   "title": "ASUS華碩 TUF RTX5080 OC 16GB GDDR7 (TUF-RTX5080-O16G-GAMING)",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3252f907ad5815d4.jpg",
-   "image": "img/hk-3252f907ad5815d4.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/0d02c47b-92c9-4827-d4d5-c0e2e674aa00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 15999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 16599,
-      "url": "https://secomputer.com.hk/products/56194"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 15999,
    "has_water": false,
    "has_official": true
   },
