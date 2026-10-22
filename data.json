@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-22T10:27:13Z",
- "generated_at_hkt": "2026-10-22 18:27 HKT",
- "price_updated_hkt": "2026-10-22 18:27 HKT",
+ "generated_at": "2026-10-22T10:36:13Z",
+ "generated_at_hkt": "2026-10-22 18:36 HKT",
+ "price_updated_hkt": "2026-10-22 18:36 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-21 09:58–16:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261021/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 117,
+   "count": 116,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2499,
+  "items": 2498,
   "both_sides": 44,
-  "water_only": 74,
+  "water_only": 73,
   "official_only": 2377,
   "matched_water": 48,
-  "official_groups": 2499,
+  "official_groups": 2498,
   "id_merge": {
    "enabled": true,
    "unions_upc": 183,
@@ -282,7 +282,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 15,
+   "amazon_cached": 14,
    "official_downloaded": 0,
    "official_cached": 2209,
    "failed": 0
@@ -347,18 +347,19 @@
   ],
   "ivan": {
    "total_listings": 205,
-   "qualified": 163,
-   "deduped": 122,
+   "qualified": 162,
+   "deduped": 121,
    "excluded": {
-    "seller": 142,
+    "seller": 143,
+    "ship unknown": 1,
     "no ship": 13,
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 30,
+    "ivan_gpu_rows": 31,
     "nic_jp_rows": 85,
     "skipped": {
-     "bad_or_dup": 49
+     "bad_or_dup": 48
     }
    }
   }
@@ -49030,7 +49031,7 @@
     "domain": "amazon.es",
     "asin": "B0FD3XZ8P1",
     "url": "https://www.amazon.es/dp/B0FD3XZ8P1",
-    "stock": "Only 3 left in stock.",
+    "stock": "Only 1 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "source": "amazon",
@@ -49286,43 +49287,6 @@
    "best_price": 13985,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB OC Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJFZ4YS.jpg",
-   "image": "img/B0DTJFZ4YS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 14158,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTJFZ4YS",
-    "url": "https://www.amazon.es/dp/B0DTJFZ4YS",
-    "stock": "Available to ship in 1-2 days",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 14158,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|inno3d:5080:3x",
