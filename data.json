@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-22T13:35:17Z",
- "generated_at_hkt": "2026-10-22 21:35 HKT",
- "price_updated_hkt": "2026-10-22 21:35 HKT",
+ "generated_at": "2026-10-22T13:53:13Z",
+ "generated_at_hkt": "2026-10-22 21:53 HKT",
+ "price_updated_hkt": "2026-10-22 21:53 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-22 09:56–21:32 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261022/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 115,
+   "count": 114,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2359,
+  "items": 2358,
   "both_sides": 45,
-  "water_only": 73,
+  "water_only": 72,
   "official_only": 2237,
   "matched_water": 50,
-  "official_groups": 2359,
+  "official_groups": 2358,
   "id_merge": {
    "enabled": true,
    "unions_upc": 163,
@@ -286,8 +286,8 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 16,
-   "official_downloaded": 39,
-   "official_cached": 2030,
+   "official_downloaded": 0,
+   "official_cached": 2069,
    "failed": 1
   },
   "image_samples": [
@@ -350,8 +350,8 @@
   ],
   "ivan": {
    "total_listings": 206,
-   "qualified": 161,
-   "deduped": 123,
+   "qualified": 160,
+   "deduped": 122,
    "excluded": {
     "seller": 141,
     "used": 1,
@@ -359,7 +359,7 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 32,
+    "ivan_gpu_rows": 31,
     "nic_jp_rows": 83,
     "skipped": {
      "bad_or_dup": 49
@@ -44862,43 +44862,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070ti:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070ti:oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 9517,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DXL7GSYC",
-    "url": "https://www.amazon.co.uk/dp/B0DXL7GSYC",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 9517,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5070ti:3x+oc+shadow",
    "category": "gpu",
    "cooler_kind": null,
@@ -45829,7 +45792,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 11910,
+    "price_hkd": 11955,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -45843,7 +45806,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11910,
+   "best_price": 11955,
    "has_water": true,
    "has_official": false
   },
