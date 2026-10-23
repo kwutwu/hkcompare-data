@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-23T03:36:06Z",
- "generated_at_hkt": "2026-10-23 11:36 HKT",
- "price_updated_hkt": "2026-10-23 11:36 HKT",
+ "generated_at": "2026-10-23T03:55:34Z",
+ "generated_at_hkt": "2026-10-23 11:55 HKT",
+ "price_updated_hkt": "2026-10-23 11:55 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-22 09:56–21:32 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261022/hkcompare_rows.json",
@@ -361,7 +361,7 @@
     "ivan_gpu_rows": 28,
     "nic_jp_rows": 83,
     "skipped": {
-     "bad_or_dup": 43
+     "bad_or_dup": 44
     }
    }
   }
@@ -43226,7 +43226,7 @@
    "image": "img/hk-0267beecf48f040a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
    "water": {
-    "price_hkd": 6472,
+    "price_hkd": 6411,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -43259,8 +43259,8 @@
      }
     ]
    },
-   "delta_hkd": 1227,
-   "best_price": 6472,
+   "delta_hkd": 1288,
+   "best_price": 6411,
    "has_water": true,
    "has_official": true
   },
@@ -44651,7 +44651,7 @@
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
    "water": {
-    "price_hkd": 8572,
+    "price_hkd": 8676,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -44696,7 +44696,7 @@
      }
     ]
    },
-   "delta_hkd": -172,
+   "delta_hkd": -276,
    "best_price": 8400,
    "has_water": true,
    "has_official": true
@@ -44777,6 +44777,43 @@
    "best_price": 9100,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:oc+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9505,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DXL7GSYC",
+    "url": "https://www.amazon.co.uk/dp/B0DXL7GSYC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9505,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|msi:5070ti:3x+oc+shadow",
@@ -45102,7 +45139,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 10606,
+    "price_hkd": 10564,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -45116,7 +45153,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 10606,
+   "best_price": 10564,
    "has_water": true,
    "has_official": false
   },
@@ -45689,43 +45726,6 @@
    "best_price": 11800,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070ti:tuf|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070ti:tuf",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 Gaming Graphics Card (PCIe 5.0, HDMI/DP …",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 11901,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DVH1Y9VN",
-    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11901,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070ti:aorus+master",
