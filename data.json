@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-23T01:07:14Z",
- "generated_at_hkt": "2026-10-23 09:07 HKT",
- "price_updated_hkt": "2026-10-23 09:07 HKT",
+ "generated_at": "2026-10-23T01:10:34Z",
+ "generated_at_hkt": "2026-10-23 09:10 HKT",
+ "price_updated_hkt": "2026-10-23 09:10 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-22 09:56–21:32 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261022/hkcompare_rows.json",
@@ -45849,7 +45849,7 @@
    "image": "img/B0DT9Y2B49.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12926,
+    "price_hkd": 12921,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -45869,8 +45869,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 2573,
-   "best_price": 12926,
+   "delta_hkd": 2578,
+   "best_price": 12921,
    "has_water": true,
    "has_official": true
   },
@@ -45893,7 +45893,7 @@
    "image": "img/B0DT6NZ9V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71PEi8EcUBL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 12996,
+    "price_hkd": 12980,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -45913,8 +45913,52 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 2003,
-   "best_price": 12996,
+   "delta_hkd": 2019,
+   "best_price": 12980,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5080:aero+oc+sff",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:aero+oc+sff",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 AERO SFF GeForce RTX 5080 16G OC 顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ3B6PH.jpg",
+   "image": "img/B0DSQ3B6PH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13192,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DSQ3B6PH",
+    "url": "https://www.amazon.es/dp/B0DSQ3B6PH",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:aero+oc+sff",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 16999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223087/GIGABYTE-技嘉-AERO-SFF-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 3807,
+   "best_price": 13192,
    "has_water": true,
    "has_official": true
   },
@@ -45964,50 +46008,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5080:aero+oc+sff",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aero+oc+sff",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 AERO SFF GeForce RTX 5080 16G OC 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ3B6PH.jpg",
-   "image": "img/B0DSQ3B6PH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13227,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DSQ3B6PH",
-    "url": "https://www.amazon.es/dp/B0DSQ3B6PH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:aero+oc+sff",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 16999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223087/GIGABYTE-技嘉-AERO-SFF-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 3772,
-   "best_price": 13227,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5080:3x+inspire+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -46026,7 +46026,7 @@
    "image": "img/B0GWRN4Q36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13273,
+    "price_hkd": 13238,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -46046,8 +46046,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 1726,
-   "best_price": 13273,
+   "delta_hkd": 1761,
+   "best_price": 13238,
    "has_water": true,
    "has_official": true
   },
@@ -46070,7 +46070,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13434,
+    "price_hkd": 13417,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -46097,8 +46097,8 @@
      }
     ]
    },
-   "delta_hkd": 2965,
-   "best_price": 13434,
+   "delta_hkd": 2982,
+   "best_price": 13417,
    "has_water": true,
    "has_official": true
   },
@@ -46185,7 +46185,7 @@
    "image": "img/B09BD59F4T.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/814lQWaeAzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13705,
+    "price_hkd": 13668,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -46199,7 +46199,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 13705,
+   "best_price": 13668,
    "has_water": true,
    "has_official": false
   },
@@ -46222,7 +46222,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13811,
+    "price_hkd": 13774,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -46242,8 +46242,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 4188,
-   "best_price": 13811,
+   "delta_hkd": 4225,
+   "best_price": 13774,
    "has_water": true,
    "has_official": true
   },
@@ -46266,7 +46266,7 @@
    "image": "img/B0DS65KD1C.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13985,
+    "price_hkd": 13967,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -46286,8 +46286,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 2014,
-   "best_price": 13985,
+   "delta_hkd": 2032,
+   "best_price": 13967,
    "has_water": true,
    "has_official": true
   },
@@ -46310,7 +46310,7 @@
    "image": "img/B09CL8ZFJ5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81tgFzasCHL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14108,
+    "price_hkd": 14090,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -46337,47 +46337,10 @@
      }
     ]
    },
-   "delta_hkd": 2391,
-   "best_price": 14108,
+   "delta_hkd": 2409,
+   "best_price": 14090,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:gaming|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:gaming",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte GeForce RTX 5080 GAMING 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FD3XZ8P1.jpg",
-   "image": "img/B0FD3XZ8P1.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/7192KlMK8gL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14362,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0FD3XZ8P1",
-    "url": "https://www.amazon.co.uk/dp/B0FD3XZ8P1",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 14362,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5080:aorus+waterforce+xtreme|water",
@@ -46398,7 +46361,7 @@
    "image": "img/B0DT9VM5DC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81koP+J468L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14377,
+    "price_hkd": 14339,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -46412,7 +46375,44 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14377,
+   "best_price": 14339,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|gigabyte:5080:gaming|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:gaming",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte GeForce RTX 5080 GAMING 16G Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FD3XZ8P1.jpg",
+   "image": "img/B0FD3XZ8P1.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/7192KlMK8gL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14343,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0FD3XZ8P1",
+    "url": "https://www.amazon.co.uk/dp/B0FD3XZ8P1",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 14343,
    "has_water": true,
    "has_official": false
   },
@@ -46666,7 +46666,7 @@
    "image": "img/B0DQGB8FTQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71MTgvMq55L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15111,
+    "price_hkd": 15091,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -46680,7 +46680,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15111,
+   "best_price": 15091,
    "has_water": true,
    "has_official": false
   },
@@ -46703,7 +46703,7 @@
    "image": "img/B0DSXNXTSS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15284,
+    "price_hkd": 15243,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -46717,7 +46717,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15284,
+   "best_price": 15243,
    "has_water": true,
    "has_official": false
   },
@@ -46772,7 +46772,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 15461,
+    "price_hkd": 15420,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -46786,7 +46786,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15461,
+   "best_price": 15420,
    "has_water": true,
    "has_official": false
   },
@@ -46854,7 +46854,7 @@
    "image": "img/B0DS643QRW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Wcw8qLt3L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15590,
+    "price_hkd": 15548,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -46881,8 +46881,8 @@
      }
     ]
    },
-   "delta_hkd": 2909,
-   "best_price": 15590,
+   "delta_hkd": 2951,
+   "best_price": 15548,
    "has_water": true,
    "has_official": true
   },
