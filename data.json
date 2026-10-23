@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-23T03:07:47Z",
- "generated_at_hkt": "2026-10-23 11:07 HKT",
- "price_updated_hkt": "2026-10-23 11:07 HKT",
+ "generated_at": "2026-10-23T03:36:06Z",
+ "generated_at_hkt": "2026-10-23 11:36 HKT",
+ "price_updated_hkt": "2026-10-23 11:36 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-22 09:56–21:32 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261022/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 110,
+   "count": 109,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2353,
+  "items": 2352,
   "both_sides": 48,
-  "water_only": 67,
+  "water_only": 66,
   "official_only": 2234,
   "matched_water": 52,
-  "official_groups": 2353,
+  "official_groups": 2352,
   "id_merge": {
    "enabled": true,
    "unions_upc": 163,
@@ -285,7 +285,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 15,
+   "amazon_cached": 14,
    "official_downloaded": 0,
    "official_cached": 2068,
    "failed": 1
@@ -350,10 +350,10 @@
   ],
   "ivan": {
    "total_listings": 208,
-   "qualified": 155,
-   "deduped": 119,
+   "qualified": 154,
+   "deduped": 118,
    "excluded": {
-    "seller": 150,
+    "seller": 151,
     "no ship": 12,
     "not desktop GPU": 2
    },
@@ -45758,43 +45758,6 @@
    "best_price": 11980,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:argb+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
-   "image": "img/B0DZCVQGG6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
-   "water": {
-    "price_hkd": 12322,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DZCVQGG6",
-    "url": "https://www.amazon.co.uk/dp/B0DZCVQGG6",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 12322,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070ti:gaming trio+oc+white",
