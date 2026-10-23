@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-23T14:03:45Z",
- "generated_at_hkt": "2026-10-23 22:03 HKT",
- "price_updated_hkt": "2026-10-23 22:03 HKT",
+ "generated_at": "2026-10-23T14:17:44Z",
+ "generated_at_hkt": "2026-10-23 22:17 HKT",
+ "price_updated_hkt": "2026-10-23 22:17 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-22 09:56–21:32 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261022/hkcompare_rows.json",
@@ -362,7 +362,7 @@
     "ivan_gpu_rows": 27,
     "nic_jp_rows": 80,
     "skipped": {
-     "bad_or_dup": 43
+     "bad_or_dup": 40
     }
    }
   }
@@ -43530,43 +43530,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:eagle+ice+oc+sff|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:eagle+ice+oc+sff",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte GeForce RTX 5070 EAGLE OC ICE SFF 12G Graphics Card - 12GB GDDR7, 192 Bit, PCI…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 6893,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DTGM4QSD",
-    "url": "https://www.amazon.it/dp/B0DTGM4QSD",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 6893,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|inno3d:5070:2x",
    "category": "gpu",
    "cooler_kind": null,
@@ -43853,7 +43816,7 @@
    "image": "img/hk-01b98c76e7efdd58.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/52e3ea73-c43b-4b25-9b16-ebd3b0fac400/public",
    "water": {
-    "price_hkd": 7117,
+    "price_hkd": 7120,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -43880,8 +43843,8 @@
      }
     ]
    },
-   "delta_hkd": 1082,
-   "best_price": 7117,
+   "delta_hkd": 1079,
+   "best_price": 7120,
    "has_water": true,
    "has_official": true
   },
@@ -44198,6 +44161,43 @@
    "best_price": 7360,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070:eagle+ice+oc+sff|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:eagle+ice+oc+sff",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5070 Eagle OC Ice SFF 12G Graphics Card - 12GB GDDR7, 192 Bits, PC…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7441,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DTGM4QSD",
+    "url": "https://www.amazon.fr/dp/B0DTGM4QSD",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7441,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|colorful:5070:ultra+white",
@@ -44761,7 +44761,7 @@
    "image": "img/hk-2306810aa7e8608c.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d1e96ffa-72f2-429d-2aa4-84c990824c00/public",
    "water": {
-    "price_hkd": 9825,
+    "price_hkd": 9797,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -44788,8 +44788,8 @@
      }
     ]
    },
-   "delta_hkd": 1574,
-   "best_price": 9825,
+   "delta_hkd": 1602,
+   "best_price": 9797,
    "has_water": true,
    "has_official": true
   },
@@ -45030,43 +45030,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 10606,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|gigabyte:5070ti:gaming+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:gaming+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte GeForce RTX 5070 Ti GAMING OC 16G Graphics Card - 16GB GDDR7, 256 Bit, PCI-E 5…",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 10646,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DTGPC5KR",
-    "url": "https://www.amazon.it/dp/B0DTGPC5KR",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 10646,
    "has_water": true,
    "has_official": false
   },
@@ -45754,6 +45717,43 @@
    "best_price": 12399,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070ti:gaming+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:gaming+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5070 Ti Gaming OC 16G Graphics Card - 16GB GDDR7, 256-bit, PCI-E 5…",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 12714,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DTGPC5KR",
+    "url": "https://www.amazon.es/dp/B0DTGPC5KR",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 12714,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|asus:5070ti:oc+tuf",
