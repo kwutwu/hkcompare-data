@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-23T06:06:44Z",
- "generated_at_hkt": "2026-10-23 14:06 HKT",
- "price_updated_hkt": "2026-10-23 14:06 HKT",
+ "generated_at": "2026-10-23T06:14:07Z",
+ "generated_at_hkt": "2026-10-23 14:14 HKT",
+ "price_updated_hkt": "2026-10-23 14:14 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-22 09:56–21:32 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261022/hkcompare_rows.json",
@@ -350,10 +350,10 @@
   ],
   "ivan": {
    "total_listings": 209,
-   "qualified": 153,
+   "qualified": 152,
    "deduped": 117,
    "excluded": {
-    "seller": 150,
+    "seller": 151,
     "no ship": 12,
     "not desktop GPU": 2
    },
@@ -45831,50 +45831,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5080:oc+tuf",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:oc+tuf",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS TUF Gaming GeForce RTX 5080 OC Edition 16GB GDDR7 Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65KD1C.jpg",
-   "image": "img/B0DS65KD1C.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 12843,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DS65KD1C",
-    "url": "https://www.amazon.es/dp/B0DS65KD1C",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:oc+tuf",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 15999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
-    "stock": "現貨",
-    "others": []
-   },
-   "delta_hkd": 3156,
-   "best_price": 12843,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5080:oc+sff+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -46235,7 +46191,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13610,
+    "price_hkd": 13591,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -46262,8 +46218,8 @@
      }
     ]
    },
-   "delta_hkd": 2789,
-   "best_price": 13610,
+   "delta_hkd": 2808,
+   "best_price": 13591,
    "has_water": true,
    "has_official": true
   },
@@ -46345,6 +46301,50 @@
    },
    "delta_hkd": 4225,
    "best_price": 13774,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5080:oc+tuf",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5080:oc+tuf",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS TUF Gaming GeForce RTX 5080 OC Edition 16GB GDDR7 Gaming Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65KD1C.jpg",
+   "image": "img/B0DS65KD1C.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13948,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DS65KD1C",
+    "url": "https://www.amazon.co.uk/dp/B0DS65KD1C",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:oc+tuf",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 2051,
+   "best_price": 13948,
    "has_water": true,
    "has_official": true
   },
