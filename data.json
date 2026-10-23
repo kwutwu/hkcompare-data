@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-23T21:55:18Z",
- "generated_at_hkt": "2026-10-24 05:55 HKT",
- "price_updated_hkt": "2026-10-24 05:55 HKT",
+ "generated_at": "2026-10-23T22:09:13Z",
+ "generated_at_hkt": "2026-10-24 06:09 HKT",
+ "price_updated_hkt": "2026-10-24 06:09 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-23 09:57 – 2026-10-24 02:25 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261023/hkcompare_rows.json",
@@ -47706,57 +47706,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5080:gaming+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:gaming+oc",
-   "part_number": "GV-N5080GAMINGOC-16GD",
-   "upc": "0889523047521",
-   "title": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 (GV-N5080GAMING OC-16GD) - 3年保養",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
-   "image": "img/B0DSQ1RCZV.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14314,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DSQ1RCZV",
-    "url": "https://www.amazon.es/dp/B0DSQ1RCZV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:gaming+oc",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 16399,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223088/GIGABYTE-技嘉-GAMING-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 16999,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7-gv-n5080gaming-oc-16gd"
-     }
-    ]
-   },
-   "delta_hkd": 2085,
-   "best_price": 14314,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5080:gaming|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -47829,6 +47778,57 @@
    "best_price": 14339,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|gigabyte:5080:gaming+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:gaming+oc",
+   "part_number": "GV-N5080GAMINGOC-16GD",
+   "upc": "0889523047521",
+   "title": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 (GV-N5080GAMING OC-16GD) - 3年保養",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
+   "image": "img/B0DSQ1RCZV.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14340,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DSQ1RCZV",
+    "url": "https://www.amazon.es/dp/B0DSQ1RCZV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:gaming+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 16399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223088/GIGABYTE-技嘉-GAMING-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 16999,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7-gv-n5080gaming-oc-16gd"
+     }
+    ]
+   },
+   "delta_hkd": 2059,
+   "best_price": 14340,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|gainward:5080:phoenix",
