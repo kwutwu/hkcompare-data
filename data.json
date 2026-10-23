@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-23T15:04:53Z",
- "generated_at_hkt": "2026-10-23 23:04 HKT",
- "price_updated_hkt": "2026-10-23 23:04 HKT",
+ "generated_at": "2026-10-23T15:14:30Z",
+ "generated_at_hkt": "2026-10-23 23:14 HKT",
+ "price_updated_hkt": "2026-10-23 23:14 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-22 09:56–21:32 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261022/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2353,
-  "both_sides": 43,
+  "both_sides": 44,
   "water_only": 67,
-  "official_only": 2239,
-  "matched_water": 47,
+  "official_only": 2238,
+  "matched_water": 48,
   "official_groups": 2353,
   "id_merge": {
    "enabled": true,
@@ -285,9 +285,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 15,
+   "amazon_cached": 16,
    "official_downloaded": 0,
-   "official_cached": 2067,
+   "official_cached": 2066,
    "failed": 1
   },
   "image_samples": [
@@ -350,10 +350,10 @@
   ],
   "ivan": {
    "total_listings": 209,
-   "qualified": 148,
-   "deduped": 114,
+   "qualified": 147,
+   "deduped": 115,
    "excluded": {
-    "seller": 156,
+    "seller": 157,
     "no ship": 12,
     "used": 1,
     "not desktop GPU": 2
@@ -46002,6 +46002,63 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5080:oc+prime",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5080:oc+prime",
+   "part_number": "PRIME-RTX5080-O16G-GAMING",
+   "upc": "0197105837782",
+   "title": "ASUS PRIME RTX5080 OC 16GB GDDR7 NVIDIA GeForce Graphics Card, Black",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65VMC6.jpg",
+   "image": "img/B0DS65VMC6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/814lQWaeAzL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13430,
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0DS65VMC6",
+    "url": "https://www.amazon.it/dp/B0DS65VMC6",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:oc+prime",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15499,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223027/ASUS-華碩-Prime-GeForce-RTX-5080-16G-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 16299,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5080-oc-16gb-gddr7-prime-rtx5080-o16g-gaming-di-e5080r1"
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 18000,
+      "url": "https://buymore.hk/shop/goods.php?id=43465"
+     }
+    ]
+   },
+   "delta_hkd": 2069,
+   "best_price": 13430,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5080:3x+inspire+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -46134,7 +46191,7 @@
     "domain": "amazon.es",
     "asin": "B0DT9Y2B49",
     "url": "https://www.amazon.es/dp/B0DT9Y2B49",
-    "stock": "Only 2 left in stock.",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "source": "amazon",
@@ -46209,13 +46266,13 @@
    "image": "img/B0DS65KD1C.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13904,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
+    "price_hkd": 13948,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
     "asin": "B0DS65KD1C",
-    "url": "https://www.amazon.fr/dp/B0DS65KD1C",
-    "stock": "Only 1 left in stock.",
+    "url": "https://www.amazon.co.uk/dp/B0DS65KD1C",
+    "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:oc+tuf",
     "source": "amazon",
@@ -46229,8 +46286,8 @@
     "stock": "現貨",
     "others": []
    },
-   "delta_hkd": 2095,
-   "best_price": 13904,
+   "delta_hkd": 2051,
+   "best_price": 13948,
    "has_water": true,
    "has_official": true
   },
@@ -46788,51 +46845,6 @@
    },
    "delta_hkd": null,
    "best_price": 15299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:oc+prime",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:oc+prime",
-   "part_number": "PRIME-RTX5080-O16G-GAMING",
-   "upc": "0197105837782",
-   "title": "ASUS PRIME GeForce RTX 5080 OC 16GB GDDR7 PRIME-RTX5080-O16G-GAMING (DI-E5080R1) - 3年保養",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a458dca864875116.jpg",
-   "image": "img/hk-a458dca864875116.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3d669a3e-3e5e-4523-8967-d3802db5f600/public",
-   "water": null,
-   "official": {
-    "price_hkd": 15499,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223027/ASUS-華碩-Prime-GeForce-RTX-5080-16G-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 16299,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5080-oc-16gb-gddr7-prime-rtx5080-o16g-gaming-di-e5080r1"
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 18000,
-      "url": "https://buymore.hk/shop/goods.php?id=43465"
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 15499,
    "has_water": false,
    "has_official": true
   },
