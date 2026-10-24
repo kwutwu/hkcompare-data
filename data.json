@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-24T03:06:33Z",
- "generated_at_hkt": "2026-10-24 11:06 HKT",
- "price_updated_hkt": "2026-10-24 11:06 HKT",
+ "generated_at": "2026-10-24T03:41:37Z",
+ "generated_at_hkt": "2026-10-24 11:41 HKT",
+ "price_updated_hkt": "2026-10-24 11:41 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-23 09:57 – 2026-10-24 02:25 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261023/hkcompare_rows.json",
@@ -357,8 +357,9 @@
    "deduped": 118,
    "excluded": {
     "seller": 161,
-    "no ship": 12,
+    "no ship": 11,
     "used": 1,
+    "ship unknown": 1,
     "not desktop GPU": 2
    },
    "amazon_exports": {
