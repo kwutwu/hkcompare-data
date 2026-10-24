@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-24T15:54:42Z",
- "generated_at_hkt": "2026-10-24 23:54 HKT",
- "price_updated_hkt": "2026-10-24 23:54 HKT",
+ "generated_at": "2026-10-24T16:14:23Z",
+ "generated_at_hkt": "2026-10-25 00:14 HKT",
+ "price_updated_hkt": "2026-10-25 00:14 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-24 09:52–12:11 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261024/hkcompare_rows.json",
@@ -384,10 +384,10 @@
   ],
   "ivan": {
    "total_listings": 210,
-   "qualified": 147,
+   "qualified": 148,
    "deduped": 119,
    "excluded": {
-    "seller": 158,
+    "seller": 157,
     "no ship": 13,
     "not desktop GPU": 2
    },
@@ -52772,7 +52772,7 @@
    "image": "img/B0FFKWFMYM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81GLS28VqWL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7360,
+    "price_hkd": 7359,
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
     "domain": "amazon.com",
@@ -52801,8 +52801,8 @@
      }
     ]
    },
-   "delta_hkd": 740,
-   "best_price": 7360,
+   "delta_hkd": 741,
+   "best_price": 7359,
    "has_water": true,
    "has_official": true
   },
@@ -55176,6 +55176,59 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:gaming+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:gaming+oc",
+   "part_number": "GV-N5080GAMINGOC-16GD",
+   "upc": "0889523047521",
+   "title": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 (GV-N5080GAMING OC-16GD) - 3年保養",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
+   "image": "img/B0DSQ1RCZV.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13670,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DSQ1RCZV",
+    "url": "https://www.amazon.co.uk/dp/B0DSQ1RCZV",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:gaming+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10887/gigabyte-rtx-5080-gaming-oc-16gb-graphics-card",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 16999,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7-gv-n5080gaming-oc-16gd",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 2329,
+   "best_price": 13670,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5080:oc+tuf",
    "category": "gpu",
    "cooler_kind": null,
@@ -55450,59 +55503,6 @@
    "best_price": 14328,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|gigabyte:5080:gaming+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:gaming+oc",
-   "part_number": "GV-N5080GAMINGOC-16GD",
-   "upc": "0889523047521",
-   "title": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 (GV-N5080GAMING OC-16GD) - 3年保養",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
-   "image": "img/B0DSQ1RCZV.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14358,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DSQ1RCZV",
-    "url": "https://www.amazon.de/dp/B0DSQ1RCZV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:gaming+oc",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 15999,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/10887/gigabyte-rtx-5080-gaming-oc-16gb-graphics-card",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 16999,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7-gv-n5080gaming-oc-16gd",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 1641,
-   "best_price": 14358,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "gpu|gainward:5080:phoenix",
