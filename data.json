@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-24T04:00:19Z",
- "generated_at_hkt": "2026-10-24 12:00 HKT",
- "price_updated_hkt": "2026-10-24 12:00 HKT",
+ "generated_at": "2026-10-24T04:11:48Z",
+ "generated_at_hkt": "2026-10-24 12:11 HKT",
+ "price_updated_hkt": "2026-10-24 12:11 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-23 09:57 – 2026-10-24 02:25 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261023/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2424,
-  "both_sides": 49,
+  "both_sides": 50,
   "water_only": 66,
-  "official_only": 2307,
-  "matched_water": 53,
+  "official_only": 2306,
+  "matched_water": 54,
   "official_groups": 2424,
   "id_merge": {
    "enabled": true,
@@ -288,9 +288,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 14,
+   "amazon_cached": 15,
    "official_downloaded": 0,
-   "official_cached": 2136,
+   "official_cached": 2135,
    "failed": 0
   },
   "image_samples": [
@@ -353,13 +353,12 @@
   ],
   "ivan": {
    "total_listings": 210,
-   "qualified": 146,
-   "deduped": 119,
+   "qualified": 147,
+   "deduped": 120,
    "excluded": {
-    "seller": 161,
-    "no ship": 11,
+    "seller": 160,
+    "no ship": 12,
     "used": 1,
-    "ship unknown": 1,
     "not desktop GPU": 2
    },
    "amazon_exports": {
@@ -47857,6 +47856,50 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:gaming trio+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:gaming trio+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5080 16G Gaming Trio OC - Gaming Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BX6LGM2X.jpg",
+   "image": "img/B0BX6LGM2X.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14722,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0BX6LGM2X",
+    "url": "https://www.amazon.co.uk/dp/B0BX6LGM2X",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:gaming trio+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223070/MSI-微星-GeForce-RTX-5080-16G-GAMING-TRIO-OC-顯示卡",
+    "stock": "現貨",
+    "others": []
+   },
+   "delta_hkd": 1277,
+   "best_price": 14722,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|gainward:5080:phoenix",
    "category": "gpu",
    "cooler_kind": null,
@@ -48301,38 +48344,6 @@
       "url": "https://buymore.hk/shop/goods.php?id=43465"
      }
     ]
-   },
-   "delta_hkd": null,
-   "best_price": 15999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5080:gaming trio+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming trio+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI 微星 GeForce RTX 5080 16G GAMING TRIO OC 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ba589528dd4e395f.png",
-   "image": "img/hk-ba589528dd4e395f.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b119e446-e34a-46b0-611e-31bdbdc83800/public",
-   "water": null,
-   "official": {
-    "price_hkd": 15999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223070/MSI-微星-GeForce-RTX-5080-16G-GAMING-TRIO-OC-顯示卡",
-    "stock": "現貨",
-    "others": []
    },
    "delta_hkd": null,
    "best_price": 15999,
