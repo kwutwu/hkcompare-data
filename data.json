@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-25T22:48:49Z",
- "generated_at_hkt": "2026-10-26 06:48 HKT",
- "price_updated_hkt": "2026-10-26 06:48 HKT",
+ "generated_at": "2026-10-25T23:07:12Z",
+ "generated_at_hkt": "2026-10-26 07:07 HKT",
+ "price_updated_hkt": "2026-10-26 07:07 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-25 09:57–10:47 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261025/hkcompare_rows.json",
@@ -323,8 +323,8 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 9,
-   "official_downloaded": 2,
-   "official_cached": 2356,
+   "official_downloaded": 0,
+   "official_cached": 2358,
    "failed": 4
   },
   "image_samples": [
@@ -52727,7 +52727,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7865,
+    "price_hkd": 7863,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -52741,7 +52741,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7865,
+   "best_price": 7863,
    "has_water": true,
    "has_official": false
   },
@@ -53467,7 +53467,7 @@
    "image": "img/hk-2306810aa7e8608c.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d1e96ffa-72f2-429d-2aa4-84c990824c00/public",
    "water": {
-    "price_hkd": 10249,
+    "price_hkd": 10246,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -53496,8 +53496,8 @@
      }
     ]
    },
-   "delta_hkd": 1150,
-   "best_price": 10249,
+   "delta_hkd": 1153,
+   "best_price": 10246,
    "has_water": true,
    "has_official": true
   },
@@ -53715,43 +53715,6 @@
    "best_price": 10650,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070:aorus+infinity|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:aorus+infinity",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte AORUS GeForce RTX 5070 INFINITY 12G Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 10879,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0H85W4QXV",
-    "url": "https://www.amazon.it/dp/B0H85W4QXV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 10879,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|gainward:5070ti:phoenix",
@@ -54164,6 +54127,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070ti:tuf|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070ti:tuf",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 Gaming Graphics Card (PCIe 5.0, HDMI/DP …",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 11876,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DVH1Y9VN",
+    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11876,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|colorful:5070ti:oc+sff+ultra",
    "category": "gpu",
    "cooler_kind": null,
@@ -54322,7 +54322,7 @@
    "image": "img/hk-a80b55041924e90b.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/fwebp_26_296d0fc7-95f9-4297-a35f-c31af5dac64c.webp?v=1792747814",
    "water": {
-    "price_hkd": 12453,
+    "price_hkd": 12450,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -54365,8 +54365,8 @@
      }
     ]
    },
-   "delta_hkd": 247,
-   "best_price": 12453,
+   "delta_hkd": 250,
+   "best_price": 12450,
    "has_water": true,
    "has_official": true
   },
