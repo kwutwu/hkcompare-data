@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-25T11:00:22Z",
- "generated_at_hkt": "2026-10-25 19:00 HKT",
- "price_updated_hkt": "2026-10-25 19:00 HKT",
+ "generated_at": "2026-10-25T11:20:22Z",
+ "generated_at_hkt": "2026-10-25 19:20 HKT",
+ "price_updated_hkt": "2026-10-25 19:20 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-25 09:57–10:47 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261025/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 113,
+   "count": 112,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2638,
+  "items": 2637,
   "both_sides": 45,
-  "water_only": 71,
+  "water_only": 70,
   "official_only": 2521,
   "matched_water": 48,
-  "official_groups": 2638,
+  "official_groups": 2637,
   "id_merge": {
    "enabled": true,
    "unions_upc": 156,
@@ -387,18 +387,18 @@
   ],
   "ivan": {
    "total_listings": 214,
-   "qualified": 149,
-   "deduped": 119,
+   "qualified": 148,
+   "deduped": 118,
    "excluded": {
     "seller": 159,
     "no ship": 14,
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 29,
+    "ivan_gpu_rows": 28,
     "nic_jp_rows": 81,
     "skipped": {
-     "bad_or_dup": 40
+     "bad_or_dup": 41
     }
    }
   }
@@ -52706,43 +52706,6 @@
    "best_price": 7699,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|msi:5070:2x+oc+ventus+white|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:2x+oc+ventus+white",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI Gaming RTX 5070 12G Ventus 2X OC White Graphics Card (12 GB GDDR7, 192-bit, Extreme…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7863,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DYG3JLGY",
-    "url": "https://www.amazon.co.uk/dp/B0DYG3JLGY",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7863,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070:3x+oc+ventus",
