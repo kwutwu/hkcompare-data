@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-25T19:27:44Z",
- "generated_at_hkt": "2026-10-26 03:27 HKT",
- "price_updated_hkt": "2026-10-26 03:27 HKT",
+ "generated_at": "2026-10-25T19:54:51Z",
+ "generated_at_hkt": "2026-10-26 03:54 HKT",
+ "price_updated_hkt": "2026-10-26 03:54 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-25 09:57–10:47 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261025/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 112,
+   "count": 111,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2641,
+  "items": 2640,
   "both_sides": 43,
-  "water_only": 74,
+  "water_only": 73,
   "official_only": 2523,
   "matched_water": 46,
-  "official_groups": 2641,
+  "official_groups": 2640,
   "id_merge": {
    "enabled": true,
    "unions_upc": 156,
@@ -322,7 +322,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 15,
+   "amazon_cached": 14,
    "official_downloaded": 0,
    "official_cached": 2355,
    "failed": 4
@@ -387,10 +387,10 @@
   ],
   "ivan": {
    "total_listings": 214,
-   "qualified": 144,
-   "deduped": 120,
+   "qualified": 143,
+   "deduped": 119,
    "excluded": {
-    "seller": 164,
+    "seller": 165,
     "no ship": 15,
     "not desktop GPU": 2
    },
@@ -55044,43 +55044,6 @@
    "best_price": 14060,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB OC Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJFZ4YS.jpg",
-   "image": "img/B0DTJFZ4YS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 14264,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTJFZ4YS",
-    "url": "https://www.amazon.es/dp/B0DTJFZ4YS",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 14264,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5080:gaming+oc",
