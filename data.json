@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-25T10:54:13Z",
- "generated_at_hkt": "2026-10-25 18:54 HKT",
- "price_updated_hkt": "2026-10-25 18:54 HKT",
+ "generated_at": "2026-10-25T11:00:22Z",
+ "generated_at_hkt": "2026-10-25 19:00 HKT",
+ "price_updated_hkt": "2026-10-25 19:00 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-25 09:57–10:47 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261025/hkcompare_rows.json",
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 363,
+   "count": 362,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2639,
-  "both_sides": 44,
-  "water_only": 72,
-  "official_only": 2522,
-  "matched_water": 47,
-  "official_groups": 2639,
+  "items": 2638,
+  "both_sides": 45,
+  "water_only": 71,
+  "official_only": 2521,
+  "matched_water": 48,
+  "official_groups": 2638,
   "id_merge": {
    "enabled": true,
    "unions_upc": 156,
@@ -387,7 +387,7 @@
   ],
   "ivan": {
    "total_listings": 214,
-   "qualified": 150,
+   "qualified": 149,
    "deduped": 119,
    "excluded": {
     "seller": 159,
@@ -396,7 +396,7 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 29,
-    "nic_jp_rows": 82,
+    "nic_jp_rows": 81,
     "skipped": {
      "bad_or_dup": 40
     }
@@ -59288,6 +59288,47 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:asus:B760:mATX:tuf-gaming-b760m-plus:ddr4:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B760:mATX:tuf-gaming-b760m-plus:ddr4:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS TUF GAMING B760M-PLUS D4 intel 第14・13・12世代 CPU対応 LGA1700 B760 搭載 DDR4 mATX マザーボード/…",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "M-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 1020,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BQH89GXJ",
+    "url": "https://www.amazon.co.jp/dp/B0BQH89GXJ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1020,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:msi:B860:?:pro-b860p-wifi:ddr5:wifi:|water",
    "category": "mobo",
    "cooler_kind": null,
@@ -59413,47 +59454,6 @@
    "best_price": 1045,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:asus:B760:mATX:tuf-gaming-b760m-plus:ddr4:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B760:mATX:tuf-gaming-b760m-plus:ddr4:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS TUF GAMING B760M-PLUS D4 intel 第14・13・12世代 CPU対応 LGA1700 B760 搭載 DDR4 mATX マザーボード/…",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1050,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BQH89GXJ",
-    "url": "https://www.amazon.co.jp/dp/B0BQH89GXJ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1050,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B850:ATX:prime-b850-plus-csm:ddr5:nowifi:|water",
@@ -59894,6 +59894,59 @@
    "best_price": 1101,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
+   "part_number": null,
+   "upc": "0889523046951",
+   "title": "GIGABYTE B860M GAMING X WIFI6E DDR5,LGA 1851 mATX Motherboard (GA-B860M GAMING X WIFI6E)",
+   "spec": "B860",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e9b3bd5b46c3e4bd.png",
+   "image": "img/hk-e9b3bd5b46c3e4bd.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GIGABYTE_B860M_GAMING_X_WIFI6E.png?v=1750858119",
+   "water": {
+    "price_hkd": 1130,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DQLJRPTX",
+    "url": "https://www.amazon.co.jp/dp/B0DQLJRPTX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 1400,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-b860m-gaming-x-wifi6e-ddr5-lga-1851-matx-motherboard",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1459,
+      "url": "https://shop.pegasus.hk/products/226371/GIGABYTE-技嘉-B860M-GAMING-X-WIFI-6E-MATX-主機板-DDR5---3年保養",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 270,
+   "best_price": 1130,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "mobo|mobo:gigabyte:B650:mATX:elite-b650m-aorus-elite:ddr5:nowifi:",
@@ -61095,47 +61148,6 @@
    },
    "delta_hkd": null,
    "best_price": 1399,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
-   "part_number": null,
-   "upc": "0889523046951",
-   "title": "GIGABYTE B860M GAMING X WIFI6E DDR5,LGA 1851 mATX Motherboard (GA-B860M GAMING X WIFI6E)",
-   "spec": "B860",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e9b3bd5b46c3e4bd.png",
-   "image": "img/hk-e9b3bd5b46c3e4bd.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GIGABYTE_B860M_GAMING_X_WIFI6E.png?v=1750858119",
-   "water": null,
-   "official": {
-    "price_hkd": 1400,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-b860m-gaming-x-wifi6e-ddr5-lga-1851-matx-motherboard",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1459,
-      "url": "https://shop.pegasus.hk/products/226371/GIGABYTE-技嘉-B860M-GAMING-X-WIFI-6E-MATX-主機板-DDR5---3年保養",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1400,
    "has_water": false,
    "has_official": true
   },
@@ -67926,43 +67938,6 @@
    "best_price": 2799,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:X870:?:x870e-aorus-pro-x3d:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:X870:?:x870e-aorus-pro-x3d:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE X870E AORUS PRO X3D ATXマザーボード X870E A PRO X MB6933",
-   "spec": "X870",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2814,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0G5ZXFXNH",
-    "url": "https://www.amazon.co.jp/dp/B0G5ZXFXNH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2814,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asrock:Z890:ATX:z890-taichi-oc-formula:ddr5:wifi:",
