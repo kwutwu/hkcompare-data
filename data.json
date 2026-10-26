@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-26T08:58:45Z",
- "generated_at_hkt": "2026-10-26 16:58 HKT",
- "price_updated_hkt": "2026-10-26 16:58 HKT",
+ "generated_at": "2026-10-26T09:16:53Z",
+ "generated_at_hkt": "2026-10-26 17:16 HKT",
+ "price_updated_hkt": "2026-10-26 17:16 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-26 10:01–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261026/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2615,
-  "both_sides": 43,
+  "both_sides": 42,
   "water_only": 72,
-  "official_only": 2499,
-  "matched_water": 46,
+  "official_only": 2500,
+  "matched_water": 45,
   "official_groups": 2615,
   "id_merge": {
    "enabled": true,
@@ -388,8 +388,8 @@
   ],
   "ivan": {
    "total_listings": 214,
-   "qualified": 144,
-   "deduped": 118,
+   "qualified": 143,
+   "deduped": 117,
    "excluded": {
     "seller": 163,
     "no ship": 14,
@@ -397,10 +397,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 26,
+    "ivan_gpu_rows": 25,
     "nic_jp_rows": 84,
     "skipped": {
-     "bad_or_dup": 37
+     "bad_or_dup": 35
     }
    }
   }
@@ -51919,19 +51919,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ee6481ee60223dd5.png",
    "image": "img/hk-ee6481ee60223dd5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForceRTX_5070WINDFORCEOCSFF12G_01.png?v=1785232982",
-   "water": {
-    "price_hkd": 7997,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F6CBQF48",
-    "url": "https://www.amazon.co.jp/dp/B0F6CBQF48",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number GV-N5070WF3OC-12GD",
-    "source": "amazon",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 7499,
     "store": "Jumbo 珍寶電腦",
@@ -51941,9 +51929,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -498,
+   "delta_hkd": null,
    "best_price": 7499,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -53285,51 +53273,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070ti:gaming+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:gaming+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte 技嘉 GeForce RTX 5070 Ti GAMING OC 16G 顯示卡",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-09b228b293e166fa.png",
-   "image": "img/hk-09b228b293e166fa.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/46ac5ca0-d115-417e-6236-0bfa8eb1a500/public",
-   "water": {
-    "price_hkd": 11382,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTGPC5KR",
-    "url": "https://www.amazon.es/dp/B0DTGPC5KR",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5070ti:gaming+oc",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 11999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223261/Gigabyte-技嘉-GeForce-RTX-5070-Ti-GAMING-OC-16G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 617,
-   "best_price": 11382,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|colorful:5070ti:oc+sff+ultra+white",
    "category": "gpu",
    "cooler_kind": null,
@@ -53519,6 +53462,51 @@
    "delta_hkd": null,
    "best_price": 11899,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070ti:gaming+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:gaming+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte 技嘉 GeForce RTX 5070 Ti GAMING OC 16G 顯示卡",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-09b228b293e166fa.png",
+   "image": "img/hk-09b228b293e166fa.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/46ac5ca0-d115-417e-6236-0bfa8eb1a500/public",
+   "water": {
+    "price_hkd": 12574,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DTGPC5KR",
+    "url": "https://www.amazon.es/dp/B0DTGPC5KR",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5070ti:gaming+oc",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 11999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223261/Gigabyte-技嘉-GeForce-RTX-5070-Ti-GAMING-OC-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": -575,
+   "best_price": 11999,
+   "has_water": true,
    "has_official": true
   },
   {
