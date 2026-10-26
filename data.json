@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-26T20:48:58Z",
- "generated_at_hkt": "2026-10-27 04:48 HKT",
- "price_updated_hkt": "2026-10-27 04:48 HKT",
+ "generated_at": "2026-10-26T21:20:59Z",
+ "generated_at_hkt": "2026-10-27 05:20 HKT",
+ "price_updated_hkt": "2026-10-27 05:20 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-26 10:01–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261026/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 108,
+   "count": 109,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2612,
+  "items": 2613,
   "both_sides": 40,
-  "water_only": 69,
+  "water_only": 70,
   "official_only": 2502,
   "matched_water": 42,
-  "official_groups": 2612,
+  "official_groups": 2613,
   "id_merge": {
    "enabled": true,
    "unions_upc": 153,
@@ -388,8 +388,8 @@
   ],
   "ivan": {
    "total_listings": 215,
-   "qualified": 134,
-   "deduped": 111,
+   "qualified": 135,
+   "deduped": 112,
    "excluded": {
     "seller": 170,
     "no ship": 14,
@@ -397,10 +397,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 25,
+    "ivan_gpu_rows": 26,
     "nic_jp_rows": 81,
     "skipped": {
-     "bad_or_dup": 42
+     "bad_or_dup": 41
     }
    }
   }
@@ -52952,43 +52952,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070ti:gaming trio+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070ti:gaming trio+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI NVIDIA GeForce RTX 5070 Ti 16G Gaming Trio OC Graphics Card",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 10540,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0F1NJF1K4",
-    "url": "https://www.amazon.it/dp/B0F1NJF1K4",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 10540,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|asus:5070ti:oc+proart",
    "category": "gpu",
    "cooler_kind": null,
@@ -53049,6 +53012,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5070ti:gaming trio+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070ti:gaming trio+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5070 Ti 16G Gaming Trio OC",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 10564,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0F1NJF1K4",
+    "url": "https://www.amazon.es/dp/B0F1NJF1K4",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 10564,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5070ti:3x+inspire+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -53088,6 +53088,43 @@
    "best_price": 10650,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070:aorus+infinity|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:aorus+infinity",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte AORUS GeForce RTX 5070 INFINITY 12G Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 10885,
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0H85W4QXV",
+    "url": "https://www.amazon.it/dp/B0H85W4QXV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 10885,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gainward:5070ti:phoenix",
