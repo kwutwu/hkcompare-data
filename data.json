@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-26T07:04:33Z",
- "generated_at_hkt": "2026-10-26 15:04 HKT",
- "price_updated_hkt": "2026-10-26 15:04 HKT",
+ "generated_at": "2026-10-26T07:29:59Z",
+ "generated_at_hkt": "2026-10-26 15:29 HKT",
+ "price_updated_hkt": "2026-10-26 15:29 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-26 10:01–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261026/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2612,
-  "both_sides": 43,
+  "both_sides": 44,
   "water_only": 69,
-  "official_only": 2499,
-  "matched_water": 46,
+  "official_only": 2498,
+  "matched_water": 47,
   "official_groups": 2612,
   "id_merge": {
    "enabled": true,
@@ -323,9 +323,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 15,
+   "amazon_cached": 16,
    "official_downloaded": 0,
-   "official_cached": 2334,
+   "official_cached": 2333,
    "failed": 4
   },
   "image_samples": [
@@ -388,10 +388,10 @@
   ],
   "ivan": {
    "total_listings": 214,
-   "qualified": 143,
-   "deduped": 115,
+   "qualified": 141,
+   "deduped": 116,
    "excluded": {
-    "seller": 161,
+    "seller": 163,
     "no ship": 13,
     "used": 1,
     "not desktop GPU": 2
@@ -54070,6 +54070,73 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5080:oc+prime",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5080:oc+prime",
+   "part_number": "PRIME-RTX5080-O16G-GAMING",
+   "upc": "0197105837782",
+   "title": "ASUS PRIME RTX5080 OC 16GB GDDR7 NVIDIA GeForce Graphics Card, Black",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65VMC6.jpg",
+   "image": "img/B0DS65VMC6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/814lQWaeAzL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13431,
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0DS65VMC6",
+    "url": "https://www.amazon.it/dp/B0DS65VMC6",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5080:oc+prime",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15300,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10530/asus-rtx-5080-prime-oc-16gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 15999,
+      "url": "https://shop.pegasus.hk/products/223027/ASUS-華碩-Prime-GeForce-RTX-5080-16G-OC-顯示卡---3年保養",
+      "build_only": true
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 16500,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5080-oc-16gb-gddr7-prime-rtx5080-o16g-gaming-di-e5080r1",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 18000,
+      "url": "https://buymore.hk/shop/goods.php?id=43465",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 1869,
+   "best_price": 13431,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5080:3x+inspire+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -54328,7 +54395,7 @@
    "image": "img/B09CL8ZFJ5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81tgFzasCHL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13989,
+    "price_hkd": 13998,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -54371,8 +54438,8 @@
      }
     ]
    },
-   "delta_hkd": 2011,
-   "best_price": 13989,
+   "delta_hkd": 2002,
+   "best_price": 13998,
    "has_water": true,
    "has_official": true
   },
@@ -54493,7 +54560,7 @@
    "image": "img/B0FD3XZ8P1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/7192KlMK8gL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14312,
+    "price_hkd": 14322,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -54507,7 +54574,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14312,
+   "best_price": 14322,
    "has_water": true,
    "has_official": false
   },
@@ -54895,7 +54962,7 @@
    "image": "img/B0DQGB8FTQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71MTgvMq55L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15059,
+    "price_hkd": 15069,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -54909,44 +54976,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15059,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|msi:5080:gaming+gaming trio+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming+gaming trio+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI Gaming RTX 5080 16G Gaming Trio OC Graphics Card (16GB GDDR7, 256",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSXNXTSS.jpg",
-   "image": "img/B0DSXNXTSS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15190,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DSXNXTSS",
-    "url": "https://www.amazon.es/dp/B0DSXNXTSS",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15190,
+   "best_price": 15069,
    "has_water": true,
    "has_official": false
   },
@@ -54980,61 +55010,6 @@
    },
    "delta_hkd": null,
    "best_price": 15299,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:oc+prime",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:oc+prime",
-   "part_number": "PRIME-RTX5080-O16G-GAMING",
-   "upc": "0197105837782",
-   "title": "ASUS PRIME GeForce RTX 5080 OC 16GB GDDR7 PRIME-RTX5080-O16G-GAMING (DI-E5080R1) - 3年保養",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-48d3a3ba1dfdbbe4.webp",
-   "image": "img/hk-48d3a3ba1dfdbbe4.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/10530.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 15300,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/10530/asus-rtx-5080-prime-oc-16gb",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 15999,
-      "url": "https://shop.pegasus.hk/products/223027/ASUS-華碩-Prime-GeForce-RTX-5080-16G-OC-顯示卡---3年保養",
-      "build_only": true
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 16500,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5080-oc-16gb-gddr7-prime-rtx5080-o16g-gaming-di-e5080r1",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 18000,
-      "url": "https://buymore.hk/shop/goods.php?id=43465",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 15300,
    "has_water": false,
    "has_official": true
   },
@@ -55262,6 +55237,43 @@
    "best_price": 16399,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|msi:5080:gaming+gaming trio+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:gaming+gaming trio+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI Gaming RTX 5080 16G Gaming Trio OC Graphics Card (16GB GDDR7, 256bit, Extreme Clock TB",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSXNXTSS.jpg",
+   "image": "img/B0DSXNXTSS.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 16929,
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0DSXNXTSS",
+    "url": "https://www.amazon.it/dp/B0DSXNXTSS",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 16929,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5080:aorus+master+oc",
