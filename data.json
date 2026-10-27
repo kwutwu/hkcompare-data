@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-27T21:15:43Z",
- "generated_at_hkt": "2026-10-28 05:15 HKT",
- "price_updated_hkt": "2026-10-28 05:15 HKT",
+ "generated_at": "2026-10-27T21:28:54Z",
+ "generated_at_hkt": "2026-10-28 05:28 HKT",
+ "price_updated_hkt": "2026-10-28 05:28 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-27 09:58–10:45 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261027/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 100,
+   "count": 101,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2623,
+  "items": 2624,
   "both_sides": 30,
-  "water_only": 62,
+  "water_only": 63,
   "official_only": 2530,
   "matched_water": 32,
-  "official_groups": 2623,
+  "official_groups": 2624,
   "id_merge": {
    "enabled": true,
    "unions_upc": 156,
@@ -391,8 +391,8 @@
   ],
   "ivan": {
    "total_listings": 215,
-   "qualified": 116,
-   "deduped": 94,
+   "qualified": 117,
+   "deduped": 95,
    "excluded": {
     "seller": 170,
     "no ship": 14,
@@ -400,7 +400,7 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 3,
+    "ivan_gpu_rows": 4,
     "nic_jp_rows": 85,
     "skipped": {
      "bad_or_dup": 1
@@ -52509,7 +52509,7 @@
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
    "water": {
-    "price_hkd": 8757,
+    "price_hkd": 8722,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -52559,7 +52559,7 @@
      }
     ]
    },
-   "delta_hkd": -57,
+   "delta_hkd": -22,
    "best_price": 8700,
    "has_water": true,
    "has_official": true
@@ -53164,6 +53164,43 @@
    "best_price": 11599,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070ti:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE NVIDIA GeForce RTX 5070 Ti Graphics Board GDDR7 16GB Gigabyte 【Domestic Regula…",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 11637,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DXV2HNKS",
+    "url": "https://www.amazon.co.jp/dp/B0DXV2HNKS",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11637,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|asus:5070ti:oc+prime",
