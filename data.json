@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-28T02:31:30Z",
- "generated_at_hkt": "2026-10-28 10:31 HKT",
- "price_updated_hkt": "2026-10-28 10:31 HKT",
+ "generated_at": "2026-10-28T02:42:07Z",
+ "generated_at_hkt": "2026-10-28 10:42 HKT",
+ "price_updated_hkt": "2026-10-28 10:42 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-27 09:58–10:45 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261027/hkcompare_rows.json",
@@ -394,9 +394,10 @@
    "qualified": 149,
    "deduped": 122,
    "excluded": {
-    "seller": 174,
+    "seller": 171,
     "no ship": 11,
     "used": 1,
+    "ship unknown": 3,
     "not desktop GPU": 2
    },
    "amazon_exports": {
@@ -52121,7 +52122,7 @@
     "domain": "amazon.com",
     "asin": "B0FFKWFMYM",
     "url": "https://www.amazon.com/dp/B0FFKWFMYM",
-    "stock": "Only 15 left in stock - order soon.",
+    "stock": "Only 13 left in stock - order soon.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5070:oc+prime+white",
     "source": "amazon",
@@ -54552,7 +54553,7 @@
     "domain": "amazon.co.uk",
     "asin": "B0DSQ1RCZV",
     "url": "https://www.amazon.co.uk/dp/B0DSQ1RCZV",
-    "stock": "Only 10 left in stock.",
+    "stock": "Only 9 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:gaming+oc",
     "source": "amazon",
