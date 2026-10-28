@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-28T09:52:49Z",
- "generated_at_hkt": "2026-10-28 17:52 HKT",
- "price_updated_hkt": "2026-10-28 17:52 HKT",
+ "generated_at": "2026-10-28T10:24:14Z",
+ "generated_at_hkt": "2026-10-28 18:24 HKT",
+ "price_updated_hkt": "2026-10-28 18:24 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-28 10:00–10:53 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261028/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 107,
+   "count": 106,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2644,
+  "items": 2643,
   "both_sides": 42,
-  "water_only": 73,
+  "water_only": 72,
   "official_only": 2528,
   "matched_water": 45,
-  "official_groups": 2644,
+  "official_groups": 2643,
   "id_merge": {
    "enabled": true,
    "unions_upc": 158,
@@ -328,9 +328,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 11,
-   "official_downloaded": 1,
-   "official_cached": 2365,
+   "amazon_cached": 10,
+   "official_downloaded": 0,
+   "official_cached": 2366,
    "failed": 5
   },
   "image_samples": [
@@ -393,12 +393,12 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 142,
-   "deduped": 118,
+   "qualified": 138,
+   "deduped": 117,
    "excluded": {
-    "seller": 175,
+    "seller": 180,
     "ship unknown": 1,
-    "no ship": 11,
+    "no ship": 10,
     "used": 1,
     "not desktop GPU": 2
    },
@@ -55747,43 +55747,6 @@
    "best_price": 16499,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:aorus+waterforce+xtreme|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aorus+waterforce+xtreme",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE AORUS GeForce RTX 5080 Xtreme WATERFORCE 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9VM5DC.jpg",
-   "image": "img/B0DT9VM5DC.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81koP+J468L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 16526,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DT9VM5DC",
-    "url": "https://www.amazon.es/dp/B0DT9VM5DC",
-    "stock": "Only 4 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 16526,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|asus:5080:oc+proart",
