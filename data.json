@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-28T23:18:24Z",
- "generated_at_hkt": "2026-10-29 07:18 HKT",
- "price_updated_hkt": "2026-10-29 07:18 HKT",
+ "generated_at": "2026-10-28T23:36:35Z",
+ "generated_at_hkt": "2026-10-29 07:36 HKT",
+ "price_updated_hkt": "2026-10-29 07:36 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-28 10:00–10:53 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261028/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 106,
+   "count": 105,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2641,
-  "both_sides": 41,
-  "water_only": 70,
-  "official_only": 2529,
-  "matched_water": 44,
-  "official_groups": 2641,
+  "items": 2640,
+  "both_sides": 40,
+  "water_only": 69,
+  "official_only": 2530,
+  "matched_water": 43,
+  "official_groups": 2640,
   "id_merge": {
    "enabled": true,
    "unions_upc": 158,
@@ -393,8 +393,8 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 137,
-   "deduped": 114,
+   "qualified": 135,
+   "deduped": 112,
    "excluded": {
     "seller": 181,
     "ship unknown": 1,
@@ -403,10 +403,10 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 26,
+    "ivan_gpu_rows": 24,
     "nic_jp_rows": 88,
     "skipped": {
-     "bad_or_dup": 32
+     "bad_or_dup": 30
     }
    }
   }
@@ -52427,43 +52427,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070:triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX 5070 12GB Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7283,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0F59N58GV",
-    "url": "https://www.amazon.fr/dp/B0F59N58GV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7283,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5070:oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -52528,6 +52491,43 @@
    "best_price": 7499,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070:triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GEFORCE RTX™ 5070 12GB Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7542,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0F59N58GV",
+    "url": "https://www.amazon.es/dp/B0F59N58GV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7542,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070:oc+sff+windforce",
@@ -53050,19 +53050,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-21c3d81db934b2c5.png",
    "image": "img/hk-21c3d81db934b2c5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_TUF_GAMING_RTX_5070_OC_BOX.png?v=1761379598",
-   "water": {
-    "price_hkd": 8698,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DZ62D3MP",
-    "url": "https://www.amazon.co.jp/dp/B0DZ62D3MP",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number TUF-RTX5070-O12G-GAMING",
-    "source": "amazon",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 8700,
     "store": "Jumbo 珍寶電腦",
@@ -53101,9 +53089,9 @@
      }
     ]
    },
-   "delta_hkd": 2,
-   "best_price": 8698,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 8700,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -53254,43 +53242,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 9474,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|msi:5070ti:gaming trio+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070ti:gaming trio+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI NVIDIA GeForce RTX 5070 Ti 16G Gaming Trio OC Graphics Card",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 9749,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0F1NJF1K4",
-    "url": "https://www.amazon.it/dp/B0F1NJF1K4",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 9749,
    "has_water": true,
    "has_official": false
   },
@@ -53662,43 +53613,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:aorus+infinity|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:aorus+infinity",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte AORUS GeForce RTX 5070 INFINITY 12G Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 10823,
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0H85W4QXV",
-    "url": "https://www.amazon.it/dp/B0H85W4QXV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 10823,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gainward:5070ti:phoenix",
    "category": "gpu",
    "cooler_kind": null,
@@ -53745,6 +53659,43 @@
    "best_price": 10899,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070ti:gaming trio+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070ti:gaming trio+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5070 Ti 16G GAMING TRIO OC Graphics Card - RTX 5070 Ti GPU",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 10919,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0F1NJF1K4",
+    "url": "https://www.amazon.co.uk/dp/B0F1NJF1K4",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 10919,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|galax:5070ti:ex+gamer+oc",
