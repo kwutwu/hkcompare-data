@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-28T06:15:58Z",
- "generated_at_hkt": "2026-10-28 14:15 HKT",
- "price_updated_hkt": "2026-10-28 14:15 HKT",
+ "generated_at": "2026-10-28T06:33:52Z",
+ "generated_at_hkt": "2026-10-28 14:33 HKT",
+ "price_updated_hkt": "2026-10-28 14:33 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-28 10:00–10:53 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261028/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 107,
+   "count": 106,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2640,
+  "items": 2639,
   "both_sides": 45,
-  "water_only": 69,
+  "water_only": 68,
   "official_only": 2525,
   "matched_water": 48,
-  "official_groups": 2640,
+  "official_groups": 2639,
   "id_merge": {
    "enabled": true,
    "unions_upc": 158,
@@ -328,9 +328,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 12,
-   "official_downloaded": 1,
-   "official_cached": 2361,
+   "amazon_cached": 11,
+   "official_downloaded": 0,
+   "official_cached": 2363,
    "failed": 8
   },
   "image_samples": [
@@ -393,8 +393,8 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 141,
-   "deduped": 117,
+   "qualified": 139,
+   "deduped": 116,
    "excluded": {
     "seller": 176,
     "ship unknown": 1,
@@ -403,10 +403,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 29,
+    "ivan_gpu_rows": 27,
     "nic_jp_rows": 87,
     "skipped": {
-     "bad_or_dup": 38
+     "bad_or_dup": 39
     }
    }
   }
@@ -52423,59 +52423,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5070:oc+prime+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070:oc+prime+white",
-   "part_number": "PRIME-RTX5070-O12G-WHITE",
-   "upc": "0199291046122",
-   "title": "ASUS Prime GeForce RTX 5070 12GB GDDR7 White OC Edition Gaming Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FFKWFMYM.jpg",
-   "image": "img/B0FFKWFMYM.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81GLS28VqWL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7361,
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0FFKWFMYM",
-    "url": "https://www.amazon.com/dp/B0FFKWFMYM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5070:oc+prime+white",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 8100,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 8299,
-      "url": "https://shop.pegasus.hk/products/224494/ASUS-華碩-PRIME-GeForce-RTX-5070-12GB-White-OC-顯示卡---3年保養",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 739,
-   "best_price": 7361,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5070:eagle+ice+oc+sff|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -52676,6 +52623,59 @@
    },
    "delta_hkd": -1283,
    "best_price": 7799,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5070:oc+prime+white",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070:oc+prime+white",
+   "part_number": "PRIME-RTX5070-O12G-WHITE",
+   "upc": "0199291046122",
+   "title": "ASUS PRIME GeForce RTX 5070 OC White 白色 12GB GDDR7 PRIME-RTX5070-O12G-WHITE (DI-E5070Q1…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-568a11b0cf71611d.png",
+   "image": "img/hk-568a11b0cf71611d.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_RTX_5070_OC_White_BOX.png?v=1761378836",
+   "water": {
+    "price_hkd": 7837,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0F8KLKQM3",
+    "url": "https://www.amazon.co.uk/dp/B0F8KLKQM3",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number PRIME-RTX5070-O12G-WHITE",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 8100,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 8299,
+      "url": "https://shop.pegasus.hk/products/224494/ASUS-華碩-PRIME-GeForce-RTX-5070-12GB-White-OC-顯示卡---3年保養",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 263,
+   "best_price": 7837,
    "has_water": true,
    "has_official": true
   },
@@ -55866,43 +55866,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 16648,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|msi:5070:gaming|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:gaming",
-   "part_number": null,
-   "upc": null,
-   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 16828,
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0F15TM77B",
-    "url": "https://www.amazon.com/dp/B0F15TM77B",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 16828,
    "has_water": true,
    "has_official": false
   },
