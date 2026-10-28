@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-28T05:52:29Z",
- "generated_at_hkt": "2026-10-28 13:52 HKT",
- "price_updated_hkt": "2026-10-28 13:52 HKT",
+ "generated_at": "2026-10-28T06:15:58Z",
+ "generated_at_hkt": "2026-10-28 14:15 HKT",
+ "price_updated_hkt": "2026-10-28 14:15 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-28 10:00–10:53 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261028/hkcompare_rows.json",
@@ -329,9 +329,9 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 12,
-   "official_downloaded": 0,
+   "official_downloaded": 1,
    "official_cached": 2361,
-   "failed": 9
+   "failed": 8
   },
   "image_samples": [
    {
@@ -393,19 +393,20 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 142,
+   "qualified": 141,
    "deduped": 117,
    "excluded": {
     "seller": 176,
-    "no ship": 10,
+    "ship unknown": 1,
+    "no ship": 11,
     "used": 1,
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 28,
+    "ivan_gpu_rows": 29,
     "nic_jp_rows": 87,
     "skipped": {
-     "bad_or_dup": 39
+     "bad_or_dup": 38
     }
    }
   }
@@ -954,9 +955,9 @@
    "has_wifi": null,
    "ssd_capacity": null,
    "ssd_interface": null,
-   "image_url": "https://centralfield.com/Pimg/23775.webp",
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a24fa3cbc84f3510.webp",
+   "image": "img/hk-a24fa3cbc84f3510.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/23775.webp",
    "water": null,
    "official": {
     "price_hkd": 139,
@@ -52446,7 +52447,7 @@
     "domain": "amazon.com",
     "asin": "B0FFKWFMYM",
     "url": "https://www.amazon.com/dp/B0FFKWFMYM",
-    "stock": "Only 9 left in stock - order soon.",
+    "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5070:oc+prime+white",
     "source": "amazon",
