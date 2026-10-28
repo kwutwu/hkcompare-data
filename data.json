@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-28T17:45:13Z",
- "generated_at_hkt": "2026-10-29 01:45 HKT",
- "price_updated_hkt": "2026-10-29 01:45 HKT",
+ "generated_at": "2026-10-28T18:03:13Z",
+ "generated_at_hkt": "2026-10-29 02:03 HKT",
+ "price_updated_hkt": "2026-10-29 02:03 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-28 10:00–10:53 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261028/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 104,
+   "count": 105,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2639,
+  "items": 2640,
   "both_sides": 40,
-  "water_only": 68,
+  "water_only": 69,
   "official_only": 2530,
   "matched_water": 43,
-  "official_groups": 2639,
+  "official_groups": 2640,
   "id_merge": {
    "enabled": true,
    "unions_upc": 158,
@@ -393,8 +393,8 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 133,
-   "deduped": 111,
+   "qualified": 134,
+   "deduped": 112,
    "excluded": {
     "seller": 183,
     "ship unknown": 1,
@@ -403,10 +403,10 @@
     "not desktop GPU": 2
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 23,
+    "ivan_gpu_rows": 24,
     "nic_jp_rows": 88,
     "skipped": {
-     "bad_or_dup": 36
+     "bad_or_dup": 34
     }
    }
   }
@@ -52425,6 +52425,43 @@
    "best_price": 7213,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070:triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX 5070 12GB Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7283,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F59N58GV",
+    "url": "https://www.amazon.fr/dp/B0F59N58GV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7283,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|msi:5070:oc",
