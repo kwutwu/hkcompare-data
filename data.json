@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-29T11:42:10Z",
- "generated_at_hkt": "2026-10-29 19:42 HKT",
- "price_updated_hkt": "2026-10-29 19:42 HKT",
+ "generated_at": "2026-10-29T12:03:44Z",
+ "generated_at_hkt": "2026-10-29 20:03 HKT",
+ "price_updated_hkt": "2026-10-29 20:03 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-29 09:55–10:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261029/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 109,
+   "count": 108,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2673,
+  "items": 2672,
   "both_sides": 42,
-  "water_only": 72,
+  "water_only": 71,
   "official_only": 2558,
   "matched_water": 45,
-  "official_groups": 2673,
+  "official_groups": 2672,
   "id_merge": {
    "enabled": true,
    "unions_upc": 159,
@@ -392,8 +392,8 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 140,
-   "deduped": 117,
+   "qualified": 139,
+   "deduped": 116,
    "excluded": {
     "seller": 184,
     "used": 1,
@@ -401,7 +401,7 @@
     "no ship": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 26,
+    "ivan_gpu_rows": 25,
     "nic_jp_rows": 89,
     "skipped": {
      "bad_or_dup": 30
@@ -53505,43 +53505,6 @@
    "best_price": 8099,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070:aorus+master|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:aorus+master",
-   "part_number": "GV-N5070AORUSM-12GD",
-   "upc": null,
-   "title": "Gigabyte AORUS GeForce RTX 5070 MASTER 12G Graphics Card - 12GB GDDR7, 192bit, PCI-E 5.…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 8159,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DTGMBHQ3",
-    "url": "https://www.amazon.co.uk/dp/B0DTGMBHQ3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 8159,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070:vanguard",
