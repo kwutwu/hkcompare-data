@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-29T02:02:58Z",
- "generated_at_hkt": "2026-10-29 10:02 HKT",
- "price_updated_hkt": "2026-10-29 10:02 HKT",
+ "generated_at": "2026-10-29T02:25:55Z",
+ "generated_at_hkt": "2026-10-29 10:25 HKT",
+ "price_updated_hkt": "2026-10-29 10:25 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-28 10:00–10:53 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261028/hkcompare_rows.json",
@@ -112,19 +112,18 @@
     }
    },
    "cf_exc": {
-    "source": "/workspace/hk_price_cache/run_20261028/cf_gpu_browser/cf_gpu_1016.txt",
-    "kept": 28,
+    "source": "/workspace/hk_price_cache/run_20261029/cf_gpu_browser/cf_gpu_1022.txt",
+    "kept": 26,
     "by_chip": {
      "RTX 5090D": 1,
      "RTX 5080": 17,
-     "RTX 5070 Ti": 10
+     "RTX 5070 Ti": 8
     },
     "skipped": {
      "empty_price": 6,
-     "out_of_scope": 69,
-     "no_chip": 1
+     "out_of_scope": 70
     },
-    "updated_hkt": "2026-10-28 10:16 HKT"
+    "updated_hkt": "2026-10-29 10:22 HKT"
    },
    "cf_added": 1
   },
