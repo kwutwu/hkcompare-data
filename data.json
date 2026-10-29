@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-29T13:42:17Z",
- "generated_at_hkt": "2026-10-29 21:42 HKT",
- "price_updated_hkt": "2026-10-29 21:42 HKT",
+ "generated_at": "2026-10-29T14:02:16Z",
+ "generated_at_hkt": "2026-10-29 22:02 HKT",
+ "price_updated_hkt": "2026-10-29 22:02 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-29 09:55–10:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261029/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 223,
+   "count": 220,
    "enabled": true
   },
   "ssd": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2672,
-  "both_sides": 42,
-  "water_only": 71,
-  "official_only": 2558,
-  "matched_water": 45,
-  "official_groups": 2672,
+  "items": 2669,
+  "both_sides": 41,
+  "water_only": 68,
+  "official_only": 2559,
+  "matched_water": 44,
+  "official_groups": 2669,
   "id_merge": {
    "enabled": true,
    "unions_upc": 159,
@@ -392,8 +392,8 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 139,
-   "deduped": 116,
+   "qualified": 136,
+   "deduped": 112,
    "excluded": {
     "seller": 185,
     "not desktop GPU": 3,
@@ -401,7 +401,7 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 25,
-    "nic_jp_rows": 89,
+    "nic_jp_rows": 86,
     "skipped": {
      "bad_or_dup": 32
     }
@@ -57927,51 +57927,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS PRIME H610I-PLUS D4 Mini-ITX 主機板 [H610 / 實用迷你 / PCIe 4.0 / DDR4 / 1G LAN] (LGA1700…",
-   "spec": "H610",
-   "filter_tags": null,
-   "form_factor": "ITX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3efdf7135ca6ff2d.webp",
-   "image": "img/hk-3efdf7135ca6ff2d.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/3685.webp",
-   "water": {
-    "price_hkd": 767,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09XJQTQN1",
-    "url": "https://www.amazon.co.jp/dp/B09XJQTQN1",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 999,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/3685/asus-prime-h610i-plus-d4-itx",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 232,
-   "best_price": 767,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:msi:B650:mATX:b650m-bomber-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -59709,6 +59664,39 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS PRIME H610I-PLUS D4 Mini-ITX 主機板 [H610 / 實用迷你 / PCIe 4.0 / DDR4 / 1G LAN] (LGA1700…",
+   "spec": "H610",
+   "filter_tags": null,
+   "form_factor": "ITX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3efdf7135ca6ff2d.webp",
+   "image": "img/hk-3efdf7135ca6ff2d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/3685.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/3685/asus-prime-h610i-plus-d4-itx",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:colorful:B860:mATX:b860m-white-wifi-v20:ddr5:wifi:white",
    "category": "mobo",
    "cooler_kind": null,
@@ -61240,47 +61228,6 @@
    "best_price": 1290,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:msi:B760:mATX:b760m-project-zero:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:B760:mATX:b760m-project-zero:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI B760M PROJECT ZERO バックコネクトデザイン採用 intel 第14・13・12世代 Coreプロセッサ対応 LGA1700 DDR5 Micro-A…",
-   "spec": "B760（DDR5）",
-   "filter_tags": [
-    "B760",
-    "DDR5",
-    "B760-DDR5"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1290,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0D1DWYJKG",
-    "url": "https://www.amazon.co.jp/dp/B0D1DWYJKG",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1290,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asrock:B850:mATX:b850m-pro-rs:ddr5:nowifi:",
@@ -66850,6 +66797,43 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 2271,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d-ice:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d-ice:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE X870E AORUS ELITE X3D ICE ATX マザーボード MB6872",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 2278,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0FRFRBLKK",
+    "url": "https://www.amazon.co.jp/dp/B0FRFRBLKK",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2278,
    "has_water": true,
    "has_official": false
   },
@@ -88067,7 +88051,7 @@
    "image": "img/hk-2d4618a0181771d9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/97b1bbb2-ff47-478b-60ed-66390a2a8f00/public",
    "water": {
-    "price_hkd": 1783,
+    "price_hkd": 1771,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -88126,8 +88110,8 @@
      }
     ]
    },
-   "delta_hkd": 316,
-   "best_price": 1783,
+   "delta_hkd": 328,
+   "best_price": 1771,
    "has_water": true,
    "has_official": true
   },
@@ -95299,47 +95283,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:6000:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:6000:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 64GB(32GB×2)最大 6000MHz対応 AMD・Intel RAM",
-   "spec": "DDR5-6000 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6000"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7438,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0FV3LHXBJ",
-    "url": "https://www.amazon.co.jp/dp/B0FV3LHXBJ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7438,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:crucial:std:ddr5:dimm:64:5600:black:1x64:cl46",
    "category": "ram",
    "cooler_kind": null,
@@ -95572,47 +95515,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 7822,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 メモリ 64GB（32GB×2）最大5600MHz対応 Intel XMP対応 CL40 デスクトップPC用 ブラック CMK6…",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "5600"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7895,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09WN2H42Y",
-    "url": "https://www.amazon.co.jp/dp/B09WN2H42Y",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7895,
    "has_water": true,
    "has_official": false
   },
@@ -96040,46 +95942,6 @@
    "best_price": 8199,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:6200:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:6200:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 64GB（32GB×2）最大 6200MHz対応 Intel RAM",
-   "spec": "DDR5 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 8322,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BTNWJQMS",
-    "url": "https://www.amazon.co.jp/dp/B0BTNWJQMS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 8322,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6000:black:2x32:cl30",
