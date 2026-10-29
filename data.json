@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-29T18:56:43Z",
- "generated_at_hkt": "2026-10-30 02:56 HKT",
- "price_updated_hkt": "2026-10-30 02:56 HKT",
+ "generated_at": "2026-10-29T19:17:25Z",
+ "generated_at_hkt": "2026-10-30 03:17 HKT",
+ "price_updated_hkt": "2026-10-30 03:17 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-29 09:55–10:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261029/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 106,
+   "count": 107,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2667,
+  "items": 2668,
   "both_sides": 40,
-  "water_only": 66,
+  "water_only": 67,
   "official_only": 2560,
   "matched_water": 43,
-  "official_groups": 2667,
+  "official_groups": 2668,
   "id_merge": {
    "enabled": true,
    "unions_upc": 159,
@@ -392,15 +392,15 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 134,
-   "deduped": 109,
+   "qualified": 135,
+   "deduped": 110,
    "excluded": {
     "seller": 183,
     "no ship": 4,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 22,
+    "ivan_gpu_rows": 23,
     "nic_jp_rows": 86,
     "skipped": {
      "bad_or_dup": 35
@@ -52483,7 +52483,7 @@
    "image": "img/hk-571bc623d08674b1.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/13042.webp",
    "water": {
-    "price_hkd": 6523,
+    "price_hkd": 6522,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -52526,8 +52526,8 @@
      }
     ]
    },
-   "delta_hkd": 876,
-   "best_price": 6523,
+   "delta_hkd": 877,
+   "best_price": 6522,
    "has_water": true,
    "has_official": true
   },
@@ -53190,7 +53190,7 @@
    "image": "img/hk-568a11b0cf71611d.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_RTX_5070_OC_White_BOX.png?v=1761378836",
    "water": {
-    "price_hkd": 7838,
+    "price_hkd": 7837,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -53219,8 +53219,8 @@
      }
     ]
    },
-   "delta_hkd": 262,
-   "best_price": 7838,
+   "delta_hkd": 263,
+   "best_price": 7837,
    "has_water": true,
    "has_official": true
   },
@@ -53859,6 +53859,43 @@
    "has_official": false
   },
   {
+   "id": "gpu|pny:5070:oc+slim|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:oc+slim",
+   "part_number": "VCG507012DFSXPB1",
+   "upc": null,
+   "title": "PNY GeForce RTX 5070 12GB OC SLIM Graphics Board VCG507012DFSXPB1-O VD9404",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9762,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0GSXJPTLN",
+    "url": "https://www.amazon.co.jp/dp/B0GSXJPTLN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9762,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|pny:5070ti:dual+oc+slim|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -53914,7 +53951,7 @@
    "image": "img/hk-733836fa60c702e5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/486214b6-de3c-43f0-ab3a-9c9e22aa2e00/public",
    "water": {
-    "price_hkd": 10112,
+    "price_hkd": 10111,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -53943,8 +53980,8 @@
      }
     ]
    },
-   "delta_hkd": 2787,
-   "best_price": 10112,
+   "delta_hkd": 2788,
+   "best_price": 10111,
    "has_water": true,
    "has_official": true
   },
@@ -53967,7 +54004,7 @@
    "image": "img/hk-2306810aa7e8608c.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d1e96ffa-72f2-429d-2aa4-84c990824c00/public",
    "water": {
-    "price_hkd": 10210,
+    "price_hkd": 10209,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -53996,8 +54033,8 @@
      }
     ]
    },
-   "delta_hkd": 1189,
-   "best_price": 10210,
+   "delta_hkd": 1190,
+   "best_price": 10209,
    "has_water": true,
    "has_official": true
   },
@@ -54151,7 +54188,7 @@
    "image": "img/hk-a4d8dcfa7ab0afd3.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4b04d8d5-b946-4d22-dbcb-4ca7b388fd00/public",
    "water": {
-    "price_hkd": 10405,
+    "price_hkd": 10404,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -54172,8 +54209,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 994,
-   "best_price": 10405,
+   "delta_hkd": 995,
+   "best_price": 10404,
    "has_water": true,
    "has_official": true
   },
@@ -54196,7 +54233,7 @@
    "image": "img/hk-1ff6fa59b5e570cd.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/a3019217-21ed-44c5-d20d-b8410709d400/public",
    "water": {
-    "price_hkd": 10458,
+    "price_hkd": 10457,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -54232,8 +54269,8 @@
      }
     ]
    },
-   "delta_hkd": 2341,
-   "best_price": 10458,
+   "delta_hkd": 2342,
+   "best_price": 10457,
    "has_water": true,
    "has_official": true
   },
@@ -54304,7 +54341,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 10920,
+    "price_hkd": 10919,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -54318,7 +54355,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 10920,
+   "best_price": 10919,
    "has_water": true,
    "has_official": false
   },
@@ -54429,7 +54466,7 @@
    "image": "img/hk-1dd357acf0b47017.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/6b0be66e-6920-4074-2329-00e6e0c77f00/public",
    "water": {
-    "price_hkd": 11449,
+    "price_hkd": 11448,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -54472,8 +54509,8 @@
      }
     ]
    },
-   "delta_hkd": 1350,
-   "best_price": 11449,
+   "delta_hkd": 1351,
+   "best_price": 11448,
    "has_water": true,
    "has_official": true
   },
@@ -54577,7 +54614,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 11527,
+    "price_hkd": 11526,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -54591,7 +54628,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11527,
+   "best_price": 11526,
    "has_water": true,
    "has_official": false
   },
