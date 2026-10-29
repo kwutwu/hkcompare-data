@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-29T01:55:52Z",
- "generated_at_hkt": "2026-10-29 09:55 HKT",
- "price_updated_hkt": "2026-10-29 09:55 HKT",
+ "generated_at": "2026-10-29T02:02:58Z",
+ "generated_at_hkt": "2026-10-29 10:02 HKT",
+ "price_updated_hkt": "2026-10-29 10:02 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-28 10:00–10:53 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261028/hkcompare_rows.json",
@@ -406,7 +406,7 @@
     "ivan_gpu_rows": 25,
     "nic_jp_rows": 87,
     "skipped": {
-     "bad_or_dup": 31
+     "bad_or_dup": 30
     }
    }
   }
@@ -51943,7 +51943,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6640,
+    "price_hkd": 6642,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -51957,7 +51957,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6640,
+   "best_price": 6642,
    "has_water": true,
    "has_official": false
   },
@@ -52025,7 +52025,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6787,
+    "price_hkd": 6790,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -52039,7 +52039,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6787,
+   "best_price": 6790,
    "has_water": true,
    "has_official": false
   },
@@ -52062,7 +52062,7 @@
    "image": "img/hk-e150016481072db6.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f09c487a-6398-468f-4440-be8af8e21100/public",
    "water": {
-    "price_hkd": 6841,
+    "price_hkd": 6844,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -52105,8 +52105,8 @@
      }
     ]
    },
-   "delta_hkd": 758,
-   "best_price": 6841,
+   "delta_hkd": 755,
+   "best_price": 6844,
    "has_water": true,
    "has_official": true
   },
@@ -52129,7 +52129,7 @@
    "image": "img/hk-9e0e66f1d7b9fb42.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/782b0949-3349-46a7-f54d-3c03865a6d00/public",
    "water": {
-    "price_hkd": 6842,
+    "price_hkd": 6845,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -52150,8 +52150,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 1157,
-   "best_price": 6842,
+   "delta_hkd": 1154,
+   "best_price": 6845,
    "has_water": true,
    "has_official": true
   },
@@ -52347,7 +52347,7 @@
    "image": "img/hk-85953dbb3d937cb0.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/1f165c23-fd5e-4723-0cb7-7bba95970900/public",
    "water": {
-    "price_hkd": 7101,
+    "price_hkd": 7104,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -52368,8 +52368,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 598,
-   "best_price": 7101,
+   "delta_hkd": 595,
+   "best_price": 7104,
    "has_water": true,
    "has_official": true
   },
@@ -52392,7 +52392,7 @@
    "image": "img/hk-01b98c76e7efdd58.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/52e3ea73-c43b-4b25-9b16-ebd3b0fac400/public",
    "water": {
-    "price_hkd": 7213,
+    "price_hkd": 7216,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -52421,47 +52421,10 @@
      }
     ]
    },
-   "delta_hkd": 986,
-   "best_price": 7213,
+   "delta_hkd": 983,
+   "best_price": 7216,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070:triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX 5070 12GB Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7283,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0F59N58GV",
-    "url": "https://www.amazon.fr/dp/B0F59N58GV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7283,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070:oc",
@@ -52528,6 +52491,43 @@
    "best_price": 7499,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070:triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GEFORCE RTX™ 5070 12GB Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7545,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0F59N58GV",
+    "url": "https://www.amazon.es/dp/B0F59N58GV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7545,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070:oc+sff+windforce",
@@ -53264,7 +53264,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9474,
+    "price_hkd": 9477,
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
     "domain": "amazon.fr",
@@ -53278,7 +53278,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9474,
+   "best_price": 9477,
    "has_water": true,
    "has_official": false
   },
@@ -53301,7 +53301,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 9769,
+    "price_hkd": 9773,
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
     "domain": "amazon.it",
@@ -53315,7 +53315,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 9769,
+   "best_price": 9773,
    "has_water": true,
    "has_official": false
   },
@@ -53444,7 +53444,7 @@
    "image": "img/hk-05dc011b76e4e647.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/11291.webp",
    "water": {
-    "price_hkd": 10311,
+    "price_hkd": 10316,
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
@@ -53459,7 +53459,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "法國 Amazon",
-      "price_hkd": 10911,
+      "price_hkd": 10915,
       "url": "https://www.amazon.fr/dp/B0DX6FT5MM",
       "build_only": false
      }
@@ -53503,8 +53503,8 @@
      }
     ]
    },
-   "delta_hkd": 1539,
-   "best_price": 10311,
+   "delta_hkd": 1534,
+   "best_price": 10316,
    "has_water": true,
    "has_official": true
   },
