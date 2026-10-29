@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-29T00:54:22Z",
- "generated_at_hkt": "2026-10-29 08:54 HKT",
- "price_updated_hkt": "2026-10-29 08:54 HKT",
+ "generated_at": "2026-10-29T01:22:51Z",
+ "generated_at_hkt": "2026-10-29 09:22 HKT",
+ "price_updated_hkt": "2026-10-29 09:22 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-28 10:00–10:53 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261028/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 105,
+   "count": 106,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2640,
+  "items": 2641,
   "both_sides": 40,
-  "water_only": 69,
+  "water_only": 70,
   "official_only": 2530,
   "matched_water": 43,
-  "official_groups": 2640,
+  "official_groups": 2641,
   "id_merge": {
    "enabled": true,
    "unions_upc": 158,
@@ -393,8 +393,8 @@
   ],
   "ivan": {
    "total_listings": 216,
-   "qualified": 135,
-   "deduped": 112,
+   "qualified": 136,
+   "deduped": 113,
    "excluded": {
     "seller": 181,
     "ship unknown": 1,
@@ -403,7 +403,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 24,
+    "ivan_gpu_rows": 25,
     "nic_jp_rows": 88,
     "skipped": {
      "bad_or_dup": 31
@@ -52427,6 +52427,43 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5070:triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX 5070 12GB Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7283,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F59N58GV",
+    "url": "https://www.amazon.fr/dp/B0F59N58GV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7283,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5070:oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -52491,43 +52528,6 @@
    "best_price": 7499,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070:triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GEFORCE RTX™ 5070 12GB Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7542,
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0F59N58GV",
-    "url": "https://www.amazon.es/dp/B0F59N58GV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7542,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070:oc+sff+windforce",
@@ -53207,6 +53207,43 @@
    "best_price": 9280,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY Placa Gráfica GeForce RTX 5070 Ti OC 16GB GDDR7",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9287,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0G6ZGLZWM",
+    "url": "https://www.amazon.de/dp/B0G6ZGLZWM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9287,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|pny:5070ti:oc+triple|water",
