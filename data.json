@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-30T12:14:57Z",
- "generated_at_hkt": "2026-10-30 20:14 HKT",
- "price_updated_hkt": "2026-10-30 20:14 HKT",
+ "generated_at": "2026-10-30T12:32:40Z",
+ "generated_at_hkt": "2026-10-30 20:32 HKT",
+ "price_updated_hkt": "2026-10-30 20:32 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-30 09:55–15:16 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261030/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 108,
+   "count": 109,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2652,
+  "items": 2653,
   "both_sides": 41,
-  "water_only": 69,
+  "water_only": 70,
   "official_only": 2541,
   "matched_water": 44,
-  "official_groups": 2652,
+  "official_groups": 2653,
   "id_merge": {
    "enabled": true,
    "unions_upc": 157,
@@ -396,18 +396,18 @@
   ],
   "ivan": {
    "total_listings": 218,
-   "qualified": 138,
-   "deduped": 113,
+   "qualified": 139,
+   "deduped": 114,
    "excluded": {
     "seller": 185,
     "no ship": 4,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 25,
+    "ivan_gpu_rows": 26,
     "nic_jp_rows": 87,
     "skipped": {
-     "bad_or_dup": 34
+     "bad_or_dup": 33
     }
    }
   }
@@ -52891,6 +52891,43 @@
    "best_price": 7799,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070:2x+oc+ventus+white|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:2x+oc+ventus+white",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI Gaming RTX 5070 12G Ventus 2X OC White Graphics Card (12 GB GDDR7, 192-bit, Extreme…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7834,
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DYG3JLGY",
+    "url": "https://www.amazon.co.uk/dp/B0DYG3JLGY",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7834,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070:oc+windforce",
