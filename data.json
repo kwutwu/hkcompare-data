@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-30T19:20:26Z",
- "generated_at_hkt": "2026-10-31 03:20 HKT",
- "price_updated_hkt": "2026-10-31 03:20 HKT",
+ "generated_at": "2026-10-30T19:48:32Z",
+ "generated_at_hkt": "2026-10-31 03:48 HKT",
+ "price_updated_hkt": "2026-10-31 03:48 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-30 09:55–15:16 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261030/hkcompare_rows.json",
@@ -332,9 +332,9 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 11,
-   "official_downloaded": 0,
+   "official_downloaded": 2,
    "official_cached": 2365,
-   "failed": 2
+   "failed": 0
   },
   "image_samples": [
    {
@@ -399,15 +399,15 @@
    "qualified": 139,
    "deduped": 111,
    "excluded": {
-    "seller": 184,
+    "seller": 185,
     "no ship": 4,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 27,
+    "ivan_gpu_rows": 28,
     "nic_jp_rows": 85,
     "skipped": {
-     "bad_or_dup": 36
+     "bad_or_dup": 35
     }
    }
   }
@@ -15319,9 +15319,9 @@
    "has_wifi": null,
    "ssd_capacity": null,
    "ssd_interface": null,
-   "image_url": "https://centralfield.com/Pimg/14923.webp",
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-04c990be05357345.webp",
+   "image": "img/hk-04c990be05357345.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/14923.webp",
    "water": null,
    "official": {
     "price_hkd": 299,
@@ -19689,9 +19689,9 @@
    "has_wifi": null,
    "ssd_capacity": null,
    "ssd_interface": null,
-   "image_url": "https://centralfield.com/Pimg/15543.webp",
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-739dc3d6a9f7d03e.webp",
+   "image": "img/hk-739dc3d6a9f7d03e.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/15543.webp",
    "water": null,
    "official": {
     "price_hkd": 429,
@@ -52709,7 +52709,7 @@
     "domain": "amazon.com",
     "asin": "B0FFKWFMYM",
     "url": "https://www.amazon.com/dp/B0FFKWFMYM",
-    "stock": "",
+    "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5070:oc+prime+white",
     "source": "amazon",
@@ -55864,7 +55864,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15570,
+    "price_hkd": 15572,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -55885,8 +55885,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 2429,
-   "best_price": 15570,
+   "delta_hkd": 2427,
+   "best_price": 15572,
    "has_water": true,
    "has_official": true
   },
@@ -56168,43 +56168,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5080:aorus+infinity+wood|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aorus+infinity+wood",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE AORUS GeForce RTX 5080 Infinity Wood 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 16649,
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0H86338KX",
-    "url": "https://www.amazon.fr/dp/B0H86338KX",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 16649,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5080:aorus+master+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -56277,6 +56240,43 @@
    "best_price": 16999,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5080:aorus+infinity+wood|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:aorus+infinity+wood",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE AORUS GeForce RTX 5080 Infinity Wood 16G Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 17021,
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0H86338KX",
+    "url": "https://www.amazon.fr/dp/B0H86338KX",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 17021,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|msi:5080:suprim",
