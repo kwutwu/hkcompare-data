@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-30T13:29:23Z",
- "generated_at_hkt": "2026-10-30 21:29 HKT",
- "price_updated_hkt": "2026-10-30 21:29 HKT",
+ "generated_at": "2026-10-30T13:57:04Z",
+ "generated_at_hkt": "2026-10-30 21:57 HKT",
+ "price_updated_hkt": "2026-10-30 21:57 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-30 09:55–15:16 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261030/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 221,
+   "count": 220,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 366,
+   "count": 365,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2652,
-  "both_sides": 41,
-  "water_only": 69,
-  "official_only": 2541,
-  "matched_water": 44,
-  "official_groups": 2652,
+  "items": 2650,
+  "both_sides": 39,
+  "water_only": 67,
+  "official_only": 2543,
+  "matched_water": 42,
+  "official_groups": 2650,
   "id_merge": {
    "enabled": true,
    "unions_upc": 157,
@@ -331,9 +331,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 10,
+   "amazon_cached": 11,
    "official_downloaded": 0,
-   "official_cached": 2366,
+   "official_cached": 2365,
    "failed": 2
   },
   "image_samples": [
@@ -396,16 +396,16 @@
   ],
   "ivan": {
    "total_listings": 218,
-   "qualified": 137,
-   "deduped": 113,
+   "qualified": 136,
+   "deduped": 109,
    "excluded": {
-    "seller": 186,
+    "seller": 185,
     "no ship": 4,
     "not desktop GPU": 3
    },
    "amazon_exports": {
     "ivan_gpu_rows": 25,
-    "nic_jp_rows": 87,
+    "nic_jp_rows": 85,
     "skipped": {
      "bad_or_dup": 31
     }
@@ -52685,6 +52685,59 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070:oc+prime+white",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070:oc+prime+white",
+   "part_number": "PRIME-RTX5070-O12G-WHITE",
+   "upc": "0199291046122",
+   "title": "ASUS Prime GeForce RTX 5070 12GB GDDR7 White OC Edition Gaming Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FFKWFMYM.jpg",
+   "image": "img/B0FFKWFMYM.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81GLS28VqWL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7363,
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0FFKWFMYM",
+    "url": "https://www.amazon.com/dp/B0FFKWFMYM",
+    "stock": "Only 4 left in stock - order soon.",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070:oc+prime+white",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 8100,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 8299,
+      "url": "https://shop.pegasus.hk/products/224494/ASUS-華碩-PRIME-GeForce-RTX-5070-12GB-White-OC-顯示卡---3年保養",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 737,
+   "best_price": 7363,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|galax:5070:oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -52837,59 +52890,6 @@
    "delta_hkd": null,
    "best_price": 7799,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:oc+prime+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070:oc+prime+white",
-   "part_number": "PRIME-RTX5070-O12G-WHITE",
-   "upc": "0199291046122",
-   "title": "ASUS PRIME GeForce RTX 5070 OC White 白色 12GB GDDR7 PRIME-RTX5070-O12G-WHITE (DI-E5070Q1…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-568a11b0cf71611d.png",
-   "image": "img/hk-568a11b0cf71611d.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_RTX_5070_OC_White_BOX.png?v=1761378836",
-   "water": {
-    "price_hkd": 7837,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0F8KLKQM3",
-    "url": "https://www.amazon.co.uk/dp/B0F8KLKQM3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number PRIME-RTX5070-O12G-WHITE",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 8100,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 8299,
-      "url": "https://shop.pegasus.hk/products/224494/ASUS-華碩-PRIME-GeForce-RTX-5070-12GB-White-OC-顯示卡---3年保養",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 263,
-   "best_price": 7837,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -57161,84 +57161,6 @@
    "has_official": false
   },
   {
-   "id": "mobo|mobo:asus:B760:mATX:prime-b760m-a:ddr4:nowifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B760:mATX:prime-b760m-a:ddr4:nowifi:",
-   "part_number": "MB-AB76PMB",
-   "upc": "0195553984041",
-   "title": "ASUS PRIME B760M-A D4 Micro-ATX 主機板 [B760 / PCIe 4.0 / DDR4 / 2.5G LAN] (LGA1700商用 / 華碩)",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ec8bbe7bfae16d45.png",
-   "image": "img/hk-ec8bbe7bfae16d45.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_B760M-A_D4.png?v=1736936880",
-   "water": {
-    "price_hkd": 688,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BQH8KCPQ",
-    "url": "https://www.amazon.co.jp/dp/B0BQH8KCPQ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:asus:B760:mATX:prime-b760m-a:ddr4:nowifi:",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 830,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-b760m-a-d4-ddr4-lga-1700-matx-motherboard",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 909,
-      "url": "https://shop.pegasus.hk/products/211685/ASUS-華碩-PRIME-B760M-A-D4-Micro-ATX-主機板-DDR4---3年保養",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 980,
-      "url": "https://centralfield.com/product/3664/asus-prime-b760m-a-d4-matx-ddr4-lga1700",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 980,
-      "url": "https://buymore.hk/shop/goods.php?id=32839",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 999,
-      "url": "https://secomputer.com.hk/products/48440",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 142,
-   "best_price": 688,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:asrock:B760:mATX:b760m-pg-riptide:ddr5:nowifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -57601,51 +57523,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS PRIME H610I-PLUS D4 Mini-ITX 主機板 [H610 / 實用迷你 / PCIe 4.0 / DDR4 / 1G LAN] (LGA1700…",
-   "spec": "H610",
-   "filter_tags": null,
-   "form_factor": "ITX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3efdf7135ca6ff2d.webp",
-   "image": "img/hk-3efdf7135ca6ff2d.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/3685.webp",
-   "water": {
-    "price_hkd": 767,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09XJQTQN1",
-    "url": "https://www.amazon.co.jp/dp/B09XJQTQN1",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 999,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/3685/asus-prime-h610i-plus-d4-itx",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 232,
-   "best_price": 767,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:msi:B650:mATX:b650m-bomber-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -57742,6 +57619,84 @@
    "delta_hkd": null,
    "best_price": 780,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B760:mATX:prime-b760m-a:ddr4:nowifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B760:mATX:prime-b760m-a:ddr4:nowifi:",
+   "part_number": "MB-AB76PMB",
+   "upc": "0195553984041",
+   "title": "ASUS PRIME B760M-A D4 Micro-ATX 主機板 [B760 / PCIe 4.0 / DDR4 / 2.5G LAN] (LGA1700商用 / 華碩)",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "M-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ec8bbe7bfae16d45.png",
+   "image": "img/hk-ec8bbe7bfae16d45.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_B760M-A_D4.png?v=1736936880",
+   "water": {
+    "price_hkd": 782,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BQH8KCPQ",
+    "url": "https://www.amazon.co.jp/dp/B0BQH8KCPQ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:asus:B760:mATX:prime-b760m-a:ddr4:nowifi:",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 830,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-b760m-a-d4-ddr4-lga-1700-matx-motherboard",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 909,
+      "url": "https://shop.pegasus.hk/products/211685/ASUS-華碩-PRIME-B760M-A-D4-Micro-ATX-主機板-DDR4---3年保養",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 980,
+      "url": "https://centralfield.com/product/3664/asus-prime-b760m-a-d4-matx-ddr4-lga1700",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 980,
+      "url": "https://buymore.hk/shop/goods.php?id=32839",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 999,
+      "url": "https://secomputer.com.hk/products/48440",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 48,
+   "best_price": 782,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -57893,47 +57848,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:msi:B760:mATX:b760m-gaming-plus-wifi:ddr4:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:B760:mATX:b760m-gaming-plus-wifi:ddr4:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI B760M GAMING PLUS WIFI DDR4 Intel第14/13/12世代 Coreプロセッサ対応 Micro-ATX マザーボード MB6564",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 812,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DM8K3ZCH",
-    "url": "https://www.amazon.co.jp/dp/B0DM8K3ZCH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 812,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:msi:B860:mATX:pro-b860m:ddr5:nowifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -58074,47 +57988,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 820,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "mobo|mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS PRIME B760-PLUS D4 intel 第14・13・12世代 CPU対応 LGA1700 B760 搭載 DDR4 ATX マザーボード/国内正規代理店品",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 835,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BQH92RQS",
-    "url": "https://www.amazon.co.jp/dp/B0BQH92RQS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 835,
    "has_water": true,
    "has_official": false
   },
@@ -58306,47 +58179,6 @@
    "best_price": 866,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:msi:B760:ATX:b760-gaming-plus-wifi:ddr4:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:B760:ATX:b760-gaming-plus-wifi:ddr4:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI B760 GAMING PLUS WIFI DDR4 Intel第14/13/12世代 Coreプロセッサ対応 ATX マザーボード MB6563",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 866,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DM8L87PZ",
-    "url": "https://www.amazon.co.jp/dp/B0DM8L87PZ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 866,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asrock:B650:mATX:b650m-hdv:ddr5:nowifi:white",
@@ -58775,6 +58607,88 @@
    "best_price": 909,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS PRIME B760-PLUS D4 intel 第14・13・12世代 CPU対応 LGA1700 B760 搭載 DDR4 ATX マザーボード/国内正規代理店品",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 912,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BQH92RQS",
+    "url": "https://www.amazon.co.jp/dp/B0BQH92RQS",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 912,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "mobo|mobo:msi:B760:ATX:b760-gaming-plus-wifi:ddr4:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "mobo:msi:B760:ATX:b760-gaming-plus-wifi:ddr4:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI B760 GAMING PLUS WIFI DDR4 Intel第14/13/12世代 Coreプロセッサ対応 ATX マザーボード MB6563",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 927,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DM8L87PZ",
+    "url": "https://www.amazon.co.jp/dp/B0DM8L87PZ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 927,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B760:mATX:prime-b760m-a:ddr5:nowifi:",
@@ -59237,59 +59151,6 @@
    "has_official": false
   },
   {
-   "id": "mobo|mobo:msi:B850:mATX:b850m-gaming-plus-wifi6e:ddr5:wifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:B850:mATX:b850m-gaming-plus-wifi6e:ddr5:wifi:",
-   "part_number": "MB-RB85MG6",
-   "upc": null,
-   "title": "MSI B850M GAMING PLUS WIFI6E AM5 mATX MB (MB-RB85MG6)",
-   "spec": "B850",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3dd0d5c5fa845ebc.webp",
-   "image": "img/hk-3dd0d5c5fa845ebc.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4fde4031c8738e213d856980b8901dc0.webp",
-   "water": {
-    "price_hkd": 993,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B096Y414R3",
-    "url": "https://www.amazon.co.jp/dp/B096Y414R3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:msi:B850:mATX:b850m-gaming-plus-wifi6e:ddr5:wifi:",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 1249,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/234281/MSI-微星-B850M-GAMING-PLUS-WIFI6E--mATX-主機板-DDR5---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 1349,
-      "url": "https://secomputer.com.hk/products/63542",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 256,
-   "best_price": 993,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "mobo|mobo:msi:B860:mATX:b860m-gaming-plus-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -59383,6 +59244,39 @@
       "build_only": false
      }
     ]
+   },
+   "delta_hkd": null,
+   "best_price": 999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS PRIME H610I-PLUS D4 Mini-ITX 主機板 [H610 / 實用迷你 / PCIe 4.0 / DDR4 / 1G LAN] (LGA1700…",
+   "spec": "H610",
+   "filter_tags": null,
+   "form_factor": "ITX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3efdf7135ca6ff2d.webp",
+   "image": "img/hk-3efdf7135ca6ff2d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/3685.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/3685/asus-prime-h610i-plus-d4-itx",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 999,
@@ -60695,6 +60589,47 @@
       "store_short": "SE",
       "price_hkd": 1280,
       "url": "https://secomputer.com.hk/products/63439",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 1249,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:msi:B850:mATX:b850m-gaming-plus-wifi6e:ddr5:wifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "mobo:msi:B850:mATX:b850m-gaming-plus-wifi6e:ddr5:wifi:",
+   "part_number": "MB-RB85MG6",
+   "upc": null,
+   "title": "MSI B850M GAMING PLUS WIFI6E AM5 mATX MB (MB-RB85MG6)",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3dd0d5c5fa845ebc.webp",
+   "image": "img/hk-3dd0d5c5fa845ebc.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/4fde4031c8738e213d856980b8901dc0.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 1249,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/234281/MSI-微星-B850M-GAMING-PLUS-WIFI6E--mATX-主機板-DDR5---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 1349,
+      "url": "https://secomputer.com.hk/products/63542",
       "build_only": false
      }
     ]
@@ -87487,7 +87422,7 @@
    "image": "img/hk-2d4618a0181771d9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/97b1bbb2-ff47-478b-60ed-66390a2a8f00/public",
    "water": {
-    "price_hkd": 1781,
+    "price_hkd": 1779,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -87546,8 +87481,8 @@
      }
     ]
    },
-   "delta_hkd": 318,
-   "best_price": 1781,
+   "delta_hkd": 320,
+   "best_price": 1779,
    "has_water": true,
    "has_official": true
   },
@@ -90514,46 +90449,6 @@
    "best_price": 4050,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:5200:black:2x16:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:5200:black:2x16:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5 32GB（16GB×2）最大 5200MHz対応 Intel RAM",
-   "spec": "DDR5 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4050,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0B62YRGSJ",
-    "url": "https://www.amazon.co.jp/dp/B0B62YRGSJ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4050,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:v-color:x:6000c30:ddr5:dimm:32:6000:white:2x16:cl?",
