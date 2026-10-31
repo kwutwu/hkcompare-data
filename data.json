@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-31T04:42:58Z",
- "generated_at_hkt": "2026-10-31 12:42 HKT",
- "price_updated_hkt": "2026-10-31 12:42 HKT",
+ "generated_at": "2026-10-31T05:01:06Z",
+ "generated_at_hkt": "2026-10-31 13:01 HKT",
+ "price_updated_hkt": "2026-10-31 13:01 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-31 10:01–11:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261031/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 116,
+   "count": 117,
    "enabled": true
   },
   "cpu": {
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 218,
+   "count": 217,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 354,
+   "count": 353,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2633,
+  "items": 2632,
   "both_sides": 40,
-  "water_only": 70,
+  "water_only": 69,
   "official_only": 2522,
   "matched_water": 42,
-  "official_groups": 2633,
+  "official_groups": 2632,
   "id_merge": {
    "enabled": true,
    "unions_upc": 183,
@@ -393,17 +393,17 @@
   "ivan": {
    "total_listings": 219,
    "qualified": 138,
-   "deduped": 112,
+   "deduped": 111,
    "excluded": {
     "seller": 185,
     "no ship": 4,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 28,
-    "nic_jp_rows": 83,
+    "ivan_gpu_rows": 29,
+    "nic_jp_rows": 82,
     "skipped": {
-     "bad_or_dup": 36
+     "bad_or_dup": 34
     }
    }
   }
@@ -51960,73 +51960,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070:2x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:2x+oc+ventus",
-   "part_number": "G5070-12V2C",
-   "upc": "0824142405727",
-   "title": "【RTX5070】MSI RTX5070 VENTUS 2X OC 12GB【黑色】[長: 236mm]",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0267beecf48f040a.png",
-   "image": "img/hk-0267beecf48f040a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
-   "water": {
-    "price_hkd": 6455,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DX7JJ87N",
-    "url": "https://www.amazon.de/dp/B0DX7JJ87N",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5070:2x+oc+ventus",
-    "source": "amazon",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7699,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223624/MSI-微星-GeForce-RTX-5070-VENTUS-2X-OC-12GB-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 7899,
-      "url": "https://centralfield.com/product/11763/msi-rtx-5070-ventus-2x-oc-sff-ready",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 8599,
-      "url": "https://secomputer.com.hk/products/56793",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 9200,
-      "url": "https://buymore.hk/shop/goods.php?id=43990",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 1244,
-   "best_price": 6455,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5070:dual+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -52214,6 +52147,73 @@
    "best_price": 6823,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|msi:5070:2x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:2x+oc+ventus",
+   "part_number": "G5070-12V2C",
+   "upc": "0824142405727",
+   "title": "【RTX5070】MSI RTX5070 VENTUS 2X OC 12GB【黑色】[長: 236mm]",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0267beecf48f040a.png",
+   "image": "img/hk-0267beecf48f040a.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
+   "water": {
+    "price_hkd": 6825,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DX7JJ87N",
+    "url": "https://www.amazon.es/dp/B0DX7JJ87N",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5070:2x+oc+ventus",
+    "source": "amazon",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7699,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223624/MSI-微星-GeForce-RTX-5070-VENTUS-2X-OC-12GB-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7899,
+      "url": "https://centralfield.com/product/11763/msi-rtx-5070-ventus-2x-oc-sff-ready",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 8599,
+      "url": "https://secomputer.com.hk/products/56793",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 9200,
+      "url": "https://buymore.hk/shop/goods.php?id=43990",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 874,
+   "best_price": 6825,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|msi:5070:2x+oc+shadow",
@@ -52844,43 +52844,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:aero+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:aero+oc",
-   "part_number": "GV-N5070AEROOC-12GD",
-   "upc": null,
-   "title": "Gigabyte GeForce RTX 5070 AERO OC 12G Graphics Card - 12GB GDDR7, 192bit, PCI-E 5.0, 26…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7598,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DTGNWLXJ",
-    "url": "https://www.amazon.co.uk/dp/B0DTGNWLXJ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7598,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5070:eagle+ice+oc+sff|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -53350,6 +53313,43 @@
    "has_official": false
   },
   {
+   "id": "gpu|gigabyte:5070:aero+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:aero+oc",
+   "part_number": "GV-N5070AEROOC-12GD",
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5070 Aero OC 12G Graphics Card - 12GB GDDR7, 192-bit, PCI-E 5.0, 2…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 8353,
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DTGNWLXJ",
+    "url": "https://www.amazon.es/dp/B0DTGNWLXJ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 8353,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|asus:5070:oc+tuf",
    "category": "gpu",
    "cooler_kind": null,
@@ -53632,6 +53632,43 @@
    "best_price": 9280,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY Placa Gráfica GeForce RTX 5070 Ti OC 16GB GDDR7",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9324,
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0G6ZGLZWM",
+    "url": "https://www.amazon.de/dp/B0G6ZGLZWM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9324,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|pny:5070ti:triple|water",
@@ -59585,7 +59622,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 1051,
+    "price_hkd": 1062,
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
@@ -59599,7 +59636,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1051,
+   "best_price": 1062,
    "has_water": true,
    "has_official": false
   },
@@ -60871,43 +60908,6 @@
    "has_official": false
   },
   {
-   "id": "mobo|mobo:asus:B650:mATX:tuf-gaming-b650em-plus-wifi:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B650:mATX:tuf-gaming-b650em-plus-wifi:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS AMD B650 chipset Ryzen デスクトップ プロセッサー用 AM5対応 micro-ATX マザーボード TUF GAMING B650EM-PLU…",
-   "spec": "B650",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1257,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0FMR9X3KJ",
-    "url": "https://www.amazon.co.jp/dp/B0FMR9X3KJ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1257,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asus:B650:ATX:rog-strix-b650a-gaming-wifi-ryzen:ddr5:wifi:|water",
    "category": "mobo",
    "cooler_kind": null,
@@ -61266,43 +61266,6 @@
    "best_price": 1320,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:asrock:X870:ATX:x870-challenger-wifi-white-ryzen:ddr5:wifi:white|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASRock",
-   "model_key": "mobo:asrock:X870:ATX:x870-challenger-wifi-white-ryzen:ddr5:wifi:white",
-   "part_number": null,
-   "upc": null,
-   "title": "ASRock X870 Challenger WiFi White AMD Ryzen (AM5)対応 DDR5 ATX マザーボード【正規代理店品】",
-   "spec": "X870",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1327,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0GWM7NRL8",
-    "url": "https://www.amazon.co.jp/dp/B0GWM7NRL8",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1327,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:msi:B860:mATX:b860m-gaming-plus-wifi6e:ddr5:wifi:",
@@ -67195,6 +67158,43 @@
    "best_price": 2480,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:Z890:E-ATX:rog-strix-z890f-gaming-wifi-core-ultra-processors-series:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:Z890:E-ATX:rog-strix-z890f-gaming-wifi-core-ultra-processors-series:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS ROG STRIX Z890-F GAMING WIFI intel Core Ultra Processors (series 2) 対応 LGA 1851 Z8…",
+   "spec": "Z890",
+   "filter_tags": null,
+   "form_factor": "E-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 2494,
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DK4WYZYQ",
+    "url": "https://www.amazon.co.jp/dp/B0DK4WYZYQ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "source": "amazon",
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2494,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:X870:mATX:prime-x870p-wifi-csm:ddr5:wifi:",
@@ -92738,47 +92738,6 @@
    "best_price": 4600,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:dominatorplatinum:ddr5:dimm:32:6400:black:2x16:cl32|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:dominatorplatinum:ddr5:dimm:32:6400:black:2x16:cl32",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR DOMINATOR PLATINUM RGB DDR5 メモリ 32GB(16GB×2)最大6400MHz対応 Intel XMP対応 CL32 デスクトップ…",
-   "spec": "DDR5-6400 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "6400"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4641,
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BPLCCR1J",
-    "url": "https://www.amazon.co.jp/dp/B0BPLCCR1J",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4641,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:biwin:dw100:ddr5:dimm:32:6000:black:2x16:cl?",
