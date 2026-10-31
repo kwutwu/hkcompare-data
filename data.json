@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-10-31T16:57:48Z",
- "generated_at_hkt": "2026-11-01 00:57 HKT",
- "price_updated_hkt": "2026-11-01 00:57 HKT",
+ "generated_at": "2026-10-31T17:23:52Z",
+ "generated_at_hkt": "2026-11-01 01:23 HKT",
+ "price_updated_hkt": "2026-11-01 01:23 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-10-31 10:01–11:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261031/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 117,
+   "count": 116,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2637,
+  "items": 2636,
   "both_sides": 39,
-  "water_only": 74,
+  "water_only": 73,
   "official_only": 2523,
   "matched_water": 41,
-  "official_groups": 2637,
+  "official_groups": 2636,
   "id_merge": {
    "enabled": true,
    "unions_upc": 183,
@@ -392,8 +392,8 @@
   ],
   "ivan": {
    "total_listings": 220,
-   "qualified": 136,
-   "deduped": 115,
+   "qualified": 135,
+   "deduped": 114,
    "excluded": {
     "seller": 186,
     "no ship": 5,
@@ -401,10 +401,10 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 28,
+    "ivan_gpu_rows": 27,
     "nic_jp_rows": 86,
     "skipped": {
-     "bad_or_dup": 39
+     "bad_or_dup": 38
     }
    }
   }
@@ -53633,43 +53633,6 @@
    "best_price": 9280,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070ti:oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070ti:oc",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY Placa Gráfica GeForce RTX 5070 Ti OC 16GB GDDR7",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 9287,
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0G6ZGLZWM",
-    "url": "https://www.amazon.de/dp/B0G6ZGLZWM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 9287,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|pny:5070ti:triple|water",
