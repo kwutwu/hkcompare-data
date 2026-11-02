@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-02T19:46:06Z",
- "generated_at_hkt": "2026-11-03 03:46 HKT",
- "price_updated_hkt": "2026-11-03 03:46 HKT",
+ "generated_at": "2026-11-02T20:03:39Z",
+ "generated_at_hkt": "2026-11-03 04:03 HKT",
+ "price_updated_hkt": "2026-11-03 04:03 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-02 20:20–21:38 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261102/hkcompare_rows.json",
@@ -409,7 +409,7 @@
     "nic_jp_rows": 92,
     "jd_ddr_rows": 29,
     "skipped": {
-     "bad_or_dup": 39
+     "bad_or_dup": 36
     }
    }
   }
@@ -54101,7 +54101,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7904,
+    "price_hkd": 7905,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -54116,7 +54116,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7904,
+   "best_price": 7905,
    "has_water": true,
    "has_official": false
   },
@@ -54139,7 +54139,7 @@
    "image": "img/hk-568a11b0cf71611d.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_RTX_5070_OC_White_BOX.png?v=1761378836",
    "water": {
-    "price_hkd": 7906,
+    "price_hkd": 7907,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -54169,8 +54169,8 @@
      }
     ]
    },
-   "delta_hkd": 194,
-   "best_price": 7906,
+   "delta_hkd": 193,
+   "best_price": 7907,
    "has_water": true,
    "has_official": true
   },
@@ -54919,7 +54919,7 @@
    "image": "img/hk-733836fa60c702e5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/486214b6-de3c-43f0-ab3a-9c9e22aa2e00/public",
    "water": {
-    "price_hkd": 10254,
+    "price_hkd": 10256,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -54949,8 +54949,8 @@
      }
     ]
    },
-   "delta_hkd": 2645,
-   "best_price": 10254,
+   "delta_hkd": 2643,
+   "best_price": 10256,
    "has_water": true,
    "has_official": true
   },
@@ -54973,7 +54973,7 @@
    "image": "img/hk-2306810aa7e8608c.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d1e96ffa-72f2-429d-2aa4-84c990824c00/public",
    "water": {
-    "price_hkd": 10300,
+    "price_hkd": 10301,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -55003,8 +55003,8 @@
      }
     ]
    },
-   "delta_hkd": 1099,
-   "best_price": 10300,
+   "delta_hkd": 1098,
+   "best_price": 10301,
    "has_water": true,
    "has_official": true
   },
@@ -55351,44 +55351,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070ti:gaming trio+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070ti:gaming trio+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI NVIDIA GeForce RTX 5070 Ti 16G GAMING TRIO OC Graphics Card",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 11360,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0F1NJF1K4",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0F1NJF1K4",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11360,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5070ti:eagle+oc+sff",
    "category": "gpu",
    "cooler_kind": null,
@@ -55562,7 +55524,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 11628,
+    "price_hkd": 11630,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -55577,7 +55539,45 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11628,
+   "best_price": 11630,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|msi:5070ti:gaming trio+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070ti:gaming trio+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5070 Ti 16G GAMING TRIO OC Graphics Card - RTX 5070 Ti GPU",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 11645,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0F1NJF1K4",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0F1NJF1K4",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11645,
    "has_water": true,
    "has_official": false
   },
@@ -55600,7 +55600,7 @@
    "image": "img/hk-a80b55041924e90b.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/fwebp_26_296d0fc7-95f9-4297-a35f-c31af5dac64c.webp?v=1792747814",
    "water": {
-    "price_hkd": 11676,
+    "price_hkd": 11677,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -55637,8 +55637,8 @@
      }
     ]
    },
-   "delta_hkd": 1023,
-   "best_price": 11676,
+   "delta_hkd": 1022,
+   "best_price": 11677,
    "has_water": true,
    "has_official": true
   },
@@ -55661,7 +55661,7 @@
    "image": "img/hk-d1ba4dd49a0f4422.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/10_7fe1c1e5-a242-4a8d-bd9b-43dba59f1f49.png?v=1761378599",
    "water": {
-    "price_hkd": 11676,
+    "price_hkd": 11677,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -55705,8 +55705,8 @@
      }
     ]
    },
-   "delta_hkd": 1023,
-   "best_price": 11676,
+   "delta_hkd": 1022,
+   "best_price": 11677,
    "has_water": true,
    "has_official": true
   },
