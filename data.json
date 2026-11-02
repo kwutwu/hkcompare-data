@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-02T16:00:15Z",
- "generated_at_hkt": "2026-11-03 00:00 HKT",
- "price_updated_hkt": "2026-11-03 00:00 HKT",
+ "generated_at": "2026-11-02T16:26:24Z",
+ "generated_at_hkt": "2026-11-03 00:26 HKT",
+ "price_updated_hkt": "2026-11-03 00:26 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-02 20:20–21:38 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261102/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 116,
+   "count": 115,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2691,
+  "items": 2690,
   "both_sides": 42,
-  "water_only": 73,
+  "water_only": 72,
   "official_only": 2575,
   "matched_water": 44,
-  "official_groups": 2691,
+  "official_groups": 2690,
   "id_merge": {
    "enabled": true,
    "unions_upc": 163,
@@ -332,7 +332,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 11,
+   "amazon_cached": 10,
    "official_downloaded": 0,
    "official_cached": 2347,
    "failed": 1
@@ -397,11 +397,11 @@
   ],
   "ivan": {
    "total_listings": 220,
-   "qualified": 143,
-   "deduped": 117,
+   "qualified": 142,
+   "deduped": 116,
    "excluded": {
-    "seller": 186,
-    "no ship": 7,
+    "seller": 189,
+    "no ship": 5,
     "not desktop GPU": 3
    },
    "amazon_exports": {
@@ -56289,7 +56289,7 @@
    "image": "img/B0GWRN4Q36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13566,
+    "price_hkd": 13568,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -56310,8 +56310,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 1534,
-   "best_price": 13566,
+   "delta_hkd": 1532,
+   "best_price": 13568,
    "has_water": true,
    "has_official": true
   },
@@ -56454,7 +56454,7 @@
    "image": "img/B0FD3XZ8P1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/7192KlMK8gL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14324,
+    "price_hkd": 14326,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -56468,7 +56468,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14324,
+   "best_price": 14326,
    "has_water": true,
    "has_official": false
   },
@@ -56491,7 +56491,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14327,
+    "price_hkd": 14329,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -56512,8 +56512,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 3672,
-   "best_price": 14327,
+   "delta_hkd": 3670,
+   "best_price": 14329,
    "has_water": true,
    "has_official": true
   },
@@ -56602,7 +56602,7 @@
    "image": "img/B0H5NNTMTH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14809,
+    "price_hkd": 14811,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -56623,8 +56623,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 2790,
-   "best_price": 14809,
+   "delta_hkd": 2788,
+   "best_price": 14811,
    "has_water": true,
    "has_official": true
   },
@@ -56842,7 +56842,7 @@
    "image": "img/B0BX6LGM2X.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71n9sxFO9dL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15048,
+    "price_hkd": 15050,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -56863,8 +56863,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 951,
-   "best_price": 15048,
+   "delta_hkd": 949,
+   "best_price": 15050,
    "has_water": true,
    "has_official": true
   },
@@ -56915,43 +56915,6 @@
    "best_price": 15050,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|msi:5080:gaming trio+oc+white|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:gaming trio+oc+white",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5080 16G GAMING TRIO OC WHITE Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DQGB8FTQ.jpg",
-   "image": "img/B0DQGB8FTQ.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71MTgvMq55L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15138,
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DQGB8FTQ",
-    "url": "https://www.amazon.co.uk/dp/B0DQGB8FTQ",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "source": "amazon",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15138,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5080:3x+oc+ventus+white",
@@ -57270,7 +57233,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 17236,
+    "price_hkd": 17238,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -57306,7 +57269,7 @@
      }
     ]
    },
-   "delta_hkd": -1237,
+   "delta_hkd": -1239,
    "best_price": 15999,
    "has_water": true,
    "has_official": true
@@ -57378,7 +57341,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16073,
+    "price_hkd": 16076,
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
     "domain": "amazon.de",
@@ -57399,8 +57362,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 1926,
-   "best_price": 16073,
+   "delta_hkd": 1923,
+   "best_price": 16076,
    "has_water": true,
    "has_official": true
   },
@@ -57656,7 +57619,7 @@
    "image": "img/hk-62c9351d1e2bdce9.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/81aaf628595202bdd85f34ad972ff294.webp",
    "water": {
-    "price_hkd": 17353,
+    "price_hkd": 17355,
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
     "domain": "amazon.co.uk",
@@ -57677,8 +57640,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 2646,
-   "best_price": 17353,
+   "delta_hkd": 2644,
+   "best_price": 17355,
    "has_water": true,
    "has_official": true
   },
