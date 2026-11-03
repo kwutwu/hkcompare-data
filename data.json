@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-03T00:34:35Z",
- "generated_at_hkt": "2026-11-03 08:34 HKT",
- "price_updated_hkt": "2026-11-03 08:34 HKT",
+ "generated_at": "2026-11-03T00:52:28Z",
+ "generated_at_hkt": "2026-11-03 08:52 HKT",
+ "price_updated_hkt": "2026-11-03 08:52 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-02 20:20–21:38 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261102/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 102,
+   "count": 101,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2706,
+  "items": 2705,
   "both_sides": 21,
-  "water_only": 88,
+  "water_only": 87,
   "official_only": 2596,
   "matched_water": 23,
-  "official_groups": 2706,
+  "official_groups": 2705,
   "id_merge": {
    "enabled": true,
    "unions_upc": 163,
@@ -397,8 +397,8 @@
   ],
   "ivan": {
    "total_listings": 220,
-   "qualified": 124,
-   "deduped": 111,
+   "qualified": 123,
+   "deduped": 110,
    "excluded": {
     "seller": 188,
     "no ship": 6,
@@ -406,7 +406,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 3,
+    "ivan_gpu_rows": 2,
     "nic_jp_rows": 92,
     "jd_ddr_rows": 29,
     "skipped": {}
@@ -53282,44 +53282,6 @@
    "best_price": 7099,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070:oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY NVIDIA GeForce RTX™ 5070 EPIC-X RGB® OC Triple-Fan Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7203,
-    "source": "amazon",
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0DYPGBX6J",
-    "sku": null,
-    "url": "https://www.amazon.com/dp/B0DYPGBX6J",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7203,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070:oc",
