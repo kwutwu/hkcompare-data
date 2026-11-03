@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-03T04:10:12Z",
- "generated_at_hkt": "2026-11-03 12:10 HKT",
- "price_updated_hkt": "2026-11-03 12:10 HKT",
+ "generated_at": "2026-11-03T04:11:37Z",
+ "generated_at_hkt": "2026-11-03 12:11 HKT",
+ "price_updated_hkt": "2026-11-03 12:11 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-03 09:14–12:04 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261103/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 161,
+   "count": 155,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2854,
+  "items": 2848,
   "both_sides": 22,
   "water_only": 89,
-  "official_only": 2742,
+  "official_only": 2736,
   "matched_water": 24,
-  "official_groups": 2854,
+  "official_groups": 2848,
   "id_merge": {
    "enabled": true,
    "unions_upc": 172,
@@ -81,7 +81,7 @@
    "name_key_splits": 43,
    "ram_soft_unions": 14,
    "ram_soft_ambiguous": 6,
-   "same_store_offers_dropped": 96,
+   "same_store_offers_dropped": 90,
    "pn_dropped_capacity_mismatch": 0
   },
   "hk_parallel": {
@@ -338,9 +338,9 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 0,
-   "official_downloaded": 0,
-   "official_cached": 2518,
-   "failed": 12
+   "official_downloaded": 6,
+   "official_cached": 2507,
+   "failed": 11
   },
   "image_samples": [
    {
@@ -51823,15 +51823,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti:eagle+ice+oc",
+   "id": "gpu|gigabyte:5060ti8:eagle+ice+oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti:eagle+ice+oc",
+   "model_key": "gigabyte:5060ti8:eagle+ice+oc",
    "part_number": null,
    "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC ICE 16G 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC ICE 8G 顯示卡",
+   "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -51848,15 +51848,7 @@
     "url": "https://shop.pegasus.hk/products/225302/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-EAGLE-OC-ICE-8G-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": true,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 7599,
-      "url": "https://shop.pegasus.hk/products/224179/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-EAGLE-OC-ICE-16G-顯示卡---3年保養",
-      "build_only": false
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 4299,
@@ -52045,105 +52037,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti:oc+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti:oc+windforce",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti WINDFORCE MAX OC 8G 顯示卡",
-   "spec": "RTX 5060 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1dcf33153dcf1a1a.png",
-   "image": "img/hk-1dcf33153dcf1a1a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/5da3f092-e99f-4882-90e1-e5074f6bfb00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 4599,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/235116/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-WINDFORCE-MAX-OC-8G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5060ti8:2x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti8:2x+oc+ventus",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5060Ti Ventus 2X OC Plus 8GB GDDR7 微星雙風扇超頻版顯示卡",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1f86cb169e7e7974.webp",
-   "image": "img/hk-1f86cb169e7e7974.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/12546.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4650,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/12546/msi-rtx-5060ti-ventus-2x-oc-plus-8gb-gddr7",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4650,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5060ti8:2x+oc+ventus+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti8:2x+oc+ventus+white",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5060Ti Ventus 2X OC Plus White 8GB GDDR7 微星白色雙風扇超頻版顯示卡",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-171349e985e5f6aa.webp",
-   "image": "img/hk-171349e985e5f6aa.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/22181.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 4699,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/22181/msi-rtx-5060ti-ventus-2x-oc-plus-white-8gb",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4699,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5060ti8:oc+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -52163,16 +52056,120 @@
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForce_RTX_5060_Ti_WINDFORCE_OC_8G-01.png?v=1751000733",
    "water": null,
    "official": {
-    "price_hkd": 4780,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5060-ti-windforce-oc-8gb-gddr7-gv-n506twf2oc-8gd",
+    "price_hkd": 4599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/235116/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-WINDFORCE-MAX-OC-8G-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 4780,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5060-ti-windforce-oc-8gb-gddr7-gv-n506twf2oc-8gd",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 4780,
+   "best_price": 4599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5060ti8:2x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5060ti8:2x+oc+ventus",
+   "part_number": "G506T-8V2CP",
+   "upc": "0824142420997",
+   "title": "MSI GeForce RTX 5060Ti Ventus 2X OC Plus 8GB GDDR7 微星雙風扇超頻版顯示卡",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1f86cb169e7e7974.webp",
+   "image": "img/hk-1f86cb169e7e7974.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/12546.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4650,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12546/msi-rtx-5060ti-ventus-2x-oc-plus-8gb-gddr7",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4799,
+      "url": "https://shop.pegasus.hk/products/225397/MSI-微星-GeForce-RTX-5060-Ti-8G-VENTUS-2X-OC-PLUS-顯示卡---3年保養",
+      "build_only": true
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 4999,
+      "url": "https://secomputer.com.hk/products/58782",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4650,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5060ti8:2x+oc+ventus+white",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5060ti8:2x+oc+ventus+white",
+   "part_number": null,
+   "upc": "0824142421307",
+   "title": "MSI GeForce RTX 5060Ti Ventus 2X OC Plus White 8GB GDDR7 微星白色雙風扇超頻版顯示卡",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-171349e985e5f6aa.webp",
+   "image": "img/hk-171349e985e5f6aa.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22181.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4699,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22181/msi-rtx-5060ti-ventus-2x-oc-plus-white-8gb",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4999,
+      "url": "https://shop.pegasus.hk/products/230347/MSI-微星-GeForce-RTX-5060-Ti-8G-VENTUS-2X-OC-WHITE-PLUS-顯示卡---3年保養",
+      "build_only": true
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 5150,
+      "url": "https://secomputer.com.hk/products/63951",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4699,
    "has_water": false,
    "has_official": true
   },
@@ -52251,56 +52248,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti:2x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti:2x+oc+ventus",
-   "part_number": "G506T-8V2CP",
-   "upc": "0824142420997",
-   "title": "MSI微星 GeForce RTX5060Ti 8G VENTUS 2X OC PLUS (G506T-8V2CP)",
-   "spec": "RTX 5060 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ca600cd0a3155daf.png",
-   "image": "img/hk-ca600cd0a3155daf.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b1abbb52-fe33-465f-b157-4701ab139b00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 4799,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/225397/MSI-微星-GeForce-RTX-5060-Ti-8G-VENTUS-2X-OC-PLUS-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 4999,
-      "url": "https://secomputer.com.hk/products/58782",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 4799,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5060ti:eagle+oc",
+   "id": "gpu|gigabyte:5060ti8:eagle+oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti:eagle+oc",
+   "model_key": "gigabyte:5060ti8:eagle+oc",
    "part_number": null,
    "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC 16G 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC 8G 顯示卡",
+   "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -52325,15 +52281,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti:windforce",
+   "id": "gpu|gigabyte:5060ti8:windforce",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti:windforce",
+   "model_key": "gigabyte:5060ti8:windforce",
    "part_number": null,
    "upc": null,
    "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti WINDFORCE 8G 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -52363,8 +52319,8 @@
    "cooler_kind": null,
    "brand": "MSI",
    "model_key": "msi:5060ti8:3x+oc+ventus",
-   "part_number": null,
-   "upc": null,
+   "part_number": "G506T-8V3C",
+   "upc": "0824142421031",
    "title": "MSI GeForce RTX 5060Ti Ventus 3X OC 8GB GDDR7 微星三風扇超頻版顯示卡",
    "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
@@ -52383,7 +52339,15 @@
     "url": "https://centralfield.com/product/15460/msi-rtx-5060ti-ventus-3x-oc-8gb",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 5450,
+      "url": "https://secomputer.com.hk/products/58781",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4899,
@@ -52432,15 +52396,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|inno3d:5060ti:3x+oc",
+   "id": "gpu|inno3d:5060ti8:3x+oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Inno3D",
-   "model_key": "inno3d:5060ti:3x+oc",
+   "model_key": "inno3d:5060ti8:3x+oc",
    "part_number": null,
    "upc": null,
    "title": "INNO3D GeForce RTX 5060 Ti X3 8G OC 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -52458,47 +52422,6 @@
     "stock": "現貨",
     "build_only": true,
     "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5060ti:2x+oc+ventus+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti:2x+oc+ventus+white",
-   "part_number": null,
-   "upc": "0824142421307",
-   "title": "MSI微星 GeForce RTX5060Ti 8G Ventus 2X OC White Plus 白色 (DI-N506TT8)",
-   "spec": "RTX 5060 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bb91a1aafaa7d9b2.png",
-   "image": "img/hk-bb91a1aafaa7d9b2.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f28ca68a-51ff-47d5-3d6e-2527aa246100/public",
-   "water": null,
-   "official": {
-    "price_hkd": 4999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/230347/MSI-微星-GeForce-RTX-5060-Ti-8G-VENTUS-2X-OC-WHITE-PLUS-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 5150,
-      "url": "https://secomputer.com.hk/products/63951",
-      "build_only": false
-     }
-    ]
    },
    "delta_hkd": null,
    "best_price": 4999,
@@ -52547,15 +52470,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti:aero+oc",
+   "id": "gpu|gigabyte:5060ti8:aero+oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti:aero+oc",
+   "model_key": "gigabyte:5060ti8:aero+oc",
    "part_number": null,
    "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti AERO OC 16G 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti AERO OC 8G 顯示卡",
+   "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -52621,39 +52544,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti:3x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti:3x+oc+ventus",
-   "part_number": "G506T-8V3C",
-   "upc": "0824142421031",
-   "title": "MSI微星 GeForce RTX5060Ti 8G VENTUS 3X OC (G506T-8V3C)",
-   "spec": "RTX 5060 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8b20cb423ae984fe.webp",
-   "image": "img/hk-8b20cb423ae984fe.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/0944e3c821077686f3e23cd77111a81a.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 5450,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/58781",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 5450,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5060ti8:oc+tuf",
    "category": "gpu",
    "cooler_kind": null,
@@ -52687,15 +52577,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti:gaming trio+oc",
+   "id": "gpu|msi:5060ti8:gaming trio+oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "MSI",
-   "model_key": "msi:5060ti:gaming trio+oc",
+   "model_key": "msi:5060ti8:gaming trio+oc",
    "part_number": null,
    "upc": "0824142422137",
-   "title": "MSI 微星 GeForce RTX 5060 Ti 16G GAMING TRIO OC 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "title": "MSI GeForce RTX5060Ti 8G GAMING TRIO OC",
+   "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -52712,15 +52602,7 @@
     "url": "https://secomputer.com.hk/products/57076",
     "stock": "現貨",
     "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 7299,
-      "url": "https://shop.pegasus.hk/products/224160/MSI-微星-GeForce-RTX-5060-Ti-16G-GAMING-TRIO-OC-顯示卡---3年保養",
-      "build_only": false
-     }
-    ]
+    "others": []
    },
    "delta_hkd": null,
    "best_price": 5650,
@@ -53058,10 +52940,66 @@
     "url": "https://centralfield.com/product/12547/zotac-gaming-rtx-5060-ti-twin-edge-oc-16gb-gddr7",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 6799,
+      "url": "https://shop.pegasus.hk/products/224214/ZOTAC-GAMING-Twin-Edge-GeForce-RTX-5060-Ti-16G-OC-顯示卡---3年保養",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 6349,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5060ti16:2x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5060ti16:2x+oc+ventus",
+   "part_number": null,
+   "upc": "0824142418567",
+   "title": "MSI GeForce RTX 5060Ti Ventus 2X OC PLUS 16GB GDDR7 SFF-Ready 微星雙風扇超頻版顯示卡",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a8569fd71951a88e.png",
+   "image": "img/hk-a8569fd71951a88e.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/ce288019-6603-4526-e06a-e3777a1f2b00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 6399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224802/MSI-微星-GeForce-RTX-5060-Ti-16G-VENTUS-2X-OC-PLUS-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 6599,
+      "url": "https://centralfield.com/product/12541/msi-rtx-5060ti-ventus-2x-oc-plus-16gb-gddr7",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 6999,
+      "url": "https://secomputer.com.hk/products/57080",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 6399,
    "has_water": false,
    "has_official": true
   },
@@ -53097,6 +53035,13 @@
       "store_short": "SE",
       "price_hkd": 6499,
       "url": "https://secomputer.com.hk/products/59029",
+      "build_only": false
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 6899,
+      "url": "https://shop.pegasus.hk/products/225460/ZOTAC-GAMING-Twin-Edge-GeForce-RTX-5060-Ti-16G-OC-White-顯示卡---3年保養",
       "build_only": false
      }
     ]
@@ -53181,46 +53126,13 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti16:2x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti16:2x+oc+ventus",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5060Ti Ventus 2X OC PLUS 16GB GDDR7 SFF-Ready 微星雙風扇超頻版顯示卡",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://centralfield.com/Pimg/12541.webp",
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 6599,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/12541/msi-rtx-5060ti-ventus-2x-oc-plus-16gb-gddr7",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 6599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5060ti16:2x+oc+shadow",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "MSI",
    "model_key": "msi:5060ti16:2x+oc+shadow",
-   "part_number": null,
-   "upc": null,
+   "part_number": "G506T-16S2CP",
+   "upc": "0824142418598",
    "title": "MSI GeForce RTX 5060Ti Shadow 2X OC PLUS 16GB GDDR7 微星雙風扇超頻版顯示卡",
    "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
@@ -53239,7 +53151,22 @@
     "url": "https://centralfield.com/product/14470/msi-rtx-5060ti-shadow-2x-oc-plus-16gb",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 6799,
+      "url": "https://shop.pegasus.hk/products/226222/MSI-微星-GeForce-RTX-5060-Ti-16G-SHADOW-2X-OC-PLUS-顯示卡---3年保養",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 6899,
+      "url": "https://secomputer.com.hk/products/58715",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 6660,
@@ -53354,70 +53281,29 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti:2x+oc+shadow",
+   "id": "gpu|gigabyte:5060ti16:eagle+oc",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti:2x+oc+shadow",
-   "part_number": "G506T-16S2CP",
-   "upc": "0824142418598",
-   "title": "MSI微星 GeForce RTX5060Ti 16G SHADOW 2X OC PLUS (G506T-16S2CP)",
-   "spec": "RTX 5060 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3d5995c62e3fa1b7.png",
-   "image": "img/hk-3d5995c62e3fa1b7.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/861d8197-9733-4355-6b87-eb3ffabe7900/public",
-   "water": null,
-   "official": {
-    "price_hkd": 6799,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/226222/MSI-微星-GeForce-RTX-5060-Ti-16G-SHADOW-2X-OC-PLUS-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 6899,
-      "url": "https://secomputer.com.hk/products/58715",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 6799,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|zotac:5060ti:oc+twin",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Zotac",
-   "model_key": "zotac:5060ti:oc+twin",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti16:eagle+oc",
    "part_number": null,
    "upc": null,
-   "title": "ZOTAC GAMING Twin Edge GeForce RTX 5060 Ti 16G OC 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC 16G 顯示卡",
+   "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
    "ssd_capacity": null,
    "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9bfdb5eb3fa53f8d.jpg",
-   "image": "img/hk-9bfdb5eb3fa53f8d.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/2cfcb252-0bac-44f9-ba95-db1fecdc4000/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ed412246890355c4.png",
+   "image": "img/hk-ed412246890355c4.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4f83f0d4-6b85-46ba-48a0-03b522429a00/public",
    "water": null,
    "official": {
     "price_hkd": 6799,
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224214/ZOTAC-GAMING-Twin-Edge-GeForce-RTX-5060-Ti-16G-OC-顯示卡---3年保養",
+    "url": "https://shop.pegasus.hk/products/224180/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-EAGLE-OC-16G-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
     "others": []
@@ -53428,15 +53314,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|inno3d:5060ti:2x",
+   "id": "gpu|inno3d:5060ti16:2x",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Inno3D",
-   "model_key": "inno3d:5060ti:2x",
-   "part_number": null,
-   "upc": null,
-   "title": "Inno3D GeForce RTX 5060 Ti X2 16G 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "model_key": "inno3d:5060ti16:2x",
+   "part_number": "N506T2-16D7-191073N",
+   "upc": "8886307700674",
+   "title": "INNO3D GeForce RTX5060Ti X2 GDDR7 16GB (N506T2-16D7-191073N)",
+   "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -53453,7 +53339,15 @@
     "url": "https://shop.pegasus.hk/products/224184/Inno3D-GeForce-RTX-5060-Ti-X2-16G-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7180,
+      "url": "https://secomputer.com.hk/products/57107",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 6899,
@@ -53461,15 +53355,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti:oc",
+   "id": "gpu|msi:5060ti16:oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "MSI",
-   "model_key": "msi:5060ti:oc",
+   "model_key": "msi:5060ti16:oc",
    "part_number": "G506T-16CC",
    "upc": "0824142442814",
    "title": "MSI微星 GeForce RTX5060Ti 16G CYCLONE OC GDDR7 (G506T-16CC)",
-   "spec": "RTX 5060 Ti",
+   "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -53484,39 +53378,6 @@
     "store": "SE Computer",
     "store_short": "SE",
     "url": "https://secomputer.com.hk/products/59937",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 6899,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|zotac:5060ti:oc+twin+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Zotac",
-   "model_key": "zotac:5060ti:oc+twin+white",
-   "part_number": null,
-   "upc": null,
-   "title": "ZOTAC GAMING Twin Edge GeForce RTX 5060 Ti 16G OC White 顯示卡",
-   "spec": "RTX 5060 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4a3577cd317a991c.png",
-   "image": "img/hk-4a3577cd317a991c.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/bbf42e12-c7e5-4acc-f334-361144734900/public",
-   "water": null,
-   "official": {
-    "price_hkd": 6899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/225460/ZOTAC-GAMING-Twin-Edge-GeForce-RTX-5060-Ti-16G-OC-White-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
     "others": []
@@ -53733,48 +53594,56 @@
    "has_official": true
   },
   {
-   "id": "gpu|inno3d:5060ti16:2x",
+   "id": "gpu|gigabyte:5060ti16:oc+windforce",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "Inno3D",
-   "model_key": "inno3d:5060ti16:2x",
-   "part_number": "N506T2-16D7-191073N",
-   "upc": "8886307700674",
-   "title": "INNO3D GeForce RTX5060Ti X2 GDDR7 16GB (N506T2-16D7-191073N)",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti16:oc+windforce",
+   "part_number": "GV-N506TWF2OC-16GD",
+   "upc": "0889523049372",
+   "title": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 16GB GDDR7 (GV-N506TWF2OC-16GD) - 3年保養",
    "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
    "ssd_capacity": null,
    "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-77b4226d410e23be.webp",
-   "image": "img/hk-77b4226d410e23be.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/942a45979137d06363cdeb5428da7d76.webp",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c1ed49af4d3f99c6.png",
+   "image": "img/hk-c1ed49af4d3f99c6.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b64c5055-7e51-4b7f-2d79-a90c3d0c8a00/public",
    "water": null,
    "official": {
-    "price_hkd": 7180,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/57107",
+    "price_hkd": 7199,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224181/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-WINDFORCE-OC-16G-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 7299,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5060-ti-windforce-oc-16gb-gddr7-gv-n506twf2oc-16gd",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 7180,
+   "best_price": 7199,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti:vanguard",
+   "id": "gpu|msi:5060ti16:vanguard",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "MSI",
-   "model_key": "msi:5060ti:vanguard",
+   "model_key": "msi:5060ti16:vanguard",
    "part_number": null,
    "upc": null,
    "title": "MSI 微星 GeForce RTX 5060 Ti 16G VANGUARD SOC 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -53799,32 +53668,47 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti16:oc+windforce",
+   "id": "gpu|msi:5060ti16:gaming trio+oc",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti16:oc+windforce",
-   "part_number": "GV-N506TWF2OC-16GD",
-   "upc": "0889523049372",
-   "title": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 16GB GDDR7 (GV-N506TWF2OC-16GD) - 3年保養",
+   "brand": "MSI",
+   "model_key": "msi:5060ti16:gaming trio+oc",
+   "part_number": null,
+   "upc": "0824142419380",
+   "title": "MSI GeForce RTX 5060Ti Gaming Trio OC 16GB GDDR7 微星三風扇超頻版顯示卡",
    "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
    "ssd_capacity": null,
    "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-96e1175271fb3dfc.png",
-   "image": "img/hk-96e1175271fb3dfc.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/2000_3_41dbc5c9-5591-4231-9340-eb684552c8d6.webp?v=1744863415",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dada366b8e7844c7.png",
+   "image": "img/hk-dada366b8e7844c7.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/62c06c79-4b96-4863-3c1d-743ab8436000/public",
    "water": null,
    "official": {
     "price_hkd": 7299,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5060-ti-windforce-oc-16gb-gddr7-gv-n506twf2oc-16gd",
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224160/MSI-微星-GeForce-RTX-5060-Ti-16G-GAMING-TRIO-OC-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7399,
+      "url": "https://centralfield.com/product/12648/msi-geforce-rtx-5060ti-gaming-trio-oc-16gb",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7899,
+      "url": "https://secomputer.com.hk/products/57078",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 7299,
@@ -53832,15 +53716,15 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti:gaming trio+oc+white",
+   "id": "gpu|msi:5060ti16:gaming trio+oc+white",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "MSI",
-   "model_key": "msi:5060ti:gaming trio+oc+white",
+   "model_key": "msi:5060ti16:gaming trio+oc+white",
    "part_number": null,
-   "upc": null,
+   "upc": "0824142419373",
    "title": "MSI 微星 GeForce RTX 5060 Ti 16G GAMING TRIO OC WHITE 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -53857,7 +53741,15 @@
     "url": "https://shop.pegasus.hk/products/224800/MSI-微星-GeForce-RTX-5060-Ti-16G-GAMING-TRIO-OC-WHITE-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": true,
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7999,
+      "url": "https://secomputer.com.hk/products/57581",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 7299,
@@ -53986,39 +53878,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060ti16:gaming trio+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti16:gaming trio+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5060Ti Gaming Trio OC 16GB GDDR7 微星三風扇超頻版顯示卡",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e459ca3b6145f9e1.webp",
-   "image": "img/hk-e459ca3b6145f9e1.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/12648.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 7399,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/12648/msi-geforce-rtx-5060ti-gaming-trio-oc-16gb",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 7399,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|galax:5070:oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -54093,15 +53952,81 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti:gaming+oc",
+   "id": "gpu|gigabyte:5060ti16:aero+oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti:gaming+oc",
+   "model_key": "gigabyte:5060ti16:aero+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti AERO OC 16G 顯示卡",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dbcb84bb519a4733.png",
+   "image": "img/hk-dbcb84bb519a4733.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f482c6b8-3360-414f-bf69-bae53ef65600/public",
+   "water": null,
+   "official": {
+    "price_hkd": 7599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224177/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-AERO-OC-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5060ti16:eagle+ice+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti16:eagle+ice+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC ICE 16G 顯示卡",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1991d6fbec74f78.png",
+   "image": "img/hk-d1991d6fbec74f78.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/54157167-ef2d-4611-bc47-c3ee16074100/public",
+   "water": null,
+   "official": {
+    "price_hkd": 7599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224179/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-EAGLE-OC-ICE-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7599,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5060ti16:gaming+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti16:gaming+oc",
    "part_number": null,
    "upc": null,
    "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti GAMING OC 16G 顯示卡",
-   "spec": "RTX 5060 Ti",
+   "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
@@ -54511,39 +54436,6 @@
     "url": "https://shop.pegasus.hk/products/223407/GIGABYTE-技嘉-GeForce-RTX-5070-GAMING-OC-12G-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": true,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 7999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5060ti16:gaming trio+oc+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060ti16:gaming trio+oc+white",
-   "part_number": null,
-   "upc": "0824142419373",
-   "title": "MSI GeForce RTX5060Ti 16GB GAMING TRIO OC WHITE",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2644751a987ebfd6.webp",
-   "image": "img/hk-2644751a987ebfd6.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/55b1b433847a63b5bca2ed1692a3db3c.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 7999,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/57581",
-    "stock": "現貨",
-    "build_only": false,
     "others": []
    },
    "delta_hkd": null,
