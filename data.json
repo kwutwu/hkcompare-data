@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-03T06:32:01Z",
- "generated_at_hkt": "2026-11-03 14:32 HKT",
- "price_updated_hkt": "2026-11-03 14:32 HKT",
+ "generated_at": "2026-11-03T06:39:34Z",
+ "generated_at_hkt": "2026-11-03 14:39 HKT",
+ "price_updated_hkt": "2026-11-03 14:39 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-03 09:14–12:04 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261103/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 156,
+   "count": 158,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2849,
-  "both_sides": 22,
-  "water_only": 90,
-  "official_only": 2736,
-  "matched_water": 24,
-  "official_groups": 2849,
+  "items": 2851,
+  "both_sides": 24,
+  "water_only": 92,
+  "official_only": 2734,
+  "matched_water": 26,
+  "official_groups": 2851,
   "id_merge": {
    "enabled": true,
    "unions_upc": 172,
@@ -402,8 +402,8 @@
   ],
   "ivan": {
    "total_listings": 220,
-   "qualified": 125,
-   "deduped": 114,
+   "qualified": 129,
+   "deduped": 118,
    "excluded": {
     "seller": 188,
     "no ship": 6,
@@ -411,7 +411,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 3,
+    "ivan_gpu_rows": 7,
     "nic_jp_rows": 93,
     "jd_ddr_rows": 29,
     "skipped": {}
@@ -53697,6 +53697,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5060ti8:gaming+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti8:gaming+oc",
+   "part_number": "T1-RTX5060TI-O8G-GAMING",
+   "upc": "0199291632264",
+   "title": "ASUS華碩 T1 GeForce RTX5060TI 8GB GDDR7 OC Edition (T1-RTX5060TI-O8G-GAMING)",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e9ff26725d3689b9.webp",
+   "image": "img/hk-e9ff26725d3689b9.webp",
+   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/ec391fe4e35a44c1704e627f992008d0.webp",
+   "water": {
+    "price_hkd": 4910,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H8XFRNDL",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0H8XFRNDL",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti8:gaming+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 5699,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/62218",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 789,
+   "best_price": 4910,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5060ti8:oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -53771,6 +53818,45 @@
    "best_price": 4999,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5060ti8:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti8:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte GV-N506TEAGLE OC-8GD NVIDIA Geforce RTX5060Ti GDDR7 8GB Graphics Board",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 5073,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F539PRT3",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F539PRT3",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 5073,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|asus:5060ti8:dual+oc",
@@ -53867,7 +53953,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dc17bfad8b67112b.png",
    "image": "img/hk-dc17bfad8b67112b.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/529605d5-31d7-4d20-72bc-7dc339b90f00/public",
-   "water": null,
+   "water": {
+    "price_hkd": 6140,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F4DVXKKX",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F4DVXKKX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti8:oc+prime",
+    "others": []
+   },
    "official": {
     "price_hkd": 5399,
     "store": "飛馬 PEGASUS",
@@ -53885,9 +53984,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -741,
    "best_price": 5399,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -53955,40 +54054,6 @@
    },
    "delta_hkd": null,
    "best_price": 5650,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5060ti8:gaming+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti8:gaming+oc",
-   "part_number": "T1-RTX5060TI-O8G-GAMING",
-   "upc": "0199291632264",
-   "title": "ASUS華碩 T1 GeForce RTX5060TI 8GB GDDR7 OC Edition (T1-RTX5060TI-O8G-GAMING)",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e9ff26725d3689b9.webp",
-   "image": "img/hk-e9ff26725d3689b9.webp",
-   "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/ec391fe4e35a44c1704e627f992008d0.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 5699,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/62218",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 5699,
    "has_water": false,
    "has_official": true
   },
@@ -55259,6 +55324,45 @@
    "best_price": 7399,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:5060ti16:dual|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti16:dual",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS NVIDIA GeForce RTX 5060 Ti Video Card GDDR7 PCI Express 5.0 / DUAL-RTX5060TI-O16G …",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7445,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F58FTZ7W",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F58FTZ7W",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7445,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|galax:5070:oc",
