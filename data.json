@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-04T02:07:07Z",
- "generated_at_hkt": "2026-11-04 10:07 HKT",
- "price_updated_hkt": "2026-11-04 10:07 HKT",
+ "generated_at": "2026-11-04T02:33:26Z",
+ "generated_at_hkt": "2026-11-04 10:33 HKT",
+ "price_updated_hkt": "2026-11-04 10:33 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-03 09:14–12:04 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261103/hkcompare_rows.json",
@@ -116,20 +116,20 @@
     }
    },
    "cf_exc": {
-    "source": "/workspace/hk_price_cache/run_20261103/cf_gpu_browser/cf_gpu_0956.txt",
-    "kept": 25,
+    "source": "/workspace/hk_price_cache/run_20261104/cf_gpu_browser/cf_gpu_1028.txt",
+    "kept": 27,
     "by_chip": {
-     "RTX 5070 Ti": 7,
+     "RTX 5070 Ti": 9,
      "RTX 5090D": 1,
      "RTX 5080": 17
     },
     "skipped": {
      "empty_price": 5,
-     "out_of_scope": 62
+     "not_build_only": 17
     },
-    "updated_hkt": "2026-11-03 09:56 HKT"
+    "updated_hkt": "2026-11-04 10:28 HKT"
    },
-   "cf_added": 1
+   "cf_added": 3
   },
   "case_clearance": {
    "source": "/workspace/site_hkcompare/diy_pc_cases_clearance.json",
@@ -56921,6 +56921,13 @@
       "build_only": false
      },
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 11999,
+      "url": "https://centralfield.com/product/11532/galax-rtx-5070-ti-ex-gamer-white",
+      "build_only": true
+     },
+     {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
       "price_hkd": 13500,
@@ -57233,6 +57240,13 @@
     "stock": "現貨",
     "build_only": false,
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 11950,
+      "url": "https://centralfield.com/product/11291/asus-prime-rtx-5070ti-oc-16gb",
+      "build_only": true
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
