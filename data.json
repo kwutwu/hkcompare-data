@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-04T03:15:51Z",
- "generated_at_hkt": "2026-11-04 11:15 HKT",
- "price_updated_hkt": "2026-11-04 11:15 HKT",
+ "generated_at": "2026-11-04T03:16:26Z",
+ "generated_at_hkt": "2026-11-04 11:16 HKT",
+ "price_updated_hkt": "2026-11-04 11:16 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-04 09:59–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261104/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 172,
+   "count": 171,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2869,
+  "items": 2868,
   "both_sides": 46,
-  "water_only": 104,
+  "water_only": 103,
   "official_only": 2718,
   "matched_water": 48,
-  "official_groups": 2869,
+  "official_groups": 2868,
   "id_merge": {
    "enabled": true,
    "unions_upc": 172,
@@ -399,19 +399,19 @@
   ],
   "ivan": {
    "total_listings": 226,
-   "qualified": 178,
-   "deduped": 152,
+   "qualified": 177,
+   "deduped": 151,
    "excluded": {
     "seller": 193,
     "no ship": 6,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 35,
+    "ivan_gpu_rows": 34,
     "nic_jp_rows": 90,
     "jd_ddr_rows": 29,
     "skipped": {
-     "bad_or_dup": 27
+     "bad_or_dup": 42
     }
    }
   }
@@ -53993,7 +53993,7 @@
    "image": "img/hk-e9ff26725d3689b9.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/ec391fe4e35a44c1704e627f992008d0.webp",
    "water": {
-    "price_hkd": 4910,
+    "price_hkd": 4904,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -54015,8 +54015,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 789,
-   "best_price": 4910,
+   "delta_hkd": 795,
+   "best_price": 4904,
    "has_water": true,
    "has_official": true
   },
@@ -54233,7 +54233,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 5073,
+    "price_hkd": 5067,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -54248,7 +54248,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 5073,
+   "best_price": 5067,
    "has_water": true,
    "has_official": false
   },
@@ -54321,7 +54321,7 @@
    "image": "img/hk-dc17bfad8b67112b.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/529605d5-31d7-4d20-72bc-7dc339b90f00/public",
    "water": {
-    "price_hkd": 6140,
+    "price_hkd": 6132,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -54358,7 +54358,7 @@
      }
     ]
    },
-   "delta_hkd": -741,
+   "delta_hkd": -733,
    "best_price": 5399,
    "has_water": true,
    "has_official": true
@@ -56290,45 +56290,6 @@
    "best_price": 7380,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5060ti16:dual|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti16:dual",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS NVIDIA GeForce RTX 5060 Ti Video Card GDDR7 PCI Express 5.0 / DUAL-RTX5060TI-O16G …",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 7445,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F58FTZ7W",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F58FTZ7W",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7445,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|galax:5070:oc",
