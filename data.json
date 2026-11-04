@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-04T19:03:10Z",
- "generated_at_hkt": "2026-11-05 03:03 HKT",
- "price_updated_hkt": "2026-11-05 03:03 HKT",
+ "generated_at": "2026-11-04T19:27:21Z",
+ "generated_at_hkt": "2026-11-05 03:27 HKT",
+ "price_updated_hkt": "2026-11-05 03:27 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-04 09:59–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261104/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 180,
+   "count": 181,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2886,
+  "items": 2887,
   "both_sides": 85,
-  "water_only": 120,
+  "water_only": 121,
   "official_only": 2680,
   "matched_water": 88,
-  "official_groups": 2886,
+  "official_groups": 2887,
   "id_merge": {
    "enabled": true,
    "unions_upc": 172,
@@ -334,7 +334,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 11,
+   "amazon_cached": 12,
    "official_downloaded": 0,
    "official_cached": 2533,
    "failed": 0
@@ -400,7 +400,7 @@
   "ivan": {
    "total_listings": 226,
    "qualified": 239,
-   "deduped": 208,
+   "deduped": 209,
    "excluded": {
     "seller": 191,
     "no ship": 6,
@@ -61131,6 +61131,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:oc+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5080 16GB OC Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJFZ4YS.jpg",
+   "image": "img/B0DTJFZ4YS.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 16188,
+    "source": "amazon",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DTJFZ4YS",
+    "sku": null,
+    "url": "https://www.amazon.es/dp/B0DTJFZ4YS",
+    "stock": "Only 1 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 16188,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|asus:5080:btf+oc+tuf",
    "category": "gpu",
    "cooler_kind": null,
@@ -61486,7 +61525,7 @@
    "image": "img/B0DTJDR3V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 17742,
+    "price_hkd": 17671,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -61501,7 +61540,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 17742,
+   "best_price": 17671,
    "has_water": true,
    "has_official": false
   },
