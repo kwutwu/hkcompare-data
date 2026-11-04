@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-04T22:20:01Z",
- "generated_at_hkt": "2026-11-05 06:20 HKT",
- "price_updated_hkt": "2026-11-05 06:20 HKT",
+ "generated_at": "2026-11-04T22:42:39Z",
+ "generated_at_hkt": "2026-11-05 06:42 HKT",
+ "price_updated_hkt": "2026-11-05 06:42 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-04 09:59–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261104/hkcompare_rows.json",
@@ -413,7 +413,7 @@
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
-     "bad_or_dup": 36
+     "bad_or_dup": 42
     }
    }
   }
@@ -54327,6 +54327,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5060ti8:dual|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti8:dual",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS Dual GeForce RTX 5060 Ti 8GB GDDR7 Gaming Graphics Card",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 4450,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0BSHD2SQ5",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0BSHD2SQ5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4450,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|inno3d:5060ti8:2x",
    "category": "gpu",
    "cooler_kind": null,
@@ -54703,45 +54742,6 @@
    "best_price": 4699,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|asus:5060ti8:dual|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti8:dual",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS DUAL RTX5060Ti 8GB GDDR7 NVIDIA GeForce Graphics Card, Grey",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4779,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0BSHD2SQ5",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0BSHD2SQ5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4779,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|galax:5060ti8:oc",
@@ -55458,6 +55458,68 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5060ti16:oc+prime",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti16:oc+prime",
+   "part_number": "PRIME-RTX5060TI-O16G",
+   "upc": "0197105994058",
+   "title": "ASUS Prime GeForce RTX5060Ti 16GB GDDR7 OC Edition (PRIME-RTX5060TI-O16G)",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-71befc71982171b5.png",
+   "image": "img/hk-71befc71982171b5.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/979f922b-2de0-45a5-c726-0312e5bd5d00/public",
+   "water": {
+    "price_hkd": 6175,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0F4DQYLP5",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0F4DQYLP5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti16:oc+prime",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 6999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224168/ASUS-華碩-PRIME-GeForce-RTX-5060-Ti-16GB-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7299,
+      "url": "https://secomputer.com.hk/products/57171",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 7600,
+      "url": "https://buymore.hk/shop/goods.php?id=44346",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 824,
+   "best_price": 6175,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|manli:5060ti16:2x",
    "category": "gpu",
    "cooler_kind": null,
@@ -55625,68 +55687,6 @@
    "delta_hkd": null,
    "best_price": 6299,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5060ti16:oc+prime",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti16:oc+prime",
-   "part_number": "PRIME-RTX5060TI-O16G",
-   "upc": "0197105994058",
-   "title": "ASUS Prime GeForce RTX5060Ti 16GB GDDR7 OC Edition (PRIME-RTX5060TI-O16G)",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-71befc71982171b5.png",
-   "image": "img/hk-71befc71982171b5.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/979f922b-2de0-45a5-c726-0312e5bd5d00/public",
-   "water": {
-    "price_hkd": 6330,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0F4DQYLP5",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0F4DQYLP5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti16:oc+prime",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 6999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224168/ASUS-華碩-PRIME-GeForce-RTX-5060-Ti-16GB-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 7299,
-      "url": "https://secomputer.com.hk/products/57171",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 7600,
-      "url": "https://buymore.hk/shop/goods.php?id=44346",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 669,
-   "best_price": 6330,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -56234,7 +56234,7 @@
    "model_key": "gigabyte:5060ti16:3x+oc+windforce",
    "part_number": null,
    "upc": null,
-   "title": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 16G Graphics Card - 16GB GDDR7, 128-bit, PCI-…",
+   "title": "Gigabyte GeForce RTX 5060 Ti WINDFORCE OC 16G Graphics Card - 16GB GDDR7, 128Bit, PCI-E…",
    "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
@@ -56246,14 +56246,14 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6850,
+    "price_hkd": 6749,
     "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
     "asin": "B0F4NHSHSQ",
     "sku": null,
-    "url": "https://www.amazon.es/dp/B0F4NHSHSQ",
+    "url": "https://www.amazon.de/dp/B0F4NHSHSQ",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -56261,7 +56261,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6850,
+   "best_price": 6749,
    "has_water": true,
    "has_official": false
   },
@@ -59982,61 +59982,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
-   "image": "img/B0GZWW2RKH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13927,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0GZWW2RKH",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0GZWW2RKH",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 15298,
-      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 1072,
-   "best_price": 13927,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5080:evo+oc+prime",
    "category": "gpu",
    "cooler_kind": null,
@@ -60102,6 +60047,61 @@
    },
    "delta_hkd": 1367,
    "best_price": 13933,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5080:3x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
+   "image": "img/B0GZWW2RKH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13961,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0GZWW2RKH",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0GZWW2RKH",
+    "stock": "Available to ship in 1-2 days",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+oc+ventus",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 15298,
+      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 1038,
+   "best_price": 13961,
    "has_water": true,
    "has_official": true
   },
