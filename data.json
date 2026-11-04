@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-04T17:26:53Z",
- "generated_at_hkt": "2026-11-05 01:26 HKT",
- "price_updated_hkt": "2026-11-05 01:26 HKT",
+ "generated_at": "2026-11-04T18:03:31Z",
+ "generated_at_hkt": "2026-11-05 02:03 HKT",
+ "price_updated_hkt": "2026-11-05 02:03 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-04 09:59–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261104/hkcompare_rows.json",
@@ -412,7 +412,7 @@
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
-     "bad_or_dup": 49
+     "bad_or_dup": 53
     }
    }
   }
@@ -56331,7 +56331,7 @@
    "image": "img/hk-0267beecf48f040a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/141c1e9c-d897-444b-83fb-f41d3b0da200/public",
    "water": {
-    "price_hkd": 6749,
+    "price_hkd": 6786,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -56382,8 +56382,8 @@
      }
     ]
    },
-   "delta_hkd": 950,
-   "best_price": 6749,
+   "delta_hkd": 913,
+   "best_price": 6786,
    "has_water": true,
    "has_official": true
   },
@@ -58936,6 +58936,45 @@
    "has_official": false
   },
   {
+   "id": "gpu|gigabyte:5070ti:gaming oc+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:gaming oc+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte GeForce RTX 5070 Ti GAMING OC 16G Graphics Card - 16GB GDDR7, 256 Bit, PCI-E 5…",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 11292,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0DTGPC5KR",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0DTGPC5KR",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11292,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|galax:5070ti:ex+gamer+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -61437,45 +61476,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 17742,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|msi:5070:gaming|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:gaming",
-   "part_number": null,
-   "upc": null,
-   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 17788,
-    "source": "amazon",
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0F15TM77B",
-    "sku": null,
-    "url": "https://www.amazon.com/dp/B0F15TM77B",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 17788,
    "has_water": true,
    "has_official": false
   },
