@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-04T15:33:21Z",
- "generated_at_hkt": "2026-11-04 23:33 HKT",
- "price_updated_hkt": "2026-11-04 23:33 HKT",
+ "generated_at": "2026-11-04T16:14:53Z",
+ "generated_at_hkt": "2026-11-05 00:14 HKT",
+ "price_updated_hkt": "2026-11-05 00:14 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-04 09:59–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261104/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 175,
+   "count": 178,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2881,
-  "both_sides": 85,
-  "water_only": 116,
-  "official_only": 2679,
-  "matched_water": 88,
-  "official_groups": 2881,
+  "items": 2884,
+  "both_sides": 83,
+  "water_only": 118,
+  "official_only": 2682,
+  "matched_water": 86,
+  "official_groups": 2884,
   "id_merge": {
    "enabled": true,
    "unions_upc": 172,
@@ -335,8 +335,8 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 11,
-   "official_downloaded": 0,
-   "official_cached": 2531,
+   "official_downloaded": 1,
+   "official_cached": 2532,
    "failed": 0
   },
   "image_samples": [
@@ -57171,14 +57171,14 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:gaming+oc",
+   "id": "gpu|gigabyte:5070:gaming oc+oc|water",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:gaming+oc",
+   "model_key": "gigabyte:5070:gaming oc+oc",
    "part_number": "GV-N5070GAMINGOC-12GD",
    "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5070 GAMING OC 12G 顯示卡",
+   "title": "Gigabyte GeForce RTX 5070 Gaming OC 12G Graphics Card - 12GB GDDR7, 192 Bit, PCI-E 5.0,…",
    "spec": "RTX 5070",
    "filter_tags": null,
    "form_factor": null,
@@ -57186,9 +57186,9 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9e0e66f1d7b9fb42.png",
-   "image": "img/hk-9e0e66f1d7b9fb42.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/782b0949-3349-46a7-f54d-3c03865a6d00/public",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "water": {
     "price_hkd": 7372,
     "source": "amazon",
@@ -57200,22 +57200,14 @@
     "url": "https://www.amazon.it/dp/B0DTGNTQ3C",
     "stock": "In stock",
     "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5070:gaming+oc",
+    "match_by": null,
     "others": []
    },
-   "official": {
-    "price_hkd": 7999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223407/GIGABYTE-技嘉-GeForce-RTX-5070-GAMING-OC-12G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 627,
+   "official": null,
+   "delta_hkd": null,
    "best_price": 7372,
    "has_water": true,
-   "has_official": true
+   "has_official": false
   },
   {
    "id": "gpu|inno3d:5060ti16:2x+oc",
@@ -57396,11 +57388,11 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti16:gaming+oc",
+   "id": "gpu|gigabyte:5060ti16:gaming oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti16:gaming+oc",
+   "model_key": "gigabyte:5060ti16:gaming oc",
    "part_number": null,
    "upc": null,
    "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti GAMING OC 16G 顯示卡",
@@ -57807,6 +57799,40 @@
    "delta_hkd": 183,
    "best_price": 7917,
    "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070:gaming oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:gaming oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5070 GAMING OC 12G 顯示卡",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9e0e66f1d7b9fb42.png",
+   "image": "img/hk-9e0e66f1d7b9fb42.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/782b0949-3349-46a7-f54d-3c03865a6d00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 7999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223407/GIGABYTE-技嘉-GeForce-RTX-5070-GAMING-OC-12G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7999,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -59564,11 +59590,11 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070ti:gaming+oc",
+   "id": "gpu|gigabyte:5070ti:gaming oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:gaming+oc",
+   "model_key": "gigabyte:5070ti:gaming oc",
    "part_number": null,
    "upc": null,
    "title": "Gigabyte 技嘉 GeForce RTX 5070 Ti GAMING OC 16G 顯示卡",
@@ -60114,7 +60140,7 @@
     "asin": "B0FD3XZ8P1",
     "sku": null,
     "url": "https://www.amazon.co.uk/dp/B0FD3XZ8P1",
-    "stock": "Only 14 left in stock.",
+    "stock": "Only 12 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "others": []
@@ -60902,11 +60928,11 @@
    "has_official": false
   },
   {
-   "id": "gpu|gigabyte:5080:gaming+oc",
+   "id": "gpu|gigabyte:5080:gaming oc+oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:gaming+oc",
+   "model_key": "gigabyte:5080:gaming oc+oc",
    "part_number": "GV-N5080GAMINGOC-16GD",
    "upc": "0889523047521",
    "title": "GIGABYTE GeForce RTX 5080 GAMING OC 16GB GDDR7 (GV-N5080GAMING OC-16GD) - 3年保養",
@@ -60917,23 +60943,10 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
-   "image": "img/B0DSQ1RCZV.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 17260,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DSQ1RCZV",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DSQ1RCZV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:gaming+oc",
-    "others": []
-   },
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8c1f474b1b1fa40c.webp",
+   "image": "img/hk-8c1f474b1b1fa40c.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10887.webp",
+   "water": null,
    "official": {
     "price_hkd": 15999,
     "store": "中田電腦 Centralfield",
@@ -60948,19 +60961,12 @@
       "price_hkd": 17999,
       "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5080-gaming-oc-16gb-gddr7-gv-n5080gaming-oc-16gd",
       "build_only": false
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 17999,
-      "url": "https://shop.pegasus.hk/products/223088/GIGABYTE-技嘉-GAMING-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養",
-      "build_only": false
      }
     ]
    },
-   "delta_hkd": -1261,
+   "delta_hkd": null,
    "best_price": 15999,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -61261,6 +61267,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:gaming oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:gaming oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte GeForce RTX 5080 GAMING OC 16G Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
+   "image": "img/B0DSQ1RCZV.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 17260,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DSQ1RCZV",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0DSQ1RCZV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 17260,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5080:aorus+infinity+wood",
    "category": "gpu",
    "cooler_kind": null,
@@ -61426,6 +61471,40 @@
    },
    "delta_hkd": null,
    "best_price": 17850,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5080:gaming+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:gaming+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GAMING GeForce RTX 5080 16G OC 顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-e16dddd26b1d397b.png",
+   "image": "img/hk-e16dddd26b1d397b.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/ea6f2620-ee99-42b9-3853-a4333dec6800/public",
+   "water": null,
+   "official": {
+    "price_hkd": 17999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223088/GIGABYTE-技嘉-GAMING-GeForce-RTX-5080-16G-OC-顯示卡---4-年保固需線上註冊保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 17999,
    "has_water": false,
    "has_official": true
   },
