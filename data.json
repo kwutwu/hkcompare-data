@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-04T20:34:56Z",
- "generated_at_hkt": "2026-11-05 04:34 HKT",
- "price_updated_hkt": "2026-11-05 04:34 HKT",
+ "generated_at": "2026-11-04T20:35:21Z",
+ "generated_at_hkt": "2026-11-05 04:35 HKT",
+ "price_updated_hkt": "2026-11-05 04:35 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-04 09:59–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261104/hkcompare_rows.json",
@@ -412,7 +412,7 @@
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
-     "bad_or_dup": 43
+     "bad_or_dup": 37
     }
    }
   }
@@ -54326,45 +54326,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5060ti8:dual|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti8:dual",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS Dual GeForce RTX 5060 Ti 8GB GDDR7 Gaming Graphics Card",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4450,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0BSHD2SQ5",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0BSHD2SQ5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4450,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|inno3d:5060ti8:2x",
    "category": "gpu",
    "cooler_kind": null,
@@ -54741,6 +54702,45 @@
    "best_price": 4699,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:5060ti8:dual|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti8:dual",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS DUAL RTX5060Ti 8GB GDDR7 NVIDIA GeForce Graphics Card, Grey",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 4779,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0BSHD2SQ5",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0BSHD2SQ5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4779,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|galax:5060ti8:oc",
@@ -55457,68 +55457,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5060ti16:oc+prime",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti16:oc+prime",
-   "part_number": "PRIME-RTX5060TI-O16G",
-   "upc": "0197105994058",
-   "title": "ASUS Prime GeForce RTX5060Ti 16GB GDDR7 OC Edition (PRIME-RTX5060TI-O16G)",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-71befc71982171b5.png",
-   "image": "img/hk-71befc71982171b5.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/979f922b-2de0-45a5-c726-0312e5bd5d00/public",
-   "water": {
-    "price_hkd": 6175,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0F4DQYLP5",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0F4DQYLP5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti16:oc+prime",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 6999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224168/ASUS-華碩-PRIME-GeForce-RTX-5060-Ti-16GB-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 7299,
-      "url": "https://secomputer.com.hk/products/57171",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 7600,
-      "url": "https://buymore.hk/shop/goods.php?id=44346",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 824,
-   "best_price": 6175,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|manli:5060ti16:2x",
    "category": "gpu",
    "cooler_kind": null,
@@ -55686,6 +55624,68 @@
    "delta_hkd": null,
    "best_price": 6299,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5060ti16:oc+prime",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti16:oc+prime",
+   "part_number": "PRIME-RTX5060TI-O16G",
+   "upc": "0197105994058",
+   "title": "ASUS Prime GeForce RTX5060Ti 16GB GDDR7 OC Edition (PRIME-RTX5060TI-O16G)",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-71befc71982171b5.png",
+   "image": "img/hk-71befc71982171b5.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/979f922b-2de0-45a5-c726-0312e5bd5d00/public",
+   "water": {
+    "price_hkd": 6330,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0F4DQYLP5",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0F4DQYLP5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti16:oc+prime",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 6999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224168/ASUS-華碩-PRIME-GeForce-RTX-5060-Ti-16GB-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 7299,
+      "url": "https://secomputer.com.hk/products/57171",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 7600,
+      "url": "https://buymore.hk/shop/goods.php?id=44346",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 669,
+   "best_price": 6330,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -56233,7 +56233,7 @@
    "model_key": "gigabyte:5060ti16:3x+oc+windforce",
    "part_number": null,
    "upc": null,
-   "title": "Gigabyte GeForce RTX 5060 Ti WINDFORCE OC 16G Graphics Card - 16GB GDDR7, 128Bit, PCI-E…",
+   "title": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 16G Graphics Card - 16GB GDDR7, 128-bit, PCI-…",
    "spec": "RTX 5060 Ti 16GB",
    "filter_tags": null,
    "form_factor": null,
@@ -56245,14 +56245,14 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6749,
+    "price_hkd": 6850,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
     "asin": "B0F4NHSHSQ",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0F4NHSHSQ",
+    "url": "https://www.amazon.es/dp/B0F4NHSHSQ",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -56260,7 +56260,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6749,
+   "best_price": 6850,
    "has_water": true,
    "has_official": false
   },
