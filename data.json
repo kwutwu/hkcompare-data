@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-05T09:07:52Z",
- "generated_at_hkt": "2026-11-05 17:07 HKT",
- "price_updated_hkt": "2026-11-05 17:07 HKT",
+ "generated_at": "2026-11-05T10:00:59Z",
+ "generated_at_hkt": "2026-11-05 18:00 HKT",
+ "price_updated_hkt": "2026-11-05 18:00 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-05 09:57–13:34 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261105/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 237,
+   "count": 236,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2958,
+  "items": 2957,
   "both_sides": 87,
-  "water_only": 132,
+  "water_only": 131,
   "official_only": 2738,
   "matched_water": 90,
-  "official_groups": 2958,
+  "official_groups": 2957,
   "id_merge": {
    "enabled": true,
    "unions_upc": 170,
@@ -405,8 +405,8 @@
   ],
   "ivan": {
    "total_listings": 227,
-   "qualified": 249,
-   "deduped": 222,
+   "qualified": 248,
+   "deduped": 221,
    "excluded": {
     "seller": 191,
     "no ship": 6,
@@ -414,7 +414,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 58,
+    "ivan_gpu_rows": 57,
     "nic_jp_rows": 92,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
@@ -59415,7 +59415,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7811,
+    "price_hkd": 7831,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -59430,7 +59430,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7811,
+   "best_price": 7831,
    "has_water": true,
    "has_official": false
   },
@@ -59558,7 +59558,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7925,
+    "price_hkd": 7945,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -59573,7 +59573,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7925,
+   "best_price": 7945,
    "has_water": true,
    "has_official": false
   },
@@ -59597,7 +59597,7 @@
    "image": "img/hk-568a11b0cf71611d.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Asus_PRIME_RTX_5070_OC_White_BOX.png?v=1761378836",
    "water": {
-    "price_hkd": 7927,
+    "price_hkd": 7947,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -59627,8 +59627,8 @@
      }
     ]
    },
-   "delta_hkd": 173,
-   "best_price": 7927,
+   "delta_hkd": 153,
+   "best_price": 7947,
    "has_water": true,
    "has_official": true
   },
@@ -60886,7 +60886,7 @@
    "image": "img/hk-2306810aa7e8608c.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d1e96ffa-72f2-429d-2aa4-84c990824c00/public",
    "water": {
-    "price_hkd": 10327,
+    "price_hkd": 10352,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -60916,8 +60916,8 @@
      }
     ]
    },
-   "delta_hkd": 1072,
-   "best_price": 10327,
+   "delta_hkd": 1047,
+   "best_price": 10352,
    "has_water": true,
    "has_official": true
   },
@@ -60976,6 +60976,45 @@
    "best_price": 10399,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:oc+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 10747,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DXL7GSYC",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DXL7GSYC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 10747,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|asus:5070ti:3x+oc+prime|water",
@@ -61073,45 +61112,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070ti:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070ti:oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 10939,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DXL7GSYC",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DXL7GSYC",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 10939,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5070ti:oc+sff+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -61131,7 +61131,7 @@
    "image": "img/hk-733836fa60c702e5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/486214b6-de3c-43f0-ab3a-9c9e22aa2e00/public",
    "water": {
-    "price_hkd": 10956,
+    "price_hkd": 10983,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -61161,8 +61161,8 @@
      }
     ]
    },
-   "delta_hkd": 1943,
-   "best_price": 10956,
+   "delta_hkd": 1916,
+   "best_price": 10983,
    "has_water": true,
    "has_official": true
   },
@@ -61303,45 +61303,6 @@
    "has_official": false
   },
   {
-   "id": "gpu|gigabyte:5070ti:gaming oc+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:gaming oc+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte GeForce RTX 5070 Ti GAMING OC 16G Graphics Card - 16GB GDDR7, 256 Bit, PCI-E 5…",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 11336,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DTGPC5KR",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0DTGPC5KR",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11336,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5070ti:eagle+oc+sff",
    "category": "gpu",
    "cooler_kind": null,
@@ -61445,45 +61406,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070ti:oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070ti:oc",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY Placa Gráfica GeForce RTX 5070 Ti OC 16GB GDDR7",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 11446,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0G6ZGLZWM",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0G6ZGLZWM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11446,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|asus:5070ti:oc+prime",
    "category": "gpu",
    "cooler_kind": null,
@@ -61558,6 +61480,45 @@
    "best_price": 11474,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY Placa Gráfica GeForce RTX 5070 Ti OC 16GB GDDR7",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 11474,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0G6ZGLZWM",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0G6ZGLZWM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11474,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070ti:eagle+ice+oc+sff",
@@ -61704,7 +61665,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 11674,
+    "price_hkd": 11703,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -61719,7 +61680,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11674,
+   "best_price": 11703,
    "has_water": true,
    "has_official": false
   },
@@ -61743,7 +61704,7 @@
    "image": "img/hk-a80b55041924e90b.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/fwebp_26_296d0fc7-95f9-4297-a35f-c31af5dac64c.webp?v=1792747814",
    "water": {
-    "price_hkd": 11707,
+    "price_hkd": 11736,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -61780,8 +61741,8 @@
      }
     ]
    },
-   "delta_hkd": 992,
-   "best_price": 11707,
+   "delta_hkd": 963,
+   "best_price": 11736,
    "has_water": true,
    "has_official": true
   },
@@ -61805,7 +61766,7 @@
    "image": "img/hk-5c6ab7e30db769cd.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/13117.webp",
    "water": {
-    "price_hkd": 11707,
+    "price_hkd": 11736,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -61856,8 +61817,8 @@
      }
     ]
    },
-   "delta_hkd": 592,
-   "best_price": 11707,
+   "delta_hkd": 563,
+   "best_price": 11736,
    "has_water": true,
    "has_official": true
   },
