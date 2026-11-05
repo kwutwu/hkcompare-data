@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-05T02:14:14Z",
- "generated_at_hkt": "2026-11-05 10:14 HKT",
- "price_updated_hkt": "2026-11-05 10:14 HKT",
+ "generated_at": "2026-11-05T02:31:57Z",
+ "generated_at_hkt": "2026-11-05 10:31 HKT",
+ "price_updated_hkt": "2026-11-05 10:31 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-04 09:59–11:08 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261104/hkcompare_rows.json",
@@ -116,20 +116,21 @@
     }
    },
    "cf_exc": {
-    "source": "/workspace/hk_price_cache/run_20261104/cf_gpu_browser/cf_gpu_1028.txt",
-    "kept": 27,
+    "source": "/workspace/hk_price_cache/run_20261105/cf_gpu_browser/cf_gpu_1023.txt",
+    "kept": 28,
     "by_chip": {
-     "RTX 5070 Ti": 9,
+     "RTX 5070 Ti": 10,
      "RTX 5090D": 1,
      "RTX 5080": 17
     },
     "skipped": {
      "empty_price": 5,
-     "not_build_only": 17
+     "not_build_only": 15,
+     "out_of_scope": 27
     },
-    "updated_hkt": "2026-11-04 10:28 HKT"
+    "updated_hkt": "2026-11-05 10:23 HKT"
    },
-   "cf_added": 1
+   "cf_added": 2
   },
   "case_clearance": {
    "source": "/workspace/site_hkcompare/diy_pc_cases_clearance.json",
@@ -56407,7 +56408,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6873,
+    "price_hkd": 6872,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -56422,7 +56423,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6873,
+   "best_price": 6872,
    "has_water": true,
    "has_official": false
   },
@@ -59439,13 +59440,20 @@
     "others": []
    },
    "official": {
-    "price_hkd": 12699,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/少量現貨-asus-tuf-geforce-rtx-5070-ti-oc-white-16gb-gddr7-tuf-rtx5070ti-o16g-white-gaming-di-e507tu1",
+    "price_hkd": 12299,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13117/asus-tuf-gaming-rtx-5070ti-oc-white-16gb",
     "stock": "現貨",
     "build_only": true,
     "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 12699,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/少量現貨-asus-tuf-geforce-rtx-5070-ti-oc-white-16gb-gddr7-tuf-rtx5070ti-o16g-white-gaming-di-e507tu1",
+      "build_only": true
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -59469,7 +59477,7 @@
      }
     ]
    },
-   "delta_hkd": 1007,
+   "delta_hkd": 607,
    "best_price": 11692,
    "has_water": true,
    "has_official": true
@@ -61311,6 +61319,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5070:gaming|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:gaming",
+   "part_number": null,
+   "upc": null,
+   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 17098,
+    "source": "amazon",
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0F15TM77B",
+    "sku": null,
+    "url": "https://www.amazon.com/dp/B0F15TM77B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 17098,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5080:suprim",
    "category": "gpu",
    "cooler_kind": null,
@@ -61380,45 +61427,6 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 17260,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|msi:5070:gaming|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:gaming",
-   "part_number": null,
-   "upc": null,
-   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 17329,
-    "source": "amazon",
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0F15TM77B",
-    "sku": null,
-    "url": "https://www.amazon.com/dp/B0F15TM77B",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 17329,
    "has_water": true,
    "has_official": false
   },
