@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-06T20:09:00Z",
- "generated_at_hkt": "2026-11-07 04:09 HKT",
- "price_updated_hkt": "2026-11-07 04:09 HKT",
+ "generated_at": "2026-11-06T20:52:57Z",
+ "generated_at_hkt": "2026-11-07 04:52 HKT",
+ "price_updated_hkt": "2026-11-07 04:52 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-06 09:56–13:00 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261106/hkcompare_rows.json",
@@ -403,10 +403,10 @@
   ],
   "ivan": {
    "total_listings": 228,
-   "qualified": 244,
+   "qualified": 245,
    "deduped": 222,
    "excluded": {
-    "seller": 198,
+    "seller": 197,
     "no ship": 6,
     "not desktop GPU": 3
    },
@@ -61696,6 +61696,61 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:3x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
+   "image": "img/B0GZWW2RKH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14815,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0GZWW2RKH",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0GZWW2RKH",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+oc+ventus",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 15298,
+      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 184,
+   "best_price": 14815,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|gigabyte:5080:oc+sff+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -61830,61 +61885,6 @@
    "delta_hkd": null,
    "best_price": 14999,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5080:3x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
-   "image": "img/B0GZWW2RKH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 16109,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0GZWW2RKH",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0GZWW2RKH",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 15298,
-      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": -1110,
-   "best_price": 14999,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -63032,7 +63032,7 @@
    "image": "img/B0DTJDR3V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 17809,
+    "price_hkd": 17738,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -63047,7 +63047,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 17809,
+   "best_price": 17738,
    "has_water": true,
    "has_official": false
   },
