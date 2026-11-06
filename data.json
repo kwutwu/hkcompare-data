@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-06T08:01:41Z",
- "generated_at_hkt": "2026-11-06 16:01 HKT",
- "price_updated_hkt": "2026-11-06 16:01 HKT",
+ "generated_at": "2026-11-06T08:56:01Z",
+ "generated_at_hkt": "2026-11-06 16:56 HKT",
+ "price_updated_hkt": "2026-11-06 16:56 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-06 09:56–13:00 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261106/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 236,
+   "count": 237,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2919,
+  "items": 2920,
   "both_sides": 85,
-  "water_only": 129,
+  "water_only": 130,
   "official_only": 2704,
   "matched_water": 88,
-  "official_groups": 2919,
+  "official_groups": 2920,
   "id_merge": {
    "enabled": true,
    "unions_upc": 205,
@@ -338,7 +338,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 12,
+   "amazon_cached": 13,
    "official_downloaded": 0,
    "official_cached": 2538,
    "failed": 0
@@ -403,11 +403,11 @@
   ],
   "ivan": {
    "total_listings": 228,
-   "qualified": 245,
-   "deduped": 217,
+   "qualified": 247,
+   "deduped": 218,
    "excluded": {
-    "seller": 193,
-    "no ship": 6,
+    "seller": 188,
+    "no ship": 9,
     "not desktop GPU": 3
    },
    "amazon_exports": {
@@ -61513,6 +61513,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:3x+oc+shadow|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+shadow",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5080 16G SHADOW 3X OC Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BT9R5XNN.jpg",
+   "image": "img/B0BT9R5XNN.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71vuPWXUwNL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 13685,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0BT9R5XNN",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0BT9R5XNN",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 13685,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|asus:5080:evo+oc+prime",
    "category": "gpu",
    "cooler_kind": null,
@@ -61815,7 +61854,7 @@
    "image": "img/B0H5NNTMTH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14950,
+    "price_hkd": 14951,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -61837,8 +61876,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 3049,
-   "best_price": 14950,
+   "delta_hkd": 3048,
+   "best_price": 14951,
    "has_water": true,
    "has_official": true
   },
@@ -62085,7 +62124,7 @@
     "asin": "B0DZCVQGG6",
     "sku": null,
     "url": "https://www.amazon.fr/dp/B0DZCVQGG6",
-    "stock": "Only 2 left in stock.",
+    "stock": "Only 3 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "others": []
@@ -62429,7 +62468,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 17324,
+    "price_hkd": 17325,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -62451,7 +62490,7 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": -1325,
+   "delta_hkd": -1326,
    "best_price": 15999,
    "has_water": true,
    "has_official": true
