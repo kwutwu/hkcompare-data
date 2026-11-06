@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-06T20:52:57Z",
- "generated_at_hkt": "2026-11-07 04:52 HKT",
- "price_updated_hkt": "2026-11-07 04:52 HKT",
+ "generated_at": "2026-11-06T21:58:48Z",
+ "generated_at_hkt": "2026-11-07 05:58 HKT",
+ "price_updated_hkt": "2026-11-07 05:58 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-06 09:56–13:00 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261106/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 236,
+   "count": 235,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2921,
+  "items": 2920,
   "both_sides": 86,
-  "water_only": 131,
+  "water_only": 130,
   "official_only": 2703,
   "matched_water": 91,
-  "official_groups": 2921,
+  "official_groups": 2920,
   "id_merge": {
    "enabled": true,
    "unions_upc": 205,
@@ -403,15 +403,15 @@
   ],
   "ivan": {
    "total_listings": 228,
-   "qualified": 245,
-   "deduped": 222,
+   "qualified": 244,
+   "deduped": 221,
    "excluded": {
     "seller": 197,
     "no ship": 6,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 62,
+    "ivan_gpu_rows": 61,
     "nic_jp_rows": 88,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
@@ -56368,7 +56368,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 7532,
+      "price_hkd": 7567,
       "url": "https://www.amazon.co.jp/dp/B0F6CBQF48",
       "build_only": false,
       "domain": "amazon.co.jp",
@@ -59578,7 +59578,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 8858,
+    "price_hkd": 8900,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -59593,7 +59593,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8858,
+   "best_price": 8900,
    "has_water": true,
    "has_official": false
   },
@@ -59974,6 +59974,93 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070ti:oc+prime",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070ti:oc+prime",
+   "part_number": "PRIME-RTX5070TI-O16G",
+   "upc": "0197105861510",
+   "title": "ASUS PRIME GeForce RTX 5070 Ti OC 16GB GDDR7 PRIME-RTX5070TI-O16G (DI-E507TR1) - 3年保養",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2c381f05c3185106.jpg",
+   "image": "img/hk-2c381f05c3185106.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/be4e160f-61a7-44d7-d1a1-1ddeb2353300/public",
+   "water": {
+    "price_hkd": 9570,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DVGVZZYY",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DVGVZZYY",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070ti:oc+prime",
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "法國 Amazon",
+      "price_hkd": 11463,
+      "url": "https://www.amazon.fr/dp/B0DX6FT5MM",
+      "build_only": false,
+      "domain": "amazon.fr",
+      "asin": "B0DX6FT5MM"
+     }
+    ]
+   },
+   "official": {
+    "price_hkd": 11950,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11291/asus-prime-rtx-5070ti-oc-16gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 11999,
+      "url": "https://shop.pegasus.hk/products/223256/ASUS-華碩-PRIME-GeForce-RTX-5070-Ti-16GB-OC-顯示卡---3年保養",
+      "build_only": true
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 12200,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-ti-oc-16gb-gddr7-prime-rtx5070ti-o16g-gaming-di-e507tr1",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 13999,
+      "url": "https://secomputer.com.hk/products/57086",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 14000,
+      "url": "https://buymore.hk/shop/goods.php?id=43774",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 2380,
+   "best_price": 9570,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|colorful:5070:oc+ultra",
    "category": "gpu",
    "cooler_kind": null,
@@ -60209,93 +60296,6 @@
    },
    "delta_hkd": 1439,
    "best_price": 10560,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070ti:oc+prime",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070ti:oc+prime",
-   "part_number": "PRIME-RTX5070TI-O16G",
-   "upc": "0197105861510",
-   "title": "ASUS PRIME GeForce RTX 5070 Ti OC 16GB GDDR7 PRIME-RTX5070TI-O16G (DI-E507TR1) - 3年保養",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2c381f05c3185106.jpg",
-   "image": "img/hk-2c381f05c3185106.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/be4e160f-61a7-44d7-d1a1-1ddeb2353300/public",
-   "water": {
-    "price_hkd": 10762,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DVGVZZYY",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DVGVZZYY",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5070ti:oc+prime",
-    "others": [
-     {
-      "source": "amazon",
-      "store_short": null,
-      "marketplace": "法國 Amazon",
-      "price_hkd": 11463,
-      "url": "https://www.amazon.fr/dp/B0DX6FT5MM",
-      "build_only": false,
-      "domain": "amazon.fr",
-      "asin": "B0DX6FT5MM"
-     }
-    ]
-   },
-   "official": {
-    "price_hkd": 11950,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11291/asus-prime-rtx-5070ti-oc-16gb",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 11999,
-      "url": "https://shop.pegasus.hk/products/223256/ASUS-華碩-PRIME-GeForce-RTX-5070-Ti-16GB-OC-顯示卡---3年保養",
-      "build_only": true
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 12200,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-ti-oc-16gb-gddr7-prime-rtx5070ti-o16g-gaming-di-e507tr1",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 13999,
-      "url": "https://secomputer.com.hk/products/57086",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 14000,
-      "url": "https://buymore.hk/shop/goods.php?id=43774",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 1188,
-   "best_price": 10762,
    "has_water": true,
    "has_official": true
   },
@@ -60742,45 +60742,6 @@
    "best_price": 11736,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|msi:5070:2x+oc+ventus+white|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:2x+oc+ventus+white",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI Gaming RTX 5070 12G Ventus 2X OC White Graphics Card (12 GB GDDR7, 192-bit, Extreme…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 11827,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DYG3JLGY",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DYG3JLGY",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 11827,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|galax:5070ti:ex+gamer+oc+white",
