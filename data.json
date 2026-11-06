@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-06T01:59:30Z",
- "generated_at_hkt": "2026-11-06 09:59 HKT",
- "price_updated_hkt": "2026-11-06 09:59 HKT",
+ "generated_at": "2026-11-06T02:49:25Z",
+ "generated_at_hkt": "2026-11-06 10:49 HKT",
+ "price_updated_hkt": "2026-11-06 10:49 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-05 09:57–13:34 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261105/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 236,
+   "count": 237,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2909,
+  "items": 2910,
   "both_sides": 73,
-  "water_only": 83,
+  "water_only": 84,
   "official_only": 2752,
   "matched_water": 73,
-  "official_groups": 2909,
+  "official_groups": 2910,
   "id_merge": {
    "enabled": true,
    "unions_upc": 170,
@@ -340,7 +340,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 11,
+   "amazon_cached": 12,
    "official_downloaded": 0,
    "official_cached": 2573,
    "failed": 0
@@ -405,12 +405,11 @@
   ],
   "ivan": {
    "total_listings": 228,
-   "qualified": 170,
-   "deduped": 156,
+   "qualified": 173,
+   "deduped": 157,
    "excluded": {
-    "seller": 195,
+    "seller": 193,
     "no ship": 6,
-    "used": 1,
     "not desktop GPU": 3
    },
    "amazon_exports": {
@@ -62264,7 +62263,7 @@
    "image": "img/B0GWRN4Q36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13638,
+    "price_hkd": 13636,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -62286,8 +62285,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 1462,
-   "best_price": 13638,
+   "delta_hkd": 1464,
+   "best_price": 13636,
    "has_water": true,
    "has_official": true
   },
@@ -62311,7 +62310,7 @@
    "image": "img/B0GZWW2RKH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14015,
+    "price_hkd": 14002,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -62341,8 +62340,8 @@
      }
     ]
    },
-   "delta_hkd": 984,
-   "best_price": 14015,
+   "delta_hkd": 997,
+   "best_price": 14002,
    "has_water": true,
    "has_official": true
   },
@@ -62366,7 +62365,7 @@
    "image": "img/B0DYRZZJZ1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14137,
+    "price_hkd": 14135,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -62381,7 +62380,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14137,
+   "best_price": 14135,
    "has_water": true,
    "has_official": false
   },
@@ -62405,7 +62404,7 @@
    "image": "img/B0FD3XZ8P1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/7192KlMK8gL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14400,
+    "price_hkd": 14398,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -62420,7 +62419,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14400,
+   "best_price": 14398,
    "has_water": true,
    "has_official": false
   },
@@ -62444,7 +62443,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14403,
+    "price_hkd": 14400,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -62466,10 +62465,49 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 3596,
-   "best_price": 14403,
+   "delta_hkd": 3599,
+   "best_price": 14400,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5080:argb+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
+   "image": "img/B0DZCVQGG6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
+   "water": {
+    "price_hkd": 14455,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DZCVQGG6",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0DZCVQGG6",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 14455,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gainward:5080:phoenix",
@@ -62525,7 +62563,7 @@
    "image": "img/B0H5NNTMTH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14952,
+    "price_hkd": 14950,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -62547,8 +62585,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 2647,
-   "best_price": 14952,
+   "delta_hkd": 2649,
+   "best_price": 14950,
    "has_water": true,
    "has_official": true
   },
@@ -62863,7 +62901,7 @@
    "image": "img/B09BD59F4T.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/814lQWaeAzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16459,
+    "price_hkd": 16443,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -62907,7 +62945,7 @@
      }
     ]
    },
-   "delta_hkd": -1159,
+   "delta_hkd": -1143,
    "best_price": 15300,
    "has_water": true,
    "has_official": true
@@ -63341,7 +63379,7 @@
    "image": "img/B0DTJFZ4YS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 16251,
+    "price_hkd": 16235,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -63356,7 +63394,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16251,
+   "best_price": 16235,
    "has_water": true,
    "has_official": false
   },
@@ -63629,7 +63667,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 17327,
+    "price_hkd": 17324,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -63644,7 +63682,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 17327,
+   "best_price": 17324,
    "has_water": true,
    "has_official": false
   },
@@ -63668,7 +63706,7 @@
    "image": "img/hk-62c9351d1e2bdce9.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/81aaf628595202bdd85f34ad972ff294.webp",
    "water": {
-    "price_hkd": 17444,
+    "price_hkd": 17442,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -63690,8 +63728,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 2555,
-   "best_price": 17444,
+   "delta_hkd": 2557,
+   "best_price": 17442,
    "has_water": true,
    "has_official": true
   },
@@ -63764,7 +63802,7 @@
    "image": "img/B0DTJDR3V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 17740,
+    "price_hkd": 17737,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -63779,7 +63817,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 17740,
+   "best_price": 17737,
    "has_water": true,
    "has_official": false
   },
