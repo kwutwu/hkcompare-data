@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-06T10:59:57Z",
- "generated_at_hkt": "2026-11-06 18:59 HKT",
- "price_updated_hkt": "2026-11-06 18:59 HKT",
+ "generated_at": "2026-11-06T12:02:57Z",
+ "generated_at_hkt": "2026-11-06 20:02 HKT",
+ "price_updated_hkt": "2026-11-06 20:02 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-06 09:56–13:00 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261106/hkcompare_rows.json",
@@ -416,7 +416,7 @@
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
-     "bad_or_dup": 69
+     "bad_or_dup": 68
     }
    }
   }
@@ -56368,7 +56368,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 7550,
+      "price_hkd": 7532,
       "url": "https://www.amazon.co.jp/dp/B0F6CBQF48",
       "build_only": false,
       "domain": "amazon.co.jp",
@@ -60346,7 +60346,7 @@
    "image": "img/hk-5c6ab7e30db769cd.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/13117.webp",
    "water": {
-    "price_hkd": 11357,
+    "price_hkd": 11392,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -60408,8 +60408,8 @@
      }
     ]
    },
-   "delta_hkd": 942,
-   "best_price": 11357,
+   "delta_hkd": 907,
+   "best_price": 11392,
    "has_water": true,
    "has_official": true
   },
@@ -62867,6 +62867,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5070:gaming|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:gaming",
+   "part_number": null,
+   "upc": null,
+   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 17236,
+    "source": "amazon",
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0F15TM77B",
+    "sku": null,
+    "url": "https://www.amazon.com/dp/B0F15TM77B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 17236,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5080:aorus+infinity+wood",
    "category": "gpu",
    "cooler_kind": null,
@@ -63238,45 +63277,6 @@
    "best_price": 18999,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|msi:5070:gaming|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:gaming",
-   "part_number": null,
-   "upc": null,
-   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 19082,
-    "source": "amazon",
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0F15TM77B",
-    "sku": null,
-    "url": "https://www.amazon.com/dp/B0F15TM77B",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 19082,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|galax:5090d:oc+v2",
