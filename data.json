@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-07T04:55:41Z",
- "generated_at_hkt": "2026-11-07 12:55 HKT",
- "price_updated_hkt": "2026-11-07 12:55 HKT",
+ "generated_at": "2026-11-07T05:05:27Z",
+ "generated_at_hkt": "2026-11-07 13:05 HKT",
+ "price_updated_hkt": "2026-11-07 13:05 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-06 09:56–13:00 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261106/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 366,
+   "count": 367,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 335,
+   "count": 334,
    "enabled": true,
    "note": ""
   },
@@ -403,7 +403,7 @@
   ],
   "ivan": {
    "total_listings": 228,
-   "qualified": 169,
+   "qualified": 168,
    "deduped": 152,
    "excluded": {
     "seller": 194,
@@ -412,7 +412,7 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 50,
-    "nic_jp_rows": 21,
+    "nic_jp_rows": 20,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
@@ -66554,45 +66554,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B850:ATX:b850-eagle-wifi7-ice:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B850:ATX:b850-eagle-wifi7-ice:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "【Amazon.co.jp限定】GIGABYTE B850 EAGLE WIFI7 ICE AMD B850 Chipset ATX Motherboard MB6782",
-   "spec": "B850",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1148,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F4HH1J7D",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F4HH1J7D",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1148,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asrock:B850:mATX:b850m-pro-a-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -98930,6 +98891,50 @@
    "best_price": 3602,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 32GB (2x16GB) Supports up to 6400MHz Intel RAM",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32GB",
+    "6400"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": "32GB",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 3611,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BXHC74WD",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BXHC74WD",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3611,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:teamgroup:tforcevulcan:ddr5:dimm:32:6000:black:2x16:cl38",
