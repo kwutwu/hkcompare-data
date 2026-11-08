@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-08T03:58:48Z",
- "generated_at_hkt": "2026-11-08 11:58 HKT",
- "price_updated_hkt": "2026-11-08 11:58 HKT",
+ "generated_at": "2026-11-08T04:12:39Z",
+ "generated_at_hkt": "2026-11-08 12:12 HKT",
+ "price_updated_hkt": "2026-11-08 12:12 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-07 09:54–15:45 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261107/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2883,
-  "both_sides": 85,
+  "both_sides": 84,
   "water_only": 133,
-  "official_only": 2664,
-  "matched_water": 89,
+  "official_only": 2665,
+  "matched_water": 88,
   "official_groups": 2883,
   "id_merge": {
    "enabled": true,
@@ -412,20 +412,20 @@
   ],
   "ivan": {
    "total_listings": 233,
-   "qualified": 252,
-   "deduped": 222,
+   "qualified": 251,
+   "deduped": 221,
    "excluded": {
     "seller": 195,
     "no ship": 6,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 60,
+    "ivan_gpu_rows": 59,
     "nic_jp_rows": 90,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
-     "bad_or_dup": 71
+     "bad_or_dup": 72
     }
    }
   }
@@ -56352,7 +56352,7 @@
    "image": "img/hk-e150016481072db6.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f09c487a-6398-468f-4440-be8af8e21100/public",
    "water": {
-    "price_hkd": 6847,
+    "price_hkd": 6850,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -56403,8 +56403,8 @@
      }
     ]
    },
-   "delta_hkd": 752,
-   "best_price": 6847,
+   "delta_hkd": 749,
+   "best_price": 6850,
    "has_water": true,
    "has_official": true
   },
@@ -56538,7 +56538,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6922,
+    "price_hkd": 6925,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -56553,7 +56553,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6922,
+   "best_price": 6925,
    "has_water": true,
    "has_official": false
   },
@@ -56577,7 +56577,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6992,
+    "price_hkd": 6995,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -56592,7 +56592,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6992,
+   "best_price": 6995,
    "has_water": true,
    "has_official": false
   },
@@ -56906,7 +56906,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7220,
+    "price_hkd": 7222,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -56921,7 +56921,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7220,
+   "best_price": 7222,
    "has_water": true,
    "has_official": false
   },
@@ -57129,7 +57129,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7335,
+    "price_hkd": 7337,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -57144,7 +57144,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7335,
+   "best_price": 7337,
    "has_water": true,
    "has_official": false
   },
@@ -57298,7 +57298,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7405,
+    "price_hkd": 7408,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -57313,64 +57313,9 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7405,
+   "best_price": 7408,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|palit:5070:infinity+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Palit",
-   "model_key": "palit:5070:infinity+oc",
-   "part_number": "NE75070S19K9-GB2050S",
-   "upc": "4710562245080",
-   "title": "Palit RTX5070 iNFINITY 3 OC 12GB GDDR7 (NE75070S19K9-GB2050S)",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-483c912bd8680971.webp",
-   "image": "img/hk-483c912bd8680971.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/23641.webp",
-   "water": {
-    "price_hkd": 7435,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0F48VLJ9R",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0F48VLJ9R",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key palit:5070:infinity+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7999,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/23641/palit-geforce-rtx-5070-infinity-3-oc-12gb",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 8150,
-      "url": "https://secomputer.com.hk/products/64558",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 564,
-   "best_price": 7435,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "gpu|asrock:9070xt:challenger",
@@ -58239,7 +58184,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7929,
+    "price_hkd": 7932,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -58254,7 +58199,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7929,
+   "best_price": 7932,
    "has_water": true,
    "has_official": false
   },
@@ -58409,6 +58354,48 @@
     "stock": "現貨",
     "build_only": false,
     "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|palit:5070:infinity+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Palit",
+   "model_key": "palit:5070:infinity+oc",
+   "part_number": "NE75070S19K9-GB2050S",
+   "upc": "4710562245080",
+   "title": "Palit RTX5070 iNFINITY 3 OC 12GB GDDR7 (NE75070S19K9-GB2050S)",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-483c912bd8680971.webp",
+   "image": "img/hk-483c912bd8680971.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/23641.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 7999,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/23641/palit-geforce-rtx-5070-infinity-3-oc-12gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 8150,
+      "url": "https://secomputer.com.hk/products/64558",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 7999,
@@ -59669,7 +59656,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 10822,
+    "price_hkd": 10825,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -59684,7 +59671,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 10822,
+   "best_price": 10825,
    "has_water": true,
    "has_official": false
   },
@@ -59757,7 +59744,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 11221,
+    "price_hkd": 11225,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -59772,7 +59759,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11221,
+   "best_price": 11225,
    "has_water": true,
    "has_official": false
   },
@@ -59796,7 +59783,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 11240,
+    "price_hkd": 11244,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -59811,7 +59798,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11240,
+   "best_price": 11244,
    "has_water": true,
    "has_official": false
   },
@@ -59835,7 +59822,7 @@
    "image": "img/hk-5c6ab7e30db769cd.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/13117.webp",
    "water": {
-    "price_hkd": 11281,
+    "price_hkd": 11285,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -59897,8 +59884,8 @@
      }
     ]
    },
-   "delta_hkd": 1018,
-   "best_price": 11281,
+   "delta_hkd": 1014,
+   "best_price": 11285,
    "has_water": true,
    "has_official": true
   },
@@ -59922,7 +59909,7 @@
    "image": "img/hk-05dc011b76e4e647.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/11291.webp",
    "water": {
-    "price_hkd": 11386,
+    "price_hkd": 11390,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -59973,8 +59960,8 @@
      }
     ]
    },
-   "delta_hkd": 564,
-   "best_price": 11386,
+   "delta_hkd": 560,
+   "best_price": 11390,
    "has_water": true,
    "has_official": true
   },
@@ -62562,6 +62549,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5070:gaming|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:gaming",
+   "part_number": null,
+   "upc": null,
+   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 17908,
+    "source": "amazon",
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0F15TM77B",
+    "sku": null,
+    "url": "https://www.amazon.com/dp/B0F15TM77B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 17908,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5080:aorus+infinity",
    "category": "gpu",
    "cooler_kind": null,
@@ -62764,45 +62790,6 @@
    "best_price": 18999,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|msi:5070:gaming|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:gaming",
-   "part_number": null,
-   "upc": null,
-   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 19410,
-    "source": "amazon",
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0F15TM77B",
-    "sku": null,
-    "url": "https://www.amazon.com/dp/B0F15TM77B",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 19410,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|galax:5090d:oc+v2",
