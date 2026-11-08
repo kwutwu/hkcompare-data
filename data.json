@@ -6,11 +6,7 @@
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-08 09:53–12:18 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261108/hkcompare_rows.json",
- "notes": {
-  "water": "水貨價錢為 Amazon 合計港幣（已含運費 + 2% 手續費），僅列可寄香港、價格已確認、Amazon 自營／官方賣場。部分 DDR 記憶體另列京東自營到手價（CNY→HKD 中價折算；可寄香港）。香港舖頭標明「平行進口」嘅現貨亦當水貨顯示（舖頭價）。",
-  "official": "行貨只比較 Sherlock 監察嘅五間香港舖：飛馬 PEGASUS、Jumbo 珍寶電腦、中田電腦 Centralfield、SE Computer、未來科技 BUYMORE（只計現貨）。",
-  "cpu": "處理器行貨價來自 Sherlock 五間香港舖。"
- },
+ "notes": "t770u: applied kit tags to 23 unlabeled RAM (2026-11-08 23:34 HKT)",
  "categories": {
   "gpu": {
    "label": "顯示卡",
@@ -85973,7 +85969,8 @@
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR4"
+    "DDR4",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -86139,7 +86136,8 @@
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR4"
+    "DDR4",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -86300,7 +86298,8 @@
    "spec": "DDR4 · SODIMM",
    "filter_tags": [
     "SODIMM",
-    "DDR4"
+    "DDR4",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -86375,7 +86374,8 @@
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR4"
+    "DDR4",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -86450,7 +86450,8 @@
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR4"
+    "DDR4",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -86487,7 +86488,8 @@
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR4"
+    "DDR4",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -86698,7 +86700,8 @@
    "spec": "DDR4 · SODIMM",
    "filter_tags": [
     "SODIMM",
-    "DDR4"
+    "DDR4",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -86750,7 +86753,8 @@
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR4"
+    "DDR4",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -87076,7 +87080,8 @@
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR4"
+    "DDR4",
+    "16×2"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -87243,6 +87248,7 @@
    "filter_tags": [
     "DIMM",
     "DDR5",
+    "8×2",
     "6000"
    ],
    "form_factor": null,
@@ -87285,7 +87291,8 @@
    "spec": "DDR5 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR5"
+    "DDR5",
+    "16×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -88319,6 +88326,7 @@
    "filter_tags": [
     "SODIMM",
     "DDR5",
+    "16×1",
     "5600"
    ],
    "form_factor": null,
@@ -88357,6 +88365,7 @@
    "filter_tags": [
     "SODIMM",
     "DDR5",
+    "16×1",
     "5600"
    ],
    "form_factor": null,
@@ -88614,6 +88623,7 @@
    "filter_tags": [
     "DIMM",
     "DDR5",
+    "16×1",
     "6000"
    ],
    "form_factor": null,
@@ -88652,6 +88662,7 @@
    "filter_tags": [
     "SODIMM",
     "DDR5",
+    "16×1",
     "5600"
    ],
    "form_factor": null,
@@ -88958,6 +88969,7 @@
    "filter_tags": [
     "DIMM",
     "DDR5",
+    "24×1",
     "6000"
    ],
    "form_factor": null,
@@ -89038,7 +89050,8 @@
    "spec": "DDR4 · SODIMM",
    "filter_tags": [
     "SODIMM",
-    "DDR4"
+    "DDR4",
+    "32×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -89705,6 +89718,7 @@
    "filter_tags": [
     "DIMM",
     "DDR5",
+    "24×1",
     "6000"
    ],
    "form_factor": null,
@@ -90071,6 +90085,7 @@
    "filter_tags": [
     "DIMM",
     "DDR5",
+    "24×1",
     "6000"
    ],
    "form_factor": null,
@@ -90310,7 +90325,8 @@
    "spec": "DDR4 · DIMM",
    "filter_tags": [
     "DIMM",
-    "DDR4"
+    "DDR4",
+    "32×1"
    ],
    "form_factor": null,
    "has_wifi": null,
@@ -91508,6 +91524,7 @@
    "filter_tags": [
     "SODIMM",
     "DDR5",
+    "32×1",
     "5600"
    ],
    "form_factor": null,
@@ -96181,6 +96198,7 @@
    "filter_tags": [
     "SODIMM",
     "DDR5",
+    "32×1",
     "5600"
    ],
    "form_factor": null,
@@ -97365,6 +97383,7 @@
    "filter_tags": [
     "DIMM",
     "DDR5",
+    "48×1",
     "5600"
    ],
    "form_factor": null,
