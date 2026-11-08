@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-08T03:13:26Z",
- "generated_at_hkt": "2026-11-08 11:13 HKT",
- "price_updated_hkt": "2026-11-08 11:13 HKT",
+ "generated_at": "2026-11-08T03:58:48Z",
+ "generated_at_hkt": "2026-11-08 11:58 HKT",
+ "price_updated_hkt": "2026-11-08 11:58 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-07 09:54–15:45 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261107/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 230,
+   "count": 236,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2877,
-  "both_sides": 81,
-  "water_only": 130,
-  "official_only": 2665,
-  "matched_water": 85,
-  "official_groups": 2877,
+  "items": 2883,
+  "both_sides": 85,
+  "water_only": 133,
+  "official_only": 2664,
+  "matched_water": 89,
+  "official_groups": 2883,
   "id_merge": {
    "enabled": true,
    "unions_upc": 194,
@@ -120,21 +120,25 @@
     }
    },
    "cf_exc": {
-    "source": "/workspace/hk_price_cache/run_20261105/cf_gpu_browser/cf_gpu_1023.txt",
-    "kept": 28,
+    "source": "/workspace/hk_price_cache/run_20261108/cf_gpu_browser/cf_gpu_1135.txt",
+    "kept": 57,
     "by_chip": {
-     "RTX 5070 Ti": 10,
+     "RTX 5070 Ti": 11,
      "RTX 5090D": 1,
-     "RTX 5080": 17
+     "RTX 5080": 16,
+     "RTX 5070": 10,
+     "RX 9070 XT": 7,
+     "RTX 5060 Ti 16GB": 7,
+     "RX 9070 GRE": 3,
+     "RX 9070": 2
     },
     "skipped": {
-     "empty_price": 5,
-     "not_build_only": 15,
-     "out_of_scope": 27
+     "empty_price": 3,
+     "out_of_scope": 24
     },
-    "updated_hkt": "2026-11-05 10:23 HKT"
+    "updated_hkt": "2026-11-08 11:35 HKT"
    },
-   "cf_added": 3
+   "cf_added": 15
   },
   "case_clearance": {
    "source": "/workspace/site_hkcompare/diy_pc_cases_clearance.json",
@@ -408,20 +412,20 @@
   ],
   "ivan": {
    "total_listings": 233,
-   "qualified": 244,
-   "deduped": 215,
+   "qualified": 252,
+   "deduped": 222,
    "excluded": {
     "seller": 195,
     "no ship": 6,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 52,
+    "ivan_gpu_rows": 60,
     "nic_jp_rows": 90,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
-     "bad_or_dup": 72
+     "bad_or_dup": 71
     }
    }
   }
@@ -53089,14 +53093,14 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 5031,
+    "price_hkd": 4724,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0BYZFH47F",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0FBLRVV4T",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0BYZFH47F",
+    "url": "https://www.amazon.co.jp/dp/B0FBLRVV4T",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:9060xt:dual",
@@ -53111,7 +53115,7 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -732,
+   "delta_hkd": -425,
    "best_price": 4299,
    "has_water": true,
    "has_official": true
@@ -53190,6 +53194,53 @@
    "delta_hkd": null,
    "best_price": 4299,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asrock:9060xt:challenger",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASRock",
+   "model_key": "asrock:9060xt:challenger",
+   "part_number": null,
+   "upc": null,
+   "title": "【RX9060XT 16GB】ASROCK RX9060XT CHALLENGER 16GB [長: 249mm]",
+   "spec": "RX 9060 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 4348,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F8B59WP7",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F8B59WP7",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asrock:9060xt:challenger",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 4999,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=44776",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 651,
+   "best_price": 4348,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -53712,6 +53763,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|sapphire:9070gre:gaming oc+pulse",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Sapphire",
+   "model_key": "sapphire:9070gre:gaming oc+pulse",
+   "part_number": "SA-DCA-RX9070GRE-PULSE-12GOC",
+   "upc": "0840777093184",
+   "title": "SAPPhIRE PULSE AMD Radeon RX 9070 GRE GAMING OC 12GB GDDR6 (SA-DCA-RX9070GRE-PULSE-12GO…",
+   "spec": "RX 9070 GRE",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f6c33eddd67ff410.jpg",
+   "image": "img/hk-f6c33eddd67ff410.jpg",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Sapphire_RX9070GRE_PULSE_Full_Box_Card.jpg?v=1780726194",
+   "water": {
+    "price_hkd": 4670,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H2NCCDQG",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0H2NCCDQG",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key sapphire:9070gre:gaming oc+pulse",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 5150,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/sapphire-pulse-amd-radeon-series-rx-9070-gre-gaming-oc-12gb-gddr6",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 480,
+   "best_price": 4670,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|colorful:5060ti8:oc+ultra",
    "category": "gpu",
    "cooler_kind": null,
@@ -54118,41 +54216,15 @@
     "url": "https://www.jumbo-computer.com/zh-hk/products/asrock-radeon-series-rx-9070-gre-steel-legend-dark-oc-12gb-gddr6-as-dca-rx9070gre-sl-dk-12goc",
     "stock": "現貨",
     "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 4999,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asrock:9060xt:challenger",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASRock",
-   "model_key": "asrock:9060xt:challenger",
-   "part_number": null,
-   "upc": null,
-   "title": "【RX9060XT 16GB】ASROCK RX9060XT CHALLENGER 16GB [長: 249mm]",
-   "spec": "RX 9060 XT",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 4999,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=44776",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 5050,
+      "url": "https://centralfield.com/product/14001/asrock-rx-9070-gre-steel-legend-oc-12gb-gddr6",
+      "build_only": true
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 4999,
@@ -54416,14 +54488,14 @@
    "has_official": true
   },
   {
-   "id": "gpu|sapphire:9070gre:gaming oc+pulse",
+   "id": "gpu|powercolor:9070gre:triple|water",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "Sapphire",
-   "model_key": "sapphire:9070gre:gaming oc+pulse",
-   "part_number": "SA-DCA-RX9070GRE-PULSE-12GOC",
-   "upc": "0840777093184",
-   "title": "SAPPhIRE PULSE AMD Radeon RX 9070 GRE GAMING OC 12GB GDDR6 (SA-DCA-RX9070GRE-PULSE-12GO…",
+   "brand": "PowerColor",
+   "model_key": "powercolor:9070gre:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PowerColor Radeon RX9070GRE Graphics Board, PCI-E 5.0, GDDR6, 12GB, Boost, 2860MHz, Tri…",
    "spec": "RX 9070 GRE",
    "filter_tags": null,
    "form_factor": null,
@@ -54431,23 +54503,28 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f6c33eddd67ff410.jpg",
-   "image": "img/hk-f6c33eddd67ff410.jpg",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Sapphire_RX9070GRE_PULSE_Full_Box_Card.jpg?v=1780726194",
-   "water": null,
-   "official": {
-    "price_hkd": 5150,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/sapphire-pulse-amd-radeon-series-rx-9070-gre-gaming-oc-12gb-gddr6",
-    "stock": "現貨",
-    "build_only": false,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 5138,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H2PQPHX2",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0H2PQPHX2",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
     "others": []
    },
+   "official": null,
    "delta_hkd": null,
-   "best_price": 5150,
-   "has_water": false,
-   "has_official": true
+   "best_price": 5138,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|sapphire:9060xt:gaming oc+pulse",
@@ -54499,7 +54576,7 @@
    "model_key": "powercolor:9070gre:reaper",
    "part_number": null,
    "upc": null,
-   "title": "【RX9070GRE】POWERCOLOR RX9070GRE REAPER 12GB [長: 289mm]",
+   "title": "POWERCOLOR AMD Radeon RX 9070GRE Reaper 12GB GDDR6 顯示卡三風扇版",
    "spec": "RX 9070 GRE",
    "filter_tags": null,
    "form_factor": null,
@@ -54513,12 +54590,20 @@
    "water": null,
    "official": {
     "price_hkd": 5200,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=47957",
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22489/powercolor-rx-9070gre-reaper-12gb-gddr6",
     "stock": "現貨",
-    "build_only": false,
-    "others": []
+    "build_only": true,
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 5200,
+      "url": "https://buymore.hk/shop/goods.php?id=47957",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 5200,
@@ -54656,6 +54741,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:9060xt:oc+tuf",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:9060xt:oc+tuf",
+   "part_number": "TUF-RX9060XT-O16G-GAMING",
+   "upc": null,
+   "title": "ASUS 華碩 TUF Gaming Radeon RX 9060 XT OC 16GB 顯示卡",
+   "spec": "RX 9060 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-243c8fa12c7499c5.png",
+   "image": "img/hk-243c8fa12c7499c5.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/0b18c56e-48fb-4a68-647f-cadde59a8400/public",
+   "water": {
+    "price_hkd": 5563,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0FBLSMC3P",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0FBLSMC3P",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:9060xt:oc+tuf",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 5899,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/225191/ASUS-華碩-TUF-Gaming-Radeon-RX-9060-XT-OC-16GB-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 336,
+   "best_price": 5563,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5060ti16:dual+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -54760,37 +54892,58 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:9060xt:oc+tuf",
+   "id": "gpu|asrock:9070:challenger",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:9060xt:oc+tuf",
-   "part_number": "TUF-RX9060XT-O16G-GAMING",
+   "brand": "ASRock",
+   "model_key": "asrock:9070:challenger",
+   "part_number": null,
    "upc": null,
-   "title": "ASUS 華碩 TUF Gaming Radeon RX 9060 XT OC 16GB 顯示卡",
-   "spec": "RX 9060 XT",
+   "title": "Asrock AMD Radeon RX 9070 Challenger 16GB GDDR6 華擎顯示卡三風扇版",
+   "spec": "RX 9070",
    "filter_tags": null,
    "form_factor": null,
    "has_wifi": null,
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-243c8fa12c7499c5.png",
-   "image": "img/hk-243c8fa12c7499c5.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/0b18c56e-48fb-4a68-647f-cadde59a8400/public",
-   "water": null,
-   "official": {
-    "price_hkd": 5899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/225191/ASUS-華碩-TUF-Gaming-Radeon-RX-9060-XT-OC-16GB-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 5874,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DXZDZHPZ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DXZDZHPZ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asrock:9070:challenger",
     "others": []
    },
-   "delta_hkd": null,
-   "best_price": 5899,
-   "has_water": false,
+   "official": {
+    "price_hkd": 5999,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=44080",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 6150,
+      "url": "https://centralfield.com/product/11770/asrock-amd-radeon-rx-9070-challenger-16gb",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 125,
+   "best_price": 5874,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -54824,40 +54977,6 @@
    },
    "delta_hkd": null,
    "best_price": 5949,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asrock:9070:challenger",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASRock",
-   "model_key": "asrock:9070:challenger",
-   "part_number": null,
-   "upc": null,
-   "title": "【RX9070】ASROCK RX9070 CHALLENGER 16GB [長: 290mm]",
-   "spec": "RX 9070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 5999,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=44080",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 5999,
    "has_water": false,
    "has_official": true
   },
@@ -54936,6 +55055,45 @@
    "best_price": 6000,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:9070:tuf|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:9070:tuf",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS AMD Radeon RX9070 Video Card PCIe 5.0 16GB GDDR6 TUF-RX9070-O16G-GAMING",
+   "spec": "RX 9070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 6013,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DZBRCV9G",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DZBRCV9G",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 6013,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|sapphire:9060xt:oc+white",
@@ -55036,6 +55194,40 @@
    },
    "delta_hkd": null,
    "best_price": 6099,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|sapphire:9070gre:pulse",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Sapphire",
+   "model_key": "sapphire:9070gre:pulse",
+   "part_number": null,
+   "upc": null,
+   "title": "SAPPHIRE AMD Radeon RX 9070GRE PULSE 12GB GDDR6 藍寶石顯示卡雙風扇版",
+   "spec": "RX 9070 GRE",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 6150,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/20926/sapphire-rx-9070gre-pulse-12gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 6150,
    "has_water": false,
    "has_official": true
   },
@@ -55204,45 +55396,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:9070:gaming oc+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:9070:gaming oc+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte Radeon RX 9070 Gaming OC 16G Graphics Card - 16 GB GDDR6, 256 Bit, PCI-E 5.0, …",
-   "spec": "RX 9070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 6245,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DT78YM6P",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DT78YM6P",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 6245,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|sapphire:9060xt:white",
    "category": "gpu",
    "cooler_kind": null,
@@ -55311,6 +55464,121 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:9070:gaming oc+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:9070:gaming oc+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte Radeon RX 9070 Gaming OC 16G Graphics Card - 16 GB GDDR6, 256 Bit, PCI-E 5.0, …",
+   "spec": "RX 9070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 6326,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DT78YM6P",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DT78YM6P",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 6326,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|galax:5060ti16:oc+v2",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "GALAX",
+   "model_key": "galax:5060ti16:oc+v2",
+   "part_number": null,
+   "upc": null,
+   "title": "GALAX GeForce RTX 5060Ti 1-Click-OC V2 Black 16GB GDDR7 影馳顯示卡雙風扇超頻版",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 6330,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/21274/galax-rtx-5060ti-16gb-gddr7-oc-graphics-card",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 6330,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|zotac:5060ti16:oc+twin",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Zotac",
+   "model_key": "zotac:5060ti16:oc+twin",
+   "part_number": "ZT-B50620H-10M",
+   "upc": null,
+   "title": "ZOTAC GAMING GeForce RTX 5060 Ti Twin Edge OC 16GB GDDR7 索泰顯示卡雙風扇超頻版 (SFF-Ready)(ZT-B50…",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9bfdb5eb3fa53f8d.jpg",
+   "image": "img/hk-9bfdb5eb3fa53f8d.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/2cfcb252-0bac-44f9-ba95-db1fecdc4000/public",
+   "water": null,
+   "official": {
+    "price_hkd": 6349,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/12547/zotac-gaming-rtx-5060-ti-twin-edge-oc-16gb-gddr7",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 6799,
+      "url": "https://shop.pegasus.hk/products/224214/ZOTAC-GAMING-Twin-Edge-GeForce-RTX-5060-Ti-16G-OC-顯示卡---3年保養",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 6349,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5060ti16:2x+oc+ventus",
    "category": "gpu",
    "cooler_kind": null,
@@ -55350,7 +55618,7 @@
       "store_short": "中田",
       "price_hkd": 6599,
       "url": "https://centralfield.com/product/12541/msi-rtx-5060ti-ventus-2x-oc-plus-16gb-gddr7",
-      "build_only": false
+      "build_only": true
      },
      {
       "store": "SE Computer",
@@ -55551,7 +55819,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6589,
+    "price_hkd": 6565,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -55566,7 +55834,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6589,
+   "best_price": 6565,
    "has_water": true,
    "has_official": false
   },
@@ -55596,7 +55864,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/23884/colorful-igame-geforce-rtx-5060ti-ultra-duo-oc-16gb",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "SE Computer",
@@ -55758,6 +56026,13 @@
       "build_only": false
      },
      {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7900,
+      "url": "https://centralfield.com/product/13042/asus-dual-geforce-rtx-5070-oc-12gb",
+      "build_only": true
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 8499,
@@ -55804,7 +56079,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/14470/msi-rtx-5060ti-shadow-2x-oc-plus-16gb",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "飛馬 PEGASUS",
@@ -55982,40 +56257,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|zotac:5060ti16:oc+twin",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Zotac",
-   "model_key": "zotac:5060ti16:oc+twin",
-   "part_number": null,
-   "upc": null,
-   "title": "ZOTAC GAMING Twin Edge GeForce RTX 5060 Ti 16G OC 顯示卡",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9bfdb5eb3fa53f8d.jpg",
-   "image": "img/hk-9bfdb5eb3fa53f8d.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/2cfcb252-0bac-44f9-ba95-db1fecdc4000/public",
-   "water": null,
-   "official": {
-    "price_hkd": 6799,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224214/ZOTAC-GAMING-Twin-Edge-GeForce-RTX-5060-Ti-16G-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 6799,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5070:2x+oc+ventus",
    "category": "gpu",
    "cooler_kind": null,
@@ -56068,7 +56309,7 @@
       "store_short": "中田",
       "price_hkd": 7899,
       "url": "https://centralfield.com/product/11763/msi-rtx-5070-ventus-2x-oc-sff-ready",
-      "build_only": false
+      "build_only": true
      },
      {
       "store": "SE Computer",
@@ -56144,7 +56385,7 @@
       "store_short": "中田",
       "price_hkd": 7950,
       "url": "https://centralfield.com/product/11762/msi-geforce-rtx-5070-shadow-2x-oc-12gb",
-      "build_only": false
+      "build_only": true
      },
      {
       "store": "SE Computer",
@@ -56363,7 +56604,7 @@
    "model_key": "asus:9070:evo+oc+prime",
    "part_number": "PRIME-RX9070-O16G-EVO",
    "upc": null,
-   "title": "ASUS 華碩 Prime Radeon RX 9070 EVO OC 16GB 顯示卡",
+   "title": "ASUS PRIME AMD Radeon RX 9070 OC EVO 16GB GDDR6 華碩顯示卡三風扇超頻版",
    "spec": "RX 9070",
    "filter_tags": null,
    "form_factor": null,
@@ -56382,7 +56623,15 @@
     "url": "https://shop.pegasus.hk/products/232269/ASUS-華碩-Prime-Radeon-RX-9070-EVO-OC-16GB-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": true,
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7100,
+      "url": "https://centralfield.com/product/17552/asus-prime-rx-9070-oc-evo-16gb-gddr6-graphics-card",
+      "build_only": true
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 6999,
@@ -56462,6 +56711,55 @@
    },
    "delta_hkd": null,
    "best_price": 7099,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|powercolor:9070xt:reaper",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PowerColor",
+   "model_key": "powercolor:9070xt:reaper",
+   "part_number": null,
+   "upc": null,
+   "title": "POWERCOLOR AMD Radeon RX 9070XT Reaper 16GB GDDR6 顯示卡三風扇版",
+   "spec": "RX 9070 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d86d6e3a5bb11b3a.png",
+   "image": "img/hk-d86d6e3a5bb11b3a.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/857ef226-8e1e-48d7-35aa-0ddfd6225600/public",
+   "water": null,
+   "official": {
+    "price_hkd": 7150,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11840/powercolor-rx-9070xt-reaper-16gb-gddr6",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 7699,
+      "url": "https://shop.pegasus.hk/products/223445/PowerColor-Reaper-AMD-Radeon-RX-9070-XT-16GB--顯示卡---2年保養",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 7700,
+      "url": "https://buymore.hk/shop/goods.php?id=44010",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 7150,
    "has_water": false,
    "has_official": true
   },
@@ -56561,7 +56859,7 @@
    "image": "img/hk-7a34ebe48e1794eb.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/1000_1c15e9f9-d71b-4dc9-95e2-ee7ec9468389.webp?v=1746773585",
    "water": {
-    "price_hkd": 7212,
+    "price_hkd": 7214,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -56583,8 +56881,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 1368,
-   "best_price": 7212,
+   "delta_hkd": 1366,
+   "best_price": 7214,
    "has_water": true,
    "has_official": true
   },
@@ -56666,7 +56964,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/11572/asus-prime-rtx-5070-oc-12gb",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "未來科技 BUYMORE",
@@ -56788,7 +57086,7 @@
       "store_short": "中田",
       "price_hkd": 7399,
       "url": "https://centralfield.com/product/12648/msi-geforce-rtx-5060ti-gaming-trio-oc-16gb",
-      "build_only": false
+      "build_only": true
      },
      {
       "store": "未來科技 BUYMORE",
@@ -56878,6 +57176,55 @@
     "stock": "現貨",
     "build_only": false,
     "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7380,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|powercolor:9070xt:hellhound+white",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PowerColor",
+   "model_key": "powercolor:9070xt:hellhound+white",
+   "part_number": null,
+   "upc": null,
+   "title": "POWERCOLOR AMD Radeon RX 9070XT Hellhound White 16GB GDDR6 白色顯示卡三風扇版",
+   "spec": "RX 9070 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-37deb53b8ccd5c58.png",
+   "image": "img/hk-37deb53b8ccd5c58.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/90d2f4f0-213e-41bd-ceb8-6383b8f94300/public",
+   "water": null,
+   "official": {
+    "price_hkd": 7380,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11839/powercolor-rx-9070xt-hellhound-white-16gb-gddr6",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 7899,
+      "url": "https://shop.pegasus.hk/products/223677/PowerColor-Hellhound-Spectral-White-AMD-Radeon-RX-9070-XT-16GB-顯示卡---2年保養",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 7950,
+      "url": "https://buymore.hk/shop/goods.php?id=44011",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 7380,
@@ -57009,7 +57356,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/23641/palit-geforce-rtx-5070-infinity-3-oc-12gb",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "SE Computer",
@@ -57052,6 +57399,40 @@
     "url": "https://shop.pegasus.hk/products/235597/ASRock-華擎-Radeon-RX-9070-XT-Challenger-16GB-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 7499,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asrock:9070xt:",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASRock",
+   "model_key": "asrock:9070xt:",
+   "part_number": null,
+   "upc": null,
+   "title": "Asrock AMD Radeon RX 9070XT Chanllenger 16GB GDDR6 華擎顯示卡三風扇版",
+   "spec": "RX 9070 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 7499,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/22007/asrock-rx-9070xt-chanllenger-16gb-graphics-card",
+    "stock": "現貨",
+    "build_only": true,
     "others": []
    },
    "delta_hkd": null,
@@ -57127,7 +57508,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/12539/msi-rtx-5060ti-vanguard-soc-16gb-gddr7",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": []
    },
    "delta_hkd": null,
@@ -57413,7 +57794,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 7656,
+    "price_hkd": 7628,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -57428,7 +57809,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7656,
+   "best_price": 7628,
    "has_water": true,
    "has_official": false
   },
@@ -57467,14 +57848,14 @@
    "has_official": true
   },
   {
-   "id": "gpu|powercolor:9070xt:reaper",
+   "id": "gpu|asus:9070xt:oc+tuf",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "PowerColor",
-   "model_key": "powercolor:9070xt:reaper",
+   "brand": "ASUS",
+   "model_key": "asus:9070xt:oc+tuf",
    "part_number": null,
    "upc": null,
-   "title": "【RX9070XT】POWERCOLOR REAPER RX9070XT 16GB [長: 289mm]",
+   "title": "【RX9070XT】ASUS TUF GAMING RX9070XT OC 16GB [長: 330mm]",
    "spec": "RX 9070 XT",
    "filter_tags": null,
    "form_factor": null,
@@ -57482,30 +57863,43 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d86d6e3a5bb11b3a.png",
-   "image": "img/hk-d86d6e3a5bb11b3a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/857ef226-8e1e-48d7-35aa-0ddfd6225600/public",
-   "water": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-53a3b1b9a3e6fe88.png",
+   "image": "img/hk-53a3b1b9a3e6fe88.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c6640e63-6c6c-4bcb-ec6d-0768d7409c00/public",
+   "water": {
+    "price_hkd": 7778,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0DSWJL78F",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0DSWJL78F",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:9070xt:oc+tuf",
+    "others": []
+   },
    "official": {
-    "price_hkd": 7699,
+    "price_hkd": 8999,
     "store": "飛馬 PEGASUS",
     "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223445/PowerColor-Reaper-AMD-Radeon-RX-9070-XT-16GB--顯示卡---2年保養",
+    "url": "https://shop.pegasus.hk/products/223438/ASUS-華碩-TUF-Gaming-Radeon-RX-9070-XT-OC-16GB-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
     "others": [
      {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
-      "price_hkd": 7700,
-      "url": "https://buymore.hk/shop/goods.php?id=44010",
+      "price_hkd": 9799,
+      "url": "https://buymore.hk/shop/goods.php?id=43903",
       "build_only": false
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 7699,
-   "has_water": false,
+   "delta_hkd": 1221,
+   "best_price": 7778,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -57583,7 +57977,7 @@
       "store_short": "中田",
       "price_hkd": 8699,
       "url": "https://centralfield.com/product/21495/asus-rtx-5070-t1-oc-12gb-gddr7",
-      "build_only": false
+      "build_only": true
      },
      {
       "store": "SE Computer",
@@ -57632,7 +58026,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/12674/zotac-gaming-rtx-5070-twin-edge-oc-graphics-card",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "未來科技 BUYMORE",
@@ -57680,61 +58074,6 @@
    "delta_hkd": null,
    "best_price": 7800,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:9070xt:oc+tuf",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:9070xt:oc+tuf",
-   "part_number": null,
-   "upc": null,
-   "title": "【RX9070XT】ASUS TUF GAMING RX9070XT OC 16GB [長: 330mm]",
-   "spec": "RX 9070 XT",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-53a3b1b9a3e6fe88.png",
-   "image": "img/hk-53a3b1b9a3e6fe88.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c6640e63-6c6c-4bcb-ec6d-0768d7409c00/public",
-   "water": {
-    "price_hkd": 7804,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DSWJL78F",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0DSWJL78F",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:9070xt:oc+tuf",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 8999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223438/ASUS-華碩-TUF-Gaming-Radeon-RX-9070-XT-OC-16GB-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 9799,
-      "url": "https://buymore.hk/shop/goods.php?id=43903",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 1195,
-   "best_price": 7804,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -57809,55 +58148,13 @@
       "store_short": "中田",
       "price_hkd": 7999,
       "url": "https://centralfield.com/product/11765/msi-rtx-5070-ventus-3x-oc-12gb",
-      "build_only": false
+      "build_only": true
      },
      {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
       "price_hkd": 8100,
       "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5070-ventus-3x-oc-12gb-gddr7-di-n5070y1",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 7899,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|powercolor:9070xt:hellhound+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PowerColor",
-   "model_key": "powercolor:9070xt:hellhound+white",
-   "part_number": null,
-   "upc": null,
-   "title": "PowerColor Hellhound Spectral White AMD Radeon RX 9070 XT 16GB 顯示卡",
-   "spec": "RX 9070 XT",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-37deb53b8ccd5c58.png",
-   "image": "img/hk-37deb53b8ccd5c58.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/90d2f4f0-213e-41bd-ceb8-6383b8f94300/public",
-   "water": null,
-   "official": {
-    "price_hkd": 7899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223677/PowerColor-Hellhound-Spectral-White-AMD-Radeon-RX-9070-XT-16GB-顯示卡---2年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 7950,
-      "url": "https://buymore.hk/shop/goods.php?id=44011",
       "build_only": false
      }
     ]
@@ -57987,7 +58284,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/11603/asrock-rx-9070xt-taichi-oc-16gb",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": []
    },
    "delta_hkd": null,
@@ -58015,7 +58312,7 @@
    "image": "img/hk-396cbd99ddb60f1c.webp",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/34ad79dab0a7010b6261a0298e3c7ba7.webp",
    "water": {
-    "price_hkd": 8510,
+    "price_hkd": 8479,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -58045,7 +58342,7 @@
      }
     ]
    },
-   "delta_hkd": -511,
+   "delta_hkd": -480,
    "best_price": 7999,
    "has_water": true,
    "has_official": true
@@ -58178,7 +58475,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/12399/zotac-gaming-rtx-5070-amp-white-graphics-card",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": []
    },
    "delta_hkd": null,
@@ -58490,7 +58787,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/11612/sapphire-rx-9070xt-pulse-16gb",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "未來科技 BUYMORE",
@@ -58656,7 +58953,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/11613/sapphire-rx-9070xt-pure-oc-16gb-white-graphics-card",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "未來科技 BUYMORE",
@@ -58766,7 +59063,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/11573/asus-tuf-rtx-5070-oc-12gb",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "Jumbo 珍寶電腦",
@@ -58948,6 +59245,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|amd:9070xt:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "AMD",
+   "model_key": "amd:9070xt:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Power Color AMD Radeon RX9070XT 16G-L/OC Graphics Board GDDR6 16GB Hell Hound Power Color",
+   "spec": "RX 9070 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 9071,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0CVVLV5TV",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0CVVLV5TV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9071,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|sapphire:9070xt:nitro+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -58980,7 +59316,7 @@
       "store_short": "中田",
       "price_hkd": 9250,
       "url": "https://centralfield.com/product/11611/sapphire-rx-9070xt-nitro-oc-16gb",
-      "build_only": false
+      "build_only": true
      }
     ]
    },
@@ -59148,7 +59484,7 @@
    "model_key": "msi:5070ti:3x+oc+shadow",
    "part_number": null,
    "upc": "0824142408483",
-   "title": "MSI GeForce RTX 5070 Ti SHADOW 3X OC 16GB GDDR7 (DI-N507TF1) - 3年保養",
+   "title": "MSI GeForce RTX 5070Ti Shadow 3X OC 16GB GDDR7 SFF-Ready 微星三風扇超頻版顯示卡",
    "spec": "RTX 5070 Ti",
    "filter_tags": null,
    "form_factor": null,
@@ -59187,6 +59523,13 @@
       "price_hkd": 11599,
       "url": "https://www.jumbo-computer.com/zh-hk/products/小量現貨-msi-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-di-n507tf1",
       "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 11800,
+      "url": "https://centralfield.com/product/11902/msi-geforce-rtx-5070ti-shadow-3x-oc-16gb",
+      "build_only": true
      }
     ]
    },
@@ -60390,7 +60733,7 @@
     "store_short": "中田",
     "url": "https://centralfield.com/product/16546/zotac-gaming-rtx-5070ti-apocalypse-oc-16gb",
     "stock": "現貨",
-    "build_only": false,
+    "build_only": true,
     "others": [
      {
       "store": "未來科技 BUYMORE",
