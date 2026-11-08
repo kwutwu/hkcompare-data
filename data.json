@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-08T18:10:44Z",
- "generated_at_hkt": "2026-11-09 02:10 HKT",
- "price_updated_hkt": "2026-11-09 02:10 HKT",
+ "generated_at": "2026-11-08T18:54:29Z",
+ "generated_at_hkt": "2026-11-09 02:54 HKT",
+ "price_updated_hkt": "2026-11-09 02:54 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-08 09:53–12:18 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261108/hkcompare_rows.json",
@@ -363,10 +363,10 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 0,
+   "amazon_downloaded": 1,
    "amazon_cached": 147,
    "official_downloaded": 0,
-   "official_cached": 2235,
+   "official_cached": 2234,
    "failed": 17
   },
   "image_samples": [
@@ -428,11 +428,11 @@
    }
   ],
   "ivan": {
-   "total_listings": 235,
+   "total_listings": 236,
    "qualified": 251,
    "deduped": 225,
    "excluded": {
-    "seller": 197,
+    "seller": 198,
     "no ship": 6,
     "not desktop GPU": 3
    },
@@ -50639,7 +50639,7 @@
    "model_key": "msi:5060ti8:gaming trio+oc",
    "part_number": null,
    "upc": null,
-   "title": "MSI 微星 GeForce RTX 5060 Ti 8G GAMING TRIO OC 顯示卡",
+   "title": "MSI GeForce RTX 5060 Ti 8G GAMING TRIO OC Graphics Card - RTX 5060 Ti GPU",
    "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
    "form_factor": null,
@@ -50647,9 +50647,9 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1bc70e3792044536.png",
-   "image": "img/hk-1bc70e3792044536.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/684978b6-4288-4c06-19d7-1357863cc900/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B096Z886F8.jpg",
+   "image": "img/B096Z886F8.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71WCqRmZYmL._AC_SL1500_.jpg",
    "water": {
     "price_hkd": 5055,
     "source": "amazon",
@@ -56492,7 +56492,7 @@
    "image": "img/B0GZWW2RKH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13879,
+    "price_hkd": 13913,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -56522,8 +56522,8 @@
      }
     ]
    },
-   "delta_hkd": 1120,
-   "best_price": 13879,
+   "delta_hkd": 1086,
+   "best_price": 13913,
    "has_water": true,
    "has_official": true
   },
@@ -57252,7 +57252,7 @@
    "image": "img/B0DZCVQGG6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
    "water": {
-    "price_hkd": 15780,
+    "price_hkd": 15768,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -57260,14 +57260,14 @@
     "asin": "B0DZCVQGG6",
     "sku": null,
     "url": "https://www.amazon.de/dp/B0DZCVQGG6",
-    "stock": "Only 15 left in stock.",
+    "stock": "Only 16 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "others": []
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15780,
+   "best_price": 15768,
    "has_water": true,
    "has_official": false
   },
@@ -57492,6 +57492,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:aorus+ice+master|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:aorus+ice+master",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte Aorus GeForce RTX 5080 Master Ice 16G Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9YQ2Q1.jpg",
+   "image": "img/B0DT9YQ2Q1.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 16093,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DT9YQ2Q1",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DT9YQ2Q1",
+    "stock": "Only 6 left in stock.",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 16093,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|pny:5080:oc+triple|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -57602,45 +57641,6 @@
    "best_price": 16399,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:aorus+ice+master|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aorus+ice+master",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte AORUS GeForce RTX 5080 MASTER ICE 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9YQ2Q1.jpg",
-   "image": "img/B0DT9YQ2Q1.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 16532,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DT9YQ2Q1",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DT9YQ2Q1",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 16532,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|asus:5080:oc+proart",
@@ -57951,7 +57951,7 @@
    "image": "img/B0DTJDR3V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 17751,
+    "price_hkd": 17680,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -57966,7 +57966,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 17751,
+   "best_price": 17680,
    "has_water": true,
    "has_official": false
   },
