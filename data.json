@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-08T02:48:19Z",
- "generated_at_hkt": "2026-11-08 10:48 HKT",
- "price_updated_hkt": "2026-11-08 10:48 HKT",
+ "generated_at": "2026-11-08T03:13:26Z",
+ "generated_at_hkt": "2026-11-08 11:13 HKT",
+ "price_updated_hkt": "2026-11-08 11:13 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-07 09:54–15:45 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261107/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 228,
+   "count": 230,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2875,
+  "items": 2877,
   "both_sides": 81,
-  "water_only": 128,
+  "water_only": 130,
   "official_only": 2665,
   "matched_water": 85,
-  "official_groups": 2875,
+  "official_groups": 2877,
   "id_merge": {
    "enabled": true,
    "unions_upc": 194,
@@ -408,20 +408,20 @@
   ],
   "ivan": {
    "total_listings": 233,
-   "qualified": 242,
-   "deduped": 213,
+   "qualified": 244,
+   "deduped": 215,
    "excluded": {
     "seller": 195,
     "no ship": 6,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 50,
+    "ivan_gpu_rows": 52,
     "nic_jp_rows": 90,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
-     "bad_or_dup": 67
+     "bad_or_dup": 72
     }
    }
   }
@@ -53380,7 +53380,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 4590,
+    "price_hkd": 4574,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -53395,7 +53395,46 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 4590,
+   "best_price": 4574,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|gigabyte:5060ti8:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti8:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte GV-N506TEAGLE OC-8GD NVIDIA Geforce RTX5060Ti GDDR7 8GB Graphics Board",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 4585,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F539PRT3",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F539PRT3",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4585,
    "has_water": true,
    "has_official": false
   },
@@ -53453,7 +53492,7 @@
    "image": "img/hk-0d01d0346d8453cc.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForce_RTX_5060_Ti_WINDFORCE_OC_8G-01.png?v=1751000733",
    "water": {
-    "price_hkd": 4632,
+    "price_hkd": 4633,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -53483,7 +53522,7 @@
      }
     ]
    },
-   "delta_hkd": -33,
+   "delta_hkd": -34,
    "best_price": 4599,
    "has_water": true,
    "has_official": true
@@ -53508,7 +53547,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 4612,
+    "price_hkd": 4613,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -53523,46 +53562,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 4612,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|gigabyte:5060ti8:oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti8:oc",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte GV-N506TEAGLE OC-8GD NVIDIA Geforce RTX5060Ti GDDR7 8GB Graphics Board",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4615,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F539PRT3",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F539PRT3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4615,
+   "best_price": 4613,
    "has_water": true,
    "has_official": false
   },
@@ -53669,7 +53669,7 @@
    "image": "img/hk-48fd11df3295664a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/423b62bc-8da7-48de-7449-5900546d9300/public",
    "water": {
-    "price_hkd": 4692,
+    "price_hkd": 4662,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -53706,8 +53706,8 @@
      }
     ]
    },
-   "delta_hkd": 507,
-   "best_price": 4692,
+   "delta_hkd": 537,
+   "best_price": 4662,
    "has_water": true,
    "has_official": true
   },
@@ -53898,7 +53898,7 @@
    "image": "img/hk-396adb8b80e98e69.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/1fe5b9ff-4d54-4e2f-7fa8-e9371906c100/public",
    "water": {
-    "price_hkd": 4807,
+    "price_hkd": 4809,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -53920,8 +53920,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 392,
-   "best_price": 4807,
+   "delta_hkd": 390,
+   "best_price": 4809,
    "has_water": true,
    "has_official": true
   },
@@ -54312,7 +54312,7 @@
    "image": "img/hk-066cd71d345888f2.png",
    "image_fallback_url": "https://secomputer.com.hk/uploads/products/cover/f48f10e5b6894c011266828b36d53a66.png",
    "water": {
-    "price_hkd": 5072,
+    "price_hkd": 5055,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -54342,8 +54342,8 @@
      }
     ]
    },
-   "delta_hkd": 578,
-   "best_price": 5072,
+   "delta_hkd": 595,
+   "best_price": 5055,
    "has_water": true,
    "has_official": true
   },
@@ -54579,7 +54579,7 @@
    "image": "img/hk-dc17bfad8b67112b.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/529605d5-31d7-4d20-72bc-7dc339b90f00/public",
    "water": {
-    "price_hkd": 5586,
+    "price_hkd": 5550,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -54616,7 +54616,7 @@
      }
     ]
    },
-   "delta_hkd": -187,
+   "delta_hkd": -151,
    "best_price": 5399,
    "has_water": true,
    "has_official": true
@@ -54653,6 +54653,68 @@
    "delta_hkd": null,
    "best_price": 5550,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5060ti16:dual+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti16:dual+oc",
+   "part_number": "DUAL-RTX5060TI-O16G",
+   "upc": "0197105994300",
+   "title": "ASUS DUAL GeForce RTX 5060 Ti OC 16GB GDDR7 DUAL-RTX5060TI-O16G (DI-E506TE1) - 3年保養",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-98ca95c2c9c28a0f.png",
+   "image": "img/hk-98ca95c2c9c28a0f.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/17ba8961-ed0d-4cbe-da45-44adf9e57000/public",
+   "water": {
+    "price_hkd": 5691,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0F4DVKSZ4",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0F4DVKSZ4",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti16:dual+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 6699,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224165/ASUS-華碩-Dual-GeForce-RTX-5060-Ti-16GB-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 6799,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-dual-geforce-rtx-5060-ti-oc-16gb-gddr7-dual-rtx5060ti-o16g-di-e506te1",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 7500,
+      "url": "https://buymore.hk/shop/goods.php?id=44269",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 1008,
+   "best_price": 5691,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -54695,68 +54757,6 @@
    "delta_hkd": null,
    "best_price": 5699,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5060ti16:dual+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti16:dual+oc",
-   "part_number": "DUAL-RTX5060TI-O16G",
-   "upc": "0197105994300",
-   "title": "ASUS DUAL GeForce RTX 5060 Ti OC 16GB GDDR7 DUAL-RTX5060TI-O16G (DI-E506TE1) - 3年保養",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-98ca95c2c9c28a0f.png",
-   "image": "img/hk-98ca95c2c9c28a0f.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/17ba8961-ed0d-4cbe-da45-44adf9e57000/public",
-   "water": {
-    "price_hkd": 5712,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0F4DVKSZ4",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0F4DVKSZ4",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti16:dual+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 6699,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224165/ASUS-華碩-Dual-GeForce-RTX-5060-Ti-16GB-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 6799,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-dual-geforce-rtx-5060-ti-oc-16gb-gddr7-dual-rtx5060ti-o16g-di-e506te1",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 7500,
-      "url": "https://buymore.hk/shop/goods.php?id=44269",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 987,
-   "best_price": 5712,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -55059,7 +55059,7 @@
    "image": "img/hk-71befc71982171b5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/979f922b-2de0-45a5-c726-0312e5bd5d00/public",
    "water": {
-    "price_hkd": 6191,
+    "price_hkd": 6169,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -55096,8 +55096,8 @@
      }
     ]
    },
-   "delta_hkd": 808,
-   "best_price": 6191,
+   "delta_hkd": 830,
+   "best_price": 6169,
    "has_water": true,
    "has_official": true
   },
@@ -55477,6 +55477,61 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5060ti16:oc+tuf",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti16:oc+tuf",
+   "part_number": "TUF-RTX5060TI-O16G-GAMING",
+   "upc": null,
+   "title": "【RTX5060Ti 16GB】ASUS TUF GAMING RTX5060Ti OC 16GB [長: 302mm]",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7f6f7fb72b3f68b9.png",
+   "image": "img/hk-7f6f7fb72b3f68b9.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c5946856-dfb4-44d4-a4b8-84422d563500/public",
+   "water": {
+    "price_hkd": 6561,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0F4VGXQXF",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0F4VGXQXF",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti16:oc+tuf",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7099,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224170/ASUS-華碩-TUF-Gaming-GeForce-RTX-5060-Ti-16GB-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 7699,
+      "url": "https://buymore.hk/shop/goods.php?id=44347",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 538,
+   "best_price": 6561,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:9070:oc+prime|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -55556,6 +55611,45 @@
    "best_price": 6599,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5060ti16:3x+eagle+ice+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti16:3x+eagle+ice+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte GeForce RTX 5060 Ti Eagle OC Ice 16G Graphics Card - 16GB GDDR7, 128bit, PCI-E…",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 6603,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0F4NFDQ3B",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0F4NFDQ3B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 6603,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070:oc+windforce",
@@ -55753,7 +55847,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 6698,
+    "price_hkd": 6674,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -55768,7 +55862,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6698,
+   "best_price": 6674,
    "has_water": true,
    "has_official": false
   },
@@ -55860,7 +55954,7 @@
    "image": "img/hk-ed412246890355c4.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4f83f0d4-6b85-46ba-48a0-03b522429a00/public",
    "water": {
-    "price_hkd": 6858,
+    "price_hkd": 6833,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -55882,7 +55976,7 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -59,
+   "delta_hkd": -34,
    "best_price": 6799,
    "has_water": true,
    "has_official": true
@@ -56372,61 +56466,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5060ti16:oc+tuf",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti16:oc+tuf",
-   "part_number": "TUF-RTX5060TI-O16G-GAMING",
-   "upc": null,
-   "title": "【RTX5060Ti 16GB】ASUS TUF GAMING RTX5060Ti OC 16GB [長: 302mm]",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7f6f7fb72b3f68b9.png",
-   "image": "img/hk-7f6f7fb72b3f68b9.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c5946856-dfb4-44d4-a4b8-84422d563500/public",
-   "water": {
-    "price_hkd": 8129,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F4VGXQXF",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F4VGXQXF",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti16:oc+tuf",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7099,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224170/ASUS-華碩-TUF-Gaming-GeForce-RTX-5060-Ti-16GB-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 7699,
-      "url": "https://buymore.hk/shop/goods.php?id=44347",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": -1030,
-   "best_price": 7099,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5060ti16:oc+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -56642,6 +56681,45 @@
    "best_price": 7258,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:5060ti16:dual|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti16:dual",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS NVIDIA GeForce RTX 5060 Ti Video Card GDDR7 PCI Express 5.0 / DUAL-RTX5060TI-O16G …",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 7273,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F58FTZ7W",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F58FTZ7W",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7273,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|msi:5070:oc",
