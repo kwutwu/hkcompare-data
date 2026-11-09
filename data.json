@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-09T10:13:17Z",
- "generated_at_hkt": "2026-11-09 18:13 HKT",
- "price_updated_hkt": "2026-11-09 18:13 HKT",
+ "generated_at": "2026-11-09T10:57:41Z",
+ "generated_at_hkt": "2026-11-09 18:57 HKT",
+ "price_updated_hkt": "2026-11-09 18:57 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 351,
+   "count": 352,
    "enabled": true
   },
   "ssd": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2672,
-  "both_sides": 70,
-  "water_only": 138,
-  "official_only": 2462,
-  "matched_water": 72,
-  "official_groups": 2672,
+  "items": 2673,
+  "both_sides": 71,
+  "water_only": 139,
+  "official_only": 2461,
+  "matched_water": 73,
+  "official_groups": 2673,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -364,10 +364,10 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 0,
+   "amazon_downloaded": 2,
    "amazon_cached": 135,
    "official_downloaded": 0,
-   "official_cached": 2227,
+   "official_cached": 2226,
    "failed": 18
   },
   "image_samples": [
@@ -430,8 +430,8 @@
   ],
   "ivan": {
    "total_listings": 236,
-   "qualified": 238,
-   "deduped": 210,
+   "qualified": 241,
+   "deduped": 212,
    "excluded": {
     "seller": 198,
     "no ship": 6,
@@ -439,11 +439,11 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 33,
-    "nic_jp_rows": 103,
-    "nic_jp_retained": 16,
+    "nic_jp_rows": 106,
+    "nic_jp_retained": 18,
     "nic_jp_dropped_stale": 0,
-    "nic_jp_retain_now_hkt": "2026-11-09 15:48:27 HKT",
-    "nic_jp_cache_size": 103,
+    "nic_jp_retain_now_hkt": "2026-11-09 18:42:43 HKT",
+    "nic_jp_cache_size": 106,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
@@ -60119,6 +60119,61 @@
    "has_official": false
   },
   {
+   "id": "mobo|mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
+   "part_number": "MB-MB86MGW",
+   "upc": "0824142435731",
+   "title": "【Amazon.co.jp Exclusive】MSI B860M GAMING WIFI Micro-ATX Motherboard MB6909",
+   "spec": "B860",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0G1LVGDPT.jpg",
+   "image": "img/B0G1LVGDPT.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71ANn821ccL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 989,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0G1LVGDPT",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0G1LVGDPT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 1220,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-b860m-gaming-wifi-ddr5-lga-1851-matx-motherboard-mb-mb86mgw",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1280,
+      "url": "https://shop.pegasus.hk/products/227733/MSI-微星-B860M-GAMING-WIFI-Micro-ATX-主機板-DDR5---3年保養",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 231,
+   "best_price": 989,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "mobo|mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -61364,48 +61419,6 @@
    "best_price": 1205,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "mobo|mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
-   "part_number": "MB-MB86MGW",
-   "upc": "0824142435731",
-   "title": "MSI B860M GAMING WIFI DDR5,LGA 1851 mATX Motherboard (MB-MB86MGW)",
-   "spec": "B860",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-54479f451f98f6d8.png",
-   "image": "img/hk-54479f451f98f6d8.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/product_175037937029ce4047c6fc763e2a1ea07cbe3f5165.webp?v=1776666863",
-   "water": null,
-   "official": {
-    "price_hkd": 1220,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/msi-b860m-gaming-wifi-ddr5-lga-1851-matx-motherboard-mb-mb86mgw",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1280,
-      "url": "https://shop.pegasus.hk/products/227733/MSI-微星-B860M-GAMING-WIFI-Micro-ATX-主機板-DDR5---3年保養",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 1220,
-   "has_water": false,
-   "has_official": true
   },
   {
    "id": "mobo|mobo:asrock:B850:?:b850-rock-wifi7:ddr5:wifi:",
@@ -64361,17 +64374,17 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B850:ATX:b850-aorus-stealth-ice:ddr5:nowifi:white|water",
+   "id": "mobo|mobo:gigabyte:B850:?:b850-aorus-stealth-ice:ddr5:nowifi:|water",
    "category": "mobo",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B850:ATX:b850-aorus-stealth-ice:ddr5:nowifi:white",
+   "model_key": "mobo:gigabyte:B850:?:b850-aorus-stealth-ice:ddr5:nowifi:",
    "part_number": null,
    "upc": null,
    "title": "GIGABYTE B850 AORUS STEALTH ICE ATX MOTHERBOARD WHITE B850 A STEALTH ICE MB6787",
    "spec": "B850",
    "filter_tags": null,
-   "form_factor": "ATX",
+   "form_factor": "E-ATX",
    "has_wifi": false,
    "ssd_capacity": null,
    "ssd_interface": null,
@@ -64507,17 +64520,17 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B850:ATX:x:mb7038:ddr5:nowifi:|water",
+   "id": "mobo|mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:|water",
    "category": "mobo",
    "cooler_kind": null,
    "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B850:ATX:x:mb7038:ddr5:nowifi:",
+   "model_key": "mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:",
    "part_number": null,
    "upc": null,
    "title": "GIGABYTE MB7038 AORUS ELITE-P ICE ATX Motherboard",
    "spec": "B850",
    "filter_tags": null,
-   "form_factor": "ATX",
+   "form_factor": "E-ATX",
    "has_wifi": false,
    "ssd_capacity": null,
    "ssd_interface": null,
@@ -67250,17 +67263,17 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asus:Z890:?:rog-strix-z890f-gaming-wifi-core-ultra-processors-series:ddr5:wifi:|water",
+   "id": "mobo|mobo:asus:Z890:E-ATX:rog-strix-z890f-gaming-wifi-core-ultra-processors-series:ddr5:wifi:|water",
    "category": "mobo",
    "cooler_kind": null,
    "brand": "ASUS",
-   "model_key": "mobo:asus:Z890:?:rog-strix-z890f-gaming-wifi-core-ultra-processors-series:ddr5:wifi:",
+   "model_key": "mobo:asus:Z890:E-ATX:rog-strix-z890f-gaming-wifi-core-ultra-processors-series:ddr5:wifi:",
    "part_number": null,
    "upc": null,
    "title": "ASUS ROG STRIX Z890-F GAMING WIFI intel Core Ultra Processors (series 2) 対応 LGA 1851 Z8…",
    "spec": "Z890",
    "filter_tags": null,
-   "form_factor": "ATX",
+   "form_factor": "E-ATX",
    "has_wifi": true,
    "ssd_capacity": null,
    "ssd_interface": null,
@@ -97403,6 +97416,49 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 7792,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "ram|ram:cfd:x:288pin.32gb×2.pc5:ddr5:dimm:64:5200:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "CFD",
+   "model_key": "ram:cfd:x:288pin.32gb×2.pc5:ddr5:dimm:64:5200:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CFD Sale DDR5-5200 (PC5-31200) 2 x 32GB (64GB) Compatible 288pin CFD Standard W5U5200CS-32G Desktop Memory",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0C2VHWQKS.jpg",
+   "image": "img/B0C2VHWQKS.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/41U+cVafQzL._AC_.jpg",
+   "water": {
+    "price_hkd": 7806,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0C2VHWQKS",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0C2VHWQKS",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7806,
    "has_water": true,
    "has_official": false
   },
