@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-09T11:17:49Z",
- "generated_at_hkt": "2026-11-09 19:17 HKT",
- "price_updated_hkt": "2026-11-09 19:17 HKT",
+ "generated_at": "2026-11-09T12:03:44Z",
+ "generated_at_hkt": "2026-11-09 20:03 HKT",
+ "price_updated_hkt": "2026-11-09 20:03 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 208,
+   "count": 210,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2670,
+  "items": 2672,
   "both_sides": 70,
-  "water_only": 136,
+  "water_only": 138,
   "official_only": 2462,
   "matched_water": 72,
-  "official_groups": 2670,
+  "official_groups": 2672,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -364,8 +364,8 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 0,
-   "amazon_cached": 133,
+   "amazon_downloaded": 1,
+   "amazon_cached": 134,
    "official_downloaded": 0,
    "official_cached": 2227,
    "failed": 18
@@ -430,8 +430,8 @@
   ],
   "ivan": {
    "total_listings": 236,
-   "qualified": 230,
-   "deduped": 208,
+   "qualified": 232,
+   "deduped": 210,
    "excluded": {
     "seller": 198,
     "ship unknown": 11,
@@ -439,7 +439,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 33,
+    "ivan_gpu_rows": 35,
     "nic_jp_rows": 106,
     "nic_jp_retained": 18,
     "nic_jp_dropped_stale": 0,
@@ -52712,6 +52712,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:oc",
+   "part_number": "GV-N5070GAMINGOC-12GD",
+   "upc": null,
+   "title": "GIGABYTE NVIDIA GeForce RTX 5070搭載 グラフィックボード GDDR7 12GB ギガバイト 【国内正規代理店品】GV-N5070GAMING OC-12GD",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F11L4HS7.jpg",
+   "image": "img/B0F11L4HS7.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61C0OZNNS7L._AC_SL1350_.jpg",
+   "water": {
+    "price_hkd": 7507,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F11L4HS7",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F11L4HS7",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7507,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5070:oc+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -52731,7 +52770,7 @@
    "image": "img/B0F6CBQF48.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81icAEqTP3L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7516,
+    "price_hkd": 7524,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -52753,8 +52792,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 183,
-   "best_price": 7516,
+   "delta_hkd": 175,
+   "best_price": 7524,
    "has_water": true,
    "has_official": true
   },
@@ -53389,7 +53428,7 @@
    "image": "img/B0DZ619GJ8.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71qBua7SsFL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7866,
+    "price_hkd": 7875,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -53419,8 +53458,8 @@
      }
     ]
    },
-   "delta_hkd": 184,
-   "best_price": 7866,
+   "delta_hkd": 175,
+   "best_price": 7875,
    "has_water": true,
    "has_official": true
   },
@@ -54146,7 +54185,7 @@
    "image": "img/B0GSXJPTLN.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51NgHONUirL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 8839,
+    "price_hkd": 8849,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -54161,7 +54200,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8839,
+   "best_price": 8849,
    "has_water": true,
    "has_official": false
   },
@@ -57022,6 +57061,45 @@
    "best_price": 17999,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070:gaming|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:gaming",
+   "part_number": null,
+   "upc": null,
+   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F15TM77B.jpg",
+   "image": "img/B0F15TM77B.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71Z1Bk+8Z4L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 18510,
+    "source": "amazon",
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0F15TM77B",
+    "sku": null,
+    "url": "https://www.amazon.com/dp/B0F15TM77B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 18510,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|zotac:5080:anniv20+core+oc+solid",
