@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-09T07:16:09Z",
- "generated_at_hkt": "2026-11-09 15:16 HKT",
- "price_updated_hkt": "2026-11-09 15:16 HKT",
+ "generated_at": "2026-11-09T07:59:18Z",
+ "generated_at_hkt": "2026-11-09 15:59 HKT",
+ "price_updated_hkt": "2026-11-09 15:59 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 211,
+   "count": 212,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2662,
+  "items": 2663,
   "both_sides": 70,
-  "water_only": 128,
+  "water_only": 129,
   "official_only": 2462,
   "matched_water": 72,
-  "official_groups": 2662,
+  "official_groups": 2663,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -365,7 +365,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 125,
+   "amazon_cached": 126,
    "official_downloaded": 0,
    "official_cached": 2227,
    "failed": 18
@@ -430,15 +430,15 @@
   ],
   "ivan": {
    "total_listings": 236,
-   "qualified": 226,
-   "deduped": 200,
+   "qualified": 227,
+   "deduped": 201,
    "excluded": {
     "seller": 198,
     "no ship": 6,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 33,
+    "ivan_gpu_rows": 34,
     "nic_jp_rows": 91,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
@@ -52726,7 +52726,7 @@
    "image": "img/B0F6CBQF48.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81icAEqTP3L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7524,
+    "price_hkd": 7516,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -52748,8 +52748,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 175,
-   "best_price": 7524,
+   "delta_hkd": 183,
+   "best_price": 7516,
    "has_water": true,
    "has_official": true
   },
@@ -53384,7 +53384,7 @@
    "image": "img/B0DZ619GJ8.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71qBua7SsFL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7875,
+    "price_hkd": 7866,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -53414,8 +53414,8 @@
      }
     ]
    },
-   "delta_hkd": 175,
-   "best_price": 7875,
+   "delta_hkd": 184,
+   "best_price": 7866,
    "has_water": true,
    "has_official": true
   },
@@ -54141,7 +54141,7 @@
    "image": "img/B0GSXJPTLN.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51NgHONUirL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 8849,
+    "price_hkd": 8839,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -54156,7 +54156,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8849,
+   "best_price": 8839,
    "has_water": true,
    "has_official": false
   },
@@ -57181,6 +57181,45 @@
    "best_price": 17999,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070:gaming|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:gaming",
+   "part_number": null,
+   "upc": null,
+   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F15TM77B.jpg",
+   "image": "img/B0F15TM77B.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71Z1Bk+8Z4L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 18510,
+    "source": "amazon",
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0F15TM77B",
+    "sku": null,
+    "url": "https://www.amazon.com/dp/B0F15TM77B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 18510,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|zotac:5080:anniv20+core+oc+solid",
