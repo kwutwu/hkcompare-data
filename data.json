@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-10T10:55:00Z",
- "generated_at_hkt": "2026-11-10 18:55 HKT",
- "price_updated_hkt": "2026-11-10 18:55 HKT",
+ "generated_at": "2026-11-10T11:12:05Z",
+ "generated_at_hkt": "2026-11-10 19:12 HKT",
+ "price_updated_hkt": "2026-11-10 19:12 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 335,
+   "count": 339,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2672,
+  "items": 2676,
   "both_sides": 88,
-  "water_only": 138,
+  "water_only": 142,
   "official_only": 2444,
   "matched_water": 91,
-  "official_groups": 2672,
+  "official_groups": 2676,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -364,8 +364,8 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 1,
-   "amazon_cached": 152,
+   "amazon_downloaded": 0,
+   "amazon_cached": 156,
    "official_downloaded": 0,
    "official_cached": 2226,
    "failed": 0
@@ -430,8 +430,8 @@
   ],
   "ivan": {
    "total_listings": 238,
-   "qualified": 260,
-   "deduped": 229,
+   "qualified": 266,
+   "deduped": 233,
    "gpu_brand_recovered": {
     "checked": 2,
     "recovered": 2
@@ -443,11 +443,11 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 60,
-    "nic_jp_rows": 95,
-    "nic_jp_retained": 4,
-    "nic_jp_dropped_stale": 20,
-    "nic_jp_retain_now_hkt": "2026-11-10 15:45:38 HKT",
-    "nic_jp_cache_size": 115,
+    "nic_jp_rows": 101,
+    "nic_jp_retained": 8,
+    "nic_jp_dropped_stale": 16,
+    "nic_jp_retain_now_hkt": "2026-11-10 18:51:42 HKT",
+    "nic_jp_cache_size": 117,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
@@ -58921,6 +58921,45 @@
    "has_official": false
   },
   {
+   "id": "mobo|mobo:asrock:B650:mATX:b650m-pro-a-gen5:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASRock",
+   "model_key": "mobo:asrock:B650:mATX:b650m-pro-a-gen5:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASRock B650M Pro-A Gen5 Micro-ATX Motherboard MB7029",
+   "spec": "B650",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H97F3XQ6.jpg",
+   "image": "img/B0H97F3XQ6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81niAYWc5mL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 727,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H97F3XQ6",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0H97F3XQ6",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 727,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:asus:B850:ATX:prime-b850-plus-csm:ddr5:nowifi:|water",
    "category": "mobo",
    "cooler_kind": null,
@@ -59388,6 +59427,49 @@
    "best_price": 799,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B760:mATX:b760m-aorus-elite:ddr4:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B760:mATX:b760m-aorus-elite:ddr4:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE B760M AORUS ELITE DDR4 GEN5 Micro-ATX Motherboard B760M A E DDR4 GEN5 MB6781",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "M-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F9NQWBR9.jpg",
+   "image": "img/B0F9NQWBR9.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81onFCb0jDL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 801,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F9NQWBR9",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F9NQWBR9",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 801,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:msi:B860:mATX:pro-b860m:ddr5:nowifi:",
@@ -60529,6 +60611,45 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:gigabyte:B850:mATX:b850m-ds3h-ice:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B850:mATX:b850m-ds3h-ice:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE B850M DS3H ICE Micro-ATX Motherboard MB6946",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0G51XVFD7.jpg",
+   "image": "img/B0G51XVFD7.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/813EM4kBpIL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 946,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0G51XVFD7",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0G51XVFD7",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 946,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:asus:B760:mATX:prime-b760m-a-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -60681,6 +60802,45 @@
    "best_price": 991,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:sapphire:B850:mATX:b850m-wifi:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Sapphire",
+   "model_key": "mobo:sapphire:B850:mATX:b850m-wifi:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "SAPPHIRE PULSE B850M WIFI Micro-ATXマザーボード 52123-04-40G MB6839",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 991,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0G42TM649",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0G42TM649",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 991,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:H610:ITX:prime-h610i-plus:ddr4:nowifi:",
@@ -89422,7 +89582,7 @@
    "image": "img/B09C5X1T7V.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71bOpUCORIL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3765,
+    "price_hkd": 3808,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -89459,7 +89619,7 @@
      }
     ]
    },
-   "delta_hkd": -1366,
+   "delta_hkd": -1409,
    "best_price": 2399,
    "has_water": true,
    "has_official": true
