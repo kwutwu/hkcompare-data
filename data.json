@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-10T07:59:10Z",
- "generated_at_hkt": "2026-11-10 15:59 HKT",
- "price_updated_hkt": "2026-11-10 15:59 HKT",
+ "generated_at": "2026-11-10T08:06:40Z",
+ "generated_at_hkt": "2026-11-10 16:06 HKT",
+ "price_updated_hkt": "2026-11-10 16:06 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 346,
+   "count": 347,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 334,
+   "count": 335,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2663,
+  "items": 2665,
   "both_sides": 83,
-  "water_only": 129,
+  "water_only": 131,
   "official_only": 2449,
   "matched_water": 86,
-  "official_groups": 2663,
+  "official_groups": 2665,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -364,8 +364,8 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 0,
-   "amazon_cached": 139,
+   "amazon_downloaded": 1,
+   "amazon_cached": 140,
    "official_downloaded": 0,
    "official_cached": 2231,
    "failed": 0
@@ -430,8 +430,8 @@
   ],
   "ivan": {
    "total_listings": 237,
-   "qualified": 229,
-   "deduped": 215,
+   "qualified": 231,
+   "deduped": 217,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
@@ -444,11 +444,11 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 61,
-    "nic_jp_rows": 93,
-    "nic_jp_retained": 2,
-    "nic_jp_dropped_stale": 21,
-    "nic_jp_retain_now_hkt": "2026-11-10 12:44:59 HKT",
-    "nic_jp_cache_size": 114,
+    "nic_jp_rows": 95,
+    "nic_jp_retained": 4,
+    "nic_jp_dropped_stale": 20,
+    "nic_jp_retain_now_hkt": "2026-11-10 15:45:38 HKT",
+    "nic_jp_cache_size": 115,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 44,
     "skipped": {
@@ -60624,6 +60624,45 @@
    "has_official": false
   },
   {
+   "id": "mobo|mobo:gigabyte:B850:mATX:b850m-eagle-wifi6e-ice:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B850:mATX:b850m-eagle-wifi6e-ice:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE B850M EAGLE WIFI6E ICE Micro-ATX Motherboard White MB6899",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FBML1NY9.jpg",
+   "image": "img/B0FBML1NY9.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81EpnKynmiL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 1037,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0FBML1NY9",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0FBML1NY9",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1037,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:asus:B650:mATX:tuf-gaming-b650em-e-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -96887,6 +96926,50 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "CFD",
+   "model_key": "ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CFD販売 デスクトップPC用メモリ グラフェン 銅箔 ヒートシンク DDR5-5600 32GB×2枚 (64GB) 相性保証 288pin シー・エフ・デー販売 CFD …",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2",
+    "5600"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6C2Q7FR.jpg",
+   "image": "img/B0F6C2Q7FR.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61Y7WPsNP3L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 6777,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F6C2Q7FR",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F6C2Q7FR",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 6777,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:kingston:valueram:ddr5:sodimm:48:5600:black:1x48:cl?",
    "category": "ram",
    "cooler_kind": null,
@@ -97058,49 +97141,6 @@
    "has_official": false
   },
   {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 64GB (2x32GB) Supports up to 5200MHz Intel RAM",
-   "spec": "DDR5 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "32×2"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09R7S7PXC.jpg",
-   "image": "img/B09R7S7PXC.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7416,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09R7S7PXC",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B09R7S7PXC",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7416,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:crucial:std:ddr5:sodimm:64:5600:black:2x32:cl46",
    "category": "ram",
    "cooler_kind": null,
@@ -97177,6 +97217,49 @@
    "best_price": 7650,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 64GB (2x32GB) Supports up to 5200MHz Intel RAM",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09R7S7PXC.jpg",
+   "image": "img/B09R7S7PXC.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7685,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09R7S7PXC",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09R7S7PXC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7685,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:g.skill:aegis:ddr5:dimm:64:6000:black:2x32:cl36",
