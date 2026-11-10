@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-10T14:56:40Z",
- "generated_at_hkt": "2026-11-10 22:56 HKT",
- "price_updated_hkt": "2026-11-10 22:56 HKT",
+ "generated_at": "2026-11-10T16:20:10Z",
+ "generated_at_hkt": "2026-11-11 00:20 HKT",
+ "price_updated_hkt": "2026-11-11 00:20 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 221,
+   "count": 222,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2677,
+  "items": 2678,
   "both_sides": 84,
-  "water_only": 143,
+  "water_only": 144,
   "official_only": 2448,
   "matched_water": 86,
-  "official_groups": 2677,
+  "official_groups": 2678,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -364,11 +364,13 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 0,
+   "amazon_downloaded": 1,
    "amazon_cached": 156,
    "official_downloaded": 0,
    "official_cached": 2228,
-   "failed": 0
+   "failed": 0,
+   "pins_applied": 42,
+   "pins_skipped": 0
   },
   "image_samples": [
    {
@@ -430,8 +432,8 @@
   ],
   "ivan": {
    "total_listings": 239,
-   "qualified": 262,
-   "deduped": 229,
+   "qualified": 263,
+   "deduped": 230,
    "gpu_brand_recovered": {
     "checked": 2,
     "recovered": 2
@@ -443,7 +445,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 59,
+    "ivan_gpu_rows": 60,
     "nic_jp_rows": 101,
     "nic_jp_retained": 12,
     "nic_jp_dropped_stale": 16,
@@ -452,7 +454,7 @@
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 71,
+     "bad_or_dup": 66,
      "jd_oos": 2
     }
    }
@@ -51920,144 +51922,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5070:2x+oc+shadow",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:2x+oc+shadow",
-   "part_number": null,
-   "upc": "0824142405772",
-   "title": "MSI NVIDIA GeForce RTX 5070 12G Shadow 2X OC Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCYPFVT.jpg",
-   "image": "img/B0DZCYPFVT.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61r4E88gZGL._AC_SL1200_.jpg",
-   "water": {
-    "price_hkd": 6878,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DZCYPFVT",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0DZCYPFVT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5070:2x+oc+shadow",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7599,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223623/MSI-微星-GeForce-RTX-5070--SHADOW-2X-OC-12GB-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 7750,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7-di-n5070d1",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 7960,
-      "url": "https://centralfield.com/product/11762/msi-geforce-rtx-5070-shadow-2x-oc-12gb",
-      "build_only": true
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 9100,
-      "url": "https://buymore.hk/shop/goods.php?id=44567",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 721,
-   "best_price": 6878,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5070:2x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:2x+oc+ventus",
-   "part_number": null,
-   "upc": "0824142405727",
-   "title": "MSI GeForce RTX 5070 12G Ventus 2X OC Gaming Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DX7JJ87N.jpg",
-   "image": "img/B0DX7JJ87N.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71pbQfqmpsL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 6888,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DX7JJ87N",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DX7JJ87N",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5070:2x+oc+ventus",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7699,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223624/MSI-微星-GeForce-RTX-5070-VENTUS-2X-OC-12GB-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 7700,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7-di-n5070e1",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 8100,
-      "url": "https://centralfield.com/product/11763/msi-rtx-5070-ventus-2x-oc-sff-ready",
-      "build_only": true
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 9200,
-      "url": "https://buymore.hk/shop/goods.php?id=43990",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 811,
-   "best_price": 6888,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|inno3d:5060ti16:2x",
    "category": "gpu",
    "cooler_kind": null,
@@ -52123,6 +51987,75 @@
    "delta_hkd": null,
    "best_price": 6899,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5070:2x+oc+shadow",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:2x+oc+shadow",
+   "part_number": null,
+   "upc": "0824142405772",
+   "title": "MSI NVIDIA GeForce RTX 5070 12G Shadow 2X OC Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCYPFVT.jpg",
+   "image": "img/B0DZCYPFVT.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61r4E88gZGL._AC_SL1200_.jpg",
+   "water": {
+    "price_hkd": 6933,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DZCYPFVT",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DZCYPFVT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5070:2x+oc+shadow",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223623/MSI-微星-GeForce-RTX-5070--SHADOW-2X-OC-12GB-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 7750,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7-di-n5070d1",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7960,
+      "url": "https://centralfield.com/product/11762/msi-geforce-rtx-5070-shadow-2x-oc-12gb",
+      "build_only": true
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 9100,
+      "url": "https://buymore.hk/shop/goods.php?id=44567",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 666,
+   "best_price": 6933,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -52275,6 +52208,75 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5070:2x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:2x+oc+ventus",
+   "part_number": null,
+   "upc": "0824142405727",
+   "title": "MSI GeForce RTX 5070 12G Ventus 2X OC Gaming Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DX7JJ87N.jpg",
+   "image": "img/B0DX7JJ87N.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71pbQfqmpsL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7005,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DX7JJ87N",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DX7JJ87N",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5070:2x+oc+ventus",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7699,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223624/MSI-微星-GeForce-RTX-5070-VENTUS-2X-OC-12GB-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 7700,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7-di-n5070e1",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8100,
+      "url": "https://centralfield.com/product/11763/msi-rtx-5070-ventus-2x-oc-sff-ready",
+      "build_only": true
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 9200,
+      "url": "https://buymore.hk/shop/goods.php?id=43990",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 694,
+   "best_price": 7005,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|pny:5070:argb+oc+triple|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -52365,6 +52367,107 @@
    },
    "delta_hkd": -988,
    "best_price": 7099,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070:triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070 12GB Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F59N58GV.jpg",
+   "image": "img/B0F59N58GV.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/519Tle4jicL._AC_SL1200_.jpg",
+   "water": {
+    "price_hkd": 7099,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F59N58GV",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0F59N58GV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7099,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|msi:5070:3x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070:3x+oc+ventus",
+   "part_number": null,
+   "upc": "0824142405666",
+   "title": "MSI GeForce RTX 5070 Ventus 3X OC 12GB GDDR7 SFF-Ready 微星三風扇超頻版顯示卡",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYG7KB27.jpg",
+   "image": "img/B0DYG7KB27.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81rLJMXHXTL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7107,
+    "source": "amazon",
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0DYG7KB27",
+    "sku": null,
+    "url": "https://www.amazon.com/dp/B0DYG7KB27",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5070:3x+oc+ventus",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7899,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223627/MSI-微星-GeForce-RTX-5070-12G-VENTUS-3X-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 8100,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5070-ventus-3x-oc-12gb-gddr7-di-n5070y1",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 8300,
+      "url": "https://centralfield.com/product/11765/msi-rtx-5070-ventus-3x-oc-12gb",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 792,
+   "best_price": 7107,
    "has_water": true,
    "has_official": true
   },
@@ -52533,61 +52636,6 @@
    "has_official": false
   },
   {
-   "id": "gpu|asus:5070:oc+prime",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070:oc+prime",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS PRIME GeForce RTX 5070 12GB GDDR7 OC Edition Gaming Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYPFY7JG.jpg",
-   "image": "img/B0DYPFY7JG.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81qKy0QvLHL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7270,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DYPFY7JG",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DYPFY7JG",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5070:oc+prime",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 8050,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11572/asus-prime-rtx-5070-oc-12gb",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 9299,
-      "url": "https://buymore.hk/shop/goods.php?id=43902",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 780,
-   "best_price": 7270,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5070:oc|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -52664,6 +52712,61 @@
    "best_price": 7282,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|asus:5070:oc+prime",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070:oc+prime",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS PRIME GeForce RTX 5070 12GB GDDR7 OC Edition Gaming Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYPFY7JG.jpg",
+   "image": "img/B0DYPFY7JG.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81qKy0QvLHL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7292,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DYPFY7JG",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DYPFY7JG",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5070:oc+prime",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 8050,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11572/asus-prime-rtx-5070-oc-12gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 9299,
+      "url": "https://buymore.hk/shop/goods.php?id=43902",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 758,
+   "best_price": 7292,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|msi:5070:oc",
@@ -52749,11 +52852,11 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070:dual+oc+slim|water",
+   "id": "gpu|pny:5070:dual+oc+sff+slim|water",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "PNY",
-   "model_key": "pny:5070:dual+oc+slim",
+   "model_key": "pny:5070:dual+oc+sff+slim",
    "part_number": null,
    "upc": null,
    "title": "PNY GeForce RTX™ 5070 12GB Slim OC Dual Fan 2-Slot SFF Graphics Card",
@@ -52768,14 +52871,14 @@
    "image": "img/B0GSXJPTLN.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51NgHONUirL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 7350,
+    "price_hkd": 7367,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
     "asin": "B0GSXJPTLN",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0GSXJPTLN",
+    "url": "https://www.amazon.fr/dp/B0GSXJPTLN",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -52783,7 +52886,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7350,
+   "best_price": 7367,
    "has_water": true,
    "has_official": false
   },
@@ -53756,55 +53859,6 @@
    "delta_hkd": 1189,
    "best_price": 7810,
    "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5070:3x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:3x+oc+ventus",
-   "part_number": null,
-   "upc": "0824142405666",
-   "title": "MSI GeForce RTX 5070 Ventus 3X OC 12GB GDDR7 SFF-Ready 微星三風扇超頻版顯示卡",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0f0b141d2523411a.png",
-   "image": "img/hk-0f0b141d2523411a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/aedf6f59-54ae-4f1c-8294-686ebf1bba00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 7899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223627/MSI-微星-GeForce-RTX-5070-12G-VENTUS-3X-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 8100,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/msi-geforce-rtx-5070-ventus-3x-oc-12gb-gddr7-di-n5070y1",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 8300,
-      "url": "https://centralfield.com/product/11765/msi-rtx-5070-ventus-3x-oc-12gb",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": null,
-   "best_price": 7899,
-   "has_water": false,
    "has_official": true
   },
   {
@@ -54869,6 +54923,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070ti:oc+sff+windforce",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:oc+sff+windforce",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5070 Ti WINDFORCE OC SFF 16G 顯示卡",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGNB9Q5.jpg",
+   "image": "img/B0DTGNB9Q5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71aujv61egL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 10257,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DTGNB9Q5",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0DTGNB9Q5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5070ti:oc+sff+windforce",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 12899,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223262/GIGABYTE-技嘉-GeForce-RTX-5070-Ti-WINDFORCE-OC-SFF-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 2642,
+   "best_price": 10257,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|pny:5070ti:oc|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -54906,108 +55007,6 @@
    "best_price": 10289,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|msi:5070ti:3x+oc+shadow",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070ti:3x+oc+shadow",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5070 Ti 16G SHADOW 3X OC Graphics Card - RTX 5070 Ti GPU",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZD6QV9L.jpg",
-   "image": "img/B0DZD6QV9L.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/719ozZSEaQL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 10302,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DZD6QV9L",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DZD6QV9L",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5070ti:3x+oc+shadow",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 11399,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223697/MSI-微星-GeForce-RTX-5070-Ti-16G-SHADOW-3X-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 11800,
-      "url": "https://centralfield.com/product/11902/msi-geforce-rtx-5070ti-shadow-3x-oc-16gb",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 1097,
-   "best_price": 10302,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070ti:oc+sff+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:oc+sff+windforce",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5070 Ti WINDFORCE OC SFF 16G 顯示卡",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGNB9Q5.jpg",
-   "image": "img/B0DTGNB9Q5.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71aujv61egL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 10373,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DTGNB9Q5",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DTGNB9Q5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5070ti:oc+sff+windforce",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 12899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223262/GIGABYTE-技嘉-GeForce-RTX-5070-Ti-WINDFORCE-OC-SFF-16G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 2526,
-   "best_price": 10373,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "gpu|colorful:5070ti:sff",
@@ -55339,6 +55338,48 @@
    "best_price": 11291,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|msi:5070ti:3x+oc+shadow",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5070ti:3x+oc+shadow",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5070Ti Shadow 3X OC 16GB GDDR7 SFF-Ready 微星三風扇超頻版顯示卡",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-2306810aa7e8608c.png",
+   "image": "img/hk-2306810aa7e8608c.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d1e96ffa-72f2-429d-2aa4-84c990824c00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 11399,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223697/MSI-微星-GeForce-RTX-5070-Ti-16G-SHADOW-3X-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 11800,
+      "url": "https://centralfield.com/product/11902/msi-geforce-rtx-5070ti-shadow-3x-oc-16gb",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 11399,
+   "has_water": false,
+   "has_official": true
   },
   {
    "id": "gpu|asus:5070ti:tuf|water",
