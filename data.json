@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-10T16:20:10Z",
- "generated_at_hkt": "2026-11-11 00:20 HKT",
- "price_updated_hkt": "2026-11-11 00:20 HKT",
+ "generated_at": "2026-11-10T16:58:40Z",
+ "generated_at_hkt": "2026-11-11 00:58 HKT",
+ "price_updated_hkt": "2026-11-11 00:58 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -364,8 +364,8 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 1,
-   "amazon_cached": 156,
+   "amazon_downloaded": 0,
+   "amazon_cached": 157,
    "official_downloaded": 0,
    "official_cached": 2228,
    "failed": 0,
@@ -432,15 +432,15 @@
   ],
   "ivan": {
    "total_listings": 239,
-   "qualified": 263,
+   "qualified": 262,
    "deduped": 230,
    "gpu_brand_recovered": {
-    "checked": 2,
-    "recovered": 2
+    "checked": 1,
+    "recovered": 1
    },
    "excluded": {
-    "seller": 198,
-    "no ship": 6,
+    "seller": 200,
+    "no ship": 5,
     "used": 1,
     "not desktop GPU": 3
    },
@@ -56222,7 +56222,7 @@
    "model_key": "msi:5080:3x+oc+ventus",
    "part_number": null,
    "upc": null,
-   "title": "MSI NVIDIA GeForce RTX 5080 16G Ventus 3X OC Graphics Card",
+   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
    "spec": "RTX 5080",
    "filter_tags": null,
    "form_factor": null,
@@ -56230,19 +56230,19 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT6NZ9V9.jpg",
-   "image": "img/B0DT6NZ9V9.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71PEi8EcUBL._AC_SL1500_.jpg",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
+   "image": "img/B0GZWW2RKH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13650,
+    "price_hkd": 13936,
     "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DT6NZ9V9",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0GZWW2RKH",
     "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DT6NZ9V9",
-    "stock": "Only 1 left in stock.",
+    "url": "https://www.amazon.fr/dp/B0GZWW2RKH",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+oc+ventus",
     "others": []
@@ -56264,8 +56264,8 @@
      }
     ]
    },
-   "delta_hkd": 1349,
-   "best_price": 13650,
+   "delta_hkd": 1063,
+   "best_price": 13936,
    "has_water": true,
    "has_official": true
   },
@@ -56297,7 +56297,7 @@
     "asin": "B0DYRZZJZ1",
     "sku": null,
     "url": "https://www.amazon.co.uk/dp/B0DYRZZJZ1",
-    "stock": "Only 9 left in stock.",
+    "stock": "Only 12 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "others": []
@@ -56963,7 +56963,7 @@
     "asin": "B0DS643QRW",
     "sku": null,
     "url": "https://www.amazon.es/dp/B0DS643QRW",
-    "stock": "",
+    "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:astral+oc+rog",
     "others": []
