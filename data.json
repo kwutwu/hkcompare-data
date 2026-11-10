@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-10T20:20:39Z",
- "generated_at_hkt": "2026-11-11 04:20 HKT",
- "price_updated_hkt": "2026-11-11 04:20 HKT",
+ "generated_at": "2026-11-10T20:23:40Z",
+ "generated_at_hkt": "2026-11-11 04:23 HKT",
+ "price_updated_hkt": "2026-11-11 04:23 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2676,
-  "both_sides": 84,
+  "both_sides": 85,
   "water_only": 142,
-  "official_only": 2448,
-  "matched_water": 86,
+  "official_only": 2447,
+  "matched_water": 87,
   "official_groups": 2676,
   "id_merge": {
    "enabled": true,
@@ -365,9 +365,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 154,
+   "amazon_cached": 155,
    "official_downloaded": 0,
-   "official_cached": 2228,
+   "official_cached": 2227,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -432,8 +432,8 @@
   ],
   "ivan": {
    "total_listings": 239,
-   "qualified": 262,
-   "deduped": 228,
+   "qualified": 263,
+   "deduped": 229,
    "gpu_brand_recovered": {
     "checked": 1,
     "recovered": 1
@@ -445,7 +445,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 58,
+    "ivan_gpu_rows": 59,
     "nic_jp_rows": 101,
     "nic_jp_retained": 12,
     "nic_jp_dropped_stale": 16,
@@ -454,7 +454,7 @@
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 58,
+     "bad_or_dup": 69,
      "jd_oos": 2
     }
    }
@@ -53019,6 +53019,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070:oc+sff+windforce",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:oc+sff+windforce",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5070 WINDFORCE OC SFF 12G 顯示卡",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGP2WMT.jpg",
+   "image": "img/B0DTGP2WMT.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71N6P3QQplL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7469,
+    "source": "amazon",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DTGP2WMT",
+    "sku": null,
+    "url": "https://www.amazon.es/dp/B0DTGP2WMT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5070:oc+sff+windforce",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223408/GIGABYTE-技嘉-GeForce-RTX-5070-WINDFORCE-OC-SFF-12G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": 130,
+   "best_price": 7469,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asrock:9070xt:challenger",
    "category": "gpu",
    "cooler_kind": null,
@@ -53380,40 +53427,6 @@
     "url": "https://shop.pegasus.hk/products/224178/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-GAMING-OC-16G-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 7599,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070:oc+sff+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:oc+sff+windforce",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5070 WINDFORCE OC SFF 12G 顯示卡",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d43b3a97b515f616.png",
-   "image": "img/hk-d43b3a97b515f616.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/a9d63c26-e95b-4b4b-7e38-72d4dadded00/public",
-   "water": null,
-   "official": {
-    "price_hkd": 7599,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223408/GIGABYTE-技嘉-GeForce-RTX-5070-WINDFORCE-OC-SFF-12G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
     "others": []
    },
    "delta_hkd": null,
