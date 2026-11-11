@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-11T08:00:12Z",
- "generated_at_hkt": "2026-11-11 16:00 HKT",
- "price_updated_hkt": "2026-11-11 16:00 HKT",
+ "generated_at": "2026-11-11T08:09:20Z",
+ "generated_at_hkt": "2026-11-11 16:09 HKT",
+ "price_updated_hkt": "2026-11-11 16:09 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-11 10:00–14:47 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261111/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 350,
+   "count": 351,
    "enabled": true
   },
   "ssd": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2751,
+  "items": 2752,
   "both_sides": 84,
-  "water_only": 143,
+  "water_only": 144,
   "official_only": 2522,
-  "matched_water": 85,
-  "official_groups": 2751,
+  "matched_water": 86,
+  "official_groups": 2752,
   "id_merge": {
    "enabled": true,
    "unions_upc": 5,
@@ -366,7 +366,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 156,
+   "amazon_cached": 157,
    "official_downloaded": 0,
    "official_cached": 2288,
    "failed": 0,
@@ -433,8 +433,8 @@
   ],
   "ivan": {
    "total_listings": 239,
-   "qualified": 266,
-   "deduped": 228,
+   "qualified": 268,
+   "deduped": 230,
    "gpu_brand_recovered": {
     "checked": 2,
     "recovered": 1
@@ -447,10 +447,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 64,
-    "nic_jp_rows": 98,
-    "nic_jp_retained": 8,
-    "nic_jp_dropped_stale": 19,
-    "nic_jp_retain_now_hkt": "2026-11-11 12:49:54 HKT",
+    "nic_jp_rows": 100,
+    "nic_jp_retained": 10,
+    "nic_jp_dropped_stale": 17,
+    "nic_jp_retain_now_hkt": "2026-11-11 15:48:50 HKT",
     "nic_jp_cache_size": 117,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 42,
@@ -90507,7 +90507,18 @@
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key ram:corsair:vengeancergbpro:ddr4:dimm:32:3200:black:2x16:cl16",
-    "others": []
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "日本 Amazon",
+      "price_hkd": 2622,
+      "url": "https://www.amazon.co.jp/dp/B09QPFWQW7",
+      "build_only": false,
+      "domain": "amazon.co.jp",
+      "asin": "B09QPFWQW7"
+     }
+    ]
    },
    "official": {
     "price_hkd": 2600,
@@ -100748,6 +100759,50 @@
    "best_price": 7750,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 Memory 64GB (2x32GB) up to 5600MHz, Intel XMP, CL40 Desktop PC, Black, CMK64GX5M2B5600C40",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2",
+    "5600"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09WN2H42Y.jpg",
+   "image": "img/B09WN2H42Y.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71AV5PQu1yL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7892,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09WN2H42Y",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09WN2H42Y",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7892,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:kingston:furybeastrgb:ddr5:dimm:64:5600:black:2x32:cl36",
