@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-11T05:15:53Z",
- "generated_at_hkt": "2026-11-11 13:15 HKT",
- "price_updated_hkt": "2026-11-11 13:15 HKT",
+ "generated_at": "2026-11-11T06:00:30Z",
+ "generated_at_hkt": "2026-11-11 14:00 HKT",
+ "price_updated_hkt": "2026-11-11 14:00 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-09 09:53–11:31 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261109/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 223,
+   "count": 228,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2675,
+  "items": 2680,
   "both_sides": 80,
-  "water_only": 141,
-  "official_only": 2452,
+  "water_only": 145,
+  "official_only": 2453,
   "matched_water": 81,
-  "official_groups": 2675,
+  "official_groups": 2680,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -120,24 +120,24 @@
     }
    },
    "cf_exc": {
-    "source": "/workspace/hk_price_cache/run_20261109/cf_gpu_browser/cf_gpu_1125.txt",
+    "source": "/workspace/hk_price_cache/run_20261111/cf_gpu_browser/cf_gpu_1358.txt",
     "kept": 56,
     "by_chip": {
-     "RTX 5070 Ti": 11,
      "RTX 5090D": 1,
-     "RTX 5080": 17,
-     "RTX 5070": 8,
-     "RX 9070 XT": 7,
-     "RTX 5060 Ti 16GB": 7,
+     "RTX 5080": 16,
+     "RTX 5070 Ti": 10,
+     "RTX 5070": 9,
+     "RX 9070 XT": 8,
      "RX 9070 GRE": 3,
+     "RTX 5060 Ti 16GB": 7,
      "RX 9070": 2
     },
     "skipped": {
-     "empty_price": 2
+     "empty_price": 3
     },
-    "updated_hkt": "2026-11-09 11:25 HKT"
+    "updated_hkt": "2026-11-11 13:58 HKT"
    },
-   "cf_added": 1
+   "cf_added": 3
   },
   "case_clearance": {
    "source": "/workspace/site_hkcompare/diy_pc_cases_clearance.json",
@@ -364,7 +364,7 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 0,
+   "amazon_downloaded": 4,
    "amazon_cached": 149,
    "official_downloaded": 0,
    "official_cached": 2232,
@@ -432,8 +432,8 @@
   ],
   "ivan": {
    "total_listings": 239,
-   "qualified": 259,
-   "deduped": 222,
+   "qualified": 263,
+   "deduped": 226,
    "gpu_brand_recovered": {
     "checked": 2,
     "recovered": 1
@@ -445,7 +445,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 57,
+    "ivan_gpu_rows": 61,
     "nic_jp_rows": 98,
     "nic_jp_retained": 8,
     "nic_jp_dropped_stale": 19,
@@ -454,7 +454,7 @@
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 68,
+     "bad_or_dup": 72,
      "jd_oos": 2
     }
    }
@@ -48953,6 +48953,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5060:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5060 OC Low Profile 8G Graphics Card - 8GB GDDR7, 128bit, PCI-E 5.…",
+   "spec": "RTX 5060",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6NMXJ1M.jpg",
+   "image": "img/B0F6NMXJ1M.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71xvvKBSwbL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 3920,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F6NMXJ1M",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0F6NMXJ1M",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3920,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|sapphire:9060xt8:pulse",
    "category": "gpu",
    "cooler_kind": null,
@@ -48993,6 +49032,45 @@
    "best_price": 4199,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5060:eagle+ice+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060:eagle+ice+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte GeForce RTX 5060 Eagle OC Ice 8G Graphics Card - 8GB GDDR7, 128bit, PCI-E 5.0,…",
+   "spec": "RTX 5060",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 4212,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0F6NP452Y",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0F6NP452Y",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4212,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|asus:9060xt8:dual",
@@ -49322,6 +49400,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5060:dual+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060:dual+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS DUAL GeForce RTX 5060 8GB GDDR7 OC Edition Video Card DUAL-RTX5060-O8G Domestic Authorized Distributor Product",
+   "spec": "RTX 5060",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F8Q96N8G.jpg",
+   "image": "img/B0F8Q96N8G.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81RxWmzZboL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4547,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F8Q96N8G",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F8Q96N8G",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4547,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|colorful:5060ti8:oc+ultra+white",
    "category": "gpu",
    "cooler_kind": null,
@@ -49504,9 +49621,9 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0HNK7S72B.jpg",
+   "image": "img/B0HNK7S72B.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61iIu6y4cNL._AC_SL1200_.jpg",
    "water": {
     "price_hkd": 4640,
     "source": "amazon",
@@ -49779,6 +49896,45 @@
    "best_price": 4699,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:5060:oc+prime|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060:oc+prime",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS PRIME GeForce RTX 5060 8GB GDDR7 OC Edition Video Card PRIME-RTX5060-O8G Domestic Authorized Dealer Item",
+   "spec": "RTX 5060",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F8Q8T2JG.jpg",
+   "image": "img/B0F8Q8T2JG.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81D-woN0dQL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4732,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F8Q8T2JG",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F8Q8T2JG",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4732,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5060ti8:3x+aero+oc|water",
@@ -52307,7 +52463,7 @@
    "model_key": "gainward:5070:python",
    "part_number": null,
    "upc": null,
-   "title": "Gainward GeForce RTX™ 5070 Python III 12GB 顯示卡",
+   "title": "Gainward GeForce RTX 5070 Python III 12GB GDDR7 耕升顯示卡三風扇",
    "spec": "RTX 5070",
    "filter_tags": null,
    "form_factor": null,
@@ -52326,7 +52482,15 @@
     "url": "https://shop.pegasus.hk/products/234220/Gainward-GeForce-RTX-5070-Python-III-12GB-顯示卡---2年保養",
     "stock": "現貨",
     "build_only": true,
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7999,
+      "url": "https://centralfield.com/product/23795/gainward-geforce-rtx-5070-python-iii-12gb",
+      "build_only": true
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 6999,
@@ -54052,6 +54216,40 @@
     "url": "https://shop.pegasus.hk/products/226010/MSI-微星-GeForce-RTX-5070-12G-INSPIRE-3X-顯示卡---3年保養",
     "stock": "現貨",
     "build_only": false,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 8099,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|powercolor:9070xt:oc+red devil",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PowerColor",
+   "model_key": "powercolor:9070xt:oc+red devil",
+   "part_number": null,
+   "upc": null,
+   "title": "POWERCOLOR AMD Radeon RX 9070XT Red Devil 16GB GDDR6 顯示卡三風扇超頻版",
+   "spec": "RX 9070 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 8099,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11841/powercolor-rx-9070xt-red-devil-16gb-gddr6",
+    "stock": "現貨",
+    "build_only": true,
     "others": []
    },
    "delta_hkd": null,
