@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-12T18:13:30Z",
- "generated_at_hkt": "2026-11-13 02:13 HKT",
- "price_updated_hkt": "2026-11-13 02:13 HKT",
+ "generated_at": "2026-11-12T19:09:41Z",
+ "generated_at_hkt": "2026-11-13 03:09 HKT",
+ "price_updated_hkt": "2026-11-13 03:09 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-12 10:02–15:17 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261112/hkcompare_rows.json",
@@ -366,8 +366,8 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 1,
-   "amazon_cached": 160,
+   "amazon_downloaded": 0,
+   "amazon_cached": 161,
    "official_downloaded": 0,
    "official_cached": 2284,
    "failed": 1,
@@ -437,12 +437,12 @@
    "qualified": 265,
    "deduped": 231,
    "gpu_brand_recovered": {
-    "checked": 1,
-    "recovered": 1
+    "checked": 0,
+    "recovered": 0
    },
    "excluded": {
-    "seller": 203,
-    "no ship": 6,
+    "seller": 205,
+    "no ship": 4,
     "not desktop GPU": 3,
     "used": 1
    },
@@ -58049,53 +58049,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+inspire+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+inspire+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
-   "image": "img/B0GWRN4Q36.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13587,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0GWRN4Q36",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0GWRN4Q36",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+inspire+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 15600,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 2013,
-   "best_price": 13587,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5080:3x+oc+ventus",
    "category": "gpu",
    "cooler_kind": null,
@@ -58188,6 +58141,53 @@
    "best_price": 14085,
    "has_water": true,
    "has_official": false
+  },
+  {
+   "id": "gpu|msi:5080:3x+inspire+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+inspire+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
+   "image": "img/B0GWRN4Q36.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14298,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0GWRN4Q36",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0GWRN4Q36",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+inspire+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15600,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": 1302,
+   "best_price": 14298,
+   "has_water": true,
+   "has_official": true
   },
   {
    "id": "gpu|inno3d:5080:",
@@ -58729,7 +58729,7 @@
     "asin": "B0DS65VMC6",
     "sku": null,
     "url": "https://www.amazon.de/dp/B0DS65VMC6",
-    "stock": "Only 14 left in stock.",
+    "stock": "Only 13 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:oc+prime",
     "others": []
