@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-12T04:59:11Z",
- "generated_at_hkt": "2026-11-12 12:59 HKT",
- "price_updated_hkt": "2026-11-12 12:59 HKT",
+ "generated_at": "2026-11-12T05:07:03Z",
+ "generated_at_hkt": "2026-11-12 13:07 HKT",
+ "price_updated_hkt": "2026-11-12 13:07 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-11 10:00–14:47 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261111/hkcompare_rows.json",
@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 350,
+   "count": 351,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 343,
+   "count": 344,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2741,
+  "items": 2743,
   "both_sides": 86,
-  "water_only": 142,
+  "water_only": 144,
   "official_only": 2511,
   "matched_water": 88,
-  "official_groups": 2741,
+  "official_groups": 2743,
   "id_merge": {
    "enabled": true,
    "unions_upc": 5,
@@ -356,8 +356,8 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 0,
-   "amazon_cached": 155,
+   "amazon_downloaded": 1,
+   "amazon_cached": 156,
    "official_downloaded": 0,
    "official_cached": 2283,
    "failed": 0,
@@ -424,8 +424,8 @@
   ],
   "ivan": {
    "total_listings": 242,
-   "qualified": 257,
-   "deduped": 230,
+   "qualified": 259,
+   "deduped": 232,
    "gpu_brand_recovered": {
     "checked": 1,
     "recovered": 1
@@ -438,11 +438,11 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 64,
-    "nic_jp_rows": 95,
-    "nic_jp_retained": 4,
-    "nic_jp_dropped_stale": 25,
-    "nic_jp_retain_now_hkt": "2026-11-12 09:43:12 HKT",
-    "nic_jp_cache_size": 120,
+    "nic_jp_rows": 97,
+    "nic_jp_retained": 5,
+    "nic_jp_dropped_stale": 24,
+    "nic_jp_retain_now_hkt": "2026-11-12 12:47:29 HKT",
+    "nic_jp_cache_size": 121,
     "jd_ddr_rows": 29,
     "jd_cpu_rows": 42,
     "skipped": {
@@ -60459,6 +60459,49 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:gigabyte:B760:mATX:b760m-d3hp-wifi6:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B760:mATX:b760m-d3hp-wifi6:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "【Amazon.co.jp Exclusive】GIGABYTE B760M D3HP WIFI6 Micro-ATX Motherboard MB6697",
+   "spec": "B760（DDR5）",
+   "filter_tags": [
+    "B760",
+    "DDR5",
+    "B760-DDR5"
+   ],
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B083Y2FY2X.jpg",
+   "image": "img/B083Y2FY2X.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81-5B-vIVaL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 548,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B083Y2FY2X",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B083Y2FY2X",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 548,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:msi:B550:mATX:b550m-a-pro:ddr4:nowifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -92547,7 +92590,7 @@
    "image": "img/B09C5WJ2B2.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71JPAVZ-pfL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2956,
+    "price_hkd": 2943,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -92562,7 +92605,50 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2956,
+   "best_price": 2943,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergbpro:ddr4:dimm:32:3600:black:2x16:cl18|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergbpro:ddr4:dimm:32:3600:black:2x16:cl18",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB PRO SL DDR4 メモリ 32GB（16GB×2）最大3600MHz対応 Intel XMP対応 CL18 デスクトップPC…",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B08SPYCCF1.jpg",
+   "image": "img/B08SPYCCF1.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/91lJnskEV9L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2960,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B08SPYCCF1",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B08SPYCCF1",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2960,
    "has_water": true,
    "has_official": false
   },
@@ -94217,6 +94303,50 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 32GB (2x16GB) Supports up to 6400MHz Intel RAM",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "16×2",
+    "6400"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BXHC74WD.jpg",
+   "image": "img/B0BXHC74WD.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61D2DDpDITL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 3984,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BXHC74WD",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BXHC74WD",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3984,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6000:grey:2x16:cl38",
    "category": "ram",
    "cooler_kind": null,
@@ -94760,50 +94890,6 @@
    "best_price": 4000,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5 32GB (2x16GB) Supports up to 6400MHz Intel RAM",
-   "spec": "DDR5-6400 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "16×2",
-    "6400"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BXHC74WD.jpg",
-   "image": "img/B0BXHC74WD.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61D2DDpDITL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 4001,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BXHC74WD",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0BXHC74WD",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4001,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:6000:white:2x16:cl38",
