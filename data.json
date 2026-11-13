@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-13T15:05:13Z",
- "generated_at_hkt": "2026-11-13 23:05 HKT",
- "price_updated_hkt": "2026-11-13 22:58 HKT",
+ "generated_at": "2026-11-13T16:06:56Z",
+ "generated_at_hkt": "2026-11-14 00:06 HKT",
+ "price_updated_hkt": "2026-11-14 00:06 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-12 10:02–15:17 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261112/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2737,
-  "both_sides": 86,
-  "water_only": 139,
-  "official_only": 2512,
-  "matched_water": 88,
+  "both_sides": 85,
+  "water_only": 137,
+  "official_only": 2513,
+  "matched_water": 87,
   "official_groups": 2737,
   "id_merge": {
    "enabled": true,
@@ -366,7 +366,7 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 1,
+   "amazon_downloaded": 0,
    "amazon_cached": 154,
    "official_downloaded": 0,
    "official_cached": 2285,
@@ -434,8 +434,8 @@
   ],
   "ivan": {
    "total_listings": 243,
-   "qualified": 258,
-   "deduped": 225,
+   "qualified": 257,
+   "deduped": 224,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
@@ -447,7 +447,7 @@
     "used": 1
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 63,
+    "ivan_gpu_rows": 62,
     "nic_jp_rows": 102,
     "nic_jp_retained": 17,
     "nic_jp_dropped_stale": 24,
@@ -456,7 +456,7 @@
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 59,
+     "bad_or_dup": 58,
      "jd_oos": 5
     }
    }
@@ -53674,7 +53674,7 @@
    "image": "img/B0F8KJKC9Y.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81BUg0wr-CL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6876,
+    "price_hkd": 6892,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -53718,8 +53718,8 @@
      }
     ]
    },
-   "delta_hkd": 523,
-   "best_price": 6876,
+   "delta_hkd": 507,
+   "best_price": 6892,
    "has_water": true,
    "has_official": true
   },
@@ -54375,6 +54375,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070:oc+windforce",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:oc+windforce",
+   "part_number": "GV-N5070WF3OC-12GD",
+   "upc": "0889523048191",
+   "title": "GIGABYTE NVIDIA GeForce RTX 5070 Graphics Board, GDDR7 12GB, GV-N5070WF3OC-12GD",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6CBQF48.jpg",
+   "image": "img/B0F6CBQF48.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81icAEqTP3L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7221,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F6CBQF48",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F6CBQF48",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number GV-N5070WF3OC-12GD",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7699,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-series-rtx-5070-windforce-oc-12gb-gddr7-gv-n5070wf3oc-12gd",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 478,
+   "best_price": 7221,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|gigabyte:5060ti16:3x+eagle+oc|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -54567,53 +54614,6 @@
    "delta_hkd": null,
    "best_price": 7300,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070:oc+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:oc+windforce",
-   "part_number": "GV-N5070WF3OC-12GD",
-   "upc": "0889523048191",
-   "title": "GIGABYTE NVIDIA GeForce RTX 5070 Graphics Board, GDDR7 12GB, GV-N5070WF3OC-12GD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6CBQF48.jpg",
-   "image": "img/B0F6CBQF48.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81icAEqTP3L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7309,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F6CBQF48",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F6CBQF48",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number GV-N5070WF3OC-12GD",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7699,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-series-rtx-5070-windforce-oc-12gb-gddr7-gv-n5070wf3oc-12gd",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 390,
-   "best_price": 7309,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -55456,45 +55456,6 @@
    "best_price": 7800,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070:oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5070 12GB OC Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYPFGL88.jpg",
-   "image": "img/B0DYPFGL88.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61ERh52XjzL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 7826,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DYPFGL88",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DYPFGL88",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7826,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070:3x+oc+ventus",
@@ -57169,6 +57130,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070ti:tuf|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070ti:tuf",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 Gaming Graphics Card (PCIe 5.0, HDMI/DP …",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DVH1Y9VN.jpg",
+   "image": "img/B0DVH1Y9VN.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71Rw3ze-F7L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 11501,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DVH1Y9VN",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11501,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|asus:5070ti:oc+proart",
    "category": "gpu",
    "cooler_kind": null,
@@ -57799,23 +57799,10 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DVH1Y9VN.jpg",
-   "image": "img/B0DVH1Y9VN.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71Rw3ze-F7L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 11501,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DVH1Y9VN",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DVH1Y9VN",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number TUF-RTX5070TI-O16G-GAMING",
-    "others": []
-   },
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f391d5747cd24231.png",
+   "image": "img/hk-f391d5747cd24231.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ASUS_TUF_GeForce_RTX_5070_Ti_OC_16GB_P5.png?v=1740062382",
+   "water": null,
    "official": {
     "price_hkd": 12800,
     "store": "Jumbo 珍寶電腦",
@@ -57840,9 +57827,9 @@
      }
     ]
    },
-   "delta_hkd": 1299,
-   "best_price": 11501,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 12800,
+   "has_water": false,
    "has_official": true
   },
   {
