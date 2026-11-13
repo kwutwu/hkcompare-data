@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-13T12:58:21Z",
- "generated_at_hkt": "2026-11-13 20:58 HKT",
- "price_updated_hkt": "2026-11-13 20:58 HKT",
+ "generated_at": "2026-11-13T14:05:27Z",
+ "generated_at_hkt": "2026-11-13 22:05 HKT",
+ "price_updated_hkt": "2026-11-13 22:05 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-12 10:02–15:17 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261112/hkcompare_rows.json",
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 341,
+   "count": 343,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2736,
+  "items": 2738,
   "both_sides": 85,
-  "water_only": 136,
+  "water_only": 138,
   "official_only": 2513,
   "matched_water": 87,
-  "official_groups": 2736,
+  "official_groups": 2738,
   "id_merge": {
    "enabled": true,
    "unions_upc": 5,
@@ -367,7 +367,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 153,
+   "amazon_cached": 154,
    "official_downloaded": 0,
    "official_cached": 2285,
    "failed": 0,
@@ -434,8 +434,8 @@
   ],
   "ivan": {
    "total_listings": 243,
-   "qualified": 256,
-   "deduped": 223,
+   "qualified": 258,
+   "deduped": 225,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
@@ -448,11 +448,11 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 63,
-    "nic_jp_rows": 100,
+    "nic_jp_rows": 102,
     "nic_jp_retained": 17,
-    "nic_jp_dropped_stale": 25,
-    "nic_jp_retain_now_hkt": "2026-11-13 18:52:06 HKT",
-    "nic_jp_cache_size": 125,
+    "nic_jp_dropped_stale": 24,
+    "nic_jp_retain_now_hkt": "2026-11-13 21:46:13 HKT",
+    "nic_jp_cache_size": 126,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
@@ -54732,7 +54732,7 @@
    "image": "img/B0DTGP2WMT.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71N6P3QQplL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7471,
+    "price_hkd": 7462,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -54754,8 +54754,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 128,
-   "best_price": 7471,
+   "delta_hkd": 137,
+   "best_price": 7462,
    "has_water": true,
    "has_official": true
   },
@@ -60775,7 +60775,7 @@
    "image": "img/B083Y2FY2X.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81-5B-vIVaL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 742,
+    "price_hkd": 746,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -60790,7 +60790,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 742,
+   "best_price": 746,
    "has_water": true,
    "has_official": false
   },
@@ -61213,49 +61213,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS PRIME B760-PLUS D4 Intel 14th/13th/12th Generation CPU Compatible with LGA1700 B760 DDR4 ATX Motherboard",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BQH92RQS.jpg",
-   "image": "img/B0BQH92RQS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61fOx1+PsML._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 833,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BQH92RQS",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0BQH92RQS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 833,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asus:B760:mATX:prime-b760m-a-wifi:ddr4:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -61279,7 +61236,7 @@
    "image": "img/B0BRMRNHPW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61DkzgMaghL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 834,
+    "price_hkd": 830,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -61323,10 +61280,53 @@
      }
     ]
    },
-   "delta_hkd": 206,
-   "best_price": 834,
+   "delta_hkd": 210,
+   "best_price": 830,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B760:ATX:prime-b760-plus:ddr4:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS PRIME B760-PLUS D4 Intel 14th/13th/12th Generation CPU Compatible with LGA1700 B760 DDR4 ATX Motherboard",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BQH92RQS.jpg",
+   "image": "img/B0BQH92RQS.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61fOx1+PsML._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 833,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BQH92RQS",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BQH92RQS",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 833,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asrock:B650:mATX:b650m-pg-riptide-wifi-white:ddr5:wifi:white",
@@ -61940,6 +61940,49 @@
    "best_price": 909,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:msi:B760:ATX:b760-gaming-plus-wifi:ddr4:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "mobo:msi:B760:ATX:b760-gaming-plus-wifi:ddr4:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI B760 GAMING PLUS WIFI DDR4 Intel第14/13/12世代 Coreプロセッサ対応 ATX マザーボード MB6563",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 924,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DM8L87PZ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DM8L87PZ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 924,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B760:ATX:tuf-gaming-b760-plus-wifi:ddr4:wifi:|water",
@@ -62795,6 +62838,72 @@
    "delta_hkd": null,
    "best_price": 1070,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B760:mATX:tuf-gaming-b760m-plus-wifi:ddr4:wifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B760:mATX:tuf-gaming-b760m-plus-wifi:ddr4:wifi:",
+   "part_number": "B760M-PLUS",
+   "upc": "0197105004467",
+   "title": "ASUS TUF GAMING B760M-PLUS WIFI D4 Micro-ATX 主機板 [B760 / 電競特工主流電競 / PCIe 5.0 / DDR4 / W…",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BQH7JQ4F.jpg",
+   "image": "img/B0BQH7JQ4F.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61xZ9PCsuXL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 1070,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BQH7JQ4F",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BQH7JQ4F",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:asus:B760:mATX:tuf-gaming-b760m-plus-wifi:ddr4:wifi:",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 1520,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-tuf-gaming-b760m-plus-wifi-d4-ddr4-lga-1700-matx-motherboard",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 1599,
+      "url": "https://shop.pegasus.hk/products/211758/ASUS-華碩-TUF-GAMING-B760M-PLUS-WIFI-D4-Micro-ATX-主機板-DDR4---3年保養",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 1610,
+      "url": "https://centralfield.com/product/3683/asus-tuf-gaming-b760m-plus-wifi-d4-matx",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 450,
+   "best_price": 1070,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -63911,72 +64020,6 @@
    "best_price": 1254,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "mobo|mobo:asus:B760:mATX:tuf-gaming-b760m-plus-wifi:ddr4:wifi:",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:B760:mATX:tuf-gaming-b760m-plus-wifi:ddr4:wifi:",
-   "part_number": "B760M-PLUS",
-   "upc": "0197105004467",
-   "title": "ASUS TUF GAMING B760M-PLUS WIFI D4 Micro-ATX 主機板 [B760 / 電競特工主流電競 / PCIe 5.0 / DDR4 / W…",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BQH7JQ4F.jpg",
-   "image": "img/B0BQH7JQ4F.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61xZ9PCsuXL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 1261,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BQH7JQ4F",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0BQH7JQ4F",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:asus:B760:mATX:tuf-gaming-b760m-plus-wifi:ddr4:wifi:",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 1520,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/asus-tuf-gaming-b760m-plus-wifi-d4-ddr4-lga-1700-matx-motherboard",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 1599,
-      "url": "https://shop.pegasus.hk/products/211758/ASUS-華碩-TUF-GAMING-B760M-PLUS-WIFI-D4-Micro-ATX-主機板-DDR4---3年保養",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 1610,
-      "url": "https://centralfield.com/product/3683/asus-tuf-gaming-b760m-plus-wifi-d4-matx",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 259,
-   "best_price": 1261,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "mobo|mobo:msi:B860:mATX:pro-b860m-a-wifi6e:ddr5:wifi:",
@@ -66800,6 +66843,45 @@
    "best_price": 1799,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE MB7038 AORUS ELITE-P ICE ATX Motherboard",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "E-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H62232LX.jpg",
+   "image": "img/B0H62232LX.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/815OuBApFnL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 1821,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H62232LX",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0H62232LX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1821,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:msi:Z890:?:pro-z890s-wifi-pz:ddr5:wifi:|water",
