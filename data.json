@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-13T20:21:05Z",
- "generated_at_hkt": "2026-11-14 04:21 HKT",
- "price_updated_hkt": "2026-11-14 04:21 HKT",
+ "generated_at": "2026-11-13T20:50:45Z",
+ "generated_at_hkt": "2026-11-14 04:50 HKT",
+ "price_updated_hkt": "2026-11-14 04:50 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-12 10:02–15:17 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261112/hkcompare_rows.json",
@@ -434,14 +434,15 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 256,
+   "qualified": 253,
    "deduped": 223,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
    },
    "excluded": {
-    "seller": 214,
+    "seller": 212,
+    "ship unknown": 5,
     "not desktop GPU": 3,
     "no ship": 1,
     "used": 1
@@ -57854,61 +57855,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
-   "image": "img/B0GZWW2RKH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13804,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0GZWW2RKH",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0GZWW2RKH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 14999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 15350,
-      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 1195,
-   "best_price": 13804,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|pny:5080:triple|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -57948,53 +57894,6 @@
    "has_official": false
   },
   {
-   "id": "gpu|msi:5080:3x+inspire+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+inspire+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
-   "image": "img/B0GWRN4Q36.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14240,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0GWRN4Q36",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0GWRN4Q36",
-    "stock": "Available to ship in 1-2 days",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+inspire+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 15600,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 1360,
-   "best_price": 14240,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|inno3d:5080:",
    "category": "gpu",
    "cooler_kind": null,
@@ -58029,11 +57928,11 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:argb+triple|water",
+   "id": "gpu|pny:5080:argb+oc+triple+verto|water",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "PNY",
-   "model_key": "pny:5080:argb+triple",
+   "model_key": "pny:5080:argb+oc+triple+verto",
    "part_number": null,
    "upc": null,
    "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
@@ -58048,14 +57947,14 @@
    "image": "img/B0DZCVQGG6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
    "water": {
-    "price_hkd": 14646,
+    "price_hkd": 14694,
     "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
     "asin": "B0DZCVQGG6",
     "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DZCVQGG6",
+    "url": "https://www.amazon.de/dp/B0DZCVQGG6",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -58063,7 +57962,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14646,
+   "best_price": 14694,
    "has_water": true,
    "has_official": false
   },
@@ -58087,7 +57986,7 @@
    "image": "img/B0H5NNTMTH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14711,
+    "price_hkd": 14726,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -58095,7 +57994,7 @@
     "asin": "B0H5NNTMTH",
     "sku": null,
     "url": "https://www.amazon.co.uk/dp/B0H5NNTMTH",
-    "stock": "Only 5 left in stock.",
+    "stock": "Only 4 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "others": []
@@ -58109,8 +58008,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 3288,
-   "best_price": 14711,
+   "delta_hkd": 3273,
+   "best_price": 14726,
    "has_water": true,
    "has_official": true
   },
@@ -58180,6 +58079,61 @@
    },
    "delta_hkd": 551,
    "best_price": 14749,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5080:3x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
+   "image": "img/B0GZWW2RKH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14779,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0GZWW2RKH",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0GZWW2RKH",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+oc+ventus",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 14999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 15350,
+      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 220,
+   "best_price": 14779,
    "has_water": true,
    "has_official": true
   },
@@ -58663,6 +58617,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:3x+inspire+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+inspire+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
+   "image": "img/B0GWRN4Q36.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 16187,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0GWRN4Q36",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0GWRN4Q36",
+    "stock": "Available to ship in 1-2 days",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+inspire+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15600,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": -587,
+   "best_price": 15600,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|colorful:5080:oc+ultra",
    "category": "gpu",
    "cooler_kind": null,
@@ -58716,7 +58717,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15867,
+    "price_hkd": 15884,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -58738,8 +58739,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 3132,
-   "best_price": 15867,
+   "delta_hkd": 3115,
+   "best_price": 15884,
    "has_water": true,
    "has_official": true
   },
@@ -58988,7 +58989,7 @@
    "image": "img/B0DT9VM5DC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81koP+J468L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16182,
+    "price_hkd": 16198,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -59003,7 +59004,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16182,
+   "best_price": 16198,
    "has_water": true,
    "has_official": false
   },
@@ -59027,7 +59028,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16320,
+    "price_hkd": 16337,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -59042,7 +59043,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16320,
+   "best_price": 16337,
    "has_water": true,
    "has_official": false
   },
@@ -59100,7 +59101,7 @@
    "image": "img/B0DSQ221G4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81eLKUlImuL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16483,
+    "price_hkd": 16500,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -59115,7 +59116,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16483,
+   "best_price": 16500,
    "has_water": true,
    "has_official": false
   },
@@ -59196,7 +59197,7 @@
     "asin": "B0H86338KX",
     "sku": null,
     "url": "https://www.amazon.it/dp/B0H86338KX",
-    "stock": "Available to ship in 1-2 days",
+    "stock": "Only 1 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "others": []
