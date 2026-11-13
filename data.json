@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-13T12:26:21Z",
- "generated_at_hkt": "2026-11-13 20:26 HKT",
- "price_updated_hkt": "2026-11-13 20:26 HKT",
+ "generated_at": "2026-11-13T12:58:21Z",
+ "generated_at_hkt": "2026-11-13 20:58 HKT",
+ "price_updated_hkt": "2026-11-13 20:58 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-12 10:02–15:17 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261112/hkcompare_rows.json",
@@ -441,10 +441,10 @@
     "recovered": 0
    },
    "excluded": {
-    "seller": 212,
-    "used": 2,
+    "seller": 213,
     "not desktop GPU": 3,
-    "no ship": 1
+    "no ship": 1,
+    "used": 1
    },
    "amazon_exports": {
     "ivan_gpu_rows": 63,
@@ -58081,6 +58081,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5080:argb+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:argb+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
+   "image": "img/B0DZCVQGG6.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
+   "water": {
+    "price_hkd": 14646,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DZCVQGG6",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0DZCVQGG6",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 14646,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5080:oc+sff+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -58108,7 +58147,7 @@
     "asin": "B0H5NNTMTH",
     "sku": null,
     "url": "https://www.amazon.co.uk/dp/B0H5NNTMTH",
-    "stock": "Only 8 left in stock.",
+    "stock": "Only 7 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "others": []
@@ -58479,7 +58518,7 @@
    "image": "img/B0DS65VMC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15428,
+    "price_hkd": 15794,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -58523,7 +58562,7 @@
      }
     ]
    },
-   "delta_hkd": -128,
+   "delta_hkd": -494,
    "best_price": 15300,
    "has_water": true,
    "has_official": true
@@ -58674,45 +58713,6 @@
    "best_price": 15599,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:argb+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
-   "image": "img/B0DZCVQGG6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
-   "water": {
-    "price_hkd": 15761,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DZCVQGG6",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DZCVQGG6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15761,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|colorful:5080:oc+ultra",
