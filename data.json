@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-13T05:04:18Z",
- "generated_at_hkt": "2026-11-13 13:04 HKT",
- "price_updated_hkt": "2026-11-13 13:04 HKT",
+ "generated_at": "2026-11-13T05:18:24Z",
+ "generated_at_hkt": "2026-11-13 13:18 HKT",
+ "price_updated_hkt": "2026-11-13 13:18 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-12 10:02–15:17 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261112/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 258,
+   "count": 257,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2735,
-  "both_sides": 84,
-  "water_only": 135,
-  "official_only": 2514,
-  "matched_water": 86,
-  "official_groups": 2735,
+  "items": 2734,
+  "both_sides": 85,
+  "water_only": 134,
+  "official_only": 2513,
+  "matched_water": 87,
+  "official_groups": 2734,
   "id_merge": {
    "enabled": true,
    "unions_upc": 5,
@@ -369,7 +369,7 @@
    "amazon_downloaded": 1,
    "amazon_cached": 150,
    "official_downloaded": 0,
-   "official_cached": 2285,
+   "official_cached": 2284,
    "failed": 1,
    "pins_applied": 41,
    "pins_skipped": 0
@@ -49301,6 +49301,61 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5060:oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060:oc",
+   "part_number": "GV-N5060OC-8GL",
+   "upc": "0889523050699",
+   "title": "GIGABYTE GeForce RTX 5060 OC Low Profile 8GB GDDR7 (GV-N5060OC-8GL) - 3年保養",
+   "spec": "RTX 5060",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6NMXJ1M.jpg",
+   "image": "img/B0F6NMXJ1M.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71xvvKBSwbL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 3568,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F6NMXJ1M",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0F6NMXJ1M",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5060:oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 3899,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/225305/GIGABYTE-技嘉-GeForce-RTX-5060-OC-Low-Profile-8G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 3950,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5060-oc-low-profile-8gb-gddr7-gv-n5060oc-8gl",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 331,
+   "best_price": 3568,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|gainward:5060:oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -49680,61 +49735,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060:oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060:oc",
-   "part_number": "GV-N5060OC-8GL",
-   "upc": "0889523050699",
-   "title": "GIGABYTE GeForce RTX 5060 OC Low Profile 8GB GDDR7 (GV-N5060OC-8GL) - 3年保養",
-   "spec": "RTX 5060",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6NMXJ1M.jpg",
-   "image": "img/B0F6NMXJ1M.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71xvvKBSwbL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 3894,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0F6NMXJ1M",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0F6NMXJ1M",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060:oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 3899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/225305/GIGABYTE-技嘉-GeForce-RTX-5060-OC-Low-Profile-8G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 3950,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-rtx-5060-oc-low-profile-8gb-gddr7-gv-n5060oc-8gl",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 5,
-   "best_price": 3894,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|colorful:5060:oc+ultra",
    "category": "gpu",
    "cooler_kind": null,
@@ -49924,7 +49924,7 @@
    "image": "img/B0F6NP452Y.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71HWoRXkLtL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4195,
+    "price_hkd": 4134,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -49946,7 +49946,7 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -196,
+   "delta_hkd": -135,
    "best_price": 3999,
    "has_water": true,
    "has_official": true
@@ -49986,45 +49986,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5060:2x+oc+shadow|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060:2x+oc+shadow",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5060 8G SHADOW 2X OC Graphics Card - RTX 5060 GPU",
-   "spec": "RTX 5060",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09729YMPT.jpg",
-   "image": "img/B09729YMPT.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81UzzpO5dML._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 4056,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B09729YMPT",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B09729YMPT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4056,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|asus:5060:dual+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -50044,7 +50005,7 @@
    "image": "img/B0F8Q96N8G.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81RxWmzZboL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4459,
+    "price_hkd": 4497,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -50088,7 +50049,7 @@
      }
     ]
    },
-   "delta_hkd": -360,
+   "delta_hkd": -398,
    "best_price": 4099,
    "has_water": true,
    "has_official": true
@@ -50196,7 +50157,7 @@
    "image": "img/B0F8Q8T2JG.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81D-woN0dQL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4268,
+    "price_hkd": 4680,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -50233,7 +50194,7 @@
      }
     ]
    },
-   "delta_hkd": -168,
+   "delta_hkd": -580,
    "best_price": 4100,
    "has_water": true,
    "has_official": true
@@ -50292,7 +50253,7 @@
    "image": "img/B0F93PXDR7.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61cJ3eiZT6L._AC_SL1350_.jpg",
    "water": {
-    "price_hkd": 4178,
+    "price_hkd": 4149,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -50307,7 +50268,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 4178,
+   "best_price": 4149,
    "has_water": true,
    "has_official": false
   },
@@ -50319,7 +50280,7 @@
    "model_key": "msi:5060:2x+oc+ventus+white",
    "part_number": null,
    "upc": null,
-   "title": "MSI GeForce RTX 5060 Ventus 2X OC White 8GB GDDR7 微星白色雙風扇超頻版顯示卡",
+   "title": "MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE Graphics Card - RTX 5060 GPU",
    "spec": "RTX 5060",
    "filter_tags": null,
    "form_factor": null,
@@ -50327,10 +50288,23 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a87ae9aa4991f6a0.webp",
-   "image": "img/hk-a87ae9aa4991f6a0.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/13167.webp",
-   "water": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0972D2R41.jpg",
+   "image": "img/B0972D2R41.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71sLIcogUAL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4163,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0972D2R41",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0972D2R41",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5060:2x+oc+ventus+white",
+    "others": []
+   },
    "official": {
     "price_hkd": 4180,
     "store": "中田電腦 Centralfield",
@@ -50348,9 +50322,9 @@
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 4180,
-   "has_water": false,
+   "delta_hkd": 17,
+   "best_price": 4163,
+   "has_water": true,
    "has_official": true
   },
   {
