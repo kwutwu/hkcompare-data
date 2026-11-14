@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-14T16:58:22Z",
- "generated_at_hkt": "2026-11-15 00:58 HKT",
- "price_updated_hkt": "2026-11-15 00:58 HKT",
+ "generated_at": "2026-11-14T17:54:19Z",
+ "generated_at_hkt": "2026-11-15 01:54 HKT",
+ "price_updated_hkt": "2026-11-15 01:54 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-14 09:59–11:07 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261114/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 300,
+   "count": 299,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2825,
+  "items": 2824,
   "both_sides": 92,
-  "water_only": 135,
+  "water_only": 134,
   "official_only": 2596,
   "matched_water": 95,
-  "official_groups": 2825,
+  "official_groups": 2824,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -370,7 +370,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 159,
+   "amazon_cached": 158,
    "official_downloaded": 0,
    "official_cached": 2309,
    "failed": 0,
@@ -437,8 +437,8 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 266,
-   "deduped": 230,
+   "qualified": 265,
+   "deduped": 229,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
@@ -450,7 +450,7 @@
     "used": 1
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 66,
+    "ivan_gpu_rows": 65,
     "nic_jp_rows": 103,
     "nic_jp_retained": 21,
     "nic_jp_dropped_stale": 24,
@@ -459,7 +459,7 @@
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 70,
+     "bad_or_dup": 75,
      "jd_oos": 5
     }
    }
@@ -56042,45 +56042,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:oc",
-   "part_number": "GV-N5070EAGLEOC-12GD",
-   "upc": null,
-   "title": "GIGABYTE NVIDIA GeForce RTX 5070 Graphics Board GDDR7 12GB Gigabyte 【Domestic Authorized Dealer】 GV-N5070EAGLE OC-12GD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F11VB65S.jpg",
-   "image": "img/B0F11VB65S.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61fqNatcCBL._AC_SL1350_.jpg",
-   "water": {
-    "price_hkd": 7211,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F11VB65S",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F11VB65S",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7211,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5070:oc+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -56147,7 +56108,7 @@
    "image": "img/B0DYPFY7JG.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81qKy0QvLHL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7242,
+    "price_hkd": 7240,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -56184,8 +56145,8 @@
      }
     ]
    },
-   "delta_hkd": 808,
-   "best_price": 7242,
+   "delta_hkd": 810,
+   "best_price": 7240,
    "has_water": true,
    "has_official": true
   },
@@ -58865,6 +58826,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5070ti:triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GEFORCE RTX™ 5070 Ti 16GB Triple Fan DLSS4 Graphics Card",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F67GQBVT.jpg",
+   "image": "img/B0F67GQBVT.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81KmfWCKJQL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 9977,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F67GQBVT",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0F67GQBVT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 9977,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5070ti:3x+oc+shadow",
    "category": "gpu",
    "cooler_kind": null,
@@ -59101,45 +59101,6 @@
    "best_price": 10886,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070ti:triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070ti:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GEFORCE RTX™ 5070 Ti 16GB Triple Fan DLSS4 Graphics Card",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F67GQBVT.jpg",
-   "image": "img/B0F67GQBVT.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81KmfWCKJQL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 10955,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0F67GQBVT",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0F67GQBVT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 10955,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5070ti:gaming trio+oc",
