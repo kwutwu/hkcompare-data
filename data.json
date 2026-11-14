@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-14T12:42:07Z",
- "generated_at_hkt": "2026-11-14 20:42 HKT",
- "price_updated_hkt": "2026-11-14 20:42 HKT",
+ "generated_at": "2026-11-14T14:12:29Z",
+ "generated_at_hkt": "2026-11-14 22:12 HKT",
+ "price_updated_hkt": "2026-11-14 22:12 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-14 09:59–11:07 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261114/hkcompare_rows.json",
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 338,
+   "count": 339,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2818,
+  "items": 2819,
   "both_sides": 86,
-  "water_only": 128,
+  "water_only": 129,
   "official_only": 2602,
   "matched_water": 89,
-  "official_groups": 2818,
+  "official_groups": 2819,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -451,10 +451,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 63,
-    "nic_jp_rows": 102,
-    "nic_jp_retained": 20,
-    "nic_jp_dropped_stale": 25,
-    "nic_jp_retain_now_hkt": "2026-11-14 18:48:23 HKT",
+    "nic_jp_rows": 103,
+    "nic_jp_retained": 21,
+    "nic_jp_dropped_stale": 24,
+    "nic_jp_retain_now_hkt": "2026-11-14 21:43:34 HKT",
     "nic_jp_cache_size": 127,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -63809,7 +63809,7 @@
    "image": "img/B0BRMRNHPW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61DkzgMaghL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 820,
+    "price_hkd": 817,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -63853,8 +63853,8 @@
      }
     ]
    },
-   "delta_hkd": 220,
-   "best_price": 820,
+   "delta_hkd": 223,
+   "best_price": 817,
    "has_water": true,
    "has_official": true
   },
@@ -65042,7 +65042,7 @@
    "image": "img/B0BV2D5H5X.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/712fwib0NnL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 996,
+    "price_hkd": 995,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65064,8 +65064,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 394,
-   "best_price": 996,
+   "delta_hkd": 395,
+   "best_price": 995,
    "has_water": true,
    "has_official": true
   },
@@ -66387,6 +66387,45 @@
    "best_price": 1230,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:B650:mATX:tuf-gaming-b650em-plus-wifi:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:B650:mATX:tuf-gaming-b650em-plus-wifi:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS AMD B650 chipset Ryzen デスクトップ プロセッサー用 AM5対応 micro-ATX マザーボード TUF GAMING B650EM-PLU…",
+   "spec": "B650",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FMR9X3KJ.jpg",
+   "image": "img/B0FMR9X3KJ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/91G4yPrWyFL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 1240,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0FMR9X3KJ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0FMR9X3KJ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1240,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:gigabyte:B860:mATX:b860m-gaming-wifi6:ddr5:wifi:",
@@ -68846,7 +68885,7 @@
    "image": "img/B0DQK8WWYR.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/817j5TKTJfL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1701,
+    "price_hkd": 1698,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -68861,7 +68900,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1701,
+   "best_price": 1698,
    "has_water": true,
    "has_official": false
   },
