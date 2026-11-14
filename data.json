@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-13T22:59:41Z",
- "generated_at_hkt": "2026-11-14 06:59 HKT",
- "price_updated_hkt": "2026-11-14 06:59 HKT",
+ "generated_at": "2026-11-14T00:31:50Z",
+ "generated_at_hkt": "2026-11-14 08:31 HKT",
+ "price_updated_hkt": "2026-11-14 08:31 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-12 10:02–15:17 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261112/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 255,
+   "count": 254,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2737,
+  "items": 2736,
   "both_sides": 84,
-  "water_only": 137,
+  "water_only": 136,
   "official_only": 2514,
   "matched_water": 86,
-  "official_groups": 2737,
+  "official_groups": 2736,
   "id_merge": {
    "enabled": true,
    "unions_upc": 5,
@@ -367,7 +367,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 153,
+   "amazon_cached": 152,
    "official_downloaded": 0,
    "official_cached": 2286,
    "failed": 0,
@@ -434,8 +434,8 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 258,
-   "deduped": 223,
+   "qualified": 257,
+   "deduped": 222,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
@@ -447,7 +447,7 @@
     "used": 1
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 61,
+    "ivan_gpu_rows": 60,
     "nic_jp_rows": 102,
     "nic_jp_retained": 17,
     "nic_jp_dropped_stale": 24,
@@ -456,7 +456,7 @@
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 61,
+     "bad_or_dup": 59,
      "jd_oos": 5
     }
    }
@@ -53816,7 +53816,7 @@
    "image": "img/B0DX7JJ87N.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71pbQfqmpsL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6946,
+    "price_hkd": 6945,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -53860,8 +53860,8 @@
      }
     ]
    },
-   "delta_hkd": 753,
-   "best_price": 6946,
+   "delta_hkd": 754,
+   "best_price": 6945,
    "has_water": true,
    "has_official": true
   },
@@ -54394,7 +54394,7 @@
    "image": "img/B0F6CBQF48.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81icAEqTP3L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7216,
+    "price_hkd": 7220,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -54416,8 +54416,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 483,
-   "best_price": 7216,
+   "delta_hkd": 479,
+   "best_price": 7220,
    "has_water": true,
    "has_official": true
   },
@@ -54732,7 +54732,7 @@
    "image": "img/B0DTGP2WMT.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71N6P3QQplL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7462,
+    "price_hkd": 7451,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -54754,8 +54754,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 137,
-   "best_price": 7462,
+   "delta_hkd": 148,
+   "best_price": 7451,
    "has_water": true,
    "has_official": true
   },
@@ -56569,45 +56569,6 @@
    "best_price": 9500,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070ti:triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070ti:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GEFORCE RTX™ 5070 Ti 16GB Triple Fan DLSS4 Graphics Card",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F67GQBVT.jpg",
-   "image": "img/B0F67GQBVT.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81KmfWCKJQL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 9693,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0F67GQBVT",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0F67GQBVT",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 9693,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|colorful:5070:oc+ultra",
