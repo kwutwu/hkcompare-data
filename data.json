@@ -1,6 +1,6 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-14T05:30:07Z",
+ "generated_at": "2026-11-14T05:30:52Z",
  "generated_at_hkt": "2026-11-14 13:30 HKT",
  "price_updated_hkt": "2026-11-14 13:30 HKT",
  "amazon_data_updated_hkt": null,
@@ -459,7 +459,7 @@
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 70,
+     "bad_or_dup": 72,
      "jd_oos": 5
     }
    }
@@ -50060,7 +50060,7 @@
    "image": "img/B0F6NMXJ1M.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71xvvKBSwbL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3568,
+    "price_hkd": 3558,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -50097,8 +50097,70 @@
      }
     ]
    },
-   "delta_hkd": 331,
-   "best_price": 3568,
+   "delta_hkd": 341,
+   "best_price": 3558,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5060:2x+oc+ventus+white",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5060:2x+oc+ventus+white",
+   "part_number": null,
+   "upc": null,
+   "title": "MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE Graphics Card - RTX 5060 GPU",
+   "spec": "RTX 5060",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0972D2R41.jpg",
+   "image": "img/B0972D2R41.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71sLIcogUAL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 3563,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0972D2R41",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0972D2R41",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5060:2x+oc+ventus+white",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 4180,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/13167/msi-geforce-rtx-5060-ventus-2x-oc-white-8gb",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 4199,
+      "url": "https://pc.plus/product/skuvgmsi00037",
+      "build_only": false
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4299,
+      "url": "https://shop.pegasus.hk/products/225227/MSI-微星-GeForce-RTX-5060-8G-VENTUS-2X-OC-White-顯示卡---3年保養",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 617,
+   "best_price": 3563,
    "has_water": true,
    "has_official": true
   },
@@ -50807,7 +50869,7 @@
    "image": "img/B0F6NP452Y.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71HWoRXkLtL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4134,
+    "price_hkd": 4128,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -50829,7 +50891,7 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -135,
+   "delta_hkd": -129,
    "best_price": 3999,
    "has_water": true,
    "has_official": true
@@ -51062,7 +51124,7 @@
    "image": "img/B0F8Q8T2JG.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81D-woN0dQL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4680,
+    "price_hkd": 4782,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -51106,7 +51168,7 @@
      }
     ]
    },
-   "delta_hkd": -580,
+   "delta_hkd": -682,
    "best_price": 4100,
    "has_water": true,
    "has_official": true
@@ -51165,7 +51227,7 @@
    "image": "img/B0F93PXDR7.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61cJ3eiZT6L._AC_SL1350_.jpg",
    "water": {
-    "price_hkd": 4149,
+    "price_hkd": 4150,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -51180,71 +51242,9 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 4149,
+   "best_price": 4150,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|msi:5060:2x+oc+ventus+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5060:2x+oc+ventus+white",
-   "part_number": null,
-   "upc": null,
-   "title": "MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE Graphics Card - RTX 5060 GPU",
-   "spec": "RTX 5060",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0972D2R41.jpg",
-   "image": "img/B0972D2R41.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71sLIcogUAL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 4163,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0972D2R41",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0972D2R41",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5060:2x+oc+ventus+white",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 4180,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/13167/msi-geforce-rtx-5060-ventus-2x-oc-white-8gb",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 4199,
-      "url": "https://pc.plus/product/skuvgmsi00037",
-      "build_only": false
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 4299,
-      "url": "https://shop.pegasus.hk/products/225227/MSI-微星-GeForce-RTX-5060-8G-VENTUS-2X-OC-White-顯示卡---3年保養",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 17,
-   "best_price": 4163,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "gpu|inno3d:5060:2x+oc+white",
@@ -60535,7 +60535,7 @@
    "image": "img/B0GZWW2RKH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13768,
+    "price_hkd": 13735,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -60572,8 +60572,8 @@
      }
     ]
    },
-   "delta_hkd": 731,
-   "best_price": 13768,
+   "delta_hkd": 764,
+   "best_price": 13735,
    "has_water": true,
    "has_official": true
   },
@@ -60654,14 +60654,14 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:triple|water",
+   "id": "gpu|gigabyte:5080:oc+sff+windforce",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:triple",
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:oc+sff+windforce",
    "part_number": null,
    "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB Triple Fan Graphics Card DLSS 4",
+   "title": "GIGABYTE 技嘉 WINDFORCE SFF GeForce RTX 5080 16G OC 顯示卡",
    "spec": "RTX 5080",
    "filter_tags": null,
    "form_factor": null,
@@ -60669,28 +60669,36 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYRZZJZ1.jpg",
-   "image": "img/B0DYRZZJZ1.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9Y2B49.jpg",
+   "image": "img/B0DT9Y2B49.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14025,
+    "price_hkd": 14182,
     "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DYRZZJZ1",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DT9Y2B49",
     "sku": null,
-    "url": "https://www.amazon.it/dp/B0DYRZZJZ1",
-    "stock": "In stock",
+    "url": "https://www.amazon.de/dp/B0DT9Y2B49",
+    "stock": "",
     "note": "已含運費 + 2%",
-    "match_by": null,
+    "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "others": []
    },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 14025,
+   "official": {
+    "price_hkd": 17999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223101/GIGABYTE-技嘉-WINDFORCE-SFF-GeForce-RTX-5080-16G-OC-顯示卡---3-年保固需線上註冊保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": 3817,
+   "best_price": 14182,
    "has_water": true,
-   "has_official": false
+   "has_official": true
   },
   {
    "id": "gpu|msi:5080:3x+inspire+oc",
@@ -60720,7 +60728,7 @@
     "asin": "B0GWRN4Q36",
     "sku": null,
     "url": "https://www.amazon.fr/dp/B0GWRN4Q36",
-    "stock": "Available to ship in 1-2 days",
+    "stock": "Only 1 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+inspire+oc",
     "others": []
@@ -60821,53 +60829,6 @@
    "has_official": false
   },
   {
-   "id": "gpu|gigabyte:5080:oc+sff+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:oc+sff+windforce",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 WINDFORCE SFF GeForce RTX 5080 16G OC 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H5NNTMTH.jpg",
-   "image": "img/B0H5NNTMTH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71+VdWUZ4AL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14728,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0H5NNTMTH",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0H5NNTMTH",
-    "stock": "Only 5 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:oc+sff+windforce",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 17999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223101/GIGABYTE-技嘉-WINDFORCE-SFF-GeForce-RTX-5080-16G-OC-顯示卡---3-年保固需線上註冊保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 3271,
-   "best_price": 14728,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5080:oc+prime",
    "category": "gpu",
    "cooler_kind": null,
@@ -60887,7 +60848,7 @@
    "image": "img/B0DS65VMC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14751,
+    "price_hkd": 14726,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -60938,8 +60899,8 @@
      }
     ]
    },
-   "delta_hkd": 549,
-   "best_price": 14751,
+   "delta_hkd": 574,
+   "best_price": 14726,
    "has_water": true,
    "has_official": true
   },
@@ -61081,6 +61042,45 @@
    "best_price": 15050,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5080:triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5080:triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5080 16GB Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYRZZJZ1.jpg",
+   "image": "img/B0DYRZZJZ1.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 15171,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DYRZZJZ1",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0DYRZZJZ1",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 15171,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|msi:5080:gaming trio+oc",
