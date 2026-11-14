@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-14T04:35:33Z",
- "generated_at_hkt": "2026-11-14 12:35 HKT",
- "price_updated_hkt": "2026-11-14 12:35 HKT",
+ "generated_at": "2026-11-14T05:30:07Z",
+ "generated_at_hkt": "2026-11-14 13:30 HKT",
+ "price_updated_hkt": "2026-11-14 13:30 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-14 09:59–11:07 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261114/hkcompare_rows.json",
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 339,
+   "count": 338,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2821,
+  "items": 2820,
   "both_sides": 89,
-  "water_only": 131,
+  "water_only": 130,
   "official_only": 2599,
   "matched_water": 92,
-  "official_groups": 2821,
+  "official_groups": 2820,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -370,7 +370,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 152,
+   "amazon_cached": 151,
    "official_downloaded": 0,
    "official_cached": 2312,
    "failed": 0,
@@ -437,8 +437,8 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 254,
-   "deduped": 223,
+   "qualified": 253,
+   "deduped": 222,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
@@ -451,10 +451,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 62,
-    "nic_jp_rows": 99,
-    "nic_jp_retained": 10,
-    "nic_jp_dropped_stale": 27,
-    "nic_jp_retain_now_hkt": "2026-11-14 09:51:52 HKT",
+    "nic_jp_rows": 98,
+    "nic_jp_retained": 15,
+    "nic_jp_dropped_stale": 28,
+    "nic_jp_retain_now_hkt": "2026-11-14 12:49:00 HKT",
     "nic_jp_cache_size": 126,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -67291,45 +67291,6 @@
    "best_price": 1369,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:asus:Z890:E-ATX:z890-ayw-gaming-wifi:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:Z890:E-ATX:z890-ayw-gaming-wifi:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS Z890 AYW GAMING WIFI W intel Core Ultra Processors (series 2) 対応 LGA 1851 Z890 搭載 …",
-   "spec": "Z890",
-   "filter_tags": null,
-   "form_factor": "E-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DK4W2HM5.jpg",
-   "image": "img/B0DK4W2HM5.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71wPwsmrv+L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 1379,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DK4W2HM5",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0DK4W2HM5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1379,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B650:ATX:tuf-gaming-b650-plus-wifi-ryzen:ddr5:wifi:|water",
