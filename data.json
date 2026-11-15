@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-15T12:58:49Z",
- "generated_at_hkt": "2026-11-15 20:58 HKT",
- "price_updated_hkt": "2026-11-15 20:58 HKT",
+ "generated_at": "2026-11-15T13:48:17Z",
+ "generated_at_hkt": "2026-11-15 21:48 HKT",
+ "price_updated_hkt": "2026-11-15 21:48 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-15 10:03–10:35 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261115/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 314,
+   "count": 315,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3081,
+  "items": 3082,
   "both_sides": 99,
-  "water_only": 124,
+  "water_only": 125,
   "official_only": 2856,
   "matched_water": 101,
-  "official_groups": 3081,
+  "official_groups": 3082,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -358,7 +358,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 155,
+   "amazon_cached": 156,
    "official_downloaded": 0,
    "official_cached": 2590,
    "failed": 0,
@@ -425,8 +425,8 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 253,
-   "deduped": 225,
+   "qualified": 254,
+   "deduped": 226,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
@@ -438,7 +438,7 @@
     "used": 1
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 64,
+    "ivan_gpu_rows": 65,
     "nic_jp_rows": 93,
     "nic_jp_retained": 6,
     "nic_jp_dropped_stale": 34,
@@ -447,7 +447,7 @@
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 73,
+     "bad_or_dup": 74,
      "jd_oos": 5
     }
    }
@@ -62134,45 +62134,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5070:|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H6M1Z5TM.jpg",
-   "image": "img/B0H6M1Z5TM.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81zq01pCjpL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7557,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0H6M1Z5TM",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0H6M1Z5TM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7557,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|asrock:9070xt:steel legend",
    "category": "gpu",
    "cooler_kind": null,
@@ -62504,6 +62465,45 @@
    "best_price": 7599,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:5070:|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H6M1Z5TM.jpg",
+   "image": "img/B0H6M1Z5TM.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81zq01pCjpL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7685,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0H6M1Z5TM",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0H6M1Z5TM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7685,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|colorful:5070:oc+ultra+white",
@@ -64749,6 +64749,45 @@
    "best_price": 11200,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:oc+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DXL7GSYC.jpg",
+   "image": "img/B0DXL7GSYC.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61Ib7Av4M+L._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 11261,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DXL7GSYC",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0DXL7GSYC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11261,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gainward:5070ti:gs+phoenix",
