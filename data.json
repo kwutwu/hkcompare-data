@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-15T05:48:24Z",
- "generated_at_hkt": "2026-11-15 13:48 HKT",
- "price_updated_hkt": "2026-11-15 13:48 HKT",
+ "generated_at": "2026-11-15T07:06:00Z",
+ "generated_at_hkt": "2026-11-15 15:06 HKT",
+ "price_updated_hkt": "2026-11-15 15:06 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-15 10:03–10:35 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261115/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 318,
+   "count": 317,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3084,
+  "items": 3083,
   "both_sides": 97,
-  "water_only": 125,
+  "water_only": 124,
   "official_only": 2860,
   "matched_water": 100,
-  "official_groups": 3084,
+  "official_groups": 3083,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -353,7 +353,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 154,
+   "amazon_cached": 153,
    "official_downloaded": 0,
    "official_cached": 2594,
    "failed": 0,
@@ -420,15 +420,15 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 258,
-   "deduped": 225,
+   "qualified": 254,
+   "deduped": 224,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
    },
    "excluded": {
-    "seller": 202,
-    "no ship": 4,
+    "seller": 205,
+    "no ship": 5,
     "not desktop GPU": 3,
     "used": 1
    },
@@ -66114,45 +66114,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYRZZJZ1.jpg",
-   "image": "img/B0DYRZZJZ1.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13887,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DYRZZJZ1",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DYRZZJZ1",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 13887,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|colorful:5080:oc+ultra+white",
    "category": "gpu",
    "cooler_kind": null,
@@ -66237,6 +66198,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:oc+sff+windforce",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:oc+sff+windforce",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 WINDFORCE SFF GeForce RTX 5080 16G OC 顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9Y2B49.jpg",
+   "image": "img/B0DT9Y2B49.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14163,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DT9Y2B49",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DT9Y2B49",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:oc+sff+windforce",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 17999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223101/GIGABYTE-技嘉-WINDFORCE-SFF-GeForce-RTX-5080-16G-OC-顯示卡---3-年保固需線上註冊保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": 3836,
+   "best_price": 14163,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5080:3x+inspire+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -66288,53 +66296,6 @@
    },
    "delta_hkd": 330,
    "best_price": 14169,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:oc+sff+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:oc+sff+windforce",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 WINDFORCE SFF GeForce RTX 5080 16G OC 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9Y2B49.jpg",
-   "image": "img/B0DT9Y2B49.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14182,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DT9Y2B49",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DT9Y2B49",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:oc+sff+windforce",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 17999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223101/GIGABYTE-技嘉-WINDFORCE-SFF-GeForce-RTX-5080-16G-OC-顯示卡---3-年保固需線上註冊保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 3817,
-   "best_price": 14182,
    "has_water": true,
    "has_official": true
   },
@@ -66508,7 +66469,7 @@
    "image": "img/B0DS65VMC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14728,
+    "price_hkd": 14709,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -66559,8 +66520,8 @@
      }
     ]
    },
-   "delta_hkd": 572,
-   "best_price": 14728,
+   "delta_hkd": 591,
+   "best_price": 14709,
    "has_water": true,
    "has_official": true
   },
@@ -67140,7 +67101,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15842,
+    "price_hkd": 15826,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67162,8 +67123,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 3157,
-   "best_price": 15842,
+   "delta_hkd": 3173,
+   "best_price": 15826,
    "has_water": true,
    "has_official": true
   },
@@ -67469,7 +67430,7 @@
    "image": "img/B0DT9VM5DC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81koP+J468L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16155,
+    "price_hkd": 16139,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67484,7 +67445,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16155,
+   "best_price": 16139,
    "has_water": true,
    "has_official": false
   },
@@ -67508,7 +67469,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16294,
+    "price_hkd": 16278,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67523,7 +67484,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16294,
+   "best_price": 16278,
    "has_water": true,
    "has_official": false
   },
@@ -67664,7 +67625,7 @@
    "image": "img/B0DSQ221G4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81eLKUlImuL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16456,
+    "price_hkd": 16440,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67679,7 +67640,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16456,
+   "best_price": 16440,
    "has_water": true,
    "has_official": false
   },
