@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-15T17:55:11Z",
- "generated_at_hkt": "2026-11-16 01:55 HKT",
- "price_updated_hkt": "2026-11-16 01:55 HKT",
+ "generated_at": "2026-11-15T18:58:41Z",
+ "generated_at_hkt": "2026-11-16 02:58 HKT",
+ "price_updated_hkt": "2026-11-16 02:58 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-15 10:03–10:35 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261115/hkcompare_rows.json",
@@ -425,14 +425,14 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 263,
+   "qualified": 264,
    "deduped": 229,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
    },
    "excluded": {
-    "seller": 210,
+    "seller": 209,
     "no ship": 3,
     "not desktop GPU": 3,
     "used": 1
@@ -66075,7 +66075,7 @@
    "image": "img/B0DTJFZ4YS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 13877,
+    "price_hkd": 13891,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -66083,14 +66083,14 @@
     "asin": "B0DTJFZ4YS",
     "sku": null,
     "url": "https://www.amazon.co.uk/dp/B0DTJFZ4YS",
-    "stock": "Available to ship in 1-2 days",
+    "stock": "Only 1 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "others": []
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 13877,
+   "best_price": 13891,
    "has_water": true,
    "has_official": false
   },
@@ -66198,7 +66198,7 @@
    "image": "img/B0DT9Y2B49.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14161,
+    "price_hkd": 14179,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -66206,7 +66206,7 @@
     "asin": "B0DT9Y2B49",
     "sku": null,
     "url": "https://www.amazon.de/dp/B0DT9Y2B49",
-    "stock": "Available to ship in 1-2 days",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "others": []
@@ -66220,8 +66220,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 3838,
-   "best_price": 14161,
+   "delta_hkd": 3820,
+   "best_price": 14179,
    "has_water": true,
    "has_official": true
   },
@@ -66253,7 +66253,7 @@
     "asin": "B0GWRN4Q36",
     "sku": null,
     "url": "https://www.amazon.fr/dp/B0GWRN4Q36",
-    "stock": "Only 5 left in stock.",
+    "stock": "Only 6 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+inspire+oc",
     "others": []
@@ -66300,14 +66300,14 @@
    "image": "img/B0GZWW2RKH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15756,
+    "price_hkd": 14712,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
     "asin": "B0GZWW2RKH",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0GZWW2RKH",
+    "url": "https://www.amazon.it/dp/B0GZWW2RKH",
     "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+oc+ventus",
@@ -66344,7 +66344,7 @@
      }
     ]
    },
-   "delta_hkd": -1257,
+   "delta_hkd": -213,
    "best_price": 14499,
    "has_water": true,
    "has_official": true
@@ -66777,7 +66777,7 @@
    "image": "img/B0DS65VMC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15752,
+    "price_hkd": 15772,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -66785,7 +66785,7 @@
     "asin": "B0DS65VMC6",
     "sku": null,
     "url": "https://www.amazon.de/dp/B0DS65VMC6",
-    "stock": "Only 6 left in stock.",
+    "stock": "Only 5 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5080:oc+prime",
     "others": []
@@ -66828,7 +66828,7 @@
      }
     ]
    },
-   "delta_hkd": -452,
+   "delta_hkd": -472,
    "best_price": 15300,
    "has_water": true,
    "has_official": true
@@ -67082,7 +67082,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15826,
+    "price_hkd": 15842,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67104,8 +67104,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 3173,
-   "best_price": 15826,
+   "delta_hkd": 3157,
+   "best_price": 15842,
    "has_water": true,
    "has_official": true
   },
@@ -67372,7 +67372,7 @@
    "image": "img/B0DT9VM5DC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81koP+J468L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16139,
+    "price_hkd": 16155,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67387,7 +67387,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16139,
+   "best_price": 16155,
    "has_water": true,
    "has_official": false
   },
@@ -67411,7 +67411,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16278,
+    "price_hkd": 16294,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67426,7 +67426,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16278,
+   "best_price": 16294,
    "has_water": true,
    "has_official": false
   },
@@ -67512,7 +67512,7 @@
    "image": "img/B0DSQ221G4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81eLKUlImuL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16440,
+    "price_hkd": 16456,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67527,7 +67527,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16440,
+   "best_price": 16456,
    "has_water": true,
    "has_official": false
   },
