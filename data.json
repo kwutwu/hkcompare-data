@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 316,
+   "count": 315,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3083,
+  "items": 3082,
   "both_sides": 100,
   "water_only": 125,
-  "official_only": 2856,
+  "official_only": 2855,
   "matched_water": 102,
-  "official_groups": 3083,
+  "official_groups": 3082,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -59034,12 +59034,12 @@
    "has_official": true
   },
   {
-   "id": "gpu|manli:5060ti16:2x+oc+white",
+   "id": "gpu|manli:5060ti16:2x+oc",
    "category": "gpu",
    "cooler_kind": null,
    "brand": "manli",
-   "model_key": "manli:5060ti16:2x+oc+white",
-   "part_number": null,
+   "model_key": "manli:5060ti16:2x+oc",
+   "part_number": "RTX5060TI-16GBOC-GDDR7-POLARX2",
    "upc": "4895246102139",
    "title": "Manli GeForce RTX 5060 Ti POLAR FOX X2 White 白色 OC 16GB GDDR7 (RTX5060TI-16GBOC-GDDR7-P…",
    "spec": "RTX 5060 Ti 16GB",
@@ -59060,7 +59060,15 @@
     "url": "https://www.jumbo-computer.com/zh-hk/products/manli-geforce-rtx-5060-ti-polar-x2-16gb-gddr7",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 6299,
+      "url": "https://secomputer.com.hk/products/59683",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
    "best_price": 6200,
@@ -59132,40 +59140,6 @@
    },
    "delta_hkd": null,
    "best_price": 6250,
-   "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|manli:5060ti16:2x+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "manli",
-   "model_key": "manli:5060ti16:2x+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "MANLI GeForce RTX5060TI 16GB GDDR7 OC POLAR FOX X2",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1d8d309cf6f7f64.webp",
-   "image": "img/hk-d1d8d309cf6f7f64.webp",
-   "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_f405f1df33854e356c7106fdb4ce5c11.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 6299,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/59683",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 6299,
    "has_water": false,
    "has_official": true
   },
