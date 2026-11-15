@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-15T02:42:31Z",
- "generated_at_hkt": "2026-11-15 10:42 HKT",
- "price_updated_hkt": "2026-11-15 10:42 HKT",
+ "generated_at": "2026-11-15T03:03:06Z",
+ "generated_at_hkt": "2026-11-15 11:03 HKT",
+ "price_updated_hkt": "2026-11-15 11:03 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-15 10:03–10:35 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261115/hkcompare_rows.json",
@@ -420,17 +420,17 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 249,
+   "qualified": 251,
    "deduped": 220,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
    },
    "excluded": {
-    "seller": 206,
-    "used": 2,
+    "seller": 205,
     "no ship": 3,
-    "not desktop GPU": 3
+    "not desktop GPU": 3,
+    "used": 1
    },
    "amazon_exports": {
     "ivan_gpu_rows": 64,
@@ -66204,7 +66204,7 @@
    "image": "img/B0GWRN4Q36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14203,
+    "price_hkd": 14169,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -66212,7 +66212,7 @@
     "asin": "B0GWRN4Q36",
     "sku": null,
     "url": "https://www.amazon.fr/dp/B0GWRN4Q36",
-    "stock": "Only 4 left in stock.",
+    "stock": "Only 5 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+inspire+oc",
     "others": []
@@ -66234,8 +66234,8 @@
      }
     ]
    },
-   "delta_hkd": 296,
-   "best_price": 14203,
+   "delta_hkd": 330,
+   "best_price": 14169,
    "has_water": true,
    "has_official": true
   },
@@ -66259,7 +66259,7 @@
    "image": "img/B0DT9Y2B49.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14224,
+    "price_hkd": 14182,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -66281,8 +66281,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 3775,
-   "best_price": 14224,
+   "delta_hkd": 3817,
+   "best_price": 14182,
    "has_water": true,
    "has_official": true
   },
