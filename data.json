@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 362,
+   "count": 357,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 339,
+   "count": 337,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2823,
-  "both_sides": 92,
-  "water_only": 133,
-  "official_only": 2596,
-  "matched_water": 95,
-  "official_groups": 2823,
+  "items": 2816,
+  "both_sides": 91,
+  "water_only": 126,
+  "official_only": 2597,
+  "matched_water": 94,
+  "official_groups": 2816,
   "id_merge": {
    "enabled": true,
    "unions_upc": 6,
@@ -451,10 +451,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 64,
-    "nic_jp_rows": 103,
-    "nic_jp_retained": 21,
-    "nic_jp_dropped_stale": 24,
-    "nic_jp_retain_now_hkt": "2026-11-14 21:43:34 HKT",
+    "nic_jp_rows": 87,
+    "nic_jp_retained": 3,
+    "nic_jp_dropped_stale": 40,
+    "nic_jp_retain_now_hkt": "2026-11-15 09:42:56 HKT",
     "nic_jp_cache_size": 127,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -62860,7 +62860,7 @@
    "image": "img/B0C36P2XVT.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81OuXJqX4lL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 529,
+    "price_hkd": 530,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -62875,7 +62875,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 529,
+   "best_price": 530,
    "has_water": true,
    "has_official": false
   },
@@ -63612,49 +63612,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B760:mATX:b760m-d3hp-wifi6:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B760:mATX:b760m-d3hp-wifi6:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "【Amazon.co.jp Exclusive】GIGABYTE B760M D3HP WIFI6 Micro-ATX Motherboard MB6697",
-   "spec": "B760（DDR5）",
-   "filter_tags": [
-    "B760",
-    "DDR5",
-    "B760-DDR5"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B083Y2FY2X.jpg",
-   "image": "img/B083Y2FY2X.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81-5B-vIVaL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 746,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B083Y2FY2X",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B083Y2FY2X",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 746,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:sapphire:B650:mATX:b650m-e:ddr5:nowifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -64208,7 +64165,7 @@
    "image": "img/B0FVN6VCC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81lH66SaW-L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 833,
+    "price_hkd": 834,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -64223,7 +64180,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 833,
+   "best_price": 834,
    "has_water": true,
    "has_official": false
   },
@@ -64251,7 +64208,7 @@
    "image": "img/B0FBLS93BQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/815WcQykt3L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 833,
+    "price_hkd": 834,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -64266,7 +64223,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 833,
+   "best_price": 834,
    "has_water": true,
    "has_official": false
   },
@@ -64934,45 +64891,6 @@
    "has_official": false
   },
   {
-   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-ds3h-wifi6e-rev2:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B860:mATX:b860m-ds3h-wifi6e-rev2:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE B860M DS3H WIFI6E Rev2 Micro-ATX Motherboard MB6951",
-   "spec": "B860",
-   "filter_tags": null,
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DQLHYCVZ.jpg",
-   "image": "img/B0DQLHYCVZ.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/712X5PlVIqL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 929,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DQLHYCVZ",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0DQLHYCVZ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 929,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asus:B760:mATX:prime-b760m-a:ddr5:nowifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -65138,7 +65056,7 @@
    "image": "img/B0DQLJWRDX.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81JBoPDI0CL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 966,
+    "price_hkd": 967,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65153,7 +65071,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 966,
+   "best_price": 967,
    "has_water": true,
    "has_official": false
   },
@@ -65237,7 +65155,7 @@
    "image": "img/B0F5GD2VRW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71zj34XafKL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 990,
+    "price_hkd": 991,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65252,7 +65170,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 990,
+   "best_price": 991,
    "has_water": true,
    "has_official": false
   },
@@ -65276,7 +65194,7 @@
    "image": "img/B0BV2D5H5X.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/712fwib0NnL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 995,
+    "price_hkd": 996,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65298,8 +65216,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 395,
-   "best_price": 995,
+   "delta_hkd": 394,
+   "best_price": 996,
    "has_water": true,
    "has_official": true
   },
@@ -65564,7 +65482,7 @@
    "image": "img/B0FBML1NY9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81EpnKynmiL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1027,
+    "price_hkd": 1028,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65579,7 +65497,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1027,
+   "best_price": 1028,
    "has_water": true,
    "has_official": false
   },
@@ -65603,7 +65521,7 @@
    "image": "img/B0GVZ9T6TP.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/813-xb653HL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1576,
+    "price_hkd": 1577,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65625,7 +65543,7 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -531,
+   "delta_hkd": -532,
    "best_price": 1045,
    "has_water": true,
    "has_official": true
@@ -65727,7 +65645,7 @@
    "image": "img/B0BSLLQ72R.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-j+y36q+L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1070,
+    "price_hkd": 1071,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65742,7 +65660,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1070,
+   "best_price": 1071,
    "has_water": true,
    "has_official": false
   },
@@ -65766,7 +65684,7 @@
    "image": "img/B0DRTV8HQY.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Mb24pN3rL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1080,
+    "price_hkd": 1081,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65781,7 +65699,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1080,
+   "best_price": 1081,
    "has_water": true,
    "has_official": false
   },
@@ -65809,7 +65727,7 @@
    "image": "img/B0BQH89GXJ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51ZiksUpI5L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 1080,
+    "price_hkd": 1081,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -65824,7 +65742,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1080,
+   "best_price": 1081,
    "has_water": true,
    "has_official": false
   },
@@ -66207,7 +66125,7 @@
    "image": "img/B0GP9K7QHG.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81HXKD9d0IL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1154,
+    "price_hkd": 1155,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -66222,7 +66140,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1154,
+   "best_price": 1155,
    "has_water": true,
    "has_official": false
   },
@@ -66335,7 +66253,7 @@
    "image": "img/B0DPMQJ2W7.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71V6-KwQmnL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1170,
+    "price_hkd": 1171,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -66350,7 +66268,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1170,
+   "best_price": 1171,
    "has_water": true,
    "has_official": false
   },
@@ -66817,7 +66735,7 @@
    "image": "img/B0GWMBRZDM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/810z-+UNkoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1253,
+    "price_hkd": 1254,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -66832,7 +66750,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1253,
+   "best_price": 1254,
    "has_water": true,
    "has_official": false
   },
@@ -66859,20 +66777,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BQH7JQ4F.jpg",
    "image": "img/B0BQH7JQ4F.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61xZ9PCsuXL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 1262,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BQH7JQ4F",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0BQH7JQ4F",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key mobo:asus:B760:mATX:tuf-gaming-b760m-plus-wifi:ddr4:wifi:",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 1520,
     "store": "Jumbo 珍寶電腦",
@@ -66897,9 +66802,9 @@
      }
     ]
    },
-   "delta_hkd": 258,
-   "best_price": 1262,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 1520,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -66990,7 +66895,7 @@
    "image": "img/B0DSFDL167.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71lqt5ZIe8L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1297,
+    "price_hkd": 1298,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67012,8 +66917,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 483,
-   "best_price": 1297,
+   "delta_hkd": 482,
+   "best_price": 1298,
    "has_water": true,
    "has_official": true
   },
@@ -67105,7 +67010,7 @@
    "image": "img/B0DQNTTYDP.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81p9iu8gpqL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1302,
+    "price_hkd": 1303,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67120,7 +67025,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1302,
+   "best_price": 1303,
    "has_water": true,
    "has_official": false
   },
@@ -67390,7 +67295,7 @@
    "image": "img/B0BJZNJYGW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51zHuqVQBnL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 1396,
+    "price_hkd": 1397,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67405,7 +67310,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1396,
+   "best_price": 1397,
    "has_water": true,
    "has_official": false
   },
@@ -67429,7 +67334,7 @@
    "image": "img/B0FJ8WS263.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81gkqCddTRL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1413,
+    "price_hkd": 1414,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67451,8 +67356,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 536,
-   "best_price": 1413,
+   "delta_hkd": 535,
+   "best_price": 1414,
    "has_water": true,
    "has_official": true
   },
@@ -67525,7 +67430,7 @@
    "image": "img/B0FHPMVJRN.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81QKpJ8wFNL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1441,
+    "price_hkd": 1442,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67540,7 +67445,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1441,
+   "best_price": 1442,
    "has_water": true,
    "has_official": false
   },
@@ -67564,7 +67469,7 @@
    "image": "img/B0BM93FF3G.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61KeMYNZguL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 1445,
+    "price_hkd": 1446,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67579,7 +67484,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1445,
+   "best_price": 1446,
    "has_water": true,
    "has_official": false
   },
@@ -67652,7 +67557,7 @@
    "image": "img/B0FH5T5DM3.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/8172FBUdGvL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1457,
+    "price_hkd": 1458,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67667,7 +67572,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1457,
+   "best_price": 1458,
    "has_water": true,
    "has_official": false
   },
@@ -67691,7 +67596,7 @@
    "image": "img/B0DSFDBPP3.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/714mmfPbHbL._AC_SL1288_.jpg",
    "water": {
-    "price_hkd": 1462,
+    "price_hkd": 1463,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67713,8 +67618,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 588,
-   "best_price": 1462,
+   "delta_hkd": 587,
+   "best_price": 1463,
    "has_water": true,
    "has_official": true
   },
@@ -67829,7 +67734,7 @@
    "image": "img/B0GV3H3SKM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81UShmvUXpL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1482,
+    "price_hkd": 1483,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -67844,7 +67749,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1482,
+   "best_price": 1483,
    "has_water": true,
    "has_official": false
   },
@@ -68284,7 +68189,7 @@
    "image": "img/B0FXZP2GNW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/714NhAkOhHL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1611,
+    "price_hkd": 1612,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -68299,7 +68204,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1611,
+   "best_price": 1612,
    "has_water": true,
    "has_official": false
   },
@@ -68573,7 +68478,7 @@
    "image": "img/B083WG3727.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71INVqdKHJL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1658,
+    "price_hkd": 1659,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -68588,7 +68493,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1658,
+   "best_price": 1659,
    "has_water": true,
    "has_official": false
   },
@@ -68881,7 +68786,7 @@
    "image": "img/B0DQK8WWYR.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/817j5TKTJfL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1698,
+    "price_hkd": 1699,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -68896,7 +68801,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1698,
+   "best_price": 1699,
    "has_water": true,
    "has_official": false
   },
@@ -69487,7 +69392,7 @@
    "image": "img/B0FBMKYYTJ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71p-1OQgpTL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1777,
+    "price_hkd": 1778,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -69502,7 +69407,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1777,
+   "best_price": 1778,
    "has_water": true,
    "has_official": false
   },
@@ -69667,7 +69572,7 @@
    "image": "img/B0H62232LX.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/815OuBApFnL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1820,
+    "price_hkd": 1821,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -69682,7 +69587,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1820,
+   "best_price": 1821,
    "has_water": true,
    "has_official": false
   },
@@ -69706,7 +69611,7 @@
    "image": "img/B0BSLJY9R6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/718k6uuFPwL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1846,
+    "price_hkd": 1847,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -69721,7 +69626,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1846,
+   "best_price": 1847,
    "has_water": true,
    "has_official": false
   },
@@ -70460,7 +70365,7 @@
    "image": "img/B0GYS86T2W.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81OrcoXotnL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2015,
+    "price_hkd": 2016,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -70475,7 +70380,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2015,
+   "best_price": 2016,
    "has_water": true,
    "has_official": false
   },
@@ -71025,7 +70930,7 @@
    "image": "img/B0FRR84MKC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cHQqSuJxL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2108,
+    "price_hkd": 2110,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71040,7 +70945,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2108,
+   "best_price": 2110,
    "has_water": true,
    "has_official": false
   },
@@ -71132,7 +71037,7 @@
    "image": "img/B0FRFKRSTV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Tp6pgnlFL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2133,
+    "price_hkd": 2135,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71147,7 +71052,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2133,
+   "best_price": 2135,
    "has_water": true,
    "has_official": false
   },
@@ -71341,7 +71246,7 @@
    "image": "img/B0HH88PR3W.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71G2I8szQDL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2162,
+    "price_hkd": 2163,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71356,7 +71261,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2162,
+   "best_price": 2163,
    "has_water": true,
    "has_official": false
   },
@@ -71565,7 +71470,7 @@
    "image": "img/B0FRFRBLKK.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81o3a82gcxL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2230,
+    "price_hkd": 2231,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71580,7 +71485,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2230,
+   "best_price": 2231,
    "has_water": true,
    "has_official": false
   },
@@ -71604,7 +71509,7 @@
    "image": "img/B0BSLKWC3R.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81eIq2QHPgL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2243,
+    "price_hkd": 2245,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71619,7 +71524,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2243,
+   "best_price": 2245,
    "has_water": true,
    "has_official": false
   },
@@ -71965,7 +71870,7 @@
    "image": "img/B0FBMKP34R.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/716epmm4EjL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2313,
+    "price_hkd": 2094,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71987,8 +71892,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 486,
-   "best_price": 2313,
+   "delta_hkd": 705,
+   "best_price": 2094,
    "has_water": true,
    "has_official": true
   },
@@ -72122,7 +72027,7 @@
    "image": "img/B0GTTDC1QK.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81gllPyiA7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2379,
+    "price_hkd": 2380,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -72137,7 +72042,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2379,
+   "best_price": 2380,
    "has_water": true,
    "has_official": false
   },
@@ -72490,7 +72395,7 @@
    "image": "img/B0DK4WYZYQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71vn8qgoatL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2485,
+    "price_hkd": 2487,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -72505,7 +72410,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2485,
+   "best_price": 2487,
    "has_water": true,
    "has_official": false
   },
@@ -72592,45 +72497,6 @@
    "best_price": 2520,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:asus:Z890:ATX:rog-strix-z890a-gaming-wifi-core-ultra-processors-series:ddr5:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "mobo:asus:Z890:ATX:rog-strix-z890a-gaming-wifi-core-ultra-processors-series:ddr5:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS ROG STRIX Z890-A GAMING WIFI intel Core Ultra Processors (series 2) 対応 LGA 1851 Z8…",
-   "spec": "Z890",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DK4YHHJQ.jpg",
-   "image": "img/B0DK4YHHJQ.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71n2vXM6F6L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 2524,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0DK4YHHJQ",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0DK4YHHJQ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2524,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:gigabyte:X870:ITX:x870i-aorus-pro-ice:ddr5:nowifi:",
@@ -92711,7 +92577,7 @@
    "image": "img/B07RW6Z692.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61wCOVcyvFL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1689,
+    "price_hkd": 1690,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -92727,7 +92593,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 1917,
+      "price_hkd": 1919,
       "url": "https://www.amazon.co.jp/dp/B09QPWRWLY",
       "build_only": false,
       "domain": "amazon.co.jp",
@@ -92766,8 +92632,8 @@
      }
     ]
    },
-   "delta_hkd": 510,
-   "best_price": 1689,
+   "delta_hkd": 509,
+   "best_price": 1690,
    "has_water": true,
    "has_official": true
   },
@@ -93031,7 +92897,7 @@
    "image": "img/B08S9BLC36.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/611uE62DZwL._AC_SL1200_.jpg",
    "water": {
-    "price_hkd": 1780,
+    "price_hkd": 1769,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -93047,7 +92913,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 2592,
+      "price_hkd": 2594,
       "url": "https://www.amazon.co.jp/dp/B09QPFWQW7",
       "build_only": false,
       "domain": "amazon.co.jp",
@@ -93072,8 +92938,8 @@
      }
     ]
    },
-   "delta_hkd": 820,
-   "best_price": 1780,
+   "delta_hkd": 831,
+   "best_price": 1769,
    "has_water": true,
    "has_official": true
   },
@@ -94845,7 +94711,7 @@
    "image": "img/B09C5X1T7V.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71bOpUCORIL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3795,
+    "price_hkd": 3798,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -94882,7 +94748,7 @@
      }
     ]
    },
-   "delta_hkd": -1396,
+   "delta_hkd": -1399,
    "best_price": 2399,
    "has_water": true,
    "has_official": true
@@ -95073,7 +94939,7 @@
    "image": "img/B07GSKMJ6D.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61uw77qa+FL._AC_SL1200_.jpg",
    "water": {
-    "price_hkd": 2618,
+    "price_hkd": 2619,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -95088,7 +94954,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2618,
+   "best_price": 2619,
    "has_water": true,
    "has_official": false
   },
@@ -95246,49 +95112,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeancergbrs:ddr4:dimm:32:3600:black:2x16:cl18|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergbrs:ddr4:dimm:32:3600:black:2x16:cl18",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB RS DDR4 メモリ 32GB（16GB×2）最大3600MHz対応 Intel XMP対応 CL18 デスクトップPC用 ブラ…",
-   "spec": "DDR4 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR4",
-    "16×2"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09C5WJ2B2.jpg",
-   "image": "img/B09C5WJ2B2.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71JPAVZ-pfL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 2924,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09C5WJ2B2",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B09C5WJ2B2",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2924,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:corsair:vengeancergbpro:ddr4:dimm:32:3600:black:2x16:cl18|water",
    "category": "ram",
    "cooler_kind": null,
@@ -95312,7 +95135,7 @@
    "image": "img/B08SPYCCF1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/91lJnskEV9L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2941,
+    "price_hkd": 2940,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -95327,7 +95150,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2941,
+   "best_price": 2940,
    "has_water": true,
    "has_official": false
   },
@@ -95400,7 +95223,7 @@
    "image": "img/B0BB24D97C.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81zvRJGtEDL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3247,
+    "price_hkd": 3249,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -95415,7 +95238,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3247,
+   "best_price": 3249,
    "has_water": true,
    "has_official": false
   },
@@ -95444,7 +95267,7 @@
    "image": "img/B0BZHW15KF.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3255,
+    "price_hkd": 3258,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -95459,7 +95282,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3255,
+   "best_price": 3258,
    "has_water": true,
    "has_official": false
   },
@@ -95732,7 +95555,7 @@
    "image": "img/B0CJ8XQBHY.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3550,
+    "price_hkd": 3552,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -95754,8 +95577,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 200,
-   "best_price": 3550,
+   "delta_hkd": 198,
+   "best_price": 3552,
    "has_water": true,
    "has_official": true
   },
@@ -95823,7 +95646,7 @@
    "image": "img/B0BZHTVHN5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61EVf-QxpvL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3660,
+    "price_hkd": 3662,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -95838,7 +95661,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3660,
+   "best_price": 3662,
    "has_water": true,
    "has_official": false
   },
@@ -96549,7 +96372,7 @@
    "image": "img/B0BJ37G4PS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61D2DDpDITL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3885,
+    "price_hkd": 3887,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -96564,7 +96387,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3885,
+   "best_price": 3887,
    "has_water": true,
    "has_official": false
   },
@@ -96820,7 +96643,7 @@
    "image": "img/B0BXHC74WD.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61D2DDpDITL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3955,
+    "price_hkd": 3957,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -96835,7 +96658,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3955,
+   "best_price": 3957,
    "has_water": true,
    "has_official": false
   },
@@ -96902,7 +96725,7 @@
    "image": "img/B09NCPTVX5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61h-qpBh05L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3989,
+    "price_hkd": 3988,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -96917,7 +96740,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3989,
+   "best_price": 3988,
    "has_water": true,
    "has_official": false
   },
@@ -97023,7 +96846,7 @@
    "image": "img/B0B62YRGSJ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61fJwCBAX6L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3998,
+    "price_hkd": 4001,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -97038,7 +96861,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3998,
+   "best_price": 4001,
    "has_water": true,
    "has_official": false
   },
@@ -99218,50 +99041,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6600:black:2x16:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6600:black:2x16:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5 32GB (2x16GB) Supports up to 6600MHz Intel RAM",
-   "spec": "DDR5-6400以上 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "16×2",
-    "6400以上"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0C4Y2774G.jpg",
-   "image": "img/B0C4Y2774G.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51DcxLHkanL._AC_SL1200_.jpg",
-   "water": {
-    "price_hkd": 4421,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0C4Y2774G",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0C4Y2774G",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4421,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:adata:lancerrgb:ddr5:dimm:32:6000:black:2x16:cl30",
    "category": "ram",
    "cooler_kind": null,
@@ -100084,50 +99863,6 @@
    "best_price": 4580,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:dominatorplatinum:ddr5:dimm:32:6400:black:2x16:cl32|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:dominatorplatinum:ddr5:dimm:32:6400:black:2x16:cl32",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR DOMINATOR PLATINUM RGB DDR5 メモリ 32GB(16GB×2)最大6400MHz対応 Intel XMP対応 CL32 デスクトップ…",
-   "spec": "DDR5-6400 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "16×2",
-    "6400"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BPLCCR1J.jpg",
-   "image": "img/B0BPLCCR1J.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61OyBIH+eEL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 4581,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BPLCCR1J",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0BPLCCR1J",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4581,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:adata:lancerrgb:ddr5:dimm:32:6400:white:2x16:cl32",
@@ -103092,50 +102827,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "CFD",
-   "model_key": "ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CFD販売 デスクトップPC用メモリ グラフェン 銅箔 ヒートシンク DDR5-5600 32GB×2枚 (64GB) 相性保証 288pin シー・エフ・デー販売 CFD …",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "32×2",
-    "5600"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6C2Q7FR.jpg",
-   "image": "img/B0F6C2Q7FR.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61Y7WPsNP3L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 6720,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F6C2Q7FR",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F6C2Q7FR",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 6720,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:kingston:valueram:ddr5:sodimm:48:5600:black:1x48:cl?",
    "category": "ram",
    "cooler_kind": null,
@@ -103199,7 +102890,7 @@
    "image": "img/B0FNRJV6FS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7072,
+    "price_hkd": 7077,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -103214,7 +102905,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7072,
+   "best_price": 7077,
    "has_water": true,
    "has_official": false
   },
@@ -103243,7 +102934,7 @@
    "image": "img/B0F945WT8N.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7127,
+    "price_hkd": 7132,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -103258,7 +102949,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7127,
+   "best_price": 7132,
    "has_water": true,
    "has_official": false
   },
@@ -103287,7 +102978,7 @@
    "image": "img/B0GZTJ67RR.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61bpdCFVFKL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7195,
+    "price_hkd": 7200,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -103302,7 +102993,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7195,
+   "best_price": 7200,
    "has_water": true,
    "has_official": false
   },
@@ -103384,7 +103075,7 @@
    "image": "img/B09R7S7PXC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7614,
+    "price_hkd": 7619,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -103399,7 +103090,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7614,
+   "best_price": 7619,
    "has_water": true,
    "has_official": false
   },
@@ -103428,7 +103119,7 @@
    "image": "img/B09WN2H42Y.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71AV5PQu1yL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7800,
+    "price_hkd": 7805,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -103443,7 +103134,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7800,
+   "best_price": 7805,
    "has_water": true,
    "has_official": false
   },
@@ -103753,7 +103444,7 @@
    "image": "img/B0C4Y4Z45M.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51lx2Y9QYCL._AC_SL1200_.jpg",
    "water": {
-    "price_hkd": 8020,
+    "price_hkd": 8026,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -103768,7 +103459,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8020,
+   "best_price": 8026,
    "has_water": true,
    "has_official": false
   },
@@ -104046,7 +103737,7 @@
    "image": "img/B0BHVFDK3L.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71O+5BneBVL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 8240,
+    "price_hkd": 8246,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -104061,7 +103752,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8240,
+   "best_price": 8246,
    "has_water": true,
    "has_official": false
   },
@@ -104191,7 +103882,7 @@
    "image": "img/B0BHVFBFMH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71O+5BneBVL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 8348,
+    "price_hkd": 8354,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -104206,7 +103897,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8348,
+   "best_price": 8354,
    "has_water": true,
    "has_official": false
   },
@@ -104537,49 +104228,6 @@
    "best_price": 8600,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:6200:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:6200:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE DDR5 64GB (2x32GB) Supports up to 6200MHz Intel RAM",
-   "spec": "DDR5 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "32×2"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BTNWJQMS.jpg",
-   "image": "img/B0BTNWJQMS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71AV5PQu1yL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 8629,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BTNWJQMS",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0BTNWJQMS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 8629,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:g.skill:flarex5:ddr5:dimm:64:6000:white:2x32:cl36",
@@ -111904,6 +111552,45 @@
    "best_price": 4480,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aorus-pro-x3d-ice:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:X870:ATX:x870e-aorus-pro-x3d-ice:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE X870E AORUS PRO X3D ICE ATX Motherboard MB6871",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FRFKRCKT.jpg",
+   "image": "img/B0FRFKRCKT.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71MAJ79zJ-L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2819,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0FRFKRCKT",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0FRFKRCKT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2819,
+   "has_water": true,
+   "has_official": false
   }
  ],
  "data_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/data.json",
