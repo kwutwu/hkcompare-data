@@ -1,10 +1,10 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-16T11:19:38Z",
- "generated_at_hkt": "2026-11-16 19:19 HKT",
- "price_updated_hkt": "2026-11-16 19:19 HKT",
+ "generated_at": "2026-11-16T11:50:54Z",
+ "generated_at_hkt": "2026-11-16 19:50 HKT",
+ "price_updated_hkt": "2026-11-16 19:50 HKT",
  "amazon_data_updated_hkt": null,
- "hk_data_updated_hkt": "2026-11-16 09:57–19:08 HKT",
+ "hk_data_updated_hkt": "2026-11-16 09:57–11:07 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261116/hkcompare_rows.json",
  "notes": {
   "water": "水貨價錢為 Amazon 合計港幣（已含運費 + 2% 手續費），僅列可寄香港、價格已確認、Amazon 自營／官方賣場。部分 DDR 記憶體另列京東自營到手價（CNY→HKD 中價折算；可寄香港）。香港舖頭標明「平行進口」嘅現貨亦當水貨顯示（舖頭價）。",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 315,
+   "count": 313,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2966,
-  "both_sides": 95,
-  "water_only": 127,
-  "official_only": 2738,
-  "matched_water": 97,
-  "official_groups": 2966,
+  "items": 2964,
+  "both_sides": 89,
+  "water_only": 125,
+  "official_only": 2748,
+  "matched_water": 91,
+  "official_groups": 2964,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -357,9 +357,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 156,
-   "official_downloaded": 0,
-   "official_cached": 2493,
+   "amazon_cached": 148,
+   "official_downloaded": 1,
+   "official_cached": 2498,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -424,14 +424,15 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 256,
-   "deduped": 224,
+   "qualified": 232,
+   "deduped": 216,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
    },
    "excluded": {
     "seller": 208,
+    "ship unknown": 24,
     "no ship": 3,
     "not desktop GPU": 3,
     "used": 1
@@ -54020,17 +54021,17 @@
       "build_only": false
      },
      {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 3959,
+      "url": "https://pc.plus/product/skuvgcol00026",
+      "build_only": false
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 3999,
       "url": "https://secomputer.com.hk/products/63569",
-      "build_only": false
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 4559,
-      "url": "https://pc.plus/product/skuvgcol00026",
       "build_only": false
      }
     ]
@@ -54158,24 +54159,24 @@
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_425df76dc1ec772521e55258b15a86a0.webp",
    "water": null,
    "official": {
-    "price_hkd": 3899,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/60893",
+    "price_hkd": 3859,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgcol00027",
     "stock": "現貨",
     "build_only": false,
     "others": [
      {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 4559,
-      "url": "https://pc.plus/product/skuvgcol00027",
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 3899,
+      "url": "https://secomputer.com.hk/products/60893",
       "build_only": false
      }
     ]
    },
    "delta_hkd": null,
-   "best_price": 3899,
+   "best_price": 3859,
    "has_water": false,
    "has_official": true
   },
@@ -54502,7 +54503,7 @@
      {
       "store": "PC Plus",
       "store_short": "PC Plus",
-      "price_hkd": 4599,
+      "price_hkd": 4099,
       "url": "https://pc.plus/product/skuvgcol00024",
       "build_only": false
      }
@@ -54857,7 +54858,7 @@
    "image_fallback_url": null,
    "water": null,
    "official": {
-    "price_hkd": 4599,
+    "price_hkd": 4099,
     "store": "PC Plus",
     "store_short": "PC Plus",
     "url": "https://pc.plus/product/skuvgcol00022",
@@ -54866,7 +54867,7 @@
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 4599,
+   "best_price": 4099,
    "has_water": false,
    "has_official": true
   },
@@ -55492,7 +55493,7 @@
      {
       "store": "PC Plus",
       "store_short": "PC Plus",
-      "price_hkd": 5459,
+      "price_hkd": 4659,
       "url": "https://pc.plus/product/skuvgcol00020",
       "build_only": false
      }
@@ -56027,7 +56028,7 @@
      {
       "store": "PC Plus",
       "store_short": "PC Plus",
-      "price_hkd": 5559,
+      "price_hkd": 4859,
       "url": "https://pc.plus/product/skuvgcol00032",
       "build_only": false
      }
@@ -56312,7 +56313,7 @@
      {
       "store": "PC Plus",
       "store_short": "PC Plus",
-      "price_hkd": 5859,
+      "price_hkd": 4859,
       "url": "https://pc.plus/product/skuvgcol00034",
       "build_only": false
      }
@@ -57630,7 +57631,7 @@
    "image_fallback_url": null,
    "water": null,
    "official": {
-    "price_hkd": 5599,
+    "price_hkd": 5499,
     "store": "PC Plus",
     "store_short": "PC Plus",
     "url": "https://pc.plus/product/skuvgpoc00006",
@@ -57639,7 +57640,7 @@
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 5599,
+   "best_price": 5499,
    "has_water": false,
    "has_official": true
   },
@@ -57791,7 +57792,7 @@
      {
       "store": "PC Plus",
       "store_short": "PC Plus",
-      "price_hkd": 7999,
+      "price_hkd": 7099,
       "url": "https://pc.plus/product/skuvgcol00016",
       "build_only": false
      }
@@ -58963,17 +58964,17 @@
     "build_only": false,
     "others": [
      {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 6899,
+      "url": "https://pc.plus/product/skuvgcol00019",
+      "build_only": false
+     },
+     {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
       "price_hkd": 7000,
       "url": "https://buymore.hk/shop/goods.php?id=47863",
-      "build_only": false
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 7899,
-      "url": "https://pc.plus/product/skuvgcol00019",
       "build_only": false
      }
     ]
@@ -59267,7 +59268,7 @@
      {
       "store": "PC Plus",
       "store_short": "PC Plus",
-      "price_hkd": 7999,
+      "price_hkd": 7099,
       "url": "https://pc.plus/product/skuvgcol00018",
       "build_only": false
      }
@@ -60193,6 +60194,13 @@
       "build_only": true
      },
      {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 7499,
+      "url": "https://pc.plus/product/skuvgpoc00005",
+      "build_only": false
+     },
+     {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 7699,
@@ -60204,13 +60212,6 @@
       "store_short": "未來科技",
       "price_hkd": 7700,
       "url": "https://buymore.hk/shop/goods.php?id=44010",
-      "build_only": false
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 8099,
-      "url": "https://pc.plus/product/skuvgpoc00005",
       "build_only": false
      }
     ]
@@ -60934,6 +60935,13 @@
     "build_only": true,
     "others": [
      {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 7799,
+      "url": "https://pc.plus/product/skuvgpoc00003",
+      "build_only": false
+     },
+     {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
       "price_hkd": 7899,
@@ -60945,13 +60953,6 @@
       "store_short": "未來科技",
       "price_hkd": 7950,
       "url": "https://buymore.hk/shop/goods.php?id=44011",
-      "build_only": false
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 8299,
-      "url": "https://pc.plus/product/skuvgpoc00003",
       "build_only": false
      }
     ]
@@ -61029,7 +61030,7 @@
    "image_fallback_url": null,
    "water": null,
    "official": {
-    "price_hkd": 8399,
+    "price_hkd": 7399,
     "store": "PC Plus",
     "store_short": "PC Plus",
     "url": "https://pc.plus/product/skuvgcol00014",
@@ -61046,7 +61047,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 8399,
+   "best_price": 7399,
    "has_water": false,
    "has_official": true
   },
@@ -61794,7 +61795,7 @@
    "image_fallback_url": null,
    "water": null,
    "official": {
-    "price_hkd": 8699,
+    "price_hkd": 7699,
     "store": "PC Plus",
     "store_short": "PC Plus",
     "url": "https://pc.plus/product/skuvgcol00012",
@@ -61803,7 +61804,7 @@
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 8699,
+   "best_price": 7699,
    "has_water": false,
    "has_official": true
   },
@@ -61828,7 +61829,7 @@
    "image_fallback_url": null,
    "water": null,
    "official": {
-    "price_hkd": 8699,
+    "price_hkd": 7699,
     "store": "PC Plus",
     "store_short": "PC Plus",
     "url": "https://pc.plus/product/skuvgcol00013",
@@ -61845,7 +61846,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 8699,
+   "best_price": 7699,
    "has_water": false,
    "has_official": true
   },
@@ -62073,7 +62074,7 @@
      {
       "store": "PC Plus",
       "store_short": "PC Plus",
-      "price_hkd": 8499,
+      "price_hkd": 8299,
       "url": "https://pc.plus/product/skuvgpoc00002",
       "build_only": false
      }
@@ -63656,17 +63657,17 @@
     "build_only": true,
     "others": [
      {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 11299,
+      "url": "https://pc.plus/product/skuvgcol00011",
+      "build_only": false
+     },
+     {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
       "price_hkd": 11800,
       "url": "https://buymore.hk/shop/goods.php?id=47601",
-      "build_only": false
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 12599,
-      "url": "https://pc.plus/product/skuvgcol00011",
       "build_only": false
      },
      {
@@ -64248,7 +64249,7 @@
    "image_fallback_url": null,
    "water": null,
    "official": {
-    "price_hkd": 12699,
+    "price_hkd": 11359,
     "store": "PC Plus",
     "store_short": "PC Plus",
     "url": "https://pc.plus/product/skuvgcol00010",
@@ -64257,7 +64258,7 @@
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 12699,
+   "best_price": 11359,
    "has_water": false,
    "has_official": true
   },
@@ -64316,31 +64317,31 @@
    "image_fallback_url": "https://centralfield.com/Pimg/20864.webp",
    "water": null,
    "official": {
-    "price_hkd": 12100,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=47479",
+    "price_hkd": 11459,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgcol00009",
     "stock": "現貨",
     "build_only": false,
     "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 12100,
+      "url": "https://buymore.hk/shop/goods.php?id=47479",
+      "build_only": false
+     },
      {
       "store": "中田電腦 Centralfield",
       "store_short": "中田",
       "price_hkd": 12699,
       "url": "https://centralfield.com/product/20864/colorful-geforce-rtx-5070ti-ultra-oc-sff-16gb-gddr7",
       "build_only": true
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 12859,
-      "url": "https://pc.plus/product/skuvgcol00009",
-      "build_only": false
      }
     ]
    },
    "delta_hkd": null,
-   "best_price": 12100,
+   "best_price": 11459,
    "has_water": false,
    "has_official": true
   },
@@ -64365,25 +64366,25 @@
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/a9cbbda8-bd79-477a-9ff4-65f0ae6ffd00/public",
    "water": null,
    "official": {
-    "price_hkd": 11999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/232240/Colorful-iGame-GeForce-RTX-5070-Ti-Ultra-W-OC-SFF-16GB-顯示卡---3年保養",
+    "price_hkd": 11459,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgcol00008",
     "stock": "現貨",
-    "build_only": true,
+    "build_only": false,
     "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 11999,
+      "url": "https://shop.pegasus.hk/products/232240/Colorful-iGame-GeForce-RTX-5070-Ti-Ultra-W-OC-SFF-16GB-顯示卡---3年保養",
+      "build_only": true
+     },
      {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
       "price_hkd": 12100,
       "url": "https://buymore.hk/shop/goods.php?id=47428",
-      "build_only": false
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 12859,
-      "url": "https://pc.plus/product/skuvgcol00008",
       "build_only": false
      },
      {
@@ -64396,7 +64397,7 @@
     ]
    },
    "delta_hkd": null,
-   "best_price": 11999,
+   "best_price": 11459,
    "has_water": false,
    "has_official": true
   },
@@ -64460,7 +64461,7 @@
    "image_fallback_url": null,
    "water": null,
    "official": {
-    "price_hkd": 12899,
+    "price_hkd": 11499,
     "store": "PC Plus",
     "store_short": "PC Plus",
     "url": "https://pc.plus/product/skuvgcol00006",
@@ -64469,7 +64470,7 @@
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 12899,
+   "best_price": 11499,
    "has_water": false,
    "has_official": true
   },
@@ -64494,7 +64495,7 @@
    "image_fallback_url": null,
    "water": null,
    "official": {
-    "price_hkd": 12999,
+    "price_hkd": 11499,
     "store": "PC Plus",
     "store_short": "PC Plus",
     "url": "https://pc.plus/product/skuvgcol00007",
@@ -64503,7 +64504,7 @@
     "others": []
    },
    "delta_hkd": null,
-   "best_price": 12999,
+   "best_price": 11499,
    "has_water": false,
    "has_official": true
   },
@@ -65343,16 +65344,24 @@
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/e30509f9-34a2-468c-1cb7-093ac70d9f00/public",
    "water": null,
    "official": {
-    "price_hkd": 15999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224084/Colorful-iGame-GeForce-RTX-5080-Ultra-W-OC-16GB-顯示卡",
+    "price_hkd": 13999,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgcol00001",
     "stock": "現貨",
-    "build_only": true,
-    "others": []
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 15999,
+      "url": "https://shop.pegasus.hk/products/224084/Colorful-iGame-GeForce-RTX-5080-Ultra-W-OC-16GB-顯示卡",
+      "build_only": true
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 15999,
+   "best_price": 13999,
    "has_water": false,
    "has_official": true
   },
@@ -65377,16 +65386,24 @@
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_bbf0a3950232c5aafd65abb8c4713de2.jpg",
    "water": null,
    "official": {
-    "price_hkd": 17850,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/62279",
+    "price_hkd": 13999,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgcol00033",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 17850,
+      "url": "https://secomputer.com.hk/products/62279",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 17850,
+   "best_price": 13999,
    "has_water": false,
    "has_official": true
   },
@@ -65447,6 +65464,13 @@
       "build_only": true
      },
      {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 16399,
+      "url": "https://pc.plus/product/skuvggal00002",
+      "build_only": false
+     },
+     {
       "store": "SE Computer",
       "store_short": "SE",
       "price_hkd": 16880,
@@ -65461,53 +65485,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5080:oc+sff+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:oc+sff+windforce",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 WINDFORCE SFF GeForce RTX 5080 16G OC 顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9Y2B49.jpg",
-   "image": "img/B0DT9Y2B49.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14440,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DT9Y2B49",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DT9Y2B49",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:oc+sff+windforce",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 17999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223101/GIGABYTE-技嘉-WINDFORCE-SFF-GeForce-RTX-5080-16G-OC-顯示卡---3-年保固需線上註冊保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 3559,
-   "best_price": 14440,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5080:3x+inspire+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -65515,7 +65492,7 @@
    "model_key": "msi:5080:3x+inspire+oc",
    "part_number": null,
    "upc": null,
-   "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
+   "title": "MSI GeForce RTX 5080 Inspire 3X OC 16GB GDDR7 SFF-Ready 微星三風扇超頻版顯示卡",
    "spec": "RTX 5080",
    "filter_tags": null,
    "form_factor": null,
@@ -65523,35 +65500,30 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
-   "image": "img/B0GWRN4Q36.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15061,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0GWRN4Q36",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0GWRN4Q36",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+inspire+oc",
-    "others": []
-   },
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8658c7245f91e3ec.webp",
+   "image": "img/hk-8658c7245f91e3ec.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11153.webp",
+   "water": null,
    "official": {
-    "price_hkd": 15600,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb",
+    "price_hkd": 14499,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgmsi00004",
     "stock": "現貨",
-    "build_only": true,
-    "others": []
+    "build_only": false,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 15600,
+      "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb",
+      "build_only": true
+     }
+    ]
    },
-   "delta_hkd": 539,
-   "best_price": 15061,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 14499,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -65562,7 +65534,7 @@
    "model_key": "msi:5080:3x+oc+ventus",
    "part_number": "G5080-16V3C",
    "upc": null,
-   "title": "MSI GeForce RTX 5080 16G Ventus 3X OC Black Gaming Graphics Card",
+   "title": "MSI GeForce RTX 5080 Ventus 3X OC 16GB GDDR7 SFF-Ready 微星三風扇超頻版顯示卡",
    "spec": "RTX 5080",
    "filter_tags": null,
    "form_factor": null,
@@ -65570,31 +65542,25 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GZWW2RKH.jpg",
-   "image": "img/B0GZWW2RKH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14729,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0GZWW2RKH",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0GZWW2RKH",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus",
-    "others": []
-   },
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8f7f5a96dd82d7af.webp",
+   "image": "img/hk-8f7f5a96dd82d7af.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11152.webp",
+   "water": null,
    "official": {
-    "price_hkd": 15350,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
+    "price_hkd": 14499,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgmsi00006",
     "stock": "現貨",
-    "build_only": true,
+    "build_only": false,
     "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 15350,
+      "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
+      "build_only": true
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -65611,49 +65577,10 @@
      }
     ]
    },
-   "delta_hkd": 621,
-   "best_price": 14729,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:argb+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY RTX5080 Verto ARGB OC Triple Fan 16GB GDDR7 HDMI 3xDP",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
-   "image": "img/B0DZCVQGG6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
-   "water": {
-    "price_hkd": 14597,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DZCVQGG6",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DZCVQGG6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
    "delta_hkd": null,
-   "best_price": 14597,
-   "has_water": true,
-   "has_official": false
+   "best_price": 14499,
+   "has_water": false,
+   "has_official": true
   },
   {
    "id": "gpu|msi:5080:3x+oc+ventus+white",
@@ -65676,16 +65603,24 @@
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_3b2b9011ae94ac424a9cef9c4f6998c8.webp",
    "water": null,
    "official": {
-    "price_hkd": 16999,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/56659",
+    "price_hkd": 14599,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgmsi00005",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 16999,
+      "url": "https://secomputer.com.hk/products/56659",
+      "build_only": false
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 16999,
+   "best_price": 14599,
    "has_water": false,
    "has_official": true
   },
@@ -65793,16 +65728,24 @@
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b119e446-e34a-46b0-611e-31bdbdc83800/public",
    "water": null,
    "official": {
-    "price_hkd": 16999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223070/MSI-微星-GeForce-RTX-5080-16G-GAMING-TRIO-OC-顯示卡",
+    "price_hkd": 15199,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgmsi00002",
     "stock": "現貨",
-    "build_only": true,
-    "others": []
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 16999,
+      "url": "https://shop.pegasus.hk/products/223070/MSI-微星-GeForce-RTX-5080-16G-GAMING-TRIO-OC-顯示卡",
+      "build_only": true
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 16999,
+   "best_price": 15199,
    "has_water": false,
    "has_official": true
   },
@@ -65861,16 +65804,24 @@
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4f76197c-5062-4e82-3f48-7b87a5007900/public",
    "water": null,
    "official": {
-    "price_hkd": 18999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223203/MSI-微星-GeForce-RTX-5080-16G-GAMING-TRIO-OC-WHITE-顯示卡",
+    "price_hkd": 15299,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgmsi00003",
     "stock": "現貨",
-    "build_only": true,
-    "others": []
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 18999,
+      "url": "https://shop.pegasus.hk/products/223203/MSI-微星-GeForce-RTX-5080-16G-GAMING-TRIO-OC-WHITE-顯示卡",
+      "build_only": true
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 18999,
+   "best_price": 15299,
    "has_water": false,
    "has_official": true
   },
@@ -65938,7 +65889,7 @@
    "model_key": "asus:5080:oc+prime",
    "part_number": "PRIME-RTX5080-O16G-GAMING",
    "upc": "0197105837782",
-   "title": "ASUS Prime GeForce RTX 5080 16GB GDDR7 OC Edition Graphics Card Gaming",
+   "title": "ASUS PRIME GeForce RTX 5080 OC 16GB GDDR7 PRIME-RTX5080-O16G-GAMING (DI-E5080R1) - 3年保養",
    "spec": "RTX 5080",
    "filter_tags": null,
    "form_factor": null,
@@ -65946,23 +65897,10 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65VMC6.jpg",
-   "image": "img/B0DS65VMC6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15771,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DS65VMC6",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DS65VMC6",
-    "stock": "Only 6 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:oc+prime",
-    "others": []
-   },
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-48d3a3ba1dfdbbe4.webp",
+   "image": "img/hk-48d3a3ba1dfdbbe4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10530.webp",
+   "water": null,
    "official": {
     "price_hkd": 15300,
     "store": "中田電腦 Centralfield",
@@ -65971,6 +65909,13 @@
     "stock": "現貨",
     "build_only": true,
     "others": [
+     {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 15999,
+      "url": "https://pc.plus/product/skuvgasu00008",
+      "build_only": false
+     },
      {
       "store": "Jumbo 珍寶電腦",
       "store_short": "Jumbo",
@@ -65994,9 +65939,9 @@
      }
     ]
    },
-   "delta_hkd": -471,
+   "delta_hkd": null,
    "best_price": 15300,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -66180,11 +66125,19 @@
    "image": null,
    "image_fallback_url": null,
    "water": null,
-   "official": null,
+   "official": {
+    "price_hkd": 15799,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgcol00004",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
    "delta_hkd": null,
-   "best_price": null,
+   "best_price": 15799,
    "has_water": false,
-   "has_official": false
+   "has_official": true
   },
   {
    "id": "gpu|colorful:5080:oc+vulcan",
@@ -66206,11 +66159,19 @@
    "image": null,
    "image_fallback_url": null,
    "water": null,
-   "official": null,
+   "official": {
+    "price_hkd": 15799,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgcol00003",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
    "delta_hkd": null,
-   "best_price": null,
+   "best_price": 15799,
    "has_water": false,
-   "has_official": false
+   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5080:aero+oc+sff",
@@ -66503,45 +66464,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB OC Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJFZ4YS.jpg",
-   "image": "img/B0DTJFZ4YS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 16007,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTJFZ4YS",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DTJFZ4YS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 16007,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5080:aorus+waterforce+xtreme|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -66579,108 +66501,6 @@
    "best_price": 16154,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|asus:5080:astral+oc+rog",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:astral+oc+rog",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS ROG ASTRAL RTX5080 OC 16GB GDDR7 NVIDIA GeForce Graphics Card, Black",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS643QRW.jpg",
-   "image": "img/B0DS643QRW.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81Wcw8qLt3L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 16283,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DS643QRW",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DS643QRW",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:astral+oc+rog",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 19999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 3716,
-   "best_price": 16283,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5080:oc+tuf",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:oc+tuf",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS TUF Gaming GeForce RTX 5080 OC Edition 16GB GDDR7 Gaming Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65KD1C.jpg",
-   "image": "img/B0DS65KD1C.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 16283,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DS65KD1C",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DS65KD1C",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:oc+tuf",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 17250,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/10532/asus-tuf-gaming-rtx-5080-oc-16gb-graphics-card",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 17999,
-      "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 967,
-   "best_price": 16283,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5080:aorus+ice+master|water",
@@ -66789,6 +66609,13 @@
     "build_only": true,
     "others": [
      {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 16999,
+      "url": "https://pc.plus/product/skuvgasu00005",
+      "build_only": false
+     },
+     {
       "store": "未來科技 BUYMORE",
       "store_short": "未來科技",
       "price_hkd": 17699,
@@ -66830,16 +66657,24 @@
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/8e33c41a-0fbe-4f1e-4eb9-c40f01724d00/public",
    "water": null,
    "official": {
-    "price_hkd": 17999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/233143/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-BTF-背插顯示卡",
+    "price_hkd": 16599,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgasu00007",
     "stock": "現貨",
-    "build_only": true,
-    "others": []
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 17999,
+      "url": "https://shop.pegasus.hk/products/233143/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-BTF-背插顯示卡",
+      "build_only": true
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 17999,
+   "best_price": 16599,
    "has_water": false,
    "has_official": true
   },
@@ -66864,28 +66699,36 @@
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/1438ab1c-5b14-4d51-601f-4b6976287a00/public",
    "water": null,
    "official": {
-    "price_hkd": 17999,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/223076/MSI-微星-GeForce-RTX-5080-16G-SUPRIM-LIQUID-SOC-顯示卡",
+    "price_hkd": 16599,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgmsi00001",
     "stock": "現貨",
-    "build_only": true,
-    "others": []
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 17999,
+      "url": "https://shop.pegasus.hk/products/223076/MSI-微星-GeForce-RTX-5080-16G-SUPRIM-LIQUID-SOC-顯示卡",
+      "build_only": true
+     }
+    ]
    },
    "delta_hkd": null,
-   "best_price": 17999,
+   "best_price": 16599,
    "has_water": false,
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5080:aorus+infinity+wood",
+   "id": "gpu|asus:5080:oc+tuf",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aorus+infinity+wood",
-   "part_number": "GV-N5080AORUSIFWD-16GD",
+   "brand": "ASUS",
+   "model_key": "asus:5080:oc+tuf",
+   "part_number": null,
    "upc": null,
-   "title": "GIGABYTE AORUS GeForce RTX 5080 INFINITY WOOD 16G Graphics Card",
+   "title": "ASUS TUF Gaming GeForce RTX 5080 OC 16GB GDDR7 華碩顯示卡三風扇超頻版",
    "spec": "RTX 5080",
    "filter_tags": null,
    "form_factor": null,
@@ -66893,35 +66736,37 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H86338KX.jpg",
-   "image": "img/B0H86338KX.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/714ho10YxyL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 16887,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0H86338KX",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0H86338KX",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:aorus+infinity+wood",
-    "others": []
-   },
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-68f50bf0c1be5bb5.webp",
+   "image": "img/hk-68f50bf0c1be5bb5.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10532.webp",
+   "water": null,
    "official": {
-    "price_hkd": 18999,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/64266",
+    "price_hkd": 16999,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgasu00006",
     "stock": "現貨",
     "build_only": false,
-    "others": []
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 17250,
+      "url": "https://centralfield.com/product/10532/asus-tuf-gaming-rtx-5080-oc-16gb-graphics-card",
+      "build_only": true
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 17999,
+      "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
+      "build_only": true
+     }
+    ]
    },
-   "delta_hkd": 2112,
-   "best_price": 16887,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 16999,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -66946,12 +66791,19 @@
    "water": null,
    "official": {
     "price_hkd": 17099,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=45036",
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvggal00001",
     "stock": "現貨",
     "build_only": false,
     "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 17099,
+      "url": "https://buymore.hk/shop/goods.php?id=45036",
+      "build_only": false
+     },
      {
       "store": "SE Computer",
       "store_short": "SE",
@@ -67001,6 +66853,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:aorus+infinity+wood",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:aorus+infinity+wood",
+   "part_number": "GV-N5080AORUSIFWD-16GD",
+   "upc": null,
+   "title": "GIGABYTE AORUS GeForce RTX 5080 INFINITY WOOD 16G Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H86338KX.jpg",
+   "image": "img/B0H86338KX.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/714ho10YxyL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 17134,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0H86338KX",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0H86338KX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:aorus+infinity+wood",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 18999,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/64266",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 1865,
+   "best_price": 17134,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5080:noctua+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -67028,6 +66927,13 @@
     "stock": "現貨",
     "build_only": true,
     "others": [
+     {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 17599,
+      "url": "https://pc.plus/product/skuvgasu00004",
+      "build_only": false
+     },
      {
       "store": "飛馬 PEGASUS",
       "store_short": "飛馬",
@@ -67080,6 +66986,48 @@
    },
    "delta_hkd": null,
    "best_price": 17500,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5080:astral+oc+rog",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5080:astral+oc+rog",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 OC Edition",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1bd06cce248dd8ab.jpg",
+   "image": "img/hk-1bd06cce248dd8ab.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/dcb6d469-102c-4f2c-172a-340905359b00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 17999,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgasu00003",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 19999,
+      "url": "https://shop.pegasus.hk/products/223069/ASUS-華碩-ROG-Astral-GeForce-RTX-5080-16G-OC-顯示卡",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 17999,
    "has_water": false,
    "has_official": true
   },
@@ -67152,6 +67100,40 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:oc+sff+windforce",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:oc+sff+windforce",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 WINDFORCE SFF GeForce RTX 5080 16G OC 顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d2e80643333a991c.png",
+   "image": "img/hk-d2e80643333a991c.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/5c6c68ff-cb89-4343-eb15-a97368ea2f00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 17999,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/223101/GIGABYTE-技嘉-WINDFORCE-SFF-GeForce-RTX-5080-16G-OC-顯示卡---3-年保固需線上註冊保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 17999,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5080:astral+oc+rog+white",
    "category": "gpu",
    "cooler_kind": null,
@@ -67171,11 +67153,19 @@
    "image": null,
    "image_fallback_url": null,
    "water": null,
-   "official": null,
+   "official": {
+    "price_hkd": 18299,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgasu00002",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
    "delta_hkd": null,
-   "best_price": null,
+   "best_price": 18299,
    "has_water": false,
-   "has_official": false
+   "has_official": true
   },
   {
    "id": "gpu|gigabyte:5090d:gaming oc+v2",
@@ -67314,11 +67304,19 @@
    "image": null,
    "image_fallback_url": null,
    "water": null,
-   "official": null,
+   "official": {
+    "price_hkd": 41999,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgasu00001",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
    "delta_hkd": null,
-   "best_price": null,
+   "best_price": 41999,
    "has_water": false,
-   "has_official": false
+   "has_official": true
   },
   {
    "id": "gpu|asus:5090:astral+oc+rog+white",
