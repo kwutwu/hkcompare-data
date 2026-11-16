@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 2967,
-  "both_sides": 97,
+  "both_sides": 98,
   "water_only": 128,
-  "official_only": 2740,
-  "matched_water": 99,
+  "official_only": 2739,
+  "matched_water": 100,
   "official_groups": 2967,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -438,11 +438,11 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 65,
-    "nic_jp_rows": 98,
-    "nic_jp_retained": 10,
-    "nic_jp_dropped_stale": 31,
-    "nic_jp_retain_now_hkt": "2026-11-16 12:50:26 HKT",
-    "nic_jp_cache_size": 129,
+    "nic_jp_rows": 101,
+    "nic_jp_retained": 15,
+    "nic_jp_dropped_stale": 29,
+    "nic_jp_retain_now_hkt": "2026-11-16 15:48:20 HKT",
+    "nic_jp_cache_size": 130,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 40,
     "skipped": {
@@ -69259,7 +69259,7 @@
    "image": "img/B0BRMRNHPW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61DkzgMaghL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 814,
+    "price_hkd": 805,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -69310,8 +69310,8 @@
      }
     ]
    },
-   "delta_hkd": 226,
-   "best_price": 814,
+   "delta_hkd": 235,
+   "best_price": 805,
    "has_water": true,
    "has_official": true
   },
@@ -78180,7 +78180,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-13aa50407e06bfe4.png",
    "image": "img/hk-13aa50407e06bfe4.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/54a08c5b-b4cf-47d0-bd43-129f300e3600/public",
-   "water": null,
+   "water": {
+    "price_hkd": 1884,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DSFDL16B",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DSFDL16B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:asus:B860:ATX:rog-strix-b860f-gaming-wifi:ddr5:wifi:",
+    "others": []
+   },
    "official": {
     "price_hkd": 2280,
     "store": "飛馬 PEGASUS",
@@ -78190,9 +78203,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": null,
-   "best_price": 2280,
-   "has_water": false,
+   "delta_hkd": 396,
+   "best_price": 1884,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -78942,7 +78955,7 @@
    "image": "img/B0DK4WYZYQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71vn8qgoatL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2487,
+    "price_hkd": 2764,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -78957,7 +78970,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2487,
+   "best_price": 2764,
    "has_water": true,
    "has_official": false
   },
@@ -105765,7 +105778,7 @@
    "image": "img/B09NCPTVX5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61h-qpBh05L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3988,
+    "price_hkd": 3984,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -105780,7 +105793,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3988,
+   "best_price": 3984,
    "has_water": true,
    "has_official": false
   },
@@ -110527,14 +110540,14 @@
    "image": "img/B09Y99CRP9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61NcIe-PlDL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 8106,
+    "price_hkd": 7620,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
-    "asin": "B09Y99CRP9",
+    "asin": "B09R7S7PXC",
     "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B09Y99CRP9",
+    "url": "https://www.amazon.co.jp/dp/B09R7S7PXC",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -110542,7 +110555,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8106,
+   "best_price": 7620,
    "has_water": true,
    "has_official": false
   },
