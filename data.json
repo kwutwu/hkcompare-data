@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-16T05:09:20Z",
- "generated_at_hkt": "2026-11-16 13:09 HKT",
- "price_updated_hkt": "2026-11-16 13:09 HKT",
+ "generated_at": "2026-11-16T05:57:53Z",
+ "generated_at_hkt": "2026-11-16 13:57 HKT",
+ "price_updated_hkt": "2026-11-16 13:57 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-16 09:57–11:07 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261116/hkcompare_rows.json",
@@ -19,7 +19,7 @@
   },
   "cpu": {
    "label": "處理器",
-   "count": 78,
+   "count": 76,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 2968,
+  "items": 2966,
   "both_sides": 96,
-  "water_only": 129,
+  "water_only": 127,
   "official_only": 2741,
   "matched_water": 98,
-  "official_groups": 2968,
+  "official_groups": 2966,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -424,8 +424,8 @@
   ],
   "ivan": {
    "total_listings": 244,
-   "qualified": 258,
-   "deduped": 227,
+   "qualified": 256,
+   "deduped": 225,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
@@ -444,10 +444,10 @@
     "nic_jp_retain_now_hkt": "2026-11-16 12:50:26 HKT",
     "nic_jp_cache_size": 129,
     "jd_ddr_rows": 26,
-    "jd_cpu_rows": 42,
+    "jd_cpu_rows": 40,
     "skipped": {
      "bad_or_dup": 75,
-     "jd_oos": 5
+     "jd_oos": 7
     }
    }
   }
@@ -49759,7 +49759,7 @@
    "image": "img/hk-8c5df7d33aca1b17.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/fc1f5d63-5c9c-4375-7ef7-84bf0ed2d800/public",
    "water": {
-    "price_hkd": 581,
+    "price_hkd": 707,
     "source": "jd",
     "marketplace": "京東自營",
     "marketplace_code": "JD",
@@ -49768,7 +49768,7 @@
     "sku": "100020455565",
     "url": "https://item.jd.com/100020455565.html",
     "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿1500減200) 原價¥579",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥599",
     "match_by": "model key cpu|amd ryzen 5 5500|am4",
     "others": []
    },
@@ -49796,8 +49796,8 @@
      }
     ]
    },
-   "delta_hkd": 48,
-   "best_price": 581,
+   "delta_hkd": -78,
+   "best_price": 629,
    "has_water": true,
    "has_official": true
   },
@@ -49900,104 +49900,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|amd ryzen 5 5600|am4",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 5 5600|am4",
-   "part_number": null,
-   "upc": null,
-   "title": "AMD Ryzen 5 5600",
-   "spec": "AM4",
-   "filter_tags": [
-    "AM4"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-89ed9dfe0b41f178.png",
-   "image": "img/hk-89ed9dfe0b41f178.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5600_Tray_2.png?v=1759137803",
-   "water": {
-    "price_hkd": 701,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100035814972",
-    "url": "https://item.jd.com/100035814972.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿1500減200) 原價¥699",
-    "match_by": "model key cpu|amd ryzen 5 5600|am4",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 820,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo（散裝）",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600-tray-processor-6c-12t-am4-socket-with-cpu-fan",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（散裝）",
-      "price_hkd": 840,
-      "url": "https://centralfield.com/product/17497/amd-ryzen-5-5600-processor",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 119,
-   "best_price": 701,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|amd ryzen 5 5600f|am4|water",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 5 5600f|am4",
-   "part_number": null,
-   "upc": null,
-   "title": "AMD R5 5600F Box(盒裝)",
-   "spec": "AM4",
-   "filter_tags": [
-    "AM4"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 731,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100334121225",
-    "url": "https://item.jd.com/100334121225.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿1500減200) 原價¥729",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 731,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "cpu|cpu|amd ryzen 5 8500g|am5",
    "category": "cpu",
    "cooler_kind": null,
@@ -50055,6 +49957,104 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|amd ryzen 5 5600f|am4|water",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 5600f|am4",
+   "part_number": null,
+   "upc": null,
+   "title": "AMD R5 5600F Box(盒裝)",
+   "spec": "AM4",
+   "filter_tags": [
+    "AM4"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 802,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100334121225",
+    "url": "https://item.jd.com/100334121225.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(最高返34京豆) 原價¥680",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 802,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 5 5600|am4",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 5 5600|am4",
+   "part_number": null,
+   "upc": null,
+   "title": "AMD Ryzen 5 5600",
+   "spec": "AM4",
+   "filter_tags": [
+    "AM4"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-89ed9dfe0b41f178.png",
+   "image": "img/hk-89ed9dfe0b41f178.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_5600_Tray_2.png?v=1759137803",
+   "water": {
+    "price_hkd": 884,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100035814972",
+    "url": "https://item.jd.com/100035814972.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥749",
+    "match_by": "model key cpu|amd ryzen 5 5600|am4",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 820,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo（散裝）",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-5-5600-tray-processor-6c-12t-am4-socket-with-cpu-fan",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（散裝）",
+      "price_hkd": 840,
+      "url": "https://centralfield.com/product/17497/amd-ryzen-5-5600-processor",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": -64,
+   "best_price": 820,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "cpu|cpu|amd ryzen 5 5600x|am4",
    "category": "cpu",
    "cooler_kind": null,
@@ -50102,139 +50102,6 @@
    "best_price": 820,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "cpu|cpu|intel core i5-12400f (12th gen)|lga1700",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core i5-12400f (12th gen)|lga1700",
-   "part_number": "BX8071512400F",
-   "upc": null,
-   "title": "Intel Core i5-12400F (12th Gen)",
-   "spec": "LGA1700（Intel 12–14 代）",
-   "filter_tags": [
-    "LGA1700"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1b084415a52e56f7.webp",
-   "image": "img/hk-1b084415a52e56f7.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/967.webp",
-   "water": {
-    "price_hkd": 821,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100031035610",
-    "url": "https://item.jd.com/100031035610.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿1500減200) 原價¥829",
-    "match_by": "model key cpu|intel core i5-12400f (12th gen)|lga1700",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 845,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田（散裝）",
-    "url": "https://centralfield.com/product/967/intel-core-i5-12400f-processor-2",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（散裝）",
-      "price_hkd": 850,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-i5-12400f-tray-processor-6c-12t-lga-1700",
-      "build_only": false
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬（散裝）",
-      "price_hkd": 879,
-      "url": "https://shop.pegasus.hk/products/208184/Intel-Core-i5-12400F-6核心12線程-Tray-不含散熱器---3年保養",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技（散裝）",
-      "price_hkd": 990,
-      "url": "https://buymore.hk/shop/goods.php?id=27008",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（盒裝）",
-      "price_hkd": 1098,
-      "url": "https://centralfield.com/product/966/intel-core-i5-12400f-processor",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE（盒裝）",
-      "price_hkd": 1099,
-      "url": "https://secomputer.com.hk/products/44919",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技（盒裝）",
-      "price_hkd": 1130,
-      "url": "https://buymore.hk/shop/goods.php?id=27002",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 24,
-   "best_price": 821,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|intel core i5-12490f (12th gen)|lga1700|water",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core i5-12490f (12th gen)|lga1700",
-   "part_number": null,
-   "upc": null,
-   "title": "Intel i5-12490F Box(盒裝)",
-   "spec": "LGA1700（Intel 12–14 代）",
-   "filter_tags": [
-    "LGA1700"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 821,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100037299996",
-    "url": "https://item.jd.com/100037299996.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿1500減200) 原價¥887.58；已補¥68.58",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 821,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "cpu|cpu|amd ryzen 5 7500f|am5",
@@ -50294,6 +50161,98 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|intel core i5-12400f (12th gen)|lga1700",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core i5-12400f (12th gen)|lga1700",
+   "part_number": "BX8071512400F",
+   "upc": null,
+   "title": "Intel Core i5-12400F (12th Gen)",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "filter_tags": [
+    "LGA1700"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1b084415a52e56f7.webp",
+   "image": "img/hk-1b084415a52e56f7.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/967.webp",
+   "water": {
+    "price_hkd": 978,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100031035610",
+    "url": "https://item.jd.com/100031035610.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥829",
+    "match_by": "model key cpu|intel core i5-12400f (12th gen)|lga1700",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 845,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田（散裝）",
+    "url": "https://centralfield.com/product/967/intel-core-i5-12400f-processor-2",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo（散裝）",
+      "price_hkd": 850,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-i5-12400f-tray-processor-6c-12t-lga-1700",
+      "build_only": false
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬（散裝）",
+      "price_hkd": 879,
+      "url": "https://shop.pegasus.hk/products/208184/Intel-Core-i5-12400F-6核心12線程-Tray-不含散熱器---3年保養",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技（散裝）",
+      "price_hkd": 990,
+      "url": "https://buymore.hk/shop/goods.php?id=27008",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（盒裝）",
+      "price_hkd": 1098,
+      "url": "https://centralfield.com/product/966/intel-core-i5-12400f-processor",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE（盒裝）",
+      "price_hkd": 1099,
+      "url": "https://secomputer.com.hk/products/44919",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技（盒裝）",
+      "price_hkd": 1130,
+      "url": "https://buymore.hk/shop/goods.php?id=27002",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": -133,
+   "best_price": 845,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "cpu|cpu|intel core i3-12100 (12th gen)|lga1700",
    "category": "cpu",
    "cooler_kind": null,
@@ -50315,7 +50274,7 @@
    "image": "img/hk-e67580712031c2c8.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/inteli3-12100Tray.png?v=1739432888",
    "water": {
-    "price_hkd": 862,
+    "price_hkd": 1061,
     "source": "jd",
     "marketplace": "京東自營",
     "marketplace_code": "JD",
@@ -50324,7 +50283,7 @@
     "sku": "100018052717",
     "url": "https://item.jd.com/100018052717.html",
     "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿1500減200) 原價¥949",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥899",
     "match_by": "model key cpu|intel core i3-12100 (12th gen)|lga1700",
     "others": []
    },
@@ -50359,8 +50318,8 @@
      }
     ]
    },
-   "delta_hkd": 13,
-   "best_price": 862,
+   "delta_hkd": -186,
+   "best_price": 875,
    "has_water": true,
    "has_official": true
   },
@@ -50518,6 +50477,47 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 962,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "cpu|cpu|intel core i5-12490f (12th gen)|lga1700|water",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core i5-12490f (12th gen)|lga1700",
+   "part_number": null,
+   "upc": null,
+   "title": "Intel i5-12490F Box(盒裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "filter_tags": [
+    "LGA1700"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 966,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100037299996",
+    "url": "https://item.jd.com/100037299996.html",
+    "stock": "In stock",
+    "note": "上述標價經已計入補貼(已補¥68.58)",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 966,
    "has_water": true,
    "has_official": false
   },
@@ -50928,7 +50928,7 @@
    "image": "img/hk-989faca2cbc25fb5.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/21536.webp",
    "water": {
-    "price_hkd": 1402,
+    "price_hkd": 1650,
     "source": "jd",
     "marketplace": "京東自營",
     "marketplace_code": "JD",
@@ -50937,7 +50937,7 @@
     "sku": "100020455567",
     "url": "https://item.jd.com/100020455567.html",
     "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿3000減400) 原價¥1398",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥1398",
     "match_by": "model key cpu|amd ryzen 7 5700x|am4",
     "others": []
    },
@@ -50972,7 +50972,7 @@
      }
     ]
    },
-   "delta_hkd": -357,
+   "delta_hkd": -605,
    "best_price": 1045,
    "has_water": true,
    "has_official": true
@@ -52191,47 +52191,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|amd ryzen 7 5800xt|am4|water",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 7 5800xt|am4",
-   "part_number": null,
-   "upc": null,
-   "title": "AMD R7 5800XT Box(盒裝)",
-   "spec": "AM4",
-   "filter_tags": [
-    "AM4"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 1704,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100398459804",
-    "url": "https://item.jd.com/100398459804.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿3000減400) 原價¥1699",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1704,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "cpu|cpu|intel core i7-13790f (13th gen)|lga1700|water",
    "category": "cpu",
    "cooler_kind": null,
@@ -52356,6 +52315,47 @@
    "best_price": 1975,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 5800xt|am4|water",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 5800xt|am4",
+   "part_number": null,
+   "upc": null,
+   "title": "AMD R7 5800XT Box(盒裝)",
+   "spec": "AM4",
+   "filter_tags": [
+    "AM4"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 2005,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100398459804",
+    "url": "https://item.jd.com/100398459804.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥1699",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2005,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "cpu|cpu|intel core ultra 7 270k plus|lga1851",
@@ -52552,47 +52552,6 @@
    "best_price": 2130,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "cpu|cpu|amd ryzen 9 5900xt|am4|water",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 9 5900xt|am4",
-   "part_number": null,
-   "upc": null,
-   "title": "AMD R9 5900XT Box(盒裝)",
-   "spec": "AM4",
-   "filter_tags": [
-    "AM4"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2155,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100193966570",
-    "url": "https://item.jd.com/100193966570.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿3000減400) 原價¥2149",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2155,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "cpu|cpu|intel core i7-12700kf (12th gen)|lga1700",
@@ -52858,63 +52817,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|amd ryzen 7 5800x3d|am4",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 7 5800x3d|am4",
-   "part_number": null,
-   "upc": "0730143318471",
-   "title": "AMD Ryzen 7 5800X3D",
-   "spec": "AM4",
-   "filter_tags": [
-    "AM4"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b4ab85045bedc5c4.webp",
-   "image": "img/hk-b4ab85045bedc5c4.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/21232.webp",
-   "water": {
-    "price_hkd": 2436,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100285871853",
-    "url": "https://item.jd.com/100285871853.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿3000減400) 原價¥2429",
-    "match_by": "model key cpu|amd ryzen 7 5800x3d|am4",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 2730,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田（盒裝）",
-    "url": "https://centralfield.com/product/21232/amd-ryzen-7-5800x3d-processor",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2760,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-5800x3d-10th-anniversary-edition-十週年紀念版-processor-8c-16t-am4-socket",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 294,
-   "best_price": 2436,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "cpu|cpu|intel core i7-12700k (12th gen)|lga1700",
    "category": "cpu",
    "cooler_kind": null,
@@ -53039,6 +52941,63 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|amd ryzen 7 5800x3d|am4",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 5800x3d|am4",
+   "part_number": null,
+   "upc": "0730143318471",
+   "title": "AMD Ryzen 7 5800X3D",
+   "spec": "AM4",
+   "filter_tags": [
+    "AM4"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b4ab85045bedc5c4.webp",
+   "image": "img/hk-b4ab85045bedc5c4.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/21232.webp",
+   "water": {
+    "price_hkd": 2866,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100285871853",
+    "url": "https://item.jd.com/100285871853.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥2429",
+    "match_by": "model key cpu|amd ryzen 7 5800x3d|am4",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 2730,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田（盒裝）",
+    "url": "https://centralfield.com/product/21232/amd-ryzen-7-5800x3d-processor",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2760,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-5800x3d-10th-anniversary-edition-十週年紀念版-processor-8c-16t-am4-socket",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": -136,
+   "best_price": 2730,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "cpu|cpu|intel core ultra 7 265|lga1851",
    "category": "cpu",
    "cooler_kind": null,
@@ -53136,7 +53095,7 @@
    "image": "img/hk-6fdf3b2635a2df18.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD9800X3DTray_5.png?v=1746542771",
    "water": {
-    "price_hkd": 3185,
+    "price_hkd": 3420,
     "source": "jd",
     "marketplace": "京東自營",
     "marketplace_code": "JD",
@@ -53145,7 +53104,7 @@
     "sku": "100147630258",
     "url": "https://item.jd.com/100147630258.html",
     "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿3000減300) 原價¥2999",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥2898",
     "match_by": "model key cpu|amd ryzen 7 9800x3d|am5",
     "others": []
    },
@@ -53194,93 +53153,8 @@
      }
     ]
    },
-   "delta_hkd": -295,
+   "delta_hkd": -530,
    "best_price": 2890,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|amd ryzen 7 9850x3d|am5",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 7 9850x3d|am5",
-   "part_number": "100-100001973WOF",
-   "upc": "0730143318280",
-   "title": "AMD Ryzen 7 9850X3D",
-   "spec": "AM5",
-   "filter_tags": [
-    "AM5"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-baeb133b921d9700.png",
-   "image": "img/hk-baeb133b921d9700.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_9850X3D_Tray.png?v=1769670638",
-   "water": {
-    "price_hkd": 2998,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100234733669",
-    "url": "https://item.jd.com/100234733669.html",
-    "stock": "In stock",
-    "note": "上述標價對應原價¥2989",
-    "match_by": "model key cpu|amd ryzen 7 9850x3d|am5",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 3200,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo（散裝）",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-tray-processor-8c-16t-socket-am5-cp-at985x3-香港代理-3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（散裝）",
-      "price_hkd": 3228,
-      "url": "https://centralfield.com/product/18457/amd-ryzen-7-9850x3d-processor-2",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE（散裝）",
-      "price_hkd": 3269,
-      "url": "https://secomputer.com.hk/products/60766",
-      "build_only": false
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬（盒裝）",
-      "price_hkd": 3499,
-      "url": "https://shop.pegasus.hk/products/228556/AMD-Ryzen-7-9850X3D-8核心16線程-處理器-Box-不含散熱器---3年保養",
-      "build_only": false
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（盒裝）",
-      "price_hkd": 3540,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-processor-8c-16t-socket-am5-cp-ab985x3",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（盒裝）",
-      "price_hkd": 3670,
-      "url": "https://centralfield.com/product/20929/amd-ryzen-7-9850x3d-am5-processor",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 202,
-   "best_price": 2998,
    "has_water": true,
    "has_official": true
   },
@@ -53389,7 +53263,7 @@
    "image": "img/hk-a1ce8d4e7065f520.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/11279.webp",
    "water": {
-    "price_hkd": 3509,
+    "price_hkd": 4129,
     "source": "jd",
     "marketplace": "京東自營",
     "marketplace_code": "JD",
@@ -53440,8 +53314,93 @@
      }
     ]
    },
-   "delta_hkd": -414,
+   "delta_hkd": -1034,
    "best_price": 3095,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|amd ryzen 7 9850x3d|am5",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "AMD",
+   "model_key": "cpu|amd ryzen 7 9850x3d|am5",
+   "part_number": "100-100001973WOF",
+   "upc": "0730143318280",
+   "title": "AMD Ryzen 7 9850X3D",
+   "spec": "AM5",
+   "filter_tags": [
+    "AM5"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-baeb133b921d9700.png",
+   "image": "img/hk-baeb133b921d9700.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AMD_9850X3D_Tray.png?v=1769670638",
+   "water": {
+    "price_hkd": 3775,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100234733669",
+    "url": "https://item.jd.com/100234733669.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥3199",
+    "match_by": "model key cpu|amd ryzen 7 9850x3d|am5",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 3200,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo（散裝）",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-tray-processor-8c-16t-socket-am5-cp-at985x3-香港代理-3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（散裝）",
+      "price_hkd": 3228,
+      "url": "https://centralfield.com/product/18457/amd-ryzen-7-9850x3d-processor-2",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE（散裝）",
+      "price_hkd": 3269,
+      "url": "https://secomputer.com.hk/products/60766",
+      "build_only": false
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬（盒裝）",
+      "price_hkd": 3499,
+      "url": "https://shop.pegasus.hk/products/228556/AMD-Ryzen-7-9850X3D-8核心16線程-處理器-Box-不含散熱器---3年保養",
+      "build_only": false
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo（盒裝）",
+      "price_hkd": 3540,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/amd-ryzen-7-9850x3d-processor-8c-16t-socket-am5-cp-ab985x3",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（盒裝）",
+      "price_hkd": 3670,
+      "url": "https://centralfield.com/product/20929/amd-ryzen-7-9850x3d-am5-processor",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": -575,
+   "best_price": 3200,
    "has_water": true,
    "has_official": true
   },
@@ -53508,47 +53467,6 @@
    "best_price": 3209,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "cpu|cpu|amd ryzen 9 7900x|am5|water",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "AMD",
-   "model_key": "cpu|amd ryzen 9 7900x|am5",
-   "part_number": null,
-   "upc": null,
-   "title": "AMD R9 7900X Box(盒裝)",
-   "spec": "AM5",
-   "filter_tags": [
-    "AM5"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 3409,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100039537669",
-    "url": "https://item.jd.com/100039537669.html",
-    "stock": "In stock",
-    "note": "上述標價對應原價¥3399",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 3409,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "cpu|cpu|intel core ultra 9 285k|lga1851",
@@ -54711,6 +54629,75 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5060:oc+prime",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060:oc+prime",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS PRIME GeForce RTX 5060 8GB GDDR7 OC Edition Video Card PRIME-RTX5060-O8G Domestic Authorized Dealer Item",
+   "spec": "RTX 5060",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F8Q8T2JG.jpg",
+   "image": "img/B0F8Q8T2JG.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81D-woN0dQL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4026,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F8Q8T2JG",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F8Q8T2JG",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060:oc+prime",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 4100,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=47920",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 4199,
+      "url": "https://shop.pegasus.hk/products/224821/ASUS-華碩-Prime-GeForce-RTX-5060-8GB-OC-顯示卡---3年保養",
+      "build_only": false
+     },
+     {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 4799,
+      "url": "https://pc.plus/product/skuvgasu00031",
+      "build_only": false
+     },
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 4799,
+      "url": "https://buymore.hk/shop/goods.php?id=44660",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 74,
+   "best_price": 4026,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5060:dual+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -54999,75 +54986,6 @@
    "delta_hkd": null,
    "best_price": 4099,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5060:oc+prime",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060:oc+prime",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS PRIME GeForce RTX 5060 8GB GDDR7 OC Edition Video Card PRIME-RTX5060-O8G Domestic Authorized Dealer Item",
-   "spec": "RTX 5060",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F8Q8T2JG.jpg",
-   "image": "img/B0F8Q8T2JG.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81D-woN0dQL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 4026,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F8Q8T2JG",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F8Q8T2JG",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060:oc+prime",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 4100,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=47920",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 4199,
-      "url": "https://shop.pegasus.hk/products/224821/ASUS-華碩-Prime-GeForce-RTX-5060-8GB-OC-顯示卡---3年保養",
-      "build_only": false
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 4799,
-      "url": "https://pc.plus/product/skuvgasu00031",
-      "build_only": false
-     },
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 4799,
-      "url": "https://buymore.hk/shop/goods.php?id=44660",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 74,
-   "best_price": 4026,
-   "has_water": true,
    "has_official": true
   },
   {
