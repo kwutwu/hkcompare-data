@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 381,
+   "count": 382,
    "enabled": true
   },
   "ssd": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3075,
+  "items": 3076,
   "both_sides": 91,
-  "water_only": 119,
+  "water_only": 120,
   "official_only": 2863,
   "matched_water": 93,
-  "official_groups": 3075,
+  "official_groups": 3076,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -442,10 +442,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 63,
-    "nic_jp_rows": 86,
+    "nic_jp_rows": 88,
     "nic_jp_retained": 6,
-    "nic_jp_dropped_stale": 47,
-    "nic_jp_retain_now_hkt": "2026-11-17 18:51:37 HKT",
+    "nic_jp_dropped_stale": 45,
+    "nic_jp_retain_now_hkt": "2026-11-17 21:49:22 HKT",
     "nic_jp_cache_size": 133,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 40,
@@ -113374,7 +113374,7 @@
    "image": "img/B0GZTJ67RR.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61bpdCFVFKL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7201,
+    "price_hkd": 7259,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -113389,7 +113389,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7201,
+   "best_price": 7259,
    "has_water": true,
    "has_official": false
   },
@@ -123050,6 +123050,50 @@
    "best_price": 4480,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:5600:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:64:5600:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 64GB（32GB×2）最大 5600MHz対応 AMD・Intel RAM",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2",
+    "5600"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 8355,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BHVFBFMH",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BHVFBFMH",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 8355,
+   "has_water": true,
+   "has_official": false
   }
  ],
  "data_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/data.json",
