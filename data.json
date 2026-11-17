@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-17T02:55:29Z",
- "generated_at_hkt": "2026-11-17 10:55 HKT",
- "price_updated_hkt": "2026-11-17 10:55 HKT",
+ "generated_at": "2026-11-17T04:05:48Z",
+ "generated_at_hkt": "2026-11-17 12:05 HKT",
+ "price_updated_hkt": "2026-11-17 12:05 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-17 09:56–10:39 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261117/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 315,
+   "count": 316,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3079,
+  "items": 3080,
   "both_sides": 94,
-  "water_only": 123,
+  "water_only": 124,
   "official_only": 2860,
   "matched_water": 96,
-  "official_groups": 3079,
+  "official_groups": 3080,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -360,10 +360,10 @@
    ]
   },
   "images": {
-   "amazon_downloaded": 1,
-   "amazon_cached": 150,
+   "amazon_downloaded": 0,
+   "amazon_cached": 151,
    "official_downloaded": 0,
-   "official_cached": 2600,
+   "official_cached": 2601,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -428,19 +428,19 @@
   ],
   "ivan": {
    "total_listings": 247,
-   "qualified": 259,
-   "deduped": 219,
+   "qualified": 258,
+   "deduped": 220,
    "gpu_brand_recovered": {
     "checked": 1,
     "recovered": 1
    },
    "excluded": {
-    "seller": 200,
+    "seller": 203,
     "no ship": 3,
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 61,
+    "ivan_gpu_rows": 63,
     "nic_jp_rows": 91,
     "nic_jp_retained": 8,
     "nic_jp_dropped_stale": 41,
@@ -449,7 +449,7 @@
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 40,
     "skipped": {
-     "bad_or_dup": 72,
+     "bad_or_dup": 74,
      "jd_oos": 7
     }
    }
@@ -56575,7 +56575,7 @@
    "image": "img/B0F539PRT3.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71S5gCXJKCL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4552,
+    "price_hkd": 4558,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -56605,8 +56605,8 @@
      }
     ]
    },
-   "delta_hkd": 347,
-   "best_price": 4552,
+   "delta_hkd": 341,
+   "best_price": 4558,
    "has_water": true,
    "has_official": true
   },
@@ -56630,7 +56630,7 @@
    "image": "img/B0F534HRX6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71TQicD6rSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4553,
+    "price_hkd": 4560,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -56652,8 +56652,63 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 746,
-   "best_price": 4553,
+   "delta_hkd": 739,
+   "best_price": 4560,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5060ti8:oc+windforce",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti8:oc+windforce",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti WINDFORCE MAX OC 8G 顯示卡",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FFVM8LNC.jpg",
+   "image": "img/B0FFVM8LNC.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71ZGXiEEPbL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4583,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0FFVM8LNC",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0FFVM8LNC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5060ti8:oc+windforce",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 4599,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/235116/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-WINDFORCE-MAX-OC-8G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 4799,
+      "url": "https://pc.plus/product/skuvgagi00024",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 16,
+   "best_price": 4583,
    "has_water": true,
    "has_official": true
   },
@@ -56695,61 +56750,6 @@
    "best_price": 4590,
    "has_water": true,
    "has_official": false
-  },
-  {
-   "id": "gpu|gigabyte:5060ti8:oc+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti8:oc+windforce",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti WINDFORCE MAX OC 8G 顯示卡",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FFVM8LNC.jpg",
-   "image": "img/B0FFVM8LNC.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71ZGXiEEPbL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 4592,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0FFVM8LNC",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0FFVM8LNC",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti8:oc+windforce",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 4599,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/235116/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-WINDFORCE-MAX-OC-8G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 4799,
-      "url": "https://pc.plus/product/skuvgagi00024",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 7,
-   "best_price": 4592,
-   "has_water": true,
-   "has_official": true
   },
   {
    "id": "gpu|colorful:5060:oc+ultra+white",
@@ -57078,6 +57078,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5060ti8:3x+aero+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti8:3x+aero+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5060 Ti Aero OC 8G Graphics Card - 8GB GDDR7, 128-bit, PCI-E 5.0, …",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F4ZGWSPJ.jpg",
+   "image": "img/B0F4ZGWSPJ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/713i93WqAML._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4692,
+    "source": "amazon",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0F4ZGWSPJ",
+    "sku": null,
+    "url": "https://www.amazon.es/dp/B0F4ZGWSPJ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4692,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|colorful:5060ti8:oc+ultra",
    "category": "gpu",
    "cooler_kind": null,
@@ -57176,14 +57215,14 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti8:3x+aero+oc|water",
+   "id": "gpu|asus:5060ti8:dual",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti8:3x+aero+oc",
+   "brand": "ASUS",
+   "model_key": "asus:5060ti8:dual",
    "part_number": null,
    "upc": null,
-   "title": "GIGABYTE GeForce RTX 5060 Ti Aero OC 8G Graphics Card - 8GB GDDR7, 128-bit, PCI-E 5.0, …",
+   "title": "ASUS Dual GeForce RTX™ 5060 Ti 8GB GDDR7",
    "spec": "RTX 5060 Ti 8GB",
    "filter_tags": null,
    "form_factor": null,
@@ -57191,28 +57230,36 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F4ZGWSPJ.jpg",
-   "image": "img/B0F4ZGWSPJ.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/713i93WqAML._AC_SL1500_.jpg",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BSHD2SQ5.jpg",
+   "image": "img/B0BSHD2SQ5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81MNpj2q4IL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4702,
+    "price_hkd": 4726,
     "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0F4ZGWSPJ",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0BSHD2SQ5",
     "sku": null,
-    "url": "https://www.amazon.es/dp/B0F4ZGWSPJ",
+    "url": "https://www.amazon.it/dp/B0BSHD2SQ5",
     "stock": "In stock",
     "note": "已含運費 + 2%",
-    "match_by": null,
+    "match_by": "model key asus:5060ti8:dual",
     "others": []
    },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4702,
+   "official": {
+    "price_hkd": 5499,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgasu00028",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 773,
+   "best_price": 4726,
    "has_water": true,
-   "has_official": false
+   "has_official": true
   },
   {
    "id": "gpu|inno3d:5060ti8:2x+oc+white",
@@ -57415,7 +57462,7 @@
    "image": "img/B0F8BQ3KYW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51N310J-GcL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 5297,
+    "price_hkd": 5287,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -57437,8 +57484,70 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -398,
+   "delta_hkd": -388,
    "best_price": 4899,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5060ti8:dual+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti8:dual+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "【RTX5060Ti 8GB】ASUS DUAL RTX5060Ti OC 8GB【黑色】[長: 229mm]",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F5PRHDHJ.jpg",
+   "image": "img/B0F5PRHDHJ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81J0etyr8ML._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4920,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F5PRHDHJ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F5PRHDHJ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti8:dual+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 5199,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224236/ASUS-華碩-Dual-GeForce-RTX-5060-Ti-8GB-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 5499,
+      "url": "https://buymore.hk/shop/goods.php?id=44294",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 5650,
+      "url": "https://centralfield.com/product/12524/asus-dual-rtx-5060ti-oc-8gb-gddr7",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 279,
+   "best_price": 4920,
    "has_water": true,
    "has_official": true
   },
@@ -57951,68 +58060,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5060ti8:dual+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti8:dual+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "【RTX5060Ti 8GB】ASUS DUAL RTX5060Ti OC 8GB【黑色】[長: 229mm]",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F5PRHDHJ.jpg",
-   "image": "img/B0F5PRHDHJ.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81J0etyr8ML._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 5556,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F5PRHDHJ",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F5PRHDHJ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti8:dual+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 5199,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224236/ASUS-華碩-Dual-GeForce-RTX-5060-Ti-8GB-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 5499,
-      "url": "https://buymore.hk/shop/goods.php?id=44294",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 5650,
-      "url": "https://centralfield.com/product/12524/asus-dual-rtx-5060ti-oc-8gb-gddr7",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": -357,
-   "best_price": 5199,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5060ti8:aero+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -58150,7 +58197,7 @@
    "image": "img/B0F4DVXKKX.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81-U0K9a7mL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 5694,
+    "price_hkd": 5702,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -58194,7 +58241,7 @@
      }
     ]
    },
-   "delta_hkd": -295,
+   "delta_hkd": -303,
    "best_price": 5399,
    "has_water": true,
    "has_official": true
@@ -58330,40 +58377,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5060ti8:dual",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti8:dual",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS Dual GeForce RTX™ 5060 Ti 8GB GDDR7",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": null,
-   "official": {
-    "price_hkd": 5499,
-    "store": "PC Plus",
-    "store_short": "PC Plus",
-    "url": "https://pc.plus/product/skuvgasu00028",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 5499,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5060ti8:gaming trio+oc+white",
    "category": "gpu",
    "cooler_kind": null,
@@ -58425,7 +58438,7 @@
    "image": "img/B0F4DSTZ2D.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81mJlI7yz5L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6016,
+    "price_hkd": 6025,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -58455,7 +58468,7 @@
      }
     ]
    },
-   "delta_hkd": -466,
+   "delta_hkd": -475,
    "best_price": 5550,
    "has_water": true,
    "has_official": true
@@ -59266,7 +59279,7 @@
    "image": "img/B0F4DVKSZ4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81kYKB0Aj5L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6299,
+    "price_hkd": 6287,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -59310,8 +59323,8 @@
      }
     ]
    },
-   "delta_hkd": 500,
-   "best_price": 6299,
+   "delta_hkd": 512,
+   "best_price": 6287,
    "has_water": true,
    "has_official": true
   },
@@ -59384,7 +59397,7 @@
    "image": "img/B0F4DQYLP5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81DUf-juX8L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6317,
+    "price_hkd": 6304,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -59435,8 +59448,8 @@
      }
     ]
    },
-   "delta_hkd": 682,
-   "best_price": 6317,
+   "delta_hkd": 695,
+   "best_price": 6304,
    "has_water": true,
    "has_official": true
   },
@@ -59517,6 +59530,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5060ti16:eagle+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti16:eagle+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC 16G 顯示卡",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FFTV8J6G.jpg",
+   "image": "img/B0FFTV8J6G.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71d2DTg6rJL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 6378,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0FFTV8J6G",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0FFTV8J6G",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5060ti16:eagle+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 6799,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224180/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-EAGLE-OC-16G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 421,
+   "best_price": 6378,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|gigabyte:5060ti16:eagle+ice+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -59536,7 +59596,7 @@
    "image": "img/B0F4NFDQ3B.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71mdlnHYujL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6398,
+    "price_hkd": 6385,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -59558,8 +59618,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 1201,
-   "best_price": 6398,
+   "delta_hkd": 1214,
+   "best_price": 6385,
    "has_water": true,
    "has_official": true
   },
@@ -60109,53 +60169,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti16:eagle+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti16:eagle+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC 16G 顯示卡",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FFTV8J6G.jpg",
-   "image": "img/B0FFTV8J6G.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71d2DTg6rJL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 6709,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0FFTV8J6G",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0FFTV8J6G",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti16:eagle+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 6799,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224180/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-EAGLE-OC-16G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 90,
-   "best_price": 6709,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5060ti16:3x+oc+windforce|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -60175,7 +60188,7 @@
    "image": "img/B0F4NHSHSQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71ID30PninL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6750,
+    "price_hkd": 6737,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -60190,7 +60203,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6750,
+   "best_price": 6737,
    "has_water": true,
    "has_official": false
   },
@@ -60214,7 +60227,7 @@
    "image": "img/B0DZCYPFVT.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61r4E88gZGL._AC_SL1200_.jpg",
    "water": {
-    "price_hkd": 6773,
+    "price_hkd": 6759,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -60265,8 +60278,8 @@
      }
     ]
    },
-   "delta_hkd": 726,
-   "best_price": 6773,
+   "delta_hkd": 740,
+   "best_price": 6759,
    "has_water": true,
    "has_official": true
   },
@@ -60358,7 +60371,7 @@
    "image": "img/B0F8KJKC9Y.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81BUg0wr-CL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6881,
+    "price_hkd": 6891,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -60416,8 +60429,8 @@
      }
     ]
    },
-   "delta_hkd": 518,
-   "best_price": 6881,
+   "delta_hkd": 508,
+   "best_price": 6891,
    "has_water": true,
    "has_official": true
   },
@@ -60504,7 +60517,7 @@
    "image": "img/B0DYPGBX6J.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61E+0EA9nSL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 6917,
+    "price_hkd": 6903,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -60519,7 +60532,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6917,
+   "best_price": 6903,
    "has_water": true,
    "has_official": false
   },
@@ -60543,7 +60556,7 @@
    "image": "img/B0DX7JJ87N.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71pbQfqmpsL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6946,
+    "price_hkd": 6956,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -60601,49 +60614,10 @@
      }
     ]
    },
-   "delta_hkd": 653,
-   "best_price": 6946,
+   "delta_hkd": 643,
+   "best_price": 6956,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5070:gaming oc+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:gaming oc+oc",
-   "part_number": "GV-N5070GAMINGOC-12GD",
-   "upc": null,
-   "title": "Gigabyte GeForce RTX 5070 Gaming OC 12G Graphics Card - 12GB GDDR7, 192 Bit, PCI-E 5.0,…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGNTQ3C.jpg",
-   "image": "img/B0DTGNTQ3C.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81AHWRRuBCL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 6992,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DTGNTQ3C",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DTGNTQ3C",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 6992,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|asus:9070:evo+oc+prime",
@@ -60736,6 +60710,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070:gaming oc+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:gaming oc+oc",
+   "part_number": "GV-N5070GAMINGOC-12GD",
+   "upc": null,
+   "title": "Gigabyte GeForce RTX 5070 Gaming OC 12G Graphics Card - 12GB GDDR7, 192 Bit, PCI-E 5.0,…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGNTQ3C.jpg",
+   "image": "img/B0DTGNTQ3C.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81AHWRRuBCL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7002,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DTGNTQ3C",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DTGNTQ3C",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7002,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|inno3d:5060ti16:2x+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -60767,6 +60780,61 @@
    "delta_hkd": null,
    "best_price": 7080,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|palit:5070:infinity+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Palit",
+   "model_key": "palit:5070:infinity+oc",
+   "part_number": "NE75070S19K9-GB2050S",
+   "upc": null,
+   "title": "Palit GeForce RTX 5070 Infinity 3 OC (12GB GDDR7/PCI Express 5.0/2542MHz/28000MHz)",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F48VLJ9R.jpg",
+   "image": "img/B0F48VLJ9R.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/6189ufBfu8L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7086,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F48VLJ9R",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0F48VLJ9R",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key palit:5070:infinity+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7999,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/64558",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7999,
+      "url": "https://centralfield.com/product/23641/palit-geforce-rtx-5070-infinity-3-oc-12gb",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 913,
+   "best_price": 7086,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -60838,7 +60906,7 @@
    "image": "img/B0F4VGXQXF.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81PdOP3CAeL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 8499,
+    "price_hkd": 8511,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -60875,7 +60943,7 @@
      }
     ]
    },
-   "delta_hkd": -1400,
+   "delta_hkd": -1412,
    "best_price": 7099,
    "has_water": true,
    "has_official": true
@@ -60978,61 +61046,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|palit:5070:infinity+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Palit",
-   "model_key": "palit:5070:infinity+oc",
-   "part_number": "NE75070S19K9-GB2050S",
-   "upc": null,
-   "title": "Palit GeForce RTX 5070 Infinity 3 OC (12GB GDDR7/PCI Express 5.0/2542MHz/28000MHz)",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F48VLJ9R.jpg",
-   "image": "img/B0F48VLJ9R.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/6189ufBfu8L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7100,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0F48VLJ9R",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0F48VLJ9R",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key palit:5070:infinity+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7999,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/64558",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 7999,
-      "url": "https://centralfield.com/product/23641/palit-geforce-rtx-5070-infinity-3-oc-12gb",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 899,
-   "best_price": 7100,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|gigabyte:5070:aero+oc|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -61052,7 +61065,7 @@
    "image": "img/B0DTGNWLXJ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71awqTBwgtL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7141,
+    "price_hkd": 7127,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -61067,7 +61080,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7141,
+   "best_price": 7127,
    "has_water": true,
    "has_official": false
   },
@@ -61091,7 +61104,7 @@
    "image": "img/B0DTGP4M7J.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Z23QPbk0L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7148,
+    "price_hkd": 7134,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -61113,8 +61126,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 551,
-   "best_price": 7148,
+   "delta_hkd": 565,
+   "best_price": 7134,
    "has_water": true,
    "has_official": true
   },
@@ -61222,7 +61235,7 @@
    "image": "img/B0F11VB65S.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61fqNatcCBL._AC_SL1350_.jpg",
    "water": {
-    "price_hkd": 7211,
+    "price_hkd": 7222,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -61237,7 +61250,46 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7211,
+   "best_price": 7222,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|asus:5060ti16:dual|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti16:dual",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS NVIDIA GeForce RTX 5060 Ti Video Card GDDR7 PCI Express 5.0 / DUAL-RTX5060TI-O16G …",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F58FTZ7W.jpg",
+   "image": "img/B0F58FTZ7W.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81m-C5XpV5L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7231,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F58FTZ7W",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F58FTZ7W",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7231,
    "has_water": true,
    "has_official": false
   },
@@ -61261,7 +61313,7 @@
    "image": "img/B0F6CBQF48.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81icAEqTP3L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7224,
+    "price_hkd": 7234,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -61283,10 +61335,49 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 276,
-   "best_price": 7224,
+   "delta_hkd": 266,
+   "best_price": 7234,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070:dual+oc+sff+slim|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:dual+oc+sff+slim",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070 12GB Slim OC Dual Fan 2-Slot SFF Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GSXJPTLN.jpg",
+   "image": "img/B0GSXJPTLN.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/51NgHONUirL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 7241,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0GSXJPTLN",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0GSXJPTLN",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7241,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|asus:5070:oc+prime",
@@ -61308,7 +61399,7 @@
    "image": "img/B0DYPFY7JG.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81qKy0QvLHL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7251,
+    "price_hkd": 7249,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -61345,49 +61436,10 @@
      }
     ]
    },
-   "delta_hkd": 748,
-   "best_price": 7251,
+   "delta_hkd": 750,
+   "best_price": 7249,
    "has_water": true,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5070:dual+oc+sff+slim|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070:dual+oc+sff+slim",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5070 12GB Slim OC Dual Fan 2-Slot SFF Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GSXJPTLN.jpg",
-   "image": "img/B0GSXJPTLN.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51NgHONUirL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 7255,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0GSXJPTLN",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0GSXJPTLN",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7255,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|galax:5070:oc",
@@ -61790,6 +61842,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5060ti16:3x+eagle+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti16:3x+eagle+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5060 Ti Eagle OC 16G Graphics Card - 16GB GDDR7, 128-bit, PCI-E 5.…",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F4NFVZBK.jpg",
+   "image": "img/B0F4NFVZBK.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71DZcs4WckL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7392,
+    "source": "amazon",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0F4NFVZBK",
+    "sku": null,
+    "url": "https://www.amazon.es/dp/B0F4NFVZBK",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7392,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|msi:5070:3x+oc+ventus",
    "category": "gpu",
    "cooler_kind": null,
@@ -61809,7 +61900,7 @@
    "image": "img/B0DYG7KB27.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81rLJMXHXTL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7382,
+    "price_hkd": 7393,
     "source": "amazon",
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
@@ -61853,8 +61944,8 @@
      }
     ]
    },
-   "delta_hkd": 517,
-   "best_price": 7382,
+   "delta_hkd": 506,
+   "best_price": 7393,
    "has_water": true,
    "has_official": true
   },
@@ -61935,45 +62026,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti16:3x+eagle+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti16:3x+eagle+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE GeForce RTX 5060 Ti Eagle OC 16G Graphics Card - 16GB GDDR7, 128-bit, PCI-E 5.…",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F4NFVZBK.jpg",
-   "image": "img/B0F4NFVZBK.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71DZcs4WckL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7407,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0F4NFVZBK",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0F4NFVZBK",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7407,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|gigabyte:5070:eagle+ice+oc+sff|water",
    "category": "gpu",
    "cooler_kind": null,
@@ -61993,7 +62045,7 @@
    "image": "img/B0DTGM4QSD.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71lN5yrIYwL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7466,
+    "price_hkd": 7452,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -62008,7 +62060,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7466,
+   "best_price": 7452,
    "has_water": true,
    "has_official": false
   },
@@ -62509,45 +62561,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5070:|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H6M1Z5TM.jpg",
-   "image": "img/B0H6M1Z5TM.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81zq01pCjpL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7692,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0H6M1Z5TM",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0H6M1Z5TM",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7692,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|palit:5070:infinity",
    "category": "gpu",
    "cooler_kind": null,
@@ -62622,6 +62635,45 @@
    "best_price": 7700,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|asus:5070:|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H6M1Z5TM.jpg",
+   "image": "img/B0H6M1Z5TM.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81zq01pCjpL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7704,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0H6M1Z5TM",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0H6M1Z5TM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7704,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|zotac:5070:amp+oc+white",
@@ -64396,7 +64448,7 @@
    "image": "img/B0DTGNB9Q5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71aujv61egL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 10789,
+    "price_hkd": 10805,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -64426,8 +64478,8 @@
      }
     ]
    },
-   "delta_hkd": 2210,
-   "best_price": 10789,
+   "delta_hkd": 2194,
+   "best_price": 10805,
    "has_water": true,
    "has_official": true
   },
@@ -64563,7 +64615,7 @@
    "image": "img/B0F1NJF1K4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71TLaPZfCZL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 11099,
+    "price_hkd": 11077,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -64585,8 +64637,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 500,
-   "best_price": 11099,
+   "delta_hkd": 522,
+   "best_price": 11077,
    "has_water": true,
    "has_official": true
   },
@@ -64610,7 +64662,7 @@
    "image": "img/B0DTGPC5KR.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81C5izvzUWL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 11127,
+    "price_hkd": 11105,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -64632,8 +64684,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 872,
-   "best_price": 11127,
+   "delta_hkd": 894,
+   "best_price": 11105,
    "has_water": true,
    "has_official": true
   },
@@ -64818,7 +64870,7 @@
    "image": "img/B0GWK2K7PL.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51lRFJXzoML._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 11252,
+    "price_hkd": 11230,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -64833,7 +64885,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11252,
+   "best_price": 11230,
    "has_water": true,
    "has_official": false
   },
@@ -64857,7 +64909,7 @@
    "image": "img/B0G6ZGLZWM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61tv3PQW9bL._AC_SL1200_.jpg",
    "water": {
-    "price_hkd": 11272,
+    "price_hkd": 11288,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -64872,7 +64924,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11272,
+   "best_price": 11288,
    "has_water": true,
    "has_official": false
   },
@@ -64993,7 +65045,7 @@
    "image": "img/B0DVH1Y9VN.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71Rw3ze-F7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 11482,
+    "price_hkd": 11498,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -65008,7 +65060,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11482,
+   "best_price": 11498,
    "has_water": true,
    "has_official": false
   },
@@ -65032,7 +65084,7 @@
    "image": "img/B0DWMJSGCM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71yDPXX4duL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 11529,
+    "price_hkd": 11546,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -65090,8 +65142,8 @@
      }
     ]
    },
-   "delta_hkd": 1170,
-   "best_price": 11529,
+   "delta_hkd": 1153,
+   "best_price": 11546,
    "has_water": true,
    "has_official": true
   },
@@ -65115,7 +65167,7 @@
    "image": "img/B0F11KQQF4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71YnD7X0ijL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 11554,
+    "price_hkd": 11571,
     "source": "amazon",
     "marketplace": "美國 Amazon",
     "marketplace_code": "US",
@@ -65130,7 +65182,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 11554,
+   "best_price": 11571,
    "has_water": true,
    "has_official": false
   },
@@ -66163,7 +66215,7 @@
    "image": "img/B0DSWKJLJP.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61UoqlycAqL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 13403,
+    "price_hkd": 13430,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -66171,7 +66223,7 @@
     "asin": "B0DSWKJLJP",
     "sku": null,
     "url": "https://www.amazon.fr/dp/B0DSWKJLJP",
-    "stock": "Only 3 left in stock.",
+    "stock": "Only 2 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key palit:5080:gamingpro",
     "others": []
@@ -66185,8 +66237,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 1596,
-   "best_price": 13403,
+   "delta_hkd": 1569,
+   "best_price": 13430,
    "has_water": true,
    "has_official": true
   },
@@ -66210,7 +66262,7 @@
    "image": "img/B0GZWW2RKH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13454,
+    "price_hkd": 13434,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -66247,8 +66299,8 @@
      }
     ]
    },
-   "delta_hkd": 1896,
-   "best_price": 13454,
+   "delta_hkd": 1916,
+   "best_price": 13434,
    "has_water": true,
    "has_official": true
   },
@@ -66314,61 +66366,22 @@
    "image": "img/B0DYRZZJZ1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13696,
+    "price_hkd": 13710,
     "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
     "asin": "B0DYRZZJZ1",
     "sku": null,
-    "url": "https://www.amazon.es/dp/B0DYRZZJZ1",
-    "stock": "In stock",
+    "url": "https://www.amazon.de/dp/B0DYRZZJZ1",
+    "stock": "Only 13 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": null,
     "others": []
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 13696,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|gigabyte:5080:aorus+waterforce+xtreme|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aorus+waterforce+xtreme",
-   "part_number": null,
-   "upc": null,
-   "title": "Gigabyte AORUS GeForce RTX 5080 XTREME WATERFORCE WB 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9WRP5M.jpg",
-   "image": "img/B0DT9WRP5M.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/713QLQLt3XL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 13994,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DT9WRP5M",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0DT9WRP5M",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 13994,
+   "best_price": 13710,
    "has_water": true,
    "has_official": false
   },
@@ -66443,6 +66456,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:aorus+waterforce+xtreme|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:aorus+waterforce+xtreme",
+   "part_number": null,
+   "upc": null,
+   "title": "Gigabyte AORUS GeForce RTX 5080 XTREME WATERFORCE WB 16G Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DT9WRP5M.jpg",
+   "image": "img/B0DT9WRP5M.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/713QLQLt3XL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 14021,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0DT9WRP5M",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0DT9WRP5M",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 14021,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5080:oc+sff+windforce",
    "category": "gpu",
    "cooler_kind": null,
@@ -66462,7 +66514,7 @@
    "image": "img/B0DT9Y2B49.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71sT13DYa9L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14411,
+    "price_hkd": 14440,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -66470,7 +66522,7 @@
     "asin": "B0DT9Y2B49",
     "sku": null,
     "url": "https://www.amazon.es/dp/B0DT9Y2B49",
-    "stock": "Only 2 left in stock.",
+    "stock": "Only 1 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "others": []
@@ -66484,8 +66536,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 3588,
-   "best_price": 14411,
+   "delta_hkd": 3559,
+   "best_price": 14440,
    "has_water": true,
    "has_official": true
   },
@@ -66509,7 +66561,7 @@
    "image": "img/B0DZCVQGG6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51nC3wSo4+L._AC_SX679_.jpg",
    "water": {
-    "price_hkd": 14568,
+    "price_hkd": 14597,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -66524,7 +66576,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 14568,
+   "best_price": 14597,
    "has_water": true,
    "has_official": false
   },
@@ -66548,7 +66600,7 @@
    "image": "img/B0DS65VMC6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cPV47HNyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 14748,
+    "price_hkd": 14727,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -66585,8 +66637,55 @@
      }
     ]
    },
-   "delta_hkd": 552,
-   "best_price": 14748,
+   "delta_hkd": 573,
+   "best_price": 14727,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "gpu|msi:5080:3x+inspire+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+inspire+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
+   "image": "img/B0GWRN4Q36.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 15044,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0GWRN4Q36",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0GWRN4Q36",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+inspire+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15600,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": []
+   },
+   "delta_hkd": 556,
+   "best_price": 15044,
    "has_water": true,
    "has_official": true
   },
@@ -66637,53 +66736,6 @@
    "delta_hkd": null,
    "best_price": 15050,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|msi:5080:3x+inspire+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+inspire+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "msi NVIDIA GeForce RTX 5080 16G Inspire 3X OC Black Graphics Card 16GB",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWRN4Q36.jpg",
-   "image": "img/B0GWRN4Q36.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71Wlmo17E7L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15083,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0GWRN4Q36",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0GWRN4Q36",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+inspire+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 15600,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11153/msi-geforce-rtx-5080-inspire-3x-oc-16gb",
-    "stock": "現貨",
-    "build_only": true,
-    "others": []
-   },
-   "delta_hkd": 517,
-   "best_price": 15083,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -66882,45 +66934,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5080:gaming oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:gaming oc",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE GeForce RTX 5080 Gaming OC 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
-   "image": "img/B0DSQ1RCZV.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15585,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DSQ1RCZV",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DSQ1RCZV",
-    "stock": "",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15585,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5080:oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -66977,6 +66990,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:gaming oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:gaming oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5080 Gaming OC 16G Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
+   "image": "img/B0DSQ1RCZV.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 15616,
+    "source": "amazon",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0DSQ1RCZV",
+    "sku": null,
+    "url": "https://www.amazon.es/dp/B0DSQ1RCZV",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 15616,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5080:aero+oc+sff",
    "category": "gpu",
    "cooler_kind": null,
@@ -66996,7 +67048,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15864,
+    "price_hkd": 15840,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67018,8 +67070,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 4135,
-   "best_price": 15864,
+   "delta_hkd": 4159,
+   "best_price": 15840,
    "has_water": true,
    "has_official": true
   },
@@ -67106,45 +67158,6 @@
    "best_price": 15950,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|pny:5080:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB OC Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJFZ4YS.jpg",
-   "image": "img/B0DTJFZ4YS.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 15976,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTJFZ4YS",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DTJFZ4YS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15976,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|colorful:5080:oc+ultra+white",
@@ -67340,14 +67353,14 @@
    "has_official": true
   },
   {
-   "id": "gpu|asus:5080:oc+tuf",
+   "id": "gpu|pny:5080:oc+triple|water",
    "category": "gpu",
    "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5080:oc+tuf",
+   "brand": "PNY",
+   "model_key": "pny:5080:oc+triple",
    "part_number": null,
    "upc": null,
-   "title": "ASUS TUF Gaming GeForce RTX 5080 OC Edition 16GB GDDR7 Gaming Graphics Card",
+   "title": "PNY GeForce RTX™ 5080 16GB OC Triple Fan Graphics Card DLSS 4",
    "spec": "RTX 5080",
    "filter_tags": null,
    "form_factor": null,
@@ -67355,44 +67368,28 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DS65KD1C.jpg",
-   "image": "img/B0DS65KD1C.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81a-sVwj8FL._AC_SL1500_.jpg",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJFZ4YS.jpg",
+   "image": "img/B0DTJFZ4YS.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/613IEh58-nL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 16251,
+    "price_hkd": 16007,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
     "domain": "amazon.es",
-    "asin": "B0DS65KD1C",
+    "asin": "B0DTJFZ4YS",
     "sku": null,
-    "url": "https://www.amazon.es/dp/B0DS65KD1C",
-    "stock": "Only 1 left in stock.",
+    "url": "https://www.amazon.es/dp/B0DTJFZ4YS",
+    "stock": "In stock",
     "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:oc+tuf",
+    "match_by": null,
     "others": []
    },
-   "official": {
-    "price_hkd": 17250,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/10532/asus-tuf-gaming-rtx-5080-oc-16gb-graphics-card",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 18999,
-      "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 999,
-   "best_price": 16251,
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 16007,
    "has_water": true,
-   "has_official": true
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5080:aorus+ice+master|water",
@@ -67414,7 +67411,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16316,
+    "price_hkd": 16293,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67429,7 +67426,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16316,
+   "best_price": 16293,
    "has_water": true,
    "has_official": false
   },
@@ -67453,7 +67450,7 @@
    "image": "img/B0DSQ221G4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81eLKUlImuL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16479,
+    "price_hkd": 16455,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67468,7 +67465,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16479,
+   "best_price": 16455,
    "has_water": true,
    "has_official": false
   },
@@ -67541,7 +67538,7 @@
    "image": "img/B0H86338KX.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/714ho10YxyL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16854,
+    "price_hkd": 16887,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -67549,7 +67546,7 @@
     "asin": "B0H86338KX",
     "sku": null,
     "url": "https://www.amazon.it/dp/B0H86338KX",
-    "stock": "Available to ship in 1-2 days",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:aorus+infinity+wood",
     "others": []
@@ -67563,8 +67560,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 5145,
-   "best_price": 16854,
+   "delta_hkd": 5112,
+   "best_price": 16887,
    "has_water": true,
    "has_official": true
   },
@@ -67675,6 +67672,48 @@
    },
    "delta_hkd": null,
    "best_price": 17099,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|asus:5080:oc+tuf",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5080:oc+tuf",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS TUF Gaming GeForce RTX 5080 OC 16GB GDDR7 華碩顯示卡三風扇超頻版",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-68f50bf0c1be5bb5.webp",
+   "image": "img/hk-68f50bf0c1be5bb5.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/10532.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 17250,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/10532/asus-tuf-gaming-rtx-5080-oc-16gb-graphics-card",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 18999,
+      "url": "https://shop.pegasus.hk/products/223068/ASUS-華碩-TUF-Gaming-GeForce-RTX-5080-16G-OC-顯示卡",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 17250,
    "has_water": false,
    "has_official": true
   },
@@ -70385,7 +70424,7 @@
    "model_key": "mobo:gigabyte:B850:mATX:b850m-ds3h-ryzen:ddr5:nowifi:",
    "part_number": null,
    "upc": null,
-   "title": "GIGABYTE B850M DS3H - AMD Ryzen MicroATX Universal Motherboard for Small PC MB6678",
+   "title": "GIGABYTE B850M DS3H - AMD Ryzen 用 MicroATX 小型PC向け汎用マザーボード MB6678",
    "spec": "B850",
    "filter_tags": null,
    "form_factor": "M-ATX",
@@ -70393,9 +70432,9 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DQLJHJ8B.jpg",
-   "image": "img/B0DQLJHJ8B.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81E1RL6ZoNL._AC_SL1500_.jpg",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "water": {
     "price_hkd": 894,
     "source": "amazon",
