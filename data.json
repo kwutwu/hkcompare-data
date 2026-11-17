@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-17T17:02:30Z",
- "generated_at_hkt": "2026-11-18 01:02 HKT",
- "price_updated_hkt": "2026-11-18 01:02 HKT",
+ "generated_at": "2026-11-17T17:47:09Z",
+ "generated_at_hkt": "2026-11-18 01:47 HKT",
+ "price_updated_hkt": "2026-11-18 01:47 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-17 09:56–10:39 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261117/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 314,
+   "count": 315,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3078,
+  "items": 3079,
   "both_sides": 95,
-  "water_only": 122,
+  "water_only": 123,
   "official_only": 2859,
   "matched_water": 97,
-  "official_groups": 3078,
+  "official_groups": 3079,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -363,7 +363,7 @@
    "amazon_downloaded": 0,
    "amazon_cached": 151,
    "official_downloaded": 0,
-   "official_cached": 2600,
+   "official_cached": 2601,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -428,8 +428,8 @@
   ],
   "ivan": {
    "total_listings": 247,
-   "qualified": 251,
-   "deduped": 219,
+   "qualified": 252,
+   "deduped": 220,
    "gpu_brand_recovered": {
     "checked": 2,
     "recovered": 2
@@ -447,10 +447,10 @@
     "nic_jp_retain_now_hkt": "2026-11-17 21:49:22 HKT",
     "nic_jp_cache_size": 133,
     "jd_ddr_rows": 26,
-    "jd_cpu_rows": 40,
+    "jd_cpu_rows": 41,
     "skipped": {
-     "bad_or_dup": 66,
-     "jd_oos": 7
+     "bad_or_dup": 69,
+     "jd_oos": 6
     }
    }
   }
@@ -51044,6 +51044,55 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|intel core ultra 5 230f|lga1851",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 5 230f|lga1851",
+   "part_number": null,
+   "upc": null,
+   "title": "Intel Core Ultra 5 230F",
+   "spec": "LGA1851（Core Ultra）",
+   "filter_tags": [
+    "LGA1851"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-826afeb61842341d.webp",
+   "image": "img/hk-826afeb61842341d.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/22146.webp",
+   "water": {
+    "price_hkd": 884,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100165842566",
+    "url": "https://item.jd.com/100165842566.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥749",
+    "match_by": "model key cpu|intel core ultra 5 230f|lga1851",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 1078,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田（散裝）",
+    "url": "https://centralfield.com/product/22146/intel-core-ultra-5-230f-processor",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 194,
+   "best_price": 884,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "cpu|cpu|intel core i5-12490f (12th gen)|lga1700|water",
    "category": "cpu",
    "cooler_kind": null,
@@ -51652,40 +51701,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|intel core ultra 5 230f|lga1851",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core ultra 5 230f|lga1851",
-   "part_number": null,
-   "upc": null,
-   "title": "Intel Core Ultra 5 230F",
-   "spec": "LGA1851（Core Ultra）",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-826afeb61842341d.webp",
-   "image": "img/hk-826afeb61842341d.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/22146.webp",
-   "water": null,
-   "official": {
-    "price_hkd": 1078,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田（散裝）",
-    "url": "https://centralfield.com/product/22146/intel-core-ultra-5-230f-processor",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": null,
-   "best_price": 1078,
-   "has_water": false,
-   "has_official": true
-  },
-  {
    "id": "cpu|cpu|amd ryzen 5 pro 5650g|am4",
    "category": "cpu",
    "cooler_kind": null,
@@ -51717,91 +51732,6 @@
    "delta_hkd": null,
    "best_price": 1100,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|intel core ultra 5 245kf|lga1851",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core ultra 5 245kf|lga1851",
-   "part_number": "BX80768245KF",
-   "upc": "0735858550567",
-   "title": "Intel Core Ultra 5 245KF",
-   "spec": "LGA1851（Core Ultra）",
-   "filter_tags": [
-    "LGA1851"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3b627b17998d61ff.webp",
-   "image": "img/hk-3b627b17998d61ff.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/19231.webp",
-   "water": {
-    "price_hkd": 1102,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100120799081",
-    "url": "https://item.jd.com/100120799081.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿1500減200) 原價¥1129",
-    "match_by": "model key cpu|intel core ultra 5 245kf|lga1851",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 1320,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技（散裝）",
-    "url": "https://buymore.hk/shop/goods.php?id=46796",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（散裝）",
-      "price_hkd": 1329,
-      "url": "https://centralfield.com/product/19231/intel-core-ultra-5-245kf-lga1851-processor",
-      "build_only": false
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（散裝）",
-      "price_hkd": 1330,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245kf-tray-14c-14t-lga-1851-香港代理-3年保養",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE（散裝）",
-      "price_hkd": 1339,
-      "url": "https://secomputer.com.hk/products/61936",
-      "build_only": false
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（盒裝）",
-      "price_hkd": 1400,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245kf-14c-14t-lga-1851-copy",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（盒裝）",
-      "price_hkd": 1498,
-      "url": "https://centralfield.com/product/12154/intel-core-ultra-5-245kf-processor-2",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 218,
-   "best_price": 1102,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -52152,77 +52082,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|intel core ultra 5 245k|lga1851",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core ultra 5 245k|lga1851",
-   "part_number": "AT807680513D",
-   "upc": null,
-   "title": "Intel Core Ultra 5 245K",
-   "spec": "LGA1851（Core Ultra）",
-   "filter_tags": [
-    "LGA1851"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fd84aca17eb274f9.png",
-   "image": "img/hk-fd84aca17eb274f9.png",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel_245K_Tray.png?v=1772256381",
-   "water": {
-    "price_hkd": 1233,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100145512964",
-    "url": "https://item.jd.com/100145512964.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿1500減200) 原價¥1229",
-    "match_by": "model key cpu|intel core ultra 5 245k|lga1851",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 1350,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技（散裝）",
-    "url": "https://buymore.hk/shop/goods.php?id=47355",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo（散裝）",
-      "price_hkd": 1360,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245k-tray-14c-14t-lga-1851-cp-5t245k-香港代理-3年保養",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田（散裝）",
-      "price_hkd": 1378,
-      "url": "https://centralfield.com/product/19695/intel-core-ultra-5-245k-tray-processor",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE（散裝）",
-      "price_hkd": 1399,
-      "url": "https://secomputer.com.hk/products/61476",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 117,
-   "best_price": 1233,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "cpu|cpu|amd ryzen 5 pro 8600g|am5",
    "category": "cpu",
    "cooler_kind": null,
@@ -52345,6 +52204,162 @@
    "delta_hkd": null,
    "best_price": 1260,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 5 245kf|lga1851",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 5 245kf|lga1851",
+   "part_number": "BX80768245KF",
+   "upc": "0735858550567",
+   "title": "Intel Core Ultra 5 245KF",
+   "spec": "LGA1851（Core Ultra）",
+   "filter_tags": [
+    "LGA1851"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3b627b17998d61ff.webp",
+   "image": "img/hk-3b627b17998d61ff.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/19231.webp",
+   "water": {
+    "price_hkd": 1332,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100120799081",
+    "url": "https://item.jd.com/100120799081.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥1129",
+    "match_by": "model key cpu|intel core ultra 5 245kf|lga1851",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 1320,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技（散裝）",
+    "url": "https://buymore.hk/shop/goods.php?id=46796",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（散裝）",
+      "price_hkd": 1329,
+      "url": "https://centralfield.com/product/19231/intel-core-ultra-5-245kf-lga1851-processor",
+      "build_only": false
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo（散裝）",
+      "price_hkd": 1330,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245kf-tray-14c-14t-lga-1851-香港代理-3年保養",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE（散裝）",
+      "price_hkd": 1339,
+      "url": "https://secomputer.com.hk/products/61936",
+      "build_only": false
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo（盒裝）",
+      "price_hkd": 1400,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245kf-14c-14t-lga-1851-copy",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（盒裝）",
+      "price_hkd": 1498,
+      "url": "https://centralfield.com/product/12154/intel-core-ultra-5-245kf-processor-2",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": -12,
+   "best_price": 1320,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core ultra 5 245k|lga1851",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 5 245k|lga1851",
+   "part_number": "AT807680513D",
+   "upc": null,
+   "title": "Intel Core Ultra 5 245K",
+   "spec": "LGA1851（Core Ultra）",
+   "filter_tags": [
+    "LGA1851"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fd84aca17eb274f9.png",
+   "image": "img/hk-fd84aca17eb274f9.png",
+   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Intel_245K_Tray.png?v=1772256381",
+   "water": {
+    "price_hkd": 1450,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100145512964",
+    "url": "https://item.jd.com/100145512964.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥1229",
+    "match_by": "model key cpu|intel core ultra 5 245k|lga1851",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 1350,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技（散裝）",
+    "url": "https://buymore.hk/shop/goods.php?id=47355",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo（散裝）",
+      "price_hkd": 1360,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/intel-core-ultra-5-processor-245k-tray-14c-14t-lga-1851-cp-5t245k-香港代理-3年保養",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田（散裝）",
+      "price_hkd": 1378,
+      "url": "https://centralfield.com/product/19695/intel-core-ultra-5-245k-tray-processor",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE（散裝）",
+      "price_hkd": 1399,
+      "url": "https://secomputer.com.hk/products/61476",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": -100,
+   "best_price": 1350,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -53322,47 +53337,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|intel core i7-14700kf (14th gen)|lga1700|water",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core i7-14700kf (14th gen)|lga1700",
-   "part_number": null,
-   "upc": null,
-   "title": "Intel i7-14700KF Box(盒裝)",
-   "spec": "LGA1700（Intel 12–14 代）",
-   "filter_tags": [
-    "LGA1700"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 2206,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100070072259",
-    "url": "https://item.jd.com/100070072259.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿3000減400) 原價¥2249",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2206,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "cpu|cpu|intel core i7-13790f (13th gen)|lga1700|water",
    "category": "cpu",
    "cooler_kind": null,
@@ -53443,70 +53417,6 @@
    "delta_hkd": null,
    "best_price": 2320,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "cpu|cpu|intel core i7-14700k (14th gen)|lga1700",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core i7-14700k (14th gen)|lga1700",
-   "part_number": null,
-   "upc": null,
-   "title": "Intel Core i7-14700K (14th Gen)",
-   "spec": "LGA1700（Intel 12–14 代）",
-   "filter_tags": [
-    "LGA1700"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-44d54559b762455b.jpg",
-   "image": "img/hk-44d54559b762455b.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d6071d16-48f0-45db-2113-7e6678564300/public",
-   "water": {
-    "price_hkd": 2356,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100070072261",
-    "url": "https://item.jd.com/100070072261.html",
-    "stock": "In stock",
-    "note": "上述標價經已扣減優惠券(滿3000減400) 原價¥2449",
-    "match_by": "model key cpu|intel core i7-14700k (14th gen)|lga1700",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 2860,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬（散裝）",
-    "url": "https://shop.pegasus.hk/products/215330/Intel-Core-i7-14700K-20核心28線程-Tray-不含散熱器---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技（散裝）",
-      "price_hkd": 2910,
-      "url": "https://buymore.hk/shop/goods.php?id=36728",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE（散裝）",
-      "price_hkd": 3000,
-      "url": "https://secomputer.com.hk/products/57168",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 504,
-   "best_price": 2356,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -53709,6 +53619,47 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|intel core i7-14700kf (14th gen)|lga1700|water",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core i7-14700kf (14th gen)|lga1700",
+   "part_number": null,
+   "upc": null,
+   "title": "Intel i7-14700KF Box(盒裝)",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "filter_tags": [
+    "LGA1700"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 2595,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100070072259",
+    "url": "https://item.jd.com/100070072259.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥2199",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2595,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "cpu|cpu|amd ryzen 7 5800x3d|am4",
    "category": "cpu",
    "cooler_kind": null,
@@ -53842,6 +53793,70 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|intel core i7-14700k (14th gen)|lga1700",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core i7-14700k (14th gen)|lga1700",
+   "part_number": null,
+   "upc": null,
+   "title": "Intel Core i7-14700K (14th Gen)",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "filter_tags": [
+    "LGA1700"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-44d54559b762455b.jpg",
+   "image": "img/hk-44d54559b762455b.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/d6071d16-48f0-45db-2113-7e6678564300/public",
+   "water": {
+    "price_hkd": 2831,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100070072261",
+    "url": "https://item.jd.com/100070072261.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥2399",
+    "match_by": "model key cpu|intel core i7-14700k (14th gen)|lga1700",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 2860,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬（散裝）",
+    "url": "https://shop.pegasus.hk/products/215330/Intel-Core-i7-14700K-20核心28線程-Tray-不含散熱器---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技（散裝）",
+      "price_hkd": 2910,
+      "url": "https://buymore.hk/shop/goods.php?id=36728",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE（散裝）",
+      "price_hkd": 3000,
+      "url": "https://secomputer.com.hk/products/57168",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 29,
+   "best_price": 2831,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "cpu|cpu|amd ryzen 7 9800x3d|am5",
    "category": "cpu",
    "cooler_kind": null,
@@ -53961,55 +53976,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|intel core i9-14900kf (14th gen)|lga1700",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core i9-14900kf (14th gen)|lga1700",
-   "part_number": null,
-   "upc": null,
-   "title": "Intel Core i9-14900KF (14th Gen)",
-   "spec": "LGA1700（Intel 12–14 代）",
-   "filter_tags": [
-    "LGA1700"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c21109a8aaf9d038.jpg",
-   "image": "img/hk-c21109a8aaf9d038.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/8bef6394-2cd5-44a7-7eb8-05195b9f7d00/public",
-   "water": {
-    "price_hkd": 3058,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100069427204",
-    "url": "https://item.jd.com/100069427204.html",
-    "stock": "In stock",
-    "note": "上述標價對應優惠規則(滿贈) 原價¥3149",
-    "match_by": "model key cpu|intel core i9-14900kf (14th gen)|lga1700",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 3199,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬（散裝）",
-    "url": "https://shop.pegasus.hk/products/215337/Intel-Core-i9-14900KF-24核心32線程-Tray--不含散熱器---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 141,
-   "best_price": 3058,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "cpu|cpu|amd ryzen 9 9950x|am5",
    "category": "cpu",
    "cooler_kind": null,
@@ -54084,6 +54050,55 @@
    },
    "delta_hkd": -1034,
    "best_price": 3095,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core i9-14900kf (14th gen)|lga1700",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core i9-14900kf (14th gen)|lga1700",
+   "part_number": null,
+   "upc": null,
+   "title": "Intel Core i9-14900KF (14th Gen)",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "filter_tags": [
+    "LGA1700"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c21109a8aaf9d038.jpg",
+   "image": "img/hk-c21109a8aaf9d038.jpg",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/8bef6394-2cd5-44a7-7eb8-05195b9f7d00/public",
+   "water": {
+    "price_hkd": 3716,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100069427204",
+    "url": "https://item.jd.com/100069427204.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥3149",
+    "match_by": "model key cpu|intel core i9-14900kf (14th gen)|lga1700",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 3199,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬（散裝）",
+    "url": "https://shop.pegasus.hk/products/215337/Intel-Core-i9-14900KF-24核心32線程-Tray--不含散熱器---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": -517,
+   "best_price": 3199,
    "has_water": true,
    "has_official": true
   },
@@ -54173,70 +54188,6 @@
    "has_official": true
   },
   {
-   "id": "cpu|cpu|intel core i9-14900k (14th gen)|lga1700",
-   "category": "cpu",
-   "cooler_kind": null,
-   "brand": "Intel",
-   "model_key": "cpu|intel core i9-14900k (14th gen)|lga1700",
-   "part_number": "BX8071514900K",
-   "upc": null,
-   "title": "Intel Core i9-14900K (14th Gen)",
-   "spec": "LGA1700（Intel 12–14 代）",
-   "filter_tags": [
-    "LGA1700"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ef5fa4be525433f0.webp",
-   "image": "img/hk-ef5fa4be525433f0.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/1034.webp",
-   "water": {
-    "price_hkd": 3209,
-    "source": "jd",
-    "marketplace": "京東自營",
-    "marketplace_code": "JD",
-    "domain": "jd.com",
-    "asin": null,
-    "sku": "100070072275",
-    "url": "https://item.jd.com/100070072275.html",
-    "stock": "In stock",
-    "note": "上述標價對應優惠規則(滿贈) 原價¥3399",
-    "match_by": "model key cpu|intel core i9-14900k (14th gen)|lga1700",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 3590,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田（盒裝）",
-    "url": "https://centralfield.com/product/1034/intel-core-i9-14900k-processor-3",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬（盒裝）",
-      "price_hkd": 3599,
-      "url": "https://shop.pegasus.hk/products/215340/Intel-Core-i9-14900K-24核心32線程-Box--不含散熱器---3年保養",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE（盒裝）",
-      "price_hkd": 3799,
-      "url": "https://secomputer.com.hk/products/51177",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 381,
-   "best_price": 3209,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "cpu|cpu|intel core ultra 9 285k|lga1851",
    "category": "cpu",
    "cooler_kind": null,
@@ -54297,6 +54248,70 @@
    },
    "delta_hkd": 441,
    "best_price": 3509,
+   "has_water": true,
+   "has_official": true
+  },
+  {
+   "id": "cpu|cpu|intel core i9-14900k (14th gen)|lga1700",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core i9-14900k (14th gen)|lga1700",
+   "part_number": "BX8071514900K",
+   "upc": null,
+   "title": "Intel Core i9-14900K (14th Gen)",
+   "spec": "LGA1700（Intel 12–14 代）",
+   "filter_tags": [
+    "LGA1700"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ef5fa4be525433f0.webp",
+   "image": "img/hk-ef5fa4be525433f0.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/1034.webp",
+   "water": {
+    "price_hkd": 3893,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100070072275",
+    "url": "https://item.jd.com/100070072275.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥3299",
+    "match_by": "model key cpu|intel core i9-14900k (14th gen)|lga1700",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 3590,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田（盒裝）",
+    "url": "https://centralfield.com/product/1034/intel-core-i9-14900k-processor-3",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬（盒裝）",
+      "price_hkd": 3599,
+      "url": "https://shop.pegasus.hk/products/215340/Intel-Core-i9-14900K-24核心32線程-Box--不含散熱器---3年保養",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE（盒裝）",
+      "price_hkd": 3799,
+      "url": "https://secomputer.com.hk/products/51177",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": -303,
+   "best_price": 3590,
    "has_water": true,
    "has_official": true
   },
@@ -60286,6 +60301,61 @@
    "has_official": true
   },
   {
+   "id": "gpu|palit:5070:infinity+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Palit",
+   "model_key": "palit:5070:infinity+oc",
+   "part_number": "NE75070S19K9-GB2050S",
+   "upc": null,
+   "title": "Palit GeForce RTX 5070 Infinity 3 OC (12GB GDDR7/PCI Express 5.0/2542MHz/28000MHz)",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F48VLJ9R.jpg",
+   "image": "img/B0F48VLJ9R.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/6189ufBfu8L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 6860,
+    "source": "amazon",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0F48VLJ9R",
+    "sku": null,
+    "url": "https://www.amazon.es/dp/B0F48VLJ9R",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key palit:5070:infinity+oc",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7999,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/64558",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 7999,
+      "url": "https://centralfield.com/product/23641/palit-geforce-rtx-5070-infinity-3-oc-12gb",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 1139,
+   "best_price": 6860,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|asus:5070:dual+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -61565,123 +61635,6 @@
    },
    "delta_hkd": -1791,
    "best_price": 7300,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|palit:5070:infinity+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Palit",
-   "model_key": "palit:5070:infinity+oc",
-   "part_number": "NE75070S19K9-GB2050S",
-   "upc": null,
-   "title": "Palit GeForce RTX 5070 Infinity 3 OC (12GB GDDR7/PCI Express 5.0/2542MHz/28000MHz)",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F48VLJ9R.jpg",
-   "image": "img/B0F48VLJ9R.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/6189ufBfu8L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7333,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0F48VLJ9R",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0F48VLJ9R",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key palit:5070:infinity+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7999,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/64558",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 7999,
-      "url": "https://centralfield.com/product/23641/palit-geforce-rtx-5070-infinity-3-oc-12gb",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 666,
-   "best_price": 7333,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5070:oc+prime+white",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5070:oc+prime+white",
-   "part_number": "PRIME-RTX5070-O12G-WHITE",
-   "upc": "0199291046122",
-   "title": "ASUS PRIME GeForce RTX 5070 OC White 白色 12GB GDDR7 PRIME-RTX5070-O12G-WHITE (DI-E5070Q1…",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F8KLKQM3.jpg",
-   "image": "img/B0F8KLKQM3.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81GLS28VqWL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7347,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0F8KLKQM3",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0F8KLKQM3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5070:oc+prime+white",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 8299,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224494/ASUS-華碩-PRIME-GeForce-RTX-5070-12GB-White-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 8399,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
-      "build_only": false
-     },
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 8499,
-      "url": "https://pc.plus/product/skuvgasu00018",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 952,
-   "best_price": 7347,
    "has_water": true,
    "has_official": true
   },
@@ -63242,6 +63195,55 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070:oc+prime+white",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070:oc+prime+white",
+   "part_number": "PRIME-RTX5070-O12G-WHITE",
+   "upc": "0199291046122",
+   "title": "ASUS PRIME GeForce RTX 5070 OC White 白色 12GB GDDR7 PRIME-RTX5070-O12G-WHITE (DI-E5070Q1…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f89b9c0298db203d.png",
+   "image": "img/hk-f89b9c0298db203d.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f59046d7-ade0-4f2b-b54c-e3e448f81b00/public",
+   "water": null,
+   "official": {
+    "price_hkd": 8299,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224494/ASUS-華碩-PRIME-GeForce-RTX-5070-12GB-White-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 8399,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/asus-prime-geforce-rtx-5070-oc-white-12gb-gddr7-prime-rtx5070-o12g-white-di-e5070q1",
+      "build_only": false
+     },
+     {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 8499,
+      "url": "https://pc.plus/product/skuvgasu00018",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 8299,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5070:vanguard",
    "category": "gpu",
    "cooler_kind": null,
@@ -64403,6 +64405,61 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5070ti:oc+sff+windforce",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070ti:oc+sff+windforce",
+   "part_number": "GV-N507TWF3OC-16GD",
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX5070Ti WINDFORCE OC SFF 16G (GV-N507TWF3OC-16GD)",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGNB9Q5.jpg",
+   "image": "img/B0DTGNB9Q5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71aujv61egL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 10835,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DTGNB9Q5",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DTGNB9Q5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5070ti:oc+sff+windforce",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 12999,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/56479",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 13499,
+      "url": "https://shop.pegasus.hk/products/223262/GIGABYTE-技嘉-GeForce-RTX-5070-Ti-WINDFORCE-OC-SFF-16G-顯示卡---3年保養",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 2164,
+   "best_price": 10835,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|palit:5070ti:gamingpro",
    "category": "gpu",
    "cooler_kind": null,
@@ -64609,61 +64666,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070ti:oc+sff+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070ti:oc+sff+windforce",
-   "part_number": "GV-N507TWF3OC-16GD",
-   "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX5070Ti WINDFORCE OC SFF 16G (GV-N507TWF3OC-16GD)",
-   "spec": "RTX 5070 Ti",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGNB9Q5.jpg",
-   "image": "img/B0DTGNB9Q5.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71aujv61egL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 11148,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTGNB9Q5",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DTGNB9Q5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5070ti:oc+sff+windforce",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 12999,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/56479",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 13499,
-      "url": "https://shop.pegasus.hk/products/223262/GIGABYTE-技嘉-GeForce-RTX-5070-Ti-WINDFORCE-OC-SFF-16G-顯示卡---3年保養",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 1851,
-   "best_price": 11148,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5070ti:3x+oc+ventus",
    "category": "gpu",
    "cooler_kind": null,
@@ -64860,6 +64862,45 @@
    "official": null,
    "delta_hkd": null,
    "best_price": 11230,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|pny:5070ti:oc+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DXL7GSYC.jpg",
+   "image": "img/B0DXL7GSYC.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61Ib7Av4M+L._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 11261,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DXL7GSYC",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0DXL7GSYC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11261,
    "has_water": true,
    "has_official": false
   },
