@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-17T07:54:46Z",
- "generated_at_hkt": "2026-11-17 15:54 HKT",
- "price_updated_hkt": "2026-11-17 15:54 HKT",
+ "generated_at": "2026-11-17T08:54:44Z",
+ "generated_at_hkt": "2026-11-17 16:54 HKT",
+ "price_updated_hkt": "2026-11-17 16:54 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-17 09:56–10:39 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261117/hkcompare_rows.json",
@@ -14,7 +14,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 315,
+   "count": 314,
    "enabled": true
   },
   "cpu": {
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3077,
+  "items": 3076,
   "both_sides": 94,
-  "water_only": 121,
+  "water_only": 120,
   "official_only": 2860,
   "matched_water": 96,
-  "official_groups": 3077,
+  "official_groups": 3076,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -363,7 +363,7 @@
    "amazon_downloaded": 0,
    "amazon_cached": 148,
    "official_downloaded": 0,
-   "official_cached": 2602,
+   "official_cached": 2601,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -428,14 +428,14 @@
   ],
   "ivan": {
    "total_listings": 247,
-   "qualified": 253,
+   "qualified": 251,
    "deduped": 216,
    "gpu_brand_recovered": {
     "checked": 1,
     "recovered": 1
    },
    "excluded": {
-    "seller": 200,
+    "seller": 203,
     "no ship": 3,
     "not desktop GPU": 3
    },
@@ -66184,7 +66184,7 @@
     "asin": "B0DSWKJLJP",
     "sku": null,
     "url": "https://www.amazon.fr/dp/B0DSWKJLJP",
-    "stock": "Only 4 left in stock.",
+    "stock": "Only 3 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key palit:5080:gamingpro",
     "others": []
@@ -66335,7 +66335,7 @@
     "asin": "B0DYRZZJZ1",
     "sku": null,
     "url": "https://www.amazon.de/dp/B0DYRZZJZ1",
-    "stock": "Only 13 left in stock.",
+    "stock": "Available to ship in 1-2 days",
     "note": "已含運費 + 2%",
     "match_by": null,
     "others": []
@@ -66483,7 +66483,7 @@
     "asin": "B0DT9Y2B49",
     "sku": null,
     "url": "https://www.amazon.es/dp/B0DT9Y2B49",
-    "stock": "Only 2 left in stock.",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
     "others": []
@@ -66893,45 +66893,6 @@
    "best_price": 15499,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:gaming oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:gaming oc",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE GeForce RTX 5080 Gaming OC 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
-   "image": "img/B0DSQ1RCZV.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 15557,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DSQ1RCZV",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DSQ1RCZV",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15557,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "gpu|msi:5080:oc",
@@ -71728,49 +71689,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B760:mATX:b760m-aorus-elite-wifi6e:ddr4:wifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B760:mATX:b760m-aorus-elite-wifi6e:ddr4:wifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE B760M AORUS ELITE WIFI6E DDR4 GEN5 with Intel B760 Micro-ATX Motherboard B760M A E WF6E D4 G5 MB6762",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": true,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F9JS2B81.jpg",
-   "image": "img/B0F9JS2B81.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81mBfyzxleL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 1060,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F9JS2B81",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F9JS2B81",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 1060,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asus:B760:mATX:tuf-gaming-b760m-plus-wifi:ddr4:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -71842,6 +71760,49 @@
    "best_price": 1058,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B760:mATX:b760m-aorus-elite-wifi6e:ddr4:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B760:mATX:b760m-aorus-elite-wifi6e:ddr4:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE B760M AORUS ELITE WIFI6E DDR4 GEN5 with Intel B760 Micro-ATX Motherboard B760M A E WF6E D4 G5 MB6762",
+   "spec": "B760（DDR4）",
+   "filter_tags": [
+    "B760",
+    "DDR4",
+    "B760-DDR4"
+   ],
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F9JS2B81.jpg",
+   "image": "img/B0F9JS2B81.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81mBfyzxleL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 1060,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F9JS2B81",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F9JS2B81",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1060,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:msi:B860:mATX:pro-b860m:ddr5:wifi:",
@@ -104982,9 +104943,9 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b118da33c2294252.png",
-   "image": "img/hk-b118da33c2294252.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f2cba9d3-6043-488e-27f9-3f082d14d200/public",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09C5X1T7V.jpg",
+   "image": "img/B09C5X1T7V.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71bOpUCORIL._AC_SL1500_.jpg",
    "water": {
     "price_hkd": 3838,
     "source": "amazon",
@@ -114246,6 +114207,49 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:5200:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:64:5200:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5, 64GB (32GB x 2), Up to 5,200 MHz, AMD/Intel RAM",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BHVFDK3L.jpg",
+   "image": "img/B0BHVFDK3L.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71O+5BneBVL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 8190,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BHVFDK3L",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BHVFDK3L",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 8190,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:lexar:x:6000c40:ddr5:dimm:64:6000:black:2x32:cl?",
    "category": "ram",
    "cooler_kind": null,
@@ -114330,49 +114334,6 @@
    "best_price": 8199,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:5200:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:64:5200:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5, 64GB (32GB x 2), Up to 5,200 MHz, AMD/Intel RAM",
-   "spec": "DDR5 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "32×2"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BHVFDK3L.jpg",
-   "image": "img/B0BHVFDK3L.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71O+5BneBVL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 8190,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BHVFDK3L",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0BHVFDK3L",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 8190,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:adata:lancerbladergb:ddr5:dimm:64:6000:white:2x32:cl30",
