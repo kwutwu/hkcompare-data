@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 3106,
-  "both_sides": 91,
+  "both_sides": 92,
   "water_only": 125,
-  "official_only": 2889,
-  "matched_water": 93,
+  "official_only": 2888,
+  "matched_water": 94,
   "official_groups": 3106,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -57136,7 +57136,7 @@
    "image": "img/B0F539PRT3.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71S5gCXJKCL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4558,
+    "price_hkd": 4559,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -57166,8 +57166,8 @@
      }
     ]
    },
-   "delta_hkd": 341,
-   "best_price": 4558,
+   "delta_hkd": 340,
+   "best_price": 4559,
    "has_water": true,
    "has_official": true
   },
@@ -57238,7 +57238,7 @@
    "image": "img/B0FFVM8LNC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71ZGXiEEPbL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4583,
+    "price_hkd": 4580,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -57268,8 +57268,8 @@
      }
     ]
    },
-   "delta_hkd": 16,
-   "best_price": 4583,
+   "delta_hkd": 19,
+   "best_price": 4580,
    "has_water": true,
    "has_official": true
   },
@@ -57658,7 +57658,7 @@
    "image": "img/B0F4ZGWSPJ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/713i93WqAML._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4692,
+    "price_hkd": 4689,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -57673,7 +57673,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 4692,
+   "best_price": 4689,
    "has_water": true,
    "has_official": false
   },
@@ -57795,7 +57795,7 @@
    "image": "img/B0BSHD2SQ5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81MNpj2q4IL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4726,
+    "price_hkd": 4724,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -57817,8 +57817,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 773,
-   "best_price": 4726,
+   "delta_hkd": 775,
+   "best_price": 4724,
    "has_water": true,
    "has_official": true
   },
@@ -58023,7 +58023,7 @@
    "image": "img/B0F8BQ3KYW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51N310J-GcL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 5287,
+    "price_hkd": 5283,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -58045,7 +58045,7 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -388,
+   "delta_hkd": -384,
    "best_price": 4899,
    "has_water": true,
    "has_official": true
@@ -58070,7 +58070,7 @@
    "image": "img/B0F5PRHDHJ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81J0etyr8ML._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4920,
+    "price_hkd": 5058,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -58107,8 +58107,8 @@
      }
     ]
    },
-   "delta_hkd": 279,
-   "best_price": 4920,
+   "delta_hkd": 141,
+   "best_price": 5058,
    "has_water": true,
    "has_official": true
   },
@@ -58624,7 +58624,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-64a7f9a18003f65b.png",
    "image": "img/hk-64a7f9a18003f65b.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/2bd4d49f-aa32-46d6-18ac-7a6bb8fbcc00/public",
-   "water": null,
+   "water": {
+    "price_hkd": 4413,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H8XFRNDL",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0H8XFRNDL",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti8:oc",
+    "others": []
+   },
    "official": {
     "price_hkd": 5199,
     "store": "飛馬 PEGASUS",
@@ -58649,9 +58662,9 @@
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 5199,
-   "has_water": false,
+   "delta_hkd": 786,
+   "best_price": 4413,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -58826,7 +58839,7 @@
    "image": "img/B0F4DVXKKX.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81-U0K9a7mL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 5702,
+    "price_hkd": 5631,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -58870,7 +58883,7 @@
      }
     ]
    },
-   "delta_hkd": -303,
+   "delta_hkd": -232,
    "best_price": 5399,
    "has_water": true,
    "has_official": true
@@ -59067,7 +59080,7 @@
    "image": "img/B0F4DSTZ2D.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81mJlI7yz5L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6025,
+    "price_hkd": 5891,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -59097,7 +59110,7 @@
      }
     ]
    },
-   "delta_hkd": -475,
+   "delta_hkd": -341,
    "best_price": 5550,
    "has_water": true,
    "has_official": true
@@ -59827,14 +59840,14 @@
    "image": "img/B0F4DVKSZ4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81kYKB0Aj5L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6287,
+    "price_hkd": 6010,
     "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
     "asin": "B0F4DVKSZ4",
     "sku": null,
-    "url": "https://www.amazon.es/dp/B0F4DVKSZ4",
+    "url": "https://www.amazon.fr/dp/B0F4DVKSZ4",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5060ti16:dual+oc",
@@ -59871,8 +59884,8 @@
      }
     ]
    },
-   "delta_hkd": 512,
-   "best_price": 6287,
+   "delta_hkd": 789,
+   "best_price": 6010,
    "has_water": true,
    "has_official": true
   },
@@ -59945,14 +59958,14 @@
    "image": "img/B0F4DQYLP5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81DUf-juX8L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6304,
+    "price_hkd": 6084,
     "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
     "asin": "B0F4DQYLP5",
     "sku": null,
-    "url": "https://www.amazon.fr/dp/B0F4DQYLP5",
+    "url": "https://www.amazon.de/dp/B0F4DQYLP5",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5060ti16:oc+prime",
@@ -59996,8 +60009,8 @@
      }
     ]
    },
-   "delta_hkd": 695,
-   "best_price": 6304,
+   "delta_hkd": 915,
+   "best_price": 6084,
    "has_water": true,
    "has_official": true
   },
@@ -60063,7 +60076,7 @@
    "image": "img/B0FFTV8J6G.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71d2DTg6rJL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6378,
+    "price_hkd": 6686,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -60085,8 +60098,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 421,
-   "best_price": 6378,
+   "delta_hkd": 113,
+   "best_price": 6686,
    "has_water": true,
    "has_official": true
   },
@@ -60110,14 +60123,14 @@
    "image": "img/B0F4NFDQ3B.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71mdlnHYujL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6385,
+    "price_hkd": 6492,
     "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
     "asin": "B0F4NFDQ3B",
     "sku": null,
-    "url": "https://www.amazon.it/dp/B0F4NFDQ3B",
+    "url": "https://www.amazon.de/dp/B0F4NFDQ3B",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5060ti16:eagle+ice+oc",
@@ -60132,8 +60145,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 1214,
-   "best_price": 6385,
+   "delta_hkd": 1107,
+   "best_price": 6492,
    "has_water": true,
    "has_official": true
   },
@@ -60702,14 +60715,14 @@
    "image": "img/B0F4NHSHSQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71ID30PninL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6737,
+    "price_hkd": 6585,
     "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
     "asin": "B0F4NHSHSQ",
     "sku": null,
-    "url": "https://www.amazon.es/dp/B0F4NHSHSQ",
+    "url": "https://www.amazon.de/dp/B0F4NHSHSQ",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -60717,7 +60730,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6737,
+   "best_price": 6585,
    "has_water": true,
    "has_official": false
   },
@@ -61344,7 +61357,7 @@
    "image": "img/B0F4VGXQXF.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81PdOP3CAeL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 8511,
+    "price_hkd": 8513,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -61381,7 +61394,7 @@
      }
     ]
    },
-   "delta_hkd": -1412,
+   "delta_hkd": -1414,
    "best_price": 7099,
    "has_water": true,
    "has_official": true
@@ -61842,7 +61855,7 @@
    "image": "img/B0F58FTZ7W.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81m-C5XpV5L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7231,
+    "price_hkd": 7232,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -61857,7 +61870,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7231,
+   "best_price": 7232,
    "has_water": true,
    "has_official": false
   },
@@ -62485,7 +62498,7 @@
    "image": "img/B0F4NFVZBK.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71DZcs4WckL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7392,
+    "price_hkd": 7387,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -62500,7 +62513,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7392,
+   "best_price": 7387,
    "has_water": true,
    "has_official": false
   },
