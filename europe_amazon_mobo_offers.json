@@ -1,12 +1,12 @@
 {
   "schema": "hkcompare.europe_mobo_sidecar.v1",
-  "prepared_hkt": "2026-11-18 14:26:42 HKT",
+  "prepared_hkt": "2026-11-18 16:48:28 HKT",
   "source_run": "2026-11-18_1334HKT",
   "source_offers_sha256": "83f03c26be9d18d3251a5c068e0d2d559923249d01d831c2a1e2af138c521629",
   "source_candidates_sha256": "f44bdcbe4b2ef08a1d75818b6276ca27feaff437ba04452ee9e8367d77d35ea5",
   "source_manifest_sha256": "dc7b0251bea1d5db9838bc68bc0ca9f04a123778b5e701073dde2c51c440d824",
-  "base_commit": "436307ad0cad567d6ef3be72d56744b323d40826",
-  "base_data_sha256": "2f2bd1ee243c0a8b95aeb9908191ac044e697efd1f174fbb2b861ea014970368",
+  "base_commit": "ed80891ac17bde41518c4ac941a1abb5f76dd2df",
+  "base_data_sha256": "06eb619ac0684abe4791fb05d15710f61c1793ab53b29c127cd52e76fc4a3a93",
   "fx": {
     "source": "European Central Bank eurofxref-daily.xml",
     "source_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
@@ -89,7 +89,7 @@
     "No fuzzy-only match or new catalog cards; unmatched/ambiguous/quarantined rows excluded from ingest",
     "B550/H610 were out of this run's scope and were not ingested",
     "Both price histories deliberately unchanged vs current origin/main tip",
-    "No build.py Europe persistence hook; a later sync_prices can wipe this overlay again"
+    "build.py re-applies this sidecar during sync_prices (overlay, not replace) with 13-hour source-clock retain on updated_hkt; incomplete marketplace polls do not mass-drop"
   ],
   "offers": [
     {
@@ -221,8 +221,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -354,8 +354,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -487,8 +487,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -620,8 +620,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -753,8 +753,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -886,8 +886,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -1019,8 +1019,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -1152,8 +1152,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -1285,8 +1285,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -1418,8 +1418,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -1551,8 +1551,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -1684,8 +1684,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -1817,8 +1817,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -1950,8 +1950,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": true,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -2083,8 +2083,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -2216,8 +2216,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -2349,8 +2349,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -2482,8 +2482,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -2615,8 +2615,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -2748,8 +2748,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -2881,8 +2881,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -3014,8 +3014,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -3147,8 +3147,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -3280,8 +3280,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -3413,8 +3413,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -3546,8 +3546,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -3679,8 +3679,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -3812,8 +3812,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -3945,8 +3945,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -4078,8 +4078,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -4211,8 +4211,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -4344,8 +4344,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -4477,8 +4477,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -4610,8 +4610,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -4743,8 +4743,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -4876,8 +4876,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -5009,8 +5009,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -5142,8 +5142,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -5275,8 +5275,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -5408,8 +5408,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -5541,8 +5541,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -5674,8 +5674,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -5807,8 +5807,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -5940,8 +5940,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -6073,8 +6073,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -6206,8 +6206,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -6339,8 +6339,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -6472,8 +6472,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -6605,8 +6605,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -6738,8 +6738,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -6871,8 +6871,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -7004,8 +7004,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -7137,8 +7137,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -7270,8 +7270,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -7403,8 +7403,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -7536,8 +7536,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -7669,8 +7669,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -7802,8 +7802,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -7935,8 +7935,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -8068,8 +8068,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -8201,8 +8201,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -8334,8 +8334,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -8467,8 +8467,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -8600,8 +8600,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -8733,8 +8733,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -8866,8 +8866,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -8999,8 +8999,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -9132,8 +9132,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -9265,8 +9265,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -9398,8 +9398,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -9531,8 +9531,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -9664,8 +9664,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -9797,8 +9797,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -9930,8 +9930,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -10063,8 +10063,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -10196,8 +10196,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -10329,8 +10329,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -10462,8 +10462,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -10595,8 +10595,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -10728,8 +10728,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -10861,8 +10861,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -10994,8 +10994,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -11127,8 +11127,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -11260,8 +11260,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -11393,8 +11393,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -11526,8 +11526,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -11659,8 +11659,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -11792,8 +11792,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -11925,8 +11925,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -12058,8 +12058,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -12191,8 +12191,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -12324,8 +12324,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -12457,8 +12457,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": true,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -12590,8 +12590,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -12723,8 +12723,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -12856,8 +12856,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -12989,8 +12989,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -13122,8 +13122,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -13255,8 +13255,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -13388,8 +13388,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -13521,8 +13521,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -13654,8 +13654,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -13787,8 +13787,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -13920,8 +13920,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -14053,8 +14053,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -14186,8 +14186,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -14319,8 +14319,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -14452,8 +14452,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -14585,8 +14585,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -14718,8 +14718,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -14851,8 +14851,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -14984,8 +14984,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -15117,8 +15117,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -15250,8 +15250,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -15383,8 +15383,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -15516,8 +15516,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -15649,8 +15649,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -15782,8 +15782,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -15915,8 +15915,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -16048,8 +16048,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -16181,8 +16181,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -16314,8 +16314,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -16447,8 +16447,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -16580,8 +16580,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -16713,8 +16713,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -16846,8 +16846,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -16979,8 +16979,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -17112,8 +17112,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -17245,8 +17245,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -17378,8 +17378,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -17511,8 +17511,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -17644,8 +17644,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -17777,8 +17777,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -17910,8 +17910,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -18043,8 +18043,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -18176,8 +18176,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -18309,8 +18309,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -18442,8 +18442,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -18575,8 +18575,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -18708,8 +18708,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -18841,8 +18841,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -18974,8 +18974,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -19107,8 +19107,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -19240,8 +19240,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -19373,8 +19373,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -19506,8 +19506,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "matched_existing",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "matched_existing"
       }
     },
     {
@@ -19639,8 +19639,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -19772,8 +19772,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -19905,8 +19905,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -20038,8 +20038,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -20171,8 +20171,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -20304,8 +20304,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -20437,8 +20437,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -20570,8 +20570,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -20703,8 +20703,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -20836,8 +20836,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -20969,8 +20969,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -21102,8 +21102,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -21235,8 +21235,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -21368,8 +21368,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "quarantined_identity",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "quarantined_identity"
       }
     },
     {
@@ -21501,8 +21501,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -21634,8 +21634,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -21767,8 +21767,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -21900,8 +21900,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -22033,8 +22033,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -22166,8 +22166,8 @@
         "checkout_verified": false,
         "new_asin": true,
         "new_allow": false,
-        "yesterday_status": null,
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": null
       }
     },
     {
@@ -22299,8 +22299,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     },
     {
@@ -22432,8 +22432,8 @@
         "checkout_verified": false,
         "new_asin": false,
         "new_allow": false,
-        "yesterday_status": "unmatched_catalog",
-        "original_eligibility_reasons": []
+        "original_eligibility_reasons": [],
+        "yesterday_status": "unmatched_catalog"
       }
     }
   ],
