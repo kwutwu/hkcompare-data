@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-18T06:13:47Z",
- "generated_at_hkt": "2026-11-18 14:13 HKT",
- "price_updated_hkt": "2026-11-18 14:13 HKT",
+ "generated_at": "2026-11-18T06:57:13Z",
+ "generated_at_hkt": "2026-11-18 14:57 HKT",
+ "price_updated_hkt": "2026-11-18 14:57 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-18 10:00–10:29 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261118/hkcompare_rows.json",
@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 3106,
-  "both_sides": 105,
+  "both_sides": 85,
   "water_only": 125,
-  "official_only": 2875,
-  "matched_water": 107,
+  "official_only": 2895,
+  "matched_water": 87,
   "official_groups": 3106,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -362,8 +362,8 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 142,
-   "official_downloaded": 2,
-   "official_cached": 2633,
+   "official_downloaded": 0,
+   "official_cached": 2635,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -428,14 +428,14 @@
   ],
   "ivan": {
    "total_listings": 247,
-   "qualified": 244,
+   "qualified": 247,
    "deduped": 212,
    "gpu_brand_recovered": {
     "checked": 2,
     "recovered": 2
    },
    "excluded": {
-    "seller": 206,
+    "seller": 203,
     "no ship": 3,
     "not desktop GPU": 3
    },
@@ -66650,7 +66650,7 @@
    "image": "img/B0GZWW2RKH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-wInvRLoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 13422,
+    "price_hkd": 13397,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -66687,8 +66687,8 @@
      }
     ]
    },
-   "delta_hkd": 1928,
-   "best_price": 13422,
+   "delta_hkd": 1953,
+   "best_price": 13397,
    "has_water": true,
    "has_official": true
   },
@@ -67471,7 +67471,7 @@
    "image": "img/B0DSQ3B6PH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SU2rvRJ4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15826,
+    "price_hkd": 15796,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67486,7 +67486,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15826,
+   "best_price": 15796,
    "has_water": true,
    "has_official": false
   },
@@ -67907,7 +67907,7 @@
    "image": "img/B0DT9YQ2Q1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Aro7B+zzL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16278,
+    "price_hkd": 16247,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67922,7 +67922,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16278,
+   "best_price": 16247,
    "has_water": true,
    "has_official": false
   },
@@ -68083,6 +68083,53 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5080:aorus+infinity+wood",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5080:aorus+infinity+wood",
+   "part_number": "GV-N5080AORUSIFWD-16GD",
+   "upc": null,
+   "title": "GIGABYTE AORUS GeForce RTX 5080 INFINITY WOOD 16G Graphics Card",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H86338KX.jpg",
+   "image": "img/B0H86338KX.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/714ho10YxyL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 17086,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0H86338KX",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0H86338KX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5080:aorus+infinity+wood",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 21999,
+    "store": "SE Computer",
+    "store_short": "SE",
+    "url": "https://secomputer.com.hk/products/64266",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 4913,
+   "best_price": 17086,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|galax:5080:gaming",
    "category": "gpu",
    "cooler_kind": null,
@@ -68156,53 +68203,6 @@
    "delta_hkd": null,
    "best_price": 17099,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5080:aorus+infinity+wood",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aorus+infinity+wood",
-   "part_number": "GV-N5080AORUSIFWD-16GD",
-   "upc": null,
-   "title": "GIGABYTE AORUS GeForce RTX 5080 INFINITY WOOD 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H86338KX.jpg",
-   "image": "img/B0H86338KX.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/714ho10YxyL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 17118,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0H86338KX",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0H86338KX",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5080:aorus+infinity+wood",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 21999,
-    "store": "SE Computer",
-    "store_short": "SE",
-    "url": "https://secomputer.com.hk/products/64266",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 4881,
-   "best_price": 17118,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -69729,20 +69729,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-01ad95b560355c1f.png",
    "image": "img/hk-01ad95b560355c1f.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/7e89b491-f62a-44ea-b41d-eb3204e33a00/public",
-   "water": {
-    "price_hkd": 1260,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DQNFT8QT",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DQNFT8QT",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DQNFT8QT",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 699,
     "store": "飛馬 PEGASUS",
@@ -69760,9 +69747,9 @@
      }
     ]
    },
-   "delta_hkd": -561,
+   "delta_hkd": null,
    "best_price": 699,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -70632,21 +70619,7 @@
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
-    "others": [
-     {
-      "price_hkd": 838,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B0BNQDVLGN",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B0BNQDVLGN",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-      "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0BNQDVLGN"
-     }
-    ]
+    "others": []
    },
    "official": null,
    "delta_hkd": null,
@@ -72086,21 +72059,7 @@
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
-    "others": [
-     {
-      "price_hkd": 1601,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DQQCFFHT",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DQQCFFHT",
-      "stock": "Only 5 left in stock (more on the way).",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DQQCFFHT"
-     }
-    ]
+    "others": []
    },
    "official": null,
    "delta_hkd": null,
@@ -75049,20 +75008,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7b9d89d881f2cf37.png",
    "image": "img/hk-7b9d89d881f2cf37.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ASUS_TUF_GAMING_B760M-PLUS_WIFI_II_5.png?v=1748691019",
-   "water": {
-    "price_hkd": 2031,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0CSPCVTV1",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0CSPCVTV1",
-    "stock": "Only 10 left in stock.",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-    "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0CSPCVTV1",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 1560,
     "store": "Jumbo 珍寶電腦",
@@ -75094,9 +75040,9 @@
      }
     ]
    },
-   "delta_hkd": -471,
+   "delta_hkd": null,
    "best_price": 1560,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -76834,34 +76780,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DQ68TV3W.jpg",
    "image": "img/B0DQ68TV3W.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/P/B0DQ68TV3W.01._SCLZZZZZZZ_SX1000_.jpg",
-   "water": {
-    "price_hkd": 1734,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DPMRBJVC",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DPMRBJVC",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DPMRBJVC",
-    "others": [
-     {
-      "price_hkd": 1968,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DPMRBJVC",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DPMRBJVC",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DPMRBJVC"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 1850,
     "store": "Jumbo 珍寶電腦",
@@ -76886,9 +76805,9 @@
      }
     ]
    },
-   "delta_hkd": 116,
-   "best_price": 1734,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 1850,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -77391,34 +77310,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-98394b3c95d728f7.webp",
    "image": "img/hk-98394b3c95d728f7.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_483cd215334c8519e2f53304574b2a52.webp",
-   "water": {
-    "price_hkd": 2027,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0GYS86T2W",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0GYS86T2W",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0GYS86T2W",
-    "others": [
-     {
-      "price_hkd": 2164,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0GYS86T2W",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0GYS86T2W",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0GYS86T2W"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 1899,
     "store": "SE Computer",
@@ -77436,9 +77328,9 @@
      }
     ]
    },
-   "delta_hkd": -128,
+   "delta_hkd": null,
    "best_price": 1899,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -77570,20 +77462,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ae7b6d49ff36066a.png",
    "image": "img/hk-ae7b6d49ff36066a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b02f1eac-a061-442d-d2ab-dbcb76559200/public",
-   "water": {
-    "price_hkd": 1652,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DQ2773J1",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DQ2773J1",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DQ2773J1",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 1949,
     "store": "飛馬 PEGASUS",
@@ -77593,9 +77472,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 297,
-   "best_price": 1652,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 1949,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -77714,20 +77593,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-643d7e31126efbc3.png",
    "image": "img/hk-643d7e31126efbc3.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/aab0df93-3875-4b0c-a2e9-9c6e7af2ec00/public",
-   "water": {
-    "price_hkd": 1603,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0DPMT7BS3",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0DPMT7BS3",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-    "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DPMT7BS3",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 1960,
     "store": "飛馬 PEGASUS",
@@ -77737,9 +77603,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 357,
-   "best_price": 1603,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 1960,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -78340,34 +78206,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-215a333d41466a91.webp",
    "image": "img/hk-215a333d41466a91.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/7729.webp",
-   "water": {
-    "price_hkd": 2011,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DLWVQVT6",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DLWVQVT6",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DLWVQVT6",
-    "others": [
-     {
-      "price_hkd": 2521,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DLWVQVT6",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DLWVQVT6",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DLWVQVT6"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 2080,
     "store": "中田電腦 Centralfield",
@@ -78377,9 +78216,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 69,
-   "best_price": 2011,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 2080,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -78524,20 +78363,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9443caed260d8e61.webp",
    "image": "img/hk-9443caed260d8e61.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_ca6240348f0ea385e7f2b595fd45d679.webp",
-   "water": {
-    "price_hkd": 2774,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0GPD5XHFW",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0GPD5XHFW",
-    "stock": null,
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-    "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0GPD5XHFW",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 2099,
     "store": "SE Computer",
@@ -78555,9 +78381,9 @@
      }
     ]
    },
-   "delta_hkd": -675,
+   "delta_hkd": null,
    "best_price": 2099,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -79841,20 +79667,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4ddf3fa3210e79d5.webp",
    "image": "img/hk-4ddf3fa3210e79d5.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/6550.webp",
-   "water": {
-    "price_hkd": 2121,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DCZM8QK5",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DCZM8QK5",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DCZM8QK5",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 2380,
     "store": "中田電腦 Centralfield",
@@ -79872,9 +79685,9 @@
      }
     ]
    },
-   "delta_hkd": 259,
-   "best_price": 2121,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 2380,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -79935,20 +79748,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-48cdce9d7194efc3.png",
    "image": "img/hk-48cdce9d7194efc3.png",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_b5857138f85bfb232a8f55916e443bb7.png",
-   "water": {
-    "price_hkd": 1784,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DG4K31QP",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DG4K31QP",
-    "stock": "Only 1 left in stock.",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DG4K31QP",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 2398,
     "store": "SE Computer",
@@ -79958,9 +79758,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 614,
-   "best_price": 1784,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 2398,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -79982,34 +79782,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-14257aedf93f4b40.jpg",
    "image": "img/hk-14257aedf93f4b40.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3e2ce0d0-c6b8-440b-17a3-d73b4f79df00/public",
-   "water": {
-    "price_hkd": 1674,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DP5FBV4P",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DP5FBV4P",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DP5FBV4P",
-    "others": [
-     {
-      "price_hkd": 1872,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DP5FBV4P",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DP5FBV4P",
-      "stock": null,
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DP5FBV4P"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 2399,
     "store": "飛馬 PEGASUS",
@@ -80019,9 +79792,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 725,
-   "best_price": 1674,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 2399,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -80382,62 +80155,22 @@
    "image": "img/B0DK4YHHJQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71n2vXM6F6L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1652,
+    "price_hkd": 2528,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DJDF92JW",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DK4YHHJQ",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0DJDF92JW",
+    "url": "https://www.amazon.co.jp/dp/B0DK4YHHJQ",
     "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DJDF92JW",
-    "others": [
-     {
-      "price_hkd": 2015,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DJDF92JW",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DJDF92JW",
-      "stock": null,
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DJDF92JW"
-     },
-     {
-      "price_hkd": 2528,
-      "source": "amazon",
-      "marketplace": "日本 Amazon",
-      "marketplace_code": "JP",
-      "domain": "amazon.co.jp",
-      "asin": "B0DK4YHHJQ",
-      "sku": null,
-      "url": "https://www.amazon.co.jp/dp/B0DK4YHHJQ",
-      "stock": "In stock",
-      "note": "已含運費 + 2%",
-      "match_by": null
-     },
-     {
-      "price_hkd": 3097,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DGWHZKMC",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DGWHZKMC",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DGWHZKMC"
-     }
-    ]
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1652,
+   "best_price": 2528,
    "has_water": true,
    "has_official": false
   },
@@ -80801,20 +80534,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DGWNVCHL.jpg",
    "image": "img/B0DGWNVCHL.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/P/B0DGWNVCHL.01._SCLZZZZZZZ_SX1000_.jpg",
-   "water": {
-    "price_hkd": 2222,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DJDFKV2J",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DJDFKV2J",
-    "stock": "Available to ship in 1-2 days",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DJDFKV2J",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 2690,
     "store": "Jumbo 珍寶電腦",
@@ -80839,9 +80559,9 @@
      }
     ]
    },
-   "delta_hkd": 468,
-   "best_price": 2222,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 2690,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -80863,34 +80583,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0D66D6GW9.jpg",
    "image": "img/B0D66D6GW9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/P/B0D66D6GW9.01._SCLZZZZZZZ_SX1000_.jpg",
-   "water": {
-    "price_hkd": 2000,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DJDG5GGN",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DJDG5GGN",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DJDG5GGN",
-    "others": [
-     {
-      "price_hkd": 2630,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DJDG5GGN",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DJDG5GGN",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DJDG5GGN"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 2690,
     "store": "Jumbo 珍寶電腦",
@@ -80908,9 +80601,9 @@
      }
     ]
    },
-   "delta_hkd": 690,
-   "best_price": 2000,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 2690,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -81273,20 +80966,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d842b71d79dc2e2c.jpg",
    "image": "img/hk-d842b71d79dc2e2c.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/177005a0-8a05-428d-ac6f-27a81497b500/public",
-   "water": {
-    "price_hkd": 2200,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DP5F4WH3",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DP5F4WH3",
-    "stock": "Only 1 left in stock (more on the way).",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DP5F4WH3",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 2799,
     "store": "飛馬 PEGASUS",
@@ -81318,9 +80998,9 @@
      }
     ]
    },
-   "delta_hkd": 599,
-   "best_price": 2200,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 2799,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -81554,34 +81234,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8ca3b69889b85b1a.png",
    "image": "img/hk-8ca3b69889b85b1a.png",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_fe32398de0c5c6f294faaada6ce650fa.png",
-   "water": {
-    "price_hkd": 1889,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DGQ9C2TH",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DGQ9C2TH",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DGQ9C2TH",
-    "others": [
-     {
-      "price_hkd": 2397,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DGQ9C2TH",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DGQ9C2TH",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DGQ9C2TH"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 2910,
     "store": "SE Computer",
@@ -81606,9 +81259,9 @@
      }
     ]
    },
-   "delta_hkd": 1021,
-   "best_price": 1889,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 2910,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -82529,34 +82182,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTCS854H.jpg",
    "image": "img/B0DTCS854H.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/P/B0DTCS854H.01._SCLZZZZZZZ_SX1000_.jpg",
-   "water": {
-    "price_hkd": 1904,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DJDFR3L5",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DJDFR3L5",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DJDFR3L5",
-    "others": [
-     {
-      "price_hkd": 2376,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DJDFR3L5",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DJDFR3L5",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DJDFR3L5"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 3650,
     "store": "未來科技 BUYMORE",
@@ -82574,9 +82200,9 @@
      }
     ]
    },
-   "delta_hkd": 1746,
-   "best_price": 1904,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 3650,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -82763,20 +82389,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-436e2246c3d93c4d.webp",
    "image": "img/hk-436e2246c3d93c4d.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_297f35f7480b18145e445994572edfaa.webp",
-   "water": {
-    "price_hkd": 2022,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DGQ91QLK",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DGQ91QLK",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DGQ91QLK",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 3899,
     "store": "SE Computer",
@@ -82801,9 +82414,9 @@
      }
     ]
    },
-   "delta_hkd": 1877,
-   "best_price": 2022,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 3899,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -82961,20 +82574,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DGW9S82G.jpg",
    "image": "img/B0DGW9S82G.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/P/B0DGW9S82G.01._SCLZZZZZZZ_SX1000_.jpg",
-   "water": {
-    "price_hkd": 3197,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DL75T61Q",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DL75T61Q",
-    "stock": "Only 4 left in stock (more on the way).",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0DL75T61Q",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 4050,
     "store": "Jumbo 珍寶電腦",
@@ -82999,9 +82599,9 @@
      }
     ]
    },
-   "delta_hkd": 853,
-   "best_price": 3197,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 4050,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -83345,34 +82945,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b9f41877ec61eb19.webp",
    "image": "img/hk-b9f41877ec61eb19.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_783c10bf8f1c300c12d400c2b2192669.webp",
-   "water": {
-    "price_hkd": 2444,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B09J4X4DCQ",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B09J4X4DCQ",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B09J4X4DCQ",
-    "others": [
-     {
-      "price_hkd": 3204,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B09J4X4DCQ",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B09J4X4DCQ",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B09J4X4DCQ"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 4399,
     "store": "SE Computer",
@@ -83397,9 +82970,9 @@
      }
     ]
    },
-   "delta_hkd": 1955,
-   "best_price": 2444,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 4399,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -84020,34 +83593,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4b596454ca4b05ba.webp",
    "image": "img/hk-4b596454ca4b05ba.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/21137.webp",
-   "water": {
-    "price_hkd": 5115,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0H7VQYD23",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0H7VQYD23",
-    "stock": "Only 4 left in stock (more on the way).",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0H7VQYD23",
-    "others": [
-     {
-      "price_hkd": 6208,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0H7VQYD23",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0H7VQYD23",
-      "stock": "Only 4 left in stock (more on the way).",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-      "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0H7VQYD23"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 6150,
     "store": "中田電腦 Centralfield",
@@ -84057,9 +83603,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 1035,
-   "best_price": 5115,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 6150,
+   "has_water": false,
    "has_official": true
   },
   {
