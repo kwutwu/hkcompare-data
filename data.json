@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 390,
+   "count": 391,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 377,
+   "count": 378,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3106,
-  "both_sides": 85,
-  "water_only": 125,
-  "official_only": 2895,
-  "matched_water": 87,
-  "official_groups": 3106,
+  "items": 3108,
+  "both_sides": 86,
+  "water_only": 127,
+  "official_only": 2894,
+  "matched_water": 88,
+  "official_groups": 3108,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -441,10 +441,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 59,
-    "nic_jp_rows": 82,
-    "nic_jp_retained": 4,
-    "nic_jp_dropped_stale": 51,
-    "nic_jp_retain_now_hkt": "2026-11-18 12:49:49 HKT",
+    "nic_jp_rows": 86,
+    "nic_jp_retained": 5,
+    "nic_jp_dropped_stale": 47,
+    "nic_jp_retain_now_hkt": "2026-11-18 15:48:04 HKT",
     "nic_jp_cache_size": 133,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -70481,7 +70481,7 @@
    "image": "img/B0BRMRNHPW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61DkzgMaghL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 805,
+    "price_hkd": 802,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -70532,8 +70532,8 @@
      }
     ]
    },
-   "delta_hkd": 240,
-   "best_price": 805,
+   "delta_hkd": 243,
+   "best_price": 802,
    "has_water": true,
    "has_official": true
   },
@@ -105671,7 +105671,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b118da33c2294252.png",
    "image": "img/hk-b118da33c2294252.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f2cba9d3-6043-488e-27f9-3f082d14d200/public",
-   "water": null,
+   "water": {
+    "price_hkd": 3844,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09C5X1T7V",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09C5X1T7V",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key ram:corsair:vengeancergbrs:ddr4:dimm:32:3200:black:2x16:cl16",
+    "others": []
+   },
    "official": {
     "price_hkd": 2399,
     "store": "飛馬 PEGASUS",
@@ -105696,9 +105709,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -1445,
    "best_price": 2399,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -124109,6 +124122,88 @@
    "best_price": 4480,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:X870:?:x870e-aorus-pro-x3d:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:X870:?:x870e-aorus-pro-x3d:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE X870E AORUS PRO X3D ATX Motherboard X870E A PRO X MB6933",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0G5ZXFXNH.jpg",
+   "image": "img/B0G5ZXFXNH.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81+ERhz-mVL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2742,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0G5ZXFXNH",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0G5ZXFXNH",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2742,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergbpro:ddr4:dimm:32:3600:black:2x16:cl18|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergbpro:ddr4:dimm:32:3600:black:2x16:cl18",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB PRO SL DDR4 メモリ 32GB（16GB×2）最大3600MHz対応 Intel XMP対応 CL18 デスクトップPC…",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B08SPYCCF1.jpg",
+   "image": "img/B08SPYCCF1.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/91lJnskEV9L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2945,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B08SPYCCF1",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B08SPYCCF1",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2945,
+   "has_water": true,
+   "has_official": false
   }
  ],
  "data_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/data.json",
