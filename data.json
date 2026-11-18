@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 3106,
-  "both_sides": 85,
+  "both_sides": 84,
   "water_only": 125,
-  "official_only": 2895,
-  "matched_water": 87,
+  "official_only": 2896,
+  "matched_water": 86,
   "official_groups": 3106,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -441,10 +441,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 58,
-    "nic_jp_rows": 85,
-    "nic_jp_retained": 5,
-    "nic_jp_dropped_stale": 48,
-    "nic_jp_retain_now_hkt": "2026-11-18 09:46:26 HKT",
+    "nic_jp_rows": 82,
+    "nic_jp_retained": 4,
+    "nic_jp_dropped_stale": 51,
+    "nic_jp_retain_now_hkt": "2026-11-18 12:49:49 HKT",
     "nic_jp_cache_size": 133,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -105658,20 +105658,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09C5X1T7V.jpg",
    "image": "img/B09C5X1T7V.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71bOpUCORIL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 3838,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B09C5X1T7V",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B09C5X1T7V",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key ram:corsair:vengeancergbrs:ddr4:dimm:32:3200:black:2x16:cl16",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 2399,
     "store": "飛馬 PEGASUS",
@@ -105696,9 +105683,9 @@
      }
     ]
    },
-   "delta_hkd": -1439,
+   "delta_hkd": null,
    "best_price": 2399,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -105849,7 +105836,7 @@
    "image": "img/B07GSKMJ6D.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61uw77qa+FL._AC_SL1200_.jpg",
    "water": {
-    "price_hkd": 2620,
+    "price_hkd": 2624,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -105864,7 +105851,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2620,
+   "best_price": 2624,
    "has_water": true,
    "has_official": false
   },
@@ -115303,50 +115290,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:5600:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:64:5600:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5 64GB (32GB x 2) Supports up to 5600MHz AMD Intel",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "32×2",
-    "5600"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BHVFBFMH.jpg",
-   "image": "img/B0BHVFBFMH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71O+5BneBVL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 8355,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0BHVFBFMH",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0BHVFBFMH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 8355,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:klevv:crasv:ddr5:dimm:64:6000:black:2x32:cl30",
    "category": "ram",
    "cooler_kind": null,
@@ -124109,6 +124052,50 @@
    "best_price": 4480,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 Memory 64GB (2x32GB) up to 5600MHz, Intel XMP, CL40 Desktop PC, Black, CMK64GX5M2B5600C40",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2",
+    "5600"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09WN2H42Y.jpg",
+   "image": "img/B09WN2H42Y.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71AV5PQu1yL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7819,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09WN2H42Y",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09WN2H42Y",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7819,
+   "has_water": true,
+   "has_official": false
   }
  ],
  "data_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/data.json",
