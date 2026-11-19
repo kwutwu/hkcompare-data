@@ -25,7 +25,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 391,
+   "count": 389,
    "enabled": true
   },
   "ssd": {
@@ -41,7 +41,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 376,
+   "count": 375,
    "enabled": true,
    "note": ""
   },
@@ -65,12 +65,12 @@
   }
  },
  "stats": {
-  "items": 3132,
+  "items": 3129,
   "both_sides": 110,
-  "water_only": 124,
+  "water_only": 121,
   "official_only": 2897,
   "matched_water": 93,
-  "official_groups": 3132,
+  "official_groups": 3129,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -475,10 +475,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 60,
-    "nic_jp_rows": 91,
-    "nic_jp_retained": 14,
-    "nic_jp_dropped_stale": 42,
-    "nic_jp_retain_now_hkt": "2026-11-19 09:50:50 HKT",
+    "nic_jp_rows": 89,
+    "nic_jp_retained": 9,
+    "nic_jp_dropped_stale": 44,
+    "nic_jp_retain_now_hkt": "2026-11-19 12:49:24 HKT",
     "nic_jp_cache_size": 133,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -74385,7 +74385,7 @@
    "image": "img/B0GWMBRZDM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/810z-+UNkoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1256,
+    "price_hkd": 1264,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -74400,7 +74400,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1256,
+   "best_price": 1264,
    "has_water": true,
    "has_official": false
   },
@@ -81683,45 +81683,6 @@
    "best_price": 2730,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "mobo|mobo:gigabyte:X870:?:x870e-aorus-pro-x3d:ddr5:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:X870:?:x870e-aorus-pro-x3d:ddr5:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE X870E AORUS PRO X3D ATX Motherboard X870E A PRO X MB6933",
-   "spec": "X870",
-   "filter_tags": null,
-   "form_factor": "ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0G5ZXFXNH.jpg",
-   "image": "img/B0G5ZXFXNH.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81+ERhz-mVL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 2742,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0G5ZXFXNH",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0G5ZXFXNH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 2742,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "mobo|mobo:msi:X870:ATX:mpg-x870e-edge-ti-wifi:ddr5:wifi:",
@@ -115578,50 +115539,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "CFD",
-   "model_key": "ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CFD販売 デスクトップPC用メモリ グラフェン 銅箔 ヒートシンク DDR5-5600 32GB×2枚 (64GB) 相性保証 288pin シー・エフ・デー販売 CFD …",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "32×2",
-    "5600"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6C2Q7FR.jpg",
-   "image": "img/B0F6C2Q7FR.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61Y7WPsNP3L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 6731,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F6C2Q7FR",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F6C2Q7FR",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 6731,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:kingston:valueram:ddr5:sodimm:48:5600:black:1x48:cl?",
    "category": "ram",
    "cooler_kind": null,
@@ -115782,7 +115699,7 @@
    "image": "img/B09R7S7PXC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7717,
+    "price_hkd": 7711,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -115797,7 +115714,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7717,
+   "best_price": 7711,
    "has_water": true,
    "has_official": false
   },
@@ -116125,50 +116042,6 @@
    "best_price": 7960,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:64:6400:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:64:6400:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CORSAIR VENGEANCE RGB DDR5 64GB (2x32GB) Supports up to 6400MHz Intel RAM",
-   "spec": "DDR5-6400 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "32×2",
-    "6400"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F943R3N6.jpg",
-   "image": "img/B0F943R3N6.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61EVf-QxpvL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 8025,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F943R3N6",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F943R3N6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 8025,
-   "has_water": true,
-   "has_official": false
   },
   {
    "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl?|water",
