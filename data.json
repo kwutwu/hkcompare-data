@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 3128,
-  "both_sides": 108,
+  "both_sides": 114,
   "water_only": 120,
-  "official_only": 2899,
-  "matched_water": 91,
+  "official_only": 2893,
+  "matched_water": 97,
   "official_groups": 3128,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -57777,7 +57777,7 @@
    "image": "img/B0FFVM8LNC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71ZGXiEEPbL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4580,
+    "price_hkd": 4569,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -57807,8 +57807,8 @@
      }
     ]
    },
-   "delta_hkd": 19,
-   "best_price": 4580,
+   "delta_hkd": 30,
+   "best_price": 4569,
    "has_water": true,
    "has_official": true
   },
@@ -58197,7 +58197,7 @@
    "image": "img/B0F4ZGWSPJ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/713i93WqAML._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4689,
+    "price_hkd": 4678,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -58212,7 +58212,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 4689,
+   "best_price": 4678,
    "has_water": true,
    "has_official": false
   },
@@ -58334,7 +58334,7 @@
    "image": "img/B0BSHD2SQ5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81MNpj2q4IL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 4724,
+    "price_hkd": 4715,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -58356,8 +58356,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 775,
-   "best_price": 4724,
+   "delta_hkd": 784,
+   "best_price": 4715,
    "has_water": true,
    "has_official": true
   },
@@ -58498,7 +58498,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b949bc260e02a92d.png",
    "image": "img/hk-b949bc260e02a92d.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/74a671f0-36d7-429f-1da2-bbed0d238300/public",
-   "water": null,
+   "water": {
+    "price_hkd": 4559,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F539PRT3",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F539PRT3",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5060ti8:eagle+oc",
+    "others": []
+   },
    "official": {
     "price_hkd": 4899,
     "store": "飛馬 PEGASUS",
@@ -58516,9 +58529,9 @@
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 4899,
-   "has_water": false,
+   "delta_hkd": 340,
+   "best_price": 4559,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -58541,7 +58554,7 @@
    "image": "img/B0F8BQ3KYW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51N310J-GcL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 5283,
+    "price_hkd": 5271,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -58563,7 +58576,7 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": -384,
+   "delta_hkd": -372,
    "best_price": 4899,
    "has_water": true,
    "has_official": true
@@ -59192,7 +59205,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-48fd11df3295664a.png",
    "image": "img/hk-48fd11df3295664a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/423b62bc-8da7-48de-7449-5900546d9300/public",
-   "water": null,
+   "water": {
+    "price_hkd": 5057,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F5PRHDHJ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F5PRHDHJ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti8:dual+oc",
+    "others": []
+   },
    "official": {
     "price_hkd": 5199,
     "store": "飛馬 PEGASUS",
@@ -59217,9 +59243,9 @@
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 5199,
-   "has_water": false,
+   "delta_hkd": 142,
+   "best_price": 5057,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -59283,7 +59309,20 @@
    "image_url": null,
    "image": null,
    "image_fallback_url": null,
-   "water": null,
+   "water": {
+    "price_hkd": 4560,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F534HRX6",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F534HRX6",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key gigabyte:5060ti8:gaming oc",
+    "others": []
+   },
    "official": {
     "price_hkd": 5299,
     "store": "PC Plus",
@@ -59293,9 +59332,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": null,
-   "best_price": 5299,
-   "has_water": false,
+   "delta_hkd": 739,
+   "best_price": 4560,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -59432,7 +59471,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dc17bfad8b67112b.png",
    "image": "img/hk-dc17bfad8b67112b.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/529605d5-31d7-4d20-72bc-7dc339b90f00/public",
-   "water": null,
+   "water": {
+    "price_hkd": 5631,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F4DVXKKX",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F4DVXKKX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti8:oc+prime",
+    "others": []
+   },
    "official": {
     "price_hkd": 5399,
     "store": "飛馬 PEGASUS",
@@ -59464,9 +59516,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -232,
    "best_price": 5399,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -59647,7 +59699,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7a6119d0d15eed1c.webp",
    "image": "img/hk-7a6119d0d15eed1c.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/12551.webp",
-   "water": null,
+   "water": {
+    "price_hkd": 5891,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F4DSTZ2D",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F4DSTZ2D",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti8:oc+tuf",
+    "others": []
+   },
    "official": {
     "price_hkd": 5550,
     "store": "中田電腦 Centralfield",
@@ -59665,9 +59730,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -341,
    "best_price": 5550,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -60066,7 +60131,7 @@
    "image": "img/B0F4DVKSZ4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81kYKB0Aj5L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6010,
+    "price_hkd": 5996,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -60110,8 +60175,8 @@
      }
     ]
    },
-   "delta_hkd": 789,
-   "best_price": 6010,
+   "delta_hkd": 803,
+   "best_price": 5996,
    "has_water": true,
    "has_official": true
   },
@@ -60503,7 +60568,7 @@
    "image": "img/B0F4DQYLP5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81DUf-juX8L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6299,
+    "price_hkd": 6285,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -60554,8 +60619,8 @@
      }
     ]
    },
-   "delta_hkd": 700,
-   "best_price": 6299,
+   "delta_hkd": 714,
+   "best_price": 6285,
    "has_water": true,
    "has_official": true
   },
@@ -61024,7 +61089,7 @@
    "image": "img/B0FFTV8J6G.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71d2DTg6rJL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6686,
+    "price_hkd": 6671,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -61046,8 +61111,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 113,
-   "best_price": 6686,
+   "delta_hkd": 128,
+   "best_price": 6671,
    "has_water": true,
    "has_official": true
   },
@@ -61181,7 +61246,7 @@
    "image": "img/B0F4NHSHSQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71ID30PninL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6732,
+    "price_hkd": 6716,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -61196,7 +61261,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6732,
+   "best_price": 6716,
    "has_water": true,
    "has_official": false
   },
@@ -61849,7 +61914,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7f6f7fb72b3f68b9.png",
    "image": "img/hk-7f6f7fb72b3f68b9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c5946856-dfb4-44d4-a4b8-84422d563500/public",
-   "water": null,
+   "water": {
+    "price_hkd": 8513,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F4VGXQXF",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F4VGXQXF",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asus:5060ti16:oc+tuf",
+    "others": []
+   },
    "official": {
     "price_hkd": 7099,
     "store": "飛馬 PEGASUS",
@@ -61874,9 +61952,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -1414,
    "best_price": 7099,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -62082,14 +62160,14 @@
    "image": "img/B0F4NFDQ3B.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71mdlnHYujL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7115,
+    "price_hkd": 6722,
     "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
     "asin": "B0F4NFDQ3B",
     "sku": null,
-    "url": "https://www.amazon.it/dp/B0F4NFDQ3B",
+    "url": "https://www.amazon.co.uk/dp/B0F4NFDQ3B",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5060ti16:eagle+ice+oc",
@@ -62104,8 +62182,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 484,
-   "best_price": 7115,
+   "delta_hkd": 877,
+   "best_price": 6722,
    "has_water": true,
    "has_official": true
   },
@@ -62886,7 +62964,7 @@
    "image": "img/B0F4NFVZBK.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71DZcs4WckL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7387,
+    "price_hkd": 7370,
     "source": "amazon",
     "marketplace": "西班牙 Amazon",
     "marketplace_code": "ES",
@@ -62901,7 +62979,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7387,
+   "best_price": 7370,
    "has_water": true,
    "has_official": false
   },
