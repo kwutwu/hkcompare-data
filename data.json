@@ -66,10 +66,10 @@
  },
  "stats": {
   "items": 3126,
-  "both_sides": 104,
+  "both_sides": 105,
   "water_only": 115,
-  "official_only": 2906,
-  "matched_water": 87,
+  "official_only": 2905,
+  "matched_water": 88,
   "official_groups": 3126,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -475,11 +475,11 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 61,
-    "nic_jp_rows": 83,
-    "nic_jp_retained": 0,
-    "nic_jp_dropped_stale": 50,
-    "nic_jp_retain_now_hkt": "2026-11-20 12:48:01 HKT",
-    "nic_jp_cache_size": 133,
+    "nic_jp_rows": 88,
+    "nic_jp_retained": 5,
+    "nic_jp_dropped_stale": 46,
+    "nic_jp_retain_now_hkt": "2026-11-20 15:49:04 HKT",
+    "nic_jp_cache_size": 134,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
@@ -70543,7 +70543,7 @@
    "image": "img/B0BRMRNHPW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61DkzgMaghL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 807,
+    "price_hkd": 803,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -70587,8 +70587,8 @@
      }
     ]
    },
-   "delta_hkd": 238,
-   "best_price": 807,
+   "delta_hkd": 242,
+   "best_price": 803,
    "has_water": true,
    "has_official": true
   },
@@ -71720,7 +71720,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BR8S9KTT.jpg",
    "image": "img/B0BR8S9KTT.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/P/B0BR8S9KTT.01._SCLZZZZZZZ_SX1000_.jpg",
-   "water": null,
+   "water": {
+    "price_hkd": 700,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BQH8KCPQ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BQH8KCPQ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:asus:B760:mATX:prime-b760m-a:ddr4:nowifi:",
+    "others": []
+   },
    "official": {
     "price_hkd": 970,
     "store": "Jumbo 珍寶電腦",
@@ -71752,9 +71765,9 @@
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 970,
-   "has_water": false,
+   "delta_hkd": 270,
+   "best_price": 700,
+   "has_water": true,
    "has_official": true
   },
   {
