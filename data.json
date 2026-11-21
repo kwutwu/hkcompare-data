@@ -73,10 +73,10 @@
  },
  "stats": {
   "items": 3170,
-  "both_sides": 102,
+  "both_sides": 103,
   "water_only": 119,
-  "official_only": 2948,
-  "matched_water": 80,
+  "official_only": 2947,
+  "matched_water": 81,
   "official_groups": 3137,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -490,10 +490,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 40,
-    "nic_jp_rows": 96,
-    "nic_jp_retained": 10,
-    "nic_jp_dropped_stale": 40,
-    "nic_jp_retain_now_hkt": "2026-11-21 12:51:55 HKT",
+    "nic_jp_rows": 97,
+    "nic_jp_retained": 13,
+    "nic_jp_dropped_stale": 39,
+    "nic_jp_retain_now_hkt": "2026-11-21 15:45:35 HKT",
     "nic_jp_cache_size": 136,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -73735,7 +73735,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-54479f451f98f6d8.png",
    "image": "img/hk-54479f451f98f6d8.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/product_175037937029ce4047c6fc763e2a1ea07cbe3f5165.webp?v=1776666863",
-   "water": null,
+   "water": {
+    "price_hkd": 983,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0G1LVGDPT",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0G1LVGDPT",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:msi:B860:mATX:b860m-gaming-wifi:ddr5:wifi:",
+    "others": []
+   },
    "official": {
     "price_hkd": 1205,
     "store": "Jumbo 珍寶電腦",
@@ -73760,9 +73773,9 @@
      }
     ]
    },
-   "delta_hkd": null,
-   "best_price": 1205,
-   "has_water": false,
+   "delta_hkd": 222,
+   "best_price": 983,
+   "has_water": true,
    "has_official": true
   },
   {
