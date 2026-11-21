@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-21T11:26:35Z",
- "generated_at_hkt": "2026-11-21 19:26 HKT",
- "price_updated_hkt": "2026-11-21 19:26 HKT",
+ "generated_at": "2026-11-21T11:49:36Z",
+ "generated_at_hkt": "2026-11-21 19:49 HKT",
+ "price_updated_hkt": "2026-11-21 19:49 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-21 10:01–10:24 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261121/hkcompare_rows.json",
@@ -73,10 +73,10 @@
  },
  "stats": {
   "items": 3178,
-  "both_sides": 105,
+  "both_sides": 106,
   "water_only": 127,
-  "official_only": 2945,
-  "matched_water": 83,
+  "official_only": 2944,
+  "matched_water": 84,
   "official_groups": 3145,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -409,9 +409,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 164,
+   "amazon_cached": 165,
    "official_downloaded": 0,
-   "official_cached": 2644,
+   "official_cached": 2643,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -477,7 +477,7 @@
   "ivan": {
    "total_listings": 247,
    "qualified": 250,
-   "deduped": 210,
+   "deduped": 211,
    "gpu_brand_recovered": {
     "checked": 1,
     "recovered": 1
@@ -61922,53 +61922,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5070:oc+windforce",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5070:oc+windforce",
-   "part_number": "GV-N5070WF3OC-12GD",
-   "upc": "0889523048191",
-   "title": "GIGABYTE NVIDIA GeForce RTX 5070 Graphics Board, GDDR7 12GB, GV-N5070WF3OC-12GD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6CBQF48.jpg",
-   "image": "img/B0F6CBQF48.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81icAEqTP3L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7102,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F6CBQF48",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F6CBQF48",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number GV-N5070WF3OC-12GD",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 7500,
-    "store": "Jumbo 珍寶電腦",
-    "store_short": "Jumbo",
-    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-series-rtx-5070-windforce-oc-12gb-gddr7-gv-n5070wf3oc-12gd",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 398,
-   "best_price": 7102,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|asus:5070:dual+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -62811,6 +62764,53 @@
    "delta_hkd": null,
    "best_price": 7400,
    "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5070:oc+windforce",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:oc+windforce",
+   "part_number": "GV-N5070WF3OC-12GD",
+   "upc": "0889523048191",
+   "title": "GIGABYTE NVIDIA GeForce RTX 5070 Graphics Board, GDDR7 12GB, GV-N5070WF3OC-12GD",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6CBQF48.jpg",
+   "image": "img/B0F6CBQF48.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81icAEqTP3L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7461,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F6CBQF48",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F6CBQF48",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number GV-N5070WF3OC-12GD",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 7500,
+    "store": "Jumbo 珍寶電腦",
+    "store_short": "Jumbo",
+    "url": "https://www.jumbo-computer.com/zh-hk/products/gigabyte-geforce-series-rtx-5070-windforce-oc-12gb-gddr7-gv-n5070wf3oc-12gd",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": 39,
+   "best_price": 7461,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -64951,10 +64951,23 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3652d31e171b722b.jpg",
-   "image": "img/hk-3652d31e171b722b.jpg",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/7fb0acf4-ab66-49e7-01b7-13ca232c2400/public",
-   "water": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZ62D3MP.jpg",
+   "image": "img/B0DZ62D3MP.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71GOQsSxEPL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 9005,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DZ62D3MP",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DZ62D3MP",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number TUF-RTX5070-O12G-GAMING",
+    "others": []
+   },
    "official": {
     "price_hkd": 8799,
     "store": "未來科技 BUYMORE",
@@ -64993,9 +65006,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -206,
    "best_price": 8799,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
