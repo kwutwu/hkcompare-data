@@ -26,7 +26,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 404,
+   "count": 403,
    "enabled": true
   },
   "ssd": {
@@ -72,12 +72,12 @@
   }
  },
  "stats": {
-  "items": 3176,
+  "items": 3175,
   "both_sides": 104,
-  "water_only": 125,
+  "water_only": 124,
   "official_only": 2946,
   "matched_water": 82,
-  "official_groups": 3143,
+  "official_groups": 3142,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -490,10 +490,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 40,
-    "nic_jp_rows": 100,
+    "nic_jp_rows": 99,
     "nic_jp_retained": 15,
-    "nic_jp_dropped_stale": 36,
-    "nic_jp_retain_now_hkt": "2026-11-21 18:49:32 HKT",
+    "nic_jp_dropped_stale": 37,
+    "nic_jp_retain_now_hkt": "2026-11-21 21:50:36 HKT",
     "nic_jp_cache_size": 136,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -115746,50 +115746,6 @@
    "has_official": true
   },
   {
-   "id": "ram|ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?|water",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "CFD",
-   "model_key": "ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?",
-   "part_number": null,
-   "upc": null,
-   "title": "CFD販売 デスクトップPC用メモリ グラフェン 銅箔 ヒートシンク DDR5-5600 32GB×2枚 (64GB) 相性保証 288pin シー・エフ・デー販売 CFD …",
-   "spec": "DDR5-5600 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR5",
-    "32×2",
-    "5600"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6C2Q7FR.jpg",
-   "image": "img/B0F6C2Q7FR.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61Y7WPsNP3L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7128,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F6C2Q7FR",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F6C2Q7FR",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7128,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "ram|ram:kingston:valueram:ddr5:sodimm:48:5600:black:1x48:cl?",
    "category": "ram",
    "cooler_kind": null,
@@ -115853,7 +115809,7 @@
    "image": "img/B0GZTJ67RR.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61bpdCFVFKL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7260,
+    "price_hkd": 7261,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -115868,7 +115824,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7260,
+   "best_price": 7261,
    "has_water": true,
    "has_official": false
   },
