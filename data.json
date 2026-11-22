@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-22T08:18:37Z",
- "generated_at_hkt": "2026-11-22 16:18 HKT",
- "price_updated_hkt": "2026-11-22 16:18 HKT",
+ "generated_at": "2026-11-22T09:32:33Z",
+ "generated_at_hkt": "2026-11-22 17:32 HKT",
+ "price_updated_hkt": "2026-11-22 17:32 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-22 09:59–10:41 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261122/hkcompare_rows.json",
@@ -26,7 +26,7 @@
   },
   "ram": {
    "label": "記憶體",
-   "count": 399,
+   "count": 402,
    "enabled": true
   },
   "ssd": {
@@ -42,7 +42,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 388,
+   "count": 390,
    "enabled": true,
    "note": ""
   },
@@ -72,12 +72,12 @@
   }
  },
  "stats": {
-  "items": 3170,
-  "both_sides": 102,
-  "water_only": 115,
-  "official_only": 2952,
-  "matched_water": 81,
-  "official_groups": 3141,
+  "items": 3175,
+  "both_sides": 96,
+  "water_only": 120,
+  "official_only": 2958,
+  "matched_water": 75,
+  "official_groups": 3142,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -410,9 +410,9 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 152,
+   "amazon_cached": 148,
    "official_downloaded": 0,
-   "official_cached": 2653,
+   "official_cached": 2657,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -477,18 +477,18 @@
   ],
   "ivan": {
    "total_listings": 0,
-   "qualified": 213,
-   "deduped": 200,
+   "qualified": 208,
+   "deduped": 195,
    "gpu_brand_recovered": {
     "checked": 0,
     "recovered": 0
    },
    "excluded": {},
    "amazon_exports": {
-    "ivan_gpu_rows": 45,
-    "nic_jp_rows": 100,
+    "ivan_gpu_rows": 39,
+    "nic_jp_rows": 101,
     "nic_jp_retained": 14,
-    "nic_jp_dropped_stale": 37,
+    "nic_jp_dropped_stale": 36,
     "nic_jp_retain_now_hkt": "2026-11-22 15:46:14 HKT",
     "nic_jp_cache_size": 137,
     "jd_ddr_rows": 26,
@@ -57879,108 +57879,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|gigabyte:5060ti8:eagle+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti8:eagle+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC 8G 顯示卡",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b949bc260e02a92d.png",
-   "image": "img/hk-b949bc260e02a92d.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/74a671f0-36d7-429f-1da2-bbed0d238300/public",
-   "water": {
-    "price_hkd": 4583,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F539PRT3",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F539PRT3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti8:eagle+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 4899,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/225303/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-EAGLE-OC-8G-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "PC Plus",
-      "store_short": "PC Plus",
-      "price_hkd": 4999,
-      "url": "https://pc.plus/product/skuvgagi00023",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 316,
-   "best_price": 4583,
-   "has_water": true,
-   "has_official": true
-  },
-  {
-   "id": "gpu|gigabyte:5060ti8:gaming oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti8:gaming oc",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE GeForce RTX™ 5060 Ti GAMING OC 8G",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": null,
-   "image": null,
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4584,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F534HRX6",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F534HRX6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti8:gaming oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 5299,
-    "store": "PC Plus",
-    "store_short": "PC Plus",
-    "url": "https://pc.plus/product/skuvgagi00020",
-    "stock": "現貨",
-    "build_only": false,
-    "others": []
-   },
-   "delta_hkd": 715,
-   "best_price": 4584,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|colorful:5060:oc+ultra+white",
    "category": "gpu",
    "cooler_kind": null,
@@ -58718,6 +58616,48 @@
    "has_official": true
   },
   {
+   "id": "gpu|gigabyte:5060ti8:eagle+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti8:eagle+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE 技嘉 GeForce RTX 5060 Ti EAGLE OC 8G 顯示卡",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b949bc260e02a92d.png",
+   "image": "img/hk-b949bc260e02a92d.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/74a671f0-36d7-429f-1da2-bbed0d238300/public",
+   "water": null,
+   "official": {
+    "price_hkd": 4899,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/225303/GIGABYTE-技嘉-GeForce-RTX-5060-Ti-EAGLE-OC-8G-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "PC Plus",
+      "store_short": "PC Plus",
+      "price_hkd": 4999,
+      "url": "https://pc.plus/product/skuvgagi00023",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 4899,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|msi:5060ti8:2x+oc+shadow",
    "category": "gpu",
    "cooler_kind": null,
@@ -58825,68 +58765,6 @@
    "delta_hkd": null,
    "best_price": 4899,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "gpu|asus:5060ti8:dual+oc",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:5060ti8:dual+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "【RTX5060Ti 8GB】ASUS DUAL RTX5060Ti OC 8GB【黑色】[長: 229mm]",
-   "spec": "RTX 5060 Ti 8GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-48fd11df3295664a.png",
-   "image": "img/hk-48fd11df3295664a.png",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/423b62bc-8da7-48de-7449-5900546d9300/public",
-   "water": {
-    "price_hkd": 4947,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F5PRHDHJ",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F5PRHDHJ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti8:dual+oc",
-    "others": []
-   },
-   "official": {
-    "price_hkd": 5199,
-    "store": "飛馬 PEGASUS",
-    "store_short": "飛馬",
-    "url": "https://shop.pegasus.hk/products/224236/ASUS-華碩-Dual-GeForce-RTX-5060-Ti-8GB-OC-顯示卡---3年保養",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "未來科技 BUYMORE",
-      "store_short": "未來科技",
-      "price_hkd": 5499,
-      "url": "https://buymore.hk/shop/goods.php?id=44294",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 5660,
-      "url": "https://centralfield.com/product/12524/asus-dual-rtx-5060ti-oc-8gb-gddr7",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 252,
-   "best_price": 4947,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -59475,6 +59353,55 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5060ti8:dual+oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti8:dual+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "【RTX5060Ti 8GB】ASUS DUAL RTX5060Ti OC 8GB【黑色】[長: 229mm]",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-48fd11df3295664a.png",
+   "image": "img/hk-48fd11df3295664a.png",
+   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/423b62bc-8da7-48de-7449-5900546d9300/public",
+   "water": null,
+   "official": {
+    "price_hkd": 5199,
+    "store": "飛馬 PEGASUS",
+    "store_short": "飛馬",
+    "url": "https://shop.pegasus.hk/products/224236/ASUS-華碩-Dual-GeForce-RTX-5060-Ti-8GB-OC-顯示卡---3年保養",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "未來科技 BUYMORE",
+      "store_short": "未來科技",
+      "price_hkd": 5499,
+      "url": "https://buymore.hk/shop/goods.php?id=44294",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 5660,
+      "url": "https://centralfield.com/product/12524/asus-dual-rtx-5060ti-oc-8gb-gddr7",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": null,
+   "best_price": 5199,
+   "has_water": false,
+   "has_official": true
+  },
+  {
    "id": "gpu|gigabyte:5060ti8:aero+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -59555,6 +59482,40 @@
    },
    "delta_hkd": null,
    "best_price": 5200,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5060ti8:gaming oc",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti8:gaming oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX™ 5060 Ti GAMING OC 8G",
+   "spec": "RTX 5060 Ti 8GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": null,
+   "official": {
+    "price_hkd": 5299,
+    "store": "PC Plus",
+    "store_short": "PC Plus",
+    "url": "https://pc.plus/product/skuvgagi00020",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 5299,
    "has_water": false,
    "has_official": true
   },
@@ -59658,20 +59619,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dc17bfad8b67112b.png",
    "image": "img/hk-dc17bfad8b67112b.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/529605d5-31d7-4d20-72bc-7dc339b90f00/public",
-   "water": {
-    "price_hkd": 5603,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F4DVXKKX",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F4DVXKKX",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti8:oc+prime",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 5399,
     "store": "飛馬 PEGASUS",
@@ -59703,9 +59651,9 @@
      }
     ]
    },
-   "delta_hkd": -204,
+   "delta_hkd": null,
    "best_price": 5399,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -59803,33 +59751,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7a6119d0d15eed1c.webp",
    "image": "img/hk-7a6119d0d15eed1c.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/12551.webp",
-   "water": {
-    "price_hkd": 5858,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F5PRLDM3",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F5PRLDM3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti8:oc+tuf",
-    "others": [
-     {
-      "price_hkd": 5922,
-      "source": "amazon",
-      "marketplace": "日本 Amazon",
-      "marketplace_code": "JP",
-      "domain": "amazon.co.jp",
-      "asin": "B0F4DSTZ2D",
-      "sku": null,
-      "url": "https://www.amazon.co.jp/dp/B0F4DSTZ2D",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 5550,
     "store": "中田電腦 Centralfield",
@@ -59847,9 +59769,9 @@
      }
     ]
    },
-   "delta_hkd": -308,
+   "delta_hkd": null,
    "best_price": 5550,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -61780,20 +61702,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7f6f7fb72b3f68b9.png",
    "image": "img/hk-7f6f7fb72b3f68b9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c5946856-dfb4-44d4-a4b8-84422d563500/public",
-   "water": {
-    "price_hkd": 8155,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F4VGXQXF",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F4VGXQXF",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti16:oc+tuf",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 7099,
     "store": "飛馬 PEGASUS",
@@ -61825,9 +61734,9 @@
      }
     ]
    },
-   "delta_hkd": -1056,
+   "delta_hkd": null,
    "best_price": 7099,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -71997,6 +71906,45 @@
    "has_official": false
   },
   {
+   "id": "mobo|mobo:gigabyte:B860:mATX:b860m-ds3h-wifi6e-rev2:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B860:mATX:b860m-ds3h-wifi6e-rev2:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE B860M DS3H WIFI6E Rev2 Micro-ATX Motherboard MB6951",
+   "spec": "B860",
+   "filter_tags": null,
+   "form_factor": "M-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DQLHYCVZ.jpg",
+   "image": "img/B0DQLHYCVZ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/712X5PlVIqL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 936,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DQLHYCVZ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DQLHYCVZ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 936,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:msi:B760:mATX:pro-b760m-a-wifi:ddr4:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -74428,7 +74376,7 @@
    "model_key": "mobo:msi:Z890:ATX:pro-z890a-wifi:ddr5:wifi:",
    "part_number": null,
    "upc": null,
-   "title": "MSI Z890 PRO Z890-A WiFi ATX 微星主機板 (DDR5/Wi-Fi 7/藍牙/LGA1851)",
+   "title": "MSI PRO Z890-A WIFI Z890 Chipset ATX Motherboard MB6586",
    "spec": "Z890",
    "filter_tags": null,
    "form_factor": "ATX",
@@ -74436,9 +74384,9 @@
    "ssd_capacity": null,
    "ssd_interface": null,
    "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4ddf3fa3210e79d5.webp",
-   "image": "img/hk-4ddf3fa3210e79d5.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/6550.webp",
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DK4VM51Q.jpg",
+   "image": "img/B0DK4VM51Q.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81yTMGos4RL._AC_SL1500_.jpg",
    "water": {
     "price_hkd": 1376,
     "source": "amazon",
@@ -77118,6 +77066,45 @@
    "best_price": 1820,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE MB7038 AORUS ELITE-P ICE ATX Motherboard",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "E-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H62232LX.jpg",
+   "image": "img/B0H62232LX.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/815OuBApFnL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 1834,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H62232LX",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0H62232LX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1834,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asus:B860:ITX:rog-strix-b860i-gaming-wifi:ddr5:wifi:",
@@ -104535,6 +104522,97 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancelpx:ddr4:dimm:32:3200:black:2x16:cl16",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancelpx:ddr4:dimm:32:3200:black:2x16:cl16",
+   "part_number": "CMK32GX4M2E3200C16",
+   "upc": "0840006608547",
+   "title": "Corsair Vengeance LPX 32GB 黑色套裝 (2x16GB) D4-3200C16 (CMK32GX4M2E3200C16)(Intel XMP)",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B07RW6Z692.jpg",
+   "image": "img/B07RW6Z692.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61wCOVcyvFL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 1756,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B07RW6Z692",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B07RW6Z692",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key ram:corsair:vengeancelpx:ddr4:dimm:32:3200:black:2x16:cl16",
+    "others": [
+     {
+      "source": "amazon",
+      "store_short": null,
+      "marketplace": "日本 Amazon",
+      "price_hkd": 1932,
+      "url": "https://www.amazon.co.jp/dp/B09QPWRWLY",
+      "build_only": false,
+      "domain": "amazon.co.jp",
+      "asin": "B09QPWRWLY"
+     }
+    ]
+   },
+   "official": {
+    "price_hkd": 2080,
+    "store": "未來科技 BUYMORE",
+    "store_short": "未來科技",
+    "url": "https://buymore.hk/shop/goods.php?id=18946",
+    "stock": "現貨",
+    "build_only": false,
+    "others": [
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 2099,
+      "url": "https://shop.pegasus.hk/products/19860/Corsair-VENGEANCE-LPX-DDR4-32GB-Kit-2-x-16GB-3200MHz-CL16-CMK32GX4M2E3200C16---Limited-Lifetime保養",
+      "build_only": false
+     },
+     {
+      "store": "中田電腦 Centralfield",
+      "store_short": "中田",
+      "price_hkd": 2470,
+      "url": "https://centralfield.com/product/5477/corsair-vengeance-lpx-32gb-ddr4-3200mhz-cmk32gx4m2e3200c16",
+      "build_only": false
+     },
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 2499,
+      "url": "https://secomputer.com.hk/products/31807",
+      "build_only": false
+     },
+     {
+      "store": "Jumbo 珍寶電腦",
+      "store_short": "Jumbo",
+      "price_hkd": 2576,
+      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-lpx-cmk32gx4m2e3200c16-ddr4-3200mhz-memory",
+      "build_only": false
+     }
+    ]
+   },
+   "delta_hkd": 324,
+   "best_price": 1756,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "ram|ram:teamgroup:elite:ddr5:dimm:16:5600:black:1x16:cl?",
    "category": "ram",
    "cooler_kind": null,
@@ -105362,97 +105440,6 @@
    "delta_hkd": null,
    "best_price": 1930,
    "has_water": false,
-   "has_official": true
-  },
-  {
-   "id": "ram|ram:corsair:vengeancelpx:ddr4:dimm:32:3200:black:2x16:cl16",
-   "category": "ram",
-   "cooler_kind": null,
-   "brand": "Corsair",
-   "model_key": "ram:corsair:vengeancelpx:ddr4:dimm:32:3200:black:2x16:cl16",
-   "part_number": "CMK32GX4M2E3200C16",
-   "upc": "0840006608547",
-   "title": "CORSAIR VENGEANCE LPX DDR4, 32 GB, 2 x 16 GB, Supports up to 3200 MHz, RAM",
-   "spec": "DDR4 · DIMM",
-   "filter_tags": [
-    "DIMM",
-    "DDR4",
-    "16×2"
-   ],
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09QPWRWLY.jpg",
-   "image": "img/B09QPWRWLY.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51A3PhpmkDL._AC_SL1164_.jpg",
-   "water": {
-    "price_hkd": 1756,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B07RW6Z692",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B07RW6Z692",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key ram:corsair:vengeancelpx:ddr4:dimm:32:3200:black:2x16:cl16",
-    "others": [
-     {
-      "source": "amazon",
-      "store_short": null,
-      "marketplace": "日本 Amazon",
-      "price_hkd": 1932,
-      "url": "https://www.amazon.co.jp/dp/B09QPWRWLY",
-      "build_only": false,
-      "domain": "amazon.co.jp",
-      "asin": "B09QPWRWLY"
-     }
-    ]
-   },
-   "official": {
-    "price_hkd": 2080,
-    "store": "未來科技 BUYMORE",
-    "store_short": "未來科技",
-    "url": "https://buymore.hk/shop/goods.php?id=18946",
-    "stock": "現貨",
-    "build_only": false,
-    "others": [
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 2099,
-      "url": "https://shop.pegasus.hk/products/19860/Corsair-VENGEANCE-LPX-DDR4-32GB-Kit-2-x-16GB-3200MHz-CL16-CMK32GX4M2E3200C16---Limited-Lifetime保養",
-      "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 2470,
-      "url": "https://centralfield.com/product/5477/corsair-vengeance-lpx-32gb-ddr4-3200mhz-cmk32gx4m2e3200c16",
-      "build_only": false
-     },
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 2499,
-      "url": "https://secomputer.com.hk/products/31807",
-      "build_only": false
-     },
-     {
-      "store": "Jumbo 珍寶電腦",
-      "store_short": "Jumbo",
-      "price_hkd": 2576,
-      "url": "https://www.jumbo-computer.com/zh-hk/products/corsair-32gb-kit-2x16gb-vengeance-lpx-cmk32gx4m2e3200c16-ddr4-3200mhz-memory",
-      "build_only": false
-     }
-    ]
-   },
-   "delta_hkd": 324,
-   "best_price": 1756,
-   "has_water": true,
    "has_official": true
   },
   {
@@ -107055,6 +107042,49 @@
    "best_price": 2750,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergbrs:ddr4:dimm:32:3600:black:2x16:cl18|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergbrs:ddr4:dimm:32:3600:black:2x16:cl18",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB RS DDR4 メモリ 32GB（16GB×2）最大3600MHz対応 Intel XMP対応 CL18 デスクトップPC用 ブラ…",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09C5WJ2B2.jpg",
+   "image": "img/B09C5WJ2B2.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71JPAVZ-pfL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2944,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09C5WJ2B2",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09C5WJ2B2",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2944,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:corsair:vengeancergbpro:ddr4:dimm:32:3600:black:2x16:cl18|water",
@@ -115448,6 +115478,50 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "CFD",
+   "model_key": "ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CFD販売 デスクトップPC用メモリ グラフェン 銅箔 ヒートシンク DDR5-5600 32GB×2枚 (64GB) 相性保証 288pin シー・エフ・デー販売 CFD …",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2",
+    "5600"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6C2Q7FR.jpg",
+   "image": "img/B0F6C2Q7FR.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61Y7WPsNP3L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7177,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F6C2Q7FR",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F6C2Q7FR",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7177,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:grey:2x32:cl36|water",
    "category": "ram",
    "cooler_kind": null,
@@ -117230,6 +117304,50 @@
     "asin": "B0BTNWJQMS",
     "sku": null,
     "url": "https://www.amazon.co.jp/dp/B0BTNWJQMS",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 8688,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:6400:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:6400:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 64GB (2x32GB) Supports up to 6400MHz Intel RAM",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2",
+    "6400"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BTNW9XFZ.jpg",
+   "image": "img/B0BTNW9XFZ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 8688,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BTNW9XFZ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BTNW9XFZ",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
