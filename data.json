@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-23T02:24:59Z",
- "generated_at_hkt": "2026-11-23 10:24 HKT",
- "price_updated_hkt": "2026-11-23 10:24 HKT",
+ "generated_at": "2026-11-23T05:47:55Z",
+ "generated_at_hkt": "2026-11-23 13:47 HKT",
+ "price_updated_hkt": "2026-11-23 13:47 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-23 09:58–10:21 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261123/hkcompare_rows.json",
@@ -42,7 +42,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 385,
+   "count": 384,
    "enabled": true,
    "note": ""
   },
@@ -72,10 +72,10 @@
   }
  },
  "stats": {
-  "items": 3130,
-  "both_sides": 112,
-  "water_only": 107,
-  "official_only": 2910,
+  "items": 3129,
+  "both_sides": 113,
+  "water_only": 106,
+  "official_only": 2909,
   "matched_water": 91,
   "official_groups": 3112,
   "gpu_chip_conflicts": {
@@ -489,17 +489,34 @@
    "excluded": {},
    "amazon_exports": {
     "ivan_gpu_rows": 60,
-    "nic_jp_rows": 88,
-    "nic_jp_retained": 3,
-    "nic_jp_dropped_stale": 50,
-    "nic_jp_retain_now_hkt": "2026-11-23 09:49:26 HKT",
+    "nic_jp_rows": 84,
+    "nic_jp_retained": 8,
+    "nic_jp_dropped_stale": 45,
+    "nic_jp_retain_now_hkt": "2026-11-23 13:16:53 HKT",
     "nic_jp_cache_size": 138,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
      "bad_or_dup": 62,
      "jd_oos": 5
-    }
+    },
+    "nic_jp_unmatched_not_invented": [
+     "B07GSKMJ6D",
+     "B08SQHRJY1",
+     "B08SQPH9JC",
+     "B09NCPTVX5",
+     "B09R7S7PXC",
+     "B09WN2H42Y",
+     "B09Y99CRP9",
+     "B0B62YRGSJ",
+     "B0BXHC74WD",
+     "B0CDY46PFK",
+     "B0CJ8ZCL2R",
+     "B0CJ91NKMK",
+     "B0CQQTR1ZV",
+     "B0CQQVNCB6",
+     "B0F6C2Q7FR"
+    ]
    }
   }
  },
@@ -69047,49 +69064,6 @@
    "has_official": true
   },
   {
-   "id": "mobo|mobo:gigabyte:B760:mATX:b760m-ds3h:ddr4:nowifi:|water",
-   "category": "mobo",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "mobo:gigabyte:B760:mATX:b760m-ds3h:ddr4:nowifi:",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE B760M DS3H DDR4 GEN5 Micro-ATX Motherboard MB6953",
-   "spec": "B760（DDR4）",
-   "filter_tags": [
-    "B760",
-    "DDR4",
-    "B760-DDR4"
-   ],
-   "form_factor": "M-ATX",
-   "has_wifi": false,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GH6PLS9S.jpg",
-   "image": "img/B0GH6PLS9S.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/81jtdf+aFIL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 672,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0GH6PLS9S",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0GH6PLS9S",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 672,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "mobo|mobo:asrock:B650:mATX:b650m-pro-a-gen5:ddr5:nowifi:|water",
    "category": "mobo",
    "cooler_kind": null,
@@ -74183,7 +74157,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-60260e07ab1ab079.png",
    "image": "img/hk-60260e07ab1ab079.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/75cc4327-70b3-4253-e294-5550e68aa200/public",
-   "water": null,
+   "water": {
+    "price_hkd": 1172,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DQLJRPTX",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DQLJRPTX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key mobo:gigabyte:B860:mATX:b860m-gaming-x-wifi6e:ddr5:wifi:",
+    "others": []
+   },
    "official": {
     "price_hkd": 1459,
     "store": "飛馬 PEGASUS",
@@ -74193,9 +74180,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": null,
-   "best_price": 1459,
-   "has_water": false,
+   "delta_hkd": 287,
+   "best_price": 1172,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -103778,7 +103765,7 @@
    "image": "img/B09QPWRWLY.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51A3PhpmkDL._AC_SL1164_.jpg",
    "water": {
-    "price_hkd": 1775,
+    "price_hkd": 1769,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -103840,8 +103827,8 @@
      }
     ]
    },
-   "delta_hkd": 305,
-   "best_price": 1775,
+   "delta_hkd": 311,
+   "best_price": 1769,
    "has_water": true,
    "has_official": true
   },
