@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-24T19:54:04Z",
- "generated_at_hkt": "2026-11-25 03:54 HKT",
- "price_updated_hkt": "2026-11-25 03:54 HKT",
+ "generated_at": "2026-11-24T20:55:35Z",
+ "generated_at_hkt": "2026-11-25 04:55 HKT",
+ "price_updated_hkt": "2026-11-25 04:55 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-24 09:56–10:21 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261124/hkcompare_rows.json",
@@ -15,7 +15,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 313,
+   "count": 312,
    "enabled": true
   },
   "cpu": {
@@ -72,12 +72,12 @@
   }
  },
  "stats": {
-  "items": 3167,
+  "items": 3166,
   "both_sides": 111,
-  "water_only": 134,
+  "water_only": 133,
   "official_only": 2921,
   "matched_water": 90,
-  "official_groups": 3134,
+  "official_groups": 3133,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -411,7 +411,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 97,
+   "amazon_cached": 96,
    "official_downloaded": 0,
    "official_cached": 2693,
    "failed": 0,
@@ -478,14 +478,14 @@
   ],
   "ivan": {
    "total_listings": 249,
-   "qualified": 258,
-   "deduped": 224,
+   "qualified": 255,
+   "deduped": 223,
    "gpu_brand_recovered": {
     "checked": 2,
     "recovered": 1
    },
    "excluded": {
-    "seller": 210,
+    "seller": 213,
     "no ship": 6,
     "not desktop GPU": 3
    },
@@ -66556,45 +66556,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5080:triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB Triple Fan Graphics Card DLSS 4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYRZZJZ1.jpg",
-   "image": "img/B0DYRZZJZ1.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71oOraaImGL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14090,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DYRZZJZ1",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DYRZZJZ1",
-    "stock": "Only 1 left in stock.",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 14090,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|msi:5080:3x+inspire+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -66708,7 +66669,7 @@
    "image": "img/hk-8f7f5a96dd82d7af.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/11152.webp",
    "water": {
-    "price_hkd": 14550,
+    "price_hkd": 14578,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -66745,8 +66706,8 @@
      }
     ]
    },
-   "delta_hkd": 800,
-   "best_price": 14550,
+   "delta_hkd": 772,
+   "best_price": 14578,
    "has_water": true,
    "has_official": true
   },
@@ -66900,7 +66861,7 @@
    "image": "img/B0DSQ1RCZV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81hMf6v5oSL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 15101,
+    "price_hkd": 15108,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -66915,7 +66876,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 15101,
+   "best_price": 15108,
    "has_water": true,
    "has_official": false
   },
@@ -67267,7 +67228,7 @@
    "image": "img/hk-ba589528dd4e395f.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b119e446-e34a-46b0-611e-31bdbdc83800/public",
    "water": {
-    "price_hkd": 15941,
+    "price_hkd": 15948,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67275,7 +67236,7 @@
     "asin": "B0BX6LGM2X",
     "sku": null,
     "url": "https://www.amazon.co.uk/dp/B0BX6LGM2X",
-    "stock": "Only 1 left in stock.",
+    "stock": "",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:gaming trio+oc",
     "others": []
@@ -67289,8 +67250,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 3058,
-   "best_price": 15941,
+   "delta_hkd": 3051,
+   "best_price": 15948,
    "has_water": true,
    "has_official": true
   },
@@ -67671,7 +67632,7 @@
    "image": "img/B0DSQ221G4.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81eLKUlImuL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16140,
+    "price_hkd": 16147,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67686,7 +67647,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16140,
+   "best_price": 16147,
    "has_water": true,
    "has_official": false
   },
@@ -67835,7 +67796,7 @@
    "image": "img/hk-6c410d6aec136e54.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_81aaf628595202bdd85f34ad972ff294.webp",
    "water": {
-    "price_hkd": 16967,
+    "price_hkd": 16975,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -67857,8 +67818,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 5032,
-   "best_price": 16967,
+   "delta_hkd": 5024,
+   "best_price": 16975,
    "has_water": true,
    "has_official": true
   },
@@ -67992,7 +67953,7 @@
    "image": "img/B0DTJDR3V9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/6139iUxGy-L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 17255,
+    "price_hkd": 17263,
     "source": "amazon",
     "marketplace": "英國 Amazon",
     "marketplace_code": "UK",
@@ -68007,7 +67968,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 17255,
+   "best_price": 17263,
    "has_water": true,
    "has_official": false
   },
