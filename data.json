@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-24T13:06:00Z",
- "generated_at_hkt": "2026-11-24 21:06 HKT",
- "price_updated_hkt": "2026-11-24 21:06 HKT",
+ "generated_at": "2026-11-24T13:51:38Z",
+ "generated_at_hkt": "2026-11-24 21:51 HKT",
+ "price_updated_hkt": "2026-11-24 21:51 HKT",
  "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-24 09:56–10:21 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261124/hkcompare_rows.json",
@@ -15,7 +15,7 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 316,
+   "count": 315,
    "enabled": true
   },
   "cpu": {
@@ -42,7 +42,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 388,
+   "count": 389,
    "enabled": true,
    "note": ""
   },
@@ -73,11 +73,11 @@
  },
  "stats": {
   "items": 3168,
-  "both_sides": 112,
-  "water_only": 136,
-  "official_only": 2919,
-  "matched_water": 91,
-  "official_groups": 3136,
+  "both_sides": 110,
+  "water_only": 135,
+  "official_only": 2922,
+  "matched_water": 89,
+  "official_groups": 3135,
   "gpu_chip_conflicts": {
    "count": 0,
    "path": "/workspace/site_hkcompare/gpu_chip_conflicts.json",
@@ -108,12 +108,12 @@
    "applied": true,
    "reason": null,
    "sidecar_path": "/workspace/site_hkcompare/europe_amazon_mobo_offers.json",
-   "cards": 24,
-   "offers": 47,
-   "new_water_cards": 20,
-   "new_official_water": 20,
+   "cards": 22,
+   "offers": 44,
+   "new_water_cards": 18,
+   "new_official_water": 18,
    "cheaper_existing_retained": 3,
-   "better_min": 17,
+   "better_min": 16,
    "skipped_missing_card": [],
    "skipped_quarantine": [],
    "skipped_other": [],
@@ -411,7 +411,7 @@
   },
   "images": {
    "amazon_downloaded": 0,
-   "amazon_cached": 99,
+   "amazon_cached": 98,
    "official_downloaded": 0,
    "official_cached": 2693,
    "failed": 0,
@@ -478,8 +478,8 @@
   ],
   "ivan": {
    "total_listings": 249,
-   "qualified": 256,
-   "deduped": 225,
+   "qualified": 255,
+   "deduped": 224,
    "gpu_brand_recovered": {
     "checked": 3,
     "recovered": 2
@@ -490,7 +490,7 @@
     "not desktop GPU": 3
    },
    "amazon_exports": {
-    "ivan_gpu_rows": 57,
+    "ivan_gpu_rows": 56,
     "nic_jp_rows": 104,
     "nic_jp_retained": 12,
     "nic_jp_dropped_stale": 31,
@@ -499,7 +499,7 @@
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
-     "bad_or_dup": 58,
+     "bad_or_dup": 59,
      "jd_oos": 5
     }
    }
@@ -64110,45 +64110,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|pny:5070:argb+oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5070:argb+oc+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY NVIDIA GeForce RTX™ 5070 EPIC-X RGB® OC Triple-Fan Graphics Card",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYPGBX6J.jpg",
-   "image": "img/B0DYPGBX6J.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61E+0EA9nSL._AC_SL1000_.jpg",
-   "water": {
-    "price_hkd": 8709,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DYPGBX6J",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DYPGBX6J",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 8709,
-   "has_water": true,
-   "has_official": false
-  },
-  {
    "id": "gpu|asus:9070xt:oc+prime",
    "category": "gpu",
    "cooler_kind": null,
@@ -65825,7 +65786,7 @@
    "image": "img/hk-09b228b293e166fa.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/46ac5ca0-d115-417e-6236-0bfa8eb1a500/public",
    "water": {
-    "price_hkd": 12492,
+    "price_hkd": 12528,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -65847,7 +65808,7 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": -493,
+   "delta_hkd": -529,
    "best_price": 11999,
    "has_water": true,
    "has_official": true
@@ -80885,20 +80846,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-1e825f0abf61dc18.webp",
    "image": "img/hk-1e825f0abf61dc18.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/20367.webp",
-   "water": {
-    "price_hkd": 2809,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0GLH7F4G5",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0GLH7F4G5",
-    "stock": "Usually dispatched within 1 to 3 months",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-    "match_by": "reviewed exact catalog identity; Europe sidecar DE-B0GLH7F4G5",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 2670,
     "store": "中田電腦 Centralfield",
@@ -80916,9 +80864,9 @@
      }
     ]
    },
-   "delta_hkd": -139,
+   "delta_hkd": null,
    "best_price": 2670,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -83842,34 +83790,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a5c1c3297f25e80f.png",
    "image": "img/hk-a5c1c3297f25e80f.png",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_195bdca1a878c797f79495bd27ef28df.png",
-   "water": {
-    "price_hkd": 2970,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B09KB8GGN1",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B09KB8GGN1",
-    "stock": "In stock",
-    "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
-    "match_by": "reviewed exact catalog identity; Europe sidecar ES-B09KB8GGN1",
-    "others": [
-     {
-      "price_hkd": 3041,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B09KB8GGN1",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B09KB8GGN1",
-      "stock": "In stock",
-      "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT。德國站頁面顯示港幣，並非已確認原生 EUR／GBP",
-      "match_by": "reviewed exact catalog identity; Europe sidecar DE-B09KB8GGN1"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 4799,
     "store": "SE Computer",
@@ -83884,19 +83805,46 @@
       "price_hkd": 4840,
       "url": "https://www.jumbo-computer.com/zh-hk/products/asus-proart-x870e-creator-wifi-ddr5-socket-am5-atx-motherboard",
       "build_only": false
-     },
-     {
-      "store": "中田電腦 Centralfield",
-      "store_short": "中田",
-      "price_hkd": 4880,
-      "url": "https://centralfield.com/product/3787/asus-proart-x870e-creator-wifi-am5-atx",
-      "build_only": false
      }
     ]
    },
-   "delta_hkd": 1829,
-   "best_price": 2970,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 4799,
+   "has_water": false,
+   "has_official": true
+  },
+  {
+   "id": "mobo|mobo:asus:X870:?:x870e-creator-wifi:ddr5:wifi:",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:X870:?:x870e-creator-wifi:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS 華碩 ProArt X870E-Creator WiFi 主機板 [X870E / 創作者 / DDR5 / WiFi 7] (AM5)",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d9f2147722443a72.webp",
+   "image": "img/hk-d9f2147722443a72.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/3787.webp",
+   "water": null,
+   "official": {
+    "price_hkd": 4880,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/3787/asus-proart-x870e-creator-wifi-am5-atx",
+    "stock": "現貨",
+    "build_only": false,
+    "others": []
+   },
+   "delta_hkd": null,
+   "best_price": 4880,
+   "has_water": false,
    "has_official": true
   },
   {
