@@ -1,9 +1,9 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-24T06:36:31Z",
- "generated_at_hkt": "2026-11-24 16:15 HKT",
- "price_updated_hkt": "2026-11-24 16:15 HKT",
- "amazon_data_updated_hkt": "2026-11-24 13:57:15 HKT",
+ "generated_at": "2026-11-24T08:20:35Z",
+ "generated_at_hkt": "2026-11-24 16:20 HKT",
+ "price_updated_hkt": "2026-11-24 16:20 HKT",
+ "amazon_data_updated_hkt": "2026-11-24 15:54:27 HKT",
  "hk_data_updated_hkt": "2026-11-24 09:56–10:21 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261124/hkcompare_rows.json",
  "notes": {
@@ -73,9 +73,9 @@
  },
  "stats": {
   "items": 3138,
-  "both_sides": 122,
+  "both_sides": 121,
   "water_only": 106,
-  "official_only": 2910,
+  "official_only": 2911,
   "matched_water": 86,
   "official_groups": 3123,
   "gpu_chip_conflicts": {
@@ -492,10 +492,10 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 56,
-    "nic_jp_rows": 89,
-    "nic_jp_retained": 10,
-    "nic_jp_dropped_stale": 40,
-    "nic_jp_retain_now_hkt": "2026-11-24 13:57:15 HKT",
+    "nic_jp_rows": 87,
+    "nic_jp_retained": 15,
+    "nic_jp_dropped_stale": 37,
+    "nic_jp_retain_now_hkt": "2026-11-24 15:54:27 HKT",
     "nic_jp_cache_size": 139,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -505,15 +505,15 @@
     },
     "nic_jp_unmatched_not_invented": [
      "B09Y99CRP9",
+     "B0BHVCVNKD",
+     "B0BHVFDP42",
      "B0BPL82FD9",
      "B0BPLCCR1J",
      "B0BTNW9XFZ",
      "B0BTNWJQMS",
      "B0C4Y2774G",
-     "B0CBRJ63RT",
      "B0CD7WZRHF",
      "B0CDY46PFK",
-     "B0CJ8ZCL2R",
      "B0CJ8ZZWZK",
      "B0CJ91NKMK",
      "B0CQQTR1ZV",
@@ -521,7 +521,7 @@
      "B0DRVNJC1S",
      "B0F6C2Q7FR",
      "B0FRFKRSTV",
-     "B0H62232LX"
+     "B0GH6PLS9S"
     ]
    }
   }
@@ -104320,7 +104320,7 @@
    "image": "img/hk-2d4618a0181771d9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/97b1bbb2-ff47-478b-60ed-66390a2a8f00/public",
    "water": {
-    "price_hkd": 1762,
+    "price_hkd": 1765,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -104382,8 +104382,8 @@
      }
     ]
    },
-   "delta_hkd": 318,
-   "best_price": 1762,
+   "delta_hkd": 315,
+   "best_price": 1765,
    "has_water": true,
    "has_official": true
   },
