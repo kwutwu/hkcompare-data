@@ -1,9 +1,9 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-24T02:32:02Z",
- "generated_at_hkt": "2026-11-24 10:32 HKT",
- "price_updated_hkt": "2026-11-24 10:32 HKT",
- "amazon_data_updated_hkt": "2026-11-24 09:58:10 HKT",
+ "generated_at": "2026-11-24T02:42:15Z",
+ "generated_at_hkt": "2026-11-24 10:42 HKT",
+ "price_updated_hkt": "2026-11-24 10:42 HKT",
+ "amazon_data_updated_hkt": null,
  "hk_data_updated_hkt": "2026-11-24 09:56–10:21 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261124/hkcompare_rows.json",
  "notes": {
@@ -15,18 +15,18 @@
  "categories": {
   "gpu": {
    "label": "顯示卡",
-   "count": 305,
+   "count": 309,
    "enabled": true
   },
   "cpu": {
    "label": "處理器",
-   "count": 75,
+   "count": 76,
    "enabled": true,
    "note": ""
   },
   "ram": {
    "label": "記憶體",
-   "count": 394,
+   "count": 403,
    "enabled": true
   },
   "ssd": {
@@ -42,7 +42,7 @@
   },
   "mobo": {
    "label": "底板",
-   "count": 383,
+   "count": 387,
    "enabled": true,
    "note": ""
   },
@@ -72,11 +72,11 @@
   }
  },
  "stats": {
-  "items": 3138,
-  "both_sides": 122,
-  "water_only": 106,
-  "official_only": 2910,
-  "matched_water": 86,
+  "items": 3156,
+  "both_sides": 108,
+  "water_only": 123,
+  "official_only": 2924,
+  "matched_water": 87,
   "official_groups": 3123,
   "gpu_chip_conflicts": {
    "count": 0,
@@ -412,8 +412,8 @@
   "images": {
    "amazon_downloaded": 0,
    "amazon_cached": 86,
-   "official_downloaded": 24,
-   "official_cached": 2669,
+   "official_downloaded": 0,
+   "official_cached": 2693,
    "failed": 0,
    "pins_applied": 42,
    "pins_skipped": 0
@@ -477,9 +477,9 @@
    }
   ],
   "ivan": {
-   "total_listings": 248,
-   "qualified": 223,
-   "deduped": 209,
+   "total_listings": 249,
+   "qualified": 224,
+   "deduped": 210,
    "gpu_brand_recovered": {
     "checked": 1,
     "recovered": 1
@@ -492,40 +492,17 @@
    },
    "amazon_exports": {
     "ivan_gpu_rows": 56,
-    "nic_jp_rows": 87,
+    "nic_jp_rows": 95,
     "nic_jp_retained": 4,
     "nic_jp_dropped_stale": 44,
     "nic_jp_retain_now_hkt": "2026-11-24 09:58:10 HKT",
-    "nic_jp_cache_size": 139,
+    "nic_jp_cache_size": 136,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
     "skipped": {
      "bad_or_dup": 49,
      "jd_oos": 5
-    },
-    "nic_jp_unmatched_not_invented": [
-     "B082DGZJ9C",
-     "B08SPYCCF1",
-     "B08SQHRJY1",
-     "B08SQPH9JC",
-     "B09C5WJ2B2",
-     "B09NCPTVX5",
-     "B09R7S7PXC",
-     "B09WN2H42Y",
-     "B09Y99CRP9",
-     "B0BXHC74WD",
-     "B0CBRJ63RT",
-     "B0CDY46PFK",
-     "B0CJ8ZCL2R",
-     "B0CJ91NKMK",
-     "B0CQQTR1ZV",
-     "B0CQQVNCB6",
-     "B0DPJ95Y2K",
-     "B0DRVNJC1S",
-     "B0F6C2Q7FR",
-     "B0FRFKRSTV",
-     "B0H62232LX"
-    ]
+    }
    }
   }
  },
@@ -53232,6 +53209,47 @@
    "has_official": true
   },
   {
+   "id": "cpu|cpu|intel core ultra 5 250k plus|lga1851|water",
+   "category": "cpu",
+   "cooler_kind": null,
+   "brand": "Intel",
+   "model_key": "cpu|intel core ultra 5 250k plus|lga1851",
+   "part_number": null,
+   "upc": null,
+   "title": "Intel Ultra 5 250K Plus Box(盒裝)",
+   "spec": "LGA1851（Core Ultra）",
+   "filter_tags": [
+    "LGA1851"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
+   "water": {
+    "price_hkd": 1710,
+    "source": "jd",
+    "marketplace": "京東自營",
+    "marketplace_code": "JD",
+    "domain": "jd.com",
+    "asin": null,
+    "sku": "100244553065",
+    "url": "https://item.jd.com/100244553065.html",
+    "stock": "In stock",
+    "note": "上述標價對應優惠規則(滿贈) 原價¥1449",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1710,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "cpu|cpu|intel core ultra 7 265kf|lga1851",
    "category": "cpu",
    "cooler_kind": null,
@@ -55262,44 +55280,7 @@
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5060:oc",
-    "others": [
-     {
-      "price_hkd": 4269,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0F6NMXJ1M",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0F6NMXJ1M",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 4438,
-      "source": "amazon",
-      "marketplace": "英國 Amazon",
-      "marketplace_code": "UK",
-      "domain": "amazon.co.uk",
-      "asin": "B0F6NMXJ1M",
-      "sku": null,
-      "url": "https://www.amazon.co.uk/dp/B0F6NMXJ1M",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 4456,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0F6NMXJ1M",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0F6NMXJ1M",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 3899,
@@ -55633,32 +55614,7 @@
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5060:eagle+ice+oc",
-    "others": [
-     {
-      "price_hkd": 4737,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0F6NP452Y",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0F6NP452Y",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 4868,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0F6NP452Y",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0F6NP452Y",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 3999,
@@ -55941,32 +55897,7 @@
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5060:oc+prime",
-    "others": [
-     {
-      "price_hkd": 5471,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B0F8Q8T2JG",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B0F8Q8T2JG",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 5684,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0F8Q8T2JG",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0F8Q8T2JG",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 4100,
@@ -57049,32 +56980,7 @@
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5060ti8:oc+windforce",
-    "others": [
-     {
-      "price_hkd": 4717,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0FFVM8LNC",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0FFVM8LNC",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 4735,
-      "source": "amazon",
-      "marketplace": "英國 Amazon",
-      "marketplace_code": "UK",
-      "domain": "amazon.co.uk",
-      "asin": "B0FFVM8LNC",
-      "sku": null,
-      "url": "https://www.amazon.co.uk/dp/B0FFVM8LNC",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 4599,
@@ -57496,21 +57402,8 @@
     "url": "https://www.amazon.es/dp/B0F4ZGWSPJ",
     "stock": "In stock",
     "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti8:3x+aero+oc",
-    "others": [
-     {
-      "price_hkd": 4902,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0F4ZGWSPJ",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0F4ZGWSPJ",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "match_by": null,
+    "others": []
    },
    "official": null,
    "delta_hkd": null,
@@ -57677,20 +57570,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b949bc260e02a92d.png",
    "image": "img/hk-b949bc260e02a92d.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/74a671f0-36d7-429f-1da2-bbed0d238300/public",
-   "water": {
-    "price_hkd": 4583,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F539PRT3",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F539PRT3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti8:eagle+oc",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 4899,
     "store": "飛馬 PEGASUS",
@@ -57708,9 +57588,9 @@
      }
     ]
    },
-   "delta_hkd": 316,
-   "best_price": 4583,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 4899,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -58332,20 +58212,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-48fd11df3295664a.png",
    "image": "img/hk-48fd11df3295664a.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/423b62bc-8da7-48de-7449-5900546d9300/public",
-   "water": {
-    "price_hkd": 4947,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F5PRHDHJ",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F5PRHDHJ",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti8:dual+oc",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 5199,
     "store": "飛馬 PEGASUS",
@@ -58370,9 +58237,9 @@
      }
     ]
    },
-   "delta_hkd": 252,
-   "best_price": 4947,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 5199,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -58528,31 +58395,18 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 4715,
+    "price_hkd": 5268,
     "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
     "asin": "B0BSHD2SQ5",
     "sku": null,
-    "url": "https://www.amazon.it/dp/B0BSHD2SQ5",
+    "url": "https://www.amazon.fr/dp/B0BSHD2SQ5",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5060ti8:dual",
-    "others": [
-     {
-      "price_hkd": 5268,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0BSHD2SQ5",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0BSHD2SQ5",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 5499,
@@ -58563,8 +58417,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 784,
-   "best_price": 4715,
+   "delta_hkd": 231,
+   "best_price": 5268,
    "has_water": true,
    "has_official": true
   },
@@ -58587,20 +58441,7 @@
    "image_url": null,
    "image": null,
    "image_fallback_url": null,
-   "water": {
-    "price_hkd": 4584,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F534HRX6",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F534HRX6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti8:gaming oc",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 5299,
     "store": "PC Plus",
@@ -58610,9 +58451,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 715,
-   "best_price": 4584,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 5299,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -58749,20 +58590,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dc17bfad8b67112b.png",
    "image": "img/hk-dc17bfad8b67112b.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/529605d5-31d7-4d20-72bc-7dc339b90f00/public",
-   "water": {
-    "price_hkd": 5603,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F4DVXKKX",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F4DVXKKX",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti8:oc+prime",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 5399,
     "store": "飛馬 PEGASUS",
@@ -58794,9 +58622,9 @@
      }
     ]
    },
-   "delta_hkd": -204,
+   "delta_hkd": null,
    "best_price": 5399,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -58818,20 +58646,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-9655c8c44706d0d1.png",
    "image": "img/hk-9655c8c44706d0d1.png",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_f48f10e5b6894c011266828b36d53a66.png",
-   "water": {
-    "price_hkd": 4927,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B096Z886F8",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B096Z886F8",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5060ti8:gaming trio+oc",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 5399,
     "store": "PC Plus",
@@ -58856,9 +58671,9 @@
      }
     ]
    },
-   "delta_hkd": 472,
-   "best_price": 4927,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 5399,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -58956,33 +58771,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7a6119d0d15eed1c.webp",
    "image": "img/hk-7a6119d0d15eed1c.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/12551.webp",
-   "water": {
-    "price_hkd": 5853,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F5PRLDM3",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F5PRLDM3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti8:oc+tuf",
-    "others": [
-     {
-      "price_hkd": 5922,
-      "source": "amazon",
-      "marketplace": "日本 Amazon",
-      "marketplace_code": "JP",
-      "domain": "amazon.co.jp",
-      "asin": "B0F4DSTZ2D",
-      "sku": null,
-      "url": "https://www.amazon.co.jp/dp/B0F4DSTZ2D",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 5550,
     "store": "中田電腦 Centralfield",
@@ -59000,9 +58789,9 @@
      }
     ]
    },
-   "delta_hkd": -303,
+   "delta_hkd": null,
    "best_price": 5550,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -59240,20 +59029,7 @@
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key asus:5060ti16:dual+oc",
-    "others": [
-     {
-      "price_hkd": 6263,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0F4DVKSZ4",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0F4DVKSZ4",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 6799,
@@ -59985,7 +59761,7 @@
    "image": "img/hk-741a5188d839173c.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3c6fdc4a-3d92-4cae-d6e4-eb081dcba400/public",
    "water": {
-    "price_hkd": 6963,
+    "price_hkd": 6445,
     "source": "amazon",
     "marketplace": "德國 Amazon",
     "marketplace_code": "DE",
@@ -60043,8 +59819,8 @@
      }
     ]
    },
-   "delta_hkd": 236,
-   "best_price": 6963,
+   "delta_hkd": 754,
+   "best_price": 6445,
    "has_water": true,
    "has_official": true
   },
@@ -60449,47 +60225,61 @@
    "image": "img/B0F4NHSHSQ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71ID30PninL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6405,
+    "price_hkd": 6711,
     "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
     "asin": "B0F4NHSHSQ",
     "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0F4NHSHSQ",
+    "url": "https://www.amazon.es/dp/B0F4NHSHSQ",
     "stock": "In stock",
     "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti16:3x+oc+windforce",
-    "others": [
-     {
-      "price_hkd": 6711,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0F4NHSHSQ",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0F4NHSHSQ",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 6950,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0F4NHSHSQ",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0F4NHSHSQ",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "match_by": null,
+    "others": []
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6405,
+   "best_price": 6711,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|gigabyte:5070:gaming oc+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:gaming oc+oc",
+   "part_number": "GV-N5070GAMINGOC-12GD",
+   "upc": null,
+   "title": "Gigabyte GeForce RTX 5070 Gaming OC 12G Graphics Card - 12GB GDDR7, 192 Bit, PCI-E 5.0,…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGNTQ3C.jpg",
+   "image": "img/B0DTGNTQ3C.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81AHWRRuBCL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 6791,
+    "source": "amazon",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
+    "asin": "B0DTGNTQ3C",
+    "sku": null,
+    "url": "https://www.amazon.de/dp/B0DTGNTQ3C",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 6791,
    "has_water": true,
    "has_official": false
   },
@@ -60513,43 +60303,18 @@
    "image": "img/hk-ed412246890355c4.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/4f83f0d4-6b85-46ba-48a0-03b522429a00/public",
    "water": {
-    "price_hkd": 6671,
+    "price_hkd": 7162,
     "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
     "asin": "B0FFTV8J6G",
     "sku": null,
-    "url": "https://www.amazon.it/dp/B0FFTV8J6G",
+    "url": "https://www.amazon.es/dp/B0FFTV8J6G",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5060ti16:eagle+oc",
-    "others": [
-     {
-      "price_hkd": 7162,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0FFTV8J6G",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0FFTV8J6G",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7237,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0FFTV8J6G",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0FFTV8J6G",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 6799,
@@ -60560,8 +60325,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 128,
-   "best_price": 6671,
+   "delta_hkd": -363,
+   "best_price": 6799,
    "has_water": true,
    "has_official": true
   },
@@ -60619,14 +60384,14 @@
    "image": "img/hk-62ebe09d897a26e5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/600_ba623e63-33ec-4b72-ab84-533621303a90.png?v=1741838312",
    "water": {
-    "price_hkd": 6899,
+    "price_hkd": 6859,
     "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
+    "marketplace": "德國 Amazon",
+    "marketplace_code": "DE",
+    "domain": "amazon.de",
     "asin": "B0DX7JJ87N",
     "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0DX7JJ87N",
+    "url": "https://www.amazon.de/dp/B0DX7JJ87N",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5070:2x+oc+ventus",
@@ -60677,8 +60442,8 @@
      }
     ]
    },
-   "delta_hkd": 700,
-   "best_price": 6899,
+   "delta_hkd": 740,
+   "best_price": 6859,
    "has_water": true,
    "has_official": true
   },
@@ -60780,6 +60545,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5060ti16:dual+oc+prime|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5060ti16:dual+oc+prime",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS Prime GeForce RTX 5060 Ti 16GB GDDR7 OC Edition Gaming Graphics Card",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F4DQYLP5.jpg",
+   "image": "img/B0F4DQYLP5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81DUf-juX8L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 6894,
+    "source": "amazon",
+    "marketplace": "西班牙 Amazon",
+    "marketplace_code": "ES",
+    "domain": "amazon.es",
+    "asin": "B0F4DQYLP5",
+    "sku": null,
+    "url": "https://www.amazon.es/dp/B0F4DQYLP5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 6894,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|gigabyte:5070:eagle+oc+sff",
    "category": "gpu",
    "cooler_kind": null,
@@ -60799,7 +60603,7 @@
    "image": "img/hk-85953dbb3d937cb0.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/1f165c23-fd5e-4723-0cb7-7bba95970900/public",
    "water": {
-    "price_hkd": 6990,
+    "price_hkd": 6958,
     "source": "amazon",
     "marketplace": "法國 Amazon",
     "marketplace_code": "FR",
@@ -60821,8 +60625,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 709,
-   "best_price": 6990,
+   "delta_hkd": 741,
+   "best_price": 6958,
    "has_water": true,
    "has_official": true
   },
@@ -60894,20 +60698,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-71befc71982171b5.png",
    "image": "img/hk-71befc71982171b5.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/979f922b-2de0-45a5-c726-0312e5bd5d00/public",
-   "water": {
-    "price_hkd": 6894,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0F4DQYLP5",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0F4DQYLP5",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti16:oc+prime",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 6999,
     "store": "飛馬 PEGASUS",
@@ -60946,9 +60737,9 @@
      }
     ]
    },
-   "delta_hkd": 105,
-   "best_price": 6894,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 6999,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -61005,71 +60796,61 @@
    "image": "img/B0DT78YM6P.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/810BADDS2RL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 6104,
+    "price_hkd": 7063,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
     "asin": "B0DT78YM6P",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0DT78YM6P",
+    "url": "https://www.amazon.fr/dp/B0DT78YM6P",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
-    "others": [
-     {
-      "price_hkd": 7063,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0DT78YM6P",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0DT78YM6P",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7364,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0DT78YM6P",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0DT78YM6P",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7521,
-      "source": "amazon",
-      "marketplace": "英國 Amazon",
-      "marketplace_code": "UK",
-      "domain": "amazon.co.uk",
-      "asin": "B0DT78YM6P",
-      "sku": null,
-      "url": "https://www.amazon.co.uk/dp/B0DT78YM6P",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7911,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DT78YM6P",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DT78YM6P",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 6104,
+   "best_price": 7063,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|gigabyte:5070:aero+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5070:aero+oc",
+   "part_number": "GV-N5070AEROOC-12GD",
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5070 Aero OC 12G Graphics Card - 12 GB GDDR7, 192 Bits, PCI-E 5.0,…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTGNWLXJ.jpg",
+   "image": "img/B0DTGNWLXJ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71awqTBwgtL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7068,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DTGNWLXJ",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0DTGNWLXJ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7068,
    "has_water": true,
    "has_official": false
   },
@@ -61175,20 +60956,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7f6f7fb72b3f68b9.png",
    "image": "img/hk-7f6f7fb72b3f68b9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/c5946856-dfb4-44d4-a4b8-84422d563500/public",
-   "water": {
-    "price_hkd": 8155,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0F4VGXQXF",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0F4VGXQXF",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5060ti16:oc+tuf",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 7099,
     "store": "飛馬 PEGASUS",
@@ -61220,9 +60988,9 @@
      }
     ]
    },
-   "delta_hkd": -1056,
+   "delta_hkd": null,
    "best_price": 7099,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -61342,7 +61110,7 @@
    "image": "img/hk-ee6481ee60223dd5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GeForceRTX_5070WINDFORCEOCSFF12G_01.png?v=1785232982",
    "water": {
-    "price_hkd": 7168,
+    "price_hkd": 7148,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -61364,10 +61132,49 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 332,
-   "best_price": 7168,
+   "delta_hkd": 352,
+   "best_price": 7148,
    "has_water": true,
    "has_official": true
+  },
+  {
+   "id": "gpu|gigabyte:5060ti16:3x+eagle+ice+oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "gigabyte:5060ti16:3x+eagle+ice+oc",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE GeForce RTX 5060 Ti Eagle OC Ice 16G Graphics Card - 16GB GDDR7, 128-Bit, PCI-…",
+   "spec": "RTX 5060 Ti 16GB",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F4NFDQ3B.jpg",
+   "image": "img/B0F4NFDQ3B.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71mdlnHYujL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7162,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0F4NFDQ3B",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0F4NFDQ3B",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7162,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5060ti16:oc+windforce",
@@ -61473,7 +61280,7 @@
    "image": "img/B0F11VB65S.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61fqNatcCBL._AC_SL1350_.jpg",
    "water": {
-    "price_hkd": 7261,
+    "price_hkd": 7245,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -61488,7 +61295,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7261,
+   "best_price": 7245,
    "has_water": true,
    "has_official": false
   },
@@ -61858,7 +61665,7 @@
    "image": "img/hk-42c4c26f150981bc.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/2e31c37f-e513-4b28-e71b-4d4672847000/public",
    "water": {
-    "price_hkd": 7423,
+    "price_hkd": 7390,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -61880,8 +61687,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 276,
-   "best_price": 7423,
+   "delta_hkd": 309,
+   "best_price": 7390,
    "has_water": true,
    "has_official": true
   },
@@ -62059,6 +61866,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|pny:5070:argb+oc+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:argb+oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY NVIDIA GeForce RTX™ 5070 EPIC-X RGB® OC Triple-Fan Graphics Card",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYPGBX6J.jpg",
+   "image": "img/B0DYPGBX6J.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61E+0EA9nSL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 7401,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DYPGBX6J",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0DYPGBX6J",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7401,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|colorful:5070:gaming",
    "category": "gpu",
    "cooler_kind": null,
@@ -62127,67 +61973,18 @@
    "image": "img/hk-7a34ebe48e1794eb.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/1000_1c15e9f9-d71b-4dc9-95e2-ee7ec9468389.webp?v=1746773585",
    "water": {
-    "price_hkd": 7326,
+    "price_hkd": 7433,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
     "asin": "B0DT7B79K9",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0DT7B79K9",
+    "url": "https://www.amazon.co.uk/dp/B0DT7B79K9",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:9070xt:gaming oc+oc",
-    "others": [
-     {
-      "price_hkd": 7433,
-      "source": "amazon",
-      "marketplace": "英國 Amazon",
-      "marketplace_code": "UK",
-      "domain": "amazon.co.uk",
-      "asin": "B0DT7B79K9",
-      "sku": null,
-      "url": "https://www.amazon.co.uk/dp/B0DT7B79K9",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7617,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DT7B79K9",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DT7B79K9",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7725,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0DT7B79K9",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0DT7B79K9",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 8059,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0DT7B79K9",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0DT7B79K9",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 8580,
@@ -62198,8 +61995,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 1254,
-   "best_price": 7326,
+   "delta_hkd": 1147,
+   "best_price": 7433,
    "has_water": true,
    "has_official": true
   },
@@ -62358,7 +62155,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ff6ec4c0297a535b.webp",
    "image": "img/hk-ff6ec4c0297a535b.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/22007.webp",
-   "water": null,
+   "water": {
+    "price_hkd": 8589,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DTT7CPWV",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0DTT7CPWV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "model key asrock:9070xt:",
+    "others": []
+   },
    "official": {
     "price_hkd": 7499,
     "store": "中田電腦 Centralfield",
@@ -62368,9 +62178,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": null,
+   "delta_hkd": -1090,
    "best_price": 7499,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -62483,7 +62293,7 @@
    "image": "img/hk-e88839b89a729bd2.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/600_9a1621f3-2035-431d-abc6-db5617886e12.png?v=1752494377",
    "water": {
-    "price_hkd": 8100,
+    "price_hkd": 8064,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -62541,7 +62351,7 @@
      }
     ]
    },
-   "delta_hkd": -601,
+   "delta_hkd": -565,
    "best_price": 7499,
    "has_water": true,
    "has_official": true
@@ -62663,20 +62473,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-87d8ef6118861602.webp",
    "image": "img/hk-87d8ef6118861602.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_e25e839f8d1386bc148f00ff4401b9b5.webp",
-   "water": {
-    "price_hkd": 8589,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DTT7CPWV",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DTT7CPWV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asrock:9070xt:steel legend+white",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 7580,
     "store": "未來科技 BUYMORE",
@@ -62694,9 +62491,9 @@
      }
     ]
    },
-   "delta_hkd": -1009,
+   "delta_hkd": null,
    "best_price": 7580,
-   "has_water": true,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -62807,57 +62604,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d1991d6fbec74f78.png",
    "image": "img/hk-d1991d6fbec74f78.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/54157167-ef2d-4611-bc47-c3ee16074100/public",
-   "water": {
-    "price_hkd": 6667,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0F4NFDQ3B",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0F4NFDQ3B",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti16:eagle+ice+oc",
-    "others": [
-     {
-      "price_hkd": 7162,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0F4NFDQ3B",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0F4NFDQ3B",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7255,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0F4NFDQ3B",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0F4NFDQ3B",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7329,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0F4NFDQ3B",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0F4NFDQ3B",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 7599,
     "store": "飛馬 PEGASUS",
@@ -62867,9 +62614,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 932,
-   "best_price": 6667,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 7599,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -63074,6 +62821,84 @@
    "has_official": true
   },
   {
+   "id": "gpu|asus:5070:|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "asus:5070:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS The T1 GeForce RTX™ 5070 12GB GDDR7 Graphics Card (PCIe® 5.0, 12GB GDDR7, HDMI®/DP…",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H6M1Z5TM.jpg",
+   "image": "img/B0H6M1Z5TM.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81zq01pCjpL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7608,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0H6M1Z5TM",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0H6M1Z5TM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7608,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|sapphire:9070xt:dual+gaming oc+nitro|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Sapphire",
+   "model_key": "sapphire:9070xt:dual+gaming oc+nitro",
+   "part_number": null,
+   "upc": null,
+   "title": "Sapphire Nitro+ AMD Radeon™ RX 9070 XT Gaming OC 16GB DUAL HDMI/DUAL DP",
+   "spec": "RX 9070 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DRPPXB5X.jpg",
+   "image": "img/B0DRPPXB5X.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71LGW3ZtTeL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7653,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DRPPXB5X",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0DRPPXB5X",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7653,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|palit:5070:infinity",
    "category": "gpu",
    "cooler_kind": null,
@@ -63106,6 +62931,45 @@
    "best_price": 7699,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070:oc+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070:oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070 12GB OC Triple Fan Graphics Card DLSS 4",
+   "spec": "RTX 5070",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DYPFGL88.jpg",
+   "image": "img/B0DYPFGL88.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61ERh52XjzL._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 7727,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0DYPFGL88",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0DYPFGL88",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7727,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|zotac:5070:amp+oc+white",
@@ -63334,67 +63198,18 @@
    "image": "img/hk-2d152c7dbeccbdfb.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_34ad79dab0a7010b6261a0298e3c7ba7.webp",
    "water": {
-    "price_hkd": 8088,
+    "price_hkd": 8515,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
     "asin": "B0DT7C5ZC7",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0DT7C5ZC7",
+    "url": "https://www.amazon.co.uk/dp/B0DT7C5ZC7",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:9070xt:aorus",
-    "others": [
-     {
-      "price_hkd": 8515,
-      "source": "amazon",
-      "marketplace": "英國 Amazon",
-      "marketplace_code": "UK",
-      "domain": "amazon.co.uk",
-      "asin": "B0DT7C5ZC7",
-      "sku": null,
-      "url": "https://www.amazon.co.uk/dp/B0DT7C5ZC7",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 8596,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0DT7C5ZC7",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0DT7C5ZC7",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 8610,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DT7C5ZC7",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DT7C5ZC7",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 9031,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0DT7C5ZC7",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0DT7C5ZC7",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 7999,
@@ -63413,7 +63228,7 @@
      }
     ]
    },
-   "delta_hkd": -89,
+   "delta_hkd": -516,
    "best_price": 7999,
    "has_water": true,
    "has_official": true
@@ -63755,20 +63570,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-f89b9c0298db203d.png",
    "image": "img/hk-f89b9c0298db203d.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f59046d7-ade0-4f2b-b54c-e3e448f81b00/public",
-   "water": {
-    "price_hkd": 7423,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0F8KLKQM3",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0F8KLKQM3",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5070:oc+prime+white",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 8299,
     "store": "飛馬 PEGASUS",
@@ -63793,9 +63595,9 @@
      }
     ]
    },
-   "delta_hkd": 876,
-   "best_price": 7423,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 8299,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -64376,7 +64178,20 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3652d31e171b722b.jpg",
    "image": "img/hk-3652d31e171b722b.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/7fb0acf4-ab66-49e7-01b7-13ca232c2400/public",
-   "water": null,
+   "water": {
+    "price_hkd": 8908,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DZ62D3MP",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DZ62D3MP",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": "part number TUF-RTX5070-O12G-GAMING",
+    "others": []
+   },
    "official": {
     "price_hkd": 8799,
     "store": "未來科技 BUYMORE",
@@ -64415,9 +64230,9 @@
      }
     ]
    },
-   "delta_hkd": null,
+   "delta_hkd": -109,
    "best_price": 8799,
-   "has_water": false,
+   "has_water": true,
    "has_official": true
   },
   {
@@ -64516,7 +64331,7 @@
    "image": "img/B0GSXJPTLN.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51NgHONUirL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 8836,
+    "price_hkd": 8816,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -64531,7 +64346,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8836,
+   "best_price": 8816,
    "has_water": true,
    "has_official": false
   },
@@ -64878,69 +64693,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-dadc4169c04c8e8a.webp",
    "image": "img/hk-dadc4169c04c8e8a.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_228f5dfc2908df59e2d7919383bcb1af.webp",
-   "water": {
-    "price_hkd": 7468,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DRPPXB5X",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DRPPXB5X",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key sapphire:9070xt:dual+nitro+oc",
-    "others": [
-     {
-      "price_hkd": 7653,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0DRPPXB5X",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0DRPPXB5X",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7682,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DRPPXB5X",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DRPPXB5X",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 7743,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0DRPPXB5X",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0DRPPXB5X",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 8515,
-      "source": "amazon",
-      "marketplace": "英國 Amazon",
-      "marketplace_code": "UK",
-      "domain": "amazon.co.uk",
-      "asin": "B0DRPPXB5X",
-      "sku": null,
-      "url": "https://www.amazon.co.uk/dp/B0DRPPXB5X",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 9399,
     "store": "SE Computer",
@@ -64950,9 +64703,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 1931,
-   "best_price": 7468,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 9399,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -65017,6 +64770,45 @@
    "best_price": 10399,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:oc+triple|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc+triple",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070Ti 16GB OC Triple Fan DLSS 4 Graphics Card",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DXL7GSYC.jpg",
+   "image": "img/B0DXL7GSYC.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61Ib7Av4M+L._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 10409,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0DXL7GSYC",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0DXL7GSYC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 10409,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|gigabyte:5070ti:eagle+oc+sff",
@@ -65197,6 +64989,84 @@
    "best_price": 11000,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "gpu|pny:5070ti:dual+oc+slim|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:dual+oc+slim",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY GeForce RTX™ 5070Ti 16GB Slim OC Dual-Fan, 2-Slot Graphics Card",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWK2K7PL.jpg",
+   "image": "img/B0GWK2K7PL.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/51lRFJXzoML._AC_SL1000_.jpg",
+   "water": {
+    "price_hkd": 11104,
+    "source": "amazon",
+    "marketplace": "法國 Amazon",
+    "marketplace_code": "FR",
+    "domain": "amazon.fr",
+    "asin": "B0GWK2K7PL",
+    "sku": null,
+    "url": "https://www.amazon.fr/dp/B0GWK2K7PL",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11104,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "gpu|pny:5070ti:oc|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "PNY",
+   "model_key": "pny:5070ti:oc",
+   "part_number": null,
+   "upc": null,
+   "title": "PNY Placa Gráfica GeForce RTX 5070 Ti OC 16GB GDDR7",
+   "spec": "RTX 5070 Ti",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0G6ZGLZWM.jpg",
+   "image": "img/B0G6ZGLZWM.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61tv3PQW9bL._AC_SL1200_.jpg",
+   "water": {
+    "price_hkd": 11148,
+    "source": "amazon",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
+    "asin": "B0G6ZGLZWM",
+    "sku": null,
+    "url": "https://www.amazon.co.uk/dp/B0G6ZGLZWM",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 11148,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "gpu|msi:5070ti:3x+oc+ventus",
@@ -65607,14 +65477,14 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 11035,
+    "price_hkd": 12246,
     "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
+    "marketplace": "英國 Amazon",
+    "marketplace_code": "UK",
+    "domain": "amazon.co.uk",
     "asin": "B0F1NJF1K4",
     "sku": null,
-    "url": "https://www.amazon.it/dp/B0F1NJF1K4",
+    "url": "https://www.amazon.co.uk/dp/B0F1NJF1K4",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5070ti:gaming trio+oc",
@@ -65629,8 +65499,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 564,
-   "best_price": 11035,
+   "delta_hkd": -647,
+   "best_price": 11599,
    "has_water": true,
    "has_official": true
   },
@@ -65917,7 +65787,7 @@
    "image": "img/hk-09b228b293e166fa.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/46ac5ca0-d115-417e-6236-0bfa8eb1a500/public",
    "water": {
-    "price_hkd": 12585,
+    "price_hkd": 12528,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -65939,7 +65809,7 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": -586,
+   "delta_hkd": -529,
    "best_price": 11999,
    "has_water": true,
    "has_official": true
@@ -66726,6 +66596,68 @@
    "has_official": true
   },
   {
+   "id": "gpu|msi:5080:3x+oc+ventus",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "MSI",
+   "model_key": "msi:5080:3x+oc+ventus",
+   "part_number": "G5080-16V3C",
+   "upc": null,
+   "title": "MSI GeForce RTX 5080 Ventus 3X OC 16GB GDDR7 SFF-Ready 微星三風扇超頻版顯示卡",
+   "spec": "RTX 5080",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8f7f5a96dd82d7af.webp",
+   "image": "img/hk-8f7f5a96dd82d7af.webp",
+   "image_fallback_url": "https://centralfield.com/Pimg/11152.webp",
+   "water": {
+    "price_hkd": 14550,
+    "source": "amazon",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
+    "asin": "B0GZWW2RKH",
+    "sku": null,
+    "url": "https://www.amazon.it/dp/B0GZWW2RKH",
+    "stock": "",
+    "note": "已含運費 + 2%",
+    "match_by": "model key msi:5080:3x+oc+ventus",
+    "others": []
+   },
+   "official": {
+    "price_hkd": 15350,
+    "store": "中田電腦 Centralfield",
+    "store_short": "中田",
+    "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
+    "stock": "現貨",
+    "build_only": true,
+    "others": [
+     {
+      "store": "SE Computer",
+      "store_short": "SE",
+      "price_hkd": 16899,
+      "url": "https://secomputer.com.hk/products/56737",
+      "build_only": false
+     },
+     {
+      "store": "飛馬 PEGASUS",
+      "store_short": "飛馬",
+      "price_hkd": 16999,
+      "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡",
+      "build_only": true
+     }
+    ]
+   },
+   "delta_hkd": 800,
+   "best_price": 14550,
+   "has_water": true,
+   "has_official": true
+  },
+  {
    "id": "gpu|gigabyte:5080:aero+oc+sff",
    "category": "gpu",
    "cooler_kind": null,
@@ -66745,7 +66677,7 @@
    "image": "img/hk-7605c119ad8d845d.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/8343a1dc-a9cf-472b-a3eb-669b61cc8700/public",
    "water": {
-    "price_hkd": 15012,
+    "price_hkd": 14916,
     "source": "amazon",
     "marketplace": "意大利 Amazon",
     "marketplace_code": "IT",
@@ -66753,23 +66685,10 @@
     "asin": "B0DSQ3B6PH",
     "sku": null,
     "url": "https://www.amazon.it/dp/B0DSQ3B6PH",
-    "stock": "In stock",
+    "stock": "Only 8 left in stock.",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:aero+oc+sff",
-    "others": [
-     {
-      "price_hkd": 15667,
-      "source": "amazon",
-      "marketplace": "英國 Amazon",
-      "marketplace_code": "UK",
-      "domain": "amazon.co.uk",
-      "asin": "B0DSQ3B6PH",
-      "sku": null,
-      "url": "https://www.amazon.co.uk/dp/B0DSQ3B6PH",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 19999,
@@ -66780,8 +66699,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 4987,
-   "best_price": 15012,
+   "delta_hkd": 5083,
+   "best_price": 14916,
    "has_water": true,
    "has_official": true
   },
@@ -67008,81 +66927,6 @@
    "has_official": true
   },
   {
-   "id": "gpu|msi:5080:3x+oc+ventus",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5080:3x+oc+ventus",
-   "part_number": "G5080-16V3C",
-   "upc": null,
-   "title": "MSI GeForce RTX 5080 Ventus 3X OC 16GB GDDR7 SFF-Ready 微星三風扇超頻版顯示卡",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8f7f5a96dd82d7af.webp",
-   "image": "img/hk-8f7f5a96dd82d7af.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/11152.webp",
-   "water": {
-    "price_hkd": 14616,
-    "source": "amazon",
-    "marketplace": "意大利 Amazon",
-    "marketplace_code": "IT",
-    "domain": "amazon.it",
-    "asin": "B0GZWW2RKH",
-    "sku": null,
-    "url": "https://www.amazon.it/dp/B0GZWW2RKH",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key msi:5080:3x+oc+ventus",
-    "others": [
-     {
-      "price_hkd": 15566,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B0GZWW2RKH",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B0GZWW2RKH",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
-   "official": {
-    "price_hkd": 15350,
-    "store": "中田電腦 Centralfield",
-    "store_short": "中田",
-    "url": "https://centralfield.com/product/11152/msi-geforce-rtx-5080-ventus-3x-oc-16gb",
-    "stock": "現貨",
-    "build_only": true,
-    "others": [
-     {
-      "store": "SE Computer",
-      "store_short": "SE",
-      "price_hkd": 16899,
-      "url": "https://secomputer.com.hk/products/56737",
-      "build_only": false
-     },
-     {
-      "store": "飛馬 PEGASUS",
-      "store_short": "飛馬",
-      "price_hkd": 16999,
-      "url": "https://shop.pegasus.hk/products/223217/MSI-微星-GeForce-RTX-5080-16G-VENTUS-3X-OC-顯示卡",
-      "build_only": true
-     }
-    ]
-   },
-   "delta_hkd": 734,
-   "best_price": 14616,
-   "has_water": true,
-   "has_official": true
-  },
-  {
    "id": "gpu|msi:5080:3x+inspire+oc",
    "category": "gpu",
    "cooler_kind": null,
@@ -67102,55 +66946,18 @@
    "image": "img/hk-8658c7245f91e3ec.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/11153.webp",
    "water": {
-    "price_hkd": 14177,
+    "price_hkd": 15303,
     "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
     "asin": "B0GWRN4Q36",
     "sku": null,
-    "url": "https://www.amazon.de/dp/B0GWRN4Q36",
+    "url": "https://www.amazon.it/dp/B0GWRN4Q36",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key msi:5080:3x+inspire+oc",
-    "others": [
-     {
-      "price_hkd": 15588,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0GWRN4Q36",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0GWRN4Q36",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 16133,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0GWRN4Q36",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0GWRN4Q36",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 16271,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0GWRN4Q36",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0GWRN4Q36",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 15600,
@@ -67161,8 +66968,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 1423,
-   "best_price": 14177,
+   "delta_hkd": 297,
+   "best_price": 15303,
    "has_water": true,
    "has_official": true
   },
@@ -67541,6 +67348,45 @@
    "has_official": true
   },
   {
+   "id": "gpu|amd:9070xt:gaming+nitro|water",
+   "category": "gpu",
+   "cooler_kind": null,
+   "brand": "Acer",
+   "model_key": "amd:9070xt:gaming+nitro",
+   "part_number": null,
+   "upc": null,
+   "title": "Acer Nitro 85 Gaming Desktop | AMD Ryzen 9 9900X Processor | AMD Radeon RX 9070 XT Grap…",
+   "spec": "RX 9070 XT",
+   "filter_tags": null,
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0GWNCBK2Y.jpg",
+   "image": "img/B0GWNCBK2Y.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71C4EeGR8nL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 16085,
+    "source": "amazon",
+    "marketplace": "美國 Amazon",
+    "marketplace_code": "US",
+    "domain": "amazon.com",
+    "asin": "B0GWNCBK2Y",
+    "sku": null,
+    "url": "https://www.amazon.com/dp/B0GWNCBK2Y",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 16085,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "gpu|colorful:5080:oc+vulcan",
    "category": "gpu",
    "cooler_kind": null,
@@ -67643,79 +67489,18 @@
    "image": "img/hk-d2e80643333a991c.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/5c6c68ff-cb89-4343-eb15-a97368ea2f00/public",
    "water": {
-    "price_hkd": 14357,
+    "price_hkd": 16651,
     "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
     "asin": "B0DT9Y2B49",
     "sku": null,
-    "url": "https://www.amazon.es/dp/B0DT9Y2B49",
+    "url": "https://www.amazon.it/dp/B0DT9Y2B49",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": "model key gigabyte:5080:oc+sff+windforce",
-    "others": [
-     {
-      "price_hkd": 14759,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B0H5NNTMTH",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B0H5NNTMTH",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 14785,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B0DT9Y2B49",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B0DT9Y2B49",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 15585,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0H5NNTMTH",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0H5NNTMTH",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 16893,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DT9Y2B49",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DT9Y2B49",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 17393,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0H5NNTMTH",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0H5NNTMTH",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "others": []
    },
    "official": {
     "price_hkd": 17999,
@@ -67726,8 +67511,8 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 3642,
-   "best_price": 14357,
+   "delta_hkd": 1348,
+   "best_price": 16651,
    "has_water": true,
    "has_official": true
   },
@@ -67750,20 +67535,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a458dca864875116.jpg",
    "image": "img/hk-a458dca864875116.jpg",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/3d669a3e-3e5e-4523-8967-d3802db5f600/public",
-   "water": {
-    "price_hkd": 15610,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0DS65VMC6",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0DS65VMC6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:oc+prime",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 16699,
     "store": "未來科技 BUYMORE",
@@ -67781,9 +67553,9 @@
      }
     ]
    },
-   "delta_hkd": 1089,
-   "best_price": 15610,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 16699,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -67915,33 +67687,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-68f50bf0c1be5bb5.webp",
    "image": "img/hk-68f50bf0c1be5bb5.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/10532.webp",
-   "water": {
-    "price_hkd": 16189,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DS65KD1C",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DS65KD1C",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key asus:5080:oc+tuf",
-    "others": [
-     {
-      "price_hkd": 16281,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B0DS65KD1C",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B0DS65KD1C",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 17250,
     "store": "中田電腦 Centralfield",
@@ -67959,9 +67705,9 @@
      }
     ]
    },
-   "delta_hkd": 1061,
-   "best_price": 16189,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 17250,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -68101,58 +67847,22 @@
    "image": "img/B0DT9WRP5M.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/713QLQLt3XL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 16196,
+    "price_hkd": 18862,
     "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
+    "marketplace": "意大利 Amazon",
+    "marketplace_code": "IT",
+    "domain": "amazon.it",
     "asin": "B0DT9WRP5M",
     "sku": null,
-    "url": "https://www.amazon.es/dp/B0DT9WRP5M",
-    "stock": "In stock",
+    "url": "https://www.amazon.it/dp/B0DT9WRP5M",
+    "stock": "",
     "note": "已含運費 + 2%",
-    "others": [
-     {
-      "price_hkd": 16423,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B0DT9WRP5M",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B0DT9WRP5M",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 16960,
-      "source": "amazon",
-      "marketplace": "英國 Amazon",
-      "marketplace_code": "UK",
-      "domain": "amazon.co.uk",
-      "asin": "B0DT9VM5DC",
-      "sku": null,
-      "url": "https://www.amazon.co.uk/dp/B0DT9VM5DC",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 19077,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DT9WRP5M",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DT9WRP5M",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
+    "match_by": null,
+    "others": []
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 16196,
+   "best_price": 18862,
    "has_water": true,
    "has_official": false
   },
@@ -68277,20 +67987,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ba589528dd4e395f.png",
    "image": "img/hk-ba589528dd4e395f.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/b119e446-e34a-46b0-611e-31bdbdc83800/public",
-   "water": {
-    "price_hkd": 15921,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0BX6LGM2X",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0BX6LGM2X",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "unique gpu suffix gpu|msi:5080:gaming trio+oc",
-    "others": []
-   },
+   "water": null,
    "official": {
     "price_hkd": 18999,
     "store": "飛馬 PEGASUS",
@@ -68300,9 +67997,9 @@
     "build_only": true,
     "others": []
    },
-   "delta_hkd": 3078,
-   "best_price": 15921,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 18999,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -68392,33 +68089,7 @@
    "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6c410d6aec136e54.webp",
    "image": "img/hk-6c410d6aec136e54.webp",
    "image_fallback_url": "https://cdn.secomputer.com.hk/uploads/products/cover/thumb_81aaf628595202bdd85f34ad972ff294.webp",
-   "water": {
-    "price_hkd": 16946,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0H86338KX",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0H86338KX",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "part number GV-N5080AORUSIFWD-16GD",
-    "others": [
-     {
-      "price_hkd": 18916,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0H86338KX",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0H86338KX",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
+   "water": null,
    "official": {
     "price_hkd": 21999,
     "store": "SE Computer",
@@ -68428,9 +68099,9 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 5053,
-   "best_price": 16946,
-   "has_water": true,
+   "delta_hkd": null,
+   "best_price": 21999,
+   "has_water": false,
    "has_official": true
   },
   {
@@ -68555,7 +68226,7 @@
    "image": null,
    "image_fallback_url": null,
    "water": {
-    "price_hkd": 58999,
+    "price_hkd": 57999,
     "source": "hk_shop",
     "store": "未來科技 BUYMORE",
     "store_short": "未來科技",
@@ -68568,7 +68239,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 58999,
+   "best_price": 57999,
    "has_water": true,
    "has_official": false
   },
@@ -76928,6 +76599,45 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:B850:?:b850-aorus-elite-p-ice:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE MB7038 AORUS ELITE-P ICE ATX Motherboard",
+   "spec": "B850",
+   "filter_tags": null,
+   "form_factor": "E-ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0H62232LX.jpg",
+   "image": "img/B0H62232LX.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/815OuBApFnL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 1830,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0H62232LX",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0H62232LX",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 1830,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:asus:B860:ITX:rog-strix-b860i-gaming-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -78938,6 +78648,45 @@
    "best_price": 2130,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "mobo|mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d:ddr5:nowifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "Gigabyte",
+   "model_key": "mobo:gigabyte:X870:ATX:x870e-aorus-elite-x3d:ddr5:nowifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "GIGABYTE X870E AORUS ELITE X3D ATX Motherboard MB6873",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": false,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0FRFKRSTV.jpg",
+   "image": "img/B0FRFKRSTV.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/81Tp6pgnlFL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2145,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0FRFKRSTV",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0FRFKRSTV",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2145,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "mobo|mobo:asrock:Z890:ATX:z890-steel-legend-wifi:ddr5:wifi:",
@@ -81265,6 +81014,45 @@
    "has_official": false
   },
   {
+   "id": "mobo|mobo:asus:Z890:E-ATX:rog-strix-z890f-gaming-wifi-core-ultra-processors-series:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:Z890:E-ATX:rog-strix-z890f-gaming-wifi-core-ultra-processors-series:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS ROG STRIX Z890-F GAMING WIFI intel Core Ultra Processors (series 2) 対応 LGA 1851 Z8…",
+   "spec": "Z890",
+   "filter_tags": null,
+   "form_factor": "E-ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DK4WYZYQ.jpg",
+   "image": "img/B0DK4WYZYQ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71vn8qgoatL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2777,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DK4WYZYQ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DK4WYZYQ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2777,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:asrock:X870:ATX:x870e-nova-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -82279,6 +82067,45 @@
    "has_official": true
   },
   {
+   "id": "mobo|mobo:asus:X870:ATX:rog-strix-x870e-e-gaming-wifi:ddr5:wifi:|water",
+   "category": "mobo",
+   "cooler_kind": null,
+   "brand": "ASUS",
+   "model_key": "mobo:asus:X870:ATX:rog-strix-x870e-e-gaming-wifi:ddr5:wifi:",
+   "part_number": null,
+   "upc": null,
+   "title": "ASUS AMD Socket AM5 対応 X870E 搭載 ATX マザーボード 9000 & 8000 & 7000 Series/ROG STRIX X870E-E …",
+   "spec": "X870",
+   "filter_tags": null,
+   "form_factor": "ATX",
+   "has_wifi": true,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DRVNJC1S.jpg",
+   "image": "img/B0DRVNJC1S.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71zGBSnJBKL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 3388,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0DRVNJC1S",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0DRVNJC1S",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3388,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "mobo|mobo:asus:Z890:ATX:rog-strix-z890f-gaming-wifi:ddr5:wifi:",
    "category": "mobo",
    "cooler_kind": null,
@@ -82322,20 +82149,6 @@
       "stock": "In stock",
       "note": "產品頁估算：貨價＋香港運費 × 匯率 × 1.02；未經結帳核實，未獨立核實 VAT／進口稅；無自行扣 VAT",
       "match_by": "reviewed exact catalog identity; Europe sidecar IT-B0DJDFR3L5"
-     },
-     {
-      "price_hkd": 2777,
-      "source": "amazon",
-      "marketplace": "日本 Amazon",
-      "marketplace_code": "JP",
-      "domain": "amazon.co.jp",
-      "asin": "B0DK4WYZYQ",
-      "sku": null,
-      "url": "https://www.amazon.co.jp/dp/B0DK4WYZYQ",
-      "stock": "In stock",
-      "note": "已含運費 + 2%",
-      "match_by": "model key mobo:asus:Z890:ATX:rog-strix-z890f-gaming-wifi:ddr5:wifi:",
-      "build_only": false
      }
     ]
    },
@@ -106816,6 +106629,49 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancergbpro:ddr4:dimm:32:2666:black:2x16:cl16|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergbpro:ddr4:dimm:32:2666:black:2x16:cl16",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB PRO DDR4 メモリ 32GB（16GB×2）最大2666MHz対応 Intel XMP対応 CL16 デスクトップPC用 ブ…",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B07GSKMJ6D.jpg",
+   "image": "img/B07GSKMJ6D.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61uw77qa+FL._AC_SL1200_.jpg",
+   "water": {
+    "price_hkd": 2638,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B07GSKMJ6D",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B07GSKMJ6D",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2638,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:crucial:std:ddr4:dimm:32:3200:black:1x32:cl22",
    "category": "ram",
    "cooler_kind": null,
@@ -106898,6 +106754,92 @@
    "best_price": 2750,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergbrs:ddr4:dimm:32:3600:black:2x16:cl18|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergbrs:ddr4:dimm:32:3600:black:2x16:cl18",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB RS DDR4 メモリ 32GB（16GB×2）最大3600MHz対応 Intel XMP対応 CL18 デスクトップPC用 ブラ…",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09C5WJ2B2.jpg",
+   "image": "img/B09C5WJ2B2.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71JPAVZ-pfL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2937,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09C5WJ2B2",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09C5WJ2B2",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2937,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "ram|ram:corsair:vengeancergbpro:ddr4:dimm:32:3600:black:2x16:cl18|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergbpro:ddr4:dimm:32:3600:black:2x16:cl18",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB PRO SL DDR4 メモリ 32GB（16GB×2）最大3600MHz対応 Intel XMP対応 CL18 デスクトップPC…",
+   "spec": "DDR4 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR4",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B08SPYCCF1.jpg",
+   "image": "img/B08SPYCCF1.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/91lJnskEV9L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 2954,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B08SPYCCF1",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B08SPYCCF1",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 2954,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:colorful:x:c38:ddr5:dimm:32:6000:black:2x16:cl?|water",
@@ -108632,6 +108574,50 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:6400:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 32GB (2x16GB) Supports up to 6400MHz Intel RAM",
+   "spec": "DDR5-6400 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "16×2",
+    "6400"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BXHC74WD.jpg",
+   "image": "img/B0BXHC74WD.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61D2DDpDITL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 3976,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0BXHC74WD",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0BXHC74WD",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 3976,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:6000:grey:2x16:cl38",
    "category": "ram",
    "cooler_kind": null,
@@ -109438,6 +109424,49 @@
    "has_official": true
   },
   {
+   "id": "ram|ram:corsair:vengeancergb:ddr5:dimm:32:5200:black:2x16:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeancergb:ddr5:dimm:32:5200:black:2x16:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE RGB DDR5 32GB (2x16GB) Supports up to 5200MHz Intel RAM",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0B62YRGSJ.jpg",
+   "image": "img/B0B62YRGSJ.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61fJwCBAX6L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4029,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0B62YRGSJ",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0B62YRGSJ",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4029,
+   "has_water": true,
+   "has_official": false
+  },
+  {
    "id": "ram|ram:acer:x:6000c36:ddr5:dimm:32:6000:black:2x16:cl?",
    "category": "ram",
    "cooler_kind": null,
@@ -109553,6 +109582,49 @@
    "best_price": 4050,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:32:5200:black:2x16:cl40|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:32:5200:black:2x16:cl40",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 Memory 32GB (2x16GB) up to 5200MHz, Intel XMP, CL40 Desktop PC, Black, CMK32GX5M2B5200C40",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "16×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09NCPTVX5.jpg",
+   "image": "img/B09NCPTVX5.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61h-qpBh05L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 4086,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09NCPTVX5",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09NCPTVX5",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 4086,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:adata:lancerblade:ddr5:dimm:32:6000:white:2x16:cl30",
@@ -115143,14 +115215,14 @@
    "image": "img/B0BD4SRW3H.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61-Ag2lc5BL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7587,
+    "price_hkd": 7028,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
     "domain": "amazon.co.jp",
-    "asin": "B0C4Y4Z45M",
+    "asin": "B0BD4SRW3H",
     "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0C4Y4Z45M",
+    "url": "https://www.amazon.co.jp/dp/B0BD4SRW3H",
     "stock": "In stock",
     "note": "已含運費 + 2%",
     "match_by": null,
@@ -115158,7 +115230,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7587,
+   "best_price": 7028,
    "has_water": true,
    "has_official": false
   },
@@ -115200,6 +115272,50 @@
    "best_price": 7150,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "CFD",
+   "model_key": "ram:cfd:x:288pin.32gb×2.32gc46f:ddr5:dimm:64:5600:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CFD販売 デスクトップPC用メモリ グラフェン 銅箔 ヒートシンク DDR5-5600 32GB×2枚 (64GB) 相性保証 288pin シー・エフ・デー販売 CFD …",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2",
+    "5600"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F6C2Q7FR.jpg",
+   "image": "img/B0F6C2Q7FR.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/61Y7WPsNP3L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7161,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B0F6C2Q7FR",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B0F6C2Q7FR",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7161,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:grey:2x32:cl36|water",
@@ -115345,6 +115461,93 @@
    "best_price": 7599,
    "has_water": false,
    "has_official": true
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5200:black:2x32:cl?",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 64GB (2x32GB) Supports up to 5200MHz Intel RAM",
+   "spec": "DDR5 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09R7S7PXC.jpg",
+   "image": "img/B09R7S7PXC.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7734,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09R7S7PXC",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09R7S7PXC",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7734,
+   "has_water": true,
+   "has_official": false
+  },
+  {
+   "id": "ram|ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40|water",
+   "category": "ram",
+   "cooler_kind": null,
+   "brand": "Corsair",
+   "model_key": "ram:corsair:vengeance:ddr5:dimm:64:5600:black:2x32:cl40",
+   "part_number": null,
+   "upc": null,
+   "title": "CORSAIR VENGEANCE DDR5 Memory 64GB (2x32GB) up to 5600MHz, Intel XMP, CL40 Desktop PC, Black, CMK64GX5M2B5600C40",
+   "spec": "DDR5-5600 · DIMM",
+   "filter_tags": [
+    "DIMM",
+    "DDR5",
+    "32×2",
+    "5600"
+   ],
+   "form_factor": null,
+   "has_wifi": null,
+   "ssd_capacity": null,
+   "ssd_interface": null,
+   "ram_capacity": null,
+   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B09WN2H42Y.jpg",
+   "image": "img/B09WN2H42Y.jpg",
+   "image_fallback_url": "https://m.media-amazon.com/images/I/71AV5PQu1yL._AC_SL1500_.jpg",
+   "water": {
+    "price_hkd": 7843,
+    "source": "amazon",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
+    "asin": "B09WN2H42Y",
+    "sku": null,
+    "url": "https://www.amazon.co.jp/dp/B09WN2H42Y",
+    "stock": "In stock",
+    "note": "已含運費 + 2%",
+    "match_by": null,
+    "others": []
+   },
+   "official": null,
+   "delta_hkd": null,
+   "best_price": 7843,
+   "has_water": true,
+   "has_official": false
   },
   {
    "id": "ram|ram:kingston:furybeastrgb:ddr5:dimm:64:5600:black:2x32:cl36",
@@ -125046,9 +125249,9 @@
     "專業／廣播擷取",
     "PCIe+HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c9926f9344956c9d.webp",
-   "image": "img/hk-c9926f9344956c9d.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71hFOj_stlL._SL1000.jpg?v=1714995716",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1580,
     "store": "Jumbo 珍寶電腦",
@@ -125083,9 +125286,9 @@
     "專業／廣播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-53b121d6a3c9bc0e.webp",
-   "image": "img/hk-53b121d6a3c9bc0e.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/CD750.png?v=1715072007",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 2580,
     "store": "Jumbo 珍寶電腦",
@@ -125120,9 +125323,9 @@
     "專業／廣播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-64aeb2845c4804d2.webp",
-   "image": "img/hk-64aeb2845c4804d2.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/81vC6pQYj3L._SL1500.jpg?v=1715071561",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 4580,
     "store": "Jumbo 珍寶電腦",
@@ -125157,9 +125360,9 @@
     "專業／廣播擷取",
     "PCIe"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-7452b287983ada8a.webp",
-   "image": "img/hk-7452b287983ada8a.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/2000x_4e1b7b82-81d8-486d-a4f0-1053798280ab.webp?v=1714995626",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 4180,
     "store": "Jumbo 珍寶電腦",
@@ -125194,9 +125397,9 @@
     "專業／廣播擷取",
     "PCIe"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-ae48028c7d9b6b59.webp",
-   "image": "img/hk-ae48028c7d9b6b59.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/U9a91553ae52e4092ad693d12a622b35et.jpg_640x640Q90.jpg_93e943ee-af83-4475-be9d-43bc82fe7193.webp?v=1714995343",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 4380,
     "store": "Jumbo 珍寶電腦",
@@ -125231,9 +125434,9 @@
     "獨立錄製盒",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6ae802b263e2bc6f.webp",
-   "image": "img/hk-6ae802b263e2bc6f.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/51QT-ghaBTL._AC_SL1000.jpg?v=1715072700",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1688,
     "store": "Jumbo 珍寶電腦",
@@ -125268,9 +125471,9 @@
     "獨立錄製盒",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b183caa3802dd2cf.webp",
-   "image": "img/hk-b183caa3802dd2cf.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/61hakKSIMpL._AC_SL1500.jpg?v=1715073400",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 2280,
     "store": "Jumbo 珍寶電腦",
@@ -125305,9 +125508,9 @@
     "遊戲／直播擷取",
     "PCIe"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-aec567f12eb0f11c.webp",
-   "image": "img/hk-aec567f12eb0f11c.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/Mainimages-01.png?v=1712574861",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 2480,
     "store": "中田電腦 Centralfield",
@@ -125351,9 +125554,9 @@
     "遊戲／直播擷取",
     "PCIe+HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-a7f37ed5b184d026.webp",
-   "image": "img/hk-a7f37ed5b184d026.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/715sW7pZ3xS._AC_SL1500.jpg?v=1715056604",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 2290,
     "store": "Jumbo 珍寶電腦",
@@ -125388,9 +125591,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b7c7d08ff1f0d6d9.webp",
-   "image": "img/hk-b7c7d08ff1f0d6d9.webp",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61ClDWwhIpL._AC_SL1500_.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/61ClDWwhIpL._AC_SL1500_.jpg",
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1650,
     "store": "中田電腦 Centralfield",
@@ -125447,9 +125650,9 @@
     "遊戲／直播擷取",
     "PCIe+HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-bb4cc3bef1431a8f.webp",
-   "image": "img/hk-bb4cc3bef1431a8f.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/91KVk0beQFL._AC_SL1500.jpg?v=1715055757",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1599,
     "store": "Jumbo 珍寶電腦",
@@ -125484,9 +125687,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c9ed8f2926dfeb32.webp",
-   "image": "img/hk-c9ed8f2926dfeb32.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/71CuCmQw84L._AC_SL1500.jpg?v=1715055489",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1250,
     "store": "Jumbo 珍寶電腦",
@@ -125521,9 +125724,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-0c6bad4ff830a437.webp",
-   "image": "img/hk-0c6bad4ff830a437.webp",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/41eqCnRSd6L._AC_SL1000_.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/41eqCnRSd6L._AC_SL1000_.jpg",
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 2150,
     "store": "中田電腦 Centralfield",
@@ -125580,9 +125783,9 @@
     "遊戲／直播擷取",
     "USB"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b61d9be4e0013600.webp",
-   "image": "img/hk-b61d9be4e0013600.webp",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51H1fWjIZlL._AC_SL1001_.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/51H1fWjIZlL._AC_SL1001_.jpg",
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1550,
     "store": "中田電腦 Centralfield",
@@ -125630,9 +125833,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-6af8d02eff64c597.webp",
-   "image": "img/hk-6af8d02eff64c597.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/51MPThJJNVL._AC_SL1500.jpg?v=1714994301",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1450,
     "store": "Jumbo 珍寶電腦",
@@ -125667,9 +125870,9 @@
     "遊戲／直播擷取",
     "PCIe"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8297a464c6f5196e.webp",
-   "image": "img/hk-8297a464c6f5196e.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GC571.png?v=1712575241",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1699,
     "store": "中田電腦 Centralfield",
@@ -125713,9 +125916,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b0c5cc91addc433c.webp",
-   "image": "img/hk-b0c5cc91addc433c.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/GC531_hero.jpg?v=1720081915",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1498,
     "store": "中田電腦 Centralfield",
@@ -125759,9 +125962,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c9951b39e6c1b257.webp",
-   "image": "img/hk-c9951b39e6c1b257.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/NS_product_profile-ea710729ab562fe87621eafd74c5bbf2.png?v=1720081564",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1850,
     "store": "中田電腦 Centralfield",
@@ -125805,9 +126008,9 @@
     "遊戲／直播擷取",
     "USB"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-420ee920e8574664.webp",
-   "image": "img/hk-420ee920e8574664.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/10431.webp",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1265,
     "store": "中田電腦 Centralfield",
@@ -125841,9 +126044,9 @@
    "filter_tags": [
     "遊戲／直播擷取"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3838e9568566a980.webp",
-   "image": "img/hk-3838e9568566a980.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/4K_Pro_ATF_Desktop.webp?v=1708768823",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 2599,
     "store": "飛馬 PEGASUS",
@@ -125895,9 +126098,9 @@
     "遊戲／直播擷取",
     "HDMI/USB"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-04b004dd45deb084.webp",
-   "image": "img/hk-04b004dd45deb084.webp",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/41qFsQxMPSL._AC_SL1500_.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/41qFsQxMPSL._AC_SL1500_.jpg",
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1099,
     "store": "中田電腦 Centralfield",
@@ -125954,9 +126157,9 @@
     "遊戲／直播擷取",
     "USB"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b5de780fcdcb443f.webp",
-   "image": "img/hk-b5de780fcdcb443f.webp",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/ddd68dbb-b003-4427-b705-be8520919300/public",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 2190,
     "store": "飛馬 PEGASUS",
@@ -125991,9 +126194,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c4d4edb352277c16.webp",
-   "image": "img/hk-c4d4edb352277c16.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ElgatoCamLink4KP1_1.png?v=1794551129",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 549,
     "store": "中田電腦 Centralfield",
@@ -126037,9 +126240,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-8e58373341a29aa5.webp",
-   "image": "img/hk-8e58373341a29aa5.webp",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/51s+1CX6mBL._AC_SL1500_.jpg",
+   "image_url": "https://m.media-amazon.com/images/I/51s+1CX6mBL._AC_SL1500_.jpg",
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 960,
     "store": "飛馬 PEGASUS",
@@ -126116,9 +126319,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-20fc3b51ba5a4f7b.webp",
-   "image": "img/hk-20fc3b51ba5a4f7b.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/JVA01-1-1_540x_83bbcec8-eda2-4213-a318-53153f76639a.webp?v=1705737890",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 344,
     "store": "飛馬 PEGASUS",
@@ -126162,9 +126365,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-4fcc9e3faa307da5.webp",
-   "image": "img/hk-4fcc9e3faa307da5.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/800x_2_712c620e-18a0-4d06-adcb-ca5240c13c24.webp?v=1705732140",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1350,
     "store": "Jumbo 珍寶電腦",
@@ -126199,9 +126402,9 @@
     "四通道導播機",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-b1761a3faec17bb3.webp",
-   "image": "img/hk-b1761a3faec17bb3.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/800x_4_717daf06-d42d-4d91-896e-5ed7905704ef.webp?v=1706093564",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1398,
     "store": "中田電腦 Centralfield",
@@ -126245,9 +126448,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-fab2bb8f7acc17e0.webp",
-   "image": "img/hk-fab2bb8f7acc17e0.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/JVA11-1-1_540x_8760f327-b0cd-4687-b33b-1fea722e203c.webp?v=1705745960",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 530,
     "store": "Jumbo 珍寶電腦",
@@ -126282,9 +126485,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-afdecc8d81c78260.webp",
-   "image": "img/hk-afdecc8d81c78260.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/JVA14-1-1_540x_57cdba2c-5d50-434d-b53b-3bc6ab7c4abb.webp?v=1705745497",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 1080,
     "store": "Jumbo 珍寶電腦",
@@ -126328,9 +126531,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-d288681fe3f57ffb.webp",
-   "image": "img/hk-d288681fe3f57ffb.webp",
-   "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/s-l1600.webp?v=1705751214",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 199,
     "store": "Jumbo 珍寶電腦",
@@ -126365,9 +126568,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-13fb4db26179218e.webp",
-   "image": "img/hk-13fb4db26179218e.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/17327.webp",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 130,
     "store": "中田電腦 Centralfield",
@@ -126402,9 +126605,9 @@
     "遊戲／直播擷取",
     "USB"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-c1d42feb24d41ade.webp",
-   "image": "img/hk-c1d42feb24d41ade.webp",
-   "image_fallback_url": "https://centralfield.com/Pimg/17328.webp",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 160,
     "store": "中田電腦 Centralfield",
@@ -126439,9 +126642,9 @@
     "遊戲／直播擷取",
     "HDMI"
    ],
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/hk-3a7a8fca60495731.webp",
-   "image": "img/hk-3a7a8fca60495731.webp",
-   "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/f1d98e3f-9af5-4278-1a7b-2db326011a00/public",
+   "image_url": null,
+   "image": null,
+   "image_fallback_url": null,
    "official": {
     "price_hkd": 168,
     "store": "飛馬 PEGASUS",
@@ -126456,365 +126659,6 @@
    "best_price": 168,
    "has_water": false,
    "has_official": true
-  },
-  {
-   "id": "gpu|asrock:9070gre:|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASRock",
-   "model_key": "asrock:9070gre:",
-   "part_number": null,
-   "upc": null,
-   "title": "ASRock AMD Radeon RX9070GRE CL 12G Video Card, Original Wallpaper Included",
-   "spec": "RX 9070 GRE",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0HNK7S72B.jpg",
-   "image": "img/B0HNK7S72B.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/61iIu6y4cNL._AC_SL1200_.jpg",
-   "water": {
-    "price_hkd": 4621,
-    "source": "amazon",
-    "marketplace": "日本 Amazon",
-    "marketplace_code": "JP",
-    "domain": "amazon.co.jp",
-    "asin": "B0HNK7S72B",
-    "sku": null,
-    "url": "https://www.amazon.co.jp/dp/B0HNK7S72B",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 4621,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|asus:9060xt16:dual|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "ASUS",
-   "model_key": "asus:9060xt16:dual",
-   "part_number": null,
-   "upc": null,
-   "title": "ASUS Dual Radeon RX9060XT 16G GDDR6 Gaming Graphics Card",
-   "spec": "RX 9060 XT 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0BYZFH47F.jpg",
-   "image": "img/B0BYZFH47F.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71MeMFJnxHL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 5017,
-    "source": "amazon",
-    "marketplace": "德國 Amazon",
-    "marketplace_code": "DE",
-    "domain": "amazon.de",
-    "asin": "B0BYZFH47F",
-    "sku": null,
-    "url": "https://www.amazon.de/dp/B0BYZFH47F",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 5017,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|gigabyte:5060ti16:3x+eagle+oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5060ti16:3x+eagle+oc",
-   "part_number": null,
-   "upc": null,
-   "title": "GIGABYTE GeForce RTX 5060 Ti Eagle OC 16G Graphics Card - 16GB GDDR7, 128-bit, PCI-E 5.…",
-   "spec": "RTX 5060 Ti 16GB",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F4NFVZBK.jpg",
-   "image": "img/B0F4NFVZBK.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71DZcs4WckL._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 7224,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0F4NFVZBK",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0F4NFVZBK",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": "model key gigabyte:5060ti16:3x+eagle+oc",
-    "others": [
-     {
-      "price_hkd": 7379,
-      "source": "amazon",
-      "marketplace": "西班牙 Amazon",
-      "marketplace_code": "ES",
-      "domain": "amazon.es",
-      "asin": "B0F4NFVZBK",
-      "sku": null,
-      "url": "https://www.amazon.es/dp/B0F4NFVZBK",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 7224,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|gigabyte:5080:aorus+master|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:aorus+master",
-   "part_number": "GV-N5080AORUSM-16GD",
-   "upc": null,
-   "title": "Gigabyte AORUS GeForce RTX 5080 MASTER 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ221G4.jpg",
-   "image": "img/B0DSQ221G4.jpg",
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 16120,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DSQ221G4",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DSQ221G4",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 16120,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|gigabyte:5080:gaming oc|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "Gigabyte",
-   "model_key": "gigabyte:5080:gaming oc",
-   "part_number": "GV-N5080GAMINGOC-16GD",
-   "upc": null,
-   "title": "Gigabyte GeForce RTX 5080 GAMING OC 16G Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DSQ1RCZV.jpg",
-   "image": "img/B0DSQ1RCZV.jpg",
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 15082,
-    "source": "amazon",
-    "marketplace": "英國 Amazon",
-    "marketplace_code": "UK",
-    "domain": "amazon.co.uk",
-    "asin": "B0DSQ1RCZV",
-    "sku": null,
-    "url": "https://www.amazon.co.uk/dp/B0DSQ1RCZV",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "others": [
-     {
-      "price_hkd": 15451,
-      "source": "amazon",
-      "marketplace": "意大利 Amazon",
-      "marketplace_code": "IT",
-      "domain": "amazon.it",
-      "asin": "B0DS2R6948",
-      "sku": null,
-      "url": "https://www.amazon.it/dp/B0DS2R6948",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 15625,
-      "source": "amazon",
-      "marketplace": "法國 Amazon",
-      "marketplace_code": "FR",
-      "domain": "amazon.fr",
-      "asin": "B0DS2R6948",
-      "sku": null,
-      "url": "https://www.amazon.fr/dp/B0DS2R6948",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15082,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|msi:5070:gaming|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "MSI",
-   "model_key": "msi:5070:gaming",
-   "part_number": null,
-   "upc": null,
-   "title": "msi Codex Z2 Gaming Desktop, AMD R7-8700F, RTX 5070, 32GB DDR5, 2TB SSD",
-   "spec": "RTX 5070",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0F15TM77B.jpg",
-   "image": "img/B0F15TM77B.jpg",
-   "image_fallback_url": "https://m.media-amazon.com/images/I/71Z1Bk+8Z4L._AC_SL1500_.jpg",
-   "water": {
-    "price_hkd": 14396,
-    "source": "amazon",
-    "marketplace": "美國 Amazon",
-    "marketplace_code": "US",
-    "domain": "amazon.com",
-    "asin": "B0F15TM77B",
-    "sku": null,
-    "url": "https://www.amazon.com/dp/B0F15TM77B",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "match_by": null,
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 14396,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|pny:5080:argb+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:argb+triple",
-   "part_number": null,
-   "upc": null,
-   "title": "PNY GeForce RTX 5080 ARGB Overclocked Triple Fan 16GB GDDR7 Reflex 2 RTX AI DLSS4",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DZCVQGG6.jpg",
-   "image": "img/B0DZCVQGG6.jpg",
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 15616,
-    "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
-    "asin": "B0DZCVQGG6",
-    "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DZCVQGG6",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "others": [
-     {
-      "price_hkd": 15625,
-      "source": "amazon",
-      "marketplace": "德國 Amazon",
-      "marketplace_code": "DE",
-      "domain": "amazon.de",
-      "asin": "B0DZCVQGG6",
-      "sku": null,
-      "url": "https://www.amazon.de/dp/B0DZCVQGG6",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     }
-    ]
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 15616,
-   "has_water": true,
-   "has_official": false
-  },
-  {
-   "id": "gpu|pny:5080:oc+triple|water",
-   "category": "gpu",
-   "cooler_kind": null,
-   "brand": "PNY",
-   "model_key": "pny:5080:oc+triple",
-   "part_number": "VCG508016TFXPB1",
-   "upc": null,
-   "title": "PNY GeForce RTX™ 5080 16GB OC Triple Fan DLSS 4 Graphics Card",
-   "spec": "RTX 5080",
-   "filter_tags": null,
-   "form_factor": null,
-   "has_wifi": null,
-   "ssd_capacity": null,
-   "ssd_interface": null,
-   "ram_capacity": null,
-   "image_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/img/B0DTJFZ4YS.jpg",
-   "image": "img/B0DTJFZ4YS.jpg",
-   "image_fallback_url": null,
-   "water": {
-    "price_hkd": 16199,
-    "source": "amazon",
-    "marketplace": "西班牙 Amazon",
-    "marketplace_code": "ES",
-    "domain": "amazon.es",
-    "asin": "B0DTJFZ4YS",
-    "sku": null,
-    "url": "https://www.amazon.es/dp/B0DTJFZ4YS",
-    "stock": "In stock",
-    "note": "已含運費 + 2%",
-    "others": []
-   },
-   "official": null,
-   "delta_hkd": null,
-   "best_price": 16199,
-   "has_water": true,
-   "has_official": false
   }
  ],
  "data_url": "https://raw.githubusercontent.com/kwutwu/hkcompare-data/main/data.json",
