@@ -1,8 +1,8 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-28T08:34:04Z",
- "generated_at_hkt": "2026-11-28 16:34 HKT",
- "price_updated_hkt": "2026-11-28 16:34 HKT",
+ "generated_at": "2026-11-28T10:10:06Z",
+ "generated_at_hkt": "2026-11-28 18:10 HKT",
+ "price_updated_hkt": "2026-11-28 18:10 HKT",
  "amazon_data_updated_hkt": "2026-11-28 15:55:31 HKT",
  "hk_data_updated_hkt": "2026-11-28 10:00–10:25 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261128/hkcompare_rows.json",
@@ -62161,18 +62161,30 @@
    "image": "img/hk-62ebe09d897a26e5.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/600_ba623e63-33ec-4b72-ab84-533621303a90.png?v=1741838312",
    "water": {
-    "price_hkd": 6704,
+    "price_hkd": 6393,
     "source": "amazon",
-    "marketplace": "法國 Amazon",
-    "marketplace_code": "FR",
-    "domain": "amazon.fr",
+    "marketplace": "日本 Amazon",
+    "marketplace_code": "JP",
+    "domain": "amazon.co.jp",
     "asin": "B0DX7JJ87N",
     "sku": null,
-    "url": "https://www.amazon.fr/dp/B0DX7JJ87N",
+    "url": "https://www.amazon.co.jp/dp/B0DX7JJ87N",
     "stock": "In stock",
-    "note": "已含運費 + 2%",
+    "note": "已含運費 + 2%；已扣 ¥10,000 coupon（要自己 clip，用到 2026-11-29，限量或會提早沒）。唔扣券約 HK$6,848。",
     "match_by": "model key msi:5070:2x+oc+ventus",
     "others": [
+     {
+      "price_hkd": 6704,
+      "source": "amazon",
+      "marketplace": "法國 Amazon",
+      "marketplace_code": "FR",
+      "domain": "amazon.fr",
+      "asin": "B0DX7JJ87N",
+      "sku": null,
+      "url": "https://www.amazon.fr/dp/B0DX7JJ87N",
+      "stock": "In stock",
+      "note": "已含運費 + 2%"
+     },
      {
       "price_hkd": 6846,
       "source": "amazon",
@@ -62182,18 +62194,6 @@
       "asin": "B0DX7JJ87N",
       "sku": null,
       "url": "https://www.amazon.de/dp/B0DX7JJ87N",
-      "stock": "In stock",
-      "note": "已含運費 + 2%"
-     },
-     {
-      "price_hkd": 6865,
-      "source": "amazon",
-      "marketplace": "日本 Amazon",
-      "marketplace_code": "JP",
-      "domain": "amazon.co.jp",
-      "asin": "B0DX7JJ87N",
-      "sku": null,
-      "url": "https://www.amazon.co.jp/dp/B0DX7JJ87N",
       "stock": "In stock",
       "note": "已含運費 + 2%"
      },
@@ -62280,8 +62280,8 @@
      }
     ]
    },
-   "delta_hkd": 895,
-   "best_price": 6704,
+   "delta_hkd": 1206,
+   "best_price": 6393,
    "has_water": true,
    "has_official": true
   },
