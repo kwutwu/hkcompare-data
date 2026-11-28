@@ -1,9 +1,9 @@
 {
  "schema": "hkcompare.v1",
- "generated_at": "2026-11-27T14:34:05Z",
- "generated_at_hkt": "2026-11-27 22:34 HKT",
- "price_updated_hkt": "2026-11-27 22:34 HKT",
- "amazon_data_updated_hkt": "2026-11-27 21:55:23 HKT",
+ "generated_at": "2026-11-28T02:15:55Z",
+ "generated_at_hkt": "2026-11-28 10:15 HKT",
+ "price_updated_hkt": "2026-11-28 10:15 HKT",
+ "amazon_data_updated_hkt": "2026-11-28 09:47:54 HKT",
  "hk_data_updated_hkt": "2026-11-25 10:01–11:59 HKT",
  "hk_source": "/workspace/hk_price_cache/run_20261125/hkcompare_rows.json",
  "notes": {
@@ -492,9 +492,9 @@
    "amazon_exports": {
     "ivan_gpu_rows": 56,
     "nic_jp_rows": 82,
-    "nic_jp_retained": 8,
+    "nic_jp_retained": 13,
     "nic_jp_dropped_stale": 50,
-    "nic_jp_retain_now_hkt": "2026-11-27 21:55:23 HKT",
+    "nic_jp_retain_now_hkt": "2026-11-28 09:47:54 HKT",
     "nic_jp_cache_size": 141,
     "jd_ddr_rows": 26,
     "jd_cpu_rows": 42,
@@ -503,30 +503,27 @@
      "jd_oos": 5
     },
     "nic_jp_unmatched_not_invented": [
-     "B08SQHRJY1",
-     "B08SQPH9JC",
-     "B09C5WJ2B2",
-     "B09C5X1T7V",
-     "B09NCPTVX5",
-     "B09R7S7PXC",
-     "B09WN2H42Y",
      "B09Y99CRP9",
-     "B0B62YRGSJ",
-     "B0BXHC74WD",
+     "B0BPL82FD9",
+     "B0BPLCCR1J",
+     "B0BTNW9XFZ",
+     "B0C4Y2774G",
      "B0CBRJ63RT",
+     "B0CD7WZRHF",
      "B0CDY46PFK",
      "B0CJ8ZCL2R",
+     "B0CJ8ZZWZK",
      "B0CJ91NKMK",
      "B0CMPZMGVT",
      "B0CQQTR1ZV",
      "B0CQQVNCB6",
-     "B0DK4VM51Q",
      "B0DK4W2HM5",
      "B0DQLJWRDX",
      "B0DRVNJC1S",
      "B0F4HH1J7D",
      "B0FMR9X3KJ",
-     "B0FVN6VCC6"
+     "B0FVN6VCC6",
+     "B0H97F3XQ6"
     ]
    }
   }
@@ -70066,7 +70063,7 @@
    "image": "img/B0BDYQSZBV.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81l8wxec7GL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 677,
+    "price_hkd": 676,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -70081,7 +70078,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 677,
+   "best_price": 676,
    "has_water": true,
    "has_official": false
   },
@@ -70284,7 +70281,7 @@
    "image": "img/B0BR8S9KTT.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/P/B0BR8S9KTT.01._SCLZZZZZZZ_SX1000_.jpg",
    "water": {
-    "price_hkd": 701,
+    "price_hkd": 700,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -70321,8 +70318,8 @@
      }
     ]
    },
-   "delta_hkd": 269,
-   "best_price": 701,
+   "delta_hkd": 270,
+   "best_price": 700,
    "has_water": true,
    "has_official": true
   },
@@ -71240,7 +71237,7 @@
    "image": "img/B0DRTV8HQY.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81Mb24pN3rL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 805,
+    "price_hkd": 804,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71255,7 +71252,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 805,
+   "best_price": 804,
    "has_water": true,
    "has_official": false
   },
@@ -71437,7 +71434,7 @@
    "image": "img/hk-e3ae09aaf7396c66.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/AsusTUFGAMINGB650EM-EWIFIP4.webp?v=1762241126",
    "water": {
-    "price_hkd": 850,
+    "price_hkd": 849,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71459,8 +71456,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 195,
-   "best_price": 850,
+   "delta_hkd": 196,
+   "best_price": 849,
    "has_water": true,
    "has_official": true
   },
@@ -71484,7 +71481,7 @@
    "image": "img/B0DPMQJ2W7.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71V6-KwQmnL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 699,
+    "price_hkd": 698,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71499,7 +71496,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 699,
+   "best_price": 698,
    "has_water": true,
    "has_official": false
   },
@@ -71583,7 +71580,7 @@
    "image": "img/B0DQ66PD4L.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/P/B0DQ66PD4L.01._SCLZZZZZZZ_SX1000_.jpg",
    "water": {
-    "price_hkd": 756,
+    "price_hkd": 755,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71620,8 +71617,8 @@
      }
     ]
    },
-   "delta_hkd": 534,
-   "best_price": 756,
+   "delta_hkd": 535,
+   "best_price": 755,
    "has_water": true,
    "has_official": true
   },
@@ -71732,7 +71729,7 @@
    "image": "img/B0DM8K3ZCH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81giRz6Es4L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 881,
+    "price_hkd": 880,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -71747,7 +71744,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 881,
+   "best_price": 880,
    "has_water": true,
    "has_official": false
   },
@@ -72249,7 +72246,7 @@
    "image": "img/B0DM8L87PZ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81COemAP9JL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 927,
+    "price_hkd": 926,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -72264,7 +72261,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 927,
+   "best_price": 926,
    "has_water": true,
    "has_official": false
   },
@@ -72549,7 +72546,7 @@
    "image": "img/B0F4VWZWXN.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71ZMmo1ULdL._AC_SL1231_.jpg",
    "water": {
-    "price_hkd": 688,
+    "price_hkd": 687,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -72564,7 +72561,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 688,
+   "best_price": 687,
    "has_water": true,
    "has_official": false
   },
@@ -72762,7 +72759,7 @@
    "image": "img/B0BX6MRR8N.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71h8kMW8nfL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1009,
+    "price_hkd": 1008,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -72804,7 +72801,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1009,
+   "best_price": 1008,
    "has_water": true,
    "has_official": false
   },
@@ -72828,7 +72825,7 @@
    "image": "img/B0BSNBHCK1.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71v+QWx2bbL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1009,
+    "price_hkd": 1008,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -72843,7 +72840,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1009,
+   "best_price": 1008,
    "has_water": true,
    "has_official": false
   },
@@ -72916,7 +72913,7 @@
    "image": "img/B0FBML1NY9.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81EpnKynmiL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1031,
+    "price_hkd": 1030,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -72931,7 +72928,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1031,
+   "best_price": 1030,
    "has_water": true,
    "has_official": false
   },
@@ -72959,7 +72956,7 @@
    "image": "img/B0F9JS2B81.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81mBfyzxleL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1063,
+    "price_hkd": 1062,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -72974,7 +72971,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1063,
+   "best_price": 1062,
    "has_water": true,
    "has_official": false
   },
@@ -73129,7 +73126,7 @@
    "image": "img/B0BSLLQ72R.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71-j+y36q+L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1083,
+    "price_hkd": 1082,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -73144,7 +73141,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1083,
+   "best_price": 1082,
    "has_water": true,
    "has_official": false
   },
@@ -73172,7 +73169,7 @@
    "image": "img/B0BQH89GXJ.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51ZiksUpI5L._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 1084,
+    "price_hkd": 1083,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -73187,7 +73184,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1084,
+   "best_price": 1083,
    "has_water": true,
    "has_official": false
   },
@@ -73673,7 +73670,7 @@
    "image": "img/hk-60260e07ab1ab079.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/75cc4327-70b3-4253-e294-5550e68aa200/public",
    "water": {
-    "price_hkd": 1001,
+    "price_hkd": 1000,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -73695,8 +73692,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 458,
-   "best_price": 1001,
+   "delta_hkd": 459,
+   "best_price": 1000,
    "has_water": true,
    "has_official": true
   },
@@ -73720,7 +73717,7 @@
    "image": "img/hk-106f299f549a50f8.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/MSI_B860M_GAMING_PLUS_WIFI.png?v=1737034621",
    "water": {
-    "price_hkd": 1175,
+    "price_hkd": 1174,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -73742,8 +73739,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 205,
-   "best_price": 1175,
+   "delta_hkd": 206,
+   "best_price": 1174,
    "has_water": true,
    "has_official": true
   },
@@ -73911,7 +73908,7 @@
    "image": "img/B0DJS3JG12.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71SVCxoST3L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 975,
+    "price_hkd": 974,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -73926,7 +73923,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 975,
+   "best_price": 974,
    "has_water": true,
    "has_official": false
   },
@@ -74219,7 +74216,7 @@
    "image": "img/B0GWMBRZDM.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/810z-+UNkoL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1265,
+    "price_hkd": 1264,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -74234,7 +74231,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1265,
+   "best_price": 1264,
    "has_water": true,
    "has_official": false
   },
@@ -74258,7 +74255,7 @@
    "image": "img/B0GP9K7QHG.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81HXKD9d0IL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 984,
+    "price_hkd": 983,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -74273,7 +74270,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 984,
+   "best_price": 983,
    "has_water": true,
    "has_official": false
   },
@@ -74524,7 +74521,7 @@
    "image": "img/hk-75468d808feac8af.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/8805.webp",
    "water": {
-    "price_hkd": 1302,
+    "price_hkd": 1301,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -74546,8 +74543,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 478,
-   "best_price": 1302,
+   "delta_hkd": 479,
+   "best_price": 1301,
    "has_water": true,
    "has_official": true
   },
@@ -74837,7 +74834,7 @@
    "image": "img/B0BJZNJYGW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/51zHuqVQBnL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 1401,
+    "price_hkd": 1400,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -74852,7 +74849,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1401,
+   "best_price": 1400,
    "has_water": true,
    "has_official": false
   },
@@ -75015,7 +75012,7 @@
    "image": "img/B0BM93FF3G.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61KeMYNZguL._AC_SL1000_.jpg",
    "water": {
-    "price_hkd": 1450,
+    "price_hkd": 1449,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -75030,7 +75027,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1450,
+   "best_price": 1449,
    "has_water": true,
    "has_official": false
   },
@@ -75054,7 +75051,7 @@
    "image": "img/hk-af3ab3e20cce04c9.png",
    "image_fallback_url": "https://cdn.shopify.com/s/files/1/0651/6670/4885/files/ASUS_ROG_STRIX_B860-G_GAMING.png?v=1737032595",
    "water": {
-    "price_hkd": 1468,
+    "price_hkd": 1467,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -75084,8 +75081,8 @@
      }
     ]
    },
-   "delta_hkd": 532,
-   "best_price": 1468,
+   "delta_hkd": 533,
+   "best_price": 1467,
    "has_water": true,
    "has_official": true
   },
@@ -75547,7 +75544,7 @@
    "image": "img/B0FXZP2GNW.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/714NhAkOhHL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1555,
+    "price_hkd": 1554,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -75562,7 +75559,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1555,
+   "best_price": 1554,
    "has_water": true,
    "has_official": false
   },
@@ -76275,7 +76272,7 @@
    "image": "img/B083WG3727.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71INVqdKHJL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1664,
+    "price_hkd": 1662,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -76290,7 +76287,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1664,
+   "best_price": 1662,
    "has_water": true,
    "has_official": false
   },
@@ -76348,7 +76345,7 @@
    "image": "img/B0DQK8WWYR.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/817j5TKTJfL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1334,
+    "price_hkd": 1333,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -76363,7 +76360,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1334,
+   "best_price": 1333,
    "has_water": true,
    "has_official": false
   },
@@ -77397,7 +77394,7 @@
    "image": "img/B0BSLJY9R6.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/718k6uuFPwL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1851,
+    "price_hkd": 1850,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -77412,7 +77409,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1851,
+   "best_price": 1850,
    "has_water": true,
    "has_official": false
   },
@@ -77921,7 +77918,7 @@
    "image": "img/B0FRR84MKC.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81cHQqSuJxL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 1898,
+    "price_hkd": 1896,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -77936,7 +77933,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 1898,
+   "best_price": 1896,
    "has_water": true,
    "has_official": false
   },
@@ -78523,7 +78520,7 @@
    "image": "img/B0GYS86T2W.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81OrcoXotnL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2022,
+    "price_hkd": 2020,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -78538,7 +78535,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2022,
+   "best_price": 2020,
    "has_water": true,
    "has_official": false
   },
@@ -78873,7 +78870,7 @@
    "image": "img/hk-768cffe305fbdfe1.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/67132403-139f-4ae3-63bb-bd1e80469900/public",
    "water": {
-    "price_hkd": 2095,
+    "price_hkd": 2093,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -78895,8 +78892,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 704,
-   "best_price": 2095,
+   "delta_hkd": 706,
+   "best_price": 2093,
    "has_water": true,
    "has_official": true
   },
@@ -79375,7 +79372,7 @@
    "image": "img/B0HH88PR3W.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71G2I8szQDL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2169,
+    "price_hkd": 2168,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -79390,7 +79387,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2169,
+   "best_price": 2168,
    "has_water": true,
    "has_official": false
   },
@@ -79776,7 +79773,7 @@
    "image": "img/B0BSLKWC3R.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81eIq2QHPgL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2252,
+    "price_hkd": 2250,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -79791,7 +79788,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2252,
+   "best_price": 2250,
    "has_water": true,
    "has_official": false
   },
@@ -80215,7 +80212,7 @@
    "image": "img/B0GTTDC1QK.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81gllPyiA7L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2095,
+    "price_hkd": 2093,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -80230,7 +80227,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2095,
+   "best_price": 2093,
    "has_water": true,
    "has_official": false
   },
@@ -81521,7 +81518,7 @@
    "image": "img/B0G5ZXFXNH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81+ERhz-mVL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2745,
+    "price_hkd": 2743,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -81536,7 +81533,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2745,
+   "best_price": 2743,
    "has_water": true,
    "has_official": false
   },
@@ -81702,7 +81699,7 @@
       "match_by": "reviewed exact catalog identity; Europe sidecar ES-B0DGWHZKMC"
      },
      {
-      "price_hkd": 2531,
+      "price_hkd": 2529,
       "source": "amazon",
       "marketplace": "日本 Amazon",
       "marketplace_code": "JP",
@@ -81857,7 +81854,7 @@
    "image": "img/B0FRFKRCKT.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71MAJ79zJ-L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2799,
+    "price_hkd": 2796,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -81872,7 +81869,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2799,
+   "best_price": 2796,
    "has_water": true,
    "has_official": false
   },
@@ -104733,7 +104730,7 @@
    "image": "img/hk-8bc4415be78d2e9c.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/9848.webp",
    "water": {
-    "price_hkd": 1772,
+    "price_hkd": 1771,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -104774,8 +104771,8 @@
      }
     ]
    },
-   "delta_hkd": 828,
-   "best_price": 1772,
+   "delta_hkd": 829,
+   "best_price": 1771,
    "has_water": true,
    "has_official": true
   },
@@ -104926,7 +104923,7 @@
    "image": "img/hk-2d4618a0181771d9.png",
    "image_fallback_url": "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/97b1bbb2-ff47-478b-60ed-66390a2a8f00/public",
    "water": {
-    "price_hkd": 1848,
+    "price_hkd": 1847,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -104942,7 +104939,7 @@
       "source": "amazon",
       "store_short": null,
       "marketplace": "日本 Amazon",
-      "price_hkd": 1656,
+      "price_hkd": 1654,
       "url": "https://www.amazon.co.jp/dp/B09QPWRWLY",
       "build_only": false,
       "domain": "amazon.co.jp",
@@ -104988,8 +104985,8 @@
      }
     ]
    },
-   "delta_hkd": 232,
-   "best_price": 1848,
+   "delta_hkd": 233,
+   "best_price": 1847,
    "has_water": true,
    "has_official": true
   },
@@ -107199,7 +107196,7 @@
    "image": "img/B0BB24D97C.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/81zvRJGtEDL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 2770,
+    "price_hkd": 2768,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -107214,7 +107211,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 2770,
+   "best_price": 2768,
    "has_water": true,
    "has_official": false
   },
@@ -107243,7 +107240,7 @@
    "image": "img/B0BZHW15KF.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71hPdrFDv2L._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3133,
+    "price_hkd": 3130,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -107258,7 +107255,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3133,
+   "best_price": 3130,
    "has_water": true,
    "has_official": false
   },
@@ -107585,7 +107582,7 @@
    "image": "img/hk-1caafdec78ddac65.webp",
    "image_fallback_url": "https://centralfield.com/Pimg/5401.webp",
    "water": {
-    "price_hkd": 3563,
+    "price_hkd": 3560,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -107607,8 +107604,8 @@
     "build_only": false,
     "others": []
    },
-   "delta_hkd": 187,
-   "best_price": 3563,
+   "delta_hkd": 190,
+   "best_price": 3560,
    "has_water": true,
    "has_official": true
   },
@@ -107762,7 +107759,7 @@
    "image": "img/B0BZHTVHN5.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61EVf-QxpvL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3581,
+    "price_hkd": 3578,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -107777,7 +107774,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3581,
+   "best_price": 3578,
    "has_water": true,
    "has_official": false
   },
@@ -108641,7 +108638,7 @@
    "image": "img/B0BJ37G4PS.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61D2DDpDITL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 3899,
+    "price_hkd": 3896,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -108656,7 +108653,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 3899,
+   "best_price": 3896,
    "has_water": true,
    "has_official": false
   },
@@ -115319,7 +115316,7 @@
    "image": "img/B0BD4SRW3H.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/61-Ag2lc5BL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 7270,
+    "price_hkd": 7264,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -115334,7 +115331,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 7270,
+   "best_price": 7264,
    "has_water": true,
    "has_official": false
   },
@@ -116100,7 +116097,7 @@
    "image": "img/B0BHVFDK3L.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71O+5BneBVL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 8148,
+    "price_hkd": 8142,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -116115,7 +116112,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8148,
+   "best_price": 8142,
    "has_water": true,
    "has_official": false
   },
@@ -116430,7 +116427,7 @@
    "image": "img/B0BHVFBFMH.jpg",
    "image_fallback_url": "https://m.media-amazon.com/images/I/71O+5BneBVL._AC_SL1500_.jpg",
    "water": {
-    "price_hkd": 8302,
+    "price_hkd": 8208,
     "source": "amazon",
     "marketplace": "日本 Amazon",
     "marketplace_code": "JP",
@@ -116445,7 +116442,7 @@
    },
    "official": null,
    "delta_hkd": null,
-   "best_price": 8302,
+   "best_price": 8208,
    "has_water": true,
    "has_official": false
   },
